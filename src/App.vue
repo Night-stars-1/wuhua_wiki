@@ -1,7 +1,7 @@
 <!--
   * @Author: Night-stars-1 nujj1042633805@gmail.com
   * @Date: 2024-07-15 20:29:22
-  * @LastEditTime: 2024-07-16 12:07:21
+  * @LastEditTime: 2024-07-16 12:25:02
   * @LastEditors: Night-stars-1 nujj1042633805@gmail.com
 -->
 <template>
@@ -99,7 +99,7 @@
                         :value="
                           (item.total - item.pull) / item.four > 0
                             ? (item.total - item.pull) / item.four
-                            : '未知'
+                            : -1
                         "
                         style="padding: 10px"
                       >
