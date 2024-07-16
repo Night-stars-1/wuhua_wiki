@@ -1,0 +1,27 @@
+{
+  "name": "wuhua_analysis",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons": "^0.0.11",
+    "@vueuse/core": "^10.11.0",
+    "axios": "^1.7.2",
+    "element-plus": "^2.7.7",
+    "vue": "^3.4.29"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.5",
+    "typescript": "^5.2.2",
+    "unplugin-auto-import": "^0.18.0",
+    "unplugin-vue-components": "^0.27.2",
+    "vite": "^5.3.1",
+    "vite-plugin-vue-devtools": "^7.3.6",
+    "vue-tsc": "^2.0.21"
+  }
+}
