@@ -1,7 +1,7 @@
 /*
  * @Author: Night-stars-1 nujj1042633805@gmail.com
  * @Date: 2024-07-15 20:29:22
- * @LastEditTime: 2024-07-16 12:28:37
+ * @LastEditTime: 2024-07-16 12:41:08
  * @LastEditors: Night-stars-1 nujj1042633805@gmail.com
  */
 import { fileURLToPath } from 'node:url'
@@ -14,6 +14,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: './',
   plugins: [
     vue(),
     // vueDevTools(),
