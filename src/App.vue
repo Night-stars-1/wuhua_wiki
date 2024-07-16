@@ -1,7 +1,7 @@
 <!--
   * @Author: Night-stars-1 nujj1042633805@gmail.com
   * @Date: 2024-07-15 20:29:22
-  * @LastEditTime: 2024-07-16 12:25:02
+  * @LastEditTime: 2024-07-16 21:09:41
   * @LastEditors: Night-stars-1 nujj1042633805@gmail.com
 -->
 <template>
@@ -25,7 +25,7 @@
           ></el-input>
           <el-button
             style="margin-top: 10px; margin-bottom: 20px; float: right"
-            @click="Init"
+            @click="Save"
             >查询</el-button
           >
         </el-card>
@@ -194,7 +194,13 @@
         </el-card>
       </el-col>
     </el-row>
-    <el-dialog v-model="dialogTableVisible" title="提示">
+    <el-dialog
+      v-model="dialogTableVisible"
+      :close-on-click-modal="false"
+      :close-on-press-escape="false"
+      :show-close="false"
+      title="提示"
+    >
       <span v-text="dialogText"></span>
     </el-dialog>
   </div>
@@ -237,7 +243,8 @@ const analysisList = ref([
   },
 ]);
 const loading = ref(false);
-const cardList: Card[] = [];
+const cardListStr = localStorage.getItem("cardList");
+let cardList: Card[] = cardListStr ? JSON.parse(cardListStr) : [];
 const state = ref({
   page: 1,
   limit: 10,
@@ -296,38 +303,105 @@ function handleSizeChange(e: number) {
   state.value.limit = e;
 }
 
-async function Init() {
+function findOverlapIndex(data1: Card[], data2: Card[]) {
+  for (let i = 0; i < data1.length; i++) {
+    let overlap = true;
+    for (let j = 0; j < data2.length && i + j < data1.length; j++) {
+      if (
+        data1[i + j].name !== data2[j].name ||
+        data1[i + j].rankType !== data2[j].rankType ||
+        data1[i + j].gachaName !== data2[j].gachaName ||
+        data1[i + j].gachaType !== data2[j].gachaType ||
+        data1[i + j].time !== data2[j].time
+      ) {
+        overlap = false;
+        break;
+      }
+    }
+    if (data2.length == 0) {
+      return -1;
+    }
+    if (overlap) {
+      return i;
+    }
+  }
+  return -1;
+}
+
+function mergeLists(data1: Card[], data2: Card[]) {
+  const overlapIndex = findOverlapIndex(data1, data2);
+  if (overlapIndex !== -1) {
+    return data1.slice(0, overlapIndex).concat(data2);
+  }
+  return data1.concat(data2);
+}
+
+function initCardList() {
+  [...cardList].reverse().forEach((data) => {
+    const gachaId = getGachaId(data.gachaType);
+    switch (data.rankType) {
+      case 3:
+        analysisList.value[gachaId].three++;
+        break;
+      case 4:
+        analysisList.value[gachaId].four++;
+        break;
+    }
+    analysisList.value[gachaId].pull++;
+    if (data.rankType == 4) {
+      analysisList.value[gachaId].pull = 0;
+    }
+    analysisList.value[gachaId].total++;
+  });
+  state.value.total = cardList.length;
+}
+initCardList()
+
+async function Save() {
+  let page = 0;
+  const tmpCardList: Card[] = [];
+  analysisList.value = [
+    {
+      label: "限时渠道",
+      total: 0,
+      three: 0,
+      four: 0,
+      pull: 0,
+    },
+    {
+      label: "招募渠道",
+      total: 0,
+      three: 0,
+      four: 0,
+      pull: 0,
+    },
+    {
+      label: "征集渠道",
+      total: 0,
+      three: 0,
+      four: 0,
+      pull: 0,
+    },
+  ];
   localStorage.setItem("code", code.value ?? "");
   localStorage.setItem("uid", uid.value ?? "");
   dialogTableVisible.value = true;
   loading.value = true;
-  let page = 0;
   while (true) {
     const dataList = await getDrawCardHistory(page);
     if (dataList.length == 0) {
-      [...cardList].reverse().forEach((data) => {
-        const gachaId = getGachaId(data.gachaType);
-        switch (data.rankType) {
-          case 3:
-            analysisList.value[gachaId].three++;
-            break;
-          case 4:
-            analysisList.value[gachaId].four++;
-            break;
-        }
-        analysisList.value[gachaId].pull++;
-        if (data.rankType == 4) {
-          analysisList.value[gachaId].pull = 0;
-        }
-        analysisList.value[gachaId].total++;
-      });
+      cardList = mergeLists(tmpCardList, cardList);
+      
+      initCardList()
+
       dialogTableVisible.value = false;
       loading.value = false;
-      state.value.total = cardList.length;
+      localStorage.setItem("cardList", JSON.stringify(cardList));
       break;
     }
+    
     dataList.forEach((data) => {
-      cardList.push({
+      tmpCardList.push({
         name: data.CardName,
         rankType: data.Rare,
         gachaName: data.PoolName,
@@ -407,9 +481,9 @@ function tableRowClassName(row: any) {
   }
 
   .el-pagination .el-select {
-    width: calc(200%)
+    width: calc(200%);
   }
-  
+
   .theme-switch {
     margin-top: 10px;
     align-self: center;
