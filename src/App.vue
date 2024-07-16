@@ -243,8 +243,8 @@ async function getDrawCardHistory(
   const response = await http.post(
     "https://goda.srap.link/getDrawCardHistory",
     {
-      code,
-      uid,
+      code: code.value,
+      uid: uid.value,
       type: ["time", "oldtime", "newPlayer", "normal"],
       page: page,
       pagesize: 10,
