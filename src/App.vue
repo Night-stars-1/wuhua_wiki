@@ -1,7 +1,7 @@
 <!--
   * @Author: Night-stars-1 nujj1042633805@gmail.com
   * @Date: 2024-07-15 20:29:22
-  * @LastEditTime: 2024-07-16 11:12:49
+  * @LastEditTime: 2024-07-16 11:59:31
   * @LastEditors: Night-stars-1 nujj1042633805@gmail.com
 -->
 <template>
@@ -116,7 +116,7 @@
       <el-card body-style="padding:0;text-align: center">
         <el-table
           v-loading="loading"
-          :data="cardList"
+          :data="tableData()"
           :row-class-name="tableRowClassName"
           height="100%"
         >
@@ -168,7 +168,21 @@
           </el-table-column>
           <el-table-column label="时间" prop="time" sortable />
         </el-table>
-        <div style="padding: 10px">
+        <div
+          style="
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            align-items: center;
+          "
+        >
+          <el-pagination
+            background
+            layout="prev, pager, next ,total,sizes"
+            :total="state.total"
+            @current-change="handleCurrentChange"
+            @size-change="handleSizeChange"
+          />
           <el-switch
             v-model="isDark"
             :active-icon="Moon"
@@ -176,16 +190,10 @@
             inline-prompt
             style="
               padding: 0;
-              float: right;
               --el-switch-border-color: #dcdfe6;
               --el-switch-on-color: #1d1e1f;
               --el-switch-off-color: #f2f2f2;
             "
-          />
-          <el-text
-            size="small"
-            type="info"
-            v-text="'共' + cardList.length + '条数据'"
           />
         </div>
       </el-card>
@@ -206,8 +214,8 @@ const http = appContext.config.globalProperties.$http;
 
 const isDark = useDark();
 
-const code = ref("");
-const uid = ref("");
+const code = ref(localStorage.getItem("code")) ?? ref("");
+const uid = ref(localStorage.getItem("uid")) ?? ref("");
 const activeName = "限时渠道";
 const analysisList = ref([
   {
@@ -233,10 +241,36 @@ const analysisList = ref([
   },
 ]);
 const loading = ref(false);
-const cardList: Ref<Card[]> = ref([]);
+const cardList: Card[] = [];
+const state = ref({
+  page: 1,
+  limit: 10,
+  total: cardList.length,
+});
+const tableData = () => {
+  return cardList.filter(
+    (_, index) =>
+      index < state.value.page * state.value.limit &&
+      index >= state.value.limit * (state.value.page - 1)
+  );
+};
 const dialogTableVisible = ref(false);
 const dialogText = ref("开始读取抽卡数据...");
 
+function getGachaId(gachaType: string): number {
+  switch (gachaType) {
+    case "time":
+      return 0;
+    case "normal":
+      return 1;
+    case "oldtime":
+      return 2;
+    case "newPlayer":
+      return 2;
+    default:
+      return -1;
+  }
+}
 async function getDrawCardHistory(
   page: number = 0
 ): Promise<DrawCardHistory[]> {
@@ -258,32 +292,46 @@ async function getDrawCardHistory(
   );
   return response.data.data;
 }
+
+function handleCurrentChange(e: number) {
+  state.value.page = e;
+}
+function handleSizeChange(e: number) {
+  state.value.limit = e;
+}
+
 async function Init() {
+  localStorage.setItem("code", code.value ?? "");
+  localStorage.setItem("uid", uid.value ?? "");
   dialogTableVisible.value = true;
   loading.value = true;
   let page = 0;
   while (true) {
-    const dataList = await getDrawCardHistory();
+    const dataList = await getDrawCardHistory(page);
     if (dataList.length == 0) {
+      [...cardList].reverse().forEach((data) => {
+        const gachaId = getGachaId(data.gachaType);
+        switch (data.rankType) {
+          case 3:
+            analysisList.value[gachaId].three++;
+            break;
+          case 4:
+            analysisList.value[gachaId].four++;
+            break;
+        }
+        analysisList.value[gachaId].pull++;
+        if (data.rankType == 4) {
+          analysisList.value[gachaId].pull = 0;
+        }
+        analysisList.value[gachaId].total++;
+      });
       dialogTableVisible.value = false;
       loading.value = false;
+      state.value.total = cardList.length;
       break;
     }
     dataList.forEach((data) => {
-      switch (data.Rare) {
-        case 3:
-          analysisList.value[0].three++;
-          break;
-        case 4:
-          analysisList.value[0].four++;
-          break;
-      }
-      analysisList.value[0].pull++;
-      if (data.Rare == 4) {
-        analysisList.value[0].pull = 0;
-      }
-      analysisList.value[0].total++;
-      cardList.value.push({
+      cardList.push({
         name: data.CardName,
         rankType: data.Rare,
         gachaName: data.PoolName,
@@ -292,8 +340,7 @@ async function Init() {
       });
     });
     page += 1;
-
-    await new Promise((resolve) => setTimeout(resolve, 100));
+    // await new Promise((resolve) => setTimeout(resolve, 100));
   }
 }
 

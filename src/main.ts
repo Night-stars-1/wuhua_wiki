@@ -5,11 +5,16 @@
  * @LastEditors: Night-stars-1 nujj1042633805@gmail.com
  */
 import { createApp } from 'vue'
+import ElementPlus from 'element-plus'
+import zhCn from 'element-plus/es/locale/lang/zh-cn'
 import axios from 'axios'
 import './style.css'
 import App from './App.vue'
 import 'element-plus/theme-chalk/dark/css-vars.css'
 
 const app = createApp(App)
+app.use(ElementPlus, {
+  locale: zhCn,
+})
 app.config.globalProperties.$http = axios
 app.mount('#app')
