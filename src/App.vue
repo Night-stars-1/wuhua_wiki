@@ -1,7 +1,7 @@
 <!--
   * @Author: Night-stars-1 nujj1042633805@gmail.com
   * @Date: 2024-07-15 20:29:22
-  * @LastEditTime: 2024-07-16 21:09:41
+  * @LastEditTime: 2024-07-16 21:19:44
   * @LastEditors: Night-stars-1 nujj1042633805@gmail.com
 -->
 <template>
@@ -480,8 +480,10 @@ function tableRowClassName(row: any) {
     align-items: stretch;
   }
 
-  .el-pagination .el-select {
-    width: calc(200%);
+  .el-pagination {
+    overflow-x: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
   }
 
   .theme-switch {
