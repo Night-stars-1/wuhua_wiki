@@ -475,6 +475,10 @@ function tableRowClassName(row: any) {
 }
 
 @media (max-width: 600px) {
+  #app {
+    padding: 0;
+  }
+
   .pagination-container {
     flex-direction: column;
     align-items: stretch;
