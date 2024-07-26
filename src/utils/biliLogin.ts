@@ -1,6 +1,11 @@
+/*
+ * @Author: Night-stars-1 nujj1042633805@gmail.com
+ * @Date: 2024-07-26 14:44:18
+ * @LastEditors: Night-stars-1 nujj1042633805@gmail.com
+ * @LastEditTime: 2024-07-26 16:38:26
+ */
 import axios from "axios";
 import { JSEncrypt } from "jsencrypt";
-import { json } from "stream/consumers";
 
 class Auth {
   private passwordHash: string = "";
