@@ -13,7 +13,7 @@ import App from "./App.vue";
 import router from "@/plugin/router";
 // import 'element-plus/theme-chalk/dark/css-vars.css'
 
-axios.defaults.baseURL = window.location.origin;
+axios.defaults.baseURL = import.meta.env.BASE_URL;
 
 const app = createApp(App);
 router(app);
