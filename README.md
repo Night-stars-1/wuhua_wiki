@@ -21,7 +21,7 @@ npm install
 ```
 npm run dev
 ```
-1. 输入米哈游`code`和`uid`
+1. 输入物华弥新`code`和`uid`
 
 ## 示例
 ![image](./image/image.png)
