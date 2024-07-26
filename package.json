@@ -4,20 +4,30 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
     "build": "vue-tsc -b && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "@element-plus/icons": "^0.0.11",
+    "@element-plus/icons-vue": "^2.3.1",
+    "@iconify-json/ep": "^1.1.15",
     "@vueuse/core": "^10.11.0",
     "axios": "^1.7.2",
+    "echarts": "^5.5.1",
     "element-plus": "^2.7.7",
-    "vue": "^3.4.29"
+    "jsencrypt": "^3.3.2",
+    "unplugin-icons": "^0.19.0",
+    "vue": "^3.4.29",
+    "vue-draggable-plus": "^0.5.2",
+    "vue-echarts": "^6.7.3",
+    "vue-router": "4"
   },
   "devDependencies": {
+    "@iconify-json/material-symbols-light": "^1.1.25",
     "@types/node": "^20.14.10",
     "@vitejs/plugin-vue": "^5.0.5",
+    "sass": "^1.77.8",
+    "sass-loader": "^14.2.1",
     "typescript": "^5.2.2",
     "unplugin-auto-import": "^0.18.0",
     "unplugin-vue-components": "^0.27.2",

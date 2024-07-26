@@ -29,6 +29,7 @@
     }
   },
   "include": [
+    "*.vue",
     "*.d.ts",
     "src/types/.d.ts",
     "src/**/*.ts",
