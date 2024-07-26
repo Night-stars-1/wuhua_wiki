@@ -259,7 +259,6 @@ const analysisList = ref([
   },
 ]);
 const loading = ref(false);
-const dialogText = ref("开始读取抽卡数据...");
 const cardListStr = localStorage.getItem("cardList");
 let cardList: Card[] = cardListStr ? JSON.parse(cardListStr) : [];
 const state = ref({
@@ -275,6 +274,7 @@ const tableData = () => {
   );
 };
 const dialogTableVisible = ref(false);
+const dialogText = ref("开始读取抽卡数据...");
 
 function getGachaId(gachaType: string): number {
   switch (gachaType) {
@@ -402,15 +402,15 @@ function tableRowClassName(row: any) {
 }
 
 async function Login() {
-  loading.value = true;
+  dialogTableVisible.value = true;
   dialogText.value = "开始获取登录信息..."
   const auth = new Auth()
   pwd.value = await auth.signPassword(pwd.value)
   const data = await auth.getAccessKey(userId.value, pwd.value)
   code.value = data.access_key
   uid.value = data.uid
-  loginType.value = "toekn"
-  loading.value = false;
+  loginType.value = "token"
+  dialogTableVisible.value = false;
 }
 </script>
 
