@@ -46,5 +46,6 @@ jobs:
           target_branch: gh-pages
           # 部署目录为Vite项目的默认输出目录
           build_dir: ./dist
+          fqdn: "wh.srap.link"
         env:
           GITHUB_TOKEN: ${{ secrets.GAYHUB_TOKEN }}
