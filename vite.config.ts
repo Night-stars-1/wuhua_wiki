@@ -16,7 +16,7 @@ import vueDevTools from "vite-plugin-vue-devtools";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "./",
+  base: "https://wh.srap.link/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "src"),
