@@ -105,5 +105,15 @@
       "icon": "skillicon_Jobskill_V",
       "buff": []
     }
+  ],
+  "skin": [
+    {
+      "id": "V0006001",
+      "name": "肖形"
+    },
+    {
+      "id": "V0006002",
+      "name": "写照"
+    }
   ]
 }

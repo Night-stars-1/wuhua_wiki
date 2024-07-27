@@ -2,7 +2,7 @@
  * @Author: Night-stars-1 nujj1042633805@gmail.com
  * @Date: 2024-07-21 18:18:56
  * @LastEditors: Night-stars-1 nujj1042633805@gmail.com
- * @LastEditTime: 2024-07-23 00:50:45
+ * @LastEditTime: 2024-07-27 14:15:08
 -->
 <template>
   <div class="char-view-root">
@@ -10,7 +10,7 @@
       <el-image
         class="char-image"
         fit="contain"
-        :src="`/char/${id}.png`"
+        :src="`/char/${id}/drawing/${data.id}.png`"
       />
     </div>
   </div>
@@ -19,6 +19,7 @@
 <script lang="ts" setup>
 defineProps<{
   id: string;
+  data: SkinInfo;
 }>();
 </script>
 

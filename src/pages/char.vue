@@ -2,7 +2,7 @@
  * @Author: Night-stars-1 nujj1042633805@gmail.com
  * @Date: 2024-07-20 19:47:57
  * @LastEditors: Night-stars-1 nujj1042633805@gmail.com
- * @LastEditTime: 2024-07-27 12:22:03
+ * @LastEditTime: 2024-07-27 14:14:47
 -->
 <template>
   <el-row class="char-container">
@@ -13,7 +13,7 @@
           <IMaterialSymbolsLightFormatListBulletedRounded />
         </template>
       </el-button>
-      <CharView :id="id" v-if="id" />
+      <CharView :id="id":data="data.skin[0]" v-if="data.skin" />
     </el-col>
     <el-col :md="12" style="flex: 1" v-if="data?.info && data?.skill">
       <Panel class="char">
@@ -59,7 +59,7 @@ const route = useRoute();
 
 const allChar = ref<CharData[]>([]);
 const id = ref<string>(route.params.id?.toString());
-const data = ref<{ info?: CharInfo; skill?: SkillInfo[] }>({});
+const data = ref<Char>({});
 const isShowCharList = ref(false);
 
 onMounted(async () => {
