@@ -7,18 +7,17 @@
 import { createApp } from "vue";
 import ElementPlus from "element-plus";
 import zhCn from "element-plus/es/locale/lang/zh-cn";
-import axios from "axios";
 import "./style.css";
 import App from "./App.vue";
 import router from "@/plugin/router";
-import 'element-plus/theme-chalk/dark/css-vars.css'
-
-axios.defaults.baseURL = import.meta.env.BASE_URL;
+import axios from "@/plugin/axios";
+import "element-plus/theme-chalk/dark/css-vars.css";
 
 const app = createApp(App);
 router(app);
+axios(app);
 app.use(ElementPlus, {
   locale: zhCn,
 });
-app.config.globalProperties.$http = axios;
+
 app.mount("#app");

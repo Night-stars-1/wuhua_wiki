@@ -2,17 +2,17 @@
  * @Author: Night-stars-1 nujj1042633805@gmail.com
  * @Date: 2024-07-27 16:51:42
  * @LastEditors: Night-stars-1 nujj1042633805@gmail.com
- * @LastEditTime: 2024-07-27 17:00:32
+ * @LastEditTime: 2024-07-27 17:12:25
  */
-import type { ComponentInternalInstance } from "vue";
-const { appContext } = getCurrentInstance() as ComponentInternalInstance;
-const http = appContext.config.globalProperties.$http;
+
+import { axios } from "@/plugin/axios";
+
 
 async function getWuhuaKey(
   code: string,
   uid: string,
 ): Promise<string> {
-  const response = await http.post(
+  const response = await axios.post(
     "https://goda.srap.link/getWuHuaKey",
     {
       code: code,
@@ -34,7 +34,7 @@ async function getDrawCardHistory(
   uid: string = "",
   page: number = 0
 ): Promise<DrawCardHistory[]> {
-  const response = await http.post(
+  const response = await axios.post(
     "https://goda.srap.link/getDrawCardHistory",
     {
       code,

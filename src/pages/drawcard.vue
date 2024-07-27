@@ -353,7 +353,6 @@ function initCardList() {
     analysisList.value[gachaId].total++;
   });
   state.value.total = cardList.value.length;
-  console.log(charProgress.value);
 }
 initCardList();
 
