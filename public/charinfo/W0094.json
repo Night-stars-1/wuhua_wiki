@@ -1,0 +1,126 @@
+{
+  "info": {
+    "name": "T型帛画",
+    "star": 0,
+    "Hp": 709,
+    "Atk": 345,
+    "PhysicDef": 39,
+    "MagicDef": 39,
+    "Speed": 120,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 8,
+    "Mov": 3,
+    "Hp_GROW": 57,
+    "Atk_GROW": 23,
+    "PhysicDef_GROW": 4,
+    "MagicDef_GROW": 4,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": ""
+  },
+  "skill": [
+    {
+      "name": "交龙垂诏",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
+      "tag": [
+        "射程2格",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Commonattack_W",
+      "buff": []
+    },
+    {
+      "name": "魂幡·金乌",
+      "des": "选中自身<span style=\"color:#158bdb\">周围2格</span>的地块，召唤<span style=\"color:#158bdb\">1</span>只生命值、攻击力和防御力为T形帛画基础属性<span style=\"color:#158bdb\">60%</span>的<span style=\"color:#db2424\">金乌</span>。",
+      "tag": [
+        "射程2格",
+        "消耗:5"
+      ],
+      "level": 1,
+      "icon": "skillicon_W009402",
+      "buff": [
+        {
+          "name": "<span style=\"color:#db2424\">金乌</span>",
+          "des": "T形帛画的召唤物，移动力为<span style=\"color:#158bdb\">3</span>，速度为<span style=\"color:#158bdb\">115</span>，暴击率为<span style=\"color:#158bdb\">100%</span>，暴击伤害为<span style=\"color:#158bdb\">200%</span>，不受任何友方单位的治疗回复效果，与T形帛画共享能量。\n<span style=\"color:#db2424\">金乌</span>被击败时，T形帛画消耗自身当前生命值<span style=\"color:#158bdb\">30%</span>的生命值。"
+        }
+      ]
+    },
+    {
+      "name": "引魂",
+      "des": "进入战斗后，每存在<span style=\"color:#158bdb\">1</span>个自身的召唤物，则自身攻击力提高<span style=\"color:#158bdb\">50%</span>，能量自动获取增加<span style=\"color:#158bdb\">0.5</span>。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_W009403",
+      "buff": []
+    },
+    {
+      "name": "祓禳",
+      "des": "在<span style=\"color:#db2424\">龟驮鸱鸮</span><span style=\"color:#158bdb\">周围1格</span>内进行常击时，有<span style=\"color:#158bdb\">30%</span>概率使选定目标及<span style=\"color:#db2424\">龟驮鸱鸮</span><span style=\"color:#158bdb\">周围1格</span>的敌方全体获得<span style=\"color:#ff6724\">肃静</span>状态；\n在<span style=\"color:#db2424\">金乌</span><span style=\"color:#158bdb\">周围2格</span>内进行常击时，自身获得<span style=\"color:#ff6724\">落照</span>状态。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_W009404",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">肃静</span>",
+          "des": "无法释放职业技能和绝技，持续<span style=\"color:#158bdb\">1</span>回合。"
+        },
+        {
+          "name": "<span style=\"color:#ff6724\">落照</span>",
+          "des": "常击后，若受击单位存活，则对选定目标及其<span style=\"color:#158bdb\">周围1格</span>内的敌方全体造成T形帛画攻击力<span style=\"color:#158bdb\">50%</span>的<span style=\"color:#ff6724\">额外构素伤害</span>，并使其获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">灼烧</span>状态。"
+        },
+        {
+          "name": "<span style=\"color:#ff6724\">灼烧</span>",
+          "des": "回合开始时，受到施加者攻击力<span style=\"color:#158bdb\">20%</span>的构素伤害，可叠加<span style=\"color:#158bdb\">5</span>层，持续<span style=\"color:#158bdb\">2</span>回合。"
+        },
+        {
+          "name": "<span style=\"color:#ff6724\">额外构素伤害</span>",
+          "des": "此伤害不触发暴击和贯穿效果，且无法被格挡，但会被构素护盾抵挡。"
+        }
+      ]
+    },
+    {
+      "name": "挽歌",
+      "des": "进入战斗后，获得<span style=\"color:#158bdb\">0</span>点能量；\n<span style=\"color:#db2424\">龟驮鸱鸮</span>的生命值提高<span style=\"color:#158bdb\">10%</span>，<span style=\"color:#db2424\">金乌</span>的攻击力提高<span style=\"color:#158bdb\">10%</span>。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_W009405",
+      "buff": []
+    },
+    {
+      "name": "魂幡·灵龟",
+      "des": "选中自身<span style=\"color:#158bdb\">周围2格</span>的地块，召唤<span style=\"color:#158bdb\">1</span>只生命值、攻击力和防御力为T形帛画基础属性<span style=\"color:#158bdb\">100%</span>的<span style=\"color:#db2424\">龟驮鸱鸮</span>。",
+      "tag": [
+        "射程2格",
+        "消耗:3"
+      ],
+      "level": 1,
+      "icon": "skillicon_W009411",
+      "buff": [
+        {
+          "name": "<span style=\"color:#db2424\">龟驮鸱鸮</span>",
+          "des": "T形帛画的召唤物，移动力为<span style=\"color:#158bdb\">4</span>，速度为<span style=\"color:#158bdb\">130</span>，受到伤害降低<span style=\"color:#158bdb\">30%</span>，不受任何友方单位的治疗回复效果，与T形帛画共享能量。\n<span style=\"color:#db2424\">龟驮鸱鸮</span>被击败时，T形帛画消耗自身当前生命值<span style=\"color:#158bdb\">30%</span>的生命值。"
+        }
+      ]
+    }
+  ]
+}

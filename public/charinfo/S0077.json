@@ -1,0 +1,109 @@
+{
+  "info": {
+    "name": "利簋",
+    "star": 0,
+    "Hp": 709,
+    "Atk": 336,
+    "PhysicDef": 40,
+    "MagicDef": 40,
+    "Speed": 170,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 4,
+    "Mov": 3,
+    "Hp_GROW": 57,
+    "Atk_GROW": 22,
+    "PhysicDef_GROW": 4,
+    "MagicDef_GROW": 4,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": ""
+  },
+  "skill": [
+    {
+      "name": "克敌",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
+      "tag": [
+        "射程3格",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Commonattack_S",
+      "buff": []
+    },
+    {
+      "name": "岁星天照",
+      "des": "使选定友方单体立刻行动并获得伤害提高<span style=\"color:#158bdb\">15%</span>；若该目标本轮次尚未行动，则在本轮次结束前获得额外行动<span style=\"color:#158bdb\">1</span>次；并使友方目标进入<span style=\"color:#ff6724\">回溯</span>状态。",
+      "tag": [
+        "射程3格",
+        "消耗:4"
+      ],
+      "level": 1,
+      "icon": "skillicon_S007702",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">回溯</span>",
+          "des": "将生命值，能量值，技能冷却状态回复至上一次行动时的状态（保留更为有利的结果）。"
+        }
+      ]
+    },
+    {
+      "name": "圜方",
+      "des": "进入战斗后，自身警戒攻击伤害提高<span style=\"color:#158bdb\">3%</span>，<span style=\"color:#ff6724\">礼弹</span>可填充上限增加<span style=\"color:#158bdb\">3</span>枚。当警戒范围内的友方单位使用常击时，自身<span style=\"color:#158bdb\">50%</span>概率填充<span style=\"color:#158bdb\">1</span>枚<span style=\"color:#ff6724\">礼弹</span>；当警戒范围内的友方单位使用绝技时，自身填充<span style=\"color:#158bdb\">1</span>枚<span style=\"color:#ff6724\">礼弹</span>；当警戒范围内的友方单位击败敌方单位时，自身填充<span style=\"color:#158bdb\">2</span>枚<span style=\"color:#ff6724\">礼弹</span>。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_S007703",
+      "buff": []
+    },
+    {
+      "name": "铭刻",
+      "des": "使用绝技并触发<span style=\"color:#ff6724\">回溯</span>效果后，自身下<span style=\"color:#158bdb\">1</span>回合前，自身的警戒攻击有<span style=\"color:#158bdb\">30%</span>概率使敌方单位<span style=\"color:#ff6724\">跳过下一轮次行动</span>。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_S007704",
+      "buff": []
+    },
+    {
+      "name": "褒赏",
+      "des": "使用职业技能后可获得以下效果：\n第<span style=\"color:#158bdb\">1</span>次受到伤害时伤害减少<span style=\"color:#158bdb\">50%</span>，回复自身最大生命值<span style=\"color:#158bdb\">1%</span>的生命值，获得<span style=\"color:#158bdb\">1</span>点能量。且在受到伤害后下<span style=\"color:#158bdb\">1</span>次移动时，可移动到任意友方单位的<span style=\"color:#158bdb\">周围1格</span>。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_S007705",
+      "buff": []
+    },
+    {
+      "name": "云雷引",
+      "des": "使用后为自身填充<span style=\"color:#158bdb\">3</span>枚<span style=\"color:#ff6724\">礼弹</span>并进入警戒状态：以自身<span style=\"color:#158bdb\">周围3格</span>为警戒范围，对停留在该范围中的敌方单位进行警戒攻击，对其造成自身攻击力<span style=\"color:#158bdb\">3%</span>的构素伤害。",
+      "tag": [
+        "自身",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Jobskill_S",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">礼弹</span>",
+          "des": "填充<span style=\"color:#ff6724\">礼弹</span>则进入警戒状态，每次警戒攻击或治疗将消耗<span style=\"color:#ff6724\">礼弹</span>，<span style=\"color:#ff6724\">礼弹</span>清零后自动结束警戒状态。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "info": {
+    "name": "长信宫灯",
+    "star": 0,
+    "Hp": 729,
+    "Atk": 243,
+    "PhysicDef": 34,
+    "MagicDef": 34,
+    "Speed": 65,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 4,
+    "Mov": 3,
+    "Hp_GROW": 58,
+    "Atk_GROW": 16,
+    "PhysicDef_GROW": 3,
+    "MagicDef_GROW": 3,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": ""
+  },
+  "skill": [
+    {
+      "name": "灯灼",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
+      "tag": [
+        "射程2格",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Commonattack_W",
+      "buff": []
+    },
+    {
+      "name": "取光藏烟",
+      "des": "为自身及<span style=\"color:#158bdb\">周围2格</span>的友方全体驱散所有负面状态，并使自身获得<span style=\"color:#ff6724\">沐光</span>状态。",
+      "tag": [
+        "自身",
+        "消耗:4"
+      ],
+      "level": 1,
+      "icon": "skillicon_W003802",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">沐光</span>",
+          "des": "自身进行治疗时，攻击力提升至<span style=\"color:#158bdb\">1.25</span>倍，持续<span style=\"color:#158bdb\">2</span>回合。"
+        }
+      ]
+    },
+    {
+      "name": "驱暗",
+      "des": "每<span style=\"color:#158bdb\">1</span>回合结束时，为自身<span style=\"color:#158bdb\">周围2格</span>内除自身外的友方全体回复自身攻击力<span style=\"color:#158bdb\">10|200</span>生命值。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "",
+      "buff": []
+    },
+    {
+      "name": "余辉",
+      "des": "自身生命值每降低<span style=\"color:#158bdb\">10%</span>，则自身攻击力提高<span style=\"color:#158bdb\">35%</span>，最多可提高至<span style=\"color:#158bdb\">35%</span>。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "",
+      "buff": []
+    },
+    {
+      "name": "残烛回光",
+      "des": "自身受到致命伤害时，获得<span style=\"color:#ff6724\">残烛回光</span>状态。此效果每场战斗只能触发<span style=\"color:#158bdb\">1</span>次。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">残烛回光</span>",
+          "des": "在<span style=\"color:#4395d6\">2</span>回合内不会被击败且不可行动；在此期间，自身治疗量提高<span style=\"color:#158bdb\">10%</span>，被动技能<span style=\"color:#ff6724\">驱暗</span>的治疗范围变为<span style=\"color:#158bdb\">周围4格</span>。<span style=\"color:#4395d6\">2</span>回合后退场。"
+        }
+      ]
+    },
+    {
+      "name": "燃己为烛",
+      "des": "消耗自身最大生命值<span style=\"color:#158bdb\">24%</span>的生命值，为<span style=\"color:#158bdb\">周围2格</span>内除自身外的友方全体回复自身攻击力<span style=\"color:#158bdb\">15|400</span>的生命值。",
+      "tag": [
+        "自身",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Jobskill_W_H",
+      "buff": []
+    }
+  ]
+}

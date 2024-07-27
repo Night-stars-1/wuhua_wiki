@@ -9,7 +9,7 @@
     <el-scrollbar>
       <el-space wrap style="justify-content: space-between">
         <div class="char-card" @click="checkChar(char.id)" v-for="char in data">
-          <el-image class="char-image" :src="`/char/${char.id}.png`" lazy />
+          <el-image class="char-image" :src="`/char/${char.id}/card.png`" lazy />
           <div class="char-name">
             <span>{{ char.name }}</span>
           </div>

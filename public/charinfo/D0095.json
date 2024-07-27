@@ -1,0 +1,119 @@
+{
+  "info": {
+    "name": "骑士鎏金",
+    "star": 0,
+    "Hp": 1696,
+    "Atk": 300,
+    "PhysicDef": 48,
+    "MagicDef": 48,
+    "Speed": 85,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 3,
+    "Mov": 4,
+    "Hp_GROW": 68,
+    "Atk_GROW": 20,
+    "PhysicDef_GROW": 5,
+    "MagicDef_GROW": 5,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": ""
+  },
+  "skill": [
+    {
+      "name": "旋斩",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+      "tag": [
+        "射程1格 ",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Commonattack_D",
+      "buff": []
+    },
+    {
+      "name": "骑士传说",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">280%</span>的物理伤害并使自身回复最大生命值的<span style=\"color:#158bdb\">10%</span>，同时进入<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">犇牛</span>状态。",
+      "tag": [
+        "射程1格 ",
+        "消耗:3"
+      ],
+      "level": 1,
+      "icon": "skillicon_D009502",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">犇牛</span>",
+          "des": "提升最大生命值，最大叠加<span style=\"color:#158bdb\">4</span>层。"
+        }
+      ]
+    },
+    {
+      "name": "四牛为守",
+      "des": "受到直接伤害会获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">犇牛</span>效果，每层<span style=\"color:#ff6724\">犇牛</span>效果增加<span style=\"color:#158bdb\">5%</span>最大生命值，持续时间无限。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_D009503",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">犇牛</span>",
+          "des": "提升最大生命值，最大叠加<span style=\"color:#158bdb\">4</span>层。"
+        }
+      ]
+    },
+    {
+      "name": "鎏金铸甲",
+      "des": "自身持有<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">犇牛</span>时，受到<span style=\"color:#158bdb\">周围1格</span>内敌方单位的常击后进行回击，对其造成自身攻击力<span style=\"color:#158bdb\">70%</span>的物理伤害，持有<span style=\"color:#158bdb\">3</span>层<span style=\"color:#ff6724\">犇牛</span>时增加<span style=\"color:#158bdb\">1</span>格移动力并免疫移动力降低类效果；持有<span style=\"color:#158bdb\">4</span>层时受治疗增益增加<span style=\"color:#158bdb\">9%</span>。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_D009504",
+      "buff": []
+    },
+    {
+      "name": "守护之誓",
+      "des": "受到治疗时，将累计受到的治疗量，下一次回击时，将附加累计受到治疗量<span style=\"color:#158bdb\">40%</span>的<span style=\"color:#ff6724\">额外物理伤害</span>。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_D009505",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">额外物理伤害</span>",
+          "des": "此伤害不触发暴击和贯穿效果，且无法被格挡。"
+        }
+      ]
+    },
+    {
+      "name": "贮藏",
+      "des": "使自身选定方向前<span style=\"color:#158bdb\">1</span>排的<span style=\"color:#158bdb\">3</span>格变为束缚格，效果持续<span style=\"color:#158bdb\">1</span>回合。若敌方单位进入束缚格，将无法离开束缚格范围，并进入<span style=\"color:#ff6724\">破甲</span>状态。",
+      "tag": [
+        "射程1格 ",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Jobskill_D_Z",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">破甲</span>",
+          "des": "物理防御降低<span style=\"color:#158bdb\">30%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">1</span>层。"
+        }
+      ]
+    }
+  ]
+}

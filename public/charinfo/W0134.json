@@ -1,0 +1,130 @@
+{
+  "info": {
+    "name": "千里江山",
+    "star": 0,
+    "Hp": 709,
+    "Atk": 345,
+    "PhysicDef": 39,
+    "MagicDef": 39,
+    "Speed": 100,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 3,
+    "Mov": 3,
+    "Hp_GROW": 57,
+    "Atk_GROW": 23,
+    "PhysicDef_GROW": 4,
+    "MagicDef_GROW": 4,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": ""
+  },
+  "skill": [
+    {
+      "name": "嶙岩",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害并使自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#b69305\">峰石</span>状态。",
+      "tag": [
+        "射程2格",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Commonattack_W",
+      "buff": []
+    },
+    {
+      "name": "悬水倾山",
+      "des": "对选定的敌方单位及其<span style=\"color:#158bdb\">周围1格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
+      "tag": [
+        "射程2格",
+        "消耗:3"
+      ],
+      "level": 1,
+      "icon": "skillicon_W013402",
+      "buff": []
+    },
+    {
+      "name": "重峦西驰",
+      "des": "自身的<span style=\"color:#b69305\">峰石</span>或<span style=\"color:#146cd8\">流纹</span>状态层数合计达到<span style=\"color:#158bdb\">3</span>层后，会立即转化成<span style=\"color:#158bdb\">1</span>个绝技强化状态。同时仅能保留<span style=\"color:#158bdb\">1</span>个绝技强化状态。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_W013403",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">垒岩</span>",
+          "des": "<span style=\"color:#158bdb\">3</span>层<span style=\"color:#b69305\">峰石</span>转化获得：\n使用绝技时，攻击力提升至<span style=\"color:#158bdb\">1.5</span>倍，且绝技的防御穿透增加<span style=\"color:#158bdb\">30%</span>。"
+        },
+        {
+          "name": "<span style=\"color:#ff6724\">涓流</span>",
+          "des": "<span style=\"color:#158bdb\">2</span>层<span style=\"color:#b69305\">峰石</span>与<span style=\"color:#158bdb\">1</span>层<span style=\"color:#146cd8\">流纹</span>转化获得：\n使用绝技时，攻击力提升至<span style=\"color:#158bdb\">1.3</span>倍，并使受击敌方单位获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">融伤</span>和<span style=\"color:#ff6724\">灼烧</span>状态。"
+        },
+        {
+          "name": "<span style=\"color:#ff6724\">壑川</span>",
+          "des": "<span style=\"color:#158bdb\">1</span>层<span style=\"color:#b69305\">峰石</span>与<span style=\"color:#158bdb\">2</span>层<span style=\"color:#146cd8\">流纹</span>转化获得：\n使用绝技时，范围变为选定敌方及其<span style=\"color:#158bdb\">2</span>格，攻击力提升至<span style=\"color:#158bdb\">1.1</span>倍，并使受击敌方单位获得<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">脆弱</span>状态。"
+        },
+        {
+          "name": "<span style=\"color:#ff6724\">滔滔</span>",
+          "des": "<span style=\"color:#158bdb\">3</span>层<span style=\"color:#146cd8\">流纹</span>转化获得：\n使用绝技时，范围变为选定敌方及其<span style=\"color:#158bdb\">2</span>格，攻击力提升至<span style=\"color:#158bdb\">1.1</span>倍，并使受击敌方单位获得<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">寒天</span>状态。"
+        }
+      ]
+    },
+    {
+      "name": "千江东流",
+      "des": "获得绝技强化状态时，自身立即获得<span style=\"color:#158bdb\">1</span>次额外行动，回复自身最大生命值的<span style=\"color:#158bdb\">10%</span>，并获得<span style=\"color:#ff6724\">青绿设色</span>状态。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_W013404",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">青绿设色</span>",
+          "des": "绝技的最大攻击距离增加<span style=\"color:#158bdb\">2</span>格，使用绝技后此状态消失。"
+        }
+      ]
+    },
+    {
+      "name": "山重水复",
+      "des": "进入战斗时，自身获得<span style=\"color:#ff6724\">笔底山河</span>状态；\n使用处于强化状态的绝技时，有<span style=\"color:#158bdb\">50%</span>的概率使自身获得<span style=\"color:#ff6724\">笔底山河</span>状态和<span style=\"color:#ff6724\">步移景异</span>状态。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_W013405",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">笔底山河</span>",
+          "des": "获得<span style=\"color:#b69305\">峰石</span>或<span style=\"color:#146cd8\">流纹</span>状态时，可额外获得<span style=\"color:#158bdb\">1</span>层该状态。触发效果后此状态清除。"
+        },
+        {
+          "name": "<span style=\"color:#ff6724\">步移景异</span>",
+          "des": "自身回合开始时额外获得<span style=\"color:#158bdb\">1</span>点能量，效果持续<span style=\"color:#158bdb\">2</span>回合。"
+        }
+      ]
+    },
+    {
+      "name": "乱流",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的构素伤害并使自身获得<span style=\"color:#158bdb\">1</span>点能量和<span style=\"color:#158bdb\">1</span>层<span style=\"color:#146cd8\">流纹</span>状态。该技能伤害类型为常击伤害。",
+      "tag": [
+        "射程2格",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Jobskill_W_D",
+      "buff": []
+    }
+  ]
+}

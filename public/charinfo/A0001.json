@@ -1,0 +1,114 @@
+{
+  "info": {
+    "name": "山水人物镜",
+    "star": 0,
+    "Hp": 567,
+    "Atk": 251,
+    "PhysicDef": 25,
+    "MagicDef": 25,
+    "Speed": 90,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 3,
+    "Mov": 3,
+    "Hp_GROW": 45,
+    "Atk_GROW": 17,
+    "PhysicDef_GROW": 2,
+    "MagicDef_GROW": 2,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": ""
+  },
+  "skill": [
+    {
+      "name": "耘草",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+      "tag": [
+        "十字3格",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Commonattack_A",
+      "buff": []
+    },
+    {
+      "name": "仓禀累实",
+      "des": "使自身进入<span style=\"color:#ff6724\">活力</span>状态，效果持续<span style=\"color:#158bdb\">10</span>回合。之后对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">210%</span>的物理伤害。",
+      "tag": [
+        "十字3格",
+        "消耗:3"
+      ],
+      "level": 1,
+      "icon": "skillicon_A000102",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">活力</span>",
+          "des": "攻击力提高<span style=\"color:#158bdb\">10%</span>，物理防御力提高<span style=\"color:#158bdb\">5%</span>，每回合结束时回复自身<span style=\"color:#158bdb\">10%</span>生命，持续<span style=\"color:#158bdb\">2</span>回合。"
+        }
+      ]
+    },
+    {
+      "name": "春计",
+      "des": "当受到治疗的生命值超过自身最大生命值时，自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">春盛</span>状态。此状态最多可叠加<span style=\"color:#158bdb\">3</span>层，进行任意攻击时会消耗全部层数。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_A000103",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">春盛</span>",
+          "des": "造成的伤害提升<span style=\"color:#158bdb\">[EffectParam,2]%</span>。"
+        }
+      ]
+    },
+    {
+      "name": "生机",
+      "des": "攻击敌方单位时，若自身当前生命值百分比高于该敌方单位，则攻击结束后自身有<span style=\"color:#158bdb\">50%</span>概率获得<span style=\"color:#158bdb\">1</span>点能量。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_A000104",
+      "buff": []
+    },
+    {
+      "name": "时和岁稔",
+      "des": "进入战斗后，自身攻击力提高<span style=\"color:#158bdb\">10%</span>，受治疗量提高<span style=\"color:#158bdb\">12%</span>。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_A000105",
+      "buff": []
+    },
+    {
+      "name": "备耕",
+      "des": "使用后自身获得<span style=\"color:#158bdb\">1</span>次不可移动的再行动，并进入<span style=\"color:#ff6724\">瞄准</span>状态。",
+      "tag": [
+        "自身",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Jobskill_A",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">瞄准</span>",
+          "des": "此状态下进行攻击时，最大攻击距离增加<span style=\"color:#158bdb\">4</span>格，该次再行动结束后，此状态消失。"
+        }
+      ]
+    }
+  ]
+}

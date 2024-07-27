@@ -1,0 +1,109 @@
+{
+  "info": {
+    "name": "毛公鼎",
+    "star": 0,
+    "Hp": 1770,
+    "Atk": 278,
+    "PhysicDef": 58,
+    "MagicDef": 58,
+    "Speed": 85,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 4,
+    "Mov": 4,
+    "Hp_GROW": 71,
+    "Atk_GROW": 19,
+    "PhysicDef_GROW": 6,
+    "MagicDef_GROW": 6,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": ""
+  },
+  "skill": [
+    {
+      "name": "鼎击",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+      "tag": [
+        "射程1格 ",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Commonattack_D",
+      "buff": []
+    },
+    {
+      "name": "前线报导",
+      "des": "对选定的敌方单位及其<span style=\"color:#158bdb\">周围1格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">150%</span>的物理伤害。",
+      "tag": [
+        "射程2格",
+        "消耗:4"
+      ],
+      "level": 1,
+      "icon": "skillicon_D008902",
+      "buff": []
+    },
+    {
+      "name": "册命之书",
+      "des": "格挡率提升<span style=\"color:#158bdb\">30%</span>，受到毛公鼎攻击的目标会被标记，被标记目标攻击毛公鼎距离<span style=\"color:#158bdb\">4</span>格内的友方目标时会被毛公鼎<span style=\"color:#ff6724\">援护</span>，标记生效<span style=\"color:#158bdb\">1</span>回合。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_D008903",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">援护</span>",
+          "des": "当友方单位受到伤害时，代替其承受伤害。\n<span style=\"color:#db2424\">只可对除绝技、警戒攻击和回击外造成单体伤害的攻击生效。</span>"
+        }
+      ]
+    },
+    {
+      "name": "重器之镇",
+      "des": "格挡强度增加<span style=\"color:#158bdb\">5%</span>。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_D008904",
+      "buff": []
+    },
+    {
+      "name": "持国之鼎",
+      "des": "触发格挡时，回复自身最大生命值<span style=\"color:#158bdb\">5%</span>的生命。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_D008905",
+      "buff": []
+    },
+    {
+      "name": "辗转",
+      "des": "使自身选定方向前<span style=\"color:#158bdb\">1</span>排的<span style=\"color:#158bdb\">3</span>格变为束缚格，效果持续<span style=\"color:#158bdb\">1</span>回合。若敌方单位进入束缚格，将无法离开束缚格范围，并进入<span style=\"color:#ff6724\">降攻</span>状态。",
+      "tag": [
+        "射程1格 ",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Jobskill_D_Z",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">降攻</span>",
+          "des": "攻击力减低<span style=\"color:#158bdb\">20%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">1</span>层。"
+        }
+      ]
+    }
+  ]
+}

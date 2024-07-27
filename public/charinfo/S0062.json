@@ -1,0 +1,114 @@
+{
+  "info": {
+    "name": "诗文执壶",
+    "star": 0,
+    "Hp": 577,
+    "Atk": 311,
+    "PhysicDef": 32,
+    "MagicDef": 32,
+    "Speed": 165,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 4,
+    "Mov": 3,
+    "Hp_GROW": 46,
+    "Atk_GROW": 21,
+    "PhysicDef_GROW": 3,
+    "MagicDef_GROW": 3,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": ""
+  },
+  "skill": [
+    {
+      "name": "鸟啼鸣",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
+      "tag": [
+        "射程3格",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Commonattack_S",
+      "buff": []
+    },
+    {
+      "name": "新芽唤春",
+      "des": "为自身及<span style=\"color:#158bdb\">周围2格</span>的友方全体回复自身攻击力<span style=\"color:#158bdb\">10|400</span>的生命值。",
+      "tag": [
+        "自身",
+        "消耗:4"
+      ],
+      "level": 1,
+      "icon": "skillicon_S006202",
+      "buff": []
+    },
+    {
+      "name": "融寒寻芳",
+      "des": "使用警戒治疗后，自身治疗量提高<span style=\"color:#158bdb\">5%</span>，最多可叠加<span style=\"color:#158bdb\">3</span>层，持续至自身本次行动结束。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_S006203",
+      "buff": []
+    },
+    {
+      "name": "青草蔓蔓",
+      "des": "使用警戒治疗或绝技后，受治疗的友方单位获得<span style=\"color:#ff6724\">春泥</span>状态。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_S006204",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">春泥</span>",
+          "des": "驱散自身<span style=\"color:#158bdb\">1</span>个负面状态，驱散后消耗此状态。消耗此状态时，使自身回复诗文执壶攻击力<span style=\"color:#158bdb\">3|100</span>的生命值。"
+        }
+      ]
+    },
+    {
+      "name": "花间酒韵",
+      "des": "触发自身任意治疗效果后，受治疗的友方单位有<span style=\"color:#158bdb\">50%</span>概率获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">裳衫</span>状态。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_S006205",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">裳衫</span>",
+          "des": "构素防御提高<span style=\"color:#158bdb\">30%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">2</span>层。"
+        }
+      ]
+    },
+    {
+      "name": "卉木萋萋",
+      "des": "使用后为自身填充<span style=\"color:#158bdb\">3</span>枚<span style=\"color:#ff6724\">礼弹</span>并进入警戒状态：以自身<span style=\"color:#158bdb\">周围3格</span>为警戒范围，对进入该范围且生命值低于<span style=\"color:#158bdb\">100%</span>的友军进行警戒治疗，恢复攻击力<span style=\"color:#158bdb\">3</span>的生命值。",
+      "tag": [
+        "自身",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Jobskill_S",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">礼弹</span>",
+          "des": "填充<span style=\"color:#ff6724\">礼弹</span>则进入警戒状态，每次警戒攻击或治疗将消耗<span style=\"color:#ff6724\">礼弹</span>，<span style=\"color:#ff6724\">礼弹</span>清零后自动结束警戒状态。"
+        }
+      ]
+    }
+  ]
+}

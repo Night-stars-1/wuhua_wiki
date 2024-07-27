@@ -1,0 +1,104 @@
+{
+  "info": {
+    "name": "五星出东方",
+    "star": 0,
+    "Hp": 695,
+    "Atk": 339,
+    "PhysicDef": 40,
+    "MagicDef": 40,
+    "Speed": 85,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 4,
+    "Mov": 3,
+    "Hp_GROW": 56,
+    "Atk_GROW": 23,
+    "PhysicDef_GROW": 4,
+    "MagicDef_GROW": 4,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": ""
+  },
+  "skill": [
+    {
+      "name": "尼雅星辰",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
+      "tag": [
+        "射程3格",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Commonattack_S",
+      "buff": []
+    },
+    {
+      "name": "五星分天",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">240%</span>的构素伤害，并为自身填充<span style=\"color:#158bdb\">1</span>枚<span style=\"color:#ff6724\">礼弹</span>。",
+      "tag": [
+        "射程3格",
+        "消耗:4"
+      ],
+      "level": 1,
+      "icon": "skillicon_S008302",
+      "buff": []
+    },
+    {
+      "name": "云汉无极",
+      "des": "警戒攻击造成的伤害增加<span style=\"color:#158bdb\">30%</span>。每次警戒攻击额外消耗<span style=\"color:#158bdb\">1</span>枚<span style=\"color:#ff6724\">礼弹</span>，此次攻击造成暴击时，有<span style=\"color:#158bdb\">100%</span>的概率将额外消耗的<span style=\"color:#ff6724\">礼弹</span>重新装填。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_S008303",
+      "buff": []
+    },
+    {
+      "name": "五星连珠",
+      "des": "使用职业技能后，自身立刻获得暴击率增加<span style=\"color:#158bdb\">60%</span>；接下来的<span style=\"color:#158bdb\">1</span>回合起，每回合行动后获得<span style=\"color:#158bdb\">1</span>层暴击率降低<span style=\"color:#158bdb\">-20%</span>效果，直至相互抵消。再次使用职业技能时，重置上述所有效果。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_S008304",
+      "buff": []
+    },
+    {
+      "name": "锦绣之力",
+      "des": "若拥有<span style=\"color:#158bdb\">1%</span>及以上暴击率，则使自身的暴击伤害增加<span style=\"color:#158bdb\">60%</span>，并在常击或警戒攻击造成暴击时，获得<span style=\"color:#158bdb\">1</span>点能量，此效果每回合最多触发<span style=\"color:#158bdb\">1</span>次。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_S008305",
+      "buff": []
+    },
+    {
+      "name": "星兆",
+      "des": "使用后为自身填充<span style=\"color:#158bdb\">3</span>枚<span style=\"color:#ff6724\">礼弹</span>并进入警戒状态：以自身<span style=\"color:#158bdb\">周围3格</span>为警戒范围，对停留在该范围中的敌方单位进行警戒攻击，对其造成自身攻击力<span style=\"color:#158bdb\">3%</span>的构素伤害。",
+      "tag": [
+        "自身",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Jobskill_S",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">礼弹</span>",
+          "des": "填充<span style=\"color:#ff6724\">礼弹</span>则进入警戒状态，每次警戒攻击或治疗将消耗<span style=\"color:#ff6724\">礼弹</span>，<span style=\"color:#ff6724\">礼弹</span>清零后自动结束警戒状态。"
+        }
+      ]
+    }
+  ]
+}

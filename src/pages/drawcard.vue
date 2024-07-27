@@ -25,7 +25,12 @@
             >
           </el-tab-pane>
           <el-tab-pane label="账号密码" name="pwd">
-            <el-alert title="密码在本地进行加密，后端无法获取真实密码也不会保存账号密码" type="warning" show-icon :closable="false" />
+            <el-alert
+              title="密码在本地进行加密，后端无法获取真实密码也不会保存账号密码"
+              type="warning"
+              show-icon
+              :closable="false"
+            />
             <el-text> 请输入账号密码： </el-text>
             <el-input
               v-model="userId"
@@ -363,7 +368,7 @@ async function Save() {
   localStorage.setItem("uid", uid.value ?? "");
   dialogTableVisible.value = true;
   loading.value = true;
-  dialogText.value = "开始读取抽卡数据..."
+  dialogText.value = "开始读取抽卡数据...";
   while (true) {
     const dataList = await getDrawCardHistory(page);
     if (dataList.length == 0) {
@@ -403,13 +408,13 @@ function tableRowClassName(row: any) {
 
 async function Login() {
   dialogTableVisible.value = true;
-  dialogText.value = "开始获取登录信息..."
-  const auth = new Auth()
-  pwd.value = await auth.signPassword(pwd.value)
-  const data = await auth.getAccessKey(userId.value, pwd.value)
-  code.value = data.access_key
-  uid.value = data.uid
-  loginType.value = "token"
+  dialogText.value = "开始获取登录信息...";
+  const auth = new Auth();
+  pwd.value = await auth.signPassword(pwd.value);
+  const data = await auth.getAccessKey(userId.value, pwd.value);
+  code.value = data.access_key;
+  uid.value = data.uid;
+  loginType.value = "token";
   dialogTableVisible.value = false;
 }
 </script>

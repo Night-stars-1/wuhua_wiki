@@ -1,0 +1,113 @@
+{
+  "info": {
+    "name": "越王勾践剑",
+    "star": 0,
+    "Hp": 749,
+    "Atk": 333,
+    "PhysicDef": 51,
+    "MagicDef": 51,
+    "Speed": 100,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 5,
+    "Mov": 4,
+    "Hp_GROW": 60,
+    "Atk_GROW": 22,
+    "PhysicDef_GROW": 5,
+    "MagicDef_GROW": 5,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": ""
+  },
+  "skill": [
+    {
+      "name": "剑斩",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+      "tag": [
+        "射程1格 ",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Commonattack_V",
+      "buff": []
+    },
+    {
+      "name": "霸业宏图",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">260%</span>的物理伤害。",
+      "tag": [
+        "射程1格 ",
+        "消耗:5"
+      ],
+      "level": 1,
+      "icon": "skillicon_V009102",
+      "buff": []
+    },
+    {
+      "name": "卧薪尝胆",
+      "des": "未处于<span style=\"color:#ff6724\">觉醒</span>状态时，攻击无法造成暴击。\n每次使用常击、连击和绝技时，自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">蛰伏</span>状态。\n处于<span style=\"color:#ff6724\">觉醒</span>状态时，若击败敌方单位，则自身获得再行动<span style=\"color:#158bdb\">1</span>次，该次再行动的攻击力降低<span style=\"color:#158bdb\">-40%</span>。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_V009103",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">蛰伏</span>",
+          "des": "此状态叠加至<span style=\"color:#158bdb\">4</span>层时，自身获得<span style=\"color:#ff6724\">觉醒</span>状态，并获得额外行动<span style=\"color:#158bdb\">1</span>次。"
+        },
+        {
+          "name": "<span style=\"color:#ff6724\">觉醒</span>",
+          "des": "此状态使自身贯穿率增加<span style=\"color:#158bdb\">40%</span>，攻击力提高<span style=\"color:#158bdb\">30%</span>。"
+        }
+      ]
+    },
+    {
+      "name": "乘虚而入",
+      "des": "攻击触发贯穿效果时，自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">剑鸣</span>状态，此状态最多可叠加<span style=\"color:#158bdb\">3</span>层；\n自身处于<span style=\"color:#ff6724\">觉醒</span>状态时，使用职业技能消耗<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">剑鸣</span>状态，使职业技能冷却回合重置。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_V009104",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">剑鸣</span>",
+          "des": "处于此状态时，下<span style=\"color:#158bdb\">1</span>次常击后连击，对受击单位造成自身攻击力<span style=\"color:#158bdb\">40%</span>的物理伤害；\n若处于<span style=\"color:#ff6724\">觉醒</span>状态，则连击命中目标后，自身获得<span style=\"color:#158bdb\">1</span>点能量。\n此状态最多可叠加<span style=\"color:#158bdb\">3</span>层，每次连击消耗<span style=\"color:#158bdb\">1</span>层。"
+        }
+      ]
+    },
+    {
+      "name": "三千越甲",
+      "des": "攻击触发贯穿效果时，若自身贯穿率高于<span style=\"color:#158bdb\">40%</span>，则本次攻击中暴击伤害增加当前贯穿率高于<span style=\"color:#158bdb\">40%</span>的部分的<span style=\"color:#158bdb\">40%</span>。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_V009105",
+      "buff": []
+    },
+    {
+      "name": "称霸",
+      "des": "使用后自身获得再行动<span style=\"color:#158bdb\">1</span>次，该次再行动的移动力减少<span style=\"color:#158bdb\">2</span>。",
+      "tag": [
+        "自身",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Jobskill_V",
+      "buff": []
+    }
+  ]
+}

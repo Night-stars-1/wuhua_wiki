@@ -1,0 +1,104 @@
+{
+  "info": {
+    "name": "驿使图画像砖",
+    "star": 0,
+    "Hp": 513,
+    "Atk": 276,
+    "PhysicDef": 36,
+    "MagicDef": 36,
+    "Speed": 170,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 2,
+    "Mov": 4,
+    "Hp_GROW": 41,
+    "Atk_GROW": 18,
+    "PhysicDef_GROW": 4,
+    "MagicDef_GROW": 4,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": ""
+  },
+  "skill": [
+    {
+      "name": "扬尘",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+      "tag": [
+        "射程1格 ",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Commonattack_V",
+      "buff": []
+    },
+    {
+      "name": "遍行郡县",
+      "des": "使用后可选择传送至自身<span style=\"color:#158bdb\">周围10格</span>任意友方单位的<span style=\"color:#158bdb\">周围1格</span>，随后自身获得额外行动<span style=\"color:#158bdb\">1</span>次，并提高自身<span style=\"color:#158bdb\">20%</span>的攻击力，持续至回合结束。",
+      "tag": [
+        "射程10格",
+        "消耗:2"
+      ],
+      "level": 1,
+      "icon": "skillicon_V000802",
+      "buff": []
+    },
+    {
+      "name": "守口如瓶",
+      "des": "释放绝技后，该回合内的常击使自身<span style=\"color:#158bdb\">周围1格</span>内攻击力最高的友方单体获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">金戈</span>效果。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_V000803",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">金戈</span>",
+          "des": "提高暴击率<span style=\"color:#158bdb\">10%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">3</span>层。"
+        }
+      ]
+    },
+    {
+      "name": "速递",
+      "des": "使用职业技能时，若自身<span style=\"color:#158bdb\">周围1格</span>内存在友方单位，则使该次额外行动移动力增加<span style=\"color:#158bdb\">1</span>，并有<span style=\"color:#158bdb\">30%</span>概率在自身回合结束时刷新职业技能冷却状态。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_V000804",
+      "buff": []
+    },
+    {
+      "name": "识途",
+      "des": "进入战斗后，自身攻击力提高<span style=\"color:#158bdb\">10%</span>。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_V000805",
+      "buff": []
+    },
+    {
+      "name": "马蹄疾",
+      "des": "使用后自身获得再行动<span style=\"color:#158bdb\">1</span>次，该次再行动的移动力减少<span style=\"color:#158bdb\">2</span>。",
+      "tag": [
+        "自身",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Jobskill_V",
+      "buff": []
+    }
+  ]
+}

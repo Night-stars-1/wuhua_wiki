@@ -1,0 +1,104 @@
+{
+  "info": {
+    "name": "白石散乐",
+    "star": 0,
+    "Hp": 776,
+    "Atk": 318,
+    "PhysicDef": 39,
+    "MagicDef": 39,
+    "Speed": 100,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 3,
+    "Mov": 3,
+    "Hp_GROW": 62,
+    "Atk_GROW": 21,
+    "PhysicDef_GROW": 4,
+    "MagicDef_GROW": 4,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": ""
+  },
+  "skill": [
+    {
+      "name": "指挥",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
+      "tag": [
+        "射程2格",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Commonattack_W",
+      "buff": []
+    },
+    {
+      "name": "乐舞万象",
+      "des": "对选定的敌方单位及其<span style=\"color:#158bdb\">周围2格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害，并使自身获得额外行动机会。",
+      "tag": [
+        "射程2格",
+        "消耗:3"
+      ],
+      "level": 1,
+      "icon": "skillicon_W007902",
+      "buff": []
+    },
+    {
+      "name": "排练",
+      "des": "当自身处于蓄力时，受到的伤害降低<span style=\"color:#158bdb\">20%</span>；受到任意攻击后获得速度增加<span style=\"color:#158bdb\">30</span>，效果持续<span style=\"color:#158bdb\">1</span>回合。若在<span style=\"color:#158bdb\">1</span>次蓄力中累计触发<span style=\"color:#158bdb\">3</span>次该效果，则立即获得<span style=\"color:#158bdb\">1</span>次额外行动机会。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_W007903",
+      "buff": []
+    },
+    {
+      "name": "随性演出",
+      "des": "职业技能每命中<span style=\"color:#158bdb\">1</span>个敌方单位，使自身回复<span style=\"color:#158bdb\">1</span>点能量。使用绝技后，下<span style=\"color:#158bdb\">1</span>次职业技能造成的伤害提高<span style=\"color:#158bdb\">40%</span>。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_W007904",
+      "buff": []
+    },
+    {
+      "name": "合奏",
+      "des": "当职业技能命中至少<span style=\"color:#158bdb\">3</span>个敌方单位时，自身获得<span style=\"color:#ff6724\">和鸣</span>状态。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_W007905",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">和鸣</span>",
+          "des": "下一次攻击伤害提高<span style=\"color:#158bdb\">10%</span>，并限制受击目标移动<span style=\"color:#158bdb\">1</span>回合。"
+        }
+      ]
+    },
+    {
+      "name": "候场",
+      "des": "选定目标及其<span style=\"color:#158bdb\">周围2格</span>地块，蓄力<span style=\"color:#158bdb\">1</span>回合后，对该区域敌方全体造成自身攻击力<span style=\"color:#158bdb\">150%</span>的构素伤害。",
+      "tag": [
+        "射程3格",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Jobskill_W_D",
+      "buff": []
+    }
+  ]
+}

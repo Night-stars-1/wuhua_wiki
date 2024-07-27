@@ -27,7 +27,11 @@
           >
             {{ data.name }}
             <el-space>
-              <el-tag v-for="(item, index) in data.tag" :type="`${index==0 ? 'primary' : 'success'}`">{{ item }}</el-tag>
+              <el-tag
+                v-for="(item, index) in data.tag"
+                :type="`${index == 0 ? 'primary' : 'success'}`"
+                >{{ item }}</el-tag
+              >
             </el-space>
           </el-space>
           <el-image
@@ -48,9 +52,11 @@
 const props = defineProps<{
   dataList: SkillInfo[];
 }>();
-const buffs = props.dataList
-  .filter((item) => item.buff && item.buff.length > 0)
-  .flatMap((item) => item.buff);
+const buffs = computed(() =>
+  props.dataList
+    .filter((item) => item.buff && item.buff.length > 0)
+    .flatMap((item) => item.buff)
+);
 </script>
 
 <style lang="scss">

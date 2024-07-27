@@ -1,0 +1,113 @@
+{
+  "info": {
+    "name": "芙蓉炉",
+    "star": 0,
+    "Hp": 709,
+    "Atk": 345,
+    "PhysicDef": 40,
+    "MagicDef": 40,
+    "Speed": 100,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 5,
+    "Mov": 3,
+    "Hp_GROW": 57,
+    "Atk_GROW": 23,
+    "PhysicDef_GROW": 4,
+    "MagicDef_GROW": 4,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": ""
+  },
+  "skill": [
+    {
+      "name": "炽热光线",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
+      "tag": [
+        "射程2格",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Commonattack_W",
+      "buff": []
+    },
+    {
+      "name": "闪耀舞台",
+      "des": "对选定的敌方单位及其<span style=\"color:#158bdb\">周围2格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">115%</span>的构素伤害。",
+      "tag": [
+        "射程2格",
+        "消耗:3"
+      ],
+      "level": 1,
+      "icon": "skillicon_W008502",
+      "buff": []
+    },
+    {
+      "name": "粉色光海",
+      "des": "使用职业技能时，使自身<span style=\"color:#158bdb\">周围2格</span>内的随机<span style=\"color:#158bdb\">1</span>名不存在<span style=\"color:#ff6724\">荧光棒</span>或<span style=\"color:#ff6724\">应援棒</span>状态的友方单位获得<span style=\"color:#ff6724\">荧光棒</span>状态，自身获得<span style=\"color:#ff6724\">应援棒</span>状态。\n使用绝技时，将友方全体的<span style=\"color:#ff6724\">荧光棒</span>状态转化为<span style=\"color:#ff6724\">应援棒</span>状态，且刷新持续时间。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_W008503",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">荧光棒</span>",
+          "des": "对宿卫造成的伤害提升<span style=\"color:#158bdb\">5%</span>，持续<span style=\"color:#158bdb\">2</span>回合。"
+        },
+        {
+          "name": "<span style=\"color:#ff6724\">应援棒</span>",
+          "des": "对宿卫造成的伤害提升<span style=\"color:#158bdb\">20%</span>，持续<span style=\"color:#158bdb\">2</span>回合。"
+        }
+      ]
+    },
+    {
+      "name": "暖香沁人",
+      "des": "当场上拥有<span style=\"color:#ff6724\">荧光棒</span>和<span style=\"color:#ff6724\">应援棒</span>状态的目标大于等于<span style=\"color:#158bdb\">3</span>时，常击变为<span style=\"color:#158bdb\">1</span>格范围伤害，自身造成的构素伤害提高<span style=\"color:#158bdb\">3%</span>。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_W008504",
+      "buff": []
+    },
+    {
+      "name": "星梦熠熠",
+      "des": "在拥有<span style=\"color:#ff6724\">荧光棒</span>或<span style=\"color:#ff6724\">应援棒</span>状态的友方目标距离<span style=\"color:#ff6724\">1</span>格范围内发动常击时，构素伤害提升<span style=\"color:#158bdb\">20%</span>。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_W008505",
+      "buff": []
+    },
+    {
+      "name": "返场呼声",
+      "des": "自身立即获得<span style=\"color:#158bdb\">1</span>次只可进行常击的再行动，并进入<span style=\"color:#ff6724\">安可</span>状态。",
+      "tag": [
+        "自身",
+        "消耗:2"
+      ],
+      "level": 1,
+      "icon": "skillicon_Jobskill_W_R",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">安可</span>",
+          "des": "常击的最大攻击距离提高<span style=\"color:#158bdb\">1</span>格，造成的构素伤害提高<span style=\"color:#158bdb\">80%</span>"
+        }
+      ]
+    }
+  ]
+}

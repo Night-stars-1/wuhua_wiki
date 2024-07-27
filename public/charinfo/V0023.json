@@ -1,0 +1,104 @@
+{
+  "info": {
+    "name": "蛙锣",
+    "star": 0,
+    "Hp": 637,
+    "Atk": 228,
+    "PhysicDef": 38,
+    "MagicDef": 38,
+    "Speed": 170,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 3,
+    "Mov": 4,
+    "Hp_GROW": 51,
+    "Atk_GROW": 15,
+    "PhysicDef_GROW": 4,
+    "MagicDef_GROW": 4,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": ""
+  },
+  "skill": [
+    {
+      "name": "击锣",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+      "tag": [
+        "射程1格 ",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Commonattack_V",
+      "buff": []
+    },
+    {
+      "name": "呼风唤雨",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">200%</span>的物理伤害。若此次攻击击杀该单位，则自身<span style=\"color:#158bdb\">周围3格</span>的友方单位移动力增加<span style=\"color:#158bdb\">1</span>，效果持续<span style=\"color:#158bdb\">1</span>回合。",
+      "tag": [
+        "射程1格 ",
+        "消耗:3"
+      ],
+      "level": 1,
+      "icon": "skillicon_V002302",
+      "buff": []
+    },
+    {
+      "name": "蛙鸣",
+      "des": "使用职业技能后，下<span style=\"color:#158bdb\">1</span>次常击的伤害增加<span style=\"color:#158bdb\">40%</span>并击退受击敌方单位<span style=\"color:#db2424\">2</span>格。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_V002303",
+      "buff": []
+    },
+    {
+      "name": "暴雨",
+      "des": "使用职业技能后，下<span style=\"color:#158bdb\">1</span>次攻击有<span style=\"color:#158bdb\">50%</span>的概率使受击敌方单位获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">脆弱</span>状态。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_V002304",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">脆弱</span>",
+          "des": "提高受到的所有伤害<span style=\"color:#db2424\">30%</span>，每受到一次直接攻击减少<span style=\"color:#ff6724\">1层</span>，持续<span style=\"color:#4395d6\">2</span>回合或层数用完。"
+        }
+      ]
+    },
+    {
+      "name": "善水",
+      "des": "进入战斗后，自身攻击力提高<span style=\"color:#158bdb\">10%</span>。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_V002305",
+      "buff": []
+    },
+    {
+      "name": "蛙跳",
+      "des": "使用后自身获得再行动<span style=\"color:#158bdb\">1</span>次，该次再行动的移动力减少<span style=\"color:#158bdb\">2</span>。",
+      "tag": [
+        "自身",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Jobskill_V",
+      "buff": []
+    }
+  ]
+}

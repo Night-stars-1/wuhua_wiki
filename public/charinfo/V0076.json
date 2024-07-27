@@ -1,0 +1,108 @@
+{
+  "info": {
+    "name": "金瓯永固杯",
+    "star": 0,
+    "Hp": 695,
+    "Atk": 345,
+    "PhysicDef": 58,
+    "MagicDef": 58,
+    "Speed": 100,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 3,
+    "Mov": 4,
+    "Hp_GROW": 56,
+    "Atk_GROW": 23,
+    "PhysicDef_GROW": 6,
+    "MagicDef_GROW": 6,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": ""
+  },
+  "skill": [
+    {
+      "name": "金錾",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+      "tag": [
+        "射程1格 ",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Commonattack_V",
+      "buff": []
+    },
+    {
+      "name": "朱玉金辉",
+      "des": "对选定的敌方单位及其<span style=\"color:#158bdb\">周围2格</span>的敌方单位随机进行<span style=\"color:#158bdb\">6</span>次攻击，每次攻击造成自身攻击力<span style=\"color:#158bdb\">30%</span>的物理伤害。",
+      "tag": [
+        "射程2格",
+        "消耗:3"
+      ],
+      "level": 1,
+      "icon": "skillicon_V007602",
+      "buff": []
+    },
+    {
+      "name": "屠苏迎岁",
+      "des": "攻击敌方单位时，使其获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">金虹乍现</span>状态，此状态最多可叠加<span style=\"color:#158bdb\">3</span>层，持续<span style=\"color:#158bdb\">2</span>回合。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_V007603",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">金虹乍现</span>",
+          "des": "受到金瓯永固杯的直接攻击时，自身每存在<span style=\"color:#158bdb\">1</span>层此状态，则受到<span style=\"color:#158bdb\">1</span>次敌方金瓯永固杯攻击力<span style=\"color:#158bdb\">30%</span>的<span style=\"color:#ff6724\">额外物理伤害</span>。"
+        },
+        {
+          "name": "<span style=\"color:#ff6724\">额外物理伤害</span>",
+          "des": "此伤害不触发暴击和贯穿效果，且无法被格挡。"
+        }
+      ]
+    },
+    {
+      "name": "金瓯万年",
+      "des": "对携带<span style=\"color:#ff6724\">金虹乍现</span>状态的目标进行常击后，每层<span style=\"color:#ff6724\">金虹乍现</span>状态提供<span style=\"color:#158bdb\">40%</span>的概率触发连击，造成攻击力<span style=\"color:#158bdb\">40%</span>的物理伤害。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_V007604",
+      "buff": []
+    },
+    {
+      "name": "三象分足",
+      "des": "释放职业技能后，可在原地释放常击或者绝技；对携带满层<span style=\"color:#ff6724\">金虹乍现</span>状态的目标攻击时，造成的伤害提高<span style=\"color:#158bdb\">10%</span>。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_V007605",
+      "buff": []
+    },
+    {
+      "name": "夔龙托珠",
+      "des": "向自身十字方向的选定格子冲刺，冲刺距离最大<span style=\"color:#158bdb\">4</span>格，对路径上的所有敌方单位造成自身攻击力<span style=\"color:#158bdb\">70%</span>的物理伤害。",
+      "tag": [
+        "十字4格",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_V007611",
+      "buff": []
+    }
+  ]
+}

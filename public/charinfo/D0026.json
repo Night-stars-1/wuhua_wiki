@@ -1,0 +1,104 @@
+{
+  "info": {
+    "name": "玛雅文字陶碗",
+    "star": 0,
+    "Hp": 1176,
+    "Atk": 248,
+    "PhysicDef": 35,
+    "MagicDef": 35,
+    "Speed": 75,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 3,
+    "Mov": 4,
+    "Hp_GROW": 47,
+    "Atk_GROW": 17,
+    "PhysicDef_GROW": 4,
+    "MagicDef_GROW": 4,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": ""
+  },
+  "skill": [
+    {
+      "name": "猎食",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+      "tag": [
+        "射程1格 ",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Commonattack_D",
+      "buff": []
+    },
+    {
+      "name": "可可生长",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">140%</span>的物理伤害，并使自身攻击力提高<span style=\"color:#158bdb\">10%</span>，闪避率提高<span style=\"color:#158bdb\">10%</span>，效果持续<span style=\"color:#158bdb\">10</span>回合。",
+      "tag": [
+        "射程1格 ",
+        "消耗:3"
+      ],
+      "level": 1,
+      "icon": "skillicon_D002602",
+      "buff": []
+    },
+    {
+      "name": "风啸",
+      "des": "受到自身<span style=\"color:#158bdb\">周围1格</span>的敌方单位攻击触发闪避后，对其进行回击，造成自身攻击力<span style=\"color:#158bdb\">30%</span>的物理伤害。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_D002603",
+      "buff": []
+    },
+    {
+      "name": "卓尔金",
+      "des": "受到直接攻击时，若自身当前生命值低于<span style=\"color:#158bdb\">40%</span>，则获得<span style=\"color:#158bdb\">1</span>点能量。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_D002604",
+      "buff": []
+    },
+    {
+      "name": "玉米之神",
+      "des": "进入战斗后，自身最大生命值提高<span style=\"color:#158bdb\">10%</span>。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_D002605",
+      "buff": []
+    },
+    {
+      "name": "雨林",
+      "des": "使自身选定方向前<span style=\"color:#158bdb\">1</span>排的<span style=\"color:#158bdb\">3</span>格变为束缚格，效果持续<span style=\"color:#158bdb\">1</span>回合。若敌方单位进入束缚格，将无法离开束缚格范围，并进入<span style=\"color:#ff6724\">破甲</span>状态。",
+      "tag": [
+        "射程1格 ",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Jobskill_D_Z",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">破甲</span>",
+          "des": "物理防御降低<span style=\"color:#158bdb\">30%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">1</span>层。"
+        }
+      ]
+    }
+  ]
+}

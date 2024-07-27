@@ -1,0 +1,104 @@
+{
+  "info": {
+    "name": "制盐画像砖",
+    "star": 0,
+    "Hp": 638,
+    "Atk": 324,
+    "PhysicDef": 39,
+    "MagicDef": 39,
+    "Speed": 95,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 3,
+    "Mov": 4,
+    "Hp_GROW": 51,
+    "Atk_GROW": 22,
+    "PhysicDef_GROW": 4,
+    "MagicDef_GROW": 4,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": ""
+  },
+  "skill": [
+    {
+      "name": "井火",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+      "tag": [
+        "射程1格 ",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Commonattack_V",
+      "buff": []
+    },
+    {
+      "name": "临邛盐涌",
+      "des": "对自身<span style=\"color:#158bdb\">周围2格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">130%</span>的物理伤害。",
+      "tag": [
+        "自身",
+        "消耗:3"
+      ],
+      "level": 1,
+      "icon": "skillicon_V006402",
+      "buff": []
+    },
+    {
+      "name": "连竹引气",
+      "des": "使用职业技能后，该回合下次常击触发连击，对其造成自身攻击力<span style=\"color:#158bdb\">60%</span>的物理伤害。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_V006403",
+      "buff": []
+    },
+    {
+      "name": "盐泉之井",
+      "des": "常击或连击后，使该受击的敌方单位获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">脆弱</span>状态；绝技命中后，使受伤害的敌方单位获得<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">脆弱</span>状态；自身攻击处于<span style=\"color:#ff6724\">脆弱</span>状态的敌方单位时，造成的伤害提高<span style=\"color:#158bdb\">5%</span>。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_V006404",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">脆弱</span>",
+          "des": "提高受到的所有伤害<span style=\"color:#db2424\">30%</span>，每受到一次直接攻击减少<span style=\"color:#ff6724\">1层</span>，持续<span style=\"color:#4395d6\">2</span>回合或层数用完。"
+        }
+      ]
+    },
+    {
+      "name": "云蒸雾蔚",
+      "des": "进入战斗后，连击的伤害提高<span style=\"color:#158bdb\">10%</span>。常击后有<span style=\"color:#158bdb\">50%</span>概率使职业技能冷却时间减少<span style=\"color:#158bdb\">1</span>回合。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_V006405",
+      "buff": []
+    },
+    {
+      "name": "天车",
+      "des": "使用后自身获得再行动<span style=\"color:#158bdb\">1</span>次，该次再行动的移动力减少<span style=\"color:#158bdb\">2</span>。",
+      "tag": [
+        "自身",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Jobskill_V",
+      "buff": []
+    }
+  ]
+}

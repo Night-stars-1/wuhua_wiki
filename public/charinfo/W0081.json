@@ -1,0 +1,118 @@
+{
+  "info": {
+    "name": "银香囊",
+    "star": 0,
+    "Hp": 797,
+    "Atk": 258,
+    "PhysicDef": 39,
+    "MagicDef": 39,
+    "Speed": 165,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 3,
+    "Mov": 3,
+    "Hp_GROW": 64,
+    "Atk_GROW": 17,
+    "PhysicDef_GROW": 4,
+    "MagicDef_GROW": 4,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": ""
+  },
+  "skill": [
+    {
+      "name": "香袭",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
+      "tag": [
+        "射程2格",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Commonattack_W",
+      "buff": []
+    },
+    {
+      "name": "花鸟盈香",
+      "des": "为选定的友方单位及其<span style=\"color:#158bdb\">周围2格</span>的友方全体回复自身攻击力<span style=\"color:#158bdb\">10|400</span>的生命值，驱散其持续伤害类和属性降低类负面效果，并使其获得持续<span style=\"color:#158bdb\">2</span>回合的<span style=\"color:#ff6724\">余香</span>状态。",
+      "tag": [
+        "射程2格",
+        "消耗:3"
+      ],
+      "level": 1,
+      "icon": "skillicon_W008102",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">余香</span>",
+          "des": "状态持续期间，自身免疫持续伤害类和属性降低类负面效果。"
+        }
+      ]
+    },
+    {
+      "name": "馥烟薄沁",
+      "des": "使用职业技能时，若选定自身为目标，则使自身<span style=\"color:#158bdb\">周围2格</span>的友方全体回复自身攻击力<span style=\"color:#158bdb\">25|300</span>的生命值；\n若选定除自身外的其他友方单位，则该次治疗时自身攻击力提升至<span style=\"color:#158bdb\">1.3</span>倍，且自身额外获得<span style=\"color:#158bdb\">1</span>点能量。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_W008103",
+      "buff": []
+    },
+    {
+      "name": "银镂祥意",
+      "des": "进入战斗时，获得<span style=\"color:#158bdb\">5</span>层<span style=\"color:#ff6724\">沐芳</span>状态；\n每回合开始时、自身每次溢出能量时，则获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">沐芳</span>状态；\n使用职业技能时，每治疗<span style=\"color:#158bdb\">1</span>个单位，则获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">沐芳</span>状态。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_W008104",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">沐芳</span>",
+          "des": "此状态不少于<span style=\"color:#158bdb\">3</span>层时，自身治疗量提升<span style=\"color:#158bdb\">20%</span>，移动力增加<span style=\"color:#158bdb\">1</span>。\n此状态最多可叠加<span style=\"color:#158bdb\">10</span>层。"
+        }
+      ]
+    },
+    {
+      "name": "金盂恒衡",
+      "des": "进入战斗后，暴击率增加<span style=\"color:#158bdb\">30%</span>；\n若自身<span style=\"color:#158bdb\">1</span>回合内未进行常击，则回合结束时额外获得<span style=\"color:#158bdb\">1</span>点能量；\n进行常击时，消耗<span style=\"color:#158bdb\">-4</span>层<span style=\"color:#ff6724\">沐芳</span>状态，使自身<span style=\"color:#158bdb\">周围1圈</span>内的随机<span style=\"color:#158bdb\">1</span>名友方单位获得<span style=\"color:#158bdb\">-10</span>层<span style=\"color:#ff6724\">啸剑</span>和<span style=\"color:#158bdb\">-10</span>层<span style=\"color:#ff6724\">蓄势</span>状态；\n使用绝技时，消耗<span style=\"color:#158bdb\">-10</span>层<span style=\"color:#ff6724\">沐芳</span>状态，使选定单位及其<span style=\"color:#158bdb\">周围1格</span>的友方全体获得<span style=\"color:#158bdb\">-10</span>层<span style=\"color:#ff6724\">啸剑</span>和<span style=\"color:#158bdb\">-10</span>层<span style=\"color:#ff6724\">蓄势</span>状态。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_W008105",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">啸剑</span>",
+          "des": "攻击力提高<span style=\"color:#158bdb\">20%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">2</span>层。"
+        },
+        {
+          "name": "<span style=\"color:#ff6724\">蓄势</span>",
+          "des": "提高所有伤害<span style=\"color:#158bdb\">20%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">2</span>层。"
+        }
+      ]
+    },
+    {
+      "name": "葡枝蔓生",
+      "des": "为选定的友方单体回复自身攻击力<span style=\"color:#158bdb\">25|300</span>的生命值。",
+      "tag": [
+        "射程2格",
+        "消耗:2"
+      ],
+      "level": 1,
+      "icon": "skillicon_Jobskill_W_H",
+      "buff": []
+    }
+  ]
+}

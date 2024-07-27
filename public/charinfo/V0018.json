@@ -1,0 +1,108 @@
+{
+  "info": {
+    "name": "战国铜冰鉴",
+    "star": 0,
+    "Hp": 583,
+    "Atk": 284,
+    "PhysicDef": 47,
+    "MagicDef": 47,
+    "Speed": 175,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 4,
+    "Mov": 4,
+    "Hp_GROW": 47,
+    "Atk_GROW": 19,
+    "PhysicDef_GROW": 5,
+    "MagicDef_GROW": 5,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": ""
+  },
+  "skill": [
+    {
+      "name": "冰极",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+      "tag": [
+        "射程1格 ",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Commonattack_V",
+      "buff": []
+    },
+    {
+      "name": "车载武装",
+      "des": "对选定敌方单位的<span style=\"color:#158bdb\">周围2格</span>内随机<span style=\"color:#158bdb\">3</span>名敌方单位造成自身攻击力<span style=\"color:#158bdb\">80%</span>的物理伤害，并使其获得<span style=\"color:#ff6724\">危险食盒</span>状态。",
+      "tag": [
+        "射程2格",
+        "消耗:4"
+      ],
+      "level": 1,
+      "icon": "skillicon_V001802",
+      "buff": []
+    },
+    {
+      "name": "冰酒以待",
+      "des": "自身回合开始时，使自身<span style=\"color:#158bdb\">周围4格</span>内的随机敌方单体获得<span style=\"color:#ff6724\">截道者</span>状态。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_V001803",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">截道者</span>",
+          "des": "受到敌方战国铜冰鉴攻击后会获得<span style=\"color:#ff6724\">危险食盒</span>，并清除本状态。此状态可刷新，不可叠加，全场只能同时存在<span style=\"color:#158bdb\">1</span>个。"
+        },
+        {
+          "name": "<span style=\"color:#ff6724\">危险食盒</span>",
+          "des": "移动力减少<span style=\"color:#158bdb\">-1</span>。进行移动后，对自身<span style=\"color:#158bdb\">周围1格</span>内的友方全体造成敌方战国铜冰鉴攻击力<span style=\"color:#158bdb\">60%</span>的物理伤害。状态持续<span style=\"color:#158bdb\">2</span>回合。"
+        }
+      ]
+    },
+    {
+      "name": "此单必达",
+      "des": "攻击处于<span style=\"color:#ff6724\">截道者</span>状态的敌方单位后，自身获得再次移动，该次额外移动的移动力减少<span style=\"color:#158bdb\">-2</span>。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_V001804",
+      "buff": []
+    },
+    {
+      "name": "蟠螭腾啸",
+      "des": "<span style=\"color:#ff6724\">危险食盒</span>状态造成的伤害提高<span style=\"color:#158bdb\">20%</span>。若该状态造成伤害，则自身移动力增加<span style=\"color:#158bdb\">1</span>；若该状态造成的伤害击败敌方单位，则自身移动力增加<span style=\"color:#158bdb\">2</span>。移动力增加效果不可叠加，持续<span style=\"color:#158bdb\">1</span>回合。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_V001805",
+      "buff": []
+    },
+    {
+      "name": "飞驰",
+      "des": "使用后自身获得再行动<span style=\"color:#158bdb\">1</span>次，该次再行动的移动力减少<span style=\"color:#158bdb\">2</span>。",
+      "tag": [
+        "自身",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Jobskill_V",
+      "buff": []
+    }
+  ]
+}

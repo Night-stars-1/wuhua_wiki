@@ -1,0 +1,114 @@
+{
+  "info": {
+    "name": "冷暖自知",
+    "star": 0,
+    "Hp": 464,
+    "Atk": 271,
+    "PhysicDef": 25,
+    "MagicDef": 25,
+    "Speed": 95,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 3,
+    "Mov": 3,
+    "Hp_GROW": 37,
+    "Atk_GROW": 18,
+    "PhysicDef_GROW": 2,
+    "MagicDef_GROW": 2,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": ""
+  },
+  "skill": [
+    {
+      "name": "单刀",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
+      "tag": [
+        "射程2格",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Commonattack_W",
+      "buff": []
+    },
+    {
+      "name": "印文如风",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">220%</span>的构素伤害，并使其进入<span style=\"color:#ff6724\">火印</span>状态。",
+      "tag": [
+        "射程2格",
+        "消耗:3"
+      ],
+      "level": 1,
+      "icon": "skillicon_W007102",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">火印</span>",
+          "des": "每回合开始时受到冷暖自知印攻击力<span style=\"color:#158bdb\">10%</span>的伤害，持续<span style=\"color:#158bdb\">2</span>回合。"
+        }
+      ]
+    },
+    {
+      "name": "沉雕",
+      "des": "攻击敌方单位时，若该单位同时处于<span style=\"color:#ff6724\">火印</span>状态和<span style=\"color:#ff6724\">雪渔</span>状态，则消耗全部<span style=\"color:#ff6724\">火印</span>和<span style=\"color:#ff6724\">雪渔</span>，对该单位额外造成自身攻击力<span style=\"color:#158bdb\">110%</span>的构素伤害。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_W007103",
+      "buff": []
+    },
+    {
+      "name": "锉磨",
+      "des": "触发被动技能<span style=\"color:#ff6724\">沉雕</span>时，使该敌方单位获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">脆弱</span>状态。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_W007104",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">脆弱</span>",
+          "des": "提高受到的所有伤害<span style=\"color:#db2424\">30%</span>，每受到一次直接攻击减少<span style=\"color:#ff6724\">1层</span>，持续<span style=\"color:#4395d6\">2</span>回合或层数用完。"
+        }
+      ]
+    },
+    {
+      "name": "入石",
+      "des": "进入战斗后，自身攻击力提高<span style=\"color:#158bdb\">10%</span>。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_W007105",
+      "buff": []
+    },
+    {
+      "name": "白文如雪",
+      "des": "使选定的敌方单体进入<span style=\"color:#ff6724\">雪渔</span>状态，并对其造成自身攻击力<span style=\"color:#158bdb\">50%</span>的构素伤害。",
+      "tag": [
+        "射程2格",
+        "消耗:1"
+      ],
+      "level": 1,
+      "icon": "skillicon_Jobskill_W_D",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">雪渔</span>",
+          "des": "移动力降低<span style=\"color:#ff6724\">-2</span>，持续<span style=\"color:#158bdb\">2</span>回合。"
+        }
+      ]
+    }
+  ]
+}

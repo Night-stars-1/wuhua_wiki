@@ -1,0 +1,109 @@
+{
+  "info": {
+    "name": "西周青铜云雷纹大铙",
+    "star": 0,
+    "Hp": 641,
+    "Atk": 373,
+    "PhysicDef": 39,
+    "MagicDef": 39,
+    "Speed": 150,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 3,
+    "Mov": 3,
+    "Hp_GROW": 51,
+    "Atk_GROW": 25,
+    "PhysicDef_GROW": 4,
+    "MagicDef_GROW": 4,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": ""
+  },
+  "skill": [
+    {
+      "name": "退堂鼓",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+      "tag": [
+        "十字3格",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Commonattack_A",
+      "buff": []
+    },
+    {
+      "name": "金石铿锵",
+      "des": "攻击目标，造成攻击力<span style=\"color:#158bdb\">260%</span>的伤害，击退目标<span style=\"color:#ff6724\">2</span>格。",
+      "tag": [
+        "十字3格",
+        "消耗:3"
+      ],
+      "level": 1,
+      "icon": "skillicon_A008402",
+      "buff": []
+    },
+    {
+      "name": "云雷弥漫",
+      "des": "使用职业技能后，进行持续<span style=\"color:#158bdb\">1</span>回合的协助瞄准，强化自身<span style=\"color:#158bdb\">3</span>格范围内的友军远击，使其攻击过程中获得<span style=\"color:#158bdb\">3%</span>防御穿透率。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_A008403",
+      "buff": []
+    },
+    {
+      "name": "鸣金",
+      "des": "协助瞄准范围内，友方远击进行常击后获得<span style=\"color:#ff6724\">铜锈</span>状态,持续<span style=\"color:#158bdb\">5</span>回合。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_A008404",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">铜锈</span>",
+          "des": "造成的连击伤害提高<span style=\"color:#158bdb\">5%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">3</span>层。"
+        }
+      ]
+    },
+    {
+      "name": "收兵",
+      "des": "协助瞄准范围内，友方单位进行击退时，提高自身<span style=\"color:#158bdb\">20%</span>瞄准冷却率，持续<span style=\"color:#158bdb\">20</span>回合，最多叠加<span style=\"color:#158bdb\">2</span>层。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_A008405",
+      "buff": []
+    },
+    {
+      "name": "止鼓",
+      "des": "使用后自身获得<span style=\"color:#158bdb\">1</span>次不可移动的再行动，并进入<span style=\"color:#ff6724\">瞄准</span>状态。",
+      "tag": [
+        "自身",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Jobskill_A",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">瞄准</span>",
+          "des": "此状态下进行攻击时，最大攻击距离增加<span style=\"color:#158bdb\">4</span>格，该次再行动结束后，此状态消失。"
+        }
+      ]
+    }
+  ]
+}

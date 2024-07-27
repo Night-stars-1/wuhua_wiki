@@ -1,0 +1,109 @@
+{
+  "info": {
+    "name": "战国铜餐具",
+    "star": 0,
+    "Hp": 1356,
+    "Atk": 220,
+    "PhysicDef": 44,
+    "MagicDef": 44,
+    "Speed": 75,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 3,
+    "Mov": 4,
+    "Hp_GROW": 54,
+    "Atk_GROW": 15,
+    "PhysicDef_GROW": 4,
+    "MagicDef_GROW": 4,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": ""
+  },
+  "skill": [
+    {
+      "name": "团建",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+      "tag": [
+        "射程1格 ",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Commonattack_D",
+      "buff": []
+    },
+    {
+      "name": "齐地风物",
+      "des": "获得<span style=\"color:#ff6724\">同赏</span>状态，并使自身物理防御提高<span style=\"color:#158bdb\">30%</span>，效果持续<span style=\"color:#158bdb\">30</span>回合。",
+      "tag": [
+        "自身",
+        "消耗:3"
+      ],
+      "level": 1,
+      "icon": "skillicon_D001402",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">同赏</span>",
+          "des": "当自身<span style=\"color:#158bdb\">周围1格</span>内的友方单位受到伤害时，代替其承受伤害。\n<span style=\"color:#db2424\">只可对除绝技、警戒攻击和回击外造成单体伤害的攻击生效。</span>"
+        }
+      ]
+    },
+    {
+      "name": "多人宴会",
+      "des": "触发<span style=\"color:#ff6724\">援护</span>后，若自身<span style=\"color:#158bdb\">周围1格</span>内的友方单位不少于<span style=\"color:#158bdb\">2</span>，则回复自身已损失生命值的<span style=\"color:#158bdb\">10%</span>；此效果每回合可触发<span style=\"color:#158bdb\">1</span>次。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_D001403",
+      "buff": []
+    },
+    {
+      "name": "分工合作",
+      "des": "触发<span style=\"color:#ff6724\">援护</span>后，有<span style=\"color:#158bdb\">60%</span>概率使自身获得<span style=\"color:#158bdb\">1</span>点能量。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_D001404",
+      "buff": []
+    },
+    {
+      "name": "叠罗汉",
+      "des": "进入战斗后，自身物理防御提高<span style=\"color:#158bdb\">10%</span>。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_D001405",
+      "buff": []
+    },
+    {
+      "name": "藏器于内",
+      "des": "使用后可<span style=\"color:#ff6724\">援护</span>自身周围<span style=\"color:#158bdb\">2</span>格内的友方单位，效果持续<span style=\"color:#158bdb\">2</span>回合。",
+      "tag": [
+        "自身",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Jobskill_D_I",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">援护</span>",
+          "des": "当友方单位受到伤害时，代替其承受伤害。\n<span style=\"color:#db2424\">只可对除绝技、警戒攻击和回击外造成单体伤害的攻击生效。</span>"
+        }
+      ]
+    }
+  ]
+}
