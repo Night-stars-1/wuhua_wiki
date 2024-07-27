@@ -41,7 +41,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Commonattack_D",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "八音克谐",
@@ -52,7 +53,8 @@
       ],
       "level": 1,
       "icon": "skillicon_D009202",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "旋宫",
@@ -62,7 +64,8 @@
       ],
       "level": 1,
       "icon": "skillicon_D009203",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "希声",
@@ -85,7 +88,8 @@
           "name": "<span style=\"color:#ff6724\">定宫</span>",
           "des": "免疫<span style=\"color:#158bdb\">1</span>次构素伤害，并对攻击者造成编钟最大生命值<span style=\"color:#158bdb\">10%</span>构素伤害，持续<span style=\"color:#158bdb\">2</span>回合。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "雅音",
@@ -100,7 +104,8 @@
           "name": "<span style=\"color:#ff6724\">旋律</span>",
           "des": "曾侯乙编钟在常击、直接受击、援护受击后获得的状态，包括<span style=\"color:#ff6724\">清乐</span>、<span style=\"color:#ff6724\">燕乐</span>与<span style=\"color:#ff6724\">雅乐</span>。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "转调",
@@ -116,7 +121,8 @@
           "name": "<span style=\"color:#ff6724\">援护</span>",
           "des": "当友方单位受到伤害时，代替其承受伤害。\n<span style=\"color:#db2424\">只可对除绝技、警戒攻击和回击外造成单体伤害的攻击生效。</span>"
         }
-      ]
+      ],
+      "type": 1
     }
   ],
   "skin": [

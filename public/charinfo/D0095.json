@@ -41,7 +41,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Commonattack_D",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "骑士传说",
@@ -57,7 +58,8 @@
           "name": "<span style=\"color:#ff6724\">犇牛</span>",
           "des": "提升最大生命值，最大叠加<span style=\"color:#158bdb\">4</span>层。"
         }
-      ]
+      ],
+      "type": 1
     },
     {
       "name": "四牛为守",
@@ -72,7 +74,8 @@
           "name": "<span style=\"color:#ff6724\">犇牛</span>",
           "des": "提升最大生命值，最大叠加<span style=\"color:#158bdb\">4</span>层。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "鎏金铸甲",
@@ -82,7 +85,8 @@
       ],
       "level": 1,
       "icon": "skillicon_D009504",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "守护之誓",
@@ -97,7 +101,8 @@
           "name": "<span style=\"color:#ff6724\">额外物理伤害</span>",
           "des": "此伤害不触发暴击和贯穿效果，且无法被格挡。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "贮藏",
@@ -113,7 +118,8 @@
           "name": "<span style=\"color:#ff6724\">破甲</span>",
           "des": "物理防御降低<span style=\"color:#158bdb\">30%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">1</span>层。"
         }
-      ]
+      ],
+      "type": 1
     }
   ],
   "skin": [

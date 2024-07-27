@@ -41,7 +41,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Commonattack_V",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "寒光霜刃",
@@ -52,7 +53,8 @@
       ],
       "level": 1,
       "icon": "skillicon_V003402",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "慕强",
@@ -71,7 +73,8 @@
           "name": "<span style=\"color:#ff6724\">割裂</span>",
           "des": "触发流失伤害时，有<span style=\"color:#ff6724\">40%</span>概率受到一次攻击力<span style=\"color:#158bdb\">50%</span>的<span style=\"color:#ff6724\">额外物理伤害</span>。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "孤锋",
@@ -81,7 +84,8 @@
       ],
       "level": 1,
       "icon": "skillicon_V003404",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "剑影",
@@ -91,7 +95,8 @@
       ],
       "level": 1,
       "icon": "skillicon_V003405",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "幼兽",
@@ -102,7 +107,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Jobskill_V",
-      "buff": []
+      "buff": [],
+      "type": 1
     }
   ],
   "skin": [

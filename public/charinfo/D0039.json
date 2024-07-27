@@ -41,7 +41,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Commonattack_D",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "浩浩万物",
@@ -52,7 +53,8 @@
       ],
       "level": 1,
       "icon": "skillicon_D003902",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "月阴",
@@ -62,7 +64,8 @@
       ],
       "level": 1,
       "icon": "skillicon_D003903",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "日阳",
@@ -72,7 +75,8 @@
       ],
       "level": 1,
       "icon": "skillicon_D003904",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "星狩",
@@ -82,7 +86,8 @@
       ],
       "level": 1,
       "icon": "skillicon_D003905",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "万神朝来",
@@ -98,7 +103,8 @@
           "name": "<span style=\"color:#ff6724\">解构</span>",
           "des": "构素防御降低<span style=\"color:#158bdb\">30%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">1</span>层。"
         }
-      ]
+      ],
+      "type": 1
     }
   ],
   "skin": [

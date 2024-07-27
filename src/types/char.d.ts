@@ -155,6 +155,12 @@ interface SkillInfo {
    * buff
    */
   buff: Buff[];
+  /**
+   * 类型
+   * 1 主动
+   * 2 被动
+   */
+  type: number
 }
 
 interface CharData {

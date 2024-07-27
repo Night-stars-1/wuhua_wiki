@@ -41,7 +41,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Commonattack_V",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "器药入卷",
@@ -57,7 +58,8 @@
           "name": "<span style=\"color:#ff6724\">流失</span>",
           "des": "每移动一格，受到最大生命值<span style=\"color:#158bdb\">5%</span>的伤害，可叠加<span style=\"color:#158bdb\">5</span>层，持续<span style=\"color:#158bdb\">2</span>回合。"
         }
-      ]
+      ],
+      "type": 1
     },
     {
       "name": "穿刺",
@@ -72,7 +74,8 @@
           "name": "<span style=\"color:#ff6724\">流失</span>",
           "des": "每移动一格，受到最大生命值<span style=\"color:#158bdb\">5%</span>的伤害，可叠加<span style=\"color:#158bdb\">5</span>层，持续<span style=\"color:#158bdb\">2</span>回合。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "悬壶",
@@ -82,7 +85,8 @@
       ],
       "level": 1,
       "icon": "skillicon_V000604",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "三根相合",
@@ -92,7 +96,8 @@
       ],
       "level": 1,
       "icon": "skillicon_V000605",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "七素如常",
@@ -103,7 +108,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Jobskill_V",
-      "buff": []
+      "buff": [],
+      "type": 1
     }
   ],
   "skin": [

@@ -41,7 +41,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Commonattack_W",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "长卷逸舒",
@@ -52,7 +53,8 @@
       ],
       "level": 1,
       "icon": "skillicon_W002902",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "轻云蔽月",
@@ -67,7 +69,8 @@
           "name": "<span style=\"color:#ff6724\">额外构素伤害</span>",
           "des": "此伤害不触发暴击和贯穿效果，且无法被格挡，但会被构素护盾抵挡。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "流风回雪",
@@ -77,7 +80,8 @@
       ],
       "level": 1,
       "icon": "skillicon_W002904",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "秀骨清像",
@@ -87,7 +91,8 @@
       ],
       "level": 1,
       "icon": "skillicon_W002905",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "文思泉涌",
@@ -98,7 +103,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Jobskill_W_H",
-      "buff": []
+      "buff": [],
+      "type": 1
     }
   ],
   "skin": [

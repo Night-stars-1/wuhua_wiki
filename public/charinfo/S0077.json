@@ -41,7 +41,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Commonattack_S",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "岁星天照",
@@ -57,7 +58,8 @@
           "name": "<span style=\"color:#ff6724\">回溯</span>",
           "des": "将生命值，能量值，技能冷却状态回复至上一次行动时的状态（保留更为有利的结果）。"
         }
-      ]
+      ],
+      "type": 1
     },
     {
       "name": "圜方",
@@ -67,7 +69,8 @@
       ],
       "level": 1,
       "icon": "skillicon_S007703",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "铭刻",
@@ -77,7 +80,8 @@
       ],
       "level": 1,
       "icon": "skillicon_S007704",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "褒赏",
@@ -87,7 +91,8 @@
       ],
       "level": 1,
       "icon": "skillicon_S007705",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "云雷引",
@@ -103,7 +108,8 @@
           "name": "<span style=\"color:#ff6724\">礼弹</span>",
           "des": "填充<span style=\"color:#ff6724\">礼弹</span>则进入警戒状态，每次警戒攻击或治疗将消耗<span style=\"color:#ff6724\">礼弹</span>，<span style=\"color:#ff6724\">礼弹</span>清零后自动结束警戒状态。"
         }
-      ]
+      ],
+      "type": 1
     }
   ],
   "skin": [

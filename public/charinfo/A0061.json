@@ -41,7 +41,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Commonattack_A",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "惊鹤掠雷",
@@ -52,7 +53,8 @@
       ],
       "level": 1,
       "icon": "skillicon_A006102",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "鹤步鹿音",
@@ -71,7 +73,8 @@
           "name": "<span style=\"color:#ff6724\">止戈</span>",
           "des": "无法进行常击，持续<span style=\"color:#158bdb\">1</span>回合。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "鹿鸣四野",
@@ -86,7 +89,8 @@
           "name": "<span style=\"color:#ff6724\">驾鹤引雷</span>",
           "des": "攻击后，若受击目标带有<span style=\"color:#ff6724\">嘹唳亭风</span>，则有<span style=\"color:#158bdb\">30%</span>概率立即触发1次<span style=\"color:#ff6724\">嘹唳亭风</span>。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "霜翎不染",
@@ -96,7 +100,8 @@
       ],
       "level": 1,
       "icon": "skillicon_A006105",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "引鹿",
@@ -112,7 +117,8 @@
           "name": "<span style=\"color:#ff6724\">瞄准</span>",
           "des": "此状态下进行攻击时，最大攻击距离增加<span style=\"color:#158bdb\">4</span>格，该次再行动结束后，此状态消失。"
         }
-      ]
+      ],
+      "type": 1
     }
   ],
   "skin": [

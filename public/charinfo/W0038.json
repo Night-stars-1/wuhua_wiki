@@ -41,7 +41,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Commonattack_W",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "取光藏烟",
@@ -57,7 +58,8 @@
           "name": "<span style=\"color:#ff6724\">沐光</span>",
           "des": "自身进行治疗时，攻击力提升至<span style=\"color:#158bdb\">1.25</span>倍，持续<span style=\"color:#158bdb\">2</span>回合。"
         }
-      ]
+      ],
+      "type": 1
     },
     {
       "name": "驱暗",
@@ -66,8 +68,9 @@
         "被动触发"
       ],
       "level": 1,
-      "icon": "",
-      "buff": []
+      "icon": "skillicon_W003803",
+      "buff": [],
+      "type": 2
     },
     {
       "name": "余辉",
@@ -76,8 +79,9 @@
         "被动触发"
       ],
       "level": 1,
-      "icon": "",
-      "buff": []
+      "icon": "skillicon_W003804",
+      "buff": [],
+      "type": 2
     },
     {
       "name": "残烛回光",
@@ -86,13 +90,14 @@
         "被动触发"
       ],
       "level": 1,
-      "icon": "",
+      "icon": "skillicon_W003805",
       "buff": [
         {
           "name": "<span style=\"color:#ff6724\">残烛回光</span>",
           "des": "在<span style=\"color:#4395d6\">2</span>回合内不会被击败且不可行动；在此期间，自身治疗量提高<span style=\"color:#158bdb\">10%</span>，被动技能<span style=\"color:#ff6724\">驱暗</span>的治疗范围变为<span style=\"color:#158bdb\">周围4格</span>。<span style=\"color:#4395d6\">2</span>回合后退场。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "燃己为烛",
@@ -103,7 +108,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Jobskill_W_H",
-      "buff": []
+      "buff": [],
+      "type": 1
     }
   ],
   "skin": [

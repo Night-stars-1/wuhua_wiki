@@ -41,7 +41,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Commonattack_A",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "合亲会聚",
@@ -57,7 +58,8 @@
           "name": "<span style=\"color:#ff6724\">额外物理伤害</span>",
           "des": "此伤害不触发暴击和贯穿效果，且无法被格挡。"
         }
-      ]
+      ],
+      "type": 1
     },
     {
       "name": "浮翠流丹",
@@ -72,7 +74,8 @@
           "name": "<span style=\"color:#ff6724\">供奉</span>",
           "des": "<span style=\"color:#ff6724\">瞄准</span>状态下暴击率增加<span style=\"color:#67a3f7\">10%</span>，最多叠加<span style=\"color:#67a3f7\">3</span>层，<span style=\"color:#ff6724\">瞄准</span>状态下攻击后移除所有层数。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "落叶归根",
@@ -82,7 +85,8 @@
       ],
       "level": 1,
       "icon": "skillicon_A006904",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "化木为金",
@@ -92,7 +96,8 @@
       ],
       "level": 1,
       "icon": "skillicon_A006905",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "镂通之技",
@@ -108,7 +113,8 @@
           "name": "<span style=\"color:#ff6724\">瞄准</span>",
           "des": "此状态下进行攻击时，最大攻击距离增加<span style=\"color:#158bdb\">4</span>格，该次再行动结束后，此状态消失。"
         }
-      ]
+      ],
+      "type": 1
     }
   ],
   "skin": [

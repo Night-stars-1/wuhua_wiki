@@ -41,7 +41,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Commonattack_S",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "君必高迁",
@@ -52,7 +53,8 @@
       ],
       "level": 1,
       "icon": "skillicon_S002802",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "无钩无察",
@@ -71,7 +73,8 @@
           "name": "<span style=\"color:#ff6724\">止戈</span>",
           "des": "无法进行常击，持续<span style=\"color:#158bdb\">1</span>回合。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "精巧疑神",
@@ -81,7 +84,8 @@
       ],
       "level": 1,
       "icon": "skillicon_S002804",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "丙午阳气",
@@ -91,7 +95,8 @@
       ],
       "level": 1,
       "icon": "skillicon_S002805",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "神钩悬息",
@@ -107,7 +112,8 @@
           "name": "<span style=\"color:#ff6724\">礼弹</span>",
           "des": "填充<span style=\"color:#ff6724\">礼弹</span>则进入警戒状态，每次警戒攻击或治疗将消耗<span style=\"color:#ff6724\">礼弹</span>，<span style=\"color:#ff6724\">礼弹</span>清零后自动结束警戒状态。"
         }
-      ]
+      ],
+      "type": 1
     }
   ],
   "skin": [

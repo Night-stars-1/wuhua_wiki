@@ -41,7 +41,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Commonattack_W",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "转轴拨弦",
@@ -57,7 +58,8 @@
           "name": "<span style=\"color:#ff6724\">共奏</span>",
           "des": "处于此状态的单位普攻、连击、回击或警戒攻击命中敌方单位时，对其造成五弦琵琶攻击力<span style=\"color:#158bdb\">30%</span>的附加构素伤害；附加伤害的暴击率为五弦琵琶暴击率。此状态持续<span style=\"color:#158bdb\">2</span>回合。"
         }
-      ]
+      ],
+      "type": 1
     },
     {
       "name": "覆手承弦",
@@ -66,7 +68,7 @@
         "被动触发"
       ],
       "level": 1,
-      "icon": "",
+      "icon": "skillicon_W009903",
       "buff": [
         {
           "name": "<span style=\"color:#ff6724\">余音</span>",
@@ -92,7 +94,8 @@
           "name": "<span style=\"color:#ff6724\">流失</span>",
           "des": "每移动一格，受到最大生命值<span style=\"color:#158bdb\">5%</span>的伤害，可叠加<span style=\"color:#158bdb\">5</span>层，持续<span style=\"color:#158bdb\">2</span>回合。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "八音迭奏",
@@ -101,13 +104,14 @@
         "被动触发"
       ],
       "level": 1,
-      "icon": "",
+      "icon": "skillicon_W009904",
       "buff": [
         {
           "name": "<span style=\"color:#ff6724\">余音</span>",
           "des": "每<span style=\"color:#158bdb\">1</span>层此状态可使职业攻击多造成<span style=\"color:#158bdb\">1</span>次伤害。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "螺钿芳蕊",
@@ -116,8 +120,9 @@
         "被动触发"
       ],
       "level": 1,
-      "icon": "",
-      "buff": []
+      "icon": "skillicon_W009905",
+      "buff": [],
+      "type": 2
     },
     {
       "name": "余音绕梁",
@@ -128,7 +133,8 @@
       ],
       "level": 1,
       "icon": "skillicon_W009911",
-      "buff": []
+      "buff": [],
+      "type": 1
     }
   ],
   "skin": [

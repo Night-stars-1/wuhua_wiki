@@ -41,7 +41,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Commonattack_D",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "宴乐礼盛",
@@ -57,7 +58,8 @@
           "name": "<span style=\"color:#ff6724\">震怒</span>",
           "des": "只能攻击使自身获得此状态的单位。"
         }
-      ]
+      ],
+      "type": 1
     },
     {
       "name": "弋射",
@@ -72,7 +74,8 @@
           "name": "<span style=\"color:#ff6724\">流失</span>",
           "des": "每移动一格，受到最大生命值<span style=\"color:#158bdb\">5%</span>的伤害，可叠加<span style=\"color:#158bdb\">5</span>层，持续<span style=\"color:#158bdb\">2</span>回合。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "攻守易转",
@@ -82,7 +85,8 @@
       ],
       "level": 1,
       "icon": "skillicon_D003204",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "飨神",
@@ -92,7 +96,8 @@
       ],
       "level": 1,
       "icon": "skillicon_D003205",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "劝桑",
@@ -108,7 +113,8 @@
           "name": "<span style=\"color:#ff6724\">破甲</span>",
           "des": "物理防御降低<span style=\"color:#158bdb\">30%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">1</span>层。"
         }
-      ]
+      ],
+      "type": 1
     }
   ],
   "skin": [

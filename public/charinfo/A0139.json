@@ -41,7 +41,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Commonattack_A",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "制茶有方",
@@ -52,7 +53,8 @@
       ],
       "level": 1,
       "icon": "skillicon_A013902",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "风物循影",
@@ -71,7 +73,8 @@
           "name": "<span style=\"color:#ff6724\">真实伤害</span>",
           "des": "此伤害不触发暴击和贯穿效果，且无法被格挡，无视防御和减伤效果，同时也不受增伤效果影响。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "摹绘百相",
@@ -86,7 +89,8 @@
           "name": "<span style=\"color:#ff6724\">妙笔</span>",
           "des": "瞄准冷却率提升<span style=\"color:#158bdb\">20%</span>，持续<span style=\"color:#158bdb\">1</span>回合。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "行箧游航",
@@ -96,7 +100,8 @@
       ],
       "level": 1,
       "icon": "skillicon_A013905",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "延时拍摄",
@@ -112,7 +117,8 @@
           "name": "<span style=\"color:#ff6724\">瞄准</span>",
           "des": "此状态下进行攻击时，最大攻击距离增加<span style=\"color:#158bdb\">4</span>格，该次再行动结束后，此状态消失。"
         }
-      ]
+      ],
+      "type": 1
     }
   ],
   "skin": [

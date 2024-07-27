@@ -41,7 +41,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Commonattack_W",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "花鸟盈香",
@@ -57,7 +58,8 @@
           "name": "<span style=\"color:#ff6724\">余香</span>",
           "des": "状态持续期间，自身免疫持续伤害类和属性降低类负面效果。"
         }
-      ]
+      ],
+      "type": 1
     },
     {
       "name": "馥烟薄沁",
@@ -67,7 +69,8 @@
       ],
       "level": 1,
       "icon": "skillicon_W008103",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "银镂祥意",
@@ -82,7 +85,8 @@
           "name": "<span style=\"color:#ff6724\">沐芳</span>",
           "des": "此状态不少于<span style=\"color:#158bdb\">3</span>层时，自身治疗量提升<span style=\"color:#158bdb\">20%</span>，移动力增加<span style=\"color:#158bdb\">1</span>。\n此状态最多可叠加<span style=\"color:#158bdb\">10</span>层。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "金盂恒衡",
@@ -101,7 +105,8 @@
           "name": "<span style=\"color:#ff6724\">蓄势</span>",
           "des": "提高所有伤害<span style=\"color:#158bdb\">20%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">2</span>层。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "葡枝蔓生",
@@ -112,7 +117,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Jobskill_W_H",
-      "buff": []
+      "buff": [],
+      "type": 1
     }
   ],
   "skin": [

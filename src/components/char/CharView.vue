@@ -10,7 +10,7 @@
       <el-image
         class="char-image"
         fit="contain"
-        :src="`/char/${id}/drawing/${data.id}.png`"
+        :src="`/char/${id}/skin/${data.id}.png`"
       />
     </div>
   </div>

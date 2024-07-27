@@ -41,7 +41,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Commonattack_W",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "原初乐音",
@@ -61,7 +62,8 @@
           "name": "<span style=\"color:#ff6724\">七孔回音</span>",
           "des": "自身的治疗量提高<span style=\"color:#158bdb\">10%</span>。"
         }
-      ]
+      ],
+      "type": 1
     },
     {
       "name": "打磨",
@@ -71,7 +73,8 @@
       ],
       "level": 1,
       "icon": "skillicon_W005603",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "神明祈福",
@@ -86,7 +89,8 @@
           "name": "<span style=\"color:#ff6724\">鹤骨悠声</span>",
           "des": "每回合开始时，恢复贾湖骨笛攻击力<span style=\"color:#158bdb\">20%</span>的生命值，可叠加<span style=\"color:#158bdb\">2</span>层。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "鸿运当头",
@@ -96,7 +100,8 @@
       ],
       "level": 1,
       "icon": "skillicon_W005605",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "初韵",
@@ -107,7 +112,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Jobskill_W_H",
-      "buff": []
+      "buff": [],
+      "type": 1
     }
   ],
   "skin": [

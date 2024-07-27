@@ -41,7 +41,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Commonattack_W",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "大地祭礼",
@@ -52,7 +53,8 @@
       ],
       "level": 1,
       "icon": "skillicon_W005402",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "玉琮之首",
@@ -62,7 +64,8 @@
       ],
       "level": 1,
       "icon": "skillicon_W005403",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "神人兽面",
@@ -72,7 +75,8 @@
       ],
       "level": 1,
       "icon": "skillicon_W005404",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "神谕",
@@ -87,7 +91,8 @@
           "name": "<span style=\"color:#ff6724\">玉敛</span>",
           "des": "回合开始时，有概率使本回合无法获得能量。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "浅雕",
@@ -98,7 +103,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Jobskill_W_D",
-      "buff": []
+      "buff": [],
+      "type": 1
     }
   ],
   "skin": [

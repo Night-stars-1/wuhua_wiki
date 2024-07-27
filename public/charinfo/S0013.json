@@ -41,7 +41,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Commonattack_S",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "密匙破解",
@@ -57,7 +58,8 @@
           "name": "<span style=\"color:#ff6724\">额外构素伤害</span>",
           "des": "此伤害不触发暴击和贯穿效果，且无法被格挡，但会被构素护盾抵挡。"
         }
-      ]
+      ],
+      "type": 1
     },
     {
       "name": "信号提升",
@@ -67,7 +69,8 @@
       ],
       "level": 1,
       "icon": "skillicon_S001303",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "兼容编码",
@@ -82,7 +85,8 @@
           "name": "<span style=\"color:#ff6724\">脆弱</span>",
           "des": "提高受到的所有伤害<span style=\"color:#db2424\">30%</span>，每受到一次直接攻击减少<span style=\"color:#ff6724\">1层</span>，持续<span style=\"color:#4395d6\">2</span>回合或层数用完。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "云纹如意",
@@ -92,7 +96,8 @@
       ],
       "level": 1,
       "icon": "skillicon_S001305",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "防火墙",
@@ -108,7 +113,8 @@
           "name": "<span style=\"color:#ff6724\">礼弹</span>",
           "des": "填充<span style=\"color:#ff6724\">礼弹</span>则进入警戒状态，每次警戒攻击或治疗将消耗<span style=\"color:#ff6724\">礼弹</span>，<span style=\"color:#ff6724\">礼弹</span>清零后自动结束警戒状态。"
         }
-      ]
+      ],
+      "type": 1
     }
   ],
   "skin": [

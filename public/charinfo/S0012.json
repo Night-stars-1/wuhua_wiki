@@ -41,7 +41,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Commonattack_S",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "螭虎啸天",
@@ -52,7 +53,8 @@
       ],
       "level": 1,
       "icon": "skillicon_S001202",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "云辉熠",
@@ -62,7 +64,8 @@
       ],
       "level": 1,
       "icon": "skillicon_S001203",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "皇室威仪",
@@ -77,7 +80,8 @@
           "name": "<span style=\"color:#ff6724\">滞缓</span>",
           "des": "降低移动力<span style=\"color:#158bdb\">-1</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">1</span>层。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "仁泽众生",
@@ -92,7 +96,8 @@
           "name": "<span style=\"color:#ff6724\">啸剑</span>",
           "des": "攻击力提高<span style=\"color:#158bdb\">20%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">2</span>层。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "白玉凝灵",
@@ -108,7 +113,8 @@
           "name": "<span style=\"color:#ff6724\">礼弹</span>",
           "des": "填充<span style=\"color:#ff6724\">礼弹</span>则进入警戒状态，每次警戒攻击或治疗将消耗<span style=\"color:#ff6724\">礼弹</span>，<span style=\"color:#ff6724\">礼弹</span>清零后自动结束警戒状态。"
         }
-      ]
+      ],
+      "type": 1
     }
   ],
   "skin": [

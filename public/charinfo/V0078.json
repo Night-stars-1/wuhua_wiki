@@ -41,7 +41,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Commonattack_V",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "游龙入渊",
@@ -57,7 +58,8 @@
           "name": "<span style=\"color:#ff6724\">游龙</span>",
           "des": "免疫<span style=\"color:#ff6724\">滞缓</span>效果，持续<span style=\"color:#158bdb\">3</span>回合。"
         }
-      ]
+      ],
+      "type": 1
     },
     {
       "name": "中山遗尘",
@@ -72,7 +74,8 @@
           "name": "<span style=\"color:#ff6724\">额外物理伤害</span>",
           "des": "此伤害不触发暴击和贯穿效果，且无法被格挡。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "四鹿承龙",
@@ -91,7 +94,8 @@
           "name": "<span style=\"color:#ff6724\">金银错</span>",
           "des": "受到范围内的常击后触发回击，对目标造成伤害。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "历劫重生",
@@ -106,7 +110,8 @@
           "name": "<span style=\"color:#ff6724\">龙凤献瑞</span>",
           "des": "不会被击败，持续<span style=\"color:#158bdb\">1</span>回合。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "飞凤",
@@ -117,7 +122,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Jobskill_V",
-      "buff": []
+      "buff": [],
+      "type": 1
     }
   ],
   "skin": [

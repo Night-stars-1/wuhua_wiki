@@ -41,7 +41,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Commonattack_D",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "浮彩",
@@ -52,7 +53,8 @@
       ],
       "level": 1,
       "icon": "skillicon_D001702",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "涂鸦天才",
@@ -62,7 +64,8 @@
       ],
       "level": 1,
       "icon": "skillicon_D001703",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "染色",
@@ -77,7 +80,8 @@
           "name": "<span style=\"color:#ff6724\">援护</span>",
           "des": "当友方单位受到伤害时，代替其承受伤害。\n<span style=\"color:#db2424\">只可对除绝技、警戒攻击和回击外造成单体伤害的攻击生效。</span>"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "点彩",
@@ -87,7 +91,8 @@
       ],
       "level": 1,
       "icon": "skillicon_D001705",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "划时代",
@@ -103,7 +108,8 @@
           "name": "<span style=\"color:#ff6724\">解构</span>",
           "des": "构素防御降低<span style=\"color:#158bdb\">30%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">1</span>层。"
         }
-      ]
+      ],
+      "type": 1
     }
   ],
   "skin": [

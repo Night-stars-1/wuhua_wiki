@@ -41,7 +41,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Commonattack_D",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "长矛挑空",
@@ -57,7 +58,8 @@
           "name": "<span style=\"color:#ff6724\">震怒</span>",
           "des": "只能攻击使自身获得此状态的单位。"
         }
-      ]
+      ],
+      "type": 1
     },
     {
       "name": "轻敌",
@@ -72,7 +74,8 @@
           "name": "<span style=\"color:#ff6724\">怜悯</span>",
           "des": "常击对敌人造成的伤害降低<span style=\"color:#158bdb\">-15%</span>，自身格挡率提高<span style=\"color:#158bdb\">20%</span>。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "盟会诸侯",
@@ -82,7 +85,8 @@
       ],
       "level": 1,
       "icon": "skillicon_D006004",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "极武",
@@ -92,7 +96,8 @@
       ],
       "level": 1,
       "icon": "skillicon_D006005",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "逐鹿",
@@ -108,7 +113,8 @@
           "name": "<span style=\"color:#ff6724\">降攻</span>",
           "des": "攻击力减低<span style=\"color:#158bdb\">20%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">1</span>层。"
         }
-      ]
+      ],
+      "type": 1
     }
   ],
   "skin": [

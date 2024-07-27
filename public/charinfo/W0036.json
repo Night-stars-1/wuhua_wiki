@@ -41,7 +41,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Commonattack_W",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "奇书异卷",
@@ -65,7 +66,8 @@
           "name": "<span style=\"color:#ff6724\">灼烧</span>",
           "des": "回合开始时，受到施加者攻击力<span style=\"color:#158bdb\">20%</span>的构素伤害，可叠加<span style=\"color:#158bdb\">5</span>层，持续<span style=\"color:#158bdb\">2</span>回合。"
         }
-      ]
+      ],
+      "type": 1
     },
     {
       "name": "谈狐说鬼",
@@ -80,7 +82,8 @@
           "name": "<span style=\"color:#ff6724\">暗影幢幢</span>",
           "des": "受到的持续伤害提高<span style=\"color:#158bdb\">5%</span>，被聊斋图说直接攻击时有<span style=\"color:#158bdb\">20%</span>概率获得<span style=\"color:#ff6724\">流失</span>、<span style=\"color:#ff6724\">融伤</span>、<span style=\"color:#ff6724\">灼烧</span>其中的一种，持续<span style=\"color:#158bdb\">2</span>回合"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "妍丑易念",
@@ -90,7 +93,8 @@
       ],
       "level": 1,
       "icon": "skillicon_W003604",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "人鬼颇同",
@@ -100,7 +104,8 @@
       ],
       "level": 1,
       "icon": "skillicon_W003605",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "画皮",
@@ -116,7 +121,8 @@
           "name": "<span style=\"color:#ff6724\">降攻</span>",
           "des": "攻击力减低<span style=\"color:#158bdb\">20%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">1</span>层。"
         }
-      ]
+      ],
+      "type": 1
     }
   ],
   "skin": [

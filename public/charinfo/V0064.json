@@ -41,7 +41,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Commonattack_V",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "临邛盐涌",
@@ -52,7 +53,8 @@
       ],
       "level": 1,
       "icon": "skillicon_V006402",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "连竹引气",
@@ -62,7 +64,8 @@
       ],
       "level": 1,
       "icon": "skillicon_V006403",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "盐泉之井",
@@ -77,7 +80,8 @@
           "name": "<span style=\"color:#ff6724\">脆弱</span>",
           "des": "提高受到的所有伤害<span style=\"color:#db2424\">30%</span>，每受到一次直接攻击减少<span style=\"color:#ff6724\">1层</span>，持续<span style=\"color:#4395d6\">2</span>回合或层数用完。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "云蒸雾蔚",
@@ -87,7 +91,8 @@
       ],
       "level": 1,
       "icon": "skillicon_V006405",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "天车",
@@ -98,7 +103,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Jobskill_V",
-      "buff": []
+      "buff": [],
+      "type": 1
     }
   ],
   "skin": [

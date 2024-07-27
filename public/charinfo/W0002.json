@@ -41,7 +41,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Commonattack_W",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "闪亮雨衣",
@@ -57,7 +58,8 @@
           "name": "<span style=\"color:#ff6724\">冰雨</span>",
           "des": "减少<span style=\"color:#158bdb\">-30</span>速度。"
         }
-      ]
+      ],
+      "type": 1
     },
     {
       "name": "风调雨顺",
@@ -67,7 +69,8 @@
       ],
       "level": 1,
       "icon": "skillicon_W000203",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "烧灼显纹",
@@ -77,7 +80,8 @@
       ],
       "level": 1,
       "icon": "skillicon_W000204",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "卜算吉凶",
@@ -87,7 +91,8 @@
       ],
       "level": 1,
       "icon": "skillicon_W000205",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "人工降雨",
@@ -103,7 +108,8 @@
           "name": "<span style=\"color:#ff6724\">冰雨</span>",
           "des": "减少<span style=\"color:#158bdb\">-30</span>速度。"
         }
-      ]
+      ],
+      "type": 1
     }
   ],
   "skin": [

@@ -41,7 +41,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Commonattack_W",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "团花宝相",
@@ -57,7 +58,8 @@
           "name": "<span style=\"color:#ff6724\">金羽</span>",
           "des": "下次受到的伤害降低<span style=\"color:#158bdb\">10%</span>，生效后减少<span style=\"color:#158bdb\">1</span>层。"
         }
-      ]
+      ],
+      "type": 1
     },
     {
       "name": "煊赫",
@@ -67,7 +69,8 @@
       ],
       "level": 1,
       "icon": "skillicon_W001103",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "复新",
@@ -77,7 +80,8 @@
       ],
       "level": 1,
       "icon": "skillicon_W001104",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "银地金饰",
@@ -87,7 +91,8 @@
       ],
       "level": 1,
       "icon": "skillicon_W001105",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "化药",
@@ -98,7 +103,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Jobskill_W_H",
-      "buff": []
+      "buff": [],
+      "type": 1
     }
   ],
   "skin": [

@@ -41,7 +41,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Commonattack_A",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "夏蝉喧鸣",
@@ -57,7 +58,8 @@
           "name": "<span style=\"color:#ff6724\">鲁莽</span>",
           "des": "受到的回击伤害提高<span style=\"color:#158bdb\">30%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">1</span>层。"
         }
-      ]
+      ],
+      "type": 1
     },
     {
       "name": "金蝉脱壳",
@@ -72,7 +74,8 @@
           "name": "<span style=\"color:#ff6724\">脱壳</span>",
           "des": "闪避率提高<span style=\"color:#158bdb\">25%</span>，可叠加<span style=\"color:#158bdb\">2</span>层，成功闪避后清除效果。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "动静相宜",
@@ -87,7 +90,8 @@
           "name": "<span style=\"color:#ff6724\">金玉</span>",
           "des": "回击的暴击率提高<span style=\"color:#158bdb\">40%</span>，持续<span style=\"color:#158bdb\">1</span>回合。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "玉叶折光",
@@ -102,7 +106,8 @@
           "name": "<span style=\"color:#ff6724\">隐蔽</span>",
           "des": "无法被选中为主目标，但受到伤害提高<span style=\"color:#158bdb\">25%</span>，持续<span style=\"color:#158bdb\">1</span>回合。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "卧玉",
@@ -118,7 +123,8 @@
           "name": "<span style=\"color:#ff6724\">瞄准</span>",
           "des": "此状态下进行攻击时，最大攻击距离增加<span style=\"color:#158bdb\">4</span>格，该次再行动结束后，此状态消失。"
         }
-      ]
+      ],
+      "type": 1
     }
   ],
   "skin": [

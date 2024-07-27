@@ -2,7 +2,7 @@
  * @Author: Night-stars-1 nujj1042633805@gmail.com
  * @Date: 2024-07-20 19:47:57
  * @LastEditors: Night-stars-1 nujj1042633805@gmail.com
- * @LastEditTime: 2024-07-27 14:14:47
+ * @LastEditTime: 2024-07-27 14:33:07
 -->
 <template>
   <el-row class="char-container">
@@ -23,7 +23,7 @@
             <CharInfo :data="data.info" />
           </el-tab-pane>
           <el-tab-pane label="技能">
-            <CharSkill :dataList="data.skill" />
+            <CharSkill :id="id" :dataList="data.skill" />
           </el-tab-pane>
           <el-tab-pane label="致知">致知</el-tab-pane>
           <!-- <el-tab-pane label="精研">精研</el-tab-pane> -->

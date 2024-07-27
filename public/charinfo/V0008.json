@@ -41,7 +41,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Commonattack_V",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "遍行郡县",
@@ -52,7 +53,8 @@
       ],
       "level": 1,
       "icon": "skillicon_V000802",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "守口如瓶",
@@ -67,7 +69,8 @@
           "name": "<span style=\"color:#ff6724\">金戈</span>",
           "des": "提高暴击率<span style=\"color:#158bdb\">10%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">3</span>层。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "速递",
@@ -77,7 +80,8 @@
       ],
       "level": 1,
       "icon": "skillicon_V000804",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "识途",
@@ -87,7 +91,8 @@
       ],
       "level": 1,
       "icon": "skillicon_V000805",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "马蹄疾",
@@ -98,7 +103,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Jobskill_V",
-      "buff": []
+      "buff": [],
+      "type": 1
     }
   ],
   "skin": [

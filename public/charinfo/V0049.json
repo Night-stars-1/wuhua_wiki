@@ -41,7 +41,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Commonattack_V",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "违者杀",
@@ -52,7 +53,8 @@
       ],
       "level": 1,
       "icon": "skillicon_V004902",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "疾驰",
@@ -71,7 +73,8 @@
           "name": "<span style=\"color:#ff6724\">重创</span>",
           "des": "受到的所有伤害提高<span style=\"color:#158bdb\">20%</span>，持续<span style=\"color:#158bdb\">1</span>回合，可叠加<span style=\"color:#158bdb\">1</span>层。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "追风",
@@ -86,7 +89,8 @@
           "name": "<span style=\"color:#ff6724\">夜刺</span>",
           "des": "自身贯穿概率增加<span style=\"color:#158bdb\">10%</span>，最多可叠加<span style=\"color:#158bdb\">3</span>层，持续<span style=\"color:#158bdb\">1</span>回合。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "绝尘",
@@ -96,7 +100,8 @@
       ],
       "level": 1,
       "icon": "skillicon_V004905",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "夜行",
@@ -107,7 +112,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Jobskill_V",
-      "buff": []
+      "buff": [],
+      "type": 1
     }
   ],
   "skin": [

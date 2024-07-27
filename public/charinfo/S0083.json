@@ -41,7 +41,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Commonattack_S",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "五星分天",
@@ -52,7 +53,8 @@
       ],
       "level": 1,
       "icon": "skillicon_S008302",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "云汉无极",
@@ -62,7 +64,8 @@
       ],
       "level": 1,
       "icon": "skillicon_S008303",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "五星连珠",
@@ -72,7 +75,8 @@
       ],
       "level": 1,
       "icon": "skillicon_S008304",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "锦绣之力",
@@ -82,7 +86,8 @@
       ],
       "level": 1,
       "icon": "skillicon_S008305",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "星兆",
@@ -98,7 +103,8 @@
           "name": "<span style=\"color:#ff6724\">礼弹</span>",
           "des": "填充<span style=\"color:#ff6724\">礼弹</span>则进入警戒状态，每次警戒攻击或治疗将消耗<span style=\"color:#ff6724\">礼弹</span>，<span style=\"color:#ff6724\">礼弹</span>清零后自动结束警戒状态。"
         }
-      ]
+      ],
+      "type": 1
     }
   ],
   "skin": [

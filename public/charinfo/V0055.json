@@ -41,7 +41,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Commonattack_V",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "音孔幻洞",
@@ -57,7 +58,8 @@
           "name": "<span style=\"color:#ff6724\">兔洞</span>",
           "des": "<span style=\"color:#ff6724\">兔洞</span>地块可作为兔形陶埙职业技能选择的对象，交换位置后，该<span style=\"color:#ff6724\">兔洞</span>消失。释放职业技能后，所有<span style=\"color:#ff6724\">兔洞</span>会消失。"
         }
-      ]
+      ],
+      "type": 1
     },
     {
       "name": "兔洞回声",
@@ -66,13 +68,14 @@
         "被动触发"
       ],
       "level": 1,
-      "icon": "",
+      "icon": "skillicon_V005503",
       "buff": [
         {
           "name": "<span style=\"color:#ff6724\">额外物理伤害</span>",
           "des": "此伤害不触发暴击和贯穿效果，且无法被格挡。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "嬉戏",
@@ -81,13 +84,14 @@
         "被动触发"
       ],
       "level": 1,
-      "icon": "",
+      "icon": "skillicon_V005504",
       "buff": [
         {
           "name": "<span style=\"color:#ff6724\">附加移动力</span>",
           "des": "每<span style=\"color:#4395d6\">1</span>层状态可使自身移动范围额外扩大<span style=\"color:#4395d6\">1</span>格，自身每额外移动<span style=\"color:#4395d6\">1</span>格，消耗<span style=\"color:#4395d6\">1</span>层此状态。附加移动力不受其他任何技能、状态或武器效果的影响，不会提高或减少。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "童谣",
@@ -96,8 +100,9 @@
         "被动触发"
       ],
       "level": 1,
-      "icon": "",
-      "buff": []
+      "icon": "skillicon_V005505",
+      "buff": [],
+      "type": 2
     },
     {
       "name": "异位移影",
@@ -108,7 +113,8 @@
       ],
       "level": 1,
       "icon": "skillicon_V005511",
-      "buff": []
+      "buff": [],
+      "type": 1
     }
   ],
   "skin": [

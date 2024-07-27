@@ -41,7 +41,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Commonattack_V",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "祭典开场",
@@ -57,7 +58,8 @@
           "name": "<span style=\"color:#ff6724\">皇天之赐</span>",
           "des": "受到的治疗效果提升<span style=\"color:#158bdb\">30%</span>，持续<span style=\"color:#158bdb\">3</span>回合。"
         }
-      ]
+      ],
+      "type": 1
     },
     {
       "name": "功成名就",
@@ -67,7 +69,8 @@
       ],
       "level": 1,
       "icon": "skillicon_V003703",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "大丰",
@@ -82,7 +85,8 @@
           "name": "<span style=\"color:#ff6724\">生命偷取</span>",
           "des": "生命偷取率提高<span style=\"color:#158bdb\">3%</span>。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "祀于天室",
@@ -97,7 +101,8 @@
           "name": "<span style=\"color:#ff6724\">文武显德</span>",
           "des": "免疫下<span style=\"color:#158bdb\">1</span>次常击或警戒攻击造成的伤害。此状态触发免疫或持续<span style=\"color:#158bdb\">2</span>回合后消失。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "韵律协调",
@@ -108,7 +113,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Jobskill_V",
-      "buff": []
+      "buff": [],
+      "type": 1
     }
   ],
   "skin": [

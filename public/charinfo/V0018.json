@@ -41,7 +41,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Commonattack_V",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "车载武装",
@@ -52,7 +53,8 @@
       ],
       "level": 1,
       "icon": "skillicon_V001802",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "冰酒以待",
@@ -71,7 +73,8 @@
           "name": "<span style=\"color:#ff6724\">危险食盒</span>",
           "des": "移动力减少<span style=\"color:#158bdb\">-1</span>。进行移动后，对自身<span style=\"color:#158bdb\">周围1格</span>内的友方全体造成敌方战国铜冰鉴攻击力<span style=\"color:#158bdb\">60%</span>的物理伤害。状态持续<span style=\"color:#158bdb\">2</span>回合。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "此单必达",
@@ -81,7 +84,8 @@
       ],
       "level": 1,
       "icon": "skillicon_V001804",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "蟠螭腾啸",
@@ -91,7 +95,8 @@
       ],
       "level": 1,
       "icon": "skillicon_V001805",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "飞驰",
@@ -102,7 +107,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Jobskill_V",
-      "buff": []
+      "buff": [],
+      "type": 1
     }
   ],
   "skin": [

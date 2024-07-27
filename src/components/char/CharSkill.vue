@@ -2,7 +2,7 @@
  * @Author: Night-stars-1 nujj1042633805@gmail.com
  * @Date: 2024-07-20 23:29:32
  * @LastEditors: Night-stars-1 nujj1042633805@gmail.com
- * @LastEditTime: 2024-07-22 16:00:52
+ * @LastEditTime: 2024-07-27 14:24:00
 -->
 <template>
   <el-card>
@@ -18,7 +18,7 @@
         <el-row justify="space-between" class="skill-row">
           <el-image
             style="width: 64px; height: 64px"
-            :src="`${data.icon}.png`"
+            :src="`/char/${id}/skill/${data.icon}.png`"
           />
           <el-space
             class="skil-tag"
@@ -38,6 +38,7 @@
             class="skill-range"
             style="width: 64px; height: 64px"
             :src="`${data.icon}.png`"
+            v-if="data.type == 1"
           />
         </el-row>
         <div class="skill-text">
@@ -50,12 +51,19 @@
 
 <script lang="ts" setup>
 const props = defineProps<{
+  id: string;
   dataList: SkillInfo[];
 }>();
 const buffs = computed(() =>
   props.dataList
     .filter((item) => item.buff && item.buff.length > 0)
     .flatMap((item) => item.buff)
+    .reduce((acc: Buff[], current) => {
+      if (!acc.some(buff => buff.name === current.name)) {
+        acc.push(current);
+      }
+      return acc;
+    }, [])
 );
 </script>
 

@@ -41,7 +41,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Commonattack_V",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "朱玉金辉",
@@ -52,7 +53,8 @@
       ],
       "level": 1,
       "icon": "skillicon_V007602",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "屠苏迎岁",
@@ -71,7 +73,8 @@
           "name": "<span style=\"color:#ff6724\">额外物理伤害</span>",
           "des": "此伤害不触发暴击和贯穿效果，且无法被格挡。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "金瓯万年",
@@ -81,7 +84,8 @@
       ],
       "level": 1,
       "icon": "skillicon_V007604",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "三象分足",
@@ -91,7 +95,8 @@
       ],
       "level": 1,
       "icon": "skillicon_V007605",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "夔龙托珠",
@@ -102,7 +107,8 @@
       ],
       "level": 1,
       "icon": "skillicon_V007611",
-      "buff": []
+      "buff": [],
+      "type": 1
     }
   ],
   "skin": [

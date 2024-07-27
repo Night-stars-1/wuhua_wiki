@@ -41,7 +41,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Commonattack_S",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "通经回纬",
@@ -57,7 +58,8 @@
           "name": "<span style=\"color:#ff6724\">寒天</span>",
           "des": "移动力减少<span style=\"color:#158bdb\">1</span>。此状态叠加到<span style=\"color:#158bdb\">3</span>层时，清除自身所有<span style=\"color:#ff6724\">寒天</span>状态，获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">霜冻</span>状态。"
         }
-      ]
+      ],
+      "type": 1
     },
     {
       "name": "凫鹭闲游",
@@ -67,7 +69,8 @@
       ],
       "level": 1,
       "icon": "skillicon_S008803",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "水波微漾",
@@ -77,7 +80,8 @@
       ],
       "level": 1,
       "icon": "skillicon_S008804",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "浮涛映日",
@@ -92,7 +96,8 @@
           "name": "<span style=\"color:#ff6724\">增愈</span>",
           "des": "提高受到治疗量<span style=\"color:#158bdb\">20%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">1</span>层。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "万缕千丝",
@@ -108,7 +113,8 @@
           "name": "<span style=\"color:#ff6724\">礼弹</span>",
           "des": "填充<span style=\"color:#ff6724\">礼弹</span>则进入警戒状态，每次警戒攻击或治疗将消耗<span style=\"color:#ff6724\">礼弹</span>，<span style=\"color:#ff6724\">礼弹</span>清零后自动结束警戒状态。"
         }
-      ]
+      ],
+      "type": 1
     }
   ],
   "skin": [

@@ -41,7 +41,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Commonattack_V",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "咫尺成城",
@@ -57,7 +58,8 @@
           "name": "<span style=\"color:#ff6724\">烫样组件</span>",
           "des": "自身无法移动，受到的伤害降低<span style=\"color:#158bdb\">40%</span>，持续至自身下次行动开始；受到<span style=\"color:#158bdb\">2</span>次伤害后，此状态立刻消除。"
         }
-      ]
+      ],
+      "type": 1
     },
     {
       "name": "筑材革新",
@@ -66,8 +68,9 @@
         "被动触发"
       ],
       "level": 1,
-      "icon": "",
-      "buff": []
+      "icon": "skillicon_V003103",
+      "buff": [],
+      "type": 2
     },
     {
       "name": "精确比例",
@@ -76,8 +79,9 @@
         "被动触发"
       ],
       "level": 1,
-      "icon": "",
-      "buff": []
+      "icon": "skillicon_V003104",
+      "buff": [],
+      "type": 2
     },
     {
       "name": "组群",
@@ -86,7 +90,7 @@
         "被动触发"
       ],
       "level": 1,
-      "icon": "",
+      "icon": "skillicon_V003105",
       "buff": [
         {
           "name": "<span style=\"color:#ff6724\">簇刃之锐</span>",
@@ -96,7 +100,8 @@
           "name": "<span style=\"color:#ff6724\">纸模之损</span>",
           "des": "下<span style=\"color:#158bdb\">1</span>次受到的伤害提高<span style=\"color:#158bdb\">50%</span>，触发后或持续<span style=\"color:#158bdb\">1</span>回合后此状态消除。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "模块重构",
@@ -107,7 +112,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Jobskill_V",
-      "buff": []
+      "buff": [],
+      "type": 1
     }
   ],
   "skin": [

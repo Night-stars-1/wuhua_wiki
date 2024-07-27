@@ -41,7 +41,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Commonattack_A",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "华丽盛筵",
@@ -52,7 +53,8 @@
       ],
       "level": 1,
       "icon": "skillicon_A002502",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "晶莹闪耀",
@@ -62,7 +64,8 @@
       ],
       "level": 1,
       "icon": "skillicon_A002503",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "珐琅缠丝",
@@ -72,7 +75,8 @@
       ],
       "level": 1,
       "icon": "skillicon_A002504",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "流光溢彩",
@@ -82,7 +86,8 @@
       ],
       "level": 1,
       "icon": "skillicon_A002505",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "永恒绽放",
@@ -98,7 +103,8 @@
           "name": "<span style=\"color:#ff6724\">瞄准</span>",
           "des": "此状态下进行攻击时，最大攻击距离增加<span style=\"color:#158bdb\">4</span>格，该次再行动结束后，此状态消失。"
         }
-      ]
+      ],
+      "type": 1
     }
   ],
   "skin": [

@@ -41,7 +41,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Commonattack_V",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "挥毫泼墨",
@@ -52,7 +53,8 @@
       ],
       "level": 1,
       "icon": "skillicon_V007502",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "逍遥自得",
@@ -62,7 +64,8 @@
       ],
       "level": 1,
       "icon": "skillicon_V007503",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "山河独醉",
@@ -72,7 +75,8 @@
       ],
       "level": 1,
       "icon": "skillicon_V007504",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "印鉴",
@@ -82,7 +86,8 @@
       ],
       "level": 1,
       "icon": "skillicon_V007505",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "云游四方",
@@ -93,7 +98,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Jobskill_V",
-      "buff": []
+      "buff": [],
+      "type": 1
     }
   ],
   "skin": [

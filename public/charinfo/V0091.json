@@ -41,7 +41,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Commonattack_V",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "霸业宏图",
@@ -52,7 +53,8 @@
       ],
       "level": 1,
       "icon": "skillicon_V009102",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "卧薪尝胆",
@@ -71,7 +73,8 @@
           "name": "<span style=\"color:#ff6724\">觉醒</span>",
           "des": "此状态使自身贯穿率增加<span style=\"color:#158bdb\">40%</span>，攻击力提高<span style=\"color:#158bdb\">30%</span>。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "乘虚而入",
@@ -86,7 +89,8 @@
           "name": "<span style=\"color:#ff6724\">剑鸣</span>",
           "des": "处于此状态时，下<span style=\"color:#158bdb\">1</span>次常击后连击，对受击单位造成自身攻击力<span style=\"color:#158bdb\">40%</span>的物理伤害；\n若处于<span style=\"color:#ff6724\">觉醒</span>状态，则连击命中目标后，自身获得<span style=\"color:#158bdb\">1</span>点能量。\n此状态最多可叠加<span style=\"color:#158bdb\">3</span>层，每次连击消耗<span style=\"color:#158bdb\">1</span>层。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "三千越甲",
@@ -96,7 +100,8 @@
       ],
       "level": 1,
       "icon": "skillicon_V009105",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "称霸",
@@ -107,7 +112,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Jobskill_V",
-      "buff": []
+      "buff": [],
+      "type": 1
     }
   ],
   "skin": [

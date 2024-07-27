@@ -41,7 +41,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Commonattack_V",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "北漠金沙",
@@ -57,7 +58,8 @@
           "name": "<span style=\"color:#ff6724\">热诚</span>",
           "des": "每层<span style=\"color:#ff6724\">热诚</span>效果，提高<span style=\"color:#158bdb\">15</span>速度，提高<span style=\"color:#158bdb\">10%</span>连击伤害，最多叠加<span style=\"color:#158bdb\">5</span>层，每次回合开始时将减少<span style=\"color:#158bdb\">1</span>层。"
         }
-      ]
+      ],
+      "type": 1
     },
     {
       "name": "流沙绝险",
@@ -67,7 +69,8 @@
       ],
       "level": 1,
       "icon": "skillicon_V004303",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "尘途",
@@ -86,7 +89,8 @@
           "name": "<span style=\"color:#ff6724\">灵动</span>",
           "des": "积累一定层数后，可获得再行动。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "多战",
@@ -96,7 +100,8 @@
       ],
       "level": 1,
       "icon": "skillicon_V004305",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "丝路",
@@ -107,7 +112,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Jobskill_V",
-      "buff": []
+      "buff": [],
+      "type": 1
     }
   ],
   "skin": [

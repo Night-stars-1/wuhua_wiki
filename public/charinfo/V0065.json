@@ -41,7 +41,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Commonattack_V",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "婉转鼓侧",
@@ -52,7 +53,8 @@
       ],
       "level": 1,
       "icon": "skillicon_V006502",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "七盘递奏",
@@ -62,7 +64,8 @@
       ],
       "level": 1,
       "icon": "skillicon_V006503",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "叠案倒立",
@@ -72,7 +75,8 @@
       ],
       "level": 1,
       "icon": "skillicon_V006504",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "手跳三丸",
@@ -82,7 +86,8 @@
       ],
       "level": 1,
       "icon": "skillicon_V006505",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "轻舞灵动",
@@ -93,7 +98,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Jobskill_V",
-      "buff": []
+      "buff": [],
+      "type": 1
     }
   ],
   "skin": [

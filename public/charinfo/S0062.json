@@ -41,7 +41,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Commonattack_S",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "新芽唤春",
@@ -52,7 +53,8 @@
       ],
       "level": 1,
       "icon": "skillicon_S006202",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "融寒寻芳",
@@ -62,7 +64,8 @@
       ],
       "level": 1,
       "icon": "skillicon_S006203",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "青草蔓蔓",
@@ -77,7 +80,8 @@
           "name": "<span style=\"color:#ff6724\">春泥</span>",
           "des": "驱散自身<span style=\"color:#158bdb\">1</span>个负面状态，驱散后消耗此状态。消耗此状态时，使自身回复诗文执壶攻击力<span style=\"color:#158bdb\">3|100</span>的生命值。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "花间酒韵",
@@ -92,7 +96,8 @@
           "name": "<span style=\"color:#ff6724\">裳衫</span>",
           "des": "构素防御提高<span style=\"color:#158bdb\">30%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">2</span>层。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "卉木萋萋",
@@ -108,7 +113,8 @@
           "name": "<span style=\"color:#ff6724\">礼弹</span>",
           "des": "填充<span style=\"color:#ff6724\">礼弹</span>则进入警戒状态，每次警戒攻击或治疗将消耗<span style=\"color:#ff6724\">礼弹</span>，<span style=\"color:#ff6724\">礼弹</span>清零后自动结束警戒状态。"
         }
-      ]
+      ],
+      "type": 1
     }
   ],
   "skin": [

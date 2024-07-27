@@ -41,7 +41,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Commonattack_D",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "可可生长",
@@ -52,7 +53,8 @@
       ],
       "level": 1,
       "icon": "skillicon_D002602",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "风啸",
@@ -62,7 +64,8 @@
       ],
       "level": 1,
       "icon": "skillicon_D002603",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "卓尔金",
@@ -72,7 +75,8 @@
       ],
       "level": 1,
       "icon": "skillicon_D002604",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "玉米之神",
@@ -82,7 +86,8 @@
       ],
       "level": 1,
       "icon": "skillicon_D002605",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "雨林",
@@ -98,7 +103,8 @@
           "name": "<span style=\"color:#ff6724\">破甲</span>",
           "des": "物理防御降低<span style=\"color:#158bdb\">30%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">1</span>层。"
         }
-      ]
+      ],
+      "type": 1
     }
   ],
   "skin": [

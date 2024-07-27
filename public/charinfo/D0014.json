@@ -41,7 +41,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Commonattack_D",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "齐地风物",
@@ -57,7 +58,8 @@
           "name": "<span style=\"color:#ff6724\">同赏</span>",
           "des": "当自身<span style=\"color:#158bdb\">周围1格</span>内的友方单位受到伤害时，代替其承受伤害。\n<span style=\"color:#db2424\">只可对除绝技、警戒攻击和回击外造成单体伤害的攻击生效。</span>"
         }
-      ]
+      ],
+      "type": 1
     },
     {
       "name": "多人宴会",
@@ -67,7 +69,8 @@
       ],
       "level": 1,
       "icon": "skillicon_D001403",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "分工合作",
@@ -77,7 +80,8 @@
       ],
       "level": 1,
       "icon": "skillicon_D001404",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "叠罗汉",
@@ -87,7 +91,8 @@
       ],
       "level": 1,
       "icon": "skillicon_D001405",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "藏器于内",
@@ -103,7 +108,8 @@
           "name": "<span style=\"color:#ff6724\">援护</span>",
           "des": "当友方单位受到伤害时，代替其承受伤害。\n<span style=\"color:#db2424\">只可对除绝技、警戒攻击和回击外造成单体伤害的攻击生效。</span>"
         }
-      ]
+      ],
+      "type": 1
     }
   ],
   "skin": [

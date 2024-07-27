@@ -41,7 +41,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Commonattack_S",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "十二香梦",
@@ -61,7 +62,8 @@
           "name": "<span style=\"color:#ff6724\">落花</span>",
           "des": "受到的伤害增加<span style=\"color:#158bdb\">20%</span>，持续<span style=\"color:#158bdb\">2</span>回合。"
         }
-      ]
+      ],
+      "type": 1
     },
     {
       "name": "花藏不见",
@@ -80,7 +82,8 @@
           "name": "<span style=\"color:#ff6724\">疏忽</span>",
           "des": "受到的警戒攻击伤害提高<span style=\"color:#158bdb\">30%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">1</span>层。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "月令花神",
@@ -95,7 +98,8 @@
           "name": "<span style=\"color:#ff6724\">惊蕊</span>",
           "des": "使警戒攻击造成的伤害提高<span style=\"color:#158bdb\">10%</span>，可叠加<span style=\"color:#158bdb\">3</span>层。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "薄胎映彩",
@@ -105,7 +109,8 @@
       ],
       "level": 1,
       "icon": "skillicon_S013205",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "集诗",
@@ -121,7 +126,8 @@
           "name": "<span style=\"color:#ff6724\">礼弹</span>",
           "des": "填充<span style=\"color:#ff6724\">礼弹</span>则进入警戒状态，每次警戒攻击或治疗将消耗<span style=\"color:#ff6724\">礼弹</span>，<span style=\"color:#ff6724\">礼弹</span>清零后自动结束警戒状态。"
         }
-      ]
+      ],
+      "type": 1
     }
   ],
   "skin": [

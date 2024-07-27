@@ -41,7 +41,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Commonattack_W",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "印文如风",
@@ -57,7 +58,8 @@
           "name": "<span style=\"color:#ff6724\">火印</span>",
           "des": "每回合开始时受到冷暖自知印攻击力<span style=\"color:#158bdb\">10%</span>的伤害，持续<span style=\"color:#158bdb\">2</span>回合。"
         }
-      ]
+      ],
+      "type": 1
     },
     {
       "name": "沉雕",
@@ -67,7 +69,8 @@
       ],
       "level": 1,
       "icon": "skillicon_W007103",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "锉磨",
@@ -82,7 +85,8 @@
           "name": "<span style=\"color:#ff6724\">脆弱</span>",
           "des": "提高受到的所有伤害<span style=\"color:#db2424\">30%</span>，每受到一次直接攻击减少<span style=\"color:#ff6724\">1层</span>，持续<span style=\"color:#4395d6\">2</span>回合或层数用完。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "入石",
@@ -92,7 +96,8 @@
       ],
       "level": 1,
       "icon": "skillicon_W007105",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "白文如雪",
@@ -108,7 +113,8 @@
           "name": "<span style=\"color:#ff6724\">雪渔</span>",
           "des": "移动力降低<span style=\"color:#ff6724\">-2</span>，持续<span style=\"color:#158bdb\">2</span>回合。"
         }
-      ]
+      ],
+      "type": 1
     }
   ],
   "skin": [

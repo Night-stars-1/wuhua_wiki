@@ -41,7 +41,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Commonattack_D",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "悬世长明",
@@ -61,7 +62,8 @@
           "name": "<span style=\"color:#ff6724\">禅定</span>",
           "des": "受到伤害时消耗<span style=\"color:#158bdb\">1</span>层，降低所受到的伤害，最大可叠加<span style=\"color:#158bdb\">4</span>层。"
         }
-      ]
+      ],
+      "type": 1
     },
     {
       "name": "琉璃金身",
@@ -76,7 +78,8 @@
           "name": "<span style=\"color:#ff6724\">禅定</span>",
           "des": "受到伤害时消耗<span style=\"color:#158bdb\">1</span>层，降低所受到的伤害，最大可叠加<span style=\"color:#158bdb\">4</span>层。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "浮图宝刹",
@@ -91,7 +94,8 @@
           "name": "<span style=\"color:#ff6724\">禅定</span>",
           "des": "受到伤害时消耗<span style=\"color:#158bdb\">1</span>层，降低所受到的伤害，最大可叠加<span style=\"color:#158bdb\">4</span>层。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "金陵孑遗",
@@ -106,7 +110,8 @@
           "name": "<span style=\"color:#ff6724\">禅定</span>",
           "des": "受到伤害时消耗<span style=\"color:#158bdb\">1</span>层，降低所受到的伤害，最大可叠加<span style=\"color:#158bdb\">4</span>层。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "芥子须弥",
@@ -122,7 +127,8 @@
           "name": "<span style=\"color:#ff6724\">援护</span>",
           "des": "当友方单位受到伤害时，代替其承受伤害。\n<span style=\"color:#db2424\">只可对除绝技、警戒攻击和回击外造成单体伤害的攻击生效。</span>"
         }
-      ]
+      ],
+      "type": 1
     }
   ],
   "skin": [

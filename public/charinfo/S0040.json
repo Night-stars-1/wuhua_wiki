@@ -41,7 +41,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Commonattack_S",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "结案",
@@ -52,7 +53,8 @@
       ],
       "level": 1,
       "icon": "skillicon_S004002",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "寻迹",
@@ -71,7 +73,8 @@
           "name": "<span style=\"color:#ff6724\">侦探时间</span>",
           "des": "攻击力提高<span style=\"color:#158bdb\">20%</span>，持续<span style=\"color:#158bdb\">3</span>回合。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "回眸",
@@ -86,7 +89,8 @@
           "name": "<span style=\"color:#ff6724\">探源</span>",
           "des": "最多可叠加<span style=\"color:#158bdb\">6</span>层。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "勘破",
@@ -105,7 +109,8 @@
           "name": "<span style=\"color:#ff6724\">肃静</span>",
           "des": "无法释放职业技能和绝技，持续<span style=\"color:#158bdb\">1</span>回合。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "求踪",
@@ -121,7 +126,8 @@
           "name": "<span style=\"color:#ff6724\">礼弹</span>",
           "des": "填充<span style=\"color:#ff6724\">礼弹</span>则进入警戒状态，每次警戒攻击或治疗将消耗<span style=\"color:#ff6724\">礼弹</span>，<span style=\"color:#ff6724\">礼弹</span>清零后自动结束警戒状态。"
         }
-      ]
+      ],
+      "type": 1
     }
   ],
   "skin": [

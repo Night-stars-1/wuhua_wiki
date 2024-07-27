@@ -41,7 +41,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Commonattack_V",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "度衡一统",
@@ -57,7 +58,8 @@
           "name": "<span style=\"color:#ff6724\">真实伤害</span>",
           "des": "此伤害不触发暴击和贯穿效果，且无法被格挡，无视防御和减伤效果，同时也不受增伤效果影响。"
         }
-      ]
+      ],
+      "type": 1
     },
     {
       "name": "合规守律",
@@ -66,13 +68,14 @@
         "被动触发"
       ],
       "level": 1,
-      "icon": "",
+      "icon": "skillicon_V005203",
       "buff": [
         {
           "name": "<span style=\"color:#ff6724\">真实伤害</span>",
           "des": "此伤害不触发暴击和贯穿效果，且无法被格挡，无视防御和减伤效果，同时也不受增伤效果影响。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "秦法威严",
@@ -81,13 +84,14 @@
         "被动触发"
       ],
       "level": 1,
-      "icon": "",
+      "icon": "skillicon_V005204",
       "buff": [
         {
           "name": "<span style=\"color:#ff6724\">真实伤害</span>",
           "des": "此伤害不触发暴击和贯穿效果，且无法被格挡，无视防御和减伤效果，同时也不受增伤效果影响。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "法不容情",
@@ -96,13 +100,14 @@
         "被动触发"
       ],
       "level": 1,
-      "icon": "",
+      "icon": "skillicon_V005205",
       "buff": [
         {
           "name": "<span style=\"color:#ff6724\">真实伤害</span>",
           "des": "此伤害不触发暴击和贯穿效果，且无法被格挡，无视防御和减伤效果，同时也不受增伤效果影响。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "执规迅行",
@@ -113,7 +118,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Jobskill_V",
-      "buff": []
+      "buff": [],
+      "type": 1
     }
   ],
   "skin": [

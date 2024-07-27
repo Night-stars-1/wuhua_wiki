@@ -41,7 +41,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Commonattack_W",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "乐舞万象",
@@ -52,7 +53,8 @@
       ],
       "level": 1,
       "icon": "skillicon_W007902",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "排练",
@@ -62,7 +64,8 @@
       ],
       "level": 1,
       "icon": "skillicon_W007903",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "随性演出",
@@ -72,7 +75,8 @@
       ],
       "level": 1,
       "icon": "skillicon_W007904",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "合奏",
@@ -87,7 +91,8 @@
           "name": "<span style=\"color:#ff6724\">和鸣</span>",
           "des": "下一次攻击伤害提高<span style=\"color:#158bdb\">10%</span>，并限制受击目标移动<span style=\"color:#158bdb\">1</span>回合。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "候场",
@@ -98,7 +103,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Jobskill_W_D",
-      "buff": []
+      "buff": [],
+      "type": 1
     }
   ],
   "skin": [

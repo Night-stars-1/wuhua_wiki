@@ -41,7 +41,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Commonattack_V",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "为善最乐",
@@ -52,7 +53,8 @@
       ],
       "level": 1,
       "icon": "skillicon_V005902",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "不欺",
@@ -67,7 +69,8 @@
           "name": "<span style=\"color:#ff6724\">为道</span>",
           "des": "常击后进行连击，对受击敌方单位造成攻击力<span style=\"color:#158bdb\">70%</span>的物理伤害。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "云梦访道",
@@ -86,7 +89,8 @@
           "name": "<span style=\"color:#ff6724\">有归于无</span>",
           "des": "贯穿概率提高<span style=\"color:#158bdb\">20%</span>，持续<span style=\"color:#158bdb\">2</span>回合。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "仙翁脱骨",
@@ -96,7 +100,8 @@
       ],
       "level": 1,
       "icon": "skillicon_V005905",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "先走一步",
@@ -107,7 +112,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Jobskill_V",
-      "buff": []
+      "buff": [],
+      "type": 1
     }
   ],
   "skin": [

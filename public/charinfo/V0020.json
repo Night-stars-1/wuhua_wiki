@@ -41,7 +41,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Commonattack_V",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "热血仁侠",
@@ -52,7 +53,8 @@
       ],
       "level": 1,
       "icon": "skillicon_V002002",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "宝气珠光",
@@ -62,7 +64,8 @@
       ],
       "level": 1,
       "icon": "skillicon_V002003",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "国公威仪",
@@ -72,7 +75,8 @@
       ],
       "level": 1,
       "icon": "skillicon_V002004",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "如意宝冠",
@@ -82,7 +86,8 @@
       ],
       "level": 1,
       "icon": "skillicon_V002005",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "洒脱",
@@ -93,7 +98,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Jobskill_V",
-      "buff": []
+      "buff": [],
+      "type": 1
     }
   ],
   "skin": [

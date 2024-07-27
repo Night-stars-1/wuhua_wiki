@@ -41,7 +41,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Commonattack_D",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "展戈持护",
@@ -61,7 +62,8 @@
           "name": "<span style=\"color:#ff6724\">蓄势</span>",
           "des": "提高所有伤害<span style=\"color:#158bdb\">20%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">2</span>层。"
         }
-      ]
+      ],
+      "type": 1
     },
     {
       "name": "妇好之姿",
@@ -76,7 +78,8 @@
           "name": "<span style=\"color:#ff6724\">援护</span>",
           "des": "当友方单位受到伤害时，代替其承受伤害。\n<span style=\"color:#db2424\">只可对除绝技、警戒攻击和回击外造成单体伤害的攻击生效。</span>"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "辛之威仪",
@@ -86,7 +89,8 @@
       ],
       "level": 1,
       "icon": "skillicon_D005804",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "战神长嘶",
@@ -101,7 +105,8 @@
           "name": "<span style=\"color:#ff6724\">援护</span>",
           "des": "当友方单位受到伤害时，代替其承受伤害。\n<span style=\"color:#db2424\">只可对除绝技、警戒攻击和回击外造成单体伤害的攻击生效。</span>"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "鸮声长援",
@@ -117,7 +122,8 @@
           "name": "<span style=\"color:#ff6724\">援护</span>",
           "des": "当友方单位受到伤害时，代替其承受伤害。\n<span style=\"color:#db2424\">只可对除绝技、警戒攻击和回击外造成单体伤害的攻击生效。</span>"
         }
-      ]
+      ],
+      "type": 1
     }
   ],
   "skin": [

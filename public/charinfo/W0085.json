@@ -41,7 +41,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Commonattack_W",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "闪耀舞台",
@@ -52,7 +53,8 @@
       ],
       "level": 1,
       "icon": "skillicon_W008502",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "粉色光海",
@@ -71,7 +73,8 @@
           "name": "<span style=\"color:#ff6724\">应援棒</span>",
           "des": "对宿卫造成的伤害提升<span style=\"color:#158bdb\">20%</span>，持续<span style=\"color:#158bdb\">2</span>回合。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "暖香沁人",
@@ -81,7 +84,8 @@
       ],
       "level": 1,
       "icon": "skillicon_W008504",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "星梦熠熠",
@@ -91,7 +95,8 @@
       ],
       "level": 1,
       "icon": "skillicon_W008505",
-      "buff": []
+      "buff": [],
+      "type": 2
     },
     {
       "name": "返场呼声",
@@ -107,7 +112,8 @@
           "name": "<span style=\"color:#ff6724\">安可</span>",
           "des": "常击的最大攻击距离提高<span style=\"color:#158bdb\">1</span>格，造成的构素伤害提高<span style=\"color:#158bdb\">80%</span>"
         }
-      ]
+      ],
+      "type": 1
     }
   ],
   "skin": [

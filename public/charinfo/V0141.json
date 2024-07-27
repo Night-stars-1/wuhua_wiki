@@ -41,7 +41,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Commonattack_V",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "雪漫秦陇",
@@ -69,7 +70,8 @@
           "name": "<span style=\"color:#ff6724\">霜冻</span>",
           "des": "处于此状态的单位无法进行任何行动，持续<span style=\"color:#158bdb\">1</span>回合。"
         }
-      ]
+      ],
+      "type": 1
     },
     {
       "name": "泠泠寒山",
@@ -78,8 +80,9 @@
         "被动触发"
       ],
       "level": 1,
-      "icon": "",
-      "buff": []
+      "icon": "skillicon_V014103",
+      "buff": [],
+      "type": 2
     },
     {
       "name": "深潭映雪",
@@ -88,13 +91,14 @@
         "被动触发"
       ],
       "level": 1,
-      "icon": "",
+      "icon": "skillicon_V014104",
       "buff": [
         {
           "name": "<span style=\"color:#ff6724\">真实伤害</span>",
           "des": "此伤害不触发暴击和贯穿效果，且无法被格挡，无视防御和减伤效果，同时也不受增伤效果影响。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "苍峰冰结",
@@ -103,8 +107,9 @@
         "被动触发"
       ],
       "level": 1,
-      "icon": "",
-      "buff": []
+      "icon": "skillicon_V014105",
+      "buff": [],
+      "type": 2
     },
     {
       "name": "独游",
@@ -115,7 +120,8 @@
       ],
       "level": 1,
       "icon": "skillicon_V014111",
-      "buff": []
+      "buff": [],
+      "type": 1
     }
   ],
   "skin": [

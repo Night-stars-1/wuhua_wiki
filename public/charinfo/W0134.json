@@ -41,7 +41,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Commonattack_W",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "悬水倾山",
@@ -52,7 +53,8 @@
       ],
       "level": 1,
       "icon": "skillicon_W013402",
-      "buff": []
+      "buff": [],
+      "type": 1
     },
     {
       "name": "重峦西驰",
@@ -79,7 +81,8 @@
           "name": "<span style=\"color:#ff6724\">滔滔</span>",
           "des": "<span style=\"color:#158bdb\">3</span>层<span style=\"color:#146cd8\">流纹</span>转化获得：\n使用绝技时，范围变为选定敌方及其<span style=\"color:#158bdb\">2</span>格，攻击力提升至<span style=\"color:#158bdb\">1.1</span>倍，并使受击敌方单位获得<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">寒天</span>状态。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "千江东流",
@@ -94,7 +97,8 @@
           "name": "<span style=\"color:#ff6724\">青绿设色</span>",
           "des": "绝技的最大攻击距离增加<span style=\"color:#158bdb\">2</span>格，使用绝技后此状态消失。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "山重水复",
@@ -113,7 +117,8 @@
           "name": "<span style=\"color:#ff6724\">步移景异</span>",
           "des": "自身回合开始时额外获得<span style=\"color:#158bdb\">1</span>点能量，效果持续<span style=\"color:#158bdb\">2</span>回合。"
         }
-      ]
+      ],
+      "type": 2
     },
     {
       "name": "乱流",
@@ -124,7 +129,8 @@
       ],
       "level": 1,
       "icon": "skillicon_Jobskill_W_D",
-      "buff": []
+      "buff": [],
+      "type": 1
     }
   ],
   "skin": [
