@@ -13,6 +13,7 @@ declare module 'vue' {
     CharName: typeof import('./src/components/char/CharName.vue')['default']
     CharSkill: typeof import('./src/components/char/CharSkill.vue')['default']
     CharView: typeof import('./src/components/char/CharView.vue')['default']
+    CircularProgress: typeof import('./src/components/progress/CircularProgress.vue')['default']
     ElAlert: typeof import('element-plus/es')['ElAlert']
     ElAside: typeof import('element-plus/es')['ElAside']
     ElAvatar: typeof import('element-plus/es')['ElAvatar']

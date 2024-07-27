@@ -1,7 +1,7 @@
 /*
  * @Author: Night-stars-1 nujj1042633805@gmail.com
  * @Date: 2024-07-15 20:29:22
- * @LastEditTime: 2024-07-20 19:52:43
+ * @LastEditTime: 2024-07-27 16:12:57
  * @LastEditors: Night-stars-1 nujj1042633805@gmail.com
  */
 import { createApp } from "vue";
@@ -11,7 +11,7 @@ import axios from "axios";
 import "./style.css";
 import App from "./App.vue";
 import router from "@/plugin/router";
-// import 'element-plus/theme-chalk/dark/css-vars.css'
+import 'element-plus/theme-chalk/dark/css-vars.css'
 
 axios.defaults.baseURL = import.meta.env.BASE_URL;
 

@@ -1,8 +1,14 @@
+/*
+ * @Author: Night-stars-1 nujj1042633805@gmail.com
+ * @Date: 2024-07-15 23:33:17
+ * @LastEditors: Night-stars-1 nujj1042633805@gmail.com
+ * @LastEditTime: 2024-07-27 15:22:38
+ */
 interface Card {
   /**
    * 名称
    */
-  name: str;
+  name: string;
   /**
    * 星级
    * 2 新生
@@ -13,19 +19,19 @@ interface Card {
   /**
    * 类型
    */
-  // itemType: str;
+  // itemType: string;
   /**
    * 卡池	
    */
-  gachaName: str;
+  gachaName: string;
   /**
    * 卡池类型
    */
-  gachaType: str
+  gachaType: string
   /**
    * 时间
    */
-  time: str;
+  time: string;
 }
 
 interface DrawCardHistory {

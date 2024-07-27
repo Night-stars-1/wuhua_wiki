@@ -140,7 +140,7 @@
       <el-card body-style="padding:0;text-align: center">
         <el-table
           v-loading="loading"
-          :data="tableData()"
+          :data="tableData"
           :row-class-name="tableRowClassName"
           height="100%"
         >
@@ -210,6 +210,18 @@
         </div>
       </el-card>
     </el-col>
+    <el-col :span="24">
+      <el-card>
+        <el-row v-for="char in charProgress">
+          <el-col :span="4">
+            {{ char.name }}:
+          </el-col>
+          <el-col :span="20">
+            <CircularProgress :progress="char.count / 70 * 100" :label="`${char.count}`" />
+          </el-col>
+        </el-row>
+      </el-card>
+    </el-col>
   </el-row>
   <el-dialog
     v-model="dialogTableVisible"
@@ -246,6 +258,9 @@ const analysisList = ref([
     total: 0,
     three: 0,
     four: 0,
+    /**
+     * 已垫抽数
+     */
     pull: 0,
   },
   {
@@ -265,21 +280,35 @@ const analysisList = ref([
 ]);
 const loading = ref(false);
 const cardListStr = localStorage.getItem("cardList");
-let cardList: Card[] = cardListStr ? JSON.parse(cardListStr) : [];
+let cardList = cardListStr
+  ? ref<Card[]>(JSON.parse(cardListStr))
+  : ref<Card[]>([]);
 const state = ref({
   page: 1,
   limit: 10,
-  total: cardList.length,
+  total: cardList.value.length,
 });
-const tableData = () => {
-  return cardList.filter(
+const tableData = computed(() => {
+  console.log(cardList.value);
+  return cardList.value.filter(
     (_, index) =>
       index < state.value.page * state.value.limit &&
       index >= state.value.limit * (state.value.page - 1)
   );
-};
+});
+const charProgress = ref([
+  {
+    name: "未知",
+    count: 0,
+  },
+]);
 const dialogTableVisible = ref(false);
 const dialogText = ref("开始读取抽卡数据...");
+const name2id = ref<{[key: string]: string}>({})
+onMounted(async () => {
+  const response = await http.get("charinfo/allCharacter.json");
+  name2id.value = response.data;
+});
 
 function getGachaId(gachaType: string): number {
   switch (gachaType) {
@@ -318,7 +347,7 @@ async function getDrawCardHistory(
 }
 
 function initCardList() {
-  [...cardList].reverse().forEach((data) => {
+  [...cardList.value].reverse().forEach((data) => {
     const gachaId = getGachaId(data.gachaType);
     switch (data.rankType) {
       case 3:
@@ -326,20 +355,27 @@ function initCardList() {
         break;
       case 4:
         analysisList.value[gachaId].four++;
+        charProgress.value[charProgress.value.length - 1].name = data.name;
+        charProgress.value.push({
+          name: "未知",
+          count: 0,
+        });
         break;
     }
+    charProgress.value[charProgress.value.length - 1].count++;
     analysisList.value[gachaId].pull++;
     if (data.rankType == 4) {
       analysisList.value[gachaId].pull = 0;
     }
     analysisList.value[gachaId].total++;
   });
-  state.value.total = cardList.length;
+  state.value.total = cardList.value.length;
+  console.log(charProgress.value);
 }
 initCardList();
 
 async function Save() {
-  let page = 0;
+  let page = 1;
   const tmpCardList: Card[] = [];
   analysisList.value = [
     {
@@ -372,13 +408,13 @@ async function Save() {
   while (true) {
     const dataList = await getDrawCardHistory(page);
     if (dataList.length == 0) {
-      cardList = mergeLists(tmpCardList, cardList);
+      cardList.value = mergeLists(tmpCardList, cardList.value);
 
       initCardList();
 
       dialogTableVisible.value = false;
       loading.value = false;
-      localStorage.setItem("cardList", JSON.stringify(cardList));
+      localStorage.setItem("cardList", JSON.stringify(cardList.value));
       break;
     }
 
