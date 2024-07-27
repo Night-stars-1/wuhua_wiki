@@ -241,13 +241,16 @@ import { useDark } from "@vueuse/core";
 import iconSun from "@/components/icon/IconSun.vue";
 import { mergeLists } from "@/utils/list";
 import Auth from "@/utils/biliLogin";
+import { getDrawCardHistory, getWuhuaKey } from "@/utils/wuhua";
 const { appContext } = getCurrentInstance() as ComponentInternalInstance;
 const http = appContext.config.globalProperties.$http;
 
 const isDark = useDark();
 
-const code = ref(localStorage.getItem("code")) ?? ref("");
-const uid = ref(localStorage.getItem("uid")) ?? ref("");
+const codeStr = localStorage.getItem("code")
+const code = codeStr ? ref(codeStr) : ref("");
+const uidStr = localStorage.getItem("uid");
+const uid = uidStr ? ref(uidStr) : ref("");
 const userId = ref("");
 const pwd = ref("");
 const activeName = "限时渠道";
@@ -289,7 +292,6 @@ const state = ref({
   total: cardList.value.length,
 });
 const tableData = computed(() => {
-  console.log(cardList.value);
   return cardList.value.filter(
     (_, index) =>
       index < state.value.page * state.value.limit &&
@@ -324,27 +326,8 @@ function getGachaId(gachaType: string): number {
       return -1;
   }
 }
-async function getDrawCardHistory(
-  page: number = 0
-): Promise<DrawCardHistory[]> {
-  const response = await http.post(
-    "https://goda.srap.link/getDrawCardHistory",
-    {
-      code: code.value,
-      uid: uid.value,
-      type: ["time", "oldtime", "newPlayer", "normal"],
-      page: page,
-      pagesize: 10,
-    },
-    {
-      headers: {
-        accept: "application/json",
-        "Content-Type": "application/json",
-      },
-    }
-  );
-  return response.data.data;
-}
+
+
 
 function initCardList() {
   [...cardList.value].reverse().forEach((data) => {
@@ -405,8 +388,9 @@ async function Save() {
   dialogTableVisible.value = true;
   loading.value = true;
   dialogText.value = "开始读取抽卡数据...";
+  const key = await getWuhuaKey(code.value, uid.value);
   while (true) {
-    const dataList = await getDrawCardHistory(page);
+    const dataList = await getDrawCardHistory(key, "", "", page);
     if (dataList.length == 0) {
       cardList.value = mergeLists(tmpCardList, cardList.value);
 
