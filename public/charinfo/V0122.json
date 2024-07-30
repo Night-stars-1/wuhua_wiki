@@ -1,0 +1,125 @@
+{
+  "info": {
+    "name": "铜车马",
+    "star": 0,
+    "Hp": 749,
+    "Atk": 333,
+    "PhysicDef": 51,
+    "MagicDef": 51,
+    "Speed": 100,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 3,
+    "Mov": 4,
+    "Hp_GROW": 60,
+    "Atk_GROW": 22,
+    "PhysicDef_GROW": 5,
+    "MagicDef_GROW": 5,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": ""
+  },
+  "skill": [
+    {
+      "name": "征伐",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+      "tag": [
+        "射程1格 ",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Commonattack_V",
+      "buff": [],
+      "type": 1
+    },
+    {
+      "name": "马踏车突",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">180%</span>的物理伤害并使其获得<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">流失</span>状态，自身获得再行动<span style=\"color:#158bdb\">1</span>次，该次额外行动的移动力减少<span style=\"color:#158bdb\">2</span>。 ",
+      "tag": [
+        "射程4格",
+        "消耗:3"
+      ],
+      "level": 1,
+      "icon": "skillicon_V012202",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">流失</span>",
+          "des": "每移动一格，受到最大生命值<span style=\"color:#158bdb\">5%</span>的伤害，可叠加<span style=\"color:#158bdb\">5</span>层，持续<span style=\"color:#158bdb\">2</span>回合。"
+        }
+      ],
+      "type": 1
+    },
+    {
+      "name": "始皇威势",
+      "des": "自身<span style=\"color:#158bdb\">周围3格</span>的任意单位获得<span style=\"color:#ff6724\">流失</span>状态时，自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">帝势</span>状态。此技能在任意单位的<span style=\"color:#158bdb\">1</span>次行动中最多可触发<span style=\"color:#158bdb\">1</span>次，<span style=\"color:#ff6724\">帝势</span>状态最多可叠加<span style=\"color:#158bdb\">3</span>层。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_V012203",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">帝势</span>",
+          "des": "此状态持续时间无限，最多可叠加<span style=\"color:#158bdb\">3</span>层。"
+        }
+      ],
+      "type": 2
+    },
+    {
+      "name": "以攻为守",
+      "des": "对敌方单位进行任意攻击时，使其获得1层<span style=\"color:#ff6724\">流失</span>状态；攻击后，目标单位每拥有<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">流失</span>状态，则自身回复最大生命值<span style=\"color:#158bdb\">5%</span>的生命值。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_V012204",
+      "buff": [],
+      "type": 2
+    },
+    {
+      "name": "镇卫四方",
+      "des": "自身存在<span style=\"color:#ff6724\">帝势</span>状态时，获得<span style=\"color:#158bdb\">1%</span>的伤害减免；当自身<span style=\"color:#ff6724\">帝势</span>状态不少于<span style=\"color:#158bdb\">3</span>层时，无视敌方宿卫的束缚格效果且移动可以穿过敌方单位。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_V012205",
+      "buff": [],
+      "type": 2
+    },
+    {
+      "name": "车马奔袭",
+      "des": "对选定的敌方单体及其同排<span style=\"color:#158bdb\">2</span>个地块内敌方全体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害并击退其<span style=\"color:#158bdb\">1</span>格；自身每存在<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">帝势</span>状态，则击退距离增加<span style=\"color:#158bdb\">1</span>格。攻击后，自身移动至选定敌方单体的身前<span style=\"color:#158bdb\">1</span>格。",
+      "tag": [
+        "射程1格 ",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Jobskill_V",
+      "buff": [],
+      "type": 1
+    }
+  ],
+  "skin": [
+    {
+      "id": "V0122001",
+      "name": "肖形"
+    },
+    {
+      "id": "V0122002",
+      "name": "写照"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "info": {
+    "name": "跪射武士俑",
+    "star": 0,
+    "Hp": 626,
+    "Atk": 285,
+    "PhysicDef": 36,
+    "MagicDef": 36,
+    "Speed": 165,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 5,
+    "Mov": 3,
+    "Hp_GROW": 50,
+    "Atk_GROW": 19,
+    "PhysicDef_GROW": 4,
+    "MagicDef_GROW": 4,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": ""
+  },
+  "skill": [
+    {
+      "name": "抛射",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+      "tag": [
+        "十字3格",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Commonattack_A",
+      "buff": [],
+      "type": 1
+    },
+    {
+      "name": "锋镝清野",
+      "des": "使用后，自身获得再行动<span style=\"color:#158bdb\">1</span>次，并获得持续<span style=\"color:#158bdb\">2</span>回合的<span style=\"color:#ff6724\">锋镝清野</span>状态。处于此状态时，常击的攻击范围变为自身<span style=\"color:#158bdb\">周围3格</span>，且可对选定的敌方单体或地块及其<span style=\"color:#158bdb\">周围1格</span>敌方全体造成物理伤害。",
+      "tag": [
+        "自身",
+        "消耗:5"
+      ],
+      "level": 1,
+      "icon": "skillicon_A012102",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">锋镝清野</span>",
+          "des": "处于此状态时，自身受到的伤害降低<span style=\"color:#158bdb\">2%</span>，无法移动并免疫敌方造成的位移效果；常击的攻击范围变为自身<span style=\"color:#158bdb\">周围3格</span>，且可对选定的敌方单体或地块及其<span style=\"color:#158bdb\">周围1格</span>敌方全体造成物理伤害；自身无法进入<span style=\"color:#ff6724\">瞄准</span>状态。"
+        }
+      ],
+      "type": 1
+    },
+    {
+      "name": "弦落箭鸣",
+      "des": "处于<span style=\"color:#ff6724\">瞄准</span>状态或<span style=\"color:#ff6724\">锋镝清野</span>状态时进行攻击，受击敌方单位有<span style=\"color:#158bdb\">30%</span>概率获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">脆弱</span>状态。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_A012103",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">脆弱</span>",
+          "des": "提高受到的所有伤害<span style=\"color:#db2424\">30%</span>，每受到一次直接攻击减少<span style=\"color:#ff6724\">1层</span>，持续<span style=\"color:#4395d6\">2</span>回合或层数用完。"
+        }
+      ],
+      "type": 2
+    },
+    {
+      "name": "弩机速填",
+      "des": "自身瞄准冷却率增加<span style=\"color:#158bdb\">20</span>；触发瞄准冷却效果时，自身额外获得<span style=\"color:#158bdb\">1</span>点能量。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_A012104",
+      "buff": [],
+      "type": 2
+    },
+    {
+      "name": "同袍齐心",
+      "des": "使用绝技时，自身<span style=\"color:#158bdb\">周围1格</span>每存在<span style=\"color:#158bdb\">1</span>名友方单位，则自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">激勇</span>状态；受到敌方单位直接攻击或友方单位治疗时，自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">激勇</span>状态。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_A012105",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">锋镝清野</span>",
+          "des": "处于此状态时，自身受到的伤害降低<span style=\"color:#158bdb\">5%</span>，无法移动并免疫敌方造成的位移效果；常击的攻击范围变为自身<span style=\"color:#158bdb\">周围3格</span>，且可对选定的敌方单体或地块及其<span style=\"color:#158bdb\">周围1格</span>敌方全体造成物理伤害；自身无法进入<span style=\"color:#ff6724\">瞄准</span>状态。"
+        }
+      ],
+      "type": 2
+    },
+    {
+      "name": "望山",
+      "des": "使用后自身获得<span style=\"color:#158bdb\">1</span>次不可移动的再行动，并进入<span style=\"color:#ff6724\">瞄准</span>状态。",
+      "tag": [
+        "自身",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Jobskill_A",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">瞄准</span>",
+          "des": "此状态下进行攻击时，最大攻击距离增加<span style=\"color:#158bdb\">4</span>格，该次再行动结束后，此状态消失。"
+        }
+      ],
+      "type": 1
+    }
+  ],
+  "skin": [
+    {
+      "id": "A0121001",
+      "name": "肖形"
+    },
+    {
+      "id": "A0121002",
+      "name": "写照"
+    }
+  ]
+}

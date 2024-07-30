@@ -29,6 +29,9 @@ importers:
       jsencrypt:
         specifier: ^3.3.2
         version: 3.3.2
+      lodash:
+        specifier: ^4.17.21
+        version: 4.17.21
       unplugin-icons:
         specifier: ^0.19.0
         version: 0.19.0(@vue/compiler-sfc@3.4.32)(vue-template-compiler@2.7.16)
@@ -48,9 +51,9 @@ importers:
       '@iconify-json/material-symbols-light':
         specifier: ^1.1.25
         version: 1.1.25
-      '@types/crypto-js':
-        specifier: ^4.2.2
-        version: 4.2.2
+      '@types/lodash':
+        specifier: ^4.17.7
+        version: 4.17.7
       '@types/node':
         specifier: ^20.14.10
         version: 20.14.11
@@ -557,9 +560,6 @@ packages:
 
   '@sxzz/popperjs-es@2.11.7':
     resolution: {integrity: sha512-Ccy0NlLkzr0Ex2FKvh2X+OyERHXJ88XJ1MXtsI9y9fGexlaXaVTPzBCRBwIxFkORuOb+uBqeu+RqnpgYTEZRUQ==}
-
-  '@types/crypto-js@4.2.2':
-    resolution: {integrity: sha512-sDOLlVbHhXpAUAL0YHDUUwDZf3iN4Bwi4W6a0W0b+QcAezUbRtH4FVb+9J4h+XFPW7l/gQ9F8qC7P+Ec4k8QVQ==}
 
   '@types/estree@1.0.5':
     resolution: {integrity: sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==}
@@ -1986,8 +1986,6 @@ snapshots:
     optional: true
 
   '@sxzz/popperjs-es@2.11.7': {}
-
-  '@types/crypto-js@4.2.2': {}
 
   '@types/estree@1.0.5': {}
 

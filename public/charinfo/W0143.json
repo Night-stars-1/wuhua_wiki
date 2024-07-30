@@ -1,0 +1,129 @@
+{
+  "info": {
+    "name": "秦公镈",
+    "star": 0,
+    "Hp": 783,
+    "Atk": 264,
+    "PhysicDef": 40,
+    "MagicDef": 40,
+    "Speed": 70,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 5,
+    "Mov": 3,
+    "Hp_GROW": 63,
+    "Atk_GROW": 18,
+    "PhysicDef_GROW": 4,
+    "MagicDef_GROW": 4,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": ""
+  },
+  "skill": [
+    {
+      "name": "声动",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
+      "tag": [
+        "射程2格",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Commonattack_W",
+      "buff": [],
+      "type": 1
+    },
+    {
+      "name": "灵音雍雍",
+      "des": "使用后进入持续<span style=\"color:#158bdb\">2</span>回合的<span style=\"color:#ff6724\">灵音</span>状态。此状态下，每<span style=\"color:#158bdb\">1</span>次自身回合结束时，对自身<span style=\"color:#158bdb\">周围3格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">80%</span>的构素伤害。",
+      "tag": [
+        "自身",
+        "消耗:5"
+      ],
+      "level": 1,
+      "icon": "skillicon_W014302",
+      "buff": [],
+      "type": 1
+    },
+    {
+      "name": "龙凤回响",
+      "des": "进行绝技攻击后，自身<span style=\"color:#158bdb\">周围3格</span>处于<span style=\"color:#ff6724\">沁声</span>状态的友方单位将进行<span style=\"color:#158bdb\">1</span>次回响攻击，对其<span style=\"color:#158bdb\">周围1格</span>的敌方全体造成秦公镈攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_W014303",
+      "buff": [],
+      "type": 2
+    },
+    {
+      "name": "击奏",
+      "des": "敌方单位每受到<span style=\"color:#158bdb\">1</span>次秦公镈的绝技伤害或回响伤害，则获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">镈鸣</span>状态，且有<span style=\"color:#158bdb\">40%</span>概率获得1层<span style=\"color:#ff6724\">降攻</span>状态。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_W014304",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">镈鸣</span>",
+          "des": "此状态累计至<span style=\"color:#158bdb\">3</span>层时，获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">眩晕</span>状态；<span style=\"color:#ff6724\">镈鸣</span>状态仅持续至回合结束。"
+        },
+        {
+          "name": "<span style=\"color:#ff6724\">降攻</span>",
+          "des": "攻击力减低<span style=\"color:#158bdb\">20%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">1</span>层。"
+        }
+      ],
+      "type": 2
+    },
+    {
+      "name": "祈鸣",
+      "des": "进入战斗后获得<span style=\"color:#158bdb\">2</span>点能量。每<span style=\"color:#158bdb\">1</span>次回响攻击造成伤害时，秦公镈有<span style=\"color:#158bdb\">20%</span>概率获得<span style=\"color:#158bdb\">1</span>点能量；单次回响攻击最多获得<span style=\"color:#158bdb\">2</span>点能量。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_W014305",
+      "buff": [],
+      "type": 2
+    },
+    {
+      "name": "乐启",
+      "des": "选定自身<span style=\"color:#158bdb\">周围2格</span>的友方单体，使其获得<span style=\"color:#ff6724\">沁声</span>状态。若该单位已经处于<span style=\"color:#ff6724\">沁声</span>状态，则击退该角色<span style=\"color:#158bdb\">周围1格</span>的敌方全体，触发此效果后自身职业技能冷却时间增加<span style=\"color:#158bdb\">1</span>回合。",
+      "tag": [
+        "射程2格",
+        "消耗:1"
+      ],
+      "level": 1,
+      "icon": "skillicon_W014311",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">沁声</span>",
+          "des": "处于此状态时，造成的技能伤害提高<span style=\"color:#158bdb\">20%</span>，持续时间无限，最多<span style=\"color:#158bdb\">2</span>名友军可拥有此状态。"
+        }
+      ],
+      "type": 1
+    }
+  ],
+  "skin": [
+    {
+      "id": "W0143001",
+      "name": "肖形"
+    },
+    {
+      "id": "W0143002",
+      "name": "写照"
+    }
+  ]
+}

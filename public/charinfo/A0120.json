@@ -1,0 +1,125 @@
+{
+  "info": {
+    "name": "青铜仙鹤",
+    "star": 0,
+    "Hp": 595,
+    "Atk": 312,
+    "PhysicDef": 31,
+    "MagicDef": 31,
+    "Speed": 150,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 3,
+    "Mov": 3,
+    "Hp_GROW": 48,
+    "Atk_GROW": 21,
+    "PhysicDef_GROW": 3,
+    "MagicDef_GROW": 3,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": ""
+  },
+  "skill": [
+    {
+      "name": "鹤羽",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+      "tag": [
+        "十字3格",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Commonattack_A",
+      "buff": [],
+      "type": 1
+    },
+    {
+      "name": "鹤归兰池",
+      "des": "使自身进入<span style=\"color:#ff6724\">展翅</span>状态，持续<span style=\"color:#158bdb\">60</span>回合，并立即获得额外行动<span style=\"color:#158bdb\">1</span>次。",
+      "tag": [
+        "自身",
+        "消耗:3"
+      ],
+      "level": 1,
+      "icon": "skillicon_A012002",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">展翅</span>",
+          "des": "攻击力提升<span style=\"color:#158bdb\">60%</span>，且职业技能无冷却时间。"
+        }
+      ],
+      "type": 1
+    },
+    {
+      "name": "唳嘹",
+      "des": "攻击后有<span style=\"color:#158bdb\">60%</span>概率使目标获得<span style=\"color:#ff6724\">流失</span>状态。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_A012003",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">流失</span>",
+          "des": "每移动一格，受到最大生命值<span style=\"color:#158bdb\">5%</span>的伤害，可叠加<span style=\"color:#158bdb\">5</span>层，持续<span style=\"color:#158bdb\">2</span>回合。"
+        }
+      ],
+      "type": 2
+    },
+    {
+      "name": "瑞鹤之气",
+      "des": "若使用职业技能时，仅对单个目标造成伤害，则下一次职业技能伤害提高<span style=\"color:#158bdb\">20%</span>；若使用职业技能对<span style=\"color:#158bdb\">3</span>个或以上目标造成伤害，则下一次职业技能穿刺伤害不再降低。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_A012004",
+      "buff": [],
+      "type": 2
+    },
+    {
+      "name": "喙击再临",
+      "des": "对敌方单位进行常击时，若该单位的<span style=\"color:#ff6724\">流失</span>状态大于<span style=\"color:#158bdb\">3</span>层，则对其额外造成<span style=\"color:#158bdb\">1</span>次自身攻击力<span style=\"color:#158bdb\">3%</span>的物理伤害，并刷新其<span style=\"color:#ff6724\">流失</span>状态的持续时间。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_A012005",
+      "buff": [],
+      "type": 2
+    },
+    {
+      "name": "鹤影掠空",
+      "des": "对自身选定方向的的<span style=\"color:#158bdb\">7</span>格内的敌方全体造成物理伤害：对第<span style=\"color:#158bdb\">1</span>格的敌方单位造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害，对其后每<span style=\"color:#158bdb\">1</span>格的敌方单位造成的伤害依次降低<span style=\"color:#158bdb\">30%</span>。",
+      "tag": [
+        "射程1格 ",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Jobskill_A",
+      "buff": [],
+      "type": 1
+    }
+  ],
+  "skin": [
+    {
+      "id": "A0120001",
+      "name": "肖形"
+    },
+    {
+      "id": "A0120002",
+      "name": "写照"
+    }
+  ]
+}

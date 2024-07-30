@@ -305,7 +305,7 @@ const charProgress = ref([
   },
 ]);
 const dialogTableVisible = ref(false);
-const dialogText = ref("开始读取抽卡数据...");
+const dialogText = ref(`开始读取抽卡数据...`);
 const name2id = ref<{[key: string]: string}>({})
 onMounted(async () => {
   const response = await http.get("charinfo/allCharacter.json");
@@ -389,10 +389,11 @@ async function Save() {
   dialogText.value = "开始读取抽卡数据...";
   const key = await getWuhuaKey(code.value, uid.value);
   while (true) {
+    dialogText.value = `开始读取抽卡数据...\n第${page}页`;
     const dataList = await getDrawCardHistory(key, "", "", page);
     if (dataList.length == 0) {
       cardList.value = mergeLists(tmpCardList, cardList.value);
-
+  
       initCardList();
 
       dialogTableVisible.value = false;
