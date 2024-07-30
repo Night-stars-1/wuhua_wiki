@@ -213,11 +213,12 @@
     <el-col :span="24">
       <el-card>
         <el-row v-for="char in charProgress">
-          <el-col :span="4">
-            {{ char.name }}:
-          </el-col>
+          <el-col :span="4"> {{ char.name }}: </el-col>
           <el-col :span="20">
-            <CircularProgress :progress="char.count / 70 * 100" :label="`${char.count}`" />
+            <CircularProgress
+              :progress="(char.count / 70) * 100"
+              :label="`${char.count}`"
+            />
           </el-col>
         </el-row>
       </el-card>
@@ -242,6 +243,7 @@ import iconSun from "@/components/icon/IconSun.vue";
 import { mergeLists } from "@/utils/list";
 import Auth from "@/utils/biliLogin";
 import { getDrawCardHistory, getWuhuaKey } from "@/utils/wuhua";
+import { cloneDeep } from "lodash"
 const { appContext } = getCurrentInstance() as ComponentInternalInstance;
 const http = appContext.config.globalProperties.$http;
 
@@ -330,7 +332,13 @@ function getGachaId(gachaType: string): number {
 
 
 function initCardList() {
-  [...cardList.value].reverse().forEach((data) => {
+  charProgress.value = [
+    {
+      name: "未知",
+      count: 0,
+    }
+  ]
+  cloneDeep(cardList.value).reverse().forEach((data) => {
     const gachaId = getGachaId(data.gachaType);
     switch (data.rankType) {
       case 3:
@@ -393,7 +401,7 @@ async function Save() {
     const dataList = await getDrawCardHistory(key, "", "", page);
     if (dataList.length == 0) {
       cardList.value = mergeLists(tmpCardList, cardList.value);
-  
+
       initCardList();
 
       dialogTableVisible.value = false;
