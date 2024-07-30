@@ -5,35 +5,37 @@
  * @LastEditTime: 2024-07-30 20:06:43
  */
 import { isEqual } from 'lodash';
-// /**
-//  * 查找重叠索引
-//  * @param data1
-//  * @param data2
-//  */
-// function findOverlapIndexOld(data1: Card[], data2: Card[]) {
-//   for (let i = 0; i < data1.length; i++) {
-//     let overlap = true;
-//     for (let j = 0; j < data2.length && i + j < data1.length; j++) {
-//       if (
-//         data1[i + j].name !== data2[j].name ||
-//         data1[i + j].rankType !== data2[j].rankType ||
-//         data1[i + j].gachaName !== data2[j].gachaName ||
-//         data1[i + j].gachaType !== data2[j].gachaType ||
-//         data1[i + j].time !== data2[j].time
-//       ) {
-//         overlap = false;
-//         break;
-//       }
-//     }
-//     if (data2.length == 0) {
-//       return -1;
-//     }
-//     if (overlap) {
-//       return i;
-//     }
-//   }
-//   return -1;
-// }
+
+/**
+ * 查找重叠索引
+ * @param data1
+ * @param data2
+ */
+// @ts-ignore
+function findOverlapIndexOld(data1: Card[], data2: Card[]) {
+  for (let i = 0; i < data1.length; i++) {
+    let overlap = true;
+    for (let j = 0; j < data2.length && i + j < data1.length; j++) {
+      if (
+        data1[i + j].name !== data2[j].name ||
+        data1[i + j].rankType !== data2[j].rankType ||
+        data1[i + j].gachaName !== data2[j].gachaName ||
+        data1[i + j].gachaType !== data2[j].gachaType ||
+        data1[i + j].time !== data2[j].time
+      ) {
+        overlap = false;
+        break;
+      }
+    }
+    if (data2.length == 0) {
+      return -1;
+    }
+    if (overlap) {
+      return i;
+    }
+  }
+  return -1;
+}
 
 /**
  * 根据索引元素和检验元素查找重叠索引\
