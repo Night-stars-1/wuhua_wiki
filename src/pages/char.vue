@@ -65,6 +65,10 @@ const isShowCharList = ref(false);
 onMounted(async () => {
   const response = await http.get("charinfo/allCharacter.json");
   allChar.value = response.data;
+  if (!id.value) {
+    id.value = allChar.value[0].id
+  }
+  getCharData();
 });
 
 async function getCharData() {
@@ -75,7 +79,6 @@ async function getCharData() {
     console.error("Error fetching the user data:", error);
   }
 }
-getCharData();
 watch(
   () => route.params.id,
   (newId, _) => {
