@@ -17,7 +17,7 @@
     </el-col>
     <el-col :md="12" style="flex: 1" v-if="data?.info && data?.skill">
       <Panel class="char">
-        <CharName :name="data.info.name" />
+        <CharName :name="data.info.name" :rareId="data.info.rare" :jobId="data.info.job" />
         <el-tabs modelValue="0" class="char-tabs">
           <el-tab-pane label="信息">
             <CharInfo :data="data.info" />

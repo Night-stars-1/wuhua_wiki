@@ -78,4 +78,5 @@ function mergeLists(targetList: Card[], sourceList: Card[]) {
 
 export {
   mergeLists,
+  findOverlapIndex
 }

@@ -29,7 +29,9 @@
     "CritDmgRes_GROW": 0,
     "BlockPenetrate_GROW": 0,
     "EnergyLimit_GROW": 0,
-    "starUpAttr": ""
+    "starUpAttr": "",
+    "rare": 2,
+    "job": 5
   },
   "skill": [
     {
@@ -125,6 +127,10 @@
     {
       "id": "S0013002",
       "name": "写照"
+    },
+    {
+      "id": "S0013003",
+      "name": "宅家理论"
     }
   ]
 }

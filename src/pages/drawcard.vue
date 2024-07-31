@@ -240,7 +240,7 @@ import type { ComponentInternalInstance } from "vue";
 import { Moon, StarFilled } from "@element-plus/icons-vue";
 import { useDark } from "@vueuse/core";
 import iconSun from "@/components/icon/IconSun.vue";
-import { mergeLists } from "@/utils/list";
+import { mergeLists, findOverlapIndex } from "@/utils/list";
 import Auth from "@/utils/biliLogin";
 import { getDrawCardHistory, getWuhuaKey } from "@/utils/wuhua";
 import { cloneDeep } from "lodash"
@@ -399,16 +399,6 @@ async function Save() {
   while (true) {
     dialogText.value = `开始读取抽卡数据...\n第${page}页`;
     const dataList = await getDrawCardHistory(key, "", "", page);
-    if (dataList.length == 0) {
-      cardList.value = mergeLists(tmpCardList, cardList.value);
-
-      initCardList();
-
-      dialogTableVisible.value = false;
-      loading.value = false;
-      localStorage.setItem("cardList", JSON.stringify(cardList.value));
-      break;
-    }
 
     dataList.forEach((data) => {
       tmpCardList.push({
@@ -419,6 +409,17 @@ async function Save() {
         time: new Date(data.Time * 1000).toLocaleString(),
       });
     });
+    const overlapIndex = findOverlapIndex(tmpCardList, cardList.value[0], cardList.value[1]);
+    if (dataList.length == 0 || overlapIndex != -1) {
+      cardList.value = mergeLists(tmpCardList, cardList.value);
+
+      initCardList();
+
+      dialogTableVisible.value = false;
+      loading.value = false;
+      localStorage.setItem("cardList", JSON.stringify(cardList.value));
+      break;
+    }
     page += 1;
     // await new Promise((resolve) => setTimeout(resolve, 100));
   }

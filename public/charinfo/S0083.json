@@ -29,7 +29,9 @@
     "CritDmgRes_GROW": 0,
     "BlockPenetrate_GROW": 0,
     "EnergyLimit_GROW": 0,
-    "starUpAttr": ""
+    "starUpAttr": "",
+    "rare": 4,
+    "job": 5
   },
   "skill": [
     {

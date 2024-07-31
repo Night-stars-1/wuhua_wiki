@@ -121,6 +121,14 @@ interface CharInfo {
    * 能量上限成长
    */
   EnergyLimit_GROW: number;
+  /**
+   * 稀有度
+   */
+  rare: number
+  /**
+   * 职业
+   */
+  job: number
 }
 
 interface Buff {

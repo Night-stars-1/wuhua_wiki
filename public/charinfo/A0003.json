@@ -29,7 +29,9 @@
     "CritDmgRes_GROW": 0,
     "BlockPenetrate_GROW": 0,
     "EnergyLimit_GROW": 0,
-    "starUpAttr": ""
+    "starUpAttr": "",
+    "rare": 3,
+    "job": 3
   },
   "skill": [
     {
@@ -78,7 +80,7 @@
       "buff": [
         {
           "name": "<span style=\"color:#ff6724\">粉色惊喜</span>",
-          "des": "处于此状态时，若被敌方粉色双耳瓶的连击攻击，则受到<span style=\"color:#158bdb\">1</span>次敌方粉色双耳瓶攻击力<span style=\"color:#158bdb\">40%</span>的<span style=\"color:#ff6724\">额外物理伤害</span>。此状态只能同时存在<span style=\"color:#158bdb\">1</span>个。"
+          "des": "处于此状态时，若被敌方粉白双耳瓶的连击攻击，则受到<span style=\"color:#158bdb\">1</span>次敌方粉白双耳瓶攻击力<span style=\"color:#158bdb\">40%</span>的<span style=\"color:#ff6724\">额外物理伤害</span>。此状态只能同时存在<span style=\"color:#158bdb\">1</span>个。"
         }
       ],
       "type": 2

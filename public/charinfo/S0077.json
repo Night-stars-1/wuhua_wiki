@@ -29,7 +29,9 @@
     "CritDmgRes_GROW": 0,
     "BlockPenetrate_GROW": 0,
     "EnergyLimit_GROW": 0,
-    "starUpAttr": ""
+    "starUpAttr": "",
+    "rare": 4,
+    "job": 5
   },
   "skill": [
     {
@@ -120,6 +122,10 @@
     {
       "id": "S0077002",
       "name": "写照"
+    },
+    {
+      "id": "S0077003",
+      "name": "模拟推演"
     }
   ]
 }
