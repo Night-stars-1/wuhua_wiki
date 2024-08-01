@@ -1,3 +1,9 @@
+<!--
+ * @Author: Night-stars-1 nujj1042633805@gmail.com
+ * @Date: 2024-07-27 14:51:16
+ * @LastEditors: Night-stars-1 nujj1042633805@gmail.com
+ * @LastEditTime: 2024-08-01 16:47:05
+-->
 <template>
   <div class="threaded-progress-bar">
     <div class="progress">
@@ -22,6 +28,9 @@ defineProps<{
   border-radius: 15px;
   overflow: hidden;
   position: relative;
+}
+.dark .threaded-progress-bar {
+  background-color: #2e2d2d;
 }
 
 .progress {
