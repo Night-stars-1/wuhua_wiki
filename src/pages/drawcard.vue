@@ -5,7 +5,13 @@
   <el-row>
     <el-col :span="24">
       <el-card body-style="padding:0">
-        <el-tabs v-model="loginType" class="drawcard-tabs" type="border-card">
+        <el-tabs
+          v-model="loginType"
+          class="drawcard-tabs"
+          type="border-card"
+          v-loading="tabLoading"
+          @tab-change="tabChange"
+        >
           <el-tab-pane label="Token登陆" name="token">
             <el-text> 请输入抽卡信息： </el-text>
             <el-input
@@ -47,6 +53,25 @@
               @click="Login"
               >登录</el-button
             >
+          </el-tab-pane>
+          <el-tab-pane label="扫码登录" name="qrcode">
+            <el-alert
+              title="密码在本地进行加密，后端无法获取真实密码也不会保存账号密码"
+              type="warning"
+              show-icon
+              :closable="false"
+            />
+            <el-row justify="center">
+            <vue-qrcode
+              v-if="qrcodeLoginUrl"
+              :value="`biligame://portal/auth/login/qrcode?${qrcodeLoginUrl}`"
+              type="image/webp"
+              :color="{ dark: '#000000', light: '#FFFFFF' }"
+            />
+          </el-row>
+            <el-empty v-if="!qrcodeLoginUrl">
+              <el-button type="primary" @click="tabChange('qrcode')">显示二维码</el-button>
+            </el-empty>
           </el-tab-pane>
         </el-tabs>
       </el-card>
@@ -237,19 +262,22 @@
 
 <script lang="ts" setup>
 import type { ComponentInternalInstance } from "vue";
+import type { TabPaneName } from "element-plus";
+import VueQrcode from "vue-qrcode";
 import { Moon, StarFilled } from "@element-plus/icons-vue";
 import { useDark } from "@vueuse/core";
 import iconSun from "@/components/icon/IconSun.vue";
 import { mergeLists, findOverlapIndex } from "@/utils/list";
 import Auth from "@/utils/biliLogin";
 import { getDrawCardHistory, getWuhuaKey } from "@/utils/wuhua";
-import { cloneDeep } from "lodash"
+import { cloneDeep } from "lodash";
+import QRCodeLogin from "@/utils/qrcodeLogin";
 const { appContext } = getCurrentInstance() as ComponentInternalInstance;
 const http = appContext.config.globalProperties.$http;
 
 const isDark = useDark();
 
-const codeStr = localStorage.getItem("code")
+const codeStr = localStorage.getItem("code");
 const code = codeStr ? ref(codeStr) : ref("");
 const uidStr = localStorage.getItem("uid");
 const uid = uidStr ? ref(uidStr) : ref("");
@@ -308,7 +336,9 @@ const charProgress = ref([
 ]);
 const dialogTableVisible = ref(false);
 const dialogText = ref(`开始读取抽卡数据...`);
-const name2id = ref<{[key: string]: string}>({})
+const name2id = ref<{ [key: string]: string }>({});
+const qrcodeLoginUrl = ref("");
+const tabLoading = ref(false);
 onMounted(async () => {
   const response = await http.get("charinfo/allCharacter.json");
   name2id.value = response.data;
@@ -329,37 +359,37 @@ function getGachaId(gachaType: string): number {
   }
 }
 
-
-
 function initCardList() {
   charProgress.value = [
     {
       name: "未知",
       count: 0,
-    }
-  ]
-  cloneDeep(cardList.value).reverse().forEach((data) => {
-    const gachaId = getGachaId(data.gachaType);
-    switch (data.rankType) {
-      case 3:
-        analysisList.value[gachaId].three++;
-        break;
-      case 4:
-        analysisList.value[gachaId].four++;
-        charProgress.value[charProgress.value.length - 1].name = data.name;
-        charProgress.value.push({
-          name: "未知",
-          count: 0,
-        });
-        break;
-    }
-    charProgress.value[charProgress.value.length - 1].count++;
-    analysisList.value[gachaId].pull++;
-    if (data.rankType == 4) {
-      analysisList.value[gachaId].pull = 0;
-    }
-    analysisList.value[gachaId].total++;
-  });
+    },
+  ];
+  cloneDeep(cardList.value)
+    .reverse()
+    .forEach((data) => {
+      const gachaId = getGachaId(data.gachaType);
+      switch (data.rankType) {
+        case 3:
+          analysisList.value[gachaId].three++;
+          break;
+        case 4:
+          analysisList.value[gachaId].four++;
+          charProgress.value[charProgress.value.length - 1].name = data.name;
+          charProgress.value.push({
+            name: "未知",
+            count: 0,
+          });
+          break;
+      }
+      charProgress.value[charProgress.value.length - 1].count++;
+      analysisList.value[gachaId].pull++;
+      if (data.rankType == 4) {
+        analysisList.value[gachaId].pull = 0;
+      }
+      analysisList.value[gachaId].total++;
+    });
   state.value.total = cardList.value.length;
 }
 initCardList();
@@ -409,7 +439,11 @@ async function Save() {
         time: new Date(data.Time * 1000).toLocaleString(),
       });
     });
-    const overlapIndex = findOverlapIndex(tmpCardList, cardList.value[0], cardList.value[1]);
+    const overlapIndex = findOverlapIndex(
+      tmpCardList,
+      cardList.value[0],
+      cardList.value[1]
+    );
     if (dataList.length == 0 || overlapIndex != -1) {
       cardList.value = mergeLists(tmpCardList, cardList.value);
 
@@ -445,6 +479,34 @@ async function Login() {
   uid.value = data.uid;
   loginType.value = "token";
   dialogTableVisible.value = false;
+}
+
+let qrcodeInterval: NodeJS.Timeout;
+async function tabChange(name: TabPaneName) {
+  if (name === "qrcode") {
+    tabLoading.value = true
+    const qrcodeLogin = new QRCodeLogin();
+    await qrcodeLogin.qrcodeLogin();
+    qrcodeLoginUrl.value = qrcodeLogin.ticket
+    tabLoading.value = false
+    let countdown = 30;
+    qrcodeInterval = setInterval(async () => {
+      countdown--;
+      const data = await qrcodeLogin.checkQRCode();
+      if (data) {
+        code.value = data.access_key;
+        uid.value = data.uid;
+        loginType.value = "token";
+        countdown = -1;
+      }
+      if (countdown < 0) {
+        qrcodeLoginUrl.value = ''
+        clearInterval(qrcodeInterval);
+      }
+    }, 2000);
+  } else {
+    clearInterval(qrcodeInterval);
+  }
 }
 </script>
 

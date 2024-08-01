@@ -1,0 +1,174 @@
+{
+  "info": {
+    "name": "鸟音山水钟",
+    "star": 0,
+    "Hp": 770,
+    "Atk": 285,
+    "PhysicDef": 44,
+    "MagicDef": 44,
+    "Speed": 180,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 3,
+    "Mov": 3,
+    "Hp_GROW": 62,
+    "Atk_GROW": 19,
+    "PhysicDef_GROW": 4,
+    "MagicDef_GROW": 4,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": "",
+    "rare": 4,
+    "job": 5
+  },
+  "skill": [
+    {
+      "name": "自鸣",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
+      "tag": [
+        "射程3格",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Commonattack_S",
+      "buff": [],
+      "type": 1
+    },
+    {
+      "name": "时随刻转",
+      "des": "为自身及<span style=\"color:#158bdb\">周围2格</span>内的友方全体清除控制类效果，并获得持续<span style=\"color:#158bdb\">2</span>回合的<span style=\"color:#ff6724\">铁甲</span>和<span style=\"color:#ff6724\">裳衫</span>状态，其中友方战略单位额外获得持续<span style=\"color:#158bdb\">2</span>回合的<span style=\"color:#ff6724\">指针</span>状态。",
+      "tag": [
+        "自身",
+        "消耗:3"
+      ],
+      "level": 1,
+      "icon": "skillicon_S015502",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">指针</span>",
+          "des": "进行任意直接攻击前，有<span style=\"color:#158bdb\">50%</span>的概率无视受击单位<span style=\"color:#158bdb\">40%</span>的构素防御，此状态持续<span style=\"color:#158bdb\">2</span>回合。"
+        },
+        {
+          "name": "<span style=\"color:#ff6724\">铁甲</span>",
+          "des": "物理防御提高<span style=\"color:#158bdb\">30%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">2</span>层。"
+        },
+        {
+          "name": "<span style=\"color:#ff6724\">裳衫</span>",
+          "des": "构素防御提高<span style=\"color:#158bdb\">30%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">2</span>层。"
+        }
+      ],
+      "type": 1
+    },
+    {
+      "name": "山子水法",
+      "des": "每次警戒攻击使受击敌方单位获得<span style=\"color:#ff6724\">降攻</span>状态，并使自身及<span style=\"color:#158bdb\">周围2格</span>的友方全体回复鸟音山水钟最大生命值<span style=\"color:#158bdb\">5|100</span>的生命值。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_S015503",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">降攻</span>",
+          "des": "攻击力减低<span style=\"color:#158bdb\">20%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">1</span>层。"
+        }
+      ],
+      "type": 2
+    },
+    {
+      "name": "机括巧作",
+      "des": "自身每累计进行<span style=\"color:#158bdb\">3</span>次警戒攻击后，使友方全体战略单位额外填充<span style=\"color:#158bdb\">3</span>枚<span style=\"color:#ff6724\">礼弹</span>。\n使用绝技后，为自身填充<span style=\"color:#158bdb\">2</span>枚<span style=\"color:#ff6724\">礼弹</span>。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_S015504",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">礼弹</span>",
+          "des": "填充<span style=\"color:#ff6724\">礼弹</span>则进入警戒状态，每次警戒攻击或治疗将消耗<span style=\"color:#ff6724\">礼弹</span>，<span style=\"color:#ff6724\">礼弹</span>清零后自动结束警戒状态。"
+        }
+      ],
+      "type": 2
+    },
+    {
+      "name": "变盘重调",
+      "des": "自身和友方全体战略累计共释放<span style=\"color:#158bdb\">8</span>次警戒攻击或警戒治疗后，自身进入<span style=\"color:#ff6724\">钟表校准</span>状态。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_S015505",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">钟表校准</span>",
+          "des": "获得此状态时，自身职业技能冷却时间立即重置。\n处于此状态时，使用职业技能可以选择自身<span style=\"color:#158bdb\">周围3格</span>的友方单位使用，使该单位回复其最大生命值<span style=\"color:#158bdb\">10%</span>的生命值，并获得<span style=\"color:#ff6724\">分秒不差</span>状态，该状态根据受治疗单位的职业而有所区分。\n对友方单位使用职业技能后此状态清除，使自身获得<span style=\"color:#158bdb\">2</span>点能量，且自身原有职业技能的效果依旧生效。"
+        },
+        {
+          "name": "<span style=\"color:#ff6724\">分秒不差-宿卫</span>",
+          "des": "造成的伤害提高<span style=\"color:#158bdb\">100%</span>，受治疗效果提高<span style=\"color:#158bdb\">30%</span>，持续至自身获得此状态后的第<span style=\"color:#158bdb\">2</span>次行动前。"
+        },
+        {
+          "name": "<span style=\"color:#ff6724\">分秒不差-轻锐</span>",
+          "des": "贯穿强度增加<span style=\"color:#158bdb\">10%</span>，造成的额外伤害提高<span style=\"color:#158bdb\">50%</span>，持续至自身获得此状态后的第<span style=\"color:#158bdb\">2</span>次行动前。"
+        },
+        {
+          "name": "<span style=\"color:#ff6724\">分秒不差-远击</span>",
+          "des": "防御穿透增加<span style=\"color:#158bdb\">30%</span>，造成的额外伤害提高<span style=\"color:#158bdb\">50%</span>，持续至自身获得此状态后的第<span style=\"color:#158bdb\">2</span>次行动前。"
+        },
+        {
+          "name": "<span style=\"color:#ff6724\">分秒不差-构术</span>",
+          "des": "防御穿透增加<span style=\"color:#158bdb\">30%</span>，治疗效果提高<span style=\"color:#158bdb\">50%</span>，持续至自身获得此状态后的第<span style=\"color:#158bdb\">2</span>次行动前。"
+        },
+        {
+          "name": "<span style=\"color:#ff6724\">分秒不差-战略</span>",
+          "des": "警戒攻击伤害增加<span style=\"color:#158bdb\">50%</span>，治疗效果提高<span style=\"color:#158bdb\">50%</span>，持续至自身获得此状态后的第<span style=\"color:#158bdb\">2</span>次行动前。"
+        }
+      ],
+      "type": 2
+    },
+    {
+      "name": "钟鸣未绝",
+      "des": "使用后为自身填充<span style=\"color:#158bdb\">3</span>枚<span style=\"color:#ff6724\">礼弹</span>并进入警戒状态：以自身<span style=\"color:#158bdb\">周围3格</span>为警戒范围，对停留在该范围中的敌方单位进行警戒攻击，对其造成自身攻击力<span style=\"color:#158bdb\">3%</span>的构素伤害。",
+      "tag": [
+        "自身",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Jobskill_S",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">礼弹</span>",
+          "des": "填充<span style=\"color:#ff6724\">礼弹</span>则进入警戒状态，每次警戒攻击或治疗将消耗<span style=\"color:#ff6724\">礼弹</span>，<span style=\"color:#ff6724\">礼弹</span>清零后自动结束警戒状态。"
+        }
+      ],
+      "type": 1
+    }
+  ],
+  "skin": [
+    {
+      "id": "S0155001",
+      "name": "肖形"
+    },
+    {
+      "id": "S0155002",
+      "name": "写照"
+    },
+    {
+      "id": "S0155003",
+      "name": "时有序"
+    }
+  ]
+}
