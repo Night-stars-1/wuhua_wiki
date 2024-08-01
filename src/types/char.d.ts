@@ -129,6 +129,10 @@ interface CharInfo {
    * 职业
    */
   job: number
+  /**
+   * 标签
+   */
+  tag: string
 }
 
 interface Buff {

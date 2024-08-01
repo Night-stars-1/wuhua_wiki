@@ -31,7 +31,8 @@
     "EnergyLimit_GROW": 0,
     "starUpAttr": "",
     "rare": 4,
-    "job": 2
+    "job": 2,
+    "tag": "近战;承伤;爆发"
   },
   "skill": [
     {
