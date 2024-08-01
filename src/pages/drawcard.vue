@@ -283,7 +283,7 @@ const uidStr = localStorage.getItem("uid");
 const uid = uidStr ? ref(uidStr) : ref("");
 const userId = ref("");
 const pwd = ref("");
-const activeName = "限时渠道";
+const activeName = ref("限时渠道");
 const loginType = ref("token");
 const analysisList = ref([
   {
