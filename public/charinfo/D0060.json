@@ -1,7 +1,5 @@
 {
   "info": {
-    "name": "吴王夫差矛",
-    "star": 0,
     "Hp": 1540,
     "Atk": 287,
     "PhysicDef": 52,
@@ -30,6 +28,7 @@
     "BlockPenetrate_GROW": 0,
     "EnergyLimit_GROW": 0,
     "starUpAttr": "",
+    "name": "吴王夫差矛",
     "rare": 3,
     "job": 1,
     "tag": "近战;承伤;嘲讽"

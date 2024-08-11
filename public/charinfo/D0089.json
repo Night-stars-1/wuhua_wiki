@@ -1,7 +1,5 @@
 {
   "info": {
-    "name": "毛公鼎",
-    "star": 0,
     "Hp": 1770,
     "Atk": 278,
     "PhysicDef": 58,
@@ -30,6 +28,7 @@
     "BlockPenetrate_GROW": 0,
     "EnergyLimit_GROW": 0,
     "starUpAttr": "",
+    "name": "毛公鼎",
     "rare": 4,
     "job": 1,
     "tag": "近战;承伤;援护;格挡"

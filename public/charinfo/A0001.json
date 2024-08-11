@@ -1,7 +1,5 @@
 {
   "info": {
-    "name": "山水人物镜",
-    "star": 0,
     "Hp": 567,
     "Atk": 251,
     "PhysicDef": 25,
@@ -30,6 +28,7 @@
     "BlockPenetrate_GROW": 0,
     "EnergyLimit_GROW": 0,
     "starUpAttr": "",
+    "name": "山水人物镜",
     "rare": 2,
     "job": 3,
     "tag": "远程;输出;自愈"

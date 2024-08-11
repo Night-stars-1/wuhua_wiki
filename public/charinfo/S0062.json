@@ -1,7 +1,5 @@
 {
   "info": {
-    "name": "诗文执壶",
-    "star": 0,
     "Hp": 577,
     "Atk": 311,
     "PhysicDef": 32,
@@ -30,6 +28,7 @@
     "BlockPenetrate_GROW": 0,
     "EnergyLimit_GROW": 0,
     "starUpAttr": "",
+    "name": "诗文执壶",
     "rare": 3,
     "job": 5,
     "tag": "远程;支援;治疗;增益"

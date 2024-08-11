@@ -1,7 +1,5 @@
 {
   "info": {
-    "name": "溪山行旅图",
-    "star": 0,
     "Hp": 1800,
     "Atk": 265,
     "PhysicDef": 59,
@@ -30,6 +28,7 @@
     "BlockPenetrate_GROW": 0,
     "EnergyLimit_GROW": 0,
     "starUpAttr": "",
+    "name": "溪山行旅图",
     "rare": 4,
     "job": 1,
     "tag": "近战;承伤;回击"

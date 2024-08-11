@@ -1,7 +1,5 @@
 {
   "info": {
-    "name": "银香囊",
-    "star": 0,
     "Hp": 797,
     "Atk": 258,
     "PhysicDef": 39,
@@ -30,6 +28,7 @@
     "BlockPenetrate_GROW": 0,
     "EnergyLimit_GROW": 0,
     "starUpAttr": "",
+    "name": "银香囊",
     "rare": 4,
     "job": 4,
     "tag": "远程;支援;治疗;增益"

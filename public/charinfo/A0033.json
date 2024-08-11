@@ -1,7 +1,5 @@
 {
   "info": {
-    "name": "康熙自来火二号枪",
-    "star": 0,
     "Hp": 529,
     "Atk": 333,
     "PhysicDef": 33,
@@ -30,6 +28,7 @@
     "BlockPenetrate_GROW": 0,
     "EnergyLimit_GROW": 0,
     "starUpAttr": "",
+    "name": "自来火二号",
     "rare": 3,
     "job": 3,
     "tag": "远程;输出;射程加强"

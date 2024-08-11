@@ -1,7 +1,5 @@
 {
   "info": {
-    "name": "良渚玉琮王",
-    "star": 0,
     "Hp": 699,
     "Atk": 259,
     "PhysicDef": 34,
@@ -30,6 +28,7 @@
     "BlockPenetrate_GROW": 0,
     "EnergyLimit_GROW": 0,
     "starUpAttr": "",
+    "name": "玉琮王",
     "rare": 3,
     "job": 4,
     "tag": "远程;输出;减益"

@@ -1,7 +1,5 @@
 {
   "info": {
-    "name": "玛雅文字陶碗",
-    "star": 0,
     "Hp": 1176,
     "Atk": 248,
     "PhysicDef": 35,
@@ -30,6 +28,7 @@
     "BlockPenetrate_GROW": 0,
     "EnergyLimit_GROW": 0,
     "starUpAttr": "",
+    "name": "玛雅陶碗",
     "rare": 2,
     "job": 1,
     "tag": "近战;承伤;闪避"

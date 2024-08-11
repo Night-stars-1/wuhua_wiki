@@ -1,7 +1,5 @@
 {
   "info": {
-    "name": "少虡剑",
-    "star": 0,
     "Hp": 565,
     "Atk": 302,
     "PhysicDef": 47,
@@ -30,6 +28,7 @@
     "BlockPenetrate_GROW": 0,
     "EnergyLimit_GROW": 0,
     "starUpAttr": "",
+    "name": "少虡剑",
     "rare": 3,
     "job": 2,
     "tag": "近战;输出;持续伤害"

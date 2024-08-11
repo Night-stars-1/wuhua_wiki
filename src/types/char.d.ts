@@ -2,17 +2,13 @@
  * @Author: Night-stars-1 nujj1042633805@gmail.com
  * @Date: 2024-07-20 23:08:00
  * @LastEditors: Night-stars-1 nujj1042633805@gmail.com
- * @LastEditTime: 2024-07-27 14:12:07
+ * @LastEditTime: 2024-08-11 14:09:05
  */
 interface CharInfo {
   /**
    * 角色名称
    */
   name: string;
-  /**
-   * 角色星级
-   */
-  star: number;
   /**
    * 生命值
    */

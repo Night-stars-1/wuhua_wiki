@@ -376,14 +376,16 @@ function initCardList() {
           break;
         case 4:
           analysisList.value[gachaId].four++;
-          charProgress.value[charProgress.value.length - 1].name = data.name;
-          charProgress.value.push({
-            name: "未知",
-            count: 0,
-          });
+          if (gachaId == 0) {
+            charProgress.value[charProgress.value.length - 1].name = data.name;
+            charProgress.value.push({
+              name: "未知",
+              count: 0,
+            });
+          }
           break;
       }
-      charProgress.value[charProgress.value.length - 1].count++;
+      gachaId == 0 && charProgress.value[charProgress.value.length - 1].count++;
       analysisList.value[gachaId].pull++;
       if (data.rankType == 4) {
         analysisList.value[gachaId].pull = 0;
@@ -427,7 +429,7 @@ async function Save() {
   dialogText.value = "开始读取抽卡数据...";
   const key = await getWuhuaKey(code.value, uid.value);
   while (true) {
-    dialogText.value = `开始读取抽卡数据...\n第${page}页`;
+    dialogText.value = `开始读取抽卡数据... 第${page}页`;
     const dataList = await getDrawCardHistory(key, "", "", page);
 
     dataList.forEach((data) => {

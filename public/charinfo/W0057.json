@@ -1,7 +1,5 @@
 {
   "info": {
-    "name": "天蓝鹅颈瓶",
-    "star": 0,
     "Hp": 699,
     "Atk": 259,
     "PhysicDef": 33,
@@ -30,6 +28,7 @@
     "BlockPenetrate_GROW": 0,
     "EnergyLimit_GROW": 0,
     "starUpAttr": "",
+    "name": "天蓝瓶",
     "rare": 3,
     "job": 4,
     "tag": "远程;支援;治疗;构素护盾"

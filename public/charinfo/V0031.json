@@ -1,7 +1,5 @@
 {
   "info": {
-    "name": "样式雷烫样",
-    "star": 0,
     "Hp": 595,
     "Atk": 275,
     "PhysicDef": 46,
@@ -30,6 +28,7 @@
     "BlockPenetrate_GROW": 0,
     "EnergyLimit_GROW": 0,
     "starUpAttr": "",
+    "name": "样式雷",
     "rare": 3,
     "job": 2,
     "tag": "近战;输出;爆发"

@@ -1,7 +1,5 @@
 {
   "info": {
-    "name": "长信宫灯",
-    "star": 0,
     "Hp": 729,
     "Atk": 243,
     "PhysicDef": 34,
@@ -30,6 +28,7 @@
     "BlockPenetrate_GROW": 0,
     "EnergyLimit_GROW": 0,
     "starUpAttr": "",
+    "name": "长信宫灯",
     "rare": 3,
     "job": 4,
     "tag": "远程;支援;治疗;驱散"

@@ -1,7 +1,5 @@
 {
   "info": {
-    "name": "鸟音山水钟",
-    "star": 0,
     "Hp": 770,
     "Atk": 285,
     "PhysicDef": 44,
@@ -30,6 +28,7 @@
     "BlockPenetrate_GROW": 0,
     "EnergyLimit_GROW": 0,
     "starUpAttr": "",
+    "name": "鸟音山水钟",
     "rare": 4,
     "job": 5,
     "tag": "远程;支援;治疗;增益"

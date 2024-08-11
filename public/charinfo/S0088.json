@@ -1,7 +1,5 @@
 {
   "info": {
-    "name": "莲塘乳鸭图",
-    "star": 0,
     "Hp": 628,
     "Atk": 339,
     "PhysicDef": 38,
@@ -30,6 +28,7 @@
     "BlockPenetrate_GROW": 0,
     "EnergyLimit_GROW": 0,
     "starUpAttr": "",
+    "name": "莲塘乳鸭图",
     "rare": 4,
     "job": 5,
     "tag": "远程;支援;治疗"

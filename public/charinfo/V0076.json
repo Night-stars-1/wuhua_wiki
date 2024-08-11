@@ -1,7 +1,5 @@
 {
   "info": {
-    "name": "金瓯永固杯",
-    "star": 0,
     "Hp": 695,
     "Atk": 345,
     "PhysicDef": 58,
@@ -30,6 +28,7 @@
     "BlockPenetrate_GROW": 0,
     "EnergyLimit_GROW": 0,
     "starUpAttr": "",
+    "name": "金瓯永固杯",
     "rare": 4,
     "job": 2,
     "tag": "近战;输出;突入;爆发"

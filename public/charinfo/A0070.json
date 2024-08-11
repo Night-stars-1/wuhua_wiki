@@ -1,7 +1,5 @@
 {
   "info": {
-    "name": "外销壁纸",
-    "star": 0,
     "Hp": 577,
     "Atk": 306,
     "PhysicDef": 35,
@@ -30,6 +28,7 @@
     "BlockPenetrate_GROW": 0,
     "EnergyLimit_GROW": 0,
     "starUpAttr": "",
+    "name": "外销壁纸",
     "rare": 3,
     "job": 3,
     "tag": "远程;输出;控制"

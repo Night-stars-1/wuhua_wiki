@@ -1,7 +1,5 @@
 {
   "info": {
-    "name": "丙午神钩",
-    "star": 0,
     "Hp": 638,
     "Atk": 319,
     "PhysicDef": 33,
@@ -30,6 +28,7 @@
     "BlockPenetrate_GROW": 0,
     "EnergyLimit_GROW": 0,
     "starUpAttr": "",
+    "name": "丙午神钩",
     "rare": 3,
     "job": 5,
     "tag": "远程;支援;治疗;增益"

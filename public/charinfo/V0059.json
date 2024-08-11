@@ -1,7 +1,5 @@
 {
   "info": {
-    "name": "扯淡碑",
-    "star": 0,
     "Hp": 699,
     "Atk": 265,
     "PhysicDef": 46,
@@ -30,6 +28,7 @@
     "BlockPenetrate_GROW": 0,
     "EnergyLimit_GROW": 0,
     "starUpAttr": "",
+    "name": "扯淡碑",
     "rare": 3,
     "job": 2,
     "tag": "近战;输出;自愈"

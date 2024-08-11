@@ -1,7 +1,5 @@
 {
   "info": {
-    "name": "人头形器口彩陶瓶",
-    "star": 0,
     "Hp": 1260,
     "Atk": 205,
     "PhysicDef": 47,
@@ -30,6 +28,7 @@
     "BlockPenetrate_GROW": 0,
     "EnergyLimit_GROW": 0,
     "starUpAttr": "",
+    "name": "人头瓶",
     "rare": 2,
     "job": 1,
     "tag": "近战;承伤;自愈"

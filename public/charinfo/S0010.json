@@ -1,7 +1,5 @@
 {
   "info": {
-    "name": "舞蹈陶盆",
-    "star": 0,
     "Hp": 513,
     "Atk": 276,
     "PhysicDef": 25,
@@ -30,6 +28,7 @@
     "BlockPenetrate_GROW": 0,
     "EnergyLimit_GROW": 0,
     "starUpAttr": "",
+    "name": "舞蹈陶盆",
     "rare": 2,
     "job": 5,
     "tag": "远程;支援;减益"

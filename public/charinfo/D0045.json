@@ -1,7 +1,5 @@
 {
   "info": {
-    "name": "琉璃塔拱门",
-    "star": 0,
     "Hp": 1512,
     "Atk": 255,
     "PhysicDef": 43,
@@ -30,6 +28,7 @@
     "BlockPenetrate_GROW": 0,
     "EnergyLimit_GROW": 0,
     "starUpAttr": "",
+    "name": "琉璃塔拱门",
     "rare": 3,
     "job": 1,
     "tag": "近战;承伤;免伤;自愈"

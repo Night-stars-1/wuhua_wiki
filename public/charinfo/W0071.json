@@ -1,7 +1,5 @@
 {
   "info": {
-    "name": "冷暖自知",
-    "star": 0,
     "Hp": 464,
     "Atk": 271,
     "PhysicDef": 25,
@@ -30,6 +28,7 @@
     "BlockPenetrate_GROW": 0,
     "EnergyLimit_GROW": 0,
     "starUpAttr": "",
+    "name": "冷暖自知印",
     "rare": 2,
     "job": 4,
     "tag": "远程;输出;减益"

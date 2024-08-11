@@ -1,7 +1,5 @@
 {
   "info": {
-    "name": "妇好鸮尊",
-    "star": 0,
     "Hp": 1552,
     "Atk": 207,
     "PhysicDef": 47,
@@ -30,6 +28,7 @@
     "BlockPenetrate_GROW": 0,
     "EnergyLimit_GROW": 0,
     "starUpAttr": "",
+    "name": "妇好鸮尊",
     "rare": 3,
     "job": 1,
     "tag": "近战;承伤;增益;援护"

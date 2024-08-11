@@ -1,7 +1,5 @@
 {
   "info": {
-    "name": "聊斋图说",
-    "star": 0,
     "Hp": 577,
     "Atk": 292,
     "PhysicDef": 33,
@@ -30,6 +28,7 @@
     "BlockPenetrate_GROW": 0,
     "EnergyLimit_GROW": 0,
     "starUpAttr": "",
+    "name": "聊斋图说",
     "rare": 3,
     "job": 4,
     "tag": "远程;输出;减益;持续伤害"

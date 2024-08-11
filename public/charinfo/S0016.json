@@ -1,7 +1,5 @@
 {
   "info": {
-    "name": "果树双管瓶",
-    "star": 0,
     "Hp": 621,
     "Atk": 245,
     "PhysicDef": 26,
@@ -30,6 +28,7 @@
     "BlockPenetrate_GROW": 0,
     "EnergyLimit_GROW": 0,
     "starUpAttr": "",
+    "name": "果树双管瓶",
     "rare": 2,
     "job": 5,
     "tag": "远程;治疗;增益"

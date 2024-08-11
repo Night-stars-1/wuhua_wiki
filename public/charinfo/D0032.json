@@ -1,7 +1,5 @@
 {
   "info": {
-    "name": "宴猎攻战壶",
-    "star": 0,
     "Hp": 1512,
     "Atk": 255,
     "PhysicDef": 43,
@@ -30,6 +28,7 @@
     "BlockPenetrate_GROW": 0,
     "EnergyLimit_GROW": 0,
     "starUpAttr": "",
+    "name": "宴猎攻战壶",
     "rare": 3,
     "job": 1,
     "tag": "近战;输出;嘲讽;减益"

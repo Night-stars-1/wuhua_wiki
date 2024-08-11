@@ -1,7 +1,5 @@
 {
   "info": {
-    "name": "狸猫盘",
-    "star": 0,
     "Hp": 621,
     "Atk": 380,
     "PhysicDef": 40,
@@ -30,6 +28,7 @@
     "BlockPenetrate_GROW": 0,
     "EnergyLimit_GROW": 0,
     "starUpAttr": "",
+    "name": "狸猫盘",
     "rare": 4,
     "job": 3,
     "tag": "远程;输出;爆发;再移动"
