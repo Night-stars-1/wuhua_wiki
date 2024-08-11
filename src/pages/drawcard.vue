@@ -202,16 +202,16 @@
           <el-table-column label="卡池">
             <template #default="scope">
               <div v-if="scope.row.gachaType == 'time'">
-                <el-tag disable-transitions>限时渠道</el-tag>
+                <el-tag disable-transitions>{{ scope.row.gachaName }}</el-tag>
               </div>
-              <div v-if="scope.row.gachaType == '2'">
-                <el-tag disable-transitions type="info">新手池</el-tag>
+              <div v-if="scope.row.gachaType == 'normal'">
+                <el-tag disable-transitions type="info">{{ scope.row.gachaName }}</el-tag>
               </div>
-              <div v-if="scope.row.gachaType == '11'">
-                <el-tag disable-transition>up角色池</el-tag>
+              <div v-if="scope.row.gachaType == 'oldtime'">
+                <el-tag disable-transition>{{ scope.row.gachaName }}</el-tag>
               </div>
-              <div v-if="scope.row.gachaType == '12'">
-                <el-tag disable-transitions type="success">up武器池</el-tag>
+              <div v-if="scope.row.gachaType == 'newPlayer'">
+                <el-tag disable-transitions type="success">{{ scope.row.gachaName }}</el-tag>
               </div>
             </template>
           </el-table-column>
