@@ -11,5 +11,8 @@
   <router-link to="/drawcard" style="margin-left: 10px;">
     <el-button>抽卡分析</el-button>
   </router-link>
+  <router-link to="/charinfo" style="margin-left: 10px;">
+    <el-button>角色信息</el-button>
+  </router-link>
   <router-view />
 </template>

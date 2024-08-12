@@ -4,77 +4,7 @@
   </div>
   <el-row>
     <el-col :span="24">
-      <el-card body-style="padding:0">
-        <el-tabs
-          v-model="loginType"
-          class="drawcard-tabs"
-          type="border-card"
-          v-loading="tabLoading"
-          @tab-change="tabChange"
-        >
-          <el-tab-pane label="Token登陆" name="token">
-            <el-text> 请输入抽卡信息： </el-text>
-            <el-input
-              v-model="code"
-              placeholder="请输入access_key"
-              style="padding-top: 10px"
-            ></el-input>
-            <el-input
-              v-model="uid"
-              placeholder="请输入uid"
-              style="padding-top: 10px"
-            ></el-input>
-            <el-button
-              style="margin-top: 10px; margin-bottom: 20px; float: right"
-              @click="Save"
-              >查询</el-button
-            >
-          </el-tab-pane>
-          <el-tab-pane label="账号密码" name="pwd">
-            <el-alert
-              title="密码在本地进行加密，后端无法获取真实密码也不会保存账号密码"
-              type="warning"
-              show-icon
-              :closable="false"
-            />
-            <el-text> 请输入账号密码： </el-text>
-            <el-input
-              v-model="userId"
-              placeholder="哔哩哔哩账号"
-              style="padding-top: 10px"
-            ></el-input>
-            <el-input
-              v-model="pwd"
-              placeholder="哔哩哔哩密码"
-              style="padding-top: 10px"
-            ></el-input>
-            <el-button
-              style="margin-top: 10px; margin-bottom: 20px; float: right"
-              @click="Login"
-              >登录</el-button
-            >
-          </el-tab-pane>
-          <el-tab-pane label="扫码登录" name="qrcode">
-            <el-alert
-              title="密码在本地进行加密，后端无法获取真实密码也不会保存账号密码"
-              type="warning"
-              show-icon
-              :closable="false"
-            />
-            <el-row justify="center">
-            <vue-qrcode
-              v-if="qrcodeLoginUrl"
-              :value="`biligame://portal/auth/login/qrcode?${qrcodeLoginUrl}`"
-              type="image/webp"
-              :color="{ dark: '#000000', light: '#FFFFFF' }"
-            />
-          </el-row>
-            <el-empty v-if="!qrcodeLoginUrl">
-              <el-button type="primary" @click="tabChange('qrcode')">显示二维码</el-button>
-            </el-empty>
-          </el-tab-pane>
-        </el-tabs>
-      </el-card>
+      <LoginCard @check="Save" />
     </el-col>
     <el-col :span="24">
       <el-card body-style="padding:0">
@@ -262,29 +192,18 @@
 
 <script lang="ts" setup>
 import type { ComponentInternalInstance } from "vue";
-import type { TabPaneName } from "element-plus";
-import VueQrcode from "vue-qrcode";
 import { Moon, StarFilled } from "@element-plus/icons-vue";
 import { useDark } from "@vueuse/core";
 import iconSun from "@/components/icon/IconSun.vue";
 import { mergeLists, findOverlapIndex } from "@/utils/list";
-import Auth from "@/utils/biliLogin";
 import { getDrawCardHistory, getWuhuaKey } from "@/utils/wuhua";
 import { cloneDeep } from "lodash";
-import QRCodeLogin from "@/utils/qrcodeLogin";
 const { appContext } = getCurrentInstance() as ComponentInternalInstance;
 const http = appContext.config.globalProperties.$http;
 
 const isDark = useDark();
 
-const codeStr = localStorage.getItem("code");
-const code = codeStr ? ref(codeStr) : ref("");
-const uidStr = localStorage.getItem("uid");
-const uid = uidStr ? ref(uidStr) : ref("");
-const userId = ref("");
-const pwd = ref("");
 const activeName = ref("限时渠道");
-const loginType = ref("token");
 const analysisList = ref([
   {
     label: "限时渠道",
@@ -337,8 +256,6 @@ const charProgress = ref([
 const dialogTableVisible = ref(false);
 const dialogText = ref(`开始读取抽卡数据...`);
 const name2id = ref<{ [key: string]: string }>({});
-const qrcodeLoginUrl = ref("");
-const tabLoading = ref(false);
 onMounted(async () => {
   const response = await http.get("charinfo/allCharacter.json");
   name2id.value = response.data;
@@ -396,7 +313,7 @@ function initCardList() {
 }
 initCardList();
 
-async function Save() {
+async function Save(code: string, uid: string) {
   let page = 1;
   const tmpCardList: Card[] = [];
   analysisList.value = [
@@ -422,12 +339,10 @@ async function Save() {
       pull: 0,
     },
   ];
-  localStorage.setItem("code", code.value ?? "");
-  localStorage.setItem("uid", uid.value ?? "");
   dialogTableVisible.value = true;
   loading.value = true;
   dialogText.value = "开始读取抽卡数据...";
-  const key = await getWuhuaKey(code.value, uid.value);
+  const key = await getWuhuaKey(code, uid);
   while (true) {
     dialogText.value = `开始读取抽卡数据... 第${page}页`;
     const dataList = await getDrawCardHistory(key, "", "", page);
@@ -471,45 +386,7 @@ function tableRowClassName(row: any) {
   }
 }
 
-async function Login() {
-  dialogTableVisible.value = true;
-  dialogText.value = "开始获取登录信息...";
-  const auth = new Auth();
-  pwd.value = await auth.signPassword(pwd.value);
-  const data = await auth.getAccessKey(userId.value, pwd.value);
-  code.value = data.access_key;
-  uid.value = data.uid;
-  loginType.value = "token";
-  dialogTableVisible.value = false;
-}
 
-let qrcodeInterval: NodeJS.Timeout;
-async function tabChange(name: TabPaneName) {
-  if (name === "qrcode") {
-    tabLoading.value = true
-    const qrcodeLogin = new QRCodeLogin();
-    await qrcodeLogin.qrcodeLogin();
-    qrcodeLoginUrl.value = qrcodeLogin.ticket
-    tabLoading.value = false
-    let countdown = 30;
-    qrcodeInterval = setInterval(async () => {
-      countdown--;
-      const data = await qrcodeLogin.checkQRCode();
-      if (data) {
-        code.value = data.access_key;
-        uid.value = data.uid;
-        loginType.value = "token";
-        countdown = -1;
-      }
-      if (countdown < 0) {
-        qrcodeLoginUrl.value = ''
-        clearInterval(qrcodeInterval);
-      }
-    }, 2000);
-  } else {
-    clearInterval(qrcodeInterval);
-  }
-}
 </script>
 
 <style scoped>

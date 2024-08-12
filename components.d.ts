@@ -7,7 +7,11 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
+    Card: typeof import('./src/components/charinfo/card.vue')['default']
     CharInfo: typeof import('./src/components/char/CharInfo.vue')['default']
+    CharInfoCard: typeof import('./src/components/charinfo/CharInfoCard.vue')['default']
+    CharInfoSkill: typeof import('./src/components/charinfo/CharInfoSkill.vue')['default']
+    CharInfoWeapon: typeof import('./src/components/charinfo/CharInfoWeapon.vue')['default']
     CharList: typeof import('./src/components/char/CharList.vue')['default']
     CharName: typeof import('./src/components/char/CharName.vue')['default']
     CharSkill: typeof import('./src/components/char/CharSkill.vue')['default']
@@ -15,6 +19,7 @@ declare module 'vue' {
     CircularProgress: typeof import('./src/components/progress/CircularProgress.vue')['default']
     ElAlert: typeof import('element-plus/es')['ElAlert']
     ElButton: typeof import('element-plus/es')['ElButton']
+    ElC: typeof import('element-plus/es')['ElC']
     ElCard: typeof import('element-plus/es')['ElCard']
     ElCol: typeof import('element-plus/es')['ElCol']
     ElDialog: typeof import('element-plus/es')['ElDialog']
@@ -23,6 +28,8 @@ declare module 'vue' {
     ElImage: typeof import('element-plus/es')['ElImage']
     ElInput: typeof import('element-plus/es')['ElInput']
     ElPagination: typeof import('element-plus/es')['ElPagination']
+    ElProgress: typeof import('element-plus/es')['ElProgress']
+    ElR: typeof import('element-plus/es')['ElR']
     ElRow: typeof import('element-plus/es')['ElRow']
     ElScrollbar: typeof import('element-plus/es')['ElScrollbar']
     ElSlider: typeof import('element-plus/es')['ElSlider']
@@ -37,9 +44,11 @@ declare module 'vue' {
     ElText: typeof import('element-plus/es')['ElText']
     IconSun: typeof import('./src/components/icon/IconSun.vue')['default']
     IMaterialSymbolsLightFormatListBulletedRounded: typeof import('~icons/material-symbols-light/format-list-bulleted-rounded')['default']
+    LoginCard: typeof import('./src/components/card/LoginCard.vue')['default']
     Panel: typeof import('./src/components/Panel.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    SZProgress: typeof import('./src/components/charinfo/SZProgress.vue')['default']
   }
   export interface ComponentCustomProperties {
     vLoading: typeof import('element-plus/es')['ElLoadingDirective']

@@ -2,7 +2,7 @@
  * @Author: Night-stars-1 nujj1042633805@gmail.com
  * @Date: 2024-07-27 16:51:42
  * @LastEditors: Night-stars-1 nujj1042633805@gmail.com
- * @LastEditTime: 2024-07-27 17:12:25
+ * @LastEditTime: 2024-08-11 23:43:47
  */
 
 import { axios } from "@/plugin/axios";
@@ -54,7 +54,28 @@ async function getDrawCardHistory(
   return response.data.data;
 }
 
+async function getCharacterData(
+  code: string,
+  uid: string,
+): Promise<{[key: string]: CharInfoData}> {
+  const response = await axios.post(
+    "https://goda.srap.link/character_data",
+    {
+      code,
+      uid,
+    },
+    {
+      headers: {
+        accept: "application/json",
+        "Content-Type": "application/json",
+      },
+    }
+  );
+  return response.data.data;
+}
+
 export {
   getWuhuaKey,
-  getDrawCardHistory
+  getDrawCardHistory,
+  getCharacterData
 }
