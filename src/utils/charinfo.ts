@@ -6,7 +6,7 @@
  */
 import axios from "./http";
 
-async function getWeaponData(id: string): Promise<{ [key: string]: WeaponData; }> {
+async function getWeaponData(id: string): Promise<WeaponData> {
   const response = await axios.get(
     "charinfo/weapon.json"
   );
@@ -20,7 +20,7 @@ async function getAdditionalData(id: string): Promise<WeaponAdditionalData> {
   return response.data
 }
 
-async function id2name(id: string): Promise<{ [key: string]: string; }> {
+async function id2name(id: string): Promise<string> {
   const response = await axios.get(
     "charinfo/id2name.json"
   );
