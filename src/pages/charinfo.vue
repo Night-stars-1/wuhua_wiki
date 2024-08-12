@@ -14,6 +14,7 @@
       wrap
       :fill-ratio="20"
       direction="horizontal"
+      alignment="stretch"
       class="info-space"
     >
       <div class="lazy" v-for="(item, id) in data" :key="id" v-lazy @lazy-load="handleLazyLoad">
