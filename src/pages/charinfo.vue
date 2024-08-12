@@ -2,7 +2,7 @@
  * @Author: Night-stars-1 nujj1042633805@gmail.com
  * @Date: 2024-08-11 17:47:09
  * @LastEditors: Night-stars-1 nujj1042633805@gmail.com
- * @LastEditTime: 2024-08-12 18:07:11
+ * @LastEditTime: 2024-08-12 18:41:27
 -->
 <template>
   <Panel class="charinfo-panel">
@@ -25,7 +25,7 @@
 
 <script lang="ts" setup>
 import { getCharacterData } from "@/utils/wuhua";
-import html2canvas from 'html2canvas';
+// import html2canvas from 'html2canvas';
 
 const dataStr = localStorage.getItem("cardInfo");
 const data = dataStr
@@ -56,19 +56,19 @@ async function Save(code: string, uid: string) {
 function handleLazyLoad(id: string) {
   lazyLoadMap.value[id] = true
 }
-async function captureImage() {
-  const captureElement = document.querySelector('.info-space');
-  if (captureElement) {
-    const canvas = await html2canvas(captureElement);
-    const image = canvas.toDataURL('image/png');
+// async function captureImage() {
+//   const captureElement = document.querySelector('.info-space');
+//   if (captureElement) {
+//     const canvas = await html2canvas(captureElement);
+//     const image = canvas.toDataURL('image/png');
 
-    // 创建一个虚拟的链接元素
-    const link = document.createElement('a');
-    link.href = image;
-    link.download = 'capture.png'; // 图片下载的默认名称
-    link.click(); // 模拟点击下载图片
-  }
-};
+//     // 创建一个虚拟的链接元素
+//     const link = document.createElement('a');
+//     link.href = image;
+//     link.download = 'capture.png'; // 图片下载的默认名称
+//     link.click(); // 模拟点击下载图片
+//   }
+// };
 </script>
 
 <style lang="scss" scoped>
