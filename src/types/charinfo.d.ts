@@ -2,7 +2,7 @@
  * @Author: Night-stars-1 nujj1042633805@gmail.com
  * @Date: 2024-08-11 23:47:35
  * @LastEditors: Night-stars-1 nujj1042633805@gmail.com
- * @LastEditTime: 2024-08-12 20:18:50
+ * @LastEditTime: 2024-08-12 20:44:42
  */
 interface CharSkill {
   id: string;
@@ -43,8 +43,14 @@ interface WeaponAdditionalAttrsData {
   init: number;
   grow: number;
 }
+
 interface WeaponAdditionalData {
   name: string;
   type: string;
   attrs: {[key: string]: WeaponAdditionalAttrsData}
+}
+
+interface StyleData {
+  name: string,
+  sector: string[]
 }
