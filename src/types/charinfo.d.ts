@@ -2,7 +2,7 @@
  * @Author: Night-stars-1 nujj1042633805@gmail.com
  * @Date: 2024-08-11 23:47:35
  * @LastEditors: Night-stars-1 nujj1042633805@gmail.com
- * @LastEditTime: 2024-08-12 14:47:46
+ * @LastEditTime: 2024-08-12 20:18:50
  */
 interface CharSkill {
   id: string;
@@ -22,10 +22,16 @@ interface CharWeapon {
   additional: CharWeaponAdditional[];
 }
 
+interface CharStyle {
+  id: number;
+  points: number[];
+}
+
 interface CharInfoData {
   level: number;
   skills: CharSkill[];
   weapon: CharWeapon;
+  style: CharStyle
 }
 
 interface WeaponData {

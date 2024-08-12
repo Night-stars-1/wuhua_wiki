@@ -48,6 +48,7 @@ declare module 'vue' {
     Panel: typeof import('./src/components/Panel.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    StyleProgress: typeof import('./src/components/charinfo/StyleProgress.vue')['default']
     SZProgress: typeof import('./src/components/charinfo/SZProgress.vue')['default']
   }
   export interface ComponentCustomProperties {

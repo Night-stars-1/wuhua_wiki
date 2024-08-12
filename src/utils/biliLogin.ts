@@ -2,7 +2,7 @@
  * @Author: Night-stars-1 nujj1042633805@gmail.com
  * @Date: 2024-07-26 14:44:18
  * @LastEditors: Night-stars-1 nujj1042633805@gmail.com
- * @LastEditTime: 2024-07-26 16:38:26
+ * @LastEditTime: 2024-08-12 20:34:55
  */
 import axios from "axios";
 import { JSEncrypt } from "jsencrypt";
@@ -34,7 +34,7 @@ class Auth {
 
   async getAccessKey(user_id: string, pwd: string): Promise<{
     access_key: string
-    uid: string
+    uid: number
   }> {
     const response = await axios.post(
       "https://goda.srap.link/getWuHuaAccessKey",

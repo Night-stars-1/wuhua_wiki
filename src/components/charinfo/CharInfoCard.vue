@@ -1,3 +1,9 @@
+<!--
+ * @Author: Night-stars-1 nujj1042633805@gmail.com
+ * @Date: 2024-08-11 17:50:13
+ * @LastEditors: Night-stars-1 nujj1042633805@gmail.com
+ * @LastEditTime: 2024-08-12 20:17:21
+-->
 <template>
   <el-card
     class="card"
@@ -16,7 +22,7 @@
         <span>Lv {{ data.level }}</span>
       </div>
     </el-row>
-    <SZProgress />
+    <StyleProgress :data="data.style" />
     <CharInfoSkill :id="id" :data="data.skills" />
     <CharInfoWeapon :data="data.weapon" />
   </el-card>

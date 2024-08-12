@@ -118,7 +118,7 @@ async function Login() {
   pwd.value = await auth.signPassword(pwd.value);
   const data = await auth.getAccessKey(userId.value, pwd.value);
   code.value = data.access_key;
-  uid.value = data.uid;
+  uid.value = data.uid.toString();
   localStorage.setItem("code", code.value ?? "");
   localStorage.setItem("uid", uid.value ?? "");
   loginType.value = "token";
@@ -139,7 +139,9 @@ async function tabChange(name: TabPaneName) {
       const data = await qrcodeLogin.checkQRCode();
       if (data) {
         code.value = data.access_key;
-        uid.value = data.uid;
+        uid.value = data.uid.toString();
+        localStorage.setItem("code", code.value ?? "");
+        localStorage.setItem("uid", uid.value ?? "");
         loginType.value = "token";
         countdown = -1;
       }
