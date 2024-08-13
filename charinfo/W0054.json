@@ -1,0 +1,122 @@
+{
+  "info": {
+    "Hp": 699,
+    "Atk": 259,
+    "PhysicDef": 34,
+    "MagicDef": 34,
+    "Speed": 95,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 3,
+    "Mov": 3,
+    "Hp_GROW": 56,
+    "Atk_GROW": 17,
+    "PhysicDef_GROW": 3,
+    "MagicDef_GROW": 3,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": "",
+    "name": "玉琮王",
+    "rare": 3,
+    "job": 4,
+    "tag": "远程;输出;减益"
+  },
+  "skill": [
+    {
+      "name": "线刻",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
+      "tag": [
+        "射程2格",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Commonattack_W",
+      "buff": [],
+      "type": 1
+    },
+    {
+      "name": "大地祭礼",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">220%</span>的构素伤害，若目标持有<span style=\"color:#ff6724\">玉敛</span>效果，则在攻击前减少其<span style=\"color:#158bdb\">-1</span>能量。",
+      "tag": [
+        "射程2格",
+        "消耗:3"
+      ],
+      "level": 1,
+      "icon": "skillicon_W005402",
+      "buff": [],
+      "type": 1
+    },
+    {
+      "name": "玉琮之首",
+      "des": "进行任意攻击后，使该敌方目标获得<span style=\"color:#ff6724\">玉敛</span>状态，其有<span style=\"color:#158bdb\">50%</span>概率在<span style=\"color:#158bdb\">1</span>回合内无法获得能量，效果持续<span style=\"color:#158bdb\">2</span>回合。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_W005403",
+      "buff": [],
+      "type": 2
+    },
+    {
+      "name": "神人兽面",
+      "des": "攻击敌方单位时，若其当前能量为<span style=\"color:#158bdb\">0</span>，则对其额外造成一次伤害，伤害量为该次伤害的<span style=\"color:#158bdb\">30%</span>。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_W005404",
+      "buff": [],
+      "type": 2
+    },
+    {
+      "name": "神谕",
+      "des": "攻击敌方单位时，若该目标处于<span style=\"color:#ff6724\">玉敛</span>状态，则有<span style=\"color:#158bdb\">30%</span>概率使其能量减少<span style=\"color:#158bdb\">30</span>点。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_W005405",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">玉敛</span>",
+          "des": "回合开始时，有概率使本回合无法获得能量。"
+        }
+      ],
+      "type": 2
+    },
+    {
+      "name": "浅雕",
+      "des": "对选定的敌方单位及其<span style=\"color:#158bdb\">周围2格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">50%</span>的构素伤害。",
+      "tag": [
+        "射程2格",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Jobskill_W_D",
+      "buff": [],
+      "type": 1
+    }
+  ],
+  "skin": [
+    {
+      "id": "W0054001",
+      "name": "肖形"
+    },
+    {
+      "id": "W0054002",
+      "name": "写照"
+    }
+  ]
+}

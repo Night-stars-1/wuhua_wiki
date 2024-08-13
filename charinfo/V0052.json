@@ -1,0 +1,137 @@
+{
+  "info": {
+    "Hp": 644,
+    "Atk": 265,
+    "PhysicDef": 46,
+    "MagicDef": 46,
+    "Speed": 100,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 3,
+    "Mov": 4,
+    "Hp_GROW": 52,
+    "Atk_GROW": 18,
+    "PhysicDef_GROW": 5,
+    "MagicDef_GROW": 5,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": "",
+    "name": "商鞅方升",
+    "rare": 3,
+    "job": 2,
+    "tag": "近战;输出;真实伤害"
+  },
+  "skill": [
+    {
+      "name": "循法",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+      "tag": [
+        "射程1格 ",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Commonattack_V",
+      "buff": [],
+      "type": 1
+    },
+    {
+      "name": "度衡一统",
+      "des": "使用后自身获得额外行动<span style=\"color:#158bdb\">1</span>次，并在<span style=\"color:#158bdb\">10</span>回合内，自身被动造成的<span style=\"color:#ff6724\">真实伤害</span>增加<span style=\"color:#158bdb\">1</span>倍，贯穿率增加<span style=\"color:#158bdb\">10%</span>，闪避率增加<span style=\"color:#158bdb\">10%</span>。",
+      "tag": [
+        "自身",
+        "消耗:3"
+      ],
+      "level": 1,
+      "icon": "skillicon_V005202",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">真实伤害</span>",
+          "des": "此伤害不触发暴击和贯穿效果，且无法被格挡，无视防御和减伤效果，同时也不受增伤效果影响。"
+        }
+      ],
+      "type": 1
+    },
+    {
+      "name": "合规守律",
+      "des": "进入战斗后，贯穿率增加<span style=\"color:#158bdb\">20%</span>。常击敌方单位贯穿时，触发连击，对该单位造成其最大生命值<span style=\"color:#158bdb\">10%</span>的<span style=\"color:#ff6724\">真实伤害</span>。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_V005203",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">真实伤害</span>",
+          "des": "此伤害不触发暴击和贯穿效果，且无法被格挡，无视防御和减伤效果，同时也不受增伤效果影响。"
+        }
+      ],
+      "type": 2
+    },
+    {
+      "name": "秦法威严",
+      "des": "受到<span style=\"color:#158bdb\">周围1格</span>敌方单位的常击后，有<span style=\"color:#158bdb\">60%</span>概率进行回击，对该单位造成其最大生命值<span style=\"color:#158bdb\">60%</span>的<span style=\"color:#ff6724\">真实伤害</span>。此技能每<span style=\"color:#158bdb\">1</span>轮次最多触发<span style=\"color:#158bdb\">60</span>次。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_V005204",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">真实伤害</span>",
+          "des": "此伤害不触发暴击和贯穿效果，且无法被格挡，无视防御和减伤效果，同时也不受增伤效果影响。"
+        }
+      ],
+      "type": 2
+    },
+    {
+      "name": "法不容情",
+      "des": "战斗中，若自身累计造成的<span style=\"color:#ff6724\">真实伤害</span>比率不低于<span style=\"color:#158bdb\">180%</span>，则下<span style=\"color:#158bdb\">1</span>次常击敌方单位时，对该单位造成其最大生命值<span style=\"color:#158bdb\">180%</span>的<span style=\"color:#ff6724\">真实伤害</span>，之后重新累计。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_V005205",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">真实伤害</span>",
+          "des": "此伤害不触发暴击和贯穿效果，且无法被格挡，无视防御和减伤效果，同时也不受增伤效果影响。"
+        }
+      ],
+      "type": 2
+    },
+    {
+      "name": "执规迅行",
+      "des": "使用后自身获得再行动<span style=\"color:#158bdb\">1</span>次，该次再行动的移动力减少<span style=\"color:#158bdb\">2</span>。",
+      "tag": [
+        "自身",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Jobskill_V",
+      "buff": [],
+      "type": 1
+    }
+  ],
+  "skin": [
+    {
+      "id": "V0052001",
+      "name": "肖形"
+    },
+    {
+      "id": "V0052002",
+      "name": "写照"
+    }
+  ]
+}

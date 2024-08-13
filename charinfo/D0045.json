@@ -1,0 +1,150 @@
+{
+  "info": {
+    "Hp": 1512,
+    "Atk": 255,
+    "PhysicDef": 43,
+    "MagicDef": 43,
+    "Speed": 80,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 4,
+    "Mov": 4,
+    "Hp_GROW": 60,
+    "Atk_GROW": 17,
+    "PhysicDef_GROW": 4,
+    "MagicDef_GROW": 4,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": "",
+    "name": "琉璃塔拱门",
+    "rare": 3,
+    "job": 1,
+    "tag": "近战;承伤;免伤;自愈"
+  },
+  "skill": [
+    {
+      "name": "佛怒",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+      "tag": [
+        "射程1格 ",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Commonattack_D",
+      "buff": [],
+      "type": 1
+    },
+    {
+      "name": "悬世长明",
+      "des": "使自身进入<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">金身</span>状态。在战斗中受到伤害时，若自身处于<span style=\"color:#ff6724\">金身</span>状态，则有<span style=\"color:#158bdb\">11%</span>概率将<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">禅定</span>状态转化为<span style=\"color:#ff6724\">金身</span>状态，每层<span style=\"color:#ff6724\">禅定</span>会使概率增加<span style=\"color:#158bdb\">11%</span>。",
+      "tag": [
+        "自身",
+        "消耗:4"
+      ],
+      "level": 1,
+      "icon": "skillicon_D004502",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">金身</span>",
+          "des": "免疫<span style=\"color:#158bdb\">1</span>次受到的伤害，最大可叠加<span style=\"color:#158bdb\">5</span>层。"
+        },
+        {
+          "name": "<span style=\"color:#ff6724\">禅定</span>",
+          "des": "受到伤害时消耗<span style=\"color:#158bdb\">1</span>层，降低所受到的伤害，最大可叠加<span style=\"color:#158bdb\">4</span>层。"
+        }
+      ],
+      "type": 1
+    },
+    {
+      "name": "琉璃金身",
+      "des": "使用职业技能后，自身获得<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">禅定</span>状态。受到伤害时，若自身持有<span style=\"color:#ff6724\">禅定</span>，则消耗<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">禅定</span>状态，使自身受到的伤害减少<span style=\"color:#158bdb\">20%</span>。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_D004503",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">禅定</span>",
+          "des": "受到伤害时消耗<span style=\"color:#158bdb\">1</span>层，降低所受到的伤害，最大可叠加<span style=\"color:#158bdb\">4</span>层。"
+        }
+      ],
+      "type": 2
+    },
+    {
+      "name": "浮图宝刹",
+      "des": "攻击敌方单位后，自身有<span style=\"color:#158bdb\">20%</span>概率获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">禅定</span>状态。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_D004504",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">禅定</span>",
+          "des": "受到伤害时消耗<span style=\"color:#158bdb\">1</span>层，降低所受到的伤害，最大可叠加<span style=\"color:#158bdb\">4</span>层。"
+        }
+      ],
+      "type": 2
+    },
+    {
+      "name": "金陵孑遗",
+      "des": "每消耗<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">禅定</span>状态，则自身回复攻击力<span style=\"color:#158bdb\">10%</span>的生命值。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_D004505",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">禅定</span>",
+          "des": "受到伤害时消耗<span style=\"color:#158bdb\">1</span>层，降低所受到的伤害，最大可叠加<span style=\"color:#158bdb\">4</span>层。"
+        }
+      ],
+      "type": 2
+    },
+    {
+      "name": "芥子须弥",
+      "des": "使用后可<span style=\"color:#ff6724\">援护</span>自身周围<span style=\"color:#158bdb\">2</span>格内的友方单位，效果持续<span style=\"color:#158bdb\">2</span>回合。",
+      "tag": [
+        "自身",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Jobskill_D_I",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">援护</span>",
+          "des": "当友方单位受到伤害时，代替其承受伤害。\n<span style=\"color:#db2424\">只可对除绝技、警戒攻击和回击外造成单体伤害的攻击生效。</span>"
+        }
+      ],
+      "type": 1
+    }
+  ],
+  "skin": [
+    {
+      "id": "D0045001",
+      "name": "肖形"
+    },
+    {
+      "id": "D0045002",
+      "name": "写照"
+    },
+    {
+      "id": "D0045003",
+      "name": "寓修于行"
+    }
+  ]
+}

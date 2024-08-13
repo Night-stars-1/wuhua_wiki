@@ -1,0 +1,127 @@
+{
+  "info": {
+    "Hp": 1260,
+    "Atk": 205,
+    "PhysicDef": 47,
+    "MagicDef": 47,
+    "Speed": 75,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 3,
+    "Mov": 4,
+    "Hp_GROW": 50,
+    "Atk_GROW": 14,
+    "PhysicDef_GROW": 5,
+    "MagicDef_GROW": 5,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": "",
+    "name": "人头瓶",
+    "rare": 2,
+    "job": 1,
+    "tag": "近战;承伤;自愈"
+  },
+  "skill": [
+    {
+      "name": "摇头晃脑",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+      "tag": [
+        "射程1格 ",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Commonattack_D",
+      "buff": [],
+      "type": 1
+    },
+    {
+      "name": "默以凝观",
+      "des": "使自身受到的伤害降低<span style=\"color:#158bdb\">10%</span>，效果持续<span style=\"color:#158bdb\">10</span>回合。",
+      "tag": [
+        "自身",
+        "消耗:3"
+      ],
+      "level": 1,
+      "icon": "skillicon_D000702",
+      "buff": [],
+      "type": 1
+    },
+    {
+      "name": "仰韶艺潮",
+      "des": "受到自身<span style=\"color:#158bdb\">周围1格</span>内的敌方单位攻击后进行回击，对其造成自身攻击力<span style=\"color:#158bdb\">30%</span>的物理伤害。回击后自身获得<span style=\"color:#158bdb\">1</span>点能量。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_D000703",
+      "buff": [],
+      "type": 2
+    },
+    {
+      "name": "陶衣如绯",
+      "des": "自身当前生命值低于<span style=\"color:#158bdb\">50%</span>时，获得<span style=\"color:#158bdb\">合范成器</span>状态，效果持续<span style=\"color:#158bdb\">5</span>回合，每<span style=\"color:#158bdb\">3</span>回合可触发<span style=\"color:#158bdb\">1</span>次。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_D000704",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">合范成器</span>",
+          "des": "每回合开始时恢复<span style=\"color:#158bdb\">5%</span>生命值。"
+        }
+      ],
+      "type": 2
+    },
+    {
+      "name": "圆雕敛饰",
+      "des": "进入战斗后，自身最大生命值提高<span style=\"color:#158bdb\">10%</span>。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_D000705",
+      "buff": [],
+      "type": 2
+    },
+    {
+      "name": "黏黏泥束",
+      "des": "使自身选定方向前<span style=\"color:#158bdb\">1</span>排的<span style=\"color:#158bdb\">3</span>格变为束缚格，效果持续<span style=\"color:#158bdb\">1</span>回合。若敌方单位进入束缚格，将无法离开束缚格范围，并进入<span style=\"color:#ff6724\">降攻</span>状态。",
+      "tag": [
+        "射程1格 ",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Jobskill_D_Z",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">降攻</span>",
+          "des": "攻击力减低<span style=\"color:#158bdb\">20%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">1</span>层。"
+        }
+      ],
+      "type": 1
+    }
+  ],
+  "skin": [
+    {
+      "id": "D0007001",
+      "name": "肖形"
+    },
+    {
+      "id": "D0007002",
+      "name": "写照"
+    }
+  ]
+}

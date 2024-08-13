@@ -1,0 +1,135 @@
+{
+  "info": {
+    "Hp": 583,
+    "Atk": 284,
+    "PhysicDef": 47,
+    "MagicDef": 47,
+    "Speed": 175,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 3,
+    "Mov": 4,
+    "Hp_GROW": 47,
+    "Atk_GROW": 19,
+    "PhysicDef_GROW": 5,
+    "MagicDef_GROW": 5,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": "",
+    "name": "夜行铜牌",
+    "rare": 3,
+    "job": 2,
+    "tag": "近战;输出;突入"
+  },
+  "skill": [
+    {
+      "name": "暗袭",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+      "tag": [
+        "射程1格 ",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Commonattack_V",
+      "buff": [],
+      "type": 1
+    },
+    {
+      "name": "违者杀",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">220%</span>的物理伤害。",
+      "tag": [
+        "射程1格 ",
+        "消耗:3"
+      ],
+      "level": 1,
+      "icon": "skillicon_V004902",
+      "buff": [],
+      "type": 1
+    },
+    {
+      "name": "疾驰",
+      "des": "使用职业技能后，自身获得<span style=\"color:#ff6724\">隐夜</span>状态，该状态将在主动攻击后或受到敌方单位攻击后解除；\n若由于受到敌方单位攻击解除<span style=\"color:#ff6724\">隐夜</span>状态，则自身获得<span style=\"color:#ff6724\">重创</span>状态，持续<span style=\"color:#158bdb\">30</span>回合。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_V004903",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">隐夜</span>",
+          "des": "无法被敌方的主动技能选取为主目标，且自身攻击力提高<span style=\"color:#158bdb\">60%</span>，持续<span style=\"color:#158bdb\">3</span>回合。"
+        },
+        {
+          "name": "<span style=\"color:#ff6724\">重创</span>",
+          "des": "受到的所有伤害提高<span style=\"color:#158bdb\">20%</span>，持续<span style=\"color:#158bdb\">1</span>回合，可叠加<span style=\"color:#158bdb\">1</span>层。"
+        }
+      ],
+      "type": 2
+    },
+    {
+      "name": "追风",
+      "des": "处于<span style=\"color:#ff6724\">隐夜</span>状态时，自身回合结束获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">夜刺</span>状态。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_V004904",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">夜刺</span>",
+          "des": "自身贯穿概率增加<span style=\"color:#158bdb\">10%</span>，最多可叠加<span style=\"color:#158bdb\">3</span>层，持续<span style=\"color:#158bdb\">1</span>回合。"
+        }
+      ],
+      "type": 2
+    },
+    {
+      "name": "绝尘",
+      "des": "处于<span style=\"color:#ff6724\">隐夜</span>状态时，攻击后有<span style=\"color:#158bdb\">-2%</span>概率获得再移动，该次再移动的移动力减少<span style=\"color:#158bdb\">-2</span>。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_V004905",
+      "buff": [],
+      "type": 2
+    },
+    {
+      "name": "夜行",
+      "des": "使用后自身获得再行动<span style=\"color:#158bdb\">1</span>次，可移动范围为<span style=\"color:#158bdb\">特殊范围</span>。",
+      "tag": [
+        "自身",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Jobskill_V",
+      "buff": [],
+      "type": 1
+    }
+  ],
+  "skin": [
+    {
+      "id": "V0049001",
+      "name": "肖形"
+    },
+    {
+      "id": "V0049002",
+      "name": "写照"
+    },
+    {
+      "id": "V0049003",
+      "name": "执夜行者"
+    }
+  ]
+}

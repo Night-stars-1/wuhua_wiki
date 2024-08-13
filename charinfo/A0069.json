@@ -1,0 +1,136 @@
+{
+  "info": {
+    "Hp": 595,
+    "Atk": 336,
+    "PhysicDef": 32,
+    "MagicDef": 32,
+    "Speed": 95,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 3,
+    "Mov": 3,
+    "Hp_GROW": 48,
+    "Atk_GROW": 22,
+    "PhysicDef_GROW": 3,
+    "MagicDef_GROW": 3,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": "",
+    "name": "大神龛",
+    "rare": 3,
+    "job": 3,
+    "tag": "远程;输出;爆发"
+  },
+  "skill": [
+    {
+      "name": "以木为纸",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+      "tag": [
+        "十字3格",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Commonattack_A",
+      "buff": [],
+      "type": 1
+    },
+    {
+      "name": "合亲会聚",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">190%</span>的物理伤害，若此次攻击暴击，则对该单位距离<span style=\"color:#158bdb\">1</span>格内的敌方全体造成攻击力<span style=\"color:#158bdb\">40%</span>的<span style=\"color:#ff6724\">额外物理伤害</span>。",
+      "tag": [
+        "十字3格",
+        "消耗:3"
+      ],
+      "level": 1,
+      "icon": "skillicon_A006902",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">额外物理伤害</span>",
+          "des": "此伤害不触发暴击和贯穿效果，且无法被格挡。"
+        }
+      ],
+      "type": 1
+    },
+    {
+      "name": "浮翠流丹",
+      "des": "每次行动开始时，自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">供奉</span>状态。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_A006903",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">供奉</span>",
+          "des": "<span style=\"color:#ff6724\">瞄准</span>状态下暴击率增加<span style=\"color:#67a3f7\">10%</span>，最多叠加<span style=\"color:#67a3f7\">3</span>层，<span style=\"color:#ff6724\">瞄准</span>状态下攻击后移除所有层数。"
+        }
+      ],
+      "type": 2
+    },
+    {
+      "name": "落叶归根",
+      "des": "处于<span style=\"color:#ff6724\">瞄准</span>状态下进行攻击后，消耗自身所有的<span style=\"color:#ff6724\">供奉</span>状态。每消耗<span style=\"color:#158bdb\">1</span>层，使自身获得暴击率增加<span style=\"color:#158bdb\">10%</span>，效果持续<span style=\"color:#158bdb\">10</span>回合。若同时消耗<span style=\"color:#158bdb\">3</span>层，则使自身获得额外行动<span style=\"color:#158bdb\">1</span>次。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_A006904",
+      "buff": [],
+      "type": 2
+    },
+    {
+      "name": "化木为金",
+      "des": "进入战斗后，自身暴击伤害提高<span style=\"color:#158bdb\">30%</span>。攻击造成暴击时，自身获得<span style=\"color:#158bdb\">1</span>点能量。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_A006905",
+      "buff": [],
+      "type": 2
+    },
+    {
+      "name": "镂通之技",
+      "des": "使用后自身获得<span style=\"color:#158bdb\">1</span>次不可移动的再行动，并进入<span style=\"color:#ff6724\">瞄准</span>状态。",
+      "tag": [
+        "自身",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Jobskill_A",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">瞄准</span>",
+          "des": "此状态下进行攻击时，最大攻击距离增加<span style=\"color:#158bdb\">4</span>格，该次再行动结束后，此状态消失。"
+        }
+      ],
+      "type": 1
+    }
+  ],
+  "skin": [
+    {
+      "id": "A0069001",
+      "name": "肖形"
+    },
+    {
+      "id": "A0069002",
+      "name": "写照"
+    },
+    {
+      "id": "A0069010",
+      "name": "清明"
+    }
+  ]
+}

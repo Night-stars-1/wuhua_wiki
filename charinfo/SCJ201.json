@@ -1,0 +1,82 @@
+{
+  "info": {
+    "name": "收藏家",
+    "rare": 3,
+    "job": 2,
+    "tag": "近战;输出;自愈"
+  },
+  "skill": [
+    {
+      "name": "普通攻击",
+      "des": "攻击目标，造成攻击力<span style=\"color:#158bdb\">280%</span>的伤害。",
+      "tag": [
+        "射程1格 ",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_SCJ20101",
+      "buff": [],
+      "type": 1
+    },
+    {
+      "name": "锁定",
+      "des": "若处于目标位置，则检测通过；否则，检测失败。",
+      "tag": [
+        "自身",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_SCJ20102",
+      "buff": [],
+      "type": 1
+    },
+    {
+      "name": null,
+      "des": null,
+      "tag": [
+        "自身",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_SCJ20113",
+      "buff": [],
+      "type": 1
+    },
+    {
+      "name": null,
+      "des": null,
+      "tag": [
+        "自身",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_SCJ20112",
+      "buff": [],
+      "type": 1
+    },
+    {
+      "name": "收藏家被杀检测",
+      "des": null,
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_SCJ20103",
+      "buff": [],
+      "type": 2
+    },
+    {
+      "name": "搜索",
+      "des": "检查自己与目标间的距离，并显示。",
+      "tag": [
+        "自身",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_SCJ20111",
+      "buff": [],
+      "type": 1
+    }
+  ],
+  "skin": []
+}

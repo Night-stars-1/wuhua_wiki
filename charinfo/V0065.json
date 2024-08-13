@@ -1,0 +1,121 @@
+{
+  "info": {
+    "Hp": 601,
+    "Atk": 284,
+    "PhysicDef": 37,
+    "MagicDef": 37,
+    "Speed": 175,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 3,
+    "Mov": 4,
+    "Hp_GROW": 48,
+    "Atk_GROW": 19,
+    "PhysicDef_GROW": 4,
+    "MagicDef_GROW": 4,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": "",
+    "name": "七盘舞砖",
+    "rare": 3,
+    "job": 2,
+    "tag": "近战;输出;突入;生命吸取"
+  },
+  "skill": [
+    {
+      "name": "踏盘而行",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+      "tag": [
+        "射程1格 ",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Commonattack_V",
+      "buff": [],
+      "type": 1
+    },
+    {
+      "name": "婉转鼓侧",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">250%</span>的物理伤害，并使自身移动力增加<span style=\"color:#158bdb\">1</span>，效果持续<span style=\"color:#158bdb\">1</span>回合。",
+      "tag": [
+        "射程1格 ",
+        "消耗:3"
+      ],
+      "level": 1,
+      "icon": "skillicon_V006502",
+      "buff": [],
+      "type": 1
+    },
+    {
+      "name": "七盘递奏",
+      "des": "当自身生命值大于等于<span style=\"color:#158bdb\">-2%</span>时，任意攻击后自身获得再移动<span style=\"color:#158bdb\">1</span>次，该次再移动的移动力减少<span style=\"color:#158bdb\">-2</span>。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_V006503",
+      "buff": [],
+      "type": 2
+    },
+    {
+      "name": "叠案倒立",
+      "des": "贯穿概率增加<span style=\"color:#158bdb\">20%</span>，对敌方单位造成贯穿时，使其移动距离减少<span style=\"color:#db2424\">-1</span>，持续<span style=\"color:#158bdb\">-1</span>回合。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_V006504",
+      "buff": [],
+      "type": 2
+    },
+    {
+      "name": "手跳三丸",
+      "des": "每累计移动<span style=\"color:#158bdb\">1</span>格，获得<span style=\"color:#158bdb\">3%</span>的生命偷取率，可叠加<span style=\"color:#158bdb\">10</span>层，任意攻击后清除效果。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_V006505",
+      "buff": [],
+      "type": 2
+    },
+    {
+      "name": "轻舞灵动",
+      "des": "使用后自身获得再行动<span style=\"color:#158bdb\">1</span>次，该次再行动的移动力减少<span style=\"color:#158bdb\">2</span>。",
+      "tag": [
+        "自身",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Jobskill_V",
+      "buff": [],
+      "type": 1
+    }
+  ],
+  "skin": [
+    {
+      "id": "V0065001",
+      "name": "肖形"
+    },
+    {
+      "id": "V0065002",
+      "name": "写照"
+    },
+    {
+      "id": "V0065071",
+      "name": "天赋选手"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "info": {
+    "Hp": 1552,
+    "Atk": 207,
+    "PhysicDef": 47,
+    "MagicDef": 47,
+    "Speed": 80,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 3,
+    "Mov": 4,
+    "Hp_GROW": 62,
+    "Atk_GROW": 14,
+    "PhysicDef_GROW": 5,
+    "MagicDef_GROW": 5,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": "",
+    "name": "妇好鸮尊",
+    "rare": 3,
+    "job": 1,
+    "tag": "近战;承伤;增益;援护"
+  },
+  "skill": [
+    {
+      "name": "怒鸮",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+      "tag": [
+        "射程1格 ",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Commonattack_D",
+      "buff": [],
+      "type": 1
+    },
+    {
+      "name": "展戈持护",
+      "des": "使自身<span style=\"color:#158bdb\">周围2格</span>的全体友方单位获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">蓄势</span>；并<span style=\"color:#ff6724\">援护</span>自身周围<span style=\"color:#158bdb\">2</span>格内的友方单位，效果持续<span style=\"color:#158bdb\">2</span>回合。",
+      "tag": [
+        "自身",
+        "消耗:3"
+      ],
+      "level": 1,
+      "icon": "skillicon_D005802",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">援护</span>",
+          "des": "当友方单位受到伤害时，代替其承受伤害。\n<span style=\"color:#db2424\">只可对除绝技、警戒攻击和回击外造成单体伤害的攻击生效。</span>"
+        },
+        {
+          "name": "<span style=\"color:#ff6724\">蓄势</span>",
+          "des": "提高所有伤害<span style=\"color:#158bdb\">20%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">2</span>层。"
+        }
+      ],
+      "type": 1
+    },
+    {
+      "name": "妇好之姿",
+      "des": "触发<span style=\"color:#ff6724\">援护</span>时，物理伤害减免提高<span style=\"color:#158bdb\">10%</span>。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_D005803",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">援护</span>",
+          "des": "当友方单位受到伤害时，代替其承受伤害。\n<span style=\"color:#db2424\">只可对除绝技、警戒攻击和回击外造成单体伤害的攻击生效。</span>"
+        }
+      ],
+      "type": 2
+    },
+    {
+      "name": "辛之威仪",
+      "des": "<span style=\"color:#ff6724\">援护</span>持续时间内，自身<span style=\"color:#158bdb\">周围2格</span>内的敌方全体攻击力降低<span style=\"color:#db2424\">-10%</span>，闪避率降低<span style=\"color:#db2424\">-10%</span>。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_D005804",
+      "buff": [],
+      "type": 2
+    },
+    {
+      "name": "战神长嘶",
+      "des": "进入战斗后，常击伤害增加<span style=\"color:#158bdb\">10%</span>。常击后有<span style=\"color:#158bdb\">30%</span>概率获得<span style=\"color:#158bdb\">1</span>回合<span style=\"color:#ff6724\">援护</span>。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_D005805",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">援护</span>",
+          "des": "当友方单位受到伤害时，代替其承受伤害。\n<span style=\"color:#db2424\">只可对除绝技、警戒攻击和回击外造成单体伤害的攻击生效。</span>"
+        }
+      ],
+      "type": 2
+    },
+    {
+      "name": "鸮声长援",
+      "des": "使用后可<span style=\"color:#ff6724\">援护</span>自身<span style=\"color:#158bdb\">周围2格</span>内的友方单位，效果持续<span style=\"color:#158bdb\">2</span>回合。",
+      "tag": [
+        "自身",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Jobskill_D_I",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">援护</span>",
+          "des": "当友方单位受到伤害时，代替其承受伤害。\n<span style=\"color:#db2424\">只可对除绝技、警戒攻击和回击外造成单体伤害的攻击生效。</span>"
+        }
+      ],
+      "type": 1
+    }
+  ],
+  "skin": [
+    {
+      "id": "D0058001",
+      "name": "肖形"
+    },
+    {
+      "id": "D0058002",
+      "name": "写照"
+    },
+    {
+      "id": "D0058010",
+      "name": "小寒"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "info": {
+    "Hp": 638,
+    "Atk": 342,
+    "PhysicDef": 31,
+    "MagicDef": 31,
+    "Speed": 95,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 3,
+    "Mov": 3,
+    "Hp_GROW": 51,
+    "Atk_GROW": 23,
+    "PhysicDef_GROW": 3,
+    "MagicDef_GROW": 3,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": "",
+    "name": "粉白双耳瓶",
+    "rare": 3,
+    "job": 3,
+    "tag": "远程;输出;连击"
+  },
+  "skill": [
+    {
+      "name": "熔色",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+      "tag": [
+        "十字3格",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Commonattack_A",
+      "buff": [],
+      "type": 1
+    },
+    {
+      "name": "搅料",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">200%</span>的物理伤害。",
+      "tag": [
+        "十字3格",
+        "消耗:3"
+      ],
+      "level": 1,
+      "icon": "skillicon_A000302",
+      "buff": [],
+      "type": 1
+    },
+    {
+      "name": "拉形",
+      "des": "常击后有<span style=\"color:#158bdb\">30%</span>的概率触发连击，对受击单位造成自身攻击力<span style=\"color:#158bdb\">80%</span>的物理伤害。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_A000303",
+      "buff": [],
+      "type": 2
+    },
+    {
+      "name": "贴色",
+      "des": "自身<span style=\"color:#158bdb\">周围2格</span>内友方单位损失生命值时，使自身<span style=\"color:#158bdb\">周围3格</span>内随机敌方单体获得<span style=\"color:#ff6724\">粉色惊喜</span>状态。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_A000304",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">粉色惊喜</span>",
+          "des": "处于此状态时，若被敌方粉白双耳瓶的连击攻击，则受到<span style=\"color:#158bdb\">1</span>次敌方粉白双耳瓶攻击力<span style=\"color:#158bdb\">40%</span>的<span style=\"color:#ff6724\">额外物理伤害</span>。此状态只能同时存在<span style=\"color:#158bdb\">1</span>个。"
+        }
+      ],
+      "type": 2
+    },
+    {
+      "name": "磨光",
+      "des": "攻击处于<span style=\"color:#ff6724\">粉色惊喜</span>状态的敌方单位时，有<span style=\"color:#ff6724\">60%</span>概率触发连击，且连击造成的伤害提高<span style=\"color:#158bdb\">60%</span>。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_A000305",
+      "buff": [],
+      "type": 2
+    },
+    {
+      "name": "旋塑",
+      "des": "使用后自身获得<span style=\"color:#158bdb\">1</span>次不可移动的再行动，并进入<span style=\"color:#ff6724\">瞄准</span>状态。",
+      "tag": [
+        "自身",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Jobskill_A",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">瞄准</span>",
+          "des": "此状态下进行攻击时，最大攻击距离增加<span style=\"color:#158bdb\">4</span>格，该次再行动结束后，此状态消失。"
+        }
+      ],
+      "type": 1
+    }
+  ],
+  "skin": [
+    {
+      "id": "A0003001",
+      "name": "肖形"
+    },
+    {
+      "id": "A0003002",
+      "name": "写照"
+    },
+    {
+      "id": "A0003003",
+      "name": "谷雨"
+    }
+  ]
+}

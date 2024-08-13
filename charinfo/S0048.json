@@ -1,0 +1,145 @@
+{
+  "info": {
+    "Hp": 577,
+    "Atk": 311,
+    "PhysicDef": 32,
+    "MagicDef": 32,
+    "Speed": 165,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 3,
+    "Mov": 3,
+    "Hp_GROW": 46,
+    "Atk_GROW": 21,
+    "PhysicDef_GROW": 3,
+    "MagicDef_GROW": 3,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": "",
+    "name": "白龙梅瓶",
+    "rare": 3,
+    "job": 5,
+    "tag": "远程;输出;增益;回能"
+  },
+  "skill": [
+    {
+      "name": "霁蓝",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
+      "tag": [
+        "射程3格",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Commonattack_S",
+      "buff": [],
+      "type": 1
+    },
+    {
+      "name": "真龙召现",
+      "des": "选中自身<span style=\"color:#4395d6\">周围3格</span>任意地块，召唤<span style=\"color:#4395d6\">1</span>只<span style=\"color:#db2424\">白龙真身</span>，且使自身的<span style=\"color:#ff6724\">礼弹</span>填充至最大值。当白龙梅瓶的<span style=\"color:#ff6724\">礼弹</span>为<span style=\"color:#158bdb\">0</span>或行动<span style=\"color:#158bdb\">2</span>回合后，<span style=\"color:#db2424\">白龙真身</span>消失。",
+      "tag": [
+        "射程3格",
+        "消耗:3"
+      ],
+      "level": 1,
+      "icon": "skillicon_S004802",
+      "buff": [
+        {
+          "name": "<span style=\"color:#db2424\">白龙真身</span>",
+          "des": "<span style=\"color:#db2424\">白龙真身</span>以自身<span style=\"color:#158bdb\">周围2格</span>为警戒范围，对停留在该范围中的敌方单位进行警戒攻击，对其造成白龙梅瓶攻击力<span style=\"color:#158bdb\">60%</span>的构素伤害，并使其获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">脆弱</span>状态，效果持续<span style=\"color:#158bdb\">2</span>回合。<span style=\"color:#db2424\">白龙真身</span>警戒攻击消耗白龙梅瓶<span style=\"color:#ff6724\">礼弹</span>。"
+        },
+        {
+          "name": "<span style=\"color:#ff6724\">脆弱</span>",
+          "des": "提高受到的所有伤害<span style=\"color:#db2424\">30%</span>，每受到一次直接攻击减少<span style=\"color:#ff6724\">1层</span>，持续<span style=\"color:#4395d6\">2</span>回合或层数用完。"
+        }
+      ],
+      "type": 1
+    },
+    {
+      "name": "行踏绛气",
+      "des": "<span style=\"color:#db2424\">白龙真身</span>使用警戒攻击后，白龙梅瓶获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">龙威</span>状态。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_S004803",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">龙威</span>",
+          "des": "自身和<span style=\"color:#db2424\">白龙真身</span>警戒攻击伤害提高<span style=\"color:#158bdb\">5%</span>，最多可叠加<span style=\"color:#67a4f7\">3</span>层，持续<span style=\"color:#158bdb\">2</span>回合。"
+        }
+      ],
+      "type": 2
+    },
+    {
+      "name": "怒目",
+      "des": "使用绝技后，<span style=\"color:#db2424\">白龙真身</span>警戒范围内的敌方全体获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">龙印</span>状态；<span style=\"color:#db2424\">白龙真身</span>使用警戒攻击时，使受击敌方单位获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">龙印</span>状态。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_S004804",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">龙印</span>",
+          "des": "当白龙梅瓶的友方单位对处于此状态的单位进行直接攻击时，攻击的友方单位有<span style=\"color:#158bdb\">50%</span>概率获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">啸剑</span>状态。"
+        }
+      ],
+      "type": 2
+    },
+    {
+      "name": "龙灵佑主",
+      "des": "当<span style=\"color:#db2424\">白龙真身</span>消失时，其该次存在期间每使用过<span style=\"color:#158bdb\">4</span>次警戒攻击，白龙梅瓶获得<span style=\"color:#158bdb\">1</span>点能量。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_S004805",
+      "buff": [],
+      "type": 2
+    },
+    {
+      "name": "皓空逐焰",
+      "des": "使用后为自身填充<span style=\"color:#158bdb\">3</span>枚<span style=\"color:#ff6724\">礼弹</span>并进入警戒状态：以自身<span style=\"color:#158bdb\">周围3格</span>为警戒范围，对停留在该范围中的敌方单位进行警戒攻击，对其造成自身攻击力<span style=\"color:#158bdb\">3%</span>的构素伤害。",
+      "tag": [
+        "自身",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Jobskill_S",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">礼弹</span>",
+          "des": "填充<span style=\"color:#ff6724\">礼弹</span>则进入警戒状态，每次警戒攻击或治疗将消耗<span style=\"color:#ff6724\">礼弹</span>，<span style=\"color:#ff6724\">礼弹</span>清零后自动结束警戒状态。"
+        }
+      ],
+      "type": 1
+    }
+  ],
+  "skin": [
+    {
+      "id": "S0048001",
+      "name": "肖形"
+    },
+    {
+      "id": "S0048002",
+      "name": "写照"
+    },
+    {
+      "id": "S0048051",
+      "name": "祥龙驱祟"
+    }
+  ]
+}

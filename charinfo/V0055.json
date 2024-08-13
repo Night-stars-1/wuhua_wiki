@@ -1,0 +1,136 @@
+{
+  "info": {
+    "Hp": 689,
+    "Atk": 315,
+    "PhysicDef": 53,
+    "MagicDef": 53,
+    "Speed": 95,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 2,
+    "Mov": 4,
+    "Hp_GROW": 55,
+    "Atk_GROW": 21,
+    "PhysicDef_GROW": 5,
+    "MagicDef_GROW": 5,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": "",
+    "name": "兔形陶埙",
+    "rare": 4,
+    "job": 2,
+    "tag": "近战;输出;传送;突入"
+  },
+  "skill": [
+    {
+      "name": "兔蹬",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+      "tag": [
+        "射程1格 ",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Commonattack_V",
+      "buff": [],
+      "type": 1
+    },
+    {
+      "name": "音孔幻洞",
+      "des": "选择自身<span style=\"color:#158bdb\">周围5格</span>内的空置地块，使其变为<span style=\"color:#ff6724\">兔洞</span>地块。自身获得再行动<span style=\"color:#158bdb\">1</span>次，该次再行动的移动力减少<span style=\"color:#158bdb\">-4</span>。",
+      "tag": [
+        "射程5格",
+        "消耗:2"
+      ],
+      "level": 1,
+      "icon": "skillicon_V005502",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">兔洞</span>",
+          "des": "<span style=\"color:#ff6724\">兔洞</span>地块可作为兔形陶埙职业技能选择的对象，交换位置后，该<span style=\"color:#ff6724\">兔洞</span>消失。释放职业技能后，所有<span style=\"color:#ff6724\">兔洞</span>会消失。"
+        }
+      ],
+      "type": 1
+    },
+    {
+      "name": "兔洞回声",
+      "des": "使用职业技能时，若选择的地块已经是<span style=\"color:#ff6724\">兔洞</span>地块，则自身交换位置后对<span style=\"color:#158bdb\">周围1格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">140%</span>的<span style=\"color:#ff6724\">额外物理伤害</span>。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_V005503",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">额外物理伤害</span>",
+          "des": "此伤害不触发暴击和贯穿效果，且无法被格挡。"
+        }
+      ],
+      "type": 2
+    },
+    {
+      "name": "嬉戏",
+      "des": "每<span style=\"color:#158bdb\">1</span>轮次结束时，自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">附加移动力</span>状态，最多可叠加<span style=\"color:#4395d6\">4</span>层。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_V005504",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">附加移动力</span>",
+          "des": "每<span style=\"color:#4395d6\">1</span>层状态可使自身移动范围额外扩大<span style=\"color:#4395d6\">1</span>格，自身每额外移动<span style=\"color:#4395d6\">1</span>格，消耗<span style=\"color:#4395d6\">1</span>层此状态。附加移动力不受其他任何技能、状态或武器效果的影响，不会提高或减少。"
+        }
+      ],
+      "type": 2
+    },
+    {
+      "name": "童谣",
+      "des": "使用职业技能后，自身下<span style=\"color:#158bdb\">1</span>次常击造成的伤害提升<span style=\"color:#158bdb\">80%</span>，效果持续<span style=\"color:#158bdb\">2</span>回合。同时，自身闪避率增加<span style=\"color:#158bdb\">30%</span>，效果可叠加，下<span style=\"color:#158bdb\">1</span>次触发闪避后全部清除。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_V005505",
+      "buff": [],
+      "type": 2
+    },
+    {
+      "name": "异位移影",
+      "des": "选择自身<span style=\"color:#158bdb\">周围5格</span>内的<span style=\"color:#ff6724\">兔洞</span>地块或友方单体互换位置。换位后自身获得新的行动回合，该行动回合的移动力减少<span style=\"color:#158bdb\">2</span>。",
+      "tag": [
+        "射程5格",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_V005511",
+      "buff": [],
+      "type": 1
+    }
+  ],
+  "skin": [
+    {
+      "id": "V0055001",
+      "name": "肖形"
+    },
+    {
+      "id": "V0055002",
+      "name": "写照"
+    },
+    {
+      "id": "V0055051",
+      "name": "幻兔移形"
+    }
+  ]
+}

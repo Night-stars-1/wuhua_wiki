@@ -1,0 +1,140 @@
+{
+  "info": {
+    "Hp": 577,
+    "Atk": 306,
+    "PhysicDef": 35,
+    "MagicDef": 35,
+    "Speed": 150,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 3,
+    "Mov": 3,
+    "Hp_GROW": 46,
+    "Atk_GROW": 20,
+    "PhysicDef_GROW": 4,
+    "MagicDef_GROW": 4,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": "",
+    "name": "外销壁纸",
+    "rare": 3,
+    "job": 3,
+    "tag": "远程;输出;控制"
+  },
+  "skill": [
+    {
+      "name": "越洋之旅",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+      "tag": [
+        "十字3格",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Commonattack_A",
+      "buff": [],
+      "type": 1
+    },
+    {
+      "name": "百货齐备",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">150%</span>的物理伤害；受击单位每存在<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">畅销</span>状态，则使其获得<span style=\"color:#158bdb\">1</span>回合<span style=\"color:#ff6724\">肃静</span>状态，并清除受击单位的<span style=\"color:#ff6724\">畅销</span>状态。",
+      "tag": [
+        "十字3格",
+        "消耗:3"
+      ],
+      "level": 1,
+      "icon": "skillicon_A007002",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">肃静</span>",
+          "des": "无法释放职业技能和绝技，持续<span style=\"color:#158bdb\">1</span>回合。"
+        }
+      ],
+      "type": 1
+    },
+    {
+      "name": "推销技巧",
+      "des": "处于<span style=\"color:#ff6724\">瞄准</span>状态进行常击时，使受击单位获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">畅销</span>状态及<span style=\"color:#158bdb\">1</span>回合<span style=\"color:#ff6724\">肃静</span>状态。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_A007003",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">畅销</span>",
+          "des": "处于此状态时，每次获得能量，增加<span style=\"color:#158bdb\">1</span>层此状态，最多可叠加<span style=\"color:#158bdb\">3</span>层，持续整场战斗；\n每存在<span style=\"color:#158bdb\">1</span>层此状态，受到外销壁纸绝技攻击时，会受到外销壁纸攻击力<span style=\"color:#158bdb\">15%</span>的<span style=\"color:#ff6724\">额外物理伤害</span>。"
+        },
+        {
+          "name": "<span style=\"color:#ff6724\">肃静</span>",
+          "des": "无法释放职业技能和绝技，持续<span style=\"color:#158bdb\">1</span>回合。"
+        },
+        {
+          "name": "<span style=\"color:#ff6724\">额外物理伤害</span>",
+          "des": "此伤害不触发暴击和贯穿效果，且无法被格挡。"
+        }
+      ],
+      "type": 2
+    },
+    {
+      "name": "粤地风貌",
+      "des": "战斗中自身攻击不触发暴击。\n回合开始时，自身每拥有<span style=\"color:#158bdb\">1%</span>的暴击率，则造成的伤害提高<span style=\"color:#158bdb\">0.5%</span>，自身暴击伤害超过<span style=\"color:#158bdb\">150%</span>的部分，每超出<span style=\"color:#158bdb\">1%</span>，则瞄准冷却率增加<span style=\"color:#158bdb\">0.5%</span>，效果持续至自身回合结束。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_A007004",
+      "buff": [],
+      "type": 2
+    },
+    {
+      "name": "贸易机密",
+      "des": "若敌方单体的<span style=\"color:#ff6724\">畅销</span>状态叠加至<span style=\"color:#158bdb\">3</span>层，则该单位每回合开始时有<span style=\"color:#158bdb\">60%</span>的概率失去<span style=\"color:#158bdb\">1</span>点能量，并使外销壁纸额外获得<span style=\"color:#158bdb\">1</span>点能量。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_A007005",
+      "buff": [],
+      "type": 2
+    },
+    {
+      "name": "瀚海商路",
+      "des": "使用后自身获得<span style=\"color:#158bdb\">1</span>次不可移动的再行动，并进入<span style=\"color:#ff6724\">瞄准</span>状态。",
+      "tag": [
+        "自身",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Jobskill_A",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">瞄准</span>",
+          "des": "此状态下进行攻击时，最大攻击距离增加<span style=\"color:#158bdb\">4</span>格，该次再行动结束后，此状态消失。"
+        }
+      ],
+      "type": 1
+    }
+  ],
+  "skin": [
+    {
+      "id": "A0070001",
+      "name": "肖形"
+    },
+    {
+      "id": "A0070002",
+      "name": "写照"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "info": {
+    "Hp": 1540,
+    "Atk": 287,
+    "PhysicDef": 52,
+    "MagicDef": 52,
+    "Speed": 80,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 3,
+    "Mov": 4,
+    "Hp_GROW": 62,
+    "Atk_GROW": 19,
+    "PhysicDef_GROW": 5,
+    "MagicDef_GROW": 5,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": "",
+    "name": "吴王夫差矛",
+    "rare": 3,
+    "job": 1,
+    "tag": "近战;承伤;嘲讽"
+  },
+  "skill": [
+    {
+      "name": "直刺",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+      "tag": [
+        "射程1格 ",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Commonattack_D",
+      "buff": [],
+      "type": 1
+    },
+    {
+      "name": "长矛挑空",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">180%</span>的物理伤害并使其进入<span style=\"color:#ff6724\">震怒</span>状态，效果持续<span style=\"color:#158bdb\">2</span>回合。",
+      "tag": [
+        "射程1格 ",
+        "消耗:3"
+      ],
+      "level": 1,
+      "icon": "skillicon_D006002",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">震怒</span>",
+          "des": "只能攻击使自身获得此状态的单位。"
+        }
+      ],
+      "type": 1
+    },
+    {
+      "name": "轻敌",
+      "des": "自身当前生命值百分比高于自身<span style=\"color:#158bdb\">周围2格</span>内的任意敌方单位时，获得<span style=\"color:#158bdb\">怜悯</span>状态。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_D006003",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">怜悯</span>",
+          "des": "常击对敌人造成的伤害降低<span style=\"color:#158bdb\">-15%</span>，自身格挡率提高<span style=\"color:#158bdb\">20%</span>。"
+        }
+      ],
+      "type": 2
+    },
+    {
+      "name": "盟会诸侯",
+      "des": "格挡常击时，若攻击者在自身<span style=\"color:#158bdb\">周围1格</span>内，则进行回击，对其造成自身攻击力<span style=\"color:#158bdb\">80%</span>的物理伤害。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_D006004",
+      "buff": [],
+      "type": 2
+    },
+    {
+      "name": "极武",
+      "des": "未处于<span style=\"color:#158bdb\">怜悯</span>状态时，受到治疗量增加<span style=\"color:#158bdb\">10%</span>。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_D006005",
+      "buff": [],
+      "type": 2
+    },
+    {
+      "name": "逐鹿",
+      "des": "使自身选定方向前<span style=\"color:#158bdb\">1</span>排的<span style=\"color:#158bdb\">3</span>格变为束缚格，效果持续<span style=\"color:#158bdb\">1</span>回合。若敌方单位进入束缚格，将无法离开束缚格范围，并进入<span style=\"color:#ff6724\">降攻</span>状态。",
+      "tag": [
+        "射程1格 ",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Jobskill_D_Z",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">降攻</span>",
+          "des": "攻击力减低<span style=\"color:#158bdb\">20%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">1</span>层。"
+        }
+      ],
+      "type": 1
+    }
+  ],
+  "skin": [
+    {
+      "id": "D0060001",
+      "name": "肖形"
+    },
+    {
+      "id": "D0060002",
+      "name": "写照"
+    },
+    {
+      "id": "D0060003",
+      "name": "漫书侠想"
+    }
+  ]
+}

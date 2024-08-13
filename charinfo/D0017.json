@@ -1,0 +1,127 @@
+{
+  "info": {
+    "Hp": 1440,
+    "Atk": 186,
+    "PhysicDef": 38,
+    "MagicDef": 38,
+    "Speed": 75,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 3,
+    "Mov": 4,
+    "Hp_GROW": 58,
+    "Atk_GROW": 12,
+    "PhysicDef_GROW": 4,
+    "MagicDef_GROW": 4,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": "",
+    "name": "白釉绿彩瓶",
+    "rare": 2,
+    "job": 1,
+    "tag": "近战;承伤;构素护盾"
+  },
+  "skill": [
+    {
+      "name": "泼釉",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+      "tag": [
+        "射程1格 ",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Commonattack_D",
+      "buff": [],
+      "type": 1
+    },
+    {
+      "name": "浮彩",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">240%</span>的物理伤害，并获得自身最大生命值<span style=\"color:#158bdb\">10%</span>的构素护盾。",
+      "tag": [
+        "射程1格 ",
+        "消耗:3"
+      ],
+      "level": 1,
+      "icon": "skillicon_D001702",
+      "buff": [],
+      "type": 1
+    },
+    {
+      "name": "涂鸦天才",
+      "des": "受到任意伤害后，获得该伤害量<span style=\"color:#158bdb\">10%</span>的构素护盾。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_D001703",
+      "buff": [],
+      "type": 2
+    },
+    {
+      "name": "染色",
+      "des": "自身能量不低于<span style=\"color:#158bdb\">3</span>点时，可<span style=\"color:#ff6724\">援护</span>自身<span style=\"color:#158bdb\">周围1格</span>内的友方单位。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_D001704",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">援护</span>",
+          "des": "当友方单位受到伤害时，代替其承受伤害。\n<span style=\"color:#db2424\">只可对除绝技、警戒攻击和回击外造成单体伤害的攻击生效。</span>"
+        }
+      ],
+      "type": 2
+    },
+    {
+      "name": "点彩",
+      "des": "进入战斗后，自身构素伤害减免增加<span style=\"color:#158bdb\">8%</span>。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_D001705",
+      "buff": [],
+      "type": 2
+    },
+    {
+      "name": "划时代",
+      "des": "使自身选定方向前<span style=\"color:#158bdb\">1</span>排的<span style=\"color:#158bdb\">3</span>格变为束缚格，效果持续<span style=\"color:#158bdb\">1</span>回合。若敌方单位进入束缚格，将无法离开束缚格范围，并进入<span style=\"color:#ff6724\">解构</span>状态。",
+      "tag": [
+        "射程1格 ",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Jobskill_D_Z",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">解构</span>",
+          "des": "构素防御降低<span style=\"color:#158bdb\">30%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">1</span>层。"
+        }
+      ],
+      "type": 1
+    }
+  ],
+  "skin": [
+    {
+      "id": "D0017001",
+      "name": "肖形"
+    },
+    {
+      "id": "D0017002",
+      "name": "写照"
+    }
+  ]
+}

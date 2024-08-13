@@ -1,0 +1,141 @@
+{
+  "info": {
+    "Hp": 1650,
+    "Atk": 286,
+    "PhysicDef": 43,
+    "MagicDef": 43,
+    "Speed": 85,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 3,
+    "Mov": 4,
+    "Hp_GROW": 66,
+    "Atk_GROW": 19,
+    "PhysicDef_GROW": 4,
+    "MagicDef_GROW": 4,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": "",
+    "name": "铜奔马",
+    "rare": 4,
+    "job": 1,
+    "tag": "近战;承伤;闪避;回击"
+  },
+  "skill": [
+    {
+      "name": "翻山越岭",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+      "tag": [
+        "射程1格 ",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Commonattack_D",
+      "buff": [],
+      "type": 1
+    },
+    {
+      "name": "天马行空",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">290%</span>的物理伤害，并使其进入<span style=\"color:#ff6724\">震怒</span>状态，效果持续<span style=\"color:#158bdb\">-2</span>回合；同时使自身进入<span style=\"color:#158bdb\">1</span>层<span style=\"color:#158bdb\">敏捷</span>状态，并获得额外移动机会<span style=\"color:#158bdb\">1</span>次，该次额外移动的移动力减少<span style=\"color:#158bdb\">-2</span>。",
+      "tag": [
+        "射程1格 ",
+        "消耗:3"
+      ],
+      "level": 1,
+      "icon": "skillicon_D008002",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">震怒</span>",
+          "des": "只能攻击使自身获得此状态的单位。"
+        },
+        {
+          "name": "<span style=\"color:#ff6724\">敏捷</span>",
+          "des": "闪避直接攻击，最多叠加<span style=\"color:#158bdb\">3</span>层，每次闪避后消耗<span style=\"color:#158bdb\">1</span>层。"
+        }
+      ],
+      "type": 1
+    },
+    {
+      "name": "奔防伺击",
+      "des": "受到或是闪避常击时，若攻击方距离自身<span style=\"color:#158bdb\">周围2格</span>以内，会进行回击，对其造成自身攻击力<span style=\"color:#158bdb\">90%</span>的物理伤害。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_D008003",
+      "buff": [],
+      "type": 2
+    },
+    {
+      "name": "骐骥驰骋",
+      "des": "回击后，自身有<span style=\"color:#158bdb\">50%</span>概率获得<span style=\"color:#ff6724\">附加移动力</span>状态，最多可叠加<span style=\"color:#158bdb\">4</span>层。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_D008004",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">附加移动力</span>",
+          "des": "每<span style=\"color:#4395d6\">1</span>层状态可使自身移动范围额外扩大<span style=\"color:#4395d6\">1</span>格，自身每额外移动<span style=\"color:#4395d6\">1</span>格，消耗<span style=\"color:#4395d6\">1</span>层此状态。附加移动力不受其他任何技能、状态或武器效果的影响，不会提高或减少。"
+        }
+      ],
+      "type": 2
+    },
+    {
+      "name": "踏风",
+      "des": "自身回合结束后，该回合内每移动<span style=\"color:#158bdb\">6</span>格，则获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#158bdb\">敏捷</span>状态。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_D008005",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">敏捷</span>",
+          "des": "闪避直接攻击，最多叠加<span style=\"color:#158bdb\">3</span>层，每次闪避后消耗<span style=\"color:#158bdb\">1</span>层。"
+        }
+      ],
+      "type": 2
+    },
+    {
+      "name": "蹄突泥泞",
+      "des": "使自身选定方向前<span style=\"color:#158bdb\">1</span>排的<span style=\"color:#158bdb\">3</span>格变为束缚格，效果持续<span style=\"color:#158bdb\">1</span>回合。若敌方单位进入束缚格，将无法离开束缚格范围，并进入<span style=\"color:#ff6724\">破甲</span>状态。",
+      "tag": [
+        "射程1格 ",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Jobskill_D_Z",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">破甲</span>",
+          "des": "物理防御降低<span style=\"color:#158bdb\">30%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">1</span>层。"
+        }
+      ],
+      "type": 1
+    }
+  ],
+  "skin": [
+    {
+      "id": "D0080001",
+      "name": "肖形"
+    },
+    {
+      "id": "D0080002",
+      "name": "写照"
+    }
+  ]
+}

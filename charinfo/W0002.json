@@ -1,0 +1,131 @@
+{
+  "info": {
+    "Hp": 464,
+    "Atk": 271,
+    "PhysicDef": 25,
+    "MagicDef": 25,
+    "Speed": 160,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 3,
+    "Mov": 3,
+    "Hp_GROW": 37,
+    "Atk_GROW": 18,
+    "PhysicDef_GROW": 2,
+    "MagicDef_GROW": 2,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": "",
+    "name": "天气卜骨",
+    "rare": 2,
+    "job": 4,
+    "tag": "远程;输出;减速"
+  },
+  "skill": [
+    {
+      "name": "钻凿",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
+      "tag": [
+        "射程2格",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Commonattack_W",
+      "buff": [],
+      "type": 1
+    },
+    {
+      "name": "闪亮雨衣",
+      "des": "对选定的敌方单位及其<span style=\"color:#158bdb\">周围1格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">140%</span>的构素伤害，并使其获得<span style=\"color:#ff6724\">冰雨</span>状态，持续<span style=\"color:#158bdb\">-30</span>回合。",
+      "tag": [
+        "射程2格",
+        "消耗:3"
+      ],
+      "level": 1,
+      "icon": "skillicon_W000202",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">冰雨</span>",
+          "des": "减少<span style=\"color:#158bdb\">-30</span>速度。"
+        }
+      ],
+      "type": 1
+    },
+    {
+      "name": "风调雨顺",
+      "des": "使用常击或职业技能时，若选定的敌方单位处于速度降低的状态，则有<span style=\"color:#158bdb\">1%</span>概率使自身获得<span style=\"color:#158bdb\">1</span>点能量。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_W000203",
+      "buff": [],
+      "type": 2
+    },
+    {
+      "name": "烧灼显纹",
+      "des": "进入战斗后，常击伤害增加<span style=\"color:#158bdb\">30%</span>。若攻击的敌方单位处于<span style=\"color:#ff6724\">冰雨</span>状态，则刷新其<span style=\"color:#ff6724\">冰雨</span>的持续时间。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_W000204",
+      "buff": [],
+      "type": 2
+    },
+    {
+      "name": "卜算吉凶",
+      "des": "进入战斗后，自身攻击力提高<span style=\"color:#158bdb\">10%</span>。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_W000205",
+      "buff": [],
+      "type": 2
+    },
+    {
+      "name": "人工降雨",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">50%</span>的构素伤害，并使其获得<span style=\"color:#ff6724\">冰雨</span>状态，持续<span style=\"color:#158bdb\">-30</span>回合。",
+      "tag": [
+        "射程2格",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Jobskill_W_D",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">冰雨</span>",
+          "des": "减少<span style=\"color:#158bdb\">-30</span>速度。"
+        }
+      ],
+      "type": 1
+    }
+  ],
+  "skin": [
+    {
+      "id": "W0002001",
+      "name": "肖形"
+    },
+    {
+      "id": "W0002002",
+      "name": "写照"
+    },
+    {
+      "id": "W0002010",
+      "name": "雨水"
+    }
+  ]
+}

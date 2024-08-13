@@ -1,0 +1,136 @@
+{
+  "info": {
+    "Hp": 577,
+    "Atk": 311,
+    "PhysicDef": 34,
+    "MagicDef": 34,
+    "Speed": 165,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 3,
+    "Mov": 3,
+    "Hp_GROW": 46,
+    "Atk_GROW": 21,
+    "PhysicDef_GROW": 3,
+    "MagicDef_GROW": 3,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": "",
+    "name": "皇后之玺",
+    "rare": 3,
+    "job": 5,
+    "tag": "远程;输出;增益"
+  },
+  "skill": [
+    {
+      "name": "落玺",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
+      "tag": [
+        "射程3格",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Commonattack_S",
+      "buff": [],
+      "type": 1
+    },
+    {
+      "name": "螭虎啸天",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">230%</span>的构素伤害；自身<span style=\"color:#158bdb\">周围1圈</span>内每有<span style=\"color:#158bdb\">1</span>名友方单位，则该次攻击伤害提升<span style=\"color:#158bdb\">20%</span>，最多叠加<span style=\"color:#158bdb\">3</span>次。",
+      "tag": [
+        "射程3格",
+        "消耗:3"
+      ],
+      "level": 1,
+      "icon": "skillicon_S001202",
+      "buff": [],
+      "type": 1
+    },
+    {
+      "name": "云辉熠",
+      "des": "自身<span style=\"color:#158bdb\">周围1格</span>内的友方全体防御力提高<span style=\"color:#158bdb\">10%</span>；自身<span style=\"color:#158bdb\">斜角1格</span>内的友方全体，暴击率增加<span style=\"color:#158bdb\">10%</span>。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_S001203",
+      "buff": [],
+      "type": 2
+    },
+    {
+      "name": "皇室威仪",
+      "des": "警戒攻击有<span style=\"color:#158bdb\">30%</span>概率使受击敌方单位获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">滞缓</span>状态。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_S001204",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">滞缓</span>",
+          "des": "降低移动力<span style=\"color:#158bdb\">-1</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">1</span>层。"
+        }
+      ],
+      "type": 2
+    },
+    {
+      "name": "仁泽众生",
+      "des": "使用绝技后，自身<span style=\"color:#158bdb\">周围1圈</span>的友方全体获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">啸剑</span>状态。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_S001205",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">啸剑</span>",
+          "des": "攻击力提高<span style=\"color:#158bdb\">20%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">2</span>层。"
+        }
+      ],
+      "type": 2
+    },
+    {
+      "name": "白玉凝灵",
+      "des": "使用后为自身填充<span style=\"color:#158bdb\">3</span>枚<span style=\"color:#ff6724\">礼弹</span>并进入警戒状态：以自身<span style=\"color:#158bdb\">周围3格</span>为警戒范围，对停留在该范围中的敌方单位进行警戒攻击，对其造成自身攻击力<span style=\"color:#158bdb\">3%</span>的构素伤害。",
+      "tag": [
+        "自身",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Jobskill_S",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">礼弹</span>",
+          "des": "填充<span style=\"color:#ff6724\">礼弹</span>则进入警戒状态，每次警戒攻击或治疗将消耗<span style=\"color:#ff6724\">礼弹</span>，<span style=\"color:#ff6724\">礼弹</span>清零后自动结束警戒状态。"
+        }
+      ],
+      "type": 1
+    }
+  ],
+  "skin": [
+    {
+      "id": "S0012001",
+      "name": "肖形"
+    },
+    {
+      "id": "S0012002",
+      "name": "写照"
+    },
+    {
+      "id": "S0012003",
+      "name": "奇境同梦"
+    }
+  ]
+}

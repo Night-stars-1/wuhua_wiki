@@ -1,0 +1,126 @@
+{
+  "info": {
+    "Hp": 464,
+    "Atk": 271,
+    "PhysicDef": 25,
+    "MagicDef": 25,
+    "Speed": 60,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 3,
+    "Mov": 3,
+    "Hp_GROW": 37,
+    "Atk_GROW": 18,
+    "PhysicDef_GROW": 2,
+    "MagicDef_GROW": 2,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": "",
+    "name": "鹦鹉银罐",
+    "rare": 2,
+    "job": 4,
+    "tag": "远程;支援;治疗"
+  },
+  "skill": [
+    {
+      "name": "鹦啼",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
+      "tag": [
+        "射程2格",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Commonattack_W",
+      "buff": [],
+      "type": 1
+    },
+    {
+      "name": "团花宝相",
+      "des": "使选定友方单体进入<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">金羽</span>状态。",
+      "tag": [
+        "射程2格",
+        "消耗:3"
+      ],
+      "level": 1,
+      "icon": "skillicon_W001102",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">金羽</span>",
+          "des": "下次受到的伤害降低<span style=\"color:#158bdb\">10%</span>，生效后减少<span style=\"color:#158bdb\">1</span>层。"
+        }
+      ],
+      "type": 1
+    },
+    {
+      "name": "煊赫",
+      "des": "当友方单位的<span style=\"color:#ff6724\">金羽</span>状态消失时，使其回复鹦鹉银罐最大生命值<span style=\"color:#158bdb\">5|200</span>的生命值。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_W001103",
+      "buff": [],
+      "type": 2
+    },
+    {
+      "name": "复新",
+      "des": "处于<span style=\"color:#ff6724\">金羽</span>状态的友方单位使用常击后，有<span style=\"color:#158bdb\">30%</span>概率刷新自身<span style=\"color:#ff6724\">金羽</span>层数。每次获得的<span style=\"color:#ff6724\">金羽</span>状态最多只能被刷新<span style=\"color:#158bdb\">1</span>次。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_W001104",
+      "buff": [],
+      "type": 2
+    },
+    {
+      "name": "银地金饰",
+      "des": "进入战斗后，自身最大生命值提高<span style=\"color:#158bdb\">5%</span>。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_W001105",
+      "buff": [],
+      "type": 2
+    },
+    {
+      "name": "化药",
+      "des": "为选定的友方单体回复自身最大生命值<span style=\"color:#158bdb\">15|200</span>的生命值。",
+      "tag": [
+        "射程2格",
+        "消耗:1"
+      ],
+      "level": 1,
+      "icon": "skillicon_Jobskill_W_H",
+      "buff": [],
+      "type": 1
+    }
+  ],
+  "skin": [
+    {
+      "id": "W0011001",
+      "name": "肖形"
+    },
+    {
+      "id": "W0011002",
+      "name": "写照"
+    },
+    {
+      "id": "W0011004",
+      "name": "红妆盛景"
+    }
+  ]
+}

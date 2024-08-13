@@ -1,0 +1,143 @@
+{
+  "info": {
+    "Hp": 675,
+    "Atk": 360,
+    "PhysicDef": 53,
+    "MagicDef": 53,
+    "Speed": 95,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 3,
+    "Mov": 4,
+    "Hp_GROW": 54,
+    "Atk_GROW": 24,
+    "PhysicDef_GROW": 5,
+    "MagicDef_GROW": 5,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": "",
+    "name": "雪景寒林图",
+    "rare": 4,
+    "job": 2,
+    "tag": "近战;输出;突入;控制"
+  },
+  "skill": [
+    {
+      "name": "寒霜",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+      "tag": [
+        "射程1格 ",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Commonattack_V",
+      "buff": [],
+      "type": 1
+    },
+    {
+      "name": "雪漫秦陇",
+      "des": "使用后自身获得<span style=\"color:#ff6724\">飞雪域</span>及<span style=\"color:#ff6724\">寒刃</span>状态，并获得<span style=\"color:#158bdb\">1</span>次移动力为<span style=\"color:#158bdb\">0</span>的再行动。",
+      "tag": [
+        "自身",
+        "消耗:3"
+      ],
+      "level": 1,
+      "icon": "skillicon_V014102",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">飞雪域</span>",
+          "des": "此状态持续<span style=\"color:#158bdb\">2</span>回合，持续期间无法再次使用绝技。\n攻击力提高<span style=\"color:#158bdb\">20%</span>；\n自身<span style=\"color:#158bdb\">周围3格</span>内任意敌方单位行动结束时，获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">寒天</span>状态。"
+        },
+        {
+          "name": "<span style=\"color:#ff6724\">寒刃</span>",
+          "des": "此状态持续至自身当前回合结束。\n处于此状态时，常击或连击前可使受击敌方单位获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">寒天</span>状态。"
+        },
+        {
+          "name": "<span style=\"color:#ff6724\">寒天</span>",
+          "des": "移动力减少<span style=\"color:#158bdb\">1</span>。此状态叠加到<span style=\"color:#158bdb\">3</span>层时，清除自身所有<span style=\"color:#ff6724\">寒天</span>状态，获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">霜冻</span>状态。"
+        },
+        {
+          "name": "<span style=\"color:#ff6724\">霜冻</span>",
+          "des": "处于此状态的单位无法进行任何行动，持续<span style=\"color:#158bdb\">1</span>回合。"
+        }
+      ],
+      "type": 1
+    },
+    {
+      "name": "泠泠寒山",
+      "des": "常击后有<span style=\"color:#158bdb\">30%</span>概率进行连击，对其造成攻击力<span style=\"color:#158bdb\">30%</span>的物理伤害；\n若该受击敌方单位处于<span style=\"color:#ff6724\">寒天</span>或<span style=\"color:#ff6724\">霜冻</span>状态，则必定连击。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_V014103",
+      "buff": [],
+      "type": 2
+    },
+    {
+      "name": "深潭映雪",
+      "des": "对处于<span style=\"color:#ff6724\">寒天</span>或<span style=\"color:#ff6724\">霜冻</span>状态的敌方单位进行连击时必定暴击，且该次连击暴击伤害提高<span style=\"color:#158bdb\">10%</span>，贯穿强度提高<span style=\"color:#158bdb\">10%</span>；\n连击后，若该受击单位处于<span style=\"color:#ff6724\">霜冻</span>状态，则对其造成该次连击伤害<span style=\"color:#158bdb\">150%</span>的<span style=\"color:#ff6724\">真实伤害</span>。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_V014104",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">真实伤害</span>",
+          "des": "此伤害不触发暴击和贯穿效果，且无法被格挡，无视防御和减伤效果，同时也不受增伤效果影响。"
+        }
+      ],
+      "type": 2
+    },
+    {
+      "name": "苍峰冰结",
+      "des": "使用职业技能攻击处于<span style=\"color:#ff6724\">寒天</span>状态的敌方单位或对处于<span style=\"color:#ff6724\">霜冻</span>状态的敌方单位进行任意攻击时，自身获得再行动<span style=\"color:#158bdb\">1</span>次，该次再行动的移动力减少<span style=\"color:#158bdb\">1</span>，并回复自身最大生命值的<span style=\"color:#158bdb\">1%</span>，每回合可触发<span style=\"color:#158bdb\">1</span>次。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_V014105",
+      "buff": [],
+      "type": 2
+    },
+    {
+      "name": "独游",
+      "des": "选定自身十字方向的地块进行位移，位移最大距离为<span style=\"color:#158bdb\">4</span>格，对经过地块上的敌方全体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+      "tag": [
+        "十字4格",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_V014111",
+      "buff": [],
+      "type": 1
+    }
+  ],
+  "skin": [
+    {
+      "id": "V0141001",
+      "name": "肖形"
+    },
+    {
+      "id": "V0141002",
+      "name": "写照"
+    },
+    {
+      "id": "V0141003",
+      "name": "雪诉约"
+    }
+  ]
+}

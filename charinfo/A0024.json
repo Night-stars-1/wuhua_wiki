@@ -1,0 +1,127 @@
+{
+  "info": {
+    "Hp": 567,
+    "Atk": 251,
+    "PhysicDef": 25,
+    "MagicDef": 25,
+    "Speed": 100,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 2,
+    "Mov": 3,
+    "Hp_GROW": 45,
+    "Atk_GROW": 17,
+    "PhysicDef_GROW": 3,
+    "MagicDef_GROW": 3,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": "",
+    "name": "心形枪",
+    "rare": 2,
+    "job": 3,
+    "tag": "远程;输出;控制"
+  },
+  "skill": [
+    {
+      "name": "点射",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+      "tag": [
+        "十字3格",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Commonattack_A",
+      "buff": [],
+      "type": 1
+    },
+    {
+      "name": "心动狩猎",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">110%</span>的物理伤害，并使目标进入<span style=\"color:#158bdb\">眩晕</span>状态。",
+      "tag": [
+        "十字3格",
+        "消耗:2"
+      ],
+      "level": 1,
+      "icon": "skillicon_A002402",
+      "buff": [],
+      "type": 1
+    },
+    {
+      "name": "炙热赞歌",
+      "des": "绝技攻击时，若目标无法施加<span style=\"color:#ff6724\">眩晕</span>，则获得2回合<span style=\"color:#ff6724\">降攻</span>，\n若成功施加<span style=\"color:#ff6724\">眩晕</span>，则该次伤害提升<span style=\"color:#158bdb\">5%</span>。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_A002403",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">降攻</span>",
+          "des": "攻击力减低<span style=\"color:#158bdb\">20%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">1</span>层。"
+        }
+      ],
+      "type": 2
+    },
+    {
+      "name": "天使亲吻",
+      "des": "处于<span style=\"color:#ff6724\">眩晕</span>状态的敌方目标死亡时，则自身获得<span style=\"color:#158bdb\">10%</span>伤害提升，持续<span style=\"color:#158bdb\">10</span>回合。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_A002404",
+      "buff": [],
+      "type": 2
+    },
+    {
+      "name": "贵族礼仪",
+      "des": "进入战斗后，攻击力提升<span style=\"color:#158bdb\">10%</span>。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_A002405",
+      "buff": [],
+      "type": 2
+    },
+    {
+      "name": "燧石引火",
+      "des": "使用后自身获得<span style=\"color:#158bdb\">1</span>次不可移动的再行动，并进入<span style=\"color:#ff6724\">瞄准</span>状态。",
+      "tag": [
+        "自身",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Jobskill_A",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">瞄准</span>",
+          "des": "此状态下进行攻击时，最大攻击距离增加<span style=\"color:#158bdb\">4</span>格，该次再行动结束后，此状态消失。"
+        }
+      ],
+      "type": 1
+    }
+  ],
+  "skin": [
+    {
+      "id": "A0024001",
+      "name": "肖形"
+    },
+    {
+      "id": "A0024002",
+      "name": "写照"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "info": {
+    "Hp": 535,
+    "Atk": 313,
+    "PhysicDef": 32,
+    "MagicDef": 32,
+    "Speed": 95,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 3,
+    "Mov": 3,
+    "Hp_GROW": 43,
+    "Atk_GROW": 21,
+    "PhysicDef_GROW": 3,
+    "MagicDef_GROW": 3,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": "",
+    "name": "蝠桃瓶",
+    "rare": 3,
+    "job": 4,
+    "tag": "远程;输出;伤害穿透"
+  },
+  "skill": [
+    {
+      "name": "桃花落",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
+      "tag": [
+        "射程2格",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Commonattack_W",
+      "buff": [],
+      "type": 1
+    },
+    {
+      "name": "春桃始盛",
+      "des": "对选定的敌方单位及其<span style=\"color:#158bdb\">周围2格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">110%</span>的构素伤害。",
+      "tag": [
+        "射程2格",
+        "消耗:3"
+      ],
+      "level": 1,
+      "icon": "skillicon_W005102",
+      "buff": [],
+      "type": 1
+    },
+    {
+      "name": "粉彩桃纹",
+      "des": "每消耗<span style=\"color:#158bdb\">1</span>点能量时，自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">桃意绵绵</span>。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_W005103",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">桃意绵绵</span>",
+          "des": "构素伤害提高<span style=\"color:#158bdb\">4%</span>，可叠加<span style=\"color:#158bdb\">5</span>层，持续<span style=\"color:#158bdb\">2</span>回合。"
+        }
+      ],
+      "type": 2
+    },
+    {
+      "name": "福寿双全",
+      "des": "击败敌方角色时，自身额外获得<span style=\"color:#158bdb\">1</span>点能量。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_W005104",
+      "buff": [],
+      "type": 2
+    },
+    {
+      "name": "蝠桃之意",
+      "des": "当自身<span style=\"color:#ff6724\">桃意绵绵</span>状态累计到<span style=\"color:#158bdb\">5</span>层时，自身获得<span style=\"color:#158bdb\">20%</span>防御穿透。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_W005105",
+      "buff": [],
+      "type": 2
+    },
+    {
+      "name": "望乡",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">130%</span>的构素伤害。",
+      "tag": [
+        "射程2格",
+        "消耗:1"
+      ],
+      "level": 1,
+      "icon": "skillicon_Jobskill_W_D",
+      "buff": [],
+      "type": 1
+    }
+  ],
+  "skin": [
+    {
+      "id": "W0051001",
+      "name": "肖形"
+    },
+    {
+      "id": "W0051002",
+      "name": "写照"
+    },
+    {
+      "id": "W0051003",
+      "name": "芳菲盈室"
+    },
+    {
+      "id": "W0051004",
+      "name": "踏新枝"
+    },
+    {
+      "id": "W0051010",
+      "name": "大寒"
+    }
+  ]
+}

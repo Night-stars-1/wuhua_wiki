@@ -1,0 +1,136 @@
+{
+  "info": {
+    "Hp": 628,
+    "Atk": 339,
+    "PhysicDef": 38,
+    "MagicDef": 38,
+    "Speed": 170,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 3,
+    "Mov": 3,
+    "Hp_GROW": 50,
+    "Atk_GROW": 23,
+    "PhysicDef_GROW": 4,
+    "MagicDef_GROW": 4,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": "",
+    "name": "莲塘乳鸭图",
+    "rare": 4,
+    "job": 5,
+    "tag": "远程;支援;治疗"
+  },
+  "skill": [
+    {
+      "name": "飞珠溅玉",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
+      "tag": [
+        "射程3格",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Commonattack_S",
+      "buff": [],
+      "type": 1
+    },
+    {
+      "name": "通经回纬",
+      "des": "对选定的敌方单位及其<span style=\"color:#158bdb\">周围2格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">110%</span>的构素伤害，并使其获得<span style=\"color:#ff6724\">寒天</span>；并使自身回复最大生命值的<span style=\"color:#158bdb\">25%</span>。",
+      "tag": [
+        "射程3格",
+        "消耗:3"
+      ],
+      "level": 1,
+      "icon": "skillicon_S008802",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">寒天</span>",
+          "des": "移动力减少<span style=\"color:#158bdb\">1</span>。此状态叠加到<span style=\"color:#158bdb\">3</span>层时，清除自身所有<span style=\"color:#ff6724\">寒天</span>状态，获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">霜冻</span>状态。"
+        }
+      ],
+      "type": 1
+    },
+    {
+      "name": "凫鹭闲游",
+      "des": "对生命值高于<span style=\"color:#158bdb\">70%</span>的目标进行警戒治疗时，会重新填充<span style=\"color:#158bdb\">1</span>枚<span style=\"color:#ff6724\">礼弹</span>；\n对生命值低于<span style=\"color:#158bdb\">5|300%</span>的目标进行警戒治疗时，会额外消耗<span style=\"color:#158bdb\">1</span>枚<span style=\"color:#ff6724\">礼弹</span>，并使该次治疗恢复量增加攻击力<span style=\"color:#158bdb\">5|300</span>。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_S008803",
+      "buff": [],
+      "type": 2
+    },
+    {
+      "name": "水波微漾",
+      "des": "常击命中后，有<span style=\"color:#158bdb\">50%</span>概率填充<span style=\"color:#158bdb\">1</span>枚<span style=\"color:#ff6724\">礼弹</span>，该次填充受到<span style=\"color:#ff6724\">额外装填礼弹</span>的加成。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_S008804",
+      "buff": [],
+      "type": 2
+    },
+    {
+      "name": "浮涛映日",
+      "des": "警戒治疗后，有<span style=\"color:#158bdb\">40%</span>概率使目标获得<span style=\"color:#ff6724\">增愈</span>。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_S008805",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">增愈</span>",
+          "des": "提高受到治疗量<span style=\"color:#158bdb\">20%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">1</span>层。"
+        }
+      ],
+      "type": 2
+    },
+    {
+      "name": "万缕千丝",
+      "des": "使用后为自身填充<span style=\"color:#158bdb\">3</span>枚<span style=\"color:#ff6724\">礼弹</span>并进入警戒状态：以自身<span style=\"color:#158bdb\">周围3格</span>为警戒范围，对进入该范围且生命值低于<span style=\"color:#158bdb\">100%</span>的友军进行警戒治疗，恢复攻击力<span style=\"color:#158bdb\">3</span>的生命值。",
+      "tag": [
+        "自身",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Jobskill_S",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">礼弹</span>",
+          "des": "填充<span style=\"color:#ff6724\">礼弹</span>则进入警戒状态，每次警戒攻击或治疗将消耗<span style=\"color:#ff6724\">礼弹</span>，<span style=\"color:#ff6724\">礼弹</span>清零后自动结束警戒状态。"
+        }
+      ],
+      "type": 1
+    }
+  ],
+  "skin": [
+    {
+      "id": "S0088001",
+      "name": "肖形"
+    },
+    {
+      "id": "S0088002",
+      "name": "写照"
+    },
+    {
+      "id": "S0088003",
+      "name": "小满"
+    }
+  ]
+}

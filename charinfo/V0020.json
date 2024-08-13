@@ -1,0 +1,121 @@
+{
+  "info": {
+    "Hp": 513,
+    "Atk": 283,
+    "PhysicDef": 36,
+    "MagicDef": 36,
+    "Speed": 90,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 3,
+    "Mov": 4,
+    "Hp_GROW": 41,
+    "Atk_GROW": 19,
+    "PhysicDef_GROW": 4,
+    "MagicDef_GROW": 4,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": "",
+    "name": "宝石冠",
+    "rare": 2,
+    "job": 2,
+    "tag": "近战;输出;突入"
+  },
+  "skill": [
+    {
+      "name": "义剑",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+      "tag": [
+        "射程1格 ",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Commonattack_V",
+      "buff": [],
+      "type": 1
+    },
+    {
+      "name": "热血仁侠",
+      "des": "对选定的敌方单位及其<span style=\"color:#158bdb\">周围2格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。",
+      "tag": [
+        "射程1格 ",
+        "消耗:3"
+      ],
+      "level": 1,
+      "icon": "skillicon_V002002",
+      "buff": [],
+      "type": 1
+    },
+    {
+      "name": "宝气珠光",
+      "des": "使用常击时，若自身<span style=\"color:#158bdb\">周围2格</span>不存在友方单位，则该次常击后触发连击，连击对目标造成自身攻击力<span style=\"color:#158bdb\">50%</span>的物理伤害。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_V002003",
+      "buff": [],
+      "type": 2
+    },
+    {
+      "name": "国公威仪",
+      "des": "若自身<span style=\"color:#158bdb\">周围1格</span>的敌方单位数量不少于<span style=\"color:#158bdb\">2</span>，自身造成的伤害提高<span style=\"color:#158bdb\">10%</span>。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_V002004",
+      "buff": [],
+      "type": 2
+    },
+    {
+      "name": "如意宝冠",
+      "des": "进入战斗后，自身攻击力提高<span style=\"color:#158bdb\">10%</span>。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "icon": "skillicon_V002005",
+      "buff": [],
+      "type": 2
+    },
+    {
+      "name": "洒脱",
+      "des": "使用后自身获得再行动<span style=\"color:#158bdb\">1</span>次，该次再行动的移动力减少<span style=\"color:#158bdb\">2</span>。",
+      "tag": [
+        "自身",
+        "无消耗"
+      ],
+      "level": 1,
+      "icon": "skillicon_Jobskill_V",
+      "buff": [],
+      "type": 1
+    }
+  ],
+  "skin": [
+    {
+      "id": "V0020001",
+      "name": "肖形"
+    },
+    {
+      "id": "V0020002",
+      "name": "写照"
+    },
+    {
+      "id": "V0020003",
+      "name": "暑假闲游"
+    }
+  ]
+}
