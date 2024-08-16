@@ -8,6 +8,8 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     Card: typeof import('./src/components/charinfo/card.vue')['default']
+    CardDrawStatistic: typeof import('./src/components/drawcard/CardDrawStatistic.vue')['default']
+    CardDrawStatistics: typeof import('./src/components/drawcard/CardDrawStatistics.vue')['default']
     CharInfo: typeof import('./src/components/char/CharInfo.vue')['default']
     CharInfoCard: typeof import('./src/components/charinfo/CharInfoCard.vue')['default']
     CharInfoSkill: typeof import('./src/components/charinfo/CharInfoSkill.vue')['default']
@@ -16,7 +18,10 @@ declare module 'vue' {
     CharName: typeof import('./src/components/char/CharName.vue')['default']
     CharSkill: typeof import('./src/components/char/CharSkill.vue')['default']
     CharView: typeof import('./src/components/char/CharView.vue')['default']
-    CircularProgress: typeof import('./src/components/progress/CircularProgress.vue')['default']
+    CircularProgress: typeof import('./src/components/drawcard/CircularProgress.vue')['default']
+    DrawCardProgress: typeof import('./src/components/drawcard/DrawCardProgress.vue')['default']
+    DrawCardStatistic: typeof import('./src/components/drawcard/DrawCardStatistic.vue')['default']
+    DrawCardTable: typeof import('./src/components/drawcard/DrawCardTable.vue')['default']
     ElAlert: typeof import('element-plus/es')['ElAlert']
     ElButton: typeof import('element-plus/es')['ElButton']
     ElC: typeof import('element-plus/es')['ElC']

@@ -156,4 +156,3 @@ async function tabChange(name: TabPaneName) {
 }
 </script>
 
-<style lang="scss" scoped></style>
