@@ -44,7 +44,8 @@
       "level": 1,
       "icon": "skillicon_Commonattack_D",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "前线报导",
@@ -56,7 +57,8 @@
       "level": 1,
       "icon": "skillicon_D008902",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "册命之书",
@@ -72,7 +74,8 @@
           "des": "当友方单位受到伤害时，代替其承受伤害。\n<span style=\"color:#db2424\">只可对除绝技、警戒攻击和回击外造成单体伤害的攻击生效。</span>"
         }
       ],
-      "type": 2
+      "type": 2,
+      "special": "格挡率提升<span style=\"color:#158bdb\">30%</span>，受到毛公鼎攻击的目标会被标记，被标记目标攻击毛公鼎距离<span style=\"color:#158bdb\">4</span>格内的友方目标时会被毛公鼎<span style=\"color:#ff6724\">援护</span>，标记生效<span style=\"color:#158bdb\">2</span>回合。"
     },
     {
       "name": "重器之镇",
@@ -83,7 +86,8 @@
       "level": 1,
       "icon": "skillicon_D008904",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "持国之鼎",
@@ -94,7 +98,8 @@
       "level": 1,
       "icon": "skillicon_D008905",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": "提升<span style=\"color:#158bdb\">5%</span>生命上限，触发格挡时额外回复<span style=\"color:#158bdb\">1</span>能量，格挡减伤值增加<span style=\"color:#158bdb\">5%</span>。"
     },
     {
       "name": "辗转",
@@ -111,7 +116,8 @@
           "des": "攻击力减低<span style=\"color:#158bdb\">20%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">1</span>层。"
         }
       ],
-      "type": 1
+      "type": 1,
+      "special": null
     }
   ],
   "skin": [

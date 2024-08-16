@@ -44,7 +44,8 @@
       "level": 1,
       "icon": "skillicon_Commonattack_A",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "烟火人间",
@@ -56,7 +57,8 @@
       "level": 1,
       "icon": "skillicon_A009302",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "漆流纹动",
@@ -67,7 +69,8 @@
       "level": 1,
       "icon": "skillicon_A009303",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "幽瞳",
@@ -78,7 +81,8 @@
       "level": 1,
       "icon": "skillicon_A009304",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": "处于<span style=\"color:#ff6724\">瞄准</span>状态时，常击后进行连击，对受击单位造成自身攻击力<span style=\"color:#158bdb\">35%</span>的物理伤害，若其当前生命值低于最大生命值的<span style=\"color:#158bdb\">75%</span>，则该次连击伤害倍率提高至<span style=\"color:#158bdb\">75</span>倍，且防御穿透提高<span style=\"color:#158bdb\">75%</span>。"
     },
     {
       "name": "喵喵不绝",
@@ -94,7 +98,8 @@
           "des": "瞄准冷却率提升<span style=\"color:#158bdb\">40%</span>，持续<span style=\"color:#158bdb\">2</span>回合。"
         }
       ],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "狸猫匐姿",
@@ -111,7 +116,8 @@
           "des": "此状态下进行攻击时，最大攻击距离增加<span style=\"color:#158bdb\">4</span>格，该次再行动结束后，此状态消失。"
         }
       ],
-      "type": 1
+      "type": 1,
+      "special": null
     }
   ],
   "skin": [

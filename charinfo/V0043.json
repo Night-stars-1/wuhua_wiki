@@ -44,7 +44,8 @@
       "level": 1,
       "icon": "skillicon_Commonattack_V",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "北漠金沙",
@@ -61,7 +62,8 @@
           "des": "每层<span style=\"color:#ff6724\">热诚</span>效果，提高<span style=\"color:#158bdb\">15</span>速度，提高<span style=\"color:#158bdb\">10%</span>连击伤害，最多叠加<span style=\"color:#158bdb\">5</span>层，每次回合开始时将减少<span style=\"color:#158bdb\">1</span>层。"
         }
       ],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "流沙绝险",
@@ -72,7 +74,8 @@
       "level": 1,
       "icon": "skillicon_V004303",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "尘途",
@@ -92,7 +95,8 @@
           "des": "积累一定层数后，可获得再行动。"
         }
       ],
-      "type": 2
+      "type": 2,
+      "special": "每次攻击前和回合结束前，当前回合每移动<span style=\"color:#158bdb\">3</span>格，获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">热诚</span>状态；连击时，自身每拥有<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">热诚</span>状态，则获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">灵动</span>状态，此状态累计到<span style=\"color:#158bdb\">10</span>层后，自身获得额外行动<span style=\"color:#158bdb\">1</span>次。"
     },
     {
       "name": "多战",
@@ -103,7 +107,8 @@
       "level": 1,
       "icon": "skillicon_V004305",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "丝路",
@@ -115,7 +120,8 @@
       "level": 1,
       "icon": "skillicon_Jobskill_V",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     }
   ],
   "skin": [

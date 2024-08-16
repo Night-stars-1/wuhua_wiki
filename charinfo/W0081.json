@@ -44,7 +44,8 @@
       "level": 1,
       "icon": "skillicon_Commonattack_W",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "花鸟盈香",
@@ -61,7 +62,8 @@
           "des": "状态持续期间，自身免疫持续伤害类和属性降低类负面效果。"
         }
       ],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "馥烟薄沁",
@@ -72,7 +74,8 @@
       "level": 1,
       "icon": "skillicon_W008103",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "银镂祥意",
@@ -88,7 +91,8 @@
           "des": "此状态不少于<span style=\"color:#158bdb\">3</span>层时，自身治疗量提升<span style=\"color:#158bdb\">20%</span>，移动力增加<span style=\"color:#158bdb\">1</span>。\n此状态最多可叠加<span style=\"color:#158bdb\">10</span>层。"
         }
       ],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "金盂恒衡",
@@ -108,7 +112,8 @@
           "des": "提高所有伤害<span style=\"color:#158bdb\">20%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">2</span>层。"
         }
       ],
-      "type": 2
+      "type": 2,
+      "special": "进入战斗后，暴击率增加<span style=\"color:#158bdb\">30%</span>；\n若自身<span style=\"color:#158bdb\">1</span>回合内未进行常击，则回合结束时额外获得<span style=\"color:#158bdb\">1</span>点能量；\n进行常击时，消耗<span style=\"color:#158bdb\">-2</span>层<span style=\"color:#ff6724\">沐芳</span>状态，使自身<span style=\"color:#158bdb\">周围1圈</span>内的随机<span style=\"color:#158bdb\">1</span>名友方单位获得<span style=\"color:#158bdb\">-7</span>层<span style=\"color:#ff6724\">啸剑</span>、<span style=\"color:#158bdb\">-7</span>层<span style=\"color:#ff6724\">蓄势</span>和<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">附加移动力</span>状态；\n使用绝技时，消耗<span style=\"color:#158bdb\">-7</span>层<span style=\"color:#ff6724\">沐芳</span>状态，使选定单位及其<span style=\"color:#158bdb\">周围1格</span>的友方全体获得<span style=\"color:#158bdb\">-7</span>层<span style=\"color:#ff6724\">啸剑</span>、<span style=\"color:#158bdb\">-7</span>层<span style=\"color:#ff6724\">蓄势</span>和<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">附加移动力</span>状态。"
     },
     {
       "name": "葡枝蔓生",
@@ -120,7 +125,8 @@
       "level": 1,
       "icon": "skillicon_Jobskill_W_H",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     }
   ],
   "skin": [

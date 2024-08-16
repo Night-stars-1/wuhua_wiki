@@ -44,7 +44,8 @@
       "level": 1,
       "icon": "skillicon_Commonattack_D",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "云峰奇险",
@@ -77,7 +78,8 @@
           "des": "构素防御提高<span style=\"color:#158bdb\">30%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">2</span>层。"
         }
       ],
-      "type": 1
+      "type": 1,
+      "special": "对自身<span style=\"color:#158bdb\">周围2格</span>内的敌方全体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害，并使其获得<span style=\"color:#ff6724\">震怒</span>状态；自身同时获得持续<span style=\"color:#158bdb\">2</span>回合的<span style=\"color:#ff6724\">云峰奇险-超群</span>，<span style=\"color:#ff6724\">铁甲</span>和<span style=\"color:#ff6724\">裳衫</span>状态。"
     },
     {
       "name": "溪山飞瀑",
@@ -97,7 +99,8 @@
           "des": "此伤害不触发暴击和贯穿效果，且无法被格挡。"
         }
       ],
-      "type": 2
+      "type": 2,
+      "special": "使用绝技时，若自身当前生命值高于<span style=\"color:#158bdb\">50%</span>，则消耗自身最大生命值的<span style=\"color:#158bdb\">50%</span>，获得持续<span style=\"color:#158bdb\">50</span>回合的<span style=\"color:#ff6724\">似夜奔行</span>状态。"
     },
     {
       "name": "孤旅",
@@ -113,7 +116,8 @@
           "des": "回击概率提高到<span style=\"color:#158bdb\">100%</span>，且自身受到的伤害降低<span style=\"color:#158bdb\">10%</span>。"
         }
       ],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "野行急救",
@@ -129,7 +133,8 @@
           "des": "受治疗量提高<span style=\"color:#158bdb\">10%</span>。"
         }
       ],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "山水路迢",
@@ -146,7 +151,8 @@
           "des": "物理防御降低<span style=\"color:#158bdb\">30%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">1</span>层。"
         }
       ],
-      "type": 1
+      "type": 1,
+      "special": null
     }
   ],
   "skin": [

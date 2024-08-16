@@ -44,7 +44,8 @@
       "level": 1,
       "icon": "skillicon_Commonattack_A",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "搅料",
@@ -56,7 +57,8 @@
       "level": 1,
       "icon": "skillicon_A000302",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "拉形",
@@ -67,7 +69,8 @@
       "level": 1,
       "icon": "skillicon_A000303",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "贴色",
@@ -83,7 +86,8 @@
           "des": "处于此状态时，若被敌方粉白双耳瓶的连击攻击，则受到<span style=\"color:#158bdb\">1</span>次敌方粉白双耳瓶攻击力<span style=\"color:#158bdb\">40%</span>的<span style=\"color:#ff6724\">额外物理伤害</span>。此状态只能同时存在<span style=\"color:#158bdb\">1</span>个。"
         }
       ],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "磨光",
@@ -94,7 +98,8 @@
       "level": 1,
       "icon": "skillicon_A000305",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": "攻击处于<span style=\"color:#ff6724\">粉色惊喜</span>状态的敌方单位时，有<span style=\"color:#ff6724\">60%</span>概率触发连击，且连击造成的伤害提高<span style=\"color:#158bdb\">60%</span>；同时自身额外获得<span style=\"color:#158bdb\">60</span>点能量。"
     },
     {
       "name": "旋塑",
@@ -111,7 +116,8 @@
           "des": "此状态下进行攻击时，最大攻击距离增加<span style=\"color:#158bdb\">4</span>格，该次再行动结束后，此状态消失。"
         }
       ],
-      "type": 1
+      "type": 1,
+      "special": null
     }
   ],
   "skin": [

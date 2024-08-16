@@ -44,7 +44,8 @@
       "level": 1,
       "icon": "skillicon_Commonattack_A",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "满弦击火",
@@ -56,7 +57,8 @@
       "level": 1,
       "icon": "skillicon_A003302",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "御枪狩猎",
@@ -69,10 +71,11 @@
       "buff": [
         {
           "name": "<span style=\"color:#ff6724\">狙击</span>",
-          "des": "攻击时，每层效果提供<span style=\"color:#158bdb\">[EffectParam,2]%</span>概率对目标施加<span style=\"color:#ff6724\">晕眩</span>效果，可叠加<span style=\"color:#158bdb\">3</span>层，触发后移除所有层数。"
+          "des": "攻击时，每层效果提供<span style=\"color:#158bdb\">15%</span>概率对目标施加<span style=\"color:#ff6724\">晕眩</span>效果，可叠加<span style=\"color:#158bdb\">3</span>层，触发后移除所有层数。"
         }
       ],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "屏息",
@@ -88,7 +91,8 @@
           "des": "移动力提高<span style=\"color:#158bdb\">1</span>格，常击伤害提升<span style=\"color:#158bdb\">40%</span>，常击命中后额外获得<span style=\"color:#158bdb\">1</span>点能量。"
         }
       ],
-      "type": 2
+      "type": 2,
+      "special": "解除<span style=\"color:#ff6724\">瞄准</span>状态后的<span style=\"color:#158bdb\">1</span>回合内，自身获得<span style=\"color:#ff6724\">奔袭</span>，常击与绝技的射程增加<span style=\"color:#158bdb\">1</span>格。"
     },
     {
       "name": "二道击发",
@@ -101,10 +105,11 @@
       "buff": [
         {
           "name": "<span style=\"color:#ff6724\">上膛</span>",
-          "des": "绝技伤害提升<span style=\"color:#158bdb\">[EffectParam,2]%</span>，并在释放绝技时使<span style=\"color:#ff6724\">狙击</span>效果获得额外眩晕概率。"
+          "des": "绝技伤害提升<span style=\"color:#158bdb\">10%</span>，并在释放绝技时使<span style=\"color:#ff6724\">狙击</span>效果获得额外眩晕概率。"
         }
       ],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "战备射姿",
@@ -121,7 +126,8 @@
           "des": "此状态下进行攻击时，最大攻击距离增加<span style=\"color:#158bdb\">4</span>格，该次再行动结束后，此状态消失。"
         }
       ],
-      "type": 1
+      "type": 1,
+      "special": null
     }
   ],
   "skin": [

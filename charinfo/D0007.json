@@ -44,7 +44,8 @@
       "level": 1,
       "icon": "skillicon_Commonattack_D",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "默以凝观",
@@ -56,7 +57,8 @@
       "level": 1,
       "icon": "skillicon_D000702",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "仰韶艺潮",
@@ -67,7 +69,8 @@
       "level": 1,
       "icon": "skillicon_D000703",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "陶衣如绯",
@@ -83,7 +86,8 @@
           "des": "每回合开始时恢复<span style=\"color:#158bdb\">5%</span>生命值。"
         }
       ],
-      "type": 2
+      "type": 2,
+      "special": "自身当前生命值低于<span style=\"color:#158bdb\">50%</span>时，获得<span style=\"color:#158bdb\">合范成器</span>状态，效果持续<span style=\"color:#158bdb\">5</span>回合，每<span style=\"color:#158bdb\">2</span>回合可触发<span style=\"color:#158bdb\">1</span>次。"
     },
     {
       "name": "圆雕敛饰",
@@ -94,7 +98,8 @@
       "level": 1,
       "icon": "skillicon_D000705",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "黏黏泥束",
@@ -111,7 +116,8 @@
           "des": "攻击力减低<span style=\"color:#158bdb\">20%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">1</span>层。"
         }
       ],
-      "type": 1
+      "type": 1,
+      "special": null
     }
   ],
   "skin": [

@@ -44,7 +44,8 @@
       "level": 1,
       "icon": "skillicon_Commonattack_V",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "呼风唤雨",
@@ -56,7 +57,8 @@
       "level": 1,
       "icon": "skillicon_V002302",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "蛙鸣",
@@ -67,7 +69,8 @@
       "level": 1,
       "icon": "skillicon_V002303",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "暴雨",
@@ -83,7 +86,8 @@
           "des": "提高受到的所有伤害<span style=\"color:#db2424\">30%</span>，每受到一次直接攻击减少<span style=\"color:#ff6724\">1层</span>，持续<span style=\"color:#4395d6\">2</span>回合或层数用完。"
         }
       ],
-      "type": 2
+      "type": 2,
+      "special": "使用职业技能后，下<span style=\"color:#158bdb\">1</span>次攻击有<span style=\"color:#158bdb\">50%</span>的概率使受击敌方单位获得<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">脆弱</span>状态。"
     },
     {
       "name": "善水",
@@ -94,7 +98,8 @@
       "level": 1,
       "icon": "skillicon_V002305",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "蛙跳",
@@ -106,7 +111,8 @@
       "level": 1,
       "icon": "skillicon_Jobskill_V",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": "使用后自身获得额外行动<span style=\"color:#158bdb\">1</span>次，该次额外行动的移动力减少<span style=\"color:#158bdb\">1</span>。"
     }
   ],
   "skin": [

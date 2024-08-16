@@ -44,7 +44,8 @@
       "level": 1,
       "icon": "skillicon_Commonattack_A",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "制茶有方",
@@ -56,7 +57,8 @@
       "level": 1,
       "icon": "skillicon_A013902",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "风物循影",
@@ -76,7 +78,8 @@
           "des": "此伤害不触发暴击和贯穿效果，且无法被格挡，无视防御和减伤效果，同时也不受增伤效果影响。"
         }
       ],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "摹绘百相",
@@ -92,7 +95,8 @@
           "des": "瞄准冷却率提升<span style=\"color:#158bdb\">20%</span>，持续<span style=\"color:#158bdb\">1</span>回合。"
         }
       ],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "行箧游航",
@@ -103,7 +107,8 @@
       "level": 1,
       "icon": "skillicon_A013905",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": "<span style=\"color:#ff6724\">存档</span>中的目标被击败后，茶叶生产画有<span style=\"color:#158bdb\">50%</span>的概率在轮次结束前额外进行一次行动，该效果触发间隔为<span style=\"color:#158bdb\">50</span>回合。"
     },
     {
       "name": "延时拍摄",
@@ -120,7 +125,8 @@
           "des": "此状态下进行攻击时，最大攻击距离增加<span style=\"color:#158bdb\">4</span>格，该次再行动结束后，此状态消失。"
         }
       ],
-      "type": 1
+      "type": 1,
+      "special": null
     }
   ],
   "skin": [

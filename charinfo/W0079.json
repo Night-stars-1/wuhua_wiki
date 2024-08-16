@@ -44,7 +44,8 @@
       "level": 1,
       "icon": "skillicon_Commonattack_W",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "乐舞万象",
@@ -56,7 +57,8 @@
       "level": 1,
       "icon": "skillicon_W007902",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": "对选定的敌方单位及其<span style=\"color:#158bdb\">周围2格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害，并使自身获得额外行动机会。"
     },
     {
       "name": "排练",
@@ -67,7 +69,8 @@
       "level": 1,
       "icon": "skillicon_W007903",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "随性演出",
@@ -78,7 +81,8 @@
       "level": 1,
       "icon": "skillicon_W007904",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "合奏",
@@ -94,7 +98,8 @@
           "des": "下一次攻击伤害提高<span style=\"color:#158bdb\">10%</span>，并限制受击目标移动<span style=\"color:#158bdb\">1</span>回合。"
         }
       ],
-      "type": 2
+      "type": 2,
+      "special": "当职业技能命中至少<span style=\"color:#158bdb\">2</span>个敌方单位时，自身获得<span style=\"color:#ff6724\">和鸣</span>状态。"
     },
     {
       "name": "候场",
@@ -106,7 +111,8 @@
       "level": 1,
       "icon": "skillicon_Jobskill_W_D",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     }
   ],
   "skin": [

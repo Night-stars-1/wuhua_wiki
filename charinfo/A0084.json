@@ -44,7 +44,8 @@
       "level": 1,
       "icon": "skillicon_Commonattack_A",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "金石铿锵",
@@ -56,7 +57,8 @@
       "level": 1,
       "icon": "skillicon_A008402",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "云雷弥漫",
@@ -67,7 +69,8 @@
       "level": 1,
       "icon": "skillicon_A008403",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": "使用职业技能后，进行持续<span style=\"color:#158bdb\">1</span>回合的协助瞄准，强化自身<span style=\"color:#158bdb\">4</span>格范围内的友军远击，使其攻击过程中获得<span style=\"color:#158bdb\">4%</span>防御穿透率。"
     },
     {
       "name": "鸣金",
@@ -83,7 +86,8 @@
           "des": "造成的连击伤害提高<span style=\"color:#158bdb\">5%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">3</span>层。"
         }
       ],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "收兵",
@@ -94,7 +98,8 @@
       "level": 1,
       "icon": "skillicon_A008405",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "止鼓",
@@ -111,7 +116,8 @@
           "des": "此状态下进行攻击时，最大攻击距离增加<span style=\"color:#158bdb\">4</span>格，该次再行动结束后，此状态消失。"
         }
       ],
-      "type": 1
+      "type": 1,
+      "special": null
     }
   ],
   "skin": [

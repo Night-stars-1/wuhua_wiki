@@ -44,7 +44,8 @@
       "level": 1,
       "icon": "skillicon_Commonattack_V",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "器药入卷",
@@ -61,7 +62,8 @@
           "des": "每移动一格，受到最大生命值<span style=\"color:#158bdb\">5%</span>的伤害，可叠加<span style=\"color:#158bdb\">5</span>层，持续<span style=\"color:#158bdb\">2</span>回合。"
         }
       ],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "穿刺",
@@ -77,7 +79,8 @@
           "des": "每移动一格，受到最大生命值<span style=\"color:#158bdb\">5%</span>的伤害，可叠加<span style=\"color:#158bdb\">5</span>层，持续<span style=\"color:#158bdb\">2</span>回合。"
         }
       ],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "悬壶",
@@ -88,7 +91,8 @@
       "level": 1,
       "icon": "skillicon_V000604",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": "攻击时，若敌方单位处于<span style=\"color:#ff6724\">流失</span>状态，则额外造成目标生命值已损失比例乘以攻击力<span style=\"color:#158bdb\">10%</span>的伤害，并使自身回复自身攻击力<span style=\"color:#158bdb\">15%</span>的生命值。"
     },
     {
       "name": "三根相合",
@@ -99,7 +103,8 @@
       "level": 1,
       "icon": "skillicon_V000605",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "七素如常",
@@ -111,7 +116,8 @@
       "level": 1,
       "icon": "skillicon_Jobskill_V",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     }
   ],
   "skin": [

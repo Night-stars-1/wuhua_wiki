@@ -44,7 +44,8 @@
       "level": 1,
       "icon": "skillicon_Commonattack_A",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "仓禀累实",
@@ -61,7 +62,8 @@
           "des": "攻击力提高<span style=\"color:#158bdb\">10%</span>，物理防御力提高<span style=\"color:#158bdb\">5%</span>，每回合结束时回复自身<span style=\"color:#158bdb\">10%</span>生命，持续<span style=\"color:#158bdb\">2</span>回合。"
         }
       ],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "春计",
@@ -74,10 +76,11 @@
       "buff": [
         {
           "name": "<span style=\"color:#ff6724\">春盛</span>",
-          "des": "造成的伤害提升<span style=\"color:#158bdb\">[EffectParam,2]%</span>。"
+          "des": "造成的伤害提升<span style=\"color:#158bdb\">5%</span>。"
         }
       ],
-      "type": 2
+      "type": 2,
+      "special": "当受到治疗的生命值超过自身最大生命值时，自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">春盛</span>状态，并有<span style=\"color:#158bdb\">50%</span>概率额外获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">春盛</span>。此状态最多可叠加<span style=\"color:#158bdb\">3</span>层，进行任意攻击时会消耗全部层数。"
     },
     {
       "name": "生机",
@@ -88,7 +91,8 @@
       "level": 1,
       "icon": "skillicon_A000104",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "时和岁稔",
@@ -99,7 +103,8 @@
       "level": 1,
       "icon": "skillicon_A000105",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "备耕",
@@ -116,7 +121,8 @@
           "des": "此状态下进行攻击时，最大攻击距离增加<span style=\"color:#158bdb\">4</span>格，该次再行动结束后，此状态消失。"
         }
       ],
-      "type": 1
+      "type": 1,
+      "special": null
     }
   ],
   "skin": [

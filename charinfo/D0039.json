@@ -44,7 +44,8 @@
       "level": 1,
       "icon": "skillicon_Commonattack_D",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "浩浩万物",
@@ -56,7 +57,8 @@
       "level": 1,
       "icon": "skillicon_D003902",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "月阴",
@@ -67,7 +69,8 @@
       "level": 1,
       "icon": "skillicon_D003903",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "日阳",
@@ -78,7 +81,8 @@
       "level": 1,
       "icon": "skillicon_D003904",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "星狩",
@@ -89,7 +93,8 @@
       "level": 1,
       "icon": "skillicon_D003905",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": "自身生命值低于<span style=\"color:#158bdb\">30%</span>时，受到攻击时有<span style=\"color:#158bdb\">30%</span>使攻击者眩晕<span style=\"color:#158bdb\">1</span>回合。每次行动周期可触发<span style=\"color:#158bdb\">30</span>次。"
     },
     {
       "name": "万神朝来",
@@ -106,7 +111,8 @@
           "des": "构素防御降低<span style=\"color:#158bdb\">30%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">1</span>层。"
         }
       ],
-      "type": 1
+      "type": 1,
+      "special": null
     }
   ],
   "skin": [

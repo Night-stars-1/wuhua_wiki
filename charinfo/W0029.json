@@ -44,7 +44,8 @@
       "level": 1,
       "icon": "skillicon_Commonattack_W",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "长卷逸舒",
@@ -56,7 +57,8 @@
       "level": 1,
       "icon": "skillicon_W002902",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "轻云蔽月",
@@ -72,7 +74,8 @@
           "des": "此伤害不触发暴击和贯穿效果，且无法被格挡，但会被构素护盾抵挡。"
         }
       ],
-      "type": 2
+      "type": 2,
+      "special": "常击造成伤害后，根据自身累计治疗量的<span style=\"color:#158bdb\">100%</span>造成<span style=\"color:#ff6724\">额外构素伤害</span>，该伤害不超过攻击力的<span style=\"color:#158bdb\">100%</span>，且自身生命值越低，该额外伤害越高，最多提高<span style=\"color:#158bdb\">100%</span>；进行常击后，使自身回复当前已损失生命值<span style=\"color:#158bdb\">50%</span>的生命值。"
     },
     {
       "name": "流风回雪",
@@ -83,7 +86,8 @@
       "level": 1,
       "icon": "skillicon_W002904",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "秀骨清像",
@@ -94,7 +98,8 @@
       "level": 1,
       "icon": "skillicon_W002905",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "文思泉涌",
@@ -106,7 +111,8 @@
       "level": 1,
       "icon": "skillicon_Jobskill_W_H",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     }
   ],
   "skin": [

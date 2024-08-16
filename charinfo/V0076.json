@@ -44,7 +44,8 @@
       "level": 1,
       "icon": "skillicon_Commonattack_V",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "朱玉金辉",
@@ -56,7 +57,8 @@
       "level": 1,
       "icon": "skillicon_V007602",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "屠苏迎岁",
@@ -76,7 +78,8 @@
           "des": "此伤害不触发暴击和贯穿效果，且无法被格挡。"
         }
       ],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "金瓯万年",
@@ -87,7 +90,8 @@
       "level": 1,
       "icon": "skillicon_V007604",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "三象分足",
@@ -98,7 +102,8 @@
       "level": 1,
       "icon": "skillicon_V007605",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": "释放职业技能后，可在原地释放常击或者绝技；对携带满层<span style=\"color:#ff6724\">金虹乍现</span>状态的目标攻击时，造成的伤害提高<span style=\"color:#158bdb\">10%</span>；击败携带满层<span style=\"color:#ff6724\">金虹乍现</span>的目标后，下一次攻击可直接附加满层<span style=\"color:#ff6724\">金虹乍现</span>状态。"
     },
     {
       "name": "夔龙托珠",
@@ -110,7 +115,8 @@
       "level": 1,
       "icon": "skillicon_V007611",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     }
   ],
   "skin": [

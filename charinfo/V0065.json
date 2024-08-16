@@ -44,7 +44,8 @@
       "level": 1,
       "icon": "skillicon_Commonattack_V",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "婉转鼓侧",
@@ -56,7 +57,8 @@
       "level": 1,
       "icon": "skillicon_V006502",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "七盘递奏",
@@ -67,7 +69,8 @@
       "level": 1,
       "icon": "skillicon_V006503",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "叠案倒立",
@@ -78,7 +81,8 @@
       "level": 1,
       "icon": "skillicon_V006504",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": "贯穿概率增加<span style=\"color:#158bdb\">40%</span>，对敌方单位造成贯穿时，使其移动距离减少<span style=\"color:#db2424\">-1</span>，持续<span style=\"color:#158bdb\">-1</span>回合。"
     },
     {
       "name": "手跳三丸",
@@ -89,7 +93,8 @@
       "level": 1,
       "icon": "skillicon_V006505",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "轻舞灵动",
@@ -101,7 +106,8 @@
       "level": 1,
       "icon": "skillicon_Jobskill_V",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     }
   ],
   "skin": [

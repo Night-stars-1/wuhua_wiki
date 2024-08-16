@@ -44,7 +44,8 @@
       "level": 1,
       "icon": "skillicon_Commonattack_W",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "团花宝相",
@@ -61,7 +62,8 @@
           "des": "下次受到的伤害降低<span style=\"color:#158bdb\">10%</span>，生效后减少<span style=\"color:#158bdb\">1</span>层。"
         }
       ],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "煊赫",
@@ -72,7 +74,8 @@
       "level": 1,
       "icon": "skillicon_W001103",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "复新",
@@ -83,7 +86,8 @@
       "level": 1,
       "icon": "skillicon_W001104",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": "处于<span style=\"color:#ff6724\">金羽</span>状态的友方单位使用常击后，有<span style=\"color:#158bdb\">30%</span>概率刷新自身<span style=\"color:#ff6724\">金羽</span>层数。每次获得的<span style=\"color:#ff6724\">金羽</span>状态最多只能被刷新<span style=\"color:#158bdb\">2</span>次。"
     },
     {
       "name": "银地金饰",
@@ -94,7 +98,8 @@
       "level": 1,
       "icon": "skillicon_W001105",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "化药",
@@ -106,7 +111,8 @@
       "level": 1,
       "icon": "skillicon_Jobskill_W_H",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     }
   ],
   "skin": [

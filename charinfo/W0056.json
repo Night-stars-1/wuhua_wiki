@@ -44,7 +44,8 @@
       "level": 1,
       "icon": "skillicon_Commonattack_W",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "原初乐音",
@@ -65,7 +66,8 @@
           "des": "自身的治疗量提高<span style=\"color:#158bdb\">10%</span>。"
         }
       ],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "打磨",
@@ -76,7 +78,8 @@
       "level": 1,
       "icon": "skillicon_W005603",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": "释放职业技能和绝技或进行常击后，为自身<span style=\"color:#158bdb\">周围2格</span>内生命值最低的友方单位恢复自身攻击力<span style=\"color:#158bdb\">10|150</span>的生命值；若该友方单位生命值低于<span style=\"color:#158bdb\">10|150%</span>，则额外进行一次治疗，为其恢复贾湖骨笛攻击力<span style=\"color:#158bdb\">10|150</span>的生命值。"
     },
     {
       "name": "神明祈福",
@@ -92,7 +95,8 @@
           "des": "每回合开始时，恢复贾湖骨笛攻击力<span style=\"color:#158bdb\">20%</span>的生命值，可叠加<span style=\"color:#158bdb\">2</span>层。"
         }
       ],
-      "type": 2
+      "type": 2,
+      "special": "释放职业技能和绝技时，有<span style=\"color:#158bdb\">60%</span>概率为自身<span style=\"color:#158bdb\">周围2格</span>内随机<span style=\"color:#158bdb\">2</span>名友方单位获得<span style=\"color:#ff6724\">鹤骨悠声</span>，持续<span style=\"color:#158bdb\">2</span>回合。"
     },
     {
       "name": "鸿运当头",
@@ -103,7 +107,8 @@
       "level": 1,
       "icon": "skillicon_W005605",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "初韵",
@@ -115,7 +120,8 @@
       "level": 1,
       "icon": "skillicon_Jobskill_W_H",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     }
   ],
   "skin": [
