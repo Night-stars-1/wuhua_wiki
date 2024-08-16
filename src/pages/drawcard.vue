@@ -287,6 +287,7 @@ function initCardList() {
     .reverse()
     .forEach((data) => {
       const gachaId = getGachaId(data.gachaType);
+      gachaId == 0 && charProgress.value[charProgress.value.length - 1].count++;
       switch (data.rankType) {
         case 3:
           analysisList.value[gachaId].three++;
@@ -302,7 +303,6 @@ function initCardList() {
           }
           break;
       }
-      gachaId == 0 && charProgress.value[charProgress.value.length - 1].count++;
       analysisList.value[gachaId].pull++;
       if (data.rankType == 4) {
         analysisList.value[gachaId].pull = 0;
