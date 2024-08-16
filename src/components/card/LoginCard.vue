@@ -26,7 +26,7 @@
           >查询</el-button
         >
       </el-tab-pane>
-      <el-tab-pane label="账号密码" name="pwd">
+      <!-- <el-tab-pane label="账号密码" name="pwd">
         <el-alert
           title="密码在本地进行加密，后端无法获取真实密码也不会保存账号密码"
           type="warning"
@@ -51,7 +51,7 @@
           @click="Login"
           >登录</el-button
         >
-      </el-tab-pane>
+      </el-tab-pane> -->
       <el-tab-pane label="扫码登录" name="qrcode">
         <el-alert
           title="扫码登录不会存在账号密码的输入与传输"
