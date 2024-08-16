@@ -94,11 +94,11 @@ const emit = defineEmits<{ check: [code: string, uid: string] }>();
 
 import type { TabPaneName } from "element-plus";
 import VueQrcode from "vue-qrcode";
-import Auth from "@/utils/biliLogin";
+// import Auth from "@/utils/biliLogin";
 import QRCodeLogin from "@/utils/qrcodeLogin";
 
-const userId = ref("");
-const pwd = ref("");
+// const userId = ref("");
+// const pwd = ref("");
 const qrcodeLoginUrl = ref("");
 const tabLoading = ref(false);
 const loginType = ref("token");
@@ -110,19 +110,19 @@ const code = codeStr ? ref(codeStr) : ref("");
 const uidStr = localStorage.getItem("uid");
 const uid = uidStr ? ref(uidStr) : ref("");
 
-async function Login() {
-  dialogTableVisible.value = true;
-  dialogText.value = "开始获取登录信息...";
-  const auth = new Auth();
-  pwd.value = await auth.signPassword(pwd.value);
-  const data = await auth.getAccessKey(userId.value, pwd.value);
-  code.value = data.access_key;
-  uid.value = data.uid.toString();
-  localStorage.setItem("code", code.value ?? "");
-  localStorage.setItem("uid", uid.value ?? "");
-  loginType.value = "token";
-  dialogTableVisible.value = false;
-}
+// async function Login() {
+//   dialogTableVisible.value = true;
+//   dialogText.value = "开始获取登录信息...";
+//   const auth = new Auth();
+//   pwd.value = await auth.signPassword(pwd.value);
+//   const data = await auth.getAccessKey(userId.value, pwd.value);
+//   code.value = data.access_key;
+//   uid.value = data.uid.toString();
+//   localStorage.setItem("code", code.value ?? "");
+//   localStorage.setItem("uid", uid.value ?? "");
+//   loginType.value = "token";
+//   dialogTableVisible.value = false;
+// }
 
 let qrcodeInterval: NodeJS.Timeout;
 async function tabChange(name: TabPaneName) {
