@@ -44,7 +44,8 @@
       "level": 1,
       "icon": "skillicon_Commonattack_S",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "十二香梦",
@@ -65,7 +66,8 @@
           "des": "受到的伤害增加<span style=\"color:#158bdb\">20%</span>，持续<span style=\"color:#158bdb\">2</span>回合。"
         }
       ],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "花藏不见",
@@ -85,7 +87,8 @@
           "des": "受到的警戒攻击伤害提高<span style=\"color:#158bdb\">30%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">1</span>层。"
         }
       ],
-      "type": 2
+      "type": 2,
+      "special": "每次警戒攻击前，消耗自身当前生命值的<span style=\"color:#158bdb\">10%</span>，有<span style=\"color:#158bdb\">50%</span>概率使受击敌方单位进入<span style=\"color:#ff6724\">肃静</span>状态，并有<span style=\"color:#158bdb\">50%</span>概率使受击敌方单位进入<span style=\"color:#ff6724\">疏忽</span>状态。"
     },
     {
       "name": "月令花神",
@@ -101,7 +104,8 @@
           "des": "使警戒攻击造成的伤害提高<span style=\"color:#158bdb\">10%</span>，可叠加<span style=\"color:#158bdb\">3</span>层。"
         }
       ],
-      "type": 2
+      "type": 2,
+      "special": "自身及<span style=\"color:#158bdb\">周围3格</span>内的友方单位消耗其自身生命值时，使自身获得<span style=\"color:#ff6724\">惊蕊</span>状态；\n当<span style=\"color:#ff6724\">惊蕊</span>状态叠加至<span style=\"color:#158bdb\">5</span>层时，警戒攻击伤害倍率提高<span style=\"color:#158bdb\">30%</span>且额外填充<span style=\"color:#158bdb\">5</span>枚<span style=\"color:#ff6724\">礼弹</span>，每回合最多触发<span style=\"color:#158bdb\">5</span>次。"
     },
     {
       "name": "薄胎映彩",
@@ -112,7 +116,8 @@
       "level": 1,
       "icon": "skillicon_S013205",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "集诗",
@@ -129,7 +134,8 @@
           "des": "填充<span style=\"color:#ff6724\">礼弹</span>则进入警戒状态，每次警戒攻击或治疗将消耗<span style=\"color:#ff6724\">礼弹</span>，<span style=\"color:#ff6724\">礼弹</span>清零后自动结束警戒状态。"
         }
       ],
-      "type": 1
+      "type": 1,
+      "special": null
     }
   ],
   "skin": [

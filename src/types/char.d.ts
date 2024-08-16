@@ -169,6 +169,7 @@ interface SkillInfo {
    * 2 被动
    */
   type: number
+  special?: string
 }
 
 interface CharData {

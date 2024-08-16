@@ -44,7 +44,8 @@
       "level": 1,
       "icon": "skillicon_Commonattack_S",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "时随刻转",
@@ -69,7 +70,8 @@
           "des": "构素防御提高<span style=\"color:#158bdb\">30%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">2</span>层。"
         }
       ],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "山子水法",
@@ -85,7 +87,8 @@
           "des": "攻击力减低<span style=\"color:#158bdb\">20%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">1</span>层。"
         }
       ],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "机括巧作",
@@ -101,7 +104,8 @@
           "des": "填充<span style=\"color:#ff6724\">礼弹</span>则进入警戒状态，每次警戒攻击或治疗将消耗<span style=\"color:#ff6724\">礼弹</span>，<span style=\"color:#ff6724\">礼弹</span>清零后自动结束警戒状态。"
         }
       ],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "变盘重调",
@@ -137,7 +141,8 @@
           "des": "警戒攻击伤害增加<span style=\"color:#158bdb\">50%</span>，治疗效果提高<span style=\"color:#158bdb\">50%</span>，持续至自身获得此状态后的第<span style=\"color:#158bdb\">2</span>次行动前。"
         }
       ],
-      "type": 2
+      "type": 2,
+      "special": "自身和友方全体战略累计共释放<span style=\"color:#158bdb\">8</span>次警戒攻击或警戒治疗后，自身进入<span style=\"color:#ff6724\">钟表校准</span>状态。\n自身使用绝技后，增加<span style=\"color:#158bdb\">4</span>次计数。"
     },
     {
       "name": "钟鸣未绝",
@@ -154,7 +159,8 @@
           "des": "填充<span style=\"color:#ff6724\">礼弹</span>则进入警戒状态，每次警戒攻击或治疗将消耗<span style=\"color:#ff6724\">礼弹</span>，<span style=\"color:#ff6724\">礼弹</span>清零后自动结束警戒状态。"
         }
       ],
-      "type": 1
+      "type": 1,
+      "special": null
     }
   ],
   "skin": [

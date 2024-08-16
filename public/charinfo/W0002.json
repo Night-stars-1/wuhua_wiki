@@ -44,7 +44,8 @@
       "level": 1,
       "icon": "skillicon_Commonattack_W",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "闪亮雨衣",
@@ -61,7 +62,8 @@
           "des": "减少<span style=\"color:#158bdb\">-30</span>速度。"
         }
       ],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "风调雨顺",
@@ -72,7 +74,8 @@
       "level": 1,
       "icon": "skillicon_W000203",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": "使用常击或职业技能时，若选定的敌方单位处于速度降低的状态，则有<span style=\"color:#158bdb\">1%</span>概率使自身获得<span style=\"color:#158bdb\">1</span>点能量。"
     },
     {
       "name": "烧灼显纹",
@@ -83,7 +86,8 @@
       "level": 1,
       "icon": "skillicon_W000204",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "卜算吉凶",
@@ -94,7 +98,8 @@
       "level": 1,
       "icon": "skillicon_W000205",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "人工降雨",
@@ -111,7 +116,8 @@
           "des": "减少<span style=\"color:#158bdb\">-30</span>速度。"
         }
       ],
-      "type": 1
+      "type": 1,
+      "special": null
     }
   ],
   "skin": [

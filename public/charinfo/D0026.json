@@ -44,7 +44,8 @@
       "level": 1,
       "icon": "skillicon_Commonattack_D",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "可可生长",
@@ -56,7 +57,8 @@
       "level": 1,
       "icon": "skillicon_D002602",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "风啸",
@@ -67,7 +69,8 @@
       "level": 1,
       "icon": "skillicon_D002603",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": "受到自身<span style=\"color:#158bdb\">周围1格</span>的敌方单位攻击触发闪避后，对其进行回击，造成自身攻击力<span style=\"color:#158bdb\">35%</span>的物理伤害。"
     },
     {
       "name": "卓尔金",
@@ -78,7 +81,8 @@
       "level": 1,
       "icon": "skillicon_D002604",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "玉米之神",
@@ -89,7 +93,8 @@
       "level": 1,
       "icon": "skillicon_D002605",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "雨林",
@@ -106,7 +111,8 @@
           "des": "物理防御降低<span style=\"color:#158bdb\">30%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">1</span>层。"
         }
       ],
-      "type": 1
+      "type": 1,
+      "special": null
     }
   ],
   "skin": [

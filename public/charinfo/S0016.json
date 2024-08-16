@@ -44,7 +44,8 @@
       "level": 1,
       "icon": "skillicon_Commonattack_S",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "食味流香",
@@ -61,7 +62,8 @@
           "des": "当生命值低于<span style=\"color:#158bdb\">100%</span>的友方单位进入警戒范围时，为其恢复生命。"
         }
       ],
-      "type": 1
+      "type": 1,
+      "special": "使用后为自身填充<span style=\"color:#158bdb\">3</span>枚<span style=\"color:#ff6724\">礼弹</span>，使自身攻击力提高<span style=\"color:#158bdb\">30%</span>并进入<span style=\"color:#ff6724\">警戒治疗</span>状态，对进入警戒范围且生命值低于<span style=\"color:#158bdb\">100%</span>的友军进行警戒治疗，恢复攻击力<span style=\"color:#158bdb\">3</span>的生命值，效果持续<span style=\"color:#158bdb\">2</span>回合。进入战斗后，<span style=\"color:#ff6724\">礼弹</span>上限增加<span style=\"color:#158bdb\">3</span>枚。"
     },
     {
       "name": "增香",
@@ -77,7 +79,8 @@
           "des": "攻击力提高<span style=\"color:#158bdb\">20%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">2</span>层。"
         }
       ],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "上色",
@@ -88,7 +91,8 @@
       "level": 1,
       "icon": "skillicon_S001604",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "提味",
@@ -99,7 +103,8 @@
       "level": 1,
       "icon": "skillicon_S001605",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "寻鲜",
@@ -116,7 +121,8 @@
           "des": "填充<span style=\"color:#ff6724\">礼弹</span>则进入警戒状态，每次警戒攻击或治疗将消耗<span style=\"color:#ff6724\">礼弹</span>，<span style=\"color:#ff6724\">礼弹</span>清零后自动结束警戒状态。"
         }
       ],
-      "type": 1
+      "type": 1,
+      "special": null
     }
   ],
   "skin": [

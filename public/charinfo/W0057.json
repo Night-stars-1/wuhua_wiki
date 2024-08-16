@@ -44,7 +44,8 @@
       "level": 1,
       "icon": "skillicon_Commonattack_W",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "汝窑奇珍",
@@ -56,7 +57,8 @@
       "level": 1,
       "icon": "skillicon_W005702",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "流光重现",
@@ -67,7 +69,8 @@
       "level": 1,
       "icon": "skillicon_W005703",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "静藏",
@@ -83,7 +86,8 @@
           "des": "当护盾吸收伤害时，回复天蓝瓶最大生命值<span style=\"color:#158bdb\">3|100</span>的生命，持续<span style=\"color:#158bdb\">2</span>回合。"
         }
       ],
-      "type": 2
+      "type": 2,
+      "special": "释放绝技时，使目标获得<span style=\"color:#ff6724\">器韵</span>，持续<span style=\"color:#158bdb\">3|100</span>回合。"
     },
     {
       "name": "莹润玉色",
@@ -94,7 +98,8 @@
       "level": 1,
       "icon": "skillicon_W005705",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": "进入战斗后，自身最大生命值提升<span style=\"color:#158bdb\">5%</span>。战斗中，距离<span style=\"color:#158bdb\">自身2格</span>范围内拥有<span style=\"color:#ff6724\">器韵</span>且还持有构素护盾的友方单位受到攻击时，天蓝瓶会回复<span style=\"color:#158bdb\">1</span>点能量并获得<span style=\"color:#ff6724\">愈疗</span>效果。"
     },
     {
       "name": "折枝莲",
@@ -106,7 +111,8 @@
       "level": 1,
       "icon": "skillicon_Jobskill_W_H",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     }
   ],
   "skin": [

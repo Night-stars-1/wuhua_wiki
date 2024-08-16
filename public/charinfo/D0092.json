@@ -44,7 +44,8 @@
       "level": 1,
       "icon": "skillicon_Commonattack_D",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "八音克谐",
@@ -56,7 +57,8 @@
       "level": 1,
       "icon": "skillicon_D009202",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "旋宫",
@@ -67,7 +69,8 @@
       "level": 1,
       "icon": "skillicon_D009203",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": "在常击、直接受击、援护受击后，分别获得<span style=\"color:#158bdb\">3</span>种不同的<span style=\"color:#ff6724\">旋律</span>，分别使自身提升<span style=\"color:#158bdb\">10%</span>攻击力、获得<span style=\"color:#158bdb\">6%</span>伤害减免、提升<span style=\"color:#158bdb\">10%</span>构素防御。\n获得任意<span style=\"color:#ff6724\">旋律</span>状态时，有<span style=\"color:#158bdb\">50%</span>概率额外获得其他<span style=\"color:#158bdb\">1</span>种<span style=\"color:#ff6724\">旋律</span>状态（此效果每次获得<span style=\"color:#ff6724\">旋律</span>时只触发<span style=\"color:#158bdb\">1</span>次）；\n当自身处于任意<span style=\"color:#158bdb\">2</span>种<span style=\"color:#ff6724\">旋律</span>状态时，所有<span style=\"color:#ff6724\">旋律</span>效果提高<span style=\"color:#158bdb\">50%</span>；\n当自身处于全部<span style=\"color:#158bdb\">3</span>种<span style=\"color:#ff6724\">旋律</span>状态时，所有<span style=\"color:#ff6724\">旋律</span>效果提高<span style=\"color:#158bdb\">100%</span>。"
     },
     {
       "name": "希声",
@@ -91,7 +94,8 @@
           "des": "免疫<span style=\"color:#158bdb\">1</span>次构素伤害，并对攻击者造成编钟最大生命值<span style=\"color:#158bdb\">10%</span>构素伤害，持续<span style=\"color:#158bdb\">2</span>回合。"
         }
       ],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "雅音",
@@ -107,7 +111,8 @@
           "des": "曾侯乙编钟在常击、直接受击、援护受击后获得的状态，包括<span style=\"color:#ff6724\">清乐</span>、<span style=\"color:#ff6724\">燕乐</span>与<span style=\"color:#ff6724\">雅乐</span>。"
         }
       ],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "转调",
@@ -124,7 +129,8 @@
           "des": "当友方单位受到伤害时，代替其承受伤害。\n<span style=\"color:#db2424\">只可对除绝技、警戒攻击和回击外造成单体伤害的攻击生效。</span>"
         }
       ],
-      "type": 1
+      "type": 1,
+      "special": null
     }
   ],
   "skin": [

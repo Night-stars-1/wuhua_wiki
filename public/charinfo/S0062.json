@@ -44,7 +44,8 @@
       "level": 1,
       "icon": "skillicon_Commonattack_S",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "新芽唤春",
@@ -56,7 +57,8 @@
       "level": 1,
       "icon": "skillicon_S006202",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "融寒寻芳",
@@ -67,7 +69,8 @@
       "level": 1,
       "icon": "skillicon_S006203",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": "使用警戒治疗后，自身治疗量提高<span style=\"color:#158bdb\">5%</span>，最多可叠加<span style=\"color:#158bdb\">3</span>层，持续至自身本次行动结束；使用职业技能时，额外填充<span style=\"color:#158bdb\">3</span>枚<span style=\"color:#ff6724\">礼弹</span>。"
     },
     {
       "name": "青草蔓蔓",
@@ -83,7 +86,8 @@
           "des": "驱散自身<span style=\"color:#158bdb\">1</span>个负面状态，驱散后消耗此状态。消耗此状态时，使自身回复诗文执壶攻击力<span style=\"color:#158bdb\">3|100</span>的生命值。"
         }
       ],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "花间酒韵",
@@ -99,7 +103,8 @@
           "des": "构素防御提高<span style=\"color:#158bdb\">30%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">2</span>层。"
         }
       ],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "卉木萋萋",
@@ -116,7 +121,8 @@
           "des": "填充<span style=\"color:#ff6724\">礼弹</span>则进入警戒状态，每次警戒攻击或治疗将消耗<span style=\"color:#ff6724\">礼弹</span>，<span style=\"color:#ff6724\">礼弹</span>清零后自动结束警戒状态。"
         }
       ],
-      "type": 1
+      "type": 1,
+      "special": null
     }
   ],
   "skin": [

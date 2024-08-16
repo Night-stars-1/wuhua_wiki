@@ -44,7 +44,8 @@
       "level": 1,
       "icon": "skillicon_Commonattack_V",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "热血仁侠",
@@ -56,7 +57,8 @@
       "level": 1,
       "icon": "skillicon_V002002",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "宝气珠光",
@@ -67,7 +69,8 @@
       "level": 1,
       "icon": "skillicon_V002003",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "国公威仪",
@@ -78,7 +81,8 @@
       "level": 1,
       "icon": "skillicon_V002004",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": "若自身<span style=\"color:#158bdb\">周围2格</span>的敌方单位数量不少于<span style=\"color:#158bdb\">2</span>，自身造成的伤害提高<span style=\"color:#158bdb\">15%</span>。"
     },
     {
       "name": "如意宝冠",
@@ -89,7 +93,8 @@
       "level": 1,
       "icon": "skillicon_V002005",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "洒脱",
@@ -101,7 +106,8 @@
       "level": 1,
       "icon": "skillicon_Jobskill_V",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     }
   ],
   "skin": [

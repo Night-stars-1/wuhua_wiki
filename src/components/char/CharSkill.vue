@@ -2,7 +2,7 @@
  * @Author: Night-stars-1 nujj1042633805@gmail.com
  * @Date: 2024-07-20 23:29:32
  * @LastEditors: Night-stars-1 nujj1042633805@gmail.com
- * @LastEditTime: 2024-07-27 14:24:00
+ * @LastEditTime: 2024-08-13 22:06:44
 -->
 <template>
   <el-card>
@@ -44,6 +44,11 @@
         <div class="skill-text">
           <span v-html="data.des" />
         </div>
+        <Panel class="special-card" v-if="data.special">
+          <div class="skill-text">
+            <span v-html="data.special" />
+          </div>
+        </Panel>
       </Panel>
     </el-space>
   </el-card>
@@ -59,7 +64,7 @@ const buffs = computed(() =>
     .filter((item) => item.buff && item.buff.length > 0)
     .flatMap((item) => item.buff)
     .reduce((acc: Buff[], current) => {
-      if (!acc.some(buff => buff.name === current.name)) {
+      if (!acc.some((buff) => buff.name === current.name)) {
         acc.push(current);
       }
       return acc;
@@ -92,5 +97,10 @@ const buffs = computed(() =>
 .skill-root,
 .skill-panel {
   width: 100%;
+}
+
+.special-card {
+  margin: 10px;
+  padding-top: 5px;
 }
 </style>

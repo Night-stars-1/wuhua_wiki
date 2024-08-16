@@ -44,7 +44,8 @@
       "level": 1,
       "icon": "skillicon_Commonattack_S",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "五星分天",
@@ -56,7 +57,8 @@
       "level": 1,
       "icon": "skillicon_S008302",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "云汉无极",
@@ -67,7 +69,8 @@
       "level": 1,
       "icon": "skillicon_S008303",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": "警戒攻击造成的伤害增加<span style=\"color:#158bdb\">30%</span>。每次警戒攻击额外消耗<span style=\"color:#158bdb\">1</span>枚<span style=\"color:#ff6724\">礼弹</span>，此次攻击造成暴击时，有<span style=\"color:#158bdb\">100%</span>的概率将额外消耗的<span style=\"color:#ff6724\">礼弹</span>重新装填。\n进入战斗后，<span style=\"color:#ff6724\">礼弹</span>可填充上限增加<span style=\"color:#158bdb\">3</span>枚，使用职业技能时额外填充<span style=\"color:#158bdb\">3</span>枚<span style=\"color:#ff6724\">礼弹</span>。"
     },
     {
       "name": "五星连珠",
@@ -78,7 +81,8 @@
       "level": 1,
       "icon": "skillicon_S008304",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": "使用职业技能后，自身立刻获得暴击率增加<span style=\"color:#158bdb\">60%</span>；接下来的<span style=\"color:#158bdb\">1</span>回合起，每回合行动后获得<span style=\"color:#158bdb\">1</span>层暴击率降低<span style=\"color:#158bdb\">-20%</span>效果，直至相互抵消。再次使用职业技能时，重置上述所有效果。"
     },
     {
       "name": "锦绣之力",
@@ -89,7 +93,8 @@
       "level": 1,
       "icon": "skillicon_S008305",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "星兆",
@@ -106,7 +111,8 @@
           "des": "填充<span style=\"color:#ff6724\">礼弹</span>则进入警戒状态，每次警戒攻击或治疗将消耗<span style=\"color:#ff6724\">礼弹</span>，<span style=\"color:#ff6724\">礼弹</span>清零后自动结束警戒状态。"
         }
       ],
-      "type": 1
+      "type": 1,
+      "special": null
     }
   ],
   "skin": [

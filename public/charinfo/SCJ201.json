@@ -16,7 +16,8 @@
       "level": 1,
       "icon": "skillicon_SCJ20101",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "锁定",
@@ -28,7 +29,8 @@
       "level": 1,
       "icon": "skillicon_SCJ20102",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": null,
@@ -40,7 +42,8 @@
       "level": 1,
       "icon": "skillicon_SCJ20113",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": null,
@@ -52,7 +55,8 @@
       "level": 1,
       "icon": "skillicon_SCJ20112",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "收藏家被杀检测",
@@ -63,7 +67,8 @@
       "level": 1,
       "icon": "skillicon_SCJ20103",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "搜索",
@@ -75,7 +80,8 @@
       "level": 1,
       "icon": "skillicon_SCJ20111",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     }
   ],
   "skin": []

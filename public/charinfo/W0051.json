@@ -44,7 +44,8 @@
       "level": 1,
       "icon": "skillicon_Commonattack_W",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "春桃始盛",
@@ -56,7 +57,8 @@
       "level": 1,
       "icon": "skillicon_W005102",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "粉彩桃纹",
@@ -72,7 +74,8 @@
           "des": "构素伤害提高<span style=\"color:#158bdb\">4%</span>，可叠加<span style=\"color:#158bdb\">5</span>层，持续<span style=\"color:#158bdb\">2</span>回合。"
         }
       ],
-      "type": 2
+      "type": 2,
+      "special": "在进入战斗时和每消耗<span style=\"color:#158bdb\">1</span>点能量时，自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">桃意绵绵</span>。"
     },
     {
       "name": "福寿双全",
@@ -83,7 +86,8 @@
       "level": 1,
       "icon": "skillicon_W005104",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "蝠桃之意",
@@ -94,7 +98,8 @@
       "level": 1,
       "icon": "skillicon_W005105",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "望乡",
@@ -106,7 +111,8 @@
       "level": 1,
       "icon": "skillicon_Jobskill_W_D",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     }
   ],
   "skin": [

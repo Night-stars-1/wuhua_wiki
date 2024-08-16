@@ -44,7 +44,8 @@
       "level": 1,
       "icon": "skillicon_Commonattack_D",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "骑士传说",
@@ -61,7 +62,8 @@
           "des": "提升最大生命值，最大叠加<span style=\"color:#158bdb\">4</span>层。"
         }
       ],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "四牛为守",
@@ -77,7 +79,8 @@
           "des": "提升最大生命值，最大叠加<span style=\"color:#158bdb\">4</span>层。"
         }
       ],
-      "type": 2
+      "type": 2,
+      "special": "受到直接伤害会获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">犇牛</span>效果，首次行动时直接获得<span style=\"color:#158bdb\">1</span>层，每层<span style=\"color:#ff6724\">犇牛</span>效果增加<span style=\"color:#158bdb\">5%</span>最大生命值，持续时间无限。"
     },
     {
       "name": "鎏金铸甲",
@@ -88,7 +91,8 @@
       "level": 1,
       "icon": "skillicon_D009504",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "守护之誓",
@@ -104,7 +108,8 @@
           "des": "此伤害不触发暴击和贯穿效果，且无法被格挡。"
         }
       ],
-      "type": 2
+      "type": 2,
+      "special": "受到治疗时，将累计受到的治疗量，下一次回击时，将附加累计受到治疗量<span style=\"color:#158bdb\">40%</span>的<span style=\"color:#ff6724\">额外物理伤害</span>。"
     },
     {
       "name": "贮藏",
@@ -121,7 +126,8 @@
           "des": "物理防御降低<span style=\"color:#158bdb\">30%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">1</span>层。"
         }
       ],
-      "type": 1
+      "type": 1,
+      "special": null
     }
   ],
   "skin": [

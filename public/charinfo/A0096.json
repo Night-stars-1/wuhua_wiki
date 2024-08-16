@@ -44,7 +44,8 @@
       "level": 1,
       "icon": "skillicon_Commonattack_A",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "深海迷航",
@@ -56,7 +57,8 @@
       "level": 1,
       "icon": "skillicon_A009602",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "远洋之心",
@@ -76,7 +78,8 @@
           "des": "此伤害不触发暴击和贯穿效果，且无法被格挡，但会被构素护盾抵挡。"
         }
       ],
-      "type": 2
+      "type": 2,
+      "special": "常击或连击对敌方目标造成伤害时，自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">环扣</span>状态。当攻击造成击退时，若<span style=\"color:#ff6724\">环扣</span>状态累计到<span style=\"color:#158bdb\">3</span>层，则消耗<span style=\"color:#158bdb\">2</span>层状态使该次攻击造成额外伤害，每击退其<span style=\"color:#158bdb\">1</span>格，对其造成自身攻击<span style=\"color:#158bdb\">45%</span>的<span style=\"color:#ff6724\">额外构素伤害</span>。"
     },
     {
       "name": "寻踪",
@@ -87,7 +90,8 @@
       "level": 1,
       "icon": "skillicon_A009604",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "织金成饰",
@@ -103,7 +107,8 @@
           "des": "此伤害不触发暴击和贯穿效果，且无法被格挡，但会被构素护盾抵挡。"
         }
       ],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "定向航标",
@@ -120,7 +125,8 @@
           "des": "此状态下进行攻击时，最大攻击距离增加<span style=\"color:#158bdb\">4</span>格，该次再行动结束后，此状态消失。"
         }
       ],
-      "type": 1
+      "type": 1,
+      "special": null
     }
   ],
   "skin": [

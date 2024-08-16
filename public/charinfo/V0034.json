@@ -44,7 +44,8 @@
       "level": 1,
       "icon": "skillicon_Commonattack_V",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "寒光霜刃",
@@ -56,7 +57,8 @@
       "level": 1,
       "icon": "skillicon_V003402",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "慕强",
@@ -76,7 +78,8 @@
           "des": "触发流失伤害时，有<span style=\"color:#ff6724\">40%</span>概率受到一次攻击力<span style=\"color:#158bdb\">50%</span>的<span style=\"color:#ff6724\">额外物理伤害</span>。"
         }
       ],
-      "type": 2
+      "type": 2,
+      "special": "使用职业技能后，下次攻击使受击目标获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">流失</span>状态和<span style=\"color:#ff6724\">割裂</span>状态，效果持续<span style=\"color:#158bdb\">2</span>回合。"
     },
     {
       "name": "孤锋",
@@ -87,7 +90,8 @@
       "level": 1,
       "icon": "skillicon_V003404",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "剑影",
@@ -98,7 +102,8 @@
       "level": 1,
       "icon": "skillicon_V003405",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": "攻击前，若受击目标处于<span style=\"color:#158bdb\">-2</span>层以上<span style=\"color:#ff6724\">流失</span>状态，则自身行动结束后获得额外移动<span style=\"color:#158bdb\">1</span>次，该次额外移动的移动力减少<span style=\"color:#158bdb\">-2</span>。"
     },
     {
       "name": "幼兽",
@@ -110,7 +115,8 @@
       "level": 1,
       "icon": "skillicon_Jobskill_V",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     }
   ],
   "skin": [

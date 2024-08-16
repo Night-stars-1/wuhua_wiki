@@ -44,7 +44,8 @@
       "level": 1,
       "icon": "skillicon_Commonattack_V",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "游龙入渊",
@@ -61,7 +62,8 @@
           "des": "免疫<span style=\"color:#ff6724\">滞缓</span>效果，持续<span style=\"color:#158bdb\">3</span>回合。"
         }
       ],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "中山遗尘",
@@ -77,7 +79,8 @@
           "des": "此伤害不触发暴击和贯穿效果，且无法被格挡。"
         }
       ],
-      "type": 2
+      "type": 2,
+      "special": "常击前，消耗自身当前生命值的<span style=\"color:#158bdb\">30%</span>；\n常击，连击，回击，绝技攻击造成伤害时，附加自身已损失生命值<span style=\"color:#158bdb\">50%</span>的<span style=\"color:#ff6724\">额外物理伤害</span>。"
     },
     {
       "name": "四鹿承龙",
@@ -97,7 +100,8 @@
           "des": "受到范围内的常击后触发回击，对目标造成伤害。"
         }
       ],
-      "type": 2
+      "type": 2,
+      "special": "最大生命值增加<span style=\"color:#158bdb\">50%</span>；当受到的伤害累计超过自身最大生命值<span style=\"color:#158bdb\">30%</span>时，常击后触发连击，连击对目标造成自身攻击力<span style=\"color:#158bdb\">40%</span>的物理伤害；超过<span style=\"color:#158bdb\">60%</span>时，受到<span style=\"color:#158bdb\">周围1格</span>敌方单位的常击后进行回击，对其造成自身攻击力<span style=\"color:#158bdb\">40%</span>的物理伤害；超过<span style=\"color:#158bdb\">100%</span>时，获得<span style=\"color:#ff6724\">鹿灵</span>状态。"
     },
     {
       "name": "历劫重生",
@@ -113,7 +117,8 @@
           "des": "不会被击败，持续<span style=\"color:#158bdb\">1</span>回合。"
         }
       ],
-      "type": 2
+      "type": 2,
+      "special": "受到致命伤害时，自身获得<span style=\"color:#ff6724\">龙凤献瑞</span>状态，效果持续<span style=\"color:#158bdb\">2</span>回合。该状态结束时，使自身回复最大生命值的<span style=\"color:#158bdb\">40%</span>。此效果每场战斗最多触发<span style=\"color:#158bdb\">1</span>次。"
     },
     {
       "name": "飞凤",
@@ -125,7 +130,8 @@
       "level": 1,
       "icon": "skillicon_Jobskill_V",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     }
   ],
   "skin": [

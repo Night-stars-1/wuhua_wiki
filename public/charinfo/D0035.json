@@ -44,7 +44,8 @@
       "level": 1,
       "icon": "skillicon_Commonattack_D",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "铭文册鼎",
@@ -61,7 +62,8 @@
           "des": "攻击力减低<span style=\"color:#158bdb\">20%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">1</span>层。"
         }
       ],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "护佑国祚",
@@ -77,7 +79,8 @@
           "des": "当友方单位受到伤害时，代替其承受伤害。\n<span style=\"color:#db2424\">只可对除绝技、警戒攻击和回击外造成单体伤害的攻击生效。</span>"
         }
       ],
-      "type": 2
+      "type": 2,
+      "special": "进入战斗后，自身构素防御提高<span style=\"color:#158bdb\">10%</span>。触发<span style=\"color:#ff6724\">援护</span>时，有<span style=\"color:#158bdb\">35%</span>概率吸取攻击者<span style=\"color:#158bdb\">1</span>点能量。"
     },
     {
       "name": "康王之赐",
@@ -93,7 +96,8 @@
           "des": "每回合恢复最大生命值<span style=\"color:#158bdb\">4%</span>的生命。"
         }
       ],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "敬法辅佐",
@@ -104,7 +108,8 @@
       "level": 1,
       "icon": "skillicon_D003505",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "禁酒",
@@ -121,7 +126,8 @@
           "des": "当友方单位受到伤害时，代替其承受伤害。\n<span style=\"color:#db2424\">只可对除绝技、警戒攻击和回击外造成单体伤害的攻击生效。</span>"
         }
       ],
-      "type": 1
+      "type": 1,
+      "special": null
     }
   ],
   "skin": [

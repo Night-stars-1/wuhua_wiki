@@ -44,7 +44,8 @@
       "level": 1,
       "icon": "skillicon_Commonattack_A",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "心动狩猎",
@@ -56,7 +57,8 @@
       "level": 1,
       "icon": "skillicon_A002402",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "炙热赞歌",
@@ -72,7 +74,8 @@
           "des": "攻击力减低<span style=\"color:#158bdb\">20%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">1</span>层。"
         }
       ],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "天使亲吻",
@@ -83,7 +86,8 @@
       "level": 1,
       "icon": "skillicon_A002404",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": "处于<span style=\"color:#ff6724\">眩晕</span>状态的敌方目标死亡时，则自身获得<span style=\"color:#158bdb\">15%</span>伤害提升，持续<span style=\"color:#158bdb\">15</span>回合。"
     },
     {
       "name": "贵族礼仪",
@@ -94,7 +98,8 @@
       "level": 1,
       "icon": "skillicon_A002405",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "燧石引火",
@@ -111,7 +116,8 @@
           "des": "此状态下进行攻击时，最大攻击距离增加<span style=\"color:#158bdb\">4</span>格，该次再行动结束后，此状态消失。"
         }
       ],
-      "type": 1
+      "type": 1,
+      "special": null
     }
   ],
   "skin": [

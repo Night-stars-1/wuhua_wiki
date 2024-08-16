@@ -44,7 +44,8 @@
       "level": 1,
       "icon": "skillicon_Commonattack_W",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "朱书绘彩",
@@ -56,7 +57,8 @@
       "level": 1,
       "icon": "skillicon_W000402",
       "buff": [],
-      "type": 1
+      "type": 1,
+      "special": null
     },
     {
       "name": "祈穰",
@@ -76,7 +78,8 @@
           "des": "攻击力减低<span style=\"color:#158bdb\">20%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">1</span>层。"
         }
       ],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "丰稔",
@@ -87,7 +90,8 @@
       "level": 1,
       "icon": "skillicon_W000404",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": "若攻击的敌方目标处于任意负面状态，则自身对其造成的伤害提高<span style=\"color:#158bdb\">15%</span>。"
     },
     {
       "name": "龙图",
@@ -98,7 +102,8 @@
       "level": 1,
       "icon": "skillicon_W000405",
       "buff": [],
-      "type": 2
+      "type": 2,
+      "special": null
     },
     {
       "name": "嘉禾",
@@ -115,7 +120,8 @@
           "des": "攻击力提高<span style=\"color:#158bdb\">20%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">2</span>层。"
         }
       ],
-      "type": 1
+      "type": 1,
+      "special": null
     }
   ],
   "skin": [
