@@ -2,7 +2,6 @@
   <el-card :style="cardStyle" body-style="padding:0">
     <el-tabs
       v-model="loginType"
-      class="drawcard-tabs"
       type="border-card"
       v-loading="tabLoading"
       @tab-change="tabChange"

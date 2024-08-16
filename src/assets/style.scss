@@ -7,7 +7,11 @@
 }
 
 .panel {
-  .el-tabs.drawcard-tabs {
+  .el-tabs {
+    .el-tabs--border-card {
+      background-color: unset;
+    }
+
     .el-tabs__header {
       .el-tabs__item.is-active {
         background-color: rgb(231 201 201);
@@ -15,9 +19,32 @@
 
       background-color: unset;
     }
+    background-color: unset;
   }
 
-  .drawcard-tabs {
+  .el-table {
+    th.el-table__cell {
+      background-color: unset;
+    }
+
+    tr {
+      background-color: unset;
+    }
+
     background-color: unset;
+  }
+
+  .el-select {
+    .el-select__wrapper {
+      background-color: rgb(236, 223, 223);
+    }
+  }
+  
+  .el-switch {
+    .el-switch__core {
+      .el-switch__action {
+        background-color: rgb(234, 185, 185);
+      }
+    }
   }
 }

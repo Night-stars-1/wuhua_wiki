@@ -1,5 +1,11 @@
+<!--
+ * @Author: Night-stars-1 nujj1042633805@gmail.com
+ * @Date: 2024-08-16 21:59:03
+ * @LastEditors: Night-stars-1 nujj1042633805@gmail.com
+ * @LastEditTime: 2024-08-16 23:04:27
+-->
 <template>
-  <el-card class="table-card" body-style="padding:0;">
+  <el-card body-style="padding:0;">
     <el-tabs type="border-card" v-loading="loading">
       <el-tab-pane
         v-for="(card, index) in charProgress"
