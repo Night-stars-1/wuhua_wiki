@@ -6,6 +6,9 @@ on:
   # 手动触发部署
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   docs:
     runs-on: ubuntu-latest
@@ -45,12 +48,6 @@ jobs:
         run: pnpm run build
 
       - name: Deploy to GitHub Pages
-        uses: crazy-max/ghaction-github-pages@v4.0.0
+        uses: JamesIves/github-pages-deploy-action@v4.6.3
         with:
-          # 部署到 gh-pages 分支
-          target_branch: gh-pages
-          # 部署目录为Vite项目的默认输出目录
-          build_dir: ./dist
-          fqdn: "wh.srap.link"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GAYHUB_TOKEN }}
+          folder: dist
