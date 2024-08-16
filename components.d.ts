@@ -7,9 +7,6 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
-    Card: typeof import('./src/components/charinfo/card.vue')['default']
-    CardDrawStatistic: typeof import('./src/components/drawcard/CardDrawStatistic.vue')['default']
-    CardDrawStatistics: typeof import('./src/components/drawcard/CardDrawStatistics.vue')['default']
     CharInfo: typeof import('./src/components/char/CharInfo.vue')['default']
     CharInfoCard: typeof import('./src/components/charinfo/CharInfoCard.vue')['default']
     CharInfoSkill: typeof import('./src/components/charinfo/CharInfoSkill.vue')['default']
@@ -24,7 +21,6 @@ declare module 'vue' {
     DrawCardTable: typeof import('./src/components/drawcard/DrawCardTable.vue')['default']
     ElAlert: typeof import('element-plus/es')['ElAlert']
     ElButton: typeof import('element-plus/es')['ElButton']
-    ElC: typeof import('element-plus/es')['ElC']
     ElCard: typeof import('element-plus/es')['ElCard']
     ElCol: typeof import('element-plus/es')['ElCol']
     ElDialog: typeof import('element-plus/es')['ElDialog']
@@ -34,7 +30,6 @@ declare module 'vue' {
     ElInput: typeof import('element-plus/es')['ElInput']
     ElPagination: typeof import('element-plus/es')['ElPagination']
     ElProgress: typeof import('element-plus/es')['ElProgress']
-    ElR: typeof import('element-plus/es')['ElR']
     ElRow: typeof import('element-plus/es')['ElRow']
     ElScrollbar: typeof import('element-plus/es')['ElScrollbar']
     ElSlider: typeof import('element-plus/es')['ElSlider']
@@ -54,7 +49,6 @@ declare module 'vue' {
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     StyleProgress: typeof import('./src/components/charinfo/StyleProgress.vue')['default']
-    SZProgress: typeof import('./src/components/charinfo/SZProgress.vue')['default']
   }
   export interface ComponentCustomProperties {
     vLoading: typeof import('element-plus/es')['ElLoadingDirective']
