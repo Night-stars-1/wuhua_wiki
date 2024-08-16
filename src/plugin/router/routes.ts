@@ -5,9 +5,9 @@
  * @LastEditTime: 2024-08-11 17:46:48
  */
 export const routes = [
-  { path: '/', component: () => import('@/pages/char.vue') },
-  { path: '/char', component: () => import('@/pages/char.vue') },
-  { path: '/char/:id', component: () => import('@/pages/char.vue') },
-  { path: '/drawcard', component: () => import('@/pages/drawcard.vue') },
-  { path: '/charinfo', component: () => import('@/pages/charinfo.vue') },
+  { path: '/', component: () => import('@/pages/Char.vue') },
+  { path: '/char', component: () => import('@/pages/Char.vue') },
+  { path: '/char/:id', component: () => import('@/pages/Char.vue') },
+  { path: '/drawcard', component: () => import('@/pages/DrawCard.vue') },
+  { path: '/charinfo', component: () => import('@/pages/CharInfo.vue') },
 ]

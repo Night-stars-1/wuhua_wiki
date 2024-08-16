@@ -2,7 +2,7 @@
  * @Author: Night-stars-1 nujj1042633805@gmail.com
  * @Date: 2024-07-15 20:29:22
  * @LastEditors: Night-stars-1 nujj1042633805@gmail.com
- * @LastEditTime: 2024-07-22 16:27:21
+ * @LastEditTime: 2024-08-16 21:16:48
 -->
 <template>
   <router-link to="/char">
