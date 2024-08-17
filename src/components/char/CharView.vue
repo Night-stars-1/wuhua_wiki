@@ -2,13 +2,13 @@
  * @Author: Night-stars-1 nujj1042633805@gmail.com
  * @Date: 2024-07-21 18:18:56
  * @LastEditors: Night-stars-1 nujj1042633805@gmail.com
- * @LastEditTime: 2024-08-16 21:08:57
+ * @LastEditTime: 2024-08-17 16:47:42
 -->
 <template>
     <el-image
       class="char-image"
       fit="cover"
-      :src="`/char/${id}/skin/${data?.id}.png`"
+      :src="`/char/${id}/skin/${skinId}.png`"
     />
     <div class="char-view-place" />
 </template>
@@ -16,7 +16,7 @@
 <script lang="ts" setup>
 defineProps<{
   id: string;
-  data: SkinInfo;
+  skinId: string;
 }>();
 </script>
 
@@ -25,6 +25,10 @@ defineProps<{
   top: 50px;
   position: fixed;
   height: 90%;
+}
+
+.char-view-place {
+  height: calc(90vh + 10px);
 }
 
 @media (max-width: 992px) {
