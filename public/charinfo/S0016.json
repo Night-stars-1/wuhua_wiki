@@ -49,7 +49,7 @@
     },
     {
       "name": "食味流香",
-      "des": "使自身攻击力提高<span style=\"color:#158bdb\">30%</span>并进入<span style=\"color:#ff6724\">警戒治疗</span>状态，对进入警戒范围且生命值低于<span style=\"color:#158bdb\">100%</span>的友军进行警戒治疗，恢复攻击力<span style=\"color:#158bdb\">3</span>的生命值，效果持续<span style=\"color:#158bdb\">2</span>回合。",
+      "des": "使自身攻击力提高<span style=\"color:#158bdb\">30%</span>并进入<span style=\"color:#ff6724\">警戒治疗</span>状态，对进入警戒范围且生命值低于<span style=\"color:#158bdb\">100%</span>的友军进行警戒治疗，恢复攻击力<span style=\"color:#158bdb\">20%+300</span>的生命值，效果持续<span style=\"color:#158bdb\">2</span>回合。",
       "tag": [
         "自身",
         "消耗:3"
@@ -63,7 +63,7 @@
         }
       ],
       "type": 1,
-      "special": "使用后为自身填充<span style=\"color:#158bdb\">3</span>枚<span style=\"color:#ff6724\">礼弹</span>，使自身攻击力提高<span style=\"color:#158bdb\">30%</span>并进入<span style=\"color:#ff6724\">警戒治疗</span>状态，对进入警戒范围且生命值低于<span style=\"color:#158bdb\">100%</span>的友军进行警戒治疗，恢复攻击力<span style=\"color:#158bdb\">3</span>的生命值，效果持续<span style=\"color:#158bdb\">2</span>回合。进入战斗后，<span style=\"color:#ff6724\">礼弹</span>上限增加<span style=\"color:#158bdb\">3</span>枚。"
+      "special": "使用后为自身填充<span style=\"color:#158bdb\">3</span>枚<span style=\"color:#ff6724\">礼弹</span>，使自身攻击力提高<span style=\"color:#158bdb\">30%</span>并进入<span style=\"color:#ff6724\">警戒治疗</span>状态，对进入警戒范围且生命值低于<span style=\"color:#158bdb\">100%</span>的友军进行警戒治疗，恢复攻击力<span style=\"color:#158bdb\">20%+300</span>的生命值，效果持续<span style=\"color:#158bdb\">2</span>回合。进入战斗后，<span style=\"color:#ff6724\">礼弹</span>上限增加<span style=\"color:#158bdb\">3</span>枚。"
     },
     {
       "name": "增香",
@@ -84,7 +84,7 @@
     },
     {
       "name": "上色",
-      "des": "进行<span style=\"color:#ff6724\">警戒攻击</span>时，有<span style=\"color:#158bdb\">1%</span>概率获得<span style=\"color:#158bdb\">1</span>点能量，每回合最多触发<span style=\"color:#158bdb\">1</span>次。",
+      "des": "进行<span style=\"color:#ff6724\">警戒攻击</span>时，有<span style=\"color:#158bdb\">40%</span>概率获得<span style=\"color:#158bdb\">1</span>点能量，每回合最多触发<span style=\"color:#158bdb\">1</span>次。",
       "tag": [
         "被动触发"
       ],
@@ -108,7 +108,7 @@
     },
     {
       "name": "寻鲜",
-      "des": "使用后为自身填充<span style=\"color:#158bdb\">3</span>枚<span style=\"color:#ff6724\">礼弹</span>并进入警戒状态：以自身<span style=\"color:#158bdb\">周围3格</span>为警戒范围，对停留在该范围中的敌方单位进行警戒攻击，对其造成自身攻击力<span style=\"color:#158bdb\">3%</span>的构素伤害。",
+      "des": "使用后为自身填充<span style=\"color:#158bdb\">3</span>枚<span style=\"color:#ff6724\">礼弹</span>并进入警戒状态：以自身<span style=\"color:#158bdb\">周围3格</span>为警戒范围，对停留在该范围中的敌方单位进行警戒攻击，对其造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
       "tag": [
         "自身",
         "无消耗"

@@ -113,7 +113,7 @@
         }
       ],
       "type": 2,
-      "special": "自身回合结束后，该回合内每移动<span style=\"color:#158bdb\">5</span>格，则获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#158bdb\">敏捷</span>状态。"
+      "special": "自身回合结束后，该回合内每移动<span style=\"color:#158bdb\">4</span>格，则获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#158bdb\">敏捷</span>状态。"
     },
     {
       "name": "蹄突泥泞",

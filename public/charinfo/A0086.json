@@ -97,7 +97,7 @@
         }
       ],
       "type": 2,
-      "special": "处于<span style=\"color:#ff6724\">瞄准</span>状态进行攻击后，攻击力<span style=\"color:#158bdb\">提升-1%</span>，暴击率<span style=\"color:#158bdb\">提升40%</span>，持续<span style=\"color:#158bdb\">40</span>回合。"
+      "special": "处于<span style=\"color:#ff6724\">瞄准</span>状态进行攻击后，攻击力<span style=\"color:#158bdb\">提升[Effect2Para,2]%</span>，暴击率<span style=\"color:#158bdb\">提升[Effect1Para,2]%</span>，持续<span style=\"color:#158bdb\">[Effect1Para,1]</span>回合。"
     },
     {
       "name": "玉叶折光",

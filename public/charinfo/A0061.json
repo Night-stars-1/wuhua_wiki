@@ -62,7 +62,7 @@
     },
     {
       "name": "鹤步鹿音",
-      "des": "攻击敌方单位后，使其获得<span style=\"color:#ff6724\">嘹唳亭风</span>状态，效果持续<span style=\"color:#158bdb\">30</span>回合。",
+      "des": "攻击敌方单位后，使其获得<span style=\"color:#ff6724\">嘹唳亭风</span>状态，效果持续<span style=\"color:#158bdb\">1</span>回合。",
       "tag": [
         "被动触发"
       ],
@@ -83,7 +83,7 @@
     },
     {
       "name": "鹿鸣四野",
-      "des": "处于<span style=\"color:#ff6724\">瞄准</span>状态进行攻击后，使自身<span style=\"color:#158bdb\">周围2格</span>内的友方单位获得<span style=\"color:#ff6724\">驾鹤引雷</span>状态，效果持续<span style=\"color:#158bdb\">30</span>回合。",
+      "des": "处于<span style=\"color:#ff6724\">瞄准</span>状态进行攻击后，使自身<span style=\"color:#158bdb\">周围2格</span>内的友方单位获得<span style=\"color:#ff6724\">驾鹤引雷</span>状态，效果持续<span style=\"color:#158bdb\">2</span>回合。",
       "tag": [
         "被动触发"
       ],
@@ -96,7 +96,7 @@
         }
       ],
       "type": 2,
-      "special": "处于<span style=\"color:#ff6724\">瞄准</span>状态进行攻击后，使自身<span style=\"color:#158bdb\">周围3格</span>内的友方单位获得<span style=\"color:#ff6724\">驾鹤引雷</span>状态，效果持续<span style=\"color:#158bdb\">30</span>回合。"
+      "special": "处于<span style=\"color:#ff6724\">瞄准</span>状态进行攻击后，使自身<span style=\"color:#158bdb\">周围3格</span>内的友方单位获得<span style=\"color:#ff6724\">驾鹤引雷</span>状态，效果持续<span style=\"color:#158bdb\">2</span>回合。"
     },
     {
       "name": "霜翎不染",

@@ -74,7 +74,7 @@
     },
     {
       "name": "希声",
-      "des": "使用绝技前，消耗所有的<span style=\"color:#ff6724\">旋律</span>，使自身获得不同的状态，状态可累加：\n消耗<span style=\"color:#158bdb\">1</span>种<span style=\"color:#ff6724\">旋律</span>时，本次绝技造成的伤害提高<span style=\"color:#158bdb\">5%</span>；\n消耗<span style=\"color:#158bdb\">2</span>种<span style=\"color:#ff6724\">旋律</span>时，使受击目标获得<span style=\"color:#ff6724\">正音</span>状态，持续<span style=\"color:#158bdb\">80</span>回合；\n消耗<span style=\"color:#158bdb\">3</span>种<span style=\"color:#ff6724\">旋律</span>时，自身获得<span style=\"color:#ff6724\">定宫</span>状态，持续<span style=\"color:#158bdb\">10</span>回合。",
+      "des": "使用绝技前，消耗所有的<span style=\"color:#ff6724\">旋律</span>，使自身获得不同的状态，状态可累加：\n消耗<span style=\"color:#158bdb\">1</span>种<span style=\"color:#ff6724\">旋律</span>时，本次绝技造成的伤害提高<span style=\"color:#158bdb\">5%</span>；\n消耗<span style=\"color:#158bdb\">2</span>种<span style=\"color:#ff6724\">旋律</span>时，使受击目标获得<span style=\"color:#ff6724\">正音</span>状态，持续<span style=\"color:#158bdb\">1</span>回合；\n消耗<span style=\"color:#158bdb\">3</span>种<span style=\"color:#ff6724\">旋律</span>时，自身获得<span style=\"color:#ff6724\">定宫</span>状态，持续<span style=\"color:#158bdb\">2</span>回合。",
       "tag": [
         "被动触发"
       ],
@@ -99,7 +99,7 @@
     },
     {
       "name": "雅音",
-      "des": "使用绝技后，每消耗<span style=\"color:#158bdb\">1</span>种<span style=\"color:#ff6724\">旋律</span>，就有<span style=\"color:#158bdb\">30%</span>概率回复<span style=\"color:#158bdb\">1</span>点能量；根据被消耗的<span style=\"color:#ff6724\">旋律</span>，为<span style=\"color:#158bdb\">周围2格</span>内友方单位提供对应的效果，当拥有<span style=\"color:#158bdb\">3</span>种<span style=\"color:#ff6724\">旋律</span>时，效果翻倍，对应效果如下（不计算旋律提供的属性）：\n<span style=\"color:#ff6724\">清乐</span>：增加攻击力。增加编钟基础攻击力<span style=\"color:#158bdb\">10%</span>的攻击力，持续<span style=\"color:#158bdb\">10</span>回合；\n<span style=\"color:#ff6724\">燕乐</span>：获得伤害减免。编钟每有<span style=\"color:#158bdb\">1000</span>生命值增加<span style=\"color:#158bdb\">1.2%</span>伤害减免，持续<span style=\"color:#158bdb\">1.2</span>回合；\n<span style=\"color:#ff6724\">雅乐</span>：获得编钟构素防御<span style=\"color:#158bdb\">60%</span>的构素护盾。",
+      "des": "使用绝技后，每消耗<span style=\"color:#158bdb\">1</span>种<span style=\"color:#ff6724\">旋律</span>，就有<span style=\"color:#158bdb\">30%</span>概率回复<span style=\"color:#158bdb\">1</span>点能量；根据被消耗的<span style=\"color:#ff6724\">旋律</span>，为<span style=\"color:#158bdb\">周围2格</span>内友方单位提供对应的效果，当拥有<span style=\"color:#158bdb\">3</span>种<span style=\"color:#ff6724\">旋律</span>时，效果翻倍，对应效果如下（不计算旋律提供的属性）：\n<span style=\"color:#ff6724\">清乐</span>：增加攻击力。增加编钟基础攻击力<span style=\"color:#158bdb\">10%</span>的攻击力，持续<span style=\"color:#158bdb\">2</span>回合；\n<span style=\"color:#ff6724\">燕乐</span>：获得伤害减免。编钟每有<span style=\"color:#158bdb\">1000</span>生命值增加<span style=\"color:#158bdb\">1.2%</span>伤害减免，持续<span style=\"color:#158bdb\">2</span>回合；\n<span style=\"color:#ff6724\">雅乐</span>：获得编钟构素防御<span style=\"color:#158bdb\">60%</span>的构素护盾。",
       "tag": [
         "被动触发"
       ],
@@ -116,7 +116,7 @@
     },
     {
       "name": "转调",
-      "des": "使用后可<span style=\"color:#ff6724\">援护</span>自身周围<span style=\"color:#158bdb\">2</span>格内的友方单位，效果持续<span style=\"color:#158bdb\">2</span>回合。",
+      "des": "使用后可<span style=\"color:#ff6724\">援护</span>自身周围<span style=\"color:#158bdb\">2</span>格内的友方单位，效果持续<span style=\"color:#158bdb\">1</span>回合。",
       "tag": [
         "自身",
         "无消耗"

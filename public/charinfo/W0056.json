@@ -71,7 +71,7 @@
     },
     {
       "name": "打磨",
-      "des": "释放职业技能和绝技后，为自身<span style=\"color:#158bdb\">周围2格</span>内生命值最低的友方单位恢复自身攻击力<span style=\"color:#158bdb\">10|150</span>的生命值；若该友方单位生命值低于<span style=\"color:#158bdb\">10|150%</span>，则额外进行一次治疗，为其恢复贾湖骨笛攻击力<span style=\"color:#158bdb\">10|150</span>的生命值。",
+      "des": "释放职业技能和绝技后，为自身<span style=\"color:#158bdb\">周围2格</span>内生命值最低的友方单位恢复自身攻击力<span style=\"color:#158bdb\">10%+150</span>的生命值；若该友方单位生命值低于<span style=\"color:#158bdb\">20%</span>，则额外进行一次治疗，为其恢复贾湖骨笛攻击力<span style=\"color:#158bdb\">10%+150</span>的生命值。",
       "tag": [
         "被动触发"
       ],
@@ -79,7 +79,7 @@
       "icon": "skillicon_W005603",
       "buff": [],
       "type": 2,
-      "special": "释放职业技能和绝技或进行常击后，为自身<span style=\"color:#158bdb\">周围2格</span>内生命值最低的友方单位恢复自身攻击力<span style=\"color:#158bdb\">10|150</span>的生命值；若该友方单位生命值低于<span style=\"color:#158bdb\">10|150%</span>，则额外进行一次治疗，为其恢复贾湖骨笛攻击力<span style=\"color:#158bdb\">10|150</span>的生命值。"
+      "special": "释放职业技能和绝技或进行常击后，为自身<span style=\"color:#158bdb\">周围2格</span>内生命值最低的友方单位恢复自身攻击力<span style=\"color:#158bdb\">10%+150</span>的生命值；若该友方单位生命值低于<span style=\"color:#158bdb\">20%</span>，则额外进行一次治疗，为其恢复贾湖骨笛攻击力<span style=\"color:#158bdb\">10%+150</span>的生命值。"
     },
     {
       "name": "神明祈福",
@@ -100,7 +100,7 @@
     },
     {
       "name": "鸿运当头",
-      "des": "带有<span style=\"color:#ff6724\">鹤骨悠声</span>的友方单位在受到攻击后，若其生命值低于<span style=\"color:#158bdb\">15|200%</span>，则会消耗<span style=\"color:#ff6724\">鹤骨悠声</span>，每层效果将恢复贾湖骨笛攻击力<span style=\"color:#158bdb\">15|200</span>的生命值。",
+      "des": "带有<span style=\"color:#ff6724\">鹤骨悠声</span>的友方单位在受到攻击后，若其生命值低于<span style=\"color:#158bdb\">50%</span>，则会消耗<span style=\"color:#ff6724\">鹤骨悠声</span>，每层效果将恢复贾湖骨笛攻击力<span style=\"color:#158bdb\">15%+200</span>的生命值。",
       "tag": [
         "被动触发"
       ],
@@ -112,7 +112,7 @@
     },
     {
       "name": "初韵",
-      "des": "为选定的友方单体回复自身攻击力<span style=\"color:#158bdb\">10|300</span>的生命值，并使其获得<span style=\"color:#ff6724\">鹤骨悠声</span>状态。",
+      "des": "为选定的友方单体回复自身攻击力<span style=\"color:#158bdb\">10%+300</span>的生命值，并使其获得<span style=\"color:#ff6724\">鹤骨悠声</span>状态。",
       "tag": [
         "射程2格",
         "消耗:1"

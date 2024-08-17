@@ -67,7 +67,7 @@
     },
     {
       "name": "游历",
-      "des": "攻击敌方单位时，若该单位当前生命值高于<span style=\"color:#158bdb\">70%</span>，自身获得<span style=\"color:#ff6724\">游历</span>状态，使此次攻击暴击率增加<span style=\"color:#158bdb\">70%</span>，攻击力提高<span style=\"color:#158bdb\">70%</span>。\n<span style=\"color:#ff6724\">触发此效果后，将跳过自身的下一轮次行动。</span>",
+      "des": "攻击敌方单位时，若该单位当前生命值高于<span style=\"color:#158bdb\">70%</span>，自身获得<span style=\"color:#ff6724\">游历</span>状态，使此次攻击暴击率增加<span style=\"color:#158bdb\">20%</span>，攻击力提高<span style=\"color:#158bdb\">40%</span>。\n<span style=\"color:#ff6724\">触发此效果后，将跳过自身的下一轮次行动。</span>",
       "tag": [
         "被动触发"
       ],

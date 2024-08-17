@@ -67,7 +67,7 @@
     },
     {
       "name": "引魂",
-      "des": "进入战斗后，每存在<span style=\"color:#158bdb\">1</span>个自身的召唤物，则自身攻击力提高<span style=\"color:#158bdb\">50%</span>，能量自动获取增加<span style=\"color:#158bdb\">0.5</span>。",
+      "des": "进入战斗后，每存在<span style=\"color:#158bdb\">1</span>个自身的召唤物，则自身攻击力提高<span style=\"color:#158bdb\">5%</span>，能量自动获取增加<span style=\"color:#158bdb\">0.5</span>。",
       "tag": [
         "被动触发"
       ],
@@ -108,7 +108,7 @@
     },
     {
       "name": "挽歌",
-      "des": "进入战斗后，获得<span style=\"color:#158bdb\">0</span>点能量；\n<span style=\"color:#db2424\">龟驮鸱鸮</span>的生命值提高<span style=\"color:#158bdb\">10%</span>，<span style=\"color:#db2424\">金乌</span>的攻击力提高<span style=\"color:#158bdb\">10%</span>。",
+      "des": "进入战斗后，获得<span style=\"color:#158bdb\">1</span>点能量；\n<span style=\"color:#db2424\">龟驮鸱鸮</span>的生命值提高<span style=\"color:#158bdb\">10%</span>，<span style=\"color:#db2424\">金乌</span>的攻击力提高<span style=\"color:#158bdb\">10%</span>。",
       "tag": [
         "被动触发"
       ],
@@ -116,7 +116,7 @@
       "icon": "skillicon_W009405",
       "buff": [],
       "type": 2,
-      "special": "进入战斗后，获得<span style=\"color:#158bdb\">1</span>点能量，且能量自动获取增加<span style=\"color:#158bdb\">1</span>；\n自身任意召唤物被击败后，额外获得<span style=\"color:#158bdb\">3</span>点能量；\n<span style=\"color:#db2424\">龟驮鸱鸮</span>的生命值提高<span style=\"color:#158bdb\">10%</span>，<span style=\"color:#db2424\">金乌</span>的攻击力提高<span style=\"color:#158bdb\">10%</span>。"
+      "special": "进入战斗后，获得<span style=\"color:#158bdb\">2</span>点能量，且能量自动获取增加<span style=\"color:#158bdb\">1</span>；\n自身任意召唤物被击败后，额外获得<span style=\"color:#158bdb\">3</span>点能量；\n<span style=\"color:#db2424\">龟驮鸱鸮</span>的生命值提高<span style=\"color:#158bdb\">10%</span>，<span style=\"color:#db2424\">金乌</span>的攻击力提高<span style=\"color:#158bdb\">10%</span>。"
     },
     {
       "name": "魂幡·灵龟",

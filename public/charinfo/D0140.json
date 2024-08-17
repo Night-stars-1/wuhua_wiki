@@ -83,7 +83,7 @@
     },
     {
       "name": "溪山飞瀑",
-      "des": "使用绝技时，若自身当前生命值高于<span style=\"color:#158bdb\">50%</span>，则消耗自身最大生命值的<span style=\"color:#158bdb\">50%</span>，获得持续<span style=\"color:#158bdb\">50</span>回合的<span style=\"color:#ff6724\">似夜奔行</span>状态。",
+      "des": "使用绝技时，若自身当前生命值高于<span style=\"color:#158bdb\">50%</span>，则消耗自身最大生命值的<span style=\"color:#158bdb\">25%</span>，获得持续<span style=\"color:#158bdb\">2</span>回合的<span style=\"color:#ff6724\">似夜奔行</span>状态。",
       "tag": [
         "被动触发"
       ],
@@ -100,7 +100,7 @@
         }
       ],
       "type": 2,
-      "special": "使用绝技时，若自身当前生命值高于<span style=\"color:#158bdb\">50%</span>，则消耗自身最大生命值的<span style=\"color:#158bdb\">50%</span>，获得持续<span style=\"color:#158bdb\">50</span>回合的<span style=\"color:#ff6724\">似夜奔行</span>状态。"
+      "special": "使用绝技时，若自身当前生命值高于<span style=\"color:#158bdb\">50%</span>，则消耗自身最大生命值的<span style=\"color:#158bdb\">25%</span>，获得持续<span style=\"color:#158bdb\">2</span>回合的<span style=\"color:#ff6724\">似夜奔行</span>状态。"
     },
     {
       "name": "孤旅",

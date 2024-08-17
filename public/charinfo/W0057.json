@@ -49,7 +49,7 @@
     },
     {
       "name": "汝窑奇珍",
-      "des": "为选定的友方单位及其<span style=\"color:#158bdb\">周围2格</span>的友方全体回复自身最大生命值<span style=\"color:#158bdb\">6|200</span>的生命值，并使其获得目标最大生命值<span style=\"color:#158bdb\">10%</span>的构素护盾。",
+      "des": "为选定的友方单位及其<span style=\"color:#158bdb\">周围2格</span>的友方全体回复自身最大生命值<span style=\"color:#158bdb\">6%+200</span>的生命值，并使其获得目标最大生命值<span style=\"color:#158bdb\">10%</span>的构素护盾。",
       "tag": [
         "射程2格",
         "消耗:4"
@@ -62,7 +62,7 @@
     },
     {
       "name": "流光重现",
-      "des": "释放常击后，为<span style=\"color:#158bdb\">距离自身2格</span>内当前生命值百分比最低的友方角色回复天蓝瓶最大生命值<span style=\"color:#158bdb\">5|300</span>的生命值。",
+      "des": "释放常击后，为<span style=\"color:#158bdb\">距离自身2格</span>内当前生命值百分比最低的友方角色回复天蓝瓶最大生命值<span style=\"color:#158bdb\">5%+300</span>的生命值。",
       "tag": [
         "被动触发"
       ],
@@ -74,7 +74,7 @@
     },
     {
       "name": "静藏",
-      "des": "释放绝技时，使目标获得<span style=\"color:#ff6724\">器韵</span>，持续<span style=\"color:#158bdb\">3|100</span>回合。",
+      "des": "释放绝技时，使目标获得<span style=\"color:#ff6724\">器韵</span>，持续<span style=\"color:#158bdb\">2</span>回合。",
       "tag": [
         "被动触发"
       ],
@@ -83,11 +83,11 @@
       "buff": [
         {
           "name": "<span style=\"color:#ff6724\">器韵</span>",
-          "des": "当护盾吸收伤害时，回复天蓝瓶最大生命值<span style=\"color:#158bdb\">3|100</span>的生命，持续<span style=\"color:#158bdb\">2</span>回合。"
+          "des": "当护盾吸收伤害时，回复天蓝瓶最大生命值<span style=\"color:#158bdb\">3%+100</span>的生命，持续<span style=\"color:#158bdb\">2</span>回合。"
         }
       ],
       "type": 2,
-      "special": "释放绝技时，使目标获得<span style=\"color:#ff6724\">器韵</span>，持续<span style=\"color:#158bdb\">3|100</span>回合。"
+      "special": "释放绝技时，使目标获得<span style=\"color:#ff6724\">器韵</span>，持续<span style=\"color:#158bdb\">2</span>回合。"
     },
     {
       "name": "莹润玉色",
@@ -103,7 +103,7 @@
     },
     {
       "name": "折枝莲",
-      "des": "为选定的友方单体回复自身最大生命值<span style=\"color:#158bdb\">10|400</span>的生命值。",
+      "des": "为选定的友方单体回复自身最大生命值<span style=\"color:#158bdb\">10%+400</span>的生命值。",
       "tag": [
         "射程2格",
         "无消耗"

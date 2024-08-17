@@ -79,7 +79,7 @@
     },
     {
       "name": "精确比例",
-      "des": "自身当前生命值高于<span style=\"color:#158bdb\">70%</span>时，贯穿率增加<span style=\"color:#158bdb\">70%</span>；\n自身当前生命值低于<span style=\"color:#158bdb\">30%</span>时，生命偷取率增加<span style=\"color:#158bdb\">30%</span>。",
+      "des": "自身当前生命值高于<span style=\"color:#158bdb\">70%</span>时，贯穿率增加<span style=\"color:#158bdb\">20%</span>；\n自身当前生命值低于<span style=\"color:#158bdb\">30%</span>时，生命偷取率增加<span style=\"color:#158bdb\">6%</span>。",
       "tag": [
         "被动触发"
       ],

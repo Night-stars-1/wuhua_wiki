@@ -79,7 +79,7 @@
     },
     {
       "name": "天使亲吻",
-      "des": "处于<span style=\"color:#ff6724\">眩晕</span>状态的敌方目标死亡时，则自身获得<span style=\"color:#158bdb\">10%</span>伤害提升，持续<span style=\"color:#158bdb\">10</span>回合。",
+      "des": "处于<span style=\"color:#ff6724\">眩晕</span>状态的敌方目标死亡时，则自身获得<span style=\"color:#158bdb\">10%</span>伤害提升，持续<span style=\"color:#158bdb\">2</span>回合。",
       "tag": [
         "被动触发"
       ],
@@ -87,7 +87,7 @@
       "icon": "skillicon_A002404",
       "buff": [],
       "type": 2,
-      "special": "处于<span style=\"color:#ff6724\">眩晕</span>状态的敌方目标死亡时，则自身获得<span style=\"color:#158bdb\">15%</span>伤害提升，持续<span style=\"color:#158bdb\">15</span>回合。"
+      "special": "处于<span style=\"color:#ff6724\">眩晕</span>状态的敌方目标死亡时，则自身获得<span style=\"color:#158bdb\">15%</span>伤害提升，持续<span style=\"color:#158bdb\">3</span>回合。"
     },
     {
       "name": "贵族礼仪",

@@ -49,7 +49,7 @@
     },
     {
       "name": "默以凝观",
-      "des": "使自身受到的伤害降低<span style=\"color:#158bdb\">10%</span>，效果持续<span style=\"color:#158bdb\">10</span>回合。",
+      "des": "使自身受到的伤害降低<span style=\"color:#158bdb\">10%</span>，效果持续<span style=\"color:#158bdb\">2</span>回合。",
       "tag": [
         "自身",
         "消耗:3"
@@ -74,7 +74,7 @@
     },
     {
       "name": "陶衣如绯",
-      "des": "自身当前生命值低于<span style=\"color:#158bdb\">50%</span>时，获得<span style=\"color:#158bdb\">合范成器</span>状态，效果持续<span style=\"color:#158bdb\">5</span>回合，每<span style=\"color:#158bdb\">3</span>回合可触发<span style=\"color:#158bdb\">1</span>次。",
+      "des": "自身当前生命值低于<span style=\"color:#158bdb\">50%</span>时，获得<span style=\"color:#158bdb\">合范成器</span>状态，效果持续<span style=\"color:#158bdb\">1</span>回合，每<span style=\"color:#158bdb\">3</span>回合可触发<span style=\"color:#158bdb\">1</span>次。",
       "tag": [
         "被动触发"
       ],
@@ -87,7 +87,7 @@
         }
       ],
       "type": 2,
-      "special": "自身当前生命值低于<span style=\"color:#158bdb\">50%</span>时，获得<span style=\"color:#158bdb\">合范成器</span>状态，效果持续<span style=\"color:#158bdb\">5</span>回合，每<span style=\"color:#158bdb\">2</span>回合可触发<span style=\"color:#158bdb\">1</span>次。"
+      "special": "自身当前生命值低于<span style=\"color:#158bdb\">50%</span>时，获得<span style=\"color:#158bdb\">合范成器</span>状态，效果持续<span style=\"color:#158bdb\">1</span>回合，每<span style=\"color:#158bdb\">2</span>回合可触发<span style=\"color:#158bdb\">1</span>次。"
     },
     {
       "name": "圆雕敛饰",

@@ -67,7 +67,7 @@
     },
     {
       "name": "凫鹭闲游",
-      "des": "对生命值高于<span style=\"color:#158bdb\">70%</span>的目标进行警戒治疗时，会重新填充<span style=\"color:#158bdb\">1</span>枚<span style=\"color:#ff6724\">礼弹</span>；\n对生命值低于<span style=\"color:#158bdb\">5|300%</span>的目标进行警戒治疗时，会额外消耗<span style=\"color:#158bdb\">1</span>枚<span style=\"color:#ff6724\">礼弹</span>，并使该次治疗恢复量增加攻击力<span style=\"color:#158bdb\">5|300</span>。",
+      "des": "对生命值高于<span style=\"color:#158bdb\">70%</span>的目标进行警戒治疗时，会重新填充<span style=\"color:#158bdb\">1</span>枚<span style=\"color:#ff6724\">礼弹</span>；\n对生命值低于<span style=\"color:#158bdb\">40%</span>的目标进行警戒治疗时，会额外消耗<span style=\"color:#158bdb\">1</span>枚<span style=\"color:#ff6724\">礼弹</span>，并使该次治疗恢复量增加攻击力<span style=\"color:#158bdb\">5%+300</span>。",
       "tag": [
         "被动触发"
       ],
@@ -75,7 +75,7 @@
       "icon": "skillicon_S008803",
       "buff": [],
       "type": 2,
-      "special": "对生命值高于<span style=\"color:#158bdb\">70%</span>的目标进行警戒治疗时，会重新填充<span style=\"color:#158bdb\">1</span>枚<span style=\"color:#ff6724\">礼弹</span>；\n对生命值低于<span style=\"color:#158bdb\">5|300%</span>的目标进行警戒治疗时，会额外消耗<span style=\"color:#158bdb\">1</span>枚<span style=\"color:#ff6724\">礼弹</span>，并使该次治疗恢复量增加攻击力<span style=\"color:#158bdb\">5|300</span>；\n礼弹填充量增加<span style=\"color:#158bdb\">2</span>。"
+      "special": "对生命值高于<span style=\"color:#158bdb\">70%</span>的目标进行警戒治疗时，会重新填充<span style=\"color:#158bdb\">1</span>枚<span style=\"color:#ff6724\">礼弹</span>；\n对生命值低于<span style=\"color:#158bdb\">60%</span>的目标进行警戒治疗时，会额外消耗<span style=\"color:#158bdb\">1</span>枚<span style=\"color:#ff6724\">礼弹</span>，并使该次治疗恢复量增加攻击力<span style=\"color:#158bdb\">5%+300</span>；\n礼弹填充量增加<span style=\"color:#158bdb\">2</span>。"
     },
     {
       "name": "水波微漾",
@@ -108,7 +108,7 @@
     },
     {
       "name": "万缕千丝",
-      "des": "使用后为自身填充<span style=\"color:#158bdb\">3</span>枚<span style=\"color:#ff6724\">礼弹</span>并进入警戒状态：以自身<span style=\"color:#158bdb\">周围3格</span>为警戒范围，对进入该范围且生命值低于<span style=\"color:#158bdb\">100%</span>的友军进行警戒治疗，恢复攻击力<span style=\"color:#158bdb\">3</span>的生命值。",
+      "des": "使用后为自身填充<span style=\"color:#158bdb\">3</span>枚<span style=\"color:#ff6724\">礼弹</span>并进入警戒状态：以自身<span style=\"color:#158bdb\">周围3格</span>为警戒范围，对进入该范围且生命值低于<span style=\"color:#158bdb\">100%</span>的友军进行警戒治疗，恢复攻击力<span style=\"color:#158bdb\">20%+300</span>的生命值。",
       "tag": [
         "自身",
         "无消耗"

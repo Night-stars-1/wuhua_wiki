@@ -86,7 +86,7 @@
     },
     {
       "name": "锦绣之力",
-      "des": "若拥有<span style=\"color:#158bdb\">1%</span>及以上暴击率，则使自身的暴击伤害增加<span style=\"color:#158bdb\">60%</span>，并在常击或警戒攻击造成暴击时，获得<span style=\"color:#158bdb\">1</span>点能量，此效果每回合最多触发<span style=\"color:#158bdb\">1</span>次。",
+      "des": "若拥有<span style=\"color:#158bdb\">60%</span>及以上暴击率，则使自身的暴击伤害增加<span style=\"color:#158bdb\">20%</span>，并在常击或警戒攻击造成暴击时，获得<span style=\"color:#158bdb\">1</span>点能量，此效果每回合最多触发<span style=\"color:#158bdb\">1</span>次。",
       "tag": [
         "被动触发"
       ],
@@ -98,7 +98,7 @@
     },
     {
       "name": "星兆",
-      "des": "使用后为自身填充<span style=\"color:#158bdb\">3</span>枚<span style=\"color:#ff6724\">礼弹</span>并进入警戒状态：以自身<span style=\"color:#158bdb\">周围3格</span>为警戒范围，对停留在该范围中的敌方单位进行警戒攻击，对其造成自身攻击力<span style=\"color:#158bdb\">3%</span>的构素伤害。",
+      "des": "使用后为自身填充<span style=\"color:#158bdb\">3</span>枚<span style=\"color:#ff6724\">礼弹</span>并进入警戒状态：以自身<span style=\"color:#158bdb\">周围3格</span>为警戒范围，对停留在该范围中的敌方单位进行警戒攻击，对其造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
       "tag": [
         "自身",
         "无消耗"

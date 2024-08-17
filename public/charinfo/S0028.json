@@ -83,7 +83,7 @@
     },
     {
       "name": "精巧疑神",
-      "des": "处于<span style=\"color:#ff6724\">锋钩</span>状态下使用常击造成伤害时，为自身<span style=\"color:#158bdb\">周围2格</span>内当前生命值最低的<span style=\"color:#158bdb\">1</span>名友方单位回复自身攻击力<span style=\"color:#158bdb\">10|200</span>的生命值，该效果将触发<span style=\"color:#158bdb\">2</span>次。",
+      "des": "处于<span style=\"color:#ff6724\">锋钩</span>状态下使用常击造成伤害时，为自身<span style=\"color:#158bdb\">周围2格</span>内当前生命值最低的<span style=\"color:#158bdb\">1</span>名友方单位回复自身攻击力<span style=\"color:#158bdb\">10%+200</span>的生命值，该效果将触发<span style=\"color:#158bdb\">2</span>次。",
       "tag": [
         "被动触发"
       ],
@@ -107,7 +107,7 @@
     },
     {
       "name": "神钩悬息",
-      "des": "使用后为自身填充<span style=\"color:#158bdb\">3</span>枚<span style=\"color:#ff6724\">礼弹</span>并进入警戒状态：以自身<span style=\"color:#158bdb\">周围3格</span>为警戒范围，对停留在该范围中的敌方单位进行警戒攻击，对其造成自身攻击力<span style=\"color:#158bdb\">3%</span>的构素伤害。",
+      "des": "使用后为自身填充<span style=\"color:#158bdb\">3</span>枚<span style=\"color:#ff6724\">礼弹</span>并进入警戒状态：以自身<span style=\"color:#158bdb\">周围3格</span>为警戒范围，对停留在该范围中的敌方单位进行警戒攻击，对其造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
       "tag": [
         "自身",
         "无消耗"

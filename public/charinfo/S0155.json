@@ -75,7 +75,7 @@
     },
     {
       "name": "山子水法",
-      "des": "每次警戒攻击使受击敌方单位获得<span style=\"color:#ff6724\">降攻</span>状态，并使自身及<span style=\"color:#158bdb\">周围2格</span>的友方全体回复鸟音山水钟最大生命值<span style=\"color:#158bdb\">5|100</span>的生命值。",
+      "des": "每次警戒攻击使受击敌方单位获得<span style=\"color:#ff6724\">降攻</span>状态，并使自身及<span style=\"color:#158bdb\">周围2格</span>的友方全体回复鸟音山水钟最大生命值<span style=\"color:#158bdb\">5%+100</span>的生命值。",
       "tag": [
         "被动触发"
       ],
@@ -92,7 +92,7 @@
     },
     {
       "name": "机括巧作",
-      "des": "自身每累计进行<span style=\"color:#158bdb\">3</span>次警戒攻击后，使友方全体战略单位额外填充<span style=\"color:#158bdb\">3</span>枚<span style=\"color:#ff6724\">礼弹</span>。\n使用绝技后，为自身填充<span style=\"color:#158bdb\">2</span>枚<span style=\"color:#ff6724\">礼弹</span>。",
+      "des": "自身每累计进行<span style=\"color:#158bdb\">3</span>次警戒攻击后，使友方全体战略单位额外填充<span style=\"color:#158bdb\">1</span>枚<span style=\"color:#ff6724\">礼弹</span>。\n使用绝技后，为自身填充<span style=\"color:#158bdb\">2</span>枚<span style=\"color:#ff6724\">礼弹</span>。",
       "tag": [
         "被动触发"
       ],
@@ -146,7 +146,7 @@
     },
     {
       "name": "钟鸣未绝",
-      "des": "使用后为自身填充<span style=\"color:#158bdb\">3</span>枚<span style=\"color:#ff6724\">礼弹</span>并进入警戒状态：以自身<span style=\"color:#158bdb\">周围3格</span>为警戒范围，对停留在该范围中的敌方单位进行警戒攻击，对其造成自身攻击力<span style=\"color:#158bdb\">3%</span>的构素伤害。",
+      "des": "使用后为自身填充<span style=\"color:#158bdb\">3</span>枚<span style=\"color:#ff6724\">礼弹</span>并进入警戒状态：以自身<span style=\"color:#158bdb\">周围3格</span>为警戒范围，对停留在该范围中的敌方单位进行警戒攻击，对其造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
       "tag": [
         "自身",
         "无消耗"

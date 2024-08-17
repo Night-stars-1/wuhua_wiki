@@ -62,7 +62,7 @@
     },
     {
       "name": "藏地逡巡",
-      "des": "处于<span style=\"color:#ff6724\">瞄准</span>状态时，攻击前使受击目标移动力降低<span style=\"color:#158bdb\">-1</span>，持续<span style=\"color:#158bdb\">-1</span>回合；自身在场时，全体友方远击的命中率增加<span style=\"color:#158bdb\">7%</span>。",
+      "des": "处于<span style=\"color:#ff6724\">瞄准</span>状态时，攻击前使受击目标移动力降低<span style=\"color:#158bdb\">-1</span>，持续<span style=\"color:#158bdb\">2</span>回合；自身在场时，全体友方远击的命中率增加<span style=\"color:#158bdb\">7%</span>。",
       "tag": [
         "被动触发"
       ],
@@ -74,7 +74,7 @@
     },
     {
       "name": "金戈征战",
-      "des": "攻击力提升<span style=\"color:#158bdb\">10%</span>。若自身速度大于受击目标，则在攻击前使受击目标闪避率降低<span style=\"color:#158bdb\">-10%</span>，持续<span style=\"color:#158bdb\">-10</span>回合，间隔<span style=\"color:#158bdb\">1</span>回合触发。",
+      "des": "攻击力提升<span style=\"color:#158bdb\">10%</span>。若自身速度大于受击目标，则在攻击前使受击目标闪避率降低<span style=\"color:#158bdb\">-10%</span>，持续<span style=\"color:#158bdb\">2</span>回合，间隔<span style=\"color:#158bdb\">1</span>回合触发。",
       "tag": [
         "被动触发"
       ],
@@ -82,7 +82,7 @@
       "icon": "skillicon_A006304",
       "buff": [],
       "type": 2,
-      "special": "攻击力提升<span style=\"color:#158bdb\">10%</span>。若自身速度大于受击目标，则在攻击前使受击目标闪避率降低<span style=\"color:#158bdb\">-10%</span>，持续<span style=\"color:#158bdb\">-10</span>回合，间隔<span style=\"color:#158bdb\">1</span>回合触发，触发效果后获得<span style=\"color:#ff6724\">凝神</span>状态，持续<span style=\"color:#158bdb\">20</span>回合。"
+      "special": "攻击力提升<span style=\"color:#158bdb\">10%</span>。若自身速度大于受击目标，则在攻击前使受击目标闪避率降低<span style=\"color:#158bdb\">-10%</span>，持续<span style=\"color:#158bdb\">2</span>回合，间隔<span style=\"color:#158bdb\">1</span>回合触发，触发效果后获得<span style=\"color:#ff6724\">凝神</span>状态，持续<span style=\"color:#158bdb\">1</span>回合。"
     },
     {
       "name": "神子诞生",

@@ -91,7 +91,7 @@
     },
     {
       "name": "磨光",
-      "des": "攻击处于<span style=\"color:#ff6724\">粉色惊喜</span>状态的敌方单位时，有<span style=\"color:#ff6724\">60%</span>概率触发连击，且连击造成的伤害提高<span style=\"color:#158bdb\">60%</span>。",
+      "des": "攻击处于<span style=\"color:#ff6724\">粉色惊喜</span>状态的敌方单位时，有<span style=\"color:#ff6724\">60%</span>概率触发连击，且连击造成的伤害提高<span style=\"color:#158bdb\">30%</span>。",
       "tag": [
         "被动触发"
       ],
@@ -99,7 +99,7 @@
       "icon": "skillicon_A000305",
       "buff": [],
       "type": 2,
-      "special": "攻击处于<span style=\"color:#ff6724\">粉色惊喜</span>状态的敌方单位时，有<span style=\"color:#ff6724\">60%</span>概率触发连击，且连击造成的伤害提高<span style=\"color:#158bdb\">60%</span>；同时自身额外获得<span style=\"color:#158bdb\">60</span>点能量。"
+      "special": "攻击处于<span style=\"color:#ff6724\">粉色惊喜</span>状态的敌方单位时，有<span style=\"color:#ff6724\">60%</span>概率触发连击，且连击造成的伤害提高<span style=\"color:#158bdb\">30%</span>；同时自身额外获得<span style=\"color:#158bdb\">1</span>点能量。"
     },
     {
       "name": "旋塑",

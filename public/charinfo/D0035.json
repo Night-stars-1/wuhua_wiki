@@ -84,7 +84,7 @@
     },
     {
       "name": "康王之赐",
-      "des": "受到构素伤害后，每回合回复自身最大生命值<span style=\"color:#158bdb\">4%</span>，效果持续<span style=\"color:#158bdb\">4</span>回合。",
+      "des": "受到构素伤害后，每回合回复自身最大生命值<span style=\"color:#158bdb\">4%</span>，效果持续<span style=\"color:#158bdb\">1</span>回合。",
       "tag": [
         "被动触发"
       ],
@@ -101,7 +101,7 @@
     },
     {
       "name": "敬法辅佐",
-      "des": "自身当前生命值低于<span style=\"color:#158bdb\">50%</span>时，自身获得最大生命值<span style=\"color:#158bdb\">50%</span>的构素护盾，效果持续<span style=\"color:#158bdb\">50</span>回合。此效果每场战斗最多触发<span style=\"color:#158bdb\">1</span>次。",
+      "des": "自身当前生命值低于<span style=\"color:#158bdb\">50%</span>时，自身获得最大生命值<span style=\"color:#158bdb\">50%</span>的构素护盾，效果持续<span style=\"color:#158bdb\">2</span>回合。此效果每场战斗最多触发<span style=\"color:#158bdb\">1</span>次。",
       "tag": [
         "被动触发"
       ],
@@ -113,7 +113,7 @@
     },
     {
       "name": "禁酒",
-      "des": "使用后可<span style=\"color:#ff6724\">援护</span>自身周围<span style=\"color:#158bdb\">2</span>格内的友方单位，效果持续<span style=\"color:#158bdb\">2</span>回合。",
+      "des": "使用后可<span style=\"color:#ff6724\">援护</span>自身周围<span style=\"color:#158bdb\">2</span>格内的友方单位，效果持续<span style=\"color:#158bdb\">1</span>回合。",
       "tag": [
         "自身",
         "无消耗"
