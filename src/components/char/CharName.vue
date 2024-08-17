@@ -2,13 +2,14 @@
  * @Author: Night-stars-1 nujj1042633805@gmail.com
  * @Date: 2024-07-26 11:59:41
  * @LastEditors: Night-stars-1 nujj1042633805@gmail.com
- * @LastEditTime: 2024-08-17 17:38:21
+ * @LastEditTime: 2024-08-17 18:20:07
 -->
 <template>
   <div class="char-name">
     <el-row justify="space-between">
-      <div>
-        <span :id="rare">{{ name }}</span> - {{ job }}
+      <div class="char-info">
+        <el-image style="width: 64px; height: 64px" :src="`yc/${rareId}_${jobId}.png`" fit="cover" />
+        <span :id="rare">{{ name }}</span>
       </div>
       <el-space>
         <el-tag type="primary" v-for="tagName in tag.split(';')">{{ tagName }}</el-tag>
@@ -45,6 +46,12 @@ const job = computed(() => jobId2job?.[props.jobId]);
   margin-top: 10px;
   margin-left: 20px;
   margin-right: 20px;
+}
+
+/** 器者职业等信息 */
+.char-info {
+  display: flex;
+  align-items: center;
 }
 
 #新生 {
