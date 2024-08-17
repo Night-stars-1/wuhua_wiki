@@ -62,7 +62,7 @@
     },
     {
       "name": "守口如瓶",
-      "des": "释放绝技后，该回合内的常击使自身<span style=\"color:#158bdb\">周围1格</span>内攻击力最高的友方单体获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">金戈</span>效果。",
+      "des": "释放绝技后，该回合内的常击使自身<span style=\"color:#158bdb\">周围2格</span>内攻击力最高的友方单体获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">金戈</span>效果。",
       "tag": [
         "被动触发"
       ],
@@ -75,7 +75,7 @@
         }
       ],
       "type": 2,
-      "special": "释放绝技后，该回合内的常击使自身以及自身<span style=\"color:#158bdb\">周围1格</span>内攻击力最高的友方单体获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">金戈</span>效果。"
+      "special": "释放绝技后，该回合内的常击使自身以及自身<span style=\"color:#158bdb\">周围3格</span>内攻击力最高的友方单体获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">金戈</span>效果。"
     },
     {
       "name": "速递",

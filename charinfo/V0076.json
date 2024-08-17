@@ -83,7 +83,7 @@
     },
     {
       "name": "金瓯万年",
-      "des": "对携带<span style=\"color:#ff6724\">金虹乍现</span>状态的目标进行常击后，每层<span style=\"color:#ff6724\">金虹乍现</span>状态提供<span style=\"color:#158bdb\">40%</span>的概率触发连击，造成攻击力<span style=\"color:#158bdb\">40%</span>的物理伤害。",
+      "des": "对携带<span style=\"color:#ff6724\">金虹乍现</span>状态的目标进行常击后，每层<span style=\"color:#ff6724\">金虹乍现</span>状态提供<span style=\"color:#158bdb\">17%</span>的概率触发连击，造成攻击力<span style=\"color:#158bdb\">40%</span>的物理伤害。",
       "tag": [
         "被动触发"
       ],

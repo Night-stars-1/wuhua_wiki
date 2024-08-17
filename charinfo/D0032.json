@@ -84,7 +84,7 @@
     },
     {
       "name": "攻守易转",
-      "des": "进行回击后或自身<span style=\"color:#158bdb\">周围2格</span>有敌方单位受到流失状态的伤害后，自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">战意</span>状态。\n当自身<span style=\"color:#ff6724\">战意</span>大于<span style=\"color:#158bdb\">-2</span>层时，使用职业技能后消耗<span style=\"color:#158bdb\">-2</span>层<span style=\"color:#ff6724\">战意</span>，回复自身最大生命值的<span style=\"color:#158bdb\">-2%</span>。\n当自身<span style=\"color:#ff6724\">战意</span>大于<span style=\"color:#158bdb\">-3</span>层且受到致命伤害时，消耗<span style=\"color:#158bdb\">-3</span>层<span style=\"color:#ff6724\">战意</span>，使自身生命值固定至<span style=\"color:#158bdb\">1</span>，并回复自身最大生命值的<span style=\"color:#158bdb\">-3%</span>。",
+      "des": "进行回击后或自身<span style=\"color:#158bdb\">周围2格</span>有敌方单位受到流失状态的伤害后，自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">战意</span>状态。\n当自身<span style=\"color:#ff6724\">战意</span>大于<span style=\"color:#158bdb\">2</span>层时，使用职业技能后消耗<span style=\"color:#158bdb\">-2</span>层<span style=\"color:#ff6724\">战意</span>，回复自身最大生命值的<span style=\"color:#158bdb\">10%</span>。\n当自身<span style=\"color:#ff6724\">战意</span>大于<span style=\"color:#158bdb\">3</span>层且受到致命伤害时，消耗<span style=\"color:#158bdb\">-3</span>层<span style=\"color:#ff6724\">战意</span>，使自身生命值固定至<span style=\"color:#158bdb\">1</span>，并回复自身最大生命值的<span style=\"color:#158bdb\">10%</span>。",
       "tag": [
         "被动触发"
       ],

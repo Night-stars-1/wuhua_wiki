@@ -100,7 +100,7 @@
     },
     {
       "name": "仙翁脱骨",
-      "des": "处于<span style=\"color:#ff6724\">不负三光</span>状态时，若自身闪避敌方攻击，则有<span style=\"color:#ff6724\">30%</span>概率获得<span style=\"color:#158bdb\">30</span>点能量，并立刻获得额外行动机会<span style=\"color:#158bdb\">1</span>次。",
+      "des": "处于<span style=\"color:#ff6724\">不负三光</span>状态时，若自身闪避敌方攻击，则有<span style=\"color:#ff6724\">30%</span>概率获得<span style=\"color:#158bdb\">1</span>点能量，并立刻获得额外行动机会<span style=\"color:#158bdb\">1</span>次。",
       "tag": [
         "被动触发"
       ],

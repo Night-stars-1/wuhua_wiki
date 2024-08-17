@@ -95,7 +95,7 @@
     },
     {
       "name": "蟠螭腾啸",
-      "des": "<span style=\"color:#ff6724\">危险食盒</span>状态造成的伤害提高<span style=\"color:#158bdb\">20%</span>。若该状态造成伤害，则自身移动力增加<span style=\"color:#158bdb\">1</span>；若该状态造成的伤害击败敌方单位，则自身移动力增加<span style=\"color:#158bdb\">2</span>。移动力增加效果不可叠加，持续<span style=\"color:#158bdb\">1</span>回合。",
+      "des": "<span style=\"color:#ff6724\">危险食盒</span>状态造成的伤害提高<span style=\"color:#158bdb\">20%</span>。若该状态造成伤害，则自身移动力增加<span style=\"color:#158bdb\">1</span>；若该状态造成的伤害击败敌方单位，则自身移动力增加<span style=\"color:#158bdb\">2</span>。移动力增加效果不可叠加，持续<span style=\"color:#158bdb\">2</span>回合。",
       "tag": [
         "被动触发"
       ],

@@ -49,7 +49,7 @@
     },
     {
       "name": "齐地风物",
-      "des": "获得<span style=\"color:#ff6724\">同赏</span>状态，并使自身物理防御提高<span style=\"color:#158bdb\">30%</span>，效果持续<span style=\"color:#158bdb\">30</span>回合。",
+      "des": "获得<span style=\"color:#ff6724\">同赏</span>状态，并使自身物理防御提高<span style=\"color:#158bdb\">30%</span>，效果持续<span style=\"color:#158bdb\">2</span>回合。",
       "tag": [
         "自身",
         "消耗:3"
@@ -63,7 +63,7 @@
         }
       ],
       "type": 1,
-      "special": "获得<span style=\"color:#ff6724\">同赏</span>状态，并使自身物理防御提高<span style=\"color:#158bdb\">45%</span>，效果持续<span style=\"color:#158bdb\">45</span>回合。"
+      "special": "获得<span style=\"color:#ff6724\">同赏</span>状态，并使自身物理防御提高<span style=\"color:#158bdb\">45%</span>，效果持续<span style=\"color:#158bdb\">2</span>回合。"
     },
     {
       "name": "多人宴会",
@@ -75,7 +75,7 @@
       "icon": "skillicon_D001403",
       "buff": [],
       "type": 2,
-      "special": "触发<span style=\"color:#ff6724\">援护</span>后，若自身<span style=\"color:#158bdb\">周围1格</span>内的友方单位不少于<span style=\"color:#158bdb\">2</span>，则回复自身已损失生命值的<span style=\"color:#158bdb\">10%</span>；此效果每回合可触发<span style=\"color:#158bdb\">1</span>次；若援护前自身当前生命值少于<span style=\"color:#158bdb\">50%</span>，则该次回复量增加<span style=\"color:#158bdb\">50%</span>。"
+      "special": "触发<span style=\"color:#ff6724\">援护</span>后，若自身<span style=\"color:#158bdb\">周围1格</span>内的友方单位不少于<span style=\"color:#158bdb\">2</span>，则回复自身已损失生命值的<span style=\"color:#158bdb\">10%</span>；此效果每回合可触发<span style=\"color:#158bdb\">1</span>次；若援护前自身当前生命值少于<span style=\"color:#158bdb\">50%</span>，则该次回复量增加<span style=\"color:#158bdb\">25%</span>。"
     },
     {
       "name": "分工合作",
@@ -103,7 +103,7 @@
     },
     {
       "name": "藏器于内",
-      "des": "使用后可<span style=\"color:#ff6724\">援护</span>自身周围<span style=\"color:#158bdb\">2</span>格内的友方单位，效果持续<span style=\"color:#158bdb\">2</span>回合。",
+      "des": "使用后可<span style=\"color:#ff6724\">援护</span>自身周围<span style=\"color:#158bdb\">2</span>格内的友方单位，效果持续<span style=\"color:#158bdb\">1</span>回合。",
       "tag": [
         "自身",
         "无消耗"

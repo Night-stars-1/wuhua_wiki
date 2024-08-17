@@ -79,7 +79,7 @@
         }
       ],
       "type": 2,
-      "special": "每进行<span style=\"color:#158bdb\">1</span>次警戒攻击，则自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">探源</span>状态。自身回合开始时，若自身处于 <span style=\"color:#ff6724\">探源</span>状态，则有<span style=\"color:#158bdb\">2%</span>概率消耗自身全部<span style=\"color:#ff6724\">探源</span>状态，获得<span style=\"color:#ff6724\">侦探时间</span>状态并回复<span style=\"color:#158bdb\">2</span>点能量，每层<span style=\"color:#ff6724\">探源</span>状态会使概率增加<span style=\"color:#158bdb\">2%</span>。"
+      "special": "每进行<span style=\"color:#158bdb\">1</span>次警戒攻击，则自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">探源</span>状态。自身回合开始时，若自身处于 <span style=\"color:#ff6724\">探源</span>状态，则有<span style=\"color:#158bdb\">20%</span>概率消耗自身全部<span style=\"color:#ff6724\">探源</span>状态，获得<span style=\"color:#ff6724\">侦探时间</span>状态并回复<span style=\"color:#158bdb\">2</span>点能量，每层<span style=\"color:#ff6724\">探源</span>状态会使概率增加<span style=\"color:#158bdb\">20%</span>。"
     },
     {
       "name": "回眸",
@@ -121,7 +121,7 @@
     },
     {
       "name": "求踪",
-      "des": "使用后为自身填充<span style=\"color:#158bdb\">3</span>枚<span style=\"color:#ff6724\">礼弹</span>并进入警戒状态：以自身<span style=\"color:#158bdb\">周围3格</span>为警戒范围，对停留在该范围中的敌方单位进行警戒攻击，对其造成自身攻击力<span style=\"color:#158bdb\">3%</span>的构素伤害。",
+      "des": "使用后为自身填充<span style=\"color:#158bdb\">3</span>枚<span style=\"color:#ff6724\">礼弹</span>并进入警戒状态：以自身<span style=\"color:#158bdb\">周围3格</span>为警戒范围，对停留在该范围中的敌方单位进行警戒攻击，对其造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
       "tag": [
         "自身",
         "无消耗"

@@ -62,7 +62,7 @@
     },
     {
       "name": "疾驰",
-      "des": "使用职业技能后，自身获得<span style=\"color:#ff6724\">隐夜</span>状态，该状态将在主动攻击后或受到敌方单位攻击后解除；\n若由于受到敌方单位攻击解除<span style=\"color:#ff6724\">隐夜</span>状态，则自身获得<span style=\"color:#ff6724\">重创</span>状态，持续<span style=\"color:#158bdb\">30</span>回合。",
+      "des": "使用职业技能后，自身获得<span style=\"color:#ff6724\">隐夜</span>状态，该状态将在主动攻击后或受到敌方单位攻击后解除；\n若由于受到敌方单位攻击解除<span style=\"color:#ff6724\">隐夜</span>状态，则自身获得<span style=\"color:#ff6724\">重创</span>状态，持续<span style=\"color:#158bdb\">1</span>回合。",
       "tag": [
         "被动触发"
       ],
@@ -79,7 +79,7 @@
         }
       ],
       "type": 2,
-      "special": "使用职业技能后，自身获得<span style=\"color:#ff6724\">隐夜</span>状态，该状态将在主动攻击<span style=\"color:#158bdb\">2</span>次后或受到敌方单位攻击后解除；\n若由于受到敌方单位攻击解除<span style=\"color:#ff6724\">隐夜</span>状态，则自身获得<span style=\"color:#ff6724\">重创</span>状态，持续<span style=\"color:#158bdb\">30</span>回合。"
+      "special": "使用职业技能后，自身获得<span style=\"color:#ff6724\">隐夜</span>状态，该状态将在主动攻击<span style=\"color:#158bdb\">2</span>次后或受到敌方单位攻击后解除；\n若由于受到敌方单位攻击解除<span style=\"color:#ff6724\">隐夜</span>状态，则自身获得<span style=\"color:#ff6724\">重创</span>状态，持续<span style=\"color:#158bdb\">1</span>回合。"
     },
     {
       "name": "追风",
@@ -100,7 +100,7 @@
     },
     {
       "name": "绝尘",
-      "des": "处于<span style=\"color:#ff6724\">隐夜</span>状态时，攻击后有<span style=\"color:#158bdb\">-2%</span>概率获得再移动，该次再移动的移动力减少<span style=\"color:#158bdb\">-2</span>。",
+      "des": "处于<span style=\"color:#ff6724\">隐夜</span>状态时，攻击后有<span style=\"color:#158bdb\">40%</span>概率获得再移动，该次再移动的移动力减少<span style=\"color:#158bdb\">-2</span>。",
       "tag": [
         "被动触发"
       ],

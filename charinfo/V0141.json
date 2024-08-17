@@ -91,7 +91,7 @@
     },
     {
       "name": "深潭映雪",
-      "des": "对处于<span style=\"color:#ff6724\">寒天</span>或<span style=\"color:#ff6724\">霜冻</span>状态的敌方单位进行连击时必定暴击，且该次连击暴击伤害提高<span style=\"color:#158bdb\">10%</span>，贯穿强度提高<span style=\"color:#158bdb\">10%</span>；\n连击后，若该受击单位处于<span style=\"color:#ff6724\">霜冻</span>状态，则对其造成该次连击伤害<span style=\"color:#158bdb\">150%</span>的<span style=\"color:#ff6724\">真实伤害</span>。",
+      "des": "对处于<span style=\"color:#ff6724\">寒天</span>或<span style=\"color:#ff6724\">霜冻</span>状态的敌方单位进行连击时必定暴击，且该次连击暴击伤害提高<span style=\"color:#158bdb\">30%</span>，贯穿强度提高<span style=\"color:#158bdb\">10%</span>；\n连击后，若该受击单位处于<span style=\"color:#ff6724\">霜冻</span>状态，则对其造成该次连击伤害<span style=\"color:#158bdb\">150%</span>的<span style=\"color:#ff6724\">真实伤害</span>。",
       "tag": [
         "被动触发"
       ],
@@ -104,11 +104,11 @@
         }
       ],
       "type": 2,
-      "special": "对处于<span style=\"color:#ff6724\">寒天</span>或<span style=\"color:#ff6724\">霜冻</span>状态的敌方单位进行连击时必定暴击，且该次连击暴击伤害提高<span style=\"color:#158bdb\">10%</span>，贯穿强度提高<span style=\"color:#158bdb\">10%</span>；\n连击后，若该受击单位处于<span style=\"color:#ff6724\">霜冻</span>状态，则对其造成该次连击伤害<span style=\"color:#158bdb\">150%</span>的<span style=\"color:#ff6724\">真实伤害</span>。"
+      "special": "对处于<span style=\"color:#ff6724\">寒天</span>或<span style=\"color:#ff6724\">霜冻</span>状态的敌方单位进行连击时必定暴击，且该次连击暴击伤害提高<span style=\"color:#158bdb\">30%</span>，贯穿强度提高<span style=\"color:#158bdb\">10%</span>；\n连击后，若该受击单位处于<span style=\"color:#ff6724\">霜冻</span>状态，则对其造成该次连击伤害<span style=\"color:#158bdb\">150%</span>的<span style=\"color:#ff6724\">真实伤害</span>。"
     },
     {
       "name": "苍峰冰结",
-      "des": "使用职业技能攻击处于<span style=\"color:#ff6724\">寒天</span>状态的敌方单位或对处于<span style=\"color:#ff6724\">霜冻</span>状态的敌方单位进行任意攻击时，自身获得再行动<span style=\"color:#158bdb\">1</span>次，该次再行动的移动力减少<span style=\"color:#158bdb\">1</span>，并回复自身最大生命值的<span style=\"color:#158bdb\">1%</span>，每回合可触发<span style=\"color:#158bdb\">1</span>次。",
+      "des": "使用职业技能攻击处于<span style=\"color:#ff6724\">寒天</span>状态的敌方单位或对处于<span style=\"color:#ff6724\">霜冻</span>状态的敌方单位进行任意攻击时，自身获得再行动<span style=\"color:#158bdb\">1</span>次，该次再行动的移动力减少<span style=\"color:#158bdb\">-2</span>，并回复自身最大生命值的<span style=\"color:#158bdb\">5%</span>，每回合可触发<span style=\"color:#158bdb\">1</span>次。",
       "tag": [
         "被动触发"
       ],

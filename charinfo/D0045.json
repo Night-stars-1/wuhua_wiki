@@ -122,7 +122,7 @@
     },
     {
       "name": "芥子须弥",
-      "des": "使用后可<span style=\"color:#ff6724\">援护</span>自身周围<span style=\"color:#158bdb\">2</span>格内的友方单位，效果持续<span style=\"color:#158bdb\">2</span>回合。",
+      "des": "使用后可<span style=\"color:#ff6724\">援护</span>自身周围<span style=\"color:#158bdb\">2</span>格内的友方单位，效果持续<span style=\"color:#158bdb\">1</span>回合。",
       "tag": [
         "自身",
         "无消耗"

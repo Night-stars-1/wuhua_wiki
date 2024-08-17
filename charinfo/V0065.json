@@ -49,7 +49,7 @@
     },
     {
       "name": "婉转鼓侧",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">250%</span>的物理伤害，并使自身移动力增加<span style=\"color:#158bdb\">1</span>，效果持续<span style=\"color:#158bdb\">1</span>回合。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">250%</span>的物理伤害，并使自身移动力增加<span style=\"color:#158bdb\">1</span>，效果持续<span style=\"color:#158bdb\">2</span>回合。",
       "tag": [
         "射程1格 ",
         "消耗:3"
@@ -62,7 +62,7 @@
     },
     {
       "name": "七盘递奏",
-      "des": "当自身生命值大于等于<span style=\"color:#158bdb\">-2%</span>时，任意攻击后自身获得再移动<span style=\"color:#158bdb\">1</span>次，该次再移动的移动力减少<span style=\"color:#158bdb\">-2</span>。",
+      "des": "当自身生命值大于等于<span style=\"color:#158bdb\">50%</span>时，任意攻击后自身获得再移动<span style=\"color:#158bdb\">1</span>次，该次再移动的移动力减少<span style=\"color:#158bdb\">-2</span>。",
       "tag": [
         "被动触发"
       ],
@@ -74,7 +74,7 @@
     },
     {
       "name": "叠案倒立",
-      "des": "贯穿概率增加<span style=\"color:#158bdb\">20%</span>，对敌方单位造成贯穿时，使其移动距离减少<span style=\"color:#db2424\">-1</span>，持续<span style=\"color:#158bdb\">-1</span>回合。",
+      "des": "贯穿概率增加<span style=\"color:#158bdb\">20%</span>，对敌方单位造成贯穿时，使其移动距离减少<span style=\"color:#db2424\">-1</span>，持续<span style=\"color:#158bdb\">1</span>回合。",
       "tag": [
         "被动触发"
       ],
@@ -82,7 +82,7 @@
       "icon": "skillicon_V006504",
       "buff": [],
       "type": 2,
-      "special": "贯穿概率增加<span style=\"color:#158bdb\">40%</span>，对敌方单位造成贯穿时，使其移动距离减少<span style=\"color:#db2424\">-1</span>，持续<span style=\"color:#158bdb\">-1</span>回合。"
+      "special": "贯穿概率增加<span style=\"color:#158bdb\">40%</span>，对敌方单位造成贯穿时，使其移动距离减少<span style=\"color:#db2424\">-1</span>，持续<span style=\"color:#158bdb\">1</span>回合。"
     },
     {
       "name": "手跳三丸",

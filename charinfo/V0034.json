@@ -95,7 +95,7 @@
     },
     {
       "name": "剑影",
-      "des": "攻击前，若受击目标处于<span style=\"color:#158bdb\">-2</span>层以上<span style=\"color:#ff6724\">流失</span>状态，则自身行动结束后获得额外移动<span style=\"color:#158bdb\">1</span>次，该次额外移动的移动力减少<span style=\"color:#158bdb\">-2</span>。",
+      "des": "攻击前，若受击目标处于<span style=\"color:#158bdb\">3</span>层以上<span style=\"color:#ff6724\">流失</span>状态，则自身行动结束后获得额外移动<span style=\"color:#158bdb\">1</span>次，该次额外移动的移动力减少<span style=\"color:#158bdb\">-2</span>。",
       "tag": [
         "被动触发"
       ],
@@ -103,7 +103,7 @@
       "icon": "skillicon_V003405",
       "buff": [],
       "type": 2,
-      "special": "攻击前，若受击目标处于<span style=\"color:#158bdb\">-2</span>层以上<span style=\"color:#ff6724\">流失</span>状态，则自身行动结束后获得额外移动<span style=\"color:#158bdb\">1</span>次，该次额外移动的移动力减少<span style=\"color:#158bdb\">-2</span>。"
+      "special": "攻击前，若受击目标处于<span style=\"color:#158bdb\">1</span>层以上<span style=\"color:#ff6724\">流失</span>状态，则自身行动结束后获得额外移动<span style=\"color:#158bdb\">1</span>次，该次额外移动的移动力减少<span style=\"color:#158bdb\">-2</span>。"
     },
     {
       "name": "幼兽",

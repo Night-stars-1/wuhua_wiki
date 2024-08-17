@@ -49,7 +49,7 @@
     },
     {
       "name": "可可生长",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">140%</span>的物理伤害，并使自身攻击力提高<span style=\"color:#158bdb\">10%</span>，闪避率提高<span style=\"color:#158bdb\">10%</span>，效果持续<span style=\"color:#158bdb\">10</span>回合。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">140%</span>的物理伤害，并使自身攻击力提高<span style=\"color:#158bdb\">20%</span>，闪避率提高<span style=\"color:#158bdb\">10%</span>，效果持续<span style=\"color:#158bdb\">2</span>回合。",
       "tag": [
         "射程1格 ",
         "消耗:3"

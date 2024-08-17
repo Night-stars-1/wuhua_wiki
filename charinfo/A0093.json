@@ -62,7 +62,7 @@
     },
     {
       "name": "漆流纹动",
-      "des": "处于<span style=\"color:#ff6724\">瞄准</span>状态时，自身常击伤害提高<span style=\"color:#158bdb\">60%</span>；\n对当前生命值低于最大生命值<span style=\"color:#158bdb\">50%</span>的敌方单位进行常击时，该次攻击造成的伤害降低<span style=\"color:#158bdb\">50%</span>。",
+      "des": "处于<span style=\"color:#ff6724\">瞄准</span>状态时，自身常击伤害提高<span style=\"color:#158bdb\">60%</span>；\n对当前生命值低于最大生命值<span style=\"color:#158bdb\">50%</span>的敌方单位进行常击时，该次攻击造成的伤害降低<span style=\"color:#158bdb\">90%</span>。",
       "tag": [
         "被动触发"
       ],
@@ -74,7 +74,7 @@
     },
     {
       "name": "幽瞳",
-      "des": "处于<span style=\"color:#ff6724\">瞄准</span>状态时，常击后进行连击，对受击单位造成自身攻击力<span style=\"color:#158bdb\">35%</span>的物理伤害，若其当前生命值低于最大生命值的<span style=\"color:#158bdb\">50%</span>，则该次连击伤害倍率提高至<span style=\"color:#158bdb\">50</span>倍，且防御穿透提高<span style=\"color:#158bdb\">50%</span>。",
+      "des": "处于<span style=\"color:#ff6724\">瞄准</span>状态时，常击后进行连击，对受击单位造成自身攻击力<span style=\"color:#158bdb\">35%</span>的物理伤害，若其当前生命值低于最大生命值的<span style=\"color:#158bdb\">50%</span>，则该次连击伤害倍率提高至<span style=\"color:#158bdb\">3</span>倍，且防御穿透提高<span style=\"color:#158bdb\">70%</span>。",
       "tag": [
         "被动触发"
       ],
@@ -82,7 +82,7 @@
       "icon": "skillicon_A009304",
       "buff": [],
       "type": 2,
-      "special": "处于<span style=\"color:#ff6724\">瞄准</span>状态时，常击后进行连击，对受击单位造成自身攻击力<span style=\"color:#158bdb\">35%</span>的物理伤害，若其当前生命值低于最大生命值的<span style=\"color:#158bdb\">75%</span>，则该次连击伤害倍率提高至<span style=\"color:#158bdb\">75</span>倍，且防御穿透提高<span style=\"color:#158bdb\">75%</span>。"
+      "special": "处于<span style=\"color:#ff6724\">瞄准</span>状态时，常击后进行连击，对受击单位造成自身攻击力<span style=\"color:#158bdb\">35%</span>的物理伤害，若其当前生命值低于最大生命值的<span style=\"color:#158bdb\">75%</span>，则该次连击伤害倍率提高至<span style=\"color:#158bdb\">3</span>倍，且防御穿透提高<span style=\"color:#158bdb\">70%</span>。"
     },
     {
       "name": "喵喵不绝",

@@ -49,7 +49,7 @@
     },
     {
       "name": "仓禀累实",
-      "des": "使自身进入<span style=\"color:#ff6724\">活力</span>状态，效果持续<span style=\"color:#158bdb\">10</span>回合。之后对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">210%</span>的物理伤害。",
+      "des": "使自身进入<span style=\"color:#ff6724\">活力</span>状态，效果持续<span style=\"color:#158bdb\">2</span>回合。之后对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">210%</span>的物理伤害。",
       "tag": [
         "十字3格",
         "消耗:3"

@@ -75,7 +75,7 @@
     },
     {
       "name": "谈狐说鬼",
-      "des": "攻击前，对目标施加<span style=\"color:#ff6724\">暗影幢幢</span>效果，持续<span style=\"color:#158bdb\">20</span>回合。",
+      "des": "攻击前，对目标施加<span style=\"color:#ff6724\">暗影幢幢</span>效果，持续<span style=\"color:#158bdb\">2</span>回合。",
       "tag": [
         "被动触发"
       ],
@@ -88,7 +88,7 @@
         }
       ],
       "type": 2,
-      "special": "攻击前，对目标施加<span style=\"color:#ff6724\">暗影幢幢</span>效果，持续<span style=\"color:#158bdb\">40</span>回合，通过触发<span style=\"color:#ff6724\">暗影幢幢</span>生成持续伤害效果时，将会直接生成<span style=\"color:#158bdb\">2</span>次。"
+      "special": "攻击前，对目标施加<span style=\"color:#ff6724\">暗影幢幢</span>效果，持续<span style=\"color:#158bdb\">2</span>回合，通过触发<span style=\"color:#ff6724\">暗影幢幢</span>生成持续伤害效果时，将会直接生成<span style=\"color:#158bdb\">2</span>次。"
     },
     {
       "name": "妍丑易念",

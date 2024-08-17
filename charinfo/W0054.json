@@ -86,7 +86,7 @@
     },
     {
       "name": "神谕",
-      "des": "攻击敌方单位时，若该目标处于<span style=\"color:#ff6724\">玉敛</span>状态，则有<span style=\"color:#158bdb\">30%</span>概率使其能量减少<span style=\"color:#158bdb\">30</span>点。",
+      "des": "攻击敌方单位时，若该目标处于<span style=\"color:#ff6724\">玉敛</span>状态，则有<span style=\"color:#158bdb\">30%</span>概率使其能量减少<span style=\"color:#158bdb\">-1</span>点。",
       "tag": [
         "被动触发"
       ],
@@ -99,7 +99,7 @@
         }
       ],
       "type": 2,
-      "special": "攻击敌方单位时，若该目标处于<span style=\"color:#ff6724\">玉敛</span>状态，则有<span style=\"color:#158bdb\">50%</span>概率使其能量减少<span style=\"color:#158bdb\">50</span>点。"
+      "special": "攻击敌方单位时，若该目标处于<span style=\"color:#ff6724\">玉敛</span>状态，则有<span style=\"color:#158bdb\">50%</span>概率使其能量减少<span style=\"color:#158bdb\">-1</span>点。"
     },
     {
       "name": "浅雕",

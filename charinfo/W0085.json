@@ -83,7 +83,7 @@
     },
     {
       "name": "暖香沁人",
-      "des": "当场上拥有<span style=\"color:#ff6724\">荧光棒</span>和<span style=\"color:#ff6724\">应援棒</span>状态的目标大于等于<span style=\"color:#158bdb\">3</span>时，常击变为<span style=\"color:#158bdb\">1</span>格范围伤害，自身造成的构素伤害提高<span style=\"color:#158bdb\">3%</span>。",
+      "des": "当场上拥有<span style=\"color:#ff6724\">荧光棒</span>和<span style=\"color:#ff6724\">应援棒</span>状态的目标大于等于<span style=\"color:#158bdb\">3</span>时，常击变为<span style=\"color:#158bdb\">1</span>格范围伤害，自身造成的构素伤害提高<span style=\"color:#158bdb\">20%</span>。",
       "tag": [
         "被动触发"
       ],
@@ -91,7 +91,7 @@
       "icon": "skillicon_W008504",
       "buff": [],
       "type": 2,
-      "special": "当场上拥有<span style=\"color:#ff6724\">荧光棒</span>和<span style=\"color:#ff6724\">应援棒</span>状态的目标大于等于<span style=\"color:#158bdb\">3</span>时，常击变为<span style=\"color:#158bdb\">1</span>格范围伤害，自身造成的构素伤害提高<span style=\"color:#158bdb\">3%</span>。"
+      "special": "当场上拥有<span style=\"color:#ff6724\">荧光棒</span>和<span style=\"color:#ff6724\">应援棒</span>状态的目标大于等于<span style=\"color:#158bdb\">3</span>时，常击变为<span style=\"color:#158bdb\">1</span>格范围伤害，自身造成的构素伤害提高<span style=\"color:#158bdb\">20%</span>。"
     },
     {
       "name": "星梦熠熠",

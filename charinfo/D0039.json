@@ -86,7 +86,7 @@
     },
     {
       "name": "星狩",
-      "des": "自身生命值低于<span style=\"color:#158bdb\">15%</span>时，受到攻击时有<span style=\"color:#158bdb\">15%</span>使攻击者眩晕<span style=\"color:#158bdb\">1</span>回合。每次行动周期可触发<span style=\"color:#158bdb\">15</span>次。",
+      "des": "自身生命值低于<span style=\"color:#158bdb\">50%</span>时，受到攻击时有<span style=\"color:#158bdb\">15%</span>使攻击者眩晕<span style=\"color:#158bdb\">1</span>回合。每次行动周期可触发<span style=\"color:#158bdb\">1</span>次。",
       "tag": [
         "被动触发"
       ],
@@ -94,7 +94,7 @@
       "icon": "skillicon_D003905",
       "buff": [],
       "type": 2,
-      "special": "自身生命值低于<span style=\"color:#158bdb\">30%</span>时，受到攻击时有<span style=\"color:#158bdb\">30%</span>使攻击者眩晕<span style=\"color:#158bdb\">1</span>回合。每次行动周期可触发<span style=\"color:#158bdb\">30</span>次。"
+      "special": "自身生命值低于<span style=\"color:#158bdb\">50%</span>时，受到攻击时有<span style=\"color:#158bdb\">30%</span>使攻击者眩晕<span style=\"color:#158bdb\">1</span>回合。每次行动周期可触发<span style=\"color:#158bdb\">1</span>次。"
     },
     {
       "name": "万神朝来",

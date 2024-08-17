@@ -49,7 +49,7 @@
     },
     {
       "name": "闪亮雨衣",
-      "des": "对选定的敌方单位及其<span style=\"color:#158bdb\">周围1格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">140%</span>的构素伤害，并使其获得<span style=\"color:#ff6724\">冰雨</span>状态，持续<span style=\"color:#158bdb\">-30</span>回合。",
+      "des": "对选定的敌方单位及其<span style=\"color:#158bdb\">周围1格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">140%</span>的构素伤害，并使其获得<span style=\"color:#ff6724\">冰雨</span>状态，持续<span style=\"color:#158bdb\">2</span>回合。",
       "tag": [
         "射程2格",
         "消耗:3"
@@ -67,7 +67,7 @@
     },
     {
       "name": "风调雨顺",
-      "des": "使用常击或职业技能时，若选定的敌方单位处于速度降低的状态，则有<span style=\"color:#158bdb\">1%</span>概率使自身获得<span style=\"color:#158bdb\">1</span>点能量。",
+      "des": "使用常击或职业技能时，若选定的敌方单位处于速度降低的状态，则有<span style=\"color:#158bdb\">50%</span>概率使自身获得<span style=\"color:#158bdb\">1</span>点能量。",
       "tag": [
         "被动触发"
       ],
@@ -75,7 +75,7 @@
       "icon": "skillicon_W000203",
       "buff": [],
       "type": 2,
-      "special": "使用常击或职业技能时，若选定的敌方单位处于速度降低的状态，则有<span style=\"color:#158bdb\">1%</span>概率使自身获得<span style=\"color:#158bdb\">1</span>点能量。"
+      "special": "使用常击或职业技能时，若选定的敌方单位处于速度降低的状态，则有<span style=\"color:#158bdb\">70%</span>概率使自身获得<span style=\"color:#158bdb\">1</span>点能量。"
     },
     {
       "name": "烧灼显纹",
@@ -103,7 +103,7 @@
     },
     {
       "name": "人工降雨",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">50%</span>的构素伤害，并使其获得<span style=\"color:#ff6724\">冰雨</span>状态，持续<span style=\"color:#158bdb\">-30</span>回合。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">50%</span>的构素伤害，并使其获得<span style=\"color:#ff6724\">冰雨</span>状态，持续<span style=\"color:#158bdb\">2</span>回合。",
       "tag": [
         "射程2格",
         "无消耗"

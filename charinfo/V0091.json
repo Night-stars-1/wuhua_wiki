@@ -100,7 +100,7 @@
     },
     {
       "name": "三千越甲",
-      "des": "攻击触发贯穿效果时，若自身贯穿率高于<span style=\"color:#158bdb\">40%</span>，则本次攻击中暴击伤害增加当前贯穿率高于<span style=\"color:#158bdb\">40%</span>的部分的<span style=\"color:#158bdb\">40%</span>。",
+      "des": "攻击触发贯穿效果时，若自身贯穿率高于<span style=\"color:#158bdb\">40%</span>，则本次攻击中暴击伤害增加当前贯穿率高于<span style=\"color:#158bdb\">40%</span>的部分的<span style=\"color:#158bdb\">30%</span>。",
       "tag": [
         "被动触发"
       ],

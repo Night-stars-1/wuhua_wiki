@@ -62,7 +62,7 @@
     },
     {
       "name": "云雷弥漫",
-      "des": "使用职业技能后，进行持续<span style=\"color:#158bdb\">1</span>回合的协助瞄准，强化自身<span style=\"color:#158bdb\">3</span>格范围内的友军远击，使其攻击过程中获得<span style=\"color:#158bdb\">3%</span>防御穿透率。",
+      "des": "使用职业技能后，进行持续<span style=\"color:#158bdb\">1</span>回合的协助瞄准，强化自身<span style=\"color:#158bdb\">3</span>格范围内的友军远击，使其攻击过程中获得<span style=\"color:#158bdb\">10%</span>防御穿透率。",
       "tag": [
         "被动触发"
       ],
@@ -70,11 +70,11 @@
       "icon": "skillicon_A008403",
       "buff": [],
       "type": 2,
-      "special": "使用职业技能后，进行持续<span style=\"color:#158bdb\">1</span>回合的协助瞄准，强化自身<span style=\"color:#158bdb\">4</span>格范围内的友军远击，使其攻击过程中获得<span style=\"color:#158bdb\">4%</span>防御穿透率。"
+      "special": "使用职业技能后，进行持续<span style=\"color:#158bdb\">1</span>回合的协助瞄准，强化自身<span style=\"color:#158bdb\">4</span>格范围内的友军远击，使其攻击过程中获得<span style=\"color:#158bdb\">10%</span>防御穿透率。"
     },
     {
       "name": "鸣金",
-      "des": "协助瞄准范围内，友方远击进行常击后获得<span style=\"color:#ff6724\">铜锈</span>状态,持续<span style=\"color:#158bdb\">5</span>回合。",
+      "des": "协助瞄准范围内，友方远击进行常击后获得<span style=\"color:#ff6724\">铜锈</span>状态,持续<span style=\"color:#158bdb\">2</span>回合。",
       "tag": [
         "被动触发"
       ],
@@ -91,7 +91,7 @@
     },
     {
       "name": "收兵",
-      "des": "协助瞄准范围内，友方单位进行击退时，提高自身<span style=\"color:#158bdb\">20%</span>瞄准冷却率，持续<span style=\"color:#158bdb\">20</span>回合，最多叠加<span style=\"color:#158bdb\">2</span>层。",
+      "des": "协助瞄准范围内，友方单位进行击退时，提高自身<span style=\"color:#158bdb\">20%</span>瞄准冷却率，持续<span style=\"color:#158bdb\">2</span>回合，最多叠加<span style=\"color:#158bdb\">2</span>层。",
       "tag": [
         "被动触发"
       ],

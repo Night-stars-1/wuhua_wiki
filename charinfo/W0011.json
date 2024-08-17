@@ -67,7 +67,7 @@
     },
     {
       "name": "煊赫",
-      "des": "当友方单位的<span style=\"color:#ff6724\">金羽</span>状态消失时，使其回复鹦鹉银罐最大生命值<span style=\"color:#158bdb\">5|200</span>的生命值。",
+      "des": "当友方单位的<span style=\"color:#ff6724\">金羽</span>状态消失时，使其回复鹦鹉银罐最大生命值<span style=\"color:#158bdb\">5%+200</span>的生命值。",
       "tag": [
         "被动触发"
       ],
@@ -103,7 +103,7 @@
     },
     {
       "name": "化药",
-      "des": "为选定的友方单体回复自身最大生命值<span style=\"color:#158bdb\">15|200</span>的生命值。",
+      "des": "为选定的友方单体回复自身最大生命值<span style=\"color:#158bdb\">15%+200</span>的生命值。",
       "tag": [
         "射程2格",
         "消耗:1"

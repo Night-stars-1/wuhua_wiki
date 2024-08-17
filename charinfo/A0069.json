@@ -84,7 +84,7 @@
     },
     {
       "name": "落叶归根",
-      "des": "处于<span style=\"color:#ff6724\">瞄准</span>状态下进行攻击后，消耗自身所有的<span style=\"color:#ff6724\">供奉</span>状态。每消耗<span style=\"color:#158bdb\">1</span>层，使自身获得暴击率增加<span style=\"color:#158bdb\">10%</span>，效果持续<span style=\"color:#158bdb\">10</span>回合。若同时消耗<span style=\"color:#158bdb\">3</span>层，则使自身获得额外行动<span style=\"color:#158bdb\">1</span>次。",
+      "des": "处于<span style=\"color:#ff6724\">瞄准</span>状态下进行攻击后，消耗自身所有的<span style=\"color:#ff6724\">供奉</span>状态。每消耗<span style=\"color:#158bdb\">1</span>层，使自身获得暴击率增加<span style=\"color:#158bdb\">10%</span>，效果持续<span style=\"color:#158bdb\">2</span>回合。若同时消耗<span style=\"color:#158bdb\">3</span>层，则使自身获得额外行动<span style=\"color:#158bdb\">1</span>次。",
       "tag": [
         "被动触发"
       ],

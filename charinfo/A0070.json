@@ -92,7 +92,7 @@
     },
     {
       "name": "粤地风貌",
-      "des": "战斗中自身攻击不触发暴击。\n回合开始时，自身每拥有<span style=\"color:#158bdb\">1%</span>的暴击率，则造成的伤害提高<span style=\"color:#158bdb\">0.5%</span>，自身暴击伤害超过<span style=\"color:#158bdb\">150%</span>的部分，每超出<span style=\"color:#158bdb\">1%</span>，则瞄准冷却率增加<span style=\"color:#158bdb\">0.5%</span>，效果持续至自身回合结束。",
+      "des": "战斗中自身攻击不触发暴击。\n回合开始时，自身每拥有<span style=\"color:#158bdb\">1%</span>的暴击率，则造成的伤害提高<span style=\"color:#158bdb\">0.4%</span>，自身暴击伤害超过<span style=\"color:#158bdb\">150%</span>的部分，每超出<span style=\"color:#158bdb\">1%</span>，则瞄准冷却率增加<span style=\"color:#158bdb\">0.5%</span>，效果持续至自身回合结束。",
       "tag": [
         "被动触发"
       ],

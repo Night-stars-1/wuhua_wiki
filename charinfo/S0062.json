@@ -49,7 +49,7 @@
     },
     {
       "name": "新芽唤春",
-      "des": "为自身及<span style=\"color:#158bdb\">周围2格</span>的友方全体回复自身攻击力<span style=\"color:#158bdb\">10|400</span>的生命值。",
+      "des": "为自身及<span style=\"color:#158bdb\">周围2格</span>的友方全体回复自身攻击力<span style=\"color:#158bdb\">10%+400</span>的生命值。",
       "tag": [
         "自身",
         "消耗:4"
@@ -83,7 +83,7 @@
       "buff": [
         {
           "name": "<span style=\"color:#ff6724\">春泥</span>",
-          "des": "驱散自身<span style=\"color:#158bdb\">1</span>个负面状态，驱散后消耗此状态。消耗此状态时，使自身回复诗文执壶攻击力<span style=\"color:#158bdb\">3|100</span>的生命值。"
+          "des": "驱散自身<span style=\"color:#158bdb\">1</span>个负面状态，驱散后消耗此状态。消耗此状态时，使自身回复诗文执壶攻击力<span style=\"color:#158bdb\">3%+100</span>的生命值。"
         }
       ],
       "type": 2,
@@ -108,7 +108,7 @@
     },
     {
       "name": "卉木萋萋",
-      "des": "使用后为自身填充<span style=\"color:#158bdb\">3</span>枚<span style=\"color:#ff6724\">礼弹</span>并进入警戒状态：以自身<span style=\"color:#158bdb\">周围3格</span>为警戒范围，对进入该范围且生命值低于<span style=\"color:#158bdb\">100%</span>的友军进行警戒治疗，恢复攻击力<span style=\"color:#158bdb\">3</span>的生命值。",
+      "des": "使用后为自身填充<span style=\"color:#158bdb\">3</span>枚<span style=\"color:#ff6724\">礼弹</span>并进入警戒状态：以自身<span style=\"color:#158bdb\">周围3格</span>为警戒范围，对进入该范围且生命值低于<span style=\"color:#158bdb\">100%</span>的友军进行警戒治疗，恢复攻击力<span style=\"color:#158bdb\">20%+300</span>的生命值。",
       "tag": [
         "自身",
         "无消耗"

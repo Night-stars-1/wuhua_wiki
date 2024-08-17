@@ -67,7 +67,7 @@
     },
     {
       "name": "驱暗",
-      "des": "每<span style=\"color:#158bdb\">1</span>回合结束时，为自身<span style=\"color:#158bdb\">周围2格</span>内除自身外的友方全体回复自身攻击力<span style=\"color:#158bdb\">10|200</span>生命值。",
+      "des": "每<span style=\"color:#158bdb\">1</span>回合结束时，为自身<span style=\"color:#158bdb\">周围2格</span>内除自身外的友方全体回复自身攻击力<span style=\"color:#158bdb\">10%+200</span>生命值。",
       "tag": [
         "被动触发"
       ],
@@ -79,7 +79,7 @@
     },
     {
       "name": "余辉",
-      "des": "自身生命值每降低<span style=\"color:#158bdb\">10%</span>，则自身攻击力提高<span style=\"color:#158bdb\">35%</span>，最多可提高至<span style=\"color:#158bdb\">35%</span>。",
+      "des": "自身生命值每降低<span style=\"color:#158bdb\">10%</span>，则自身攻击力提高<span style=\"color:#158bdb\">5%</span>，最多可提高至<span style=\"color:#158bdb\">35%</span>。",
       "tag": [
         "被动触发"
       ],
@@ -108,7 +108,7 @@
     },
     {
       "name": "燃己为烛",
-      "des": "消耗自身最大生命值<span style=\"color:#158bdb\">24%</span>的生命值，为<span style=\"color:#158bdb\">周围2格</span>内除自身外的友方全体回复自身攻击力<span style=\"color:#158bdb\">15|400</span>的生命值。",
+      "des": "消耗自身最大生命值<span style=\"color:#158bdb\">24%</span>的生命值，为<span style=\"color:#158bdb\">周围2格</span>内除自身外的友方全体回复自身攻击力<span style=\"color:#158bdb\">15%+400</span>的生命值。",
       "tag": [
         "自身",
         "无消耗"
