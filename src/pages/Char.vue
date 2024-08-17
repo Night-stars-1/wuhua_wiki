@@ -2,7 +2,7 @@
  * @Author: Night-stars-1 nujj1042633805@gmail.com
  * @Date: 2024-07-20 19:47:57
  * @LastEditors: Night-stars-1 nujj1042633805@gmail.com
- * @LastEditTime: 2024-08-17 17:08:17
+ * @LastEditTime: 2024-08-17 17:16:48
 -->
 <template>
   <el-row class="char-container">
@@ -14,15 +14,20 @@
         </template>
       </el-button>
       <el-dropdown>
-      <el-button class="skin-list-button">
-        {{ data.skin?.[skinIndex].name }}<el-icon class="el-icon--right"><ArrowUp /></el-icon>
-      </el-button>
-      <template #dropdown>
-        <el-dropdown-menu>
-          <el-dropdown-item v-for="skin, index in data.skin" @click="skinIndex = index">{{ skin.name }}</el-dropdown-item>
-        </el-dropdown-menu>
-      </template>
-    </el-dropdown>
+        <el-button class="skin-list-button">
+          {{ data.skin?.[skinIndex].name
+          }}<el-icon class="el-icon--right"><ArrowUp /></el-icon>
+        </el-button>
+        <template #dropdown>
+          <el-dropdown-menu>
+            <el-dropdown-item
+              v-for="(skin, index) in data.skin"
+              @click="skinIndex = index"
+              >{{ skin.name }}</el-dropdown-item
+            >
+          </el-dropdown-menu>
+        </template>
+      </el-dropdown>
       <CharView :id="id" :skinId="data.skin?.[skinIndex].id" v-if="data.skin" />
     </el-col>
     <el-col :md="12" style="flex: 1" v-if="data?.info && data?.skill">
@@ -158,6 +163,14 @@ watch(
 @media (max-width: 992px) {
   .char-list-button {
     left: 1rem;
+  }
+
+  /** 皮肤列表 */
+  .skin-list-button {
+    position: fixed;
+    top: 490px;
+    left: 1rem;
+    z-index: 99;
   }
 }
 </style>

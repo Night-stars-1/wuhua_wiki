@@ -6,6 +6,18 @@
   background-color: rgb(156 156 156 / 20%) !important;
 }
 
+#background {
+  background-position: 50%;
+  background-size: cover;
+  filter: blur(15px) brightness(.85);
+  height: 100vh;
+  position: fixed;
+  scale: 1.1;
+  top: 0;
+  width: 100vw;
+  z-index: -1
+}
+
 .panel {
   .el-tabs {
     .el-tabs--border-card {

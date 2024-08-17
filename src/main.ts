@@ -7,7 +7,8 @@
 import { createApp } from "vue";
 import ElementPlus from "element-plus";
 import zhCn from "element-plus/es/locale/lang/zh-cn";
-import "./assets/style.scss";
+import "@/assets/style.scss";
+import "@/assets/scrollbar.scss"
 import App from "./App.vue";
 import router from "@/plugin/router";
 import axios from "@/plugin/axios";

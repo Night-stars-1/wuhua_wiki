@@ -15,4 +15,5 @@
     <el-button>角色信息</el-button>
   </router-link>
   <router-view />
+  <div id="background" />
 </template>
