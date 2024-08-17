@@ -2,7 +2,7 @@
  * @Author: Night-stars-1 nujj1042633805@gmail.com
  * @Date: 2024-07-20 19:47:57
  * @LastEditors: Night-stars-1 nujj1042633805@gmail.com
- * @LastEditTime: 2024-08-17 17:16:48
+ * @LastEditTime: 2024-08-17 18:53:58
 -->
 <template>
   <el-row class="char-container">
@@ -28,7 +28,7 @@
           </el-dropdown-menu>
         </template>
       </el-dropdown>
-      <CharView :id="id" :skinId="data.skin?.[skinIndex].id" v-if="data.skin" />
+      <CharView :id="id" :skinId="data.skin?.[skinIndex].id" />
     </el-col>
     <el-col :md="12" style="flex: 1" v-if="data?.info && data?.skill">
       <Panel class="char">
@@ -101,6 +101,7 @@ async function getCharData() {
   try {
     const charData = await http.get(`charinfo/${id.value}.json`);
     data.value = charData.data;
+    skinIndex.value = 0;
   } catch (error) {
     console.error("Error fetching the user data:", error);
   }

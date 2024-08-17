@@ -16,7 +16,7 @@
 <script lang="ts" setup>
 defineProps<{
   id: string;
-  skinId: string;
+  skinId?: string;
 }>();
 </script>
 
