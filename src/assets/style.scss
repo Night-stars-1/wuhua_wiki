@@ -13,13 +13,39 @@
     }
 
     .el-tabs__header {
-      .el-tabs__item.is-active {
-        background-color: rgb(231 201 201);
+      .el-tabs__nav-scroll {
+        padding-left: 20px;
+        padding-right: 20px;
       }
 
       background-color: unset;
     }
+
+    .el-card__body {
+      padding-top: 5px;
+    }
     background-color: unset;
+  }
+
+  .el-tabs.el-tabs--border-card {
+    .el-tabs__item.is-active {
+      background-color: rgb(231 201 201);
+    }
+
+    .el-tabs__item {
+      border-top-left-radius: 10px;
+    }
+
+    .el-tabs__header {
+      .el-tabs__nav-scroll {
+        padding-left: 0px;
+        padding-right: 0px;
+      }
+    }
+
+    .el-card__body {
+      padding-top: var(--el-card-padding);
+    }
   }
 
   .el-table {
@@ -39,7 +65,7 @@
       background-color: rgb(236, 223, 223);
     }
   }
-  
+
   .el-switch {
     .el-switch__core {
       .el-switch__action {

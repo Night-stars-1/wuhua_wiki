@@ -2,7 +2,7 @@
  * @Author: Night-stars-1 nujj1042633805@gmail.com
  * @Date: 2024-07-20 19:47:57
  * @LastEditors: Night-stars-1 nujj1042633805@gmail.com
- * @LastEditTime: 2024-07-31 16:03:47
+ * @LastEditTime: 2024-08-17 16:18:08
 -->
 <template>
   <el-row class="char-container">
@@ -25,9 +25,17 @@
           <el-tab-pane label="技能">
             <CharSkill :id="id" :dataList="data.skill" />
           </el-tab-pane>
-          <el-tab-pane label="致知">致知</el-tab-pane>
+          <el-tab-pane label="致知">
+            <el-card>
+              致知
+            </el-card>
+          </el-tab-pane>
           <!-- <el-tab-pane label="精研">精研</el-tab-pane> -->
-          <el-tab-pane label="档案">档案</el-tab-pane>
+          <el-tab-pane label="档案">
+            <el-card>
+              档案
+            </el-card>
+          </el-tab-pane>
         </el-tabs>
       </Panel>
     </el-col>
@@ -35,7 +43,7 @@
   <Transition>
     <div
       v-if="isShowCharList"
-      class="screen"
+      class="char-list-screen"
       @click="isShowCharList = false"
     ></div>
   </Transition>
@@ -88,32 +96,28 @@ watch(
 );
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .char {
   position: relative;
   z-index: 100;
 }
-.char-container {
-  .el-tabs__nav-scroll {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-}
 
+/** 器者列表 */
 .char-list-button {
   position: fixed;
   top: 4rem;
   left: 2rem;
   z-index: 99;
 }
-
-.screen {
+/** 器者列表面板 */
+.char-list-screen {
   position: fixed;
   top: 0px;
   width: 100%;
   height: 100%;
 }
 
+/** 器者列表动画 */
 .char-list-enter-active,
 .char-list-leave-active {
   transition-duration: 0.3s;
@@ -121,7 +125,7 @@ watch(
     transition: all 0.3s ease-out;
   }
 }
-
+/** 器者列表动画 */
 .char-list-enter-from,
 .char-list-leave-to {
   .char-list {
