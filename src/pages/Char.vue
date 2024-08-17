@@ -2,7 +2,7 @@
  * @Author: Night-stars-1 nujj1042633805@gmail.com
  * @Date: 2024-07-20 19:47:57
  * @LastEditors: Night-stars-1 nujj1042633805@gmail.com
- * @LastEditTime: 2024-08-17 18:53:58
+ * @LastEditTime: 2024-08-17 19:05:31
 -->
 <template>
   <el-row class="char-container">
@@ -56,15 +56,13 @@
       </Panel>
     </el-col>
   </el-row>
-  <Transition>
-    <div
-      v-if="isShowCharList"
-      class="char-list-screen"
-      @click="isShowCharList = false"
-    ></div>
-  </Transition>
   <Transition name="char-list">
     <div v-if="isShowCharList" class="char-list-wrapper">
+      <div
+        v-if="isShowCharList"
+        class="char-list-exit-screen"
+        @click="isShowCharList = false"
+      />
       <CharList
         class="char-list"
         :data="allChar"
@@ -128,8 +126,8 @@ watch(
   left: 2rem;
   z-index: 99;
 }
-/** 器者列表面板 */
-.char-list-screen {
+/** 器者列表关闭面板 */
+.char-list-exit-screen {
   position: fixed;
   top: 0px;
   width: 100%;
