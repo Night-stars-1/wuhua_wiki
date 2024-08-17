@@ -2,12 +2,17 @@
  * @Author: Night-stars-1 nujj1042633805@gmail.com
  * @Date: 2024-07-26 11:59:41
  * @LastEditors: Night-stars-1 nujj1042633805@gmail.com
- * @LastEditTime: 2024-08-01 17:46:45
+ * @LastEditTime: 2024-08-17 17:38:21
 -->
 <template>
   <div class="char-name">
     <el-row justify="space-between">
-      <div>{{ name }} - {{ rare }} - {{ job }} - {{ tag }}</div>
+      <div>
+        <span :id="rare">{{ name }}</span> - {{ job }}
+      </div>
+      <el-space>
+        <el-tag type="primary" v-for="tagName in tag.split(';')">{{ tagName }}</el-tag>
+      </el-space>
     </el-row>
   </div>
 </template>
@@ -19,18 +24,18 @@ const props = defineProps<{
   jobId: number;
   tag: string;
 }>();
-const rareId2rare: {[key: number]: string} = {
+const rareId2rare: { [key: number]: string } = {
   2: "新生",
   3: "优异",
-  4: "特出"
-}
-const jobId2job: {[key: number]: string} = {
+  4: "特出",
+};
+const jobId2job: { [key: number]: string } = {
   1: "宿卫",
   2: "轻锐",
   3: "远击",
   4: "构术",
-  5: "战略"
-}
+  5: "战略",
+};
 const rare = computed(() => rareId2rare?.[props.rareId]);
 const job = computed(() => jobId2job?.[props.jobId]);
 </script>
@@ -40,5 +45,15 @@ const job = computed(() => jobId2job?.[props.jobId]);
   margin-top: 10px;
   margin-left: 20px;
   margin-right: 20px;
+}
+
+#新生 {
+  color: #42b8dd;
+}
+#优异 {
+  color: #003261;
+}
+#特出 {
+  color: #db2828;
 }
 </style>
