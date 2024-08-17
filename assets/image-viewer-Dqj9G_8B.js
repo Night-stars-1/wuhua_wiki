@@ -1,1 +1,0 @@
-import{_ as s,o as n,b as o,e as t,ab as c}from"./index-CADhshk1.js";const _={},a={class:"panel"},r={class:"content"};function d(e,l){return n(),o("div",a,[t("div",r,[c(e.$slots,"default",{},void 0,!0)])])}const p=s(_,[["render",d],["__scopeId","data-v-d2e507c9"]]);export{p as _};
