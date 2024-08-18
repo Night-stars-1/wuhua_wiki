@@ -57,7 +57,7 @@
       "level": 1,
       "icon": "skillicon_D008902",
       "buff": [],
-      "type": 1,
+      "type": 3,
       "special": null
     },
     {
@@ -74,7 +74,7 @@
           "des": "当友方单位受到伤害时，代替其承受伤害。\n<span style=\"color:#db2424\">只可对除绝技、警戒攻击和回击外造成单体伤害的攻击生效。</span>"
         }
       ],
-      "type": 2,
+      "type": 4,
       "special": "格挡率提升<span style=\"color:#158bdb\">30%</span>，受到毛公鼎攻击的目标会被标记，被标记目标攻击毛公鼎距离<span style=\"color:#158bdb\">4</span>格内的友方目标时会被毛公鼎<span style=\"color:#ff6724\">援护</span>，标记生效<span style=\"color:#158bdb\">2</span>回合。"
     },
     {
@@ -86,7 +86,7 @@
       "level": 1,
       "icon": "skillicon_D008904",
       "buff": [],
-      "type": 2,
+      "type": 5,
       "special": null
     },
     {
@@ -98,7 +98,7 @@
       "level": 1,
       "icon": "skillicon_D008905",
       "buff": [],
-      "type": 2,
+      "type": 6,
       "special": "提升<span style=\"color:#158bdb\">5%</span>生命上限，触发格挡时额外回复<span style=\"color:#158bdb\">1</span>能量，格挡减伤值增加<span style=\"color:#158bdb\">5%</span>。"
     },
     {
@@ -106,7 +106,8 @@
       "des": "使自身选定方向前<span style=\"color:#158bdb\">1</span>排的<span style=\"color:#158bdb\">3</span>格变为束缚格，效果持续<span style=\"color:#158bdb\">1</span>回合。若敌方单位进入束缚格，将无法离开束缚格范围，并进入<span style=\"color:#ff6724\">降攻</span>状态。",
       "tag": [
         "射程1格 ",
-        "无消耗"
+        "无消耗",
+        "冷却:2"
       ],
       "level": 1,
       "icon": "skillicon_Jobskill_D_Z",
@@ -116,7 +117,7 @@
           "des": "攻击力减低<span style=\"color:#158bdb\">20%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">1</span>层。"
         }
       ],
-      "type": 1,
+      "type": 2,
       "special": null
     }
   ],

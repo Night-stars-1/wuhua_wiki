@@ -62,7 +62,7 @@
           "des": "攻击力提高<span style=\"color:#158bdb\">10%</span>，物理防御力提高<span style=\"color:#158bdb\">5%</span>，每回合结束时回复自身<span style=\"color:#158bdb\">10%</span>生命，持续<span style=\"color:#158bdb\">2</span>回合。"
         }
       ],
-      "type": 1,
+      "type": 3,
       "special": null
     },
     {
@@ -79,7 +79,7 @@
           "des": "造成的伤害提升<span style=\"color:#158bdb\">5%</span>。"
         }
       ],
-      "type": 2,
+      "type": 4,
       "special": "当受到治疗的生命值超过自身最大生命值时，自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">春盛</span>状态，并有<span style=\"color:#158bdb\">50%</span>概率额外获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">春盛</span>。此状态最多可叠加<span style=\"color:#158bdb\">3</span>层，进行任意攻击时会消耗全部层数。"
     },
     {
@@ -91,7 +91,7 @@
       "level": 1,
       "icon": "skillicon_A000104",
       "buff": [],
-      "type": 2,
+      "type": 5,
       "special": null
     },
     {
@@ -103,7 +103,7 @@
       "level": 1,
       "icon": "skillicon_A000105",
       "buff": [],
-      "type": 2,
+      "type": 6,
       "special": null
     },
     {
@@ -111,7 +111,8 @@
       "des": "使用后自身获得<span style=\"color:#158bdb\">1</span>次不可移动的再行动，并进入<span style=\"color:#ff6724\">瞄准</span>状态。",
       "tag": [
         "自身",
-        "无消耗"
+        "无消耗",
+        "冷却:3"
       ],
       "level": 1,
       "icon": "skillicon_Jobskill_A",
@@ -121,7 +122,7 @@
           "des": "此状态下进行攻击时，最大攻击距离增加<span style=\"color:#158bdb\">4</span>格，该次再行动结束后，此状态消失。"
         }
       ],
-      "type": 1,
+      "type": 2,
       "special": null
     }
   ],

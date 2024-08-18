@@ -62,7 +62,7 @@
           "des": "将生命值，能量值，技能冷却状态回复至上一次行动时的状态（保留更为有利的结果）。"
         }
       ],
-      "type": 1,
+      "type": 3,
       "special": "使选定友方单体立刻行动并获得伤害提高<span style=\"color:#158bdb\">15%</span>，同时进入<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">啸剑</span>状态；若该目标本轮次尚未行动，则在本轮次结束前获得额外行动<span style=\"color:#158bdb\">1</span>次；并使友方目标进入<span style=\"color:#ff6724\">回溯</span>状态。"
     },
     {
@@ -74,7 +74,7 @@
       "level": 1,
       "icon": "skillicon_S007703",
       "buff": [],
-      "type": 2,
+      "type": 4,
       "special": null
     },
     {
@@ -86,7 +86,7 @@
       "level": 1,
       "icon": "skillicon_S007704",
       "buff": [],
-      "type": 2,
+      "type": 5,
       "special": null
     },
     {
@@ -98,7 +98,7 @@
       "level": 1,
       "icon": "skillicon_S007705",
       "buff": [],
-      "type": 2,
+      "type": 6,
       "special": null
     },
     {
@@ -106,7 +106,8 @@
       "des": "使用后为自身填充<span style=\"color:#158bdb\">3</span>枚<span style=\"color:#ff6724\">礼弹</span>并进入警戒状态：以自身<span style=\"color:#158bdb\">周围3格</span>为警戒范围，对停留在该范围中的敌方单位进行警戒攻击，对其造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
       "tag": [
         "自身",
-        "无消耗"
+        "无消耗",
+        "冷却:3"
       ],
       "level": 1,
       "icon": "skillicon_Jobskill_S",
@@ -116,7 +117,7 @@
           "des": "填充<span style=\"color:#ff6724\">礼弹</span>则进入警戒状态，每次警戒攻击或治疗将消耗<span style=\"color:#ff6724\">礼弹</span>，<span style=\"color:#ff6724\">礼弹</span>清零后自动结束警戒状态。"
         }
       ],
-      "type": 1,
+      "type": 2,
       "special": null
     }
   ],

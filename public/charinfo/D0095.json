@@ -62,7 +62,7 @@
           "des": "提升最大生命值，最大叠加<span style=\"color:#158bdb\">4</span>层。"
         }
       ],
-      "type": 1,
+      "type": 3,
       "special": null
     },
     {
@@ -79,7 +79,7 @@
           "des": "提升最大生命值，最大叠加<span style=\"color:#158bdb\">4</span>层。"
         }
       ],
-      "type": 2,
+      "type": 4,
       "special": "受到直接伤害会获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">犇牛</span>效果，首次行动时直接获得<span style=\"color:#158bdb\">1</span>层，每层<span style=\"color:#ff6724\">犇牛</span>效果增加<span style=\"color:#158bdb\">5%</span>最大生命值，持续时间无限。"
     },
     {
@@ -91,7 +91,7 @@
       "level": 1,
       "icon": "skillicon_D009504",
       "buff": [],
-      "type": 2,
+      "type": 5,
       "special": null
     },
     {
@@ -108,7 +108,7 @@
           "des": "此伤害不触发暴击和贯穿效果，且无法被格挡。"
         }
       ],
-      "type": 2,
+      "type": 6,
       "special": "受到治疗时，将累计受到的治疗量，下一次回击时，将附加累计受到治疗量<span style=\"color:#158bdb\">40%</span>的<span style=\"color:#ff6724\">额外物理伤害</span>。"
     },
     {
@@ -116,7 +116,8 @@
       "des": "使自身选定方向前<span style=\"color:#158bdb\">1</span>排的<span style=\"color:#158bdb\">3</span>格变为束缚格，效果持续<span style=\"color:#158bdb\">1</span>回合。若敌方单位进入束缚格，将无法离开束缚格范围，并进入<span style=\"color:#ff6724\">破甲</span>状态。",
       "tag": [
         "射程1格 ",
-        "无消耗"
+        "无消耗",
+        "冷却:2"
       ],
       "level": 1,
       "icon": "skillicon_Jobskill_D_Z",
@@ -126,7 +127,7 @@
           "des": "物理防御降低<span style=\"color:#158bdb\">30%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">1</span>层。"
         }
       ],
-      "type": 1,
+      "type": 2,
       "special": null
     }
   ],

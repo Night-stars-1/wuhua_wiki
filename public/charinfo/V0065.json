@@ -57,7 +57,7 @@
       "level": 1,
       "icon": "skillicon_V006502",
       "buff": [],
-      "type": 1,
+      "type": 3,
       "special": null
     },
     {
@@ -69,7 +69,7 @@
       "level": 1,
       "icon": "skillicon_V006503",
       "buff": [],
-      "type": 2,
+      "type": 4,
       "special": null
     },
     {
@@ -81,7 +81,7 @@
       "level": 1,
       "icon": "skillicon_V006504",
       "buff": [],
-      "type": 2,
+      "type": 5,
       "special": "贯穿概率增加<span style=\"color:#158bdb\">40%</span>，对敌方单位造成贯穿时，使其移动距离减少<span style=\"color:#db2424\">-1</span>，持续<span style=\"color:#158bdb\">1</span>回合。"
     },
     {
@@ -93,7 +93,7 @@
       "level": 1,
       "icon": "skillicon_V006505",
       "buff": [],
-      "type": 2,
+      "type": 6,
       "special": null
     },
     {
@@ -101,12 +101,13 @@
       "des": "使用后自身获得再行动<span style=\"color:#158bdb\">1</span>次，该次再行动的移动力减少<span style=\"color:#158bdb\">2</span>。",
       "tag": [
         "自身",
-        "无消耗"
+        "无消耗",
+        "冷却:2"
       ],
       "level": 1,
       "icon": "skillicon_Jobskill_V",
       "buff": [],
-      "type": 1,
+      "type": 2,
       "special": null
     }
   ],

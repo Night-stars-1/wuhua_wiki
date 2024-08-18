@@ -57,7 +57,7 @@
       "level": 1,
       "icon": "skillicon_V005902",
       "buff": [],
-      "type": 1,
+      "type": 3,
       "special": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">200%</span>的物理伤害，若自身处于<span style=\"color:#ff6724\">为道</span>状态，则自身回复已损失生命值<span style=\"color:#158bdb\">10%</span>的生命值。"
     },
     {
@@ -74,7 +74,7 @@
           "des": "常击后进行连击，对受击敌方单位造成攻击力<span style=\"color:#158bdb\">70%</span>的物理伤害。"
         }
       ],
-      "type": 2,
+      "type": 4,
       "special": "使用常击或绝技时，若自身<span style=\"color:#158bdb\">周围2格</span>内不存在友方单位，则自身获得<span style=\"color:#ff6724\">为道</span>状态，效果持续<span style=\"color:#158bdb\">1</span>回合。"
     },
     {
@@ -95,7 +95,7 @@
           "des": "贯穿概率提高<span style=\"color:#158bdb\">20%</span>，持续<span style=\"color:#158bdb\">2</span>回合。"
         }
       ],
-      "type": 2,
+      "type": 5,
       "special": null
     },
     {
@@ -107,7 +107,7 @@
       "level": 1,
       "icon": "skillicon_V005905",
       "buff": [],
-      "type": 2,
+      "type": 6,
       "special": null
     },
     {
@@ -115,12 +115,13 @@
       "des": "使用后自身获得再行动<span style=\"color:#158bdb\">1</span>次，该次再行动的移动力减少<span style=\"color:#158bdb\">2</span>。",
       "tag": [
         "自身",
-        "无消耗"
+        "无消耗",
+        "冷却:2"
       ],
       "level": 1,
       "icon": "skillicon_Jobskill_V",
       "buff": [],
-      "type": 1,
+      "type": 2,
       "special": null
     }
   ],

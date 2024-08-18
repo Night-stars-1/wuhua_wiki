@@ -57,7 +57,7 @@
       "level": 1,
       "icon": "skillicon_W013402",
       "buff": [],
-      "type": 1,
+      "type": 3,
       "special": null
     },
     {
@@ -86,7 +86,7 @@
           "des": "<span style=\"color:#158bdb\">3</span>层<span style=\"color:#146cd8\">流纹</span>转化获得：\n使用绝技时，范围变为选定敌方及其<span style=\"color:#158bdb\">2</span>格，攻击力提升至<span style=\"color:#158bdb\">1.1</span>倍，并使受击敌方单位获得<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">寒天</span>状态。"
         }
       ],
-      "type": 2,
+      "type": 4,
       "special": null
     },
     {
@@ -103,7 +103,7 @@
           "des": "绝技的最大攻击距离增加<span style=\"color:#158bdb\">2</span>格，使用绝技后此状态消失。"
         }
       ],
-      "type": 2,
+      "type": 5,
       "special": null
     },
     {
@@ -124,7 +124,7 @@
           "des": "自身回合开始时额外获得<span style=\"color:#158bdb\">1</span>点能量，效果持续<span style=\"color:#158bdb\">2</span>回合。"
         }
       ],
-      "type": 2,
+      "type": 6,
       "special": "进入战斗时，自身获得<span style=\"color:#ff6724\">笔底山河</span>状态；\n使用处于强化状态的绝技时，有<span style=\"color:#158bdb\">50%</span>的概率使自身获得<span style=\"color:#ff6724\">笔底山河</span>状态和<span style=\"color:#ff6724\">步移景异</span>状态，并使自身及<span style=\"color:#158bdb\">周围2格</span>内的友方全体获得<span style=\"color:#ff6724\">怒雷</span>状态。"
     },
     {
@@ -137,7 +137,7 @@
       "level": 1,
       "icon": "skillicon_Jobskill_W_D",
       "buff": [],
-      "type": 1,
+      "type": 2,
       "special": null
     }
   ],

@@ -66,7 +66,7 @@
           "des": "受到伤害时消耗<span style=\"color:#158bdb\">1</span>层，降低所受到的伤害，最大可叠加<span style=\"color:#158bdb\">4</span>层。"
         }
       ],
-      "type": 1,
+      "type": 3,
       "special": "使自身进入<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">金身</span>状态。在战斗中受到伤害时，若自身处于<span style=\"color:#ff6724\">金身</span>状态，则有<span style=\"color:#158bdb\">16%</span>概率将<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">禅定</span>状态转化为<span style=\"color:#ff6724\">金身</span>状态，每层<span style=\"color:#ff6724\">禅定</span>会使概率增加<span style=\"color:#158bdb\">16%</span>。"
     },
     {
@@ -83,7 +83,7 @@
           "des": "受到伤害时消耗<span style=\"color:#158bdb\">1</span>层，降低所受到的伤害，最大可叠加<span style=\"color:#158bdb\">4</span>层。"
         }
       ],
-      "type": 2,
+      "type": 4,
       "special": null
     },
     {
@@ -100,7 +100,7 @@
           "des": "受到伤害时消耗<span style=\"color:#158bdb\">1</span>层，降低所受到的伤害，最大可叠加<span style=\"color:#158bdb\">4</span>层。"
         }
       ],
-      "type": 2,
+      "type": 5,
       "special": "攻击敌方单位后，自身有<span style=\"color:#158bdb\">40%</span>概率获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">禅定</span>状态。"
     },
     {
@@ -117,7 +117,7 @@
           "des": "受到伤害时消耗<span style=\"color:#158bdb\">1</span>层，降低所受到的伤害，最大可叠加<span style=\"color:#158bdb\">4</span>层。"
         }
       ],
-      "type": 2,
+      "type": 6,
       "special": null
     },
     {
@@ -125,7 +125,8 @@
       "des": "使用后可<span style=\"color:#ff6724\">援护</span>自身周围<span style=\"color:#158bdb\">2</span>格内的友方单位，效果持续<span style=\"color:#158bdb\">1</span>回合。",
       "tag": [
         "自身",
-        "无消耗"
+        "无消耗",
+        "冷却:2"
       ],
       "level": 1,
       "icon": "skillicon_Jobskill_D_I",
@@ -135,7 +136,7 @@
           "des": "当友方单位受到伤害时，代替其承受伤害。\n<span style=\"color:#db2424\">只可对除绝技、警戒攻击和回击外造成单体伤害的攻击生效。</span>"
         }
       ],
-      "type": 1,
+      "type": 2,
       "special": null
     }
   ],

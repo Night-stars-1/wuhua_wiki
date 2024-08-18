@@ -62,7 +62,7 @@
           "des": "攻击力减低<span style=\"color:#158bdb\">20%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">1</span>层。"
         }
       ],
-      "type": 1,
+      "type": 3,
       "special": null
     },
     {
@@ -79,7 +79,7 @@
           "des": "当友方单位受到伤害时，代替其承受伤害。\n<span style=\"color:#db2424\">只可对除绝技、警戒攻击和回击外造成单体伤害的攻击生效。</span>"
         }
       ],
-      "type": 2,
+      "type": 4,
       "special": "进入战斗后，自身构素防御提高<span style=\"color:#158bdb\">10%</span>。触发<span style=\"color:#ff6724\">援护</span>时，有<span style=\"color:#158bdb\">35%</span>概率吸取攻击者<span style=\"color:#158bdb\">1</span>点能量。"
     },
     {
@@ -96,7 +96,7 @@
           "des": "每回合恢复最大生命值<span style=\"color:#158bdb\">4%</span>的生命。"
         }
       ],
-      "type": 2,
+      "type": 5,
       "special": null
     },
     {
@@ -108,7 +108,7 @@
       "level": 1,
       "icon": "skillicon_D003505",
       "buff": [],
-      "type": 2,
+      "type": 6,
       "special": null
     },
     {
@@ -116,7 +116,8 @@
       "des": "使用后可<span style=\"color:#ff6724\">援护</span>自身周围<span style=\"color:#158bdb\">2</span>格内的友方单位，效果持续<span style=\"color:#158bdb\">1</span>回合。",
       "tag": [
         "自身",
-        "无消耗"
+        "无消耗",
+        "冷却:2"
       ],
       "level": 1,
       "icon": "skillicon_Jobskill_D_I",
@@ -126,7 +127,7 @@
           "des": "当友方单位受到伤害时，代替其承受伤害。\n<span style=\"color:#db2424\">只可对除绝技、警戒攻击和回击外造成单体伤害的攻击生效。</span>"
         }
       ],
-      "type": 1,
+      "type": 2,
       "special": null
     }
   ],

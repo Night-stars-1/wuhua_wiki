@@ -62,7 +62,7 @@
           "des": "每移动一格，受到最大生命值<span style=\"color:#158bdb\">5%</span>的伤害，可叠加<span style=\"color:#158bdb\">5</span>层，持续<span style=\"color:#158bdb\">2</span>回合。"
         }
       ],
-      "type": 1,
+      "type": 3,
       "special": null
     },
     {
@@ -79,7 +79,7 @@
           "des": "每移动一格，受到最大生命值<span style=\"color:#158bdb\">5%</span>的伤害，可叠加<span style=\"color:#158bdb\">5</span>层，持续<span style=\"color:#158bdb\">2</span>回合。"
         }
       ],
-      "type": 2,
+      "type": 4,
       "special": null
     },
     {
@@ -91,7 +91,7 @@
       "level": 1,
       "icon": "skillicon_V000604",
       "buff": [],
-      "type": 2,
+      "type": 5,
       "special": "攻击时，若敌方单位处于<span style=\"color:#ff6724\">流失</span>状态，则额外造成目标生命值已损失比例乘以攻击力<span style=\"color:#158bdb\">10%</span>的伤害，并使自身回复自身攻击力<span style=\"color:#158bdb\">15%</span>的生命值。"
     },
     {
@@ -103,7 +103,7 @@
       "level": 1,
       "icon": "skillicon_V000605",
       "buff": [],
-      "type": 2,
+      "type": 6,
       "special": null
     },
     {
@@ -111,12 +111,13 @@
       "des": "使用后自身获得再行动<span style=\"color:#158bdb\">1</span>次，该次再行动的移动力减少<span style=\"color:#158bdb\">2</span>。",
       "tag": [
         "自身",
-        "无消耗"
+        "无消耗",
+        "冷却:2"
       ],
       "level": 1,
       "icon": "skillicon_Jobskill_V",
       "buff": [],
-      "type": 1,
+      "type": 2,
       "special": null
     }
   ],

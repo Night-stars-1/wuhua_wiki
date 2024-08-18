@@ -62,7 +62,7 @@
           "des": "当自身<span style=\"color:#158bdb\">周围1格</span>内的友方单位受到伤害时，代替其承受伤害。\n<span style=\"color:#db2424\">只可对除绝技、警戒攻击和回击外造成单体伤害的攻击生效。</span>"
         }
       ],
-      "type": 1,
+      "type": 3,
       "special": "获得<span style=\"color:#ff6724\">同赏</span>状态，并使自身物理防御提高<span style=\"color:#158bdb\">45%</span>，效果持续<span style=\"color:#158bdb\">2</span>回合。"
     },
     {
@@ -74,7 +74,7 @@
       "level": 1,
       "icon": "skillicon_D001403",
       "buff": [],
-      "type": 2,
+      "type": 4,
       "special": "触发<span style=\"color:#ff6724\">援护</span>后，若自身<span style=\"color:#158bdb\">周围1格</span>内的友方单位不少于<span style=\"color:#158bdb\">2</span>，则回复自身已损失生命值的<span style=\"color:#158bdb\">10%</span>；此效果每回合可触发<span style=\"color:#158bdb\">1</span>次；若援护前自身当前生命值少于<span style=\"color:#158bdb\">50%</span>，则该次回复量增加<span style=\"color:#158bdb\">25%</span>。"
     },
     {
@@ -86,7 +86,7 @@
       "level": 1,
       "icon": "skillicon_D001404",
       "buff": [],
-      "type": 2,
+      "type": 5,
       "special": null
     },
     {
@@ -98,7 +98,7 @@
       "level": 1,
       "icon": "skillicon_D001405",
       "buff": [],
-      "type": 2,
+      "type": 6,
       "special": null
     },
     {
@@ -106,7 +106,8 @@
       "des": "使用后可<span style=\"color:#ff6724\">援护</span>自身周围<span style=\"color:#158bdb\">2</span>格内的友方单位，效果持续<span style=\"color:#158bdb\">1</span>回合。",
       "tag": [
         "自身",
-        "无消耗"
+        "无消耗",
+        "冷却:2"
       ],
       "level": 1,
       "icon": "skillicon_Jobskill_D_I",
@@ -116,7 +117,7 @@
           "des": "当友方单位受到伤害时，代替其承受伤害。\n<span style=\"color:#db2424\">只可对除绝技、警戒攻击和回击外造成单体伤害的攻击生效。</span>"
         }
       ],
-      "type": 1,
+      "type": 2,
       "special": null
     }
   ],

@@ -66,7 +66,7 @@
           "des": "提高受到的所有伤害<span style=\"color:#db2424\">30%</span>，每受到一次直接攻击减少<span style=\"color:#ff6724\">1层</span>，持续<span style=\"color:#4395d6\">2</span>回合或层数用完。"
         }
       ],
-      "type": 1,
+      "type": 3,
       "special": null
     },
     {
@@ -83,7 +83,7 @@
           "des": "自身和<span style=\"color:#db2424\">白龙真身</span>警戒攻击伤害提高<span style=\"color:#158bdb\">5%</span>，最多可叠加<span style=\"color:#67a4f7\">3</span>层，持续<span style=\"color:#158bdb\">2</span>回合。"
         }
       ],
-      "type": 2,
+      "type": 4,
       "special": null
     },
     {
@@ -100,7 +100,7 @@
           "des": "当白龙梅瓶的友方单位对处于此状态的单位进行直接攻击时，攻击的友方单位有<span style=\"color:#158bdb\">50%</span>概率获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">啸剑</span>状态。"
         }
       ],
-      "type": 2,
+      "type": 5,
       "special": null
     },
     {
@@ -112,7 +112,7 @@
       "level": 1,
       "icon": "skillicon_S004805",
       "buff": [],
-      "type": 2,
+      "type": 6,
       "special": "当<span style=\"color:#db2424\">白龙真身</span>消失时，其该次存在期间每使用过<span style=\"color:#158bdb\">3</span>次警戒攻击，白龙梅瓶获得<span style=\"color:#158bdb\">1</span>点能量。"
     },
     {
@@ -120,7 +120,8 @@
       "des": "使用后为自身填充<span style=\"color:#158bdb\">3</span>枚<span style=\"color:#ff6724\">礼弹</span>并进入警戒状态：以自身<span style=\"color:#158bdb\">周围3格</span>为警戒范围，对停留在该范围中的敌方单位进行警戒攻击，对其造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
       "tag": [
         "自身",
-        "无消耗"
+        "无消耗",
+        "冷却:3"
       ],
       "level": 1,
       "icon": "skillicon_Jobskill_S",
@@ -130,7 +131,7 @@
           "des": "填充<span style=\"color:#ff6724\">礼弹</span>则进入警戒状态，每次警戒攻击或治疗将消耗<span style=\"color:#ff6724\">礼弹</span>，<span style=\"color:#ff6724\">礼弹</span>清零后自动结束警戒状态。"
         }
       ],
-      "type": 1,
+      "type": 2,
       "special": null
     }
   ],

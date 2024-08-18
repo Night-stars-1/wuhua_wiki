@@ -57,7 +57,7 @@
       "level": 1,
       "icon": "skillicon_V000802",
       "buff": [],
-      "type": 1,
+      "type": 3,
       "special": null
     },
     {
@@ -74,7 +74,7 @@
           "des": "提高暴击率<span style=\"color:#158bdb\">10%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">3</span>层。"
         }
       ],
-      "type": 2,
+      "type": 4,
       "special": "释放绝技后，该回合内的常击使自身以及自身<span style=\"color:#158bdb\">周围3格</span>内攻击力最高的友方单体获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">金戈</span>效果。"
     },
     {
@@ -86,7 +86,7 @@
       "level": 1,
       "icon": "skillicon_V000804",
       "buff": [],
-      "type": 2,
+      "type": 5,
       "special": null
     },
     {
@@ -98,7 +98,7 @@
       "level": 1,
       "icon": "skillicon_V000805",
       "buff": [],
-      "type": 2,
+      "type": 6,
       "special": null
     },
     {
@@ -106,12 +106,13 @@
       "des": "使用后自身获得再行动<span style=\"color:#158bdb\">1</span>次，该次再行动的移动力减少<span style=\"color:#158bdb\">2</span>。",
       "tag": [
         "自身",
-        "无消耗"
+        "无消耗",
+        "冷却:2"
       ],
       "level": 1,
       "icon": "skillicon_Jobskill_V",
       "buff": [],
-      "type": 1,
+      "type": 2,
       "special": null
     }
   ],

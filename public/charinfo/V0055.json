@@ -62,7 +62,7 @@
           "des": "<span style=\"color:#ff6724\">兔洞</span>地块可作为兔形陶埙职业技能选择的对象，交换位置后，该<span style=\"color:#ff6724\">兔洞</span>消失。释放职业技能后，所有<span style=\"color:#ff6724\">兔洞</span>会消失。"
         }
       ],
-      "type": 1,
+      "type": 3,
       "special": "选择自身<span style=\"color:#158bdb\">周围5格</span>内的空置地块，使其变为<span style=\"color:#ff6724\">兔洞</span>地块。自身获得再行动<span style=\"color:#158bdb\">1</span>次，该次再行动的移动力减少<span style=\"color:#158bdb\">-4</span>。"
     },
     {
@@ -79,7 +79,7 @@
           "des": "此伤害不触发暴击和贯穿效果，且无法被格挡。"
         }
       ],
-      "type": 2,
+      "type": 4,
       "special": null
     },
     {
@@ -96,7 +96,7 @@
           "des": "每<span style=\"color:#4395d6\">1</span>层状态可使自身移动范围额外扩大<span style=\"color:#4395d6\">1</span>格，自身每额外移动<span style=\"color:#4395d6\">1</span>格，消耗<span style=\"color:#4395d6\">1</span>层此状态。附加移动力不受其他任何技能、状态或武器效果的影响，不会提高或减少。"
         }
       ],
-      "type": 2,
+      "type": 5,
       "special": null
     },
     {
@@ -108,7 +108,7 @@
       "level": 1,
       "icon": "skillicon_V005505",
       "buff": [],
-      "type": 2,
+      "type": 6,
       "special": null
     },
     {
@@ -116,12 +116,13 @@
       "des": "选择自身<span style=\"color:#158bdb\">周围5格</span>内的<span style=\"color:#ff6724\">兔洞</span>地块或友方单体互换位置。换位后自身获得新的行动回合，该行动回合的移动力减少<span style=\"color:#158bdb\">2</span>。",
       "tag": [
         "射程5格",
-        "无消耗"
+        "无消耗",
+        "冷却:2"
       ],
       "level": 1,
       "icon": "skillicon_V005511",
       "buff": [],
-      "type": 1,
+      "type": 2,
       "special": null
     }
   ],

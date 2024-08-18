@@ -62,7 +62,7 @@
           "des": "此伤害不触发暴击和贯穿效果，且无法被格挡，但会被构素护盾抵挡。"
         }
       ],
-      "type": 1,
+      "type": 3,
       "special": null
     },
     {
@@ -74,7 +74,7 @@
       "level": 1,
       "icon": "skillicon_S001303",
       "buff": [],
-      "type": 2,
+      "type": 4,
       "special": "使用职业技能后，下次常击伤害提高<span style=\"color:#158bdb\">45%</span>，攻击范围变为选定的敌方单体及其<span style=\"color:#158bdb\">周围1格</span>内的敌方全体。"
     },
     {
@@ -91,7 +91,7 @@
           "des": "提高受到的所有伤害<span style=\"color:#db2424\">30%</span>，每受到一次直接攻击减少<span style=\"color:#ff6724\">1层</span>，持续<span style=\"color:#4395d6\">2</span>回合或层数用完。"
         }
       ],
-      "type": 2,
+      "type": 5,
       "special": null
     },
     {
@@ -103,7 +103,7 @@
       "level": 1,
       "icon": "skillicon_S001305",
       "buff": [],
-      "type": 2,
+      "type": 6,
       "special": null
     },
     {
@@ -111,7 +111,8 @@
       "des": "使用后为自身填充<span style=\"color:#158bdb\">3</span>枚<span style=\"color:#ff6724\">礼弹</span>并进入警戒状态：以自身<span style=\"color:#158bdb\">周围3格</span>为警戒范围，对停留在该范围中的敌方单位进行警戒攻击，对其造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
       "tag": [
         "自身",
-        "无消耗"
+        "无消耗",
+        "冷却:3"
       ],
       "level": 1,
       "icon": "skillicon_Jobskill_S",
@@ -121,7 +122,7 @@
           "des": "填充<span style=\"color:#ff6724\">礼弹</span>则进入警戒状态，每次警戒攻击或治疗将消耗<span style=\"color:#ff6724\">礼弹</span>，<span style=\"color:#ff6724\">礼弹</span>清零后自动结束警戒状态。"
         }
       ],
-      "type": 1,
+      "type": 2,
       "special": null
     }
   ],

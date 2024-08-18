@@ -78,7 +78,7 @@
           "des": "构素防御提高<span style=\"color:#158bdb\">30%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">2</span>层。"
         }
       ],
-      "type": 1,
+      "type": 3,
       "special": "对自身<span style=\"color:#158bdb\">周围2格</span>内的敌方全体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害，并使其获得<span style=\"color:#ff6724\">震怒</span>状态；自身同时获得持续<span style=\"color:#158bdb\">2</span>回合的<span style=\"color:#ff6724\">云峰奇险-超群</span>，<span style=\"color:#ff6724\">铁甲</span>和<span style=\"color:#ff6724\">裳衫</span>状态。"
     },
     {
@@ -99,7 +99,7 @@
           "des": "此伤害不触发暴击和贯穿效果，且无法被格挡。"
         }
       ],
-      "type": 2,
+      "type": 4,
       "special": "使用绝技时，若自身当前生命值高于<span style=\"color:#158bdb\">50%</span>，则消耗自身最大生命值的<span style=\"color:#158bdb\">25%</span>，获得持续<span style=\"color:#158bdb\">2</span>回合的<span style=\"color:#ff6724\">似夜奔行</span>状态。"
     },
     {
@@ -116,7 +116,7 @@
           "des": "回击概率提高到<span style=\"color:#158bdb\">100%</span>，且自身受到的伤害降低<span style=\"color:#158bdb\">10%</span>。"
         }
       ],
-      "type": 2,
+      "type": 5,
       "special": null
     },
     {
@@ -133,7 +133,7 @@
           "des": "受治疗量提高<span style=\"color:#158bdb\">10%</span>。"
         }
       ],
-      "type": 2,
+      "type": 6,
       "special": null
     },
     {
@@ -141,7 +141,8 @@
       "des": "使自身选定方向前<span style=\"color:#158bdb\">1</span>排的<span style=\"color:#158bdb\">3</span>格变为束缚格，效果持续<span style=\"color:#158bdb\">1</span>回合。若敌方单位进入束缚格，将无法离开束缚格范围，并进入<span style=\"color:#ff6724\">破甲</span>状态。",
       "tag": [
         "射程1格 ",
-        "无消耗"
+        "无消耗",
+        "冷却:2"
       ],
       "level": 1,
       "icon": "skillicon_Jobskill_D_Z",
@@ -151,7 +152,7 @@
           "des": "物理防御降低<span style=\"color:#158bdb\">30%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">1</span>层。"
         }
       ],
-      "type": 1,
+      "type": 2,
       "special": null
     }
   ],

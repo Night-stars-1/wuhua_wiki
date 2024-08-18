@@ -62,7 +62,7 @@
           "des": "自身进行治疗时，攻击力提升至<span style=\"color:#158bdb\">1.25</span>倍，持续<span style=\"color:#158bdb\">2</span>回合。"
         }
       ],
-      "type": 1,
+      "type": 3,
       "special": null
     },
     {
@@ -74,7 +74,7 @@
       "level": 1,
       "icon": "skillicon_W003803",
       "buff": [],
-      "type": 2,
+      "type": 4,
       "special": null
     },
     {
@@ -86,7 +86,7 @@
       "level": 1,
       "icon": "skillicon_W003804",
       "buff": [],
-      "type": 2,
+      "type": 5,
       "special": null
     },
     {
@@ -103,7 +103,7 @@
           "des": "在<span style=\"color:#4395d6\">2</span>回合内不会被击败且不可行动；在此期间，自身治疗量提高<span style=\"color:#158bdb\">10%</span>，被动技能<span style=\"color:#ff6724\">驱暗</span>的治疗范围变为<span style=\"color:#158bdb\">周围4格</span>。<span style=\"color:#4395d6\">2</span>回合后退场。"
         }
       ],
-      "type": 2,
+      "type": 6,
       "special": "自身受到致命伤害时，获得<span style=\"color:#ff6724\">残烛回光-超群</span>状态。此效果每场战斗只能触发<span style=\"color:#158bdb\">1</span>次。"
     },
     {
@@ -116,7 +116,7 @@
       "level": 1,
       "icon": "skillicon_Jobskill_W_H",
       "buff": [],
-      "type": 1,
+      "type": 2,
       "special": null
     }
   ],

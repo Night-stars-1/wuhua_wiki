@@ -62,7 +62,7 @@
           "des": "受到的回击伤害提高<span style=\"color:#158bdb\">30%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">1</span>层。"
         }
       ],
-      "type": 1,
+      "type": 3,
       "special": null
     },
     {
@@ -79,7 +79,7 @@
           "des": "闪避率提高<span style=\"color:#158bdb\">25%</span>，可叠加<span style=\"color:#158bdb\">2</span>层，成功闪避后清除效果。"
         }
       ],
-      "type": 2,
+      "type": 4,
       "special": "受到常击时，若攻击方距离自身<span style=\"color:#158bdb\">周围2格</span>以内，无论是否被命中，均会进行回击，对自身<span style=\"color:#158bdb\">周围2格</span>内的所有敌方目标造成攻击力<span style=\"color:#158bdb\">30%</span>的物理伤害；受到直接攻击后，获得<span style=\"color:#ff6724\">脱壳</span>效果，闪避时保留<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">脱壳</span>。"
     },
     {
@@ -96,8 +96,8 @@
           "des": "回击的暴击率提高<span style=\"color:#158bdb\">40%</span>，持续<span style=\"color:#158bdb\">1</span>回合。"
         }
       ],
-      "type": 2,
-      "special": "处于<span style=\"color:#ff6724\">瞄准</span>状态进行攻击后，攻击力<span style=\"color:#158bdb\">提升[Effect2Para,2]%</span>，暴击率<span style=\"color:#158bdb\">提升[Effect1Para,2]%</span>，持续<span style=\"color:#158bdb\">[Effect1Para,1]</span>回合。"
+      "type": 5,
+      "special": "处于<span style=\"color:#ff6724\">瞄准</span>状态进行攻击后，攻击力<span style=\"color:#158bdb\">提升%</span>，暴击率<span style=\"color:#158bdb\">提升[Effect1Para,2]%</span>，持续<span style=\"color:#158bdb\">[Effect1Para,1]</span>回合。"
     },
     {
       "name": "玉叶折光",
@@ -113,7 +113,7 @@
           "des": "无法被选中为主目标，但受到伤害提高<span style=\"color:#158bdb\">25%</span>，持续<span style=\"color:#158bdb\">1</span>回合。"
         }
       ],
-      "type": 2,
+      "type": 6,
       "special": null
     },
     {
@@ -121,7 +121,8 @@
       "des": "使用后自身获得<span style=\"color:#158bdb\">1</span>次不可移动的再行动，并进入<span style=\"color:#ff6724\">瞄准</span>状态。",
       "tag": [
         "自身",
-        "无消耗"
+        "无消耗",
+        "冷却:3"
       ],
       "level": 1,
       "icon": "skillicon_Jobskill_A",
@@ -131,7 +132,7 @@
           "des": "此状态下进行攻击时，最大攻击距离增加<span style=\"color:#158bdb\">4</span>格，该次再行动结束后，此状态消失。"
         }
       ],
-      "type": 1,
+      "type": 2,
       "special": null
     }
   ],

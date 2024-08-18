@@ -57,7 +57,7 @@
       "level": 1,
       "icon": "skillicon_A006102",
       "buff": [],
-      "type": 1,
+      "type": 3,
       "special": null
     },
     {
@@ -78,7 +78,7 @@
           "des": "无法进行常击，持续<span style=\"color:#158bdb\">1</span>回合。"
         }
       ],
-      "type": 2,
+      "type": 4,
       "special": null
     },
     {
@@ -95,7 +95,7 @@
           "des": "攻击后，若受击目标带有<span style=\"color:#ff6724\">嘹唳亭风</span>，则有<span style=\"color:#158bdb\">30%</span>概率立即触发1次<span style=\"color:#ff6724\">嘹唳亭风</span>。"
         }
       ],
-      "type": 2,
+      "type": 5,
       "special": "处于<span style=\"color:#ff6724\">瞄准</span>状态进行攻击后，使自身<span style=\"color:#158bdb\">周围3格</span>内的友方单位获得<span style=\"color:#ff6724\">驾鹤引雷</span>状态，效果持续<span style=\"color:#158bdb\">2</span>回合。"
     },
     {
@@ -107,7 +107,7 @@
       "level": 1,
       "icon": "skillicon_A006105",
       "buff": [],
-      "type": 2,
+      "type": 6,
       "special": null
     },
     {
@@ -115,7 +115,8 @@
       "des": "使用后自身获得<span style=\"color:#158bdb\">1</span>次不可移动的再行动，并进入<span style=\"color:#ff6724\">瞄准</span>状态。",
       "tag": [
         "自身",
-        "无消耗"
+        "无消耗",
+        "冷却:3"
       ],
       "level": 1,
       "icon": "skillicon_Jobskill_A",
@@ -125,7 +126,7 @@
           "des": "此状态下进行攻击时，最大攻击距离增加<span style=\"color:#158bdb\">4</span>格，该次再行动结束后，此状态消失。"
         }
       ],
-      "type": 1,
+      "type": 2,
       "special": null
     }
   ],

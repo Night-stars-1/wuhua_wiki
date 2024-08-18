@@ -2,7 +2,7 @@
  * @Author: Night-stars-1 nujj1042633805@gmail.com
  * @Date: 2024-07-20 23:29:32
  * @LastEditors: Night-stars-1 nujj1042633805@gmail.com
- * @LastEditTime: 2024-08-13 22:06:44
+ * @LastEditTime: 2024-08-18 10:18:25
 -->
 <template>
   <el-card>
@@ -15,7 +15,7 @@
         </div>
       </Panel>
       <Panel class="skill-panel" v-for="data in dataList">
-        <el-row justify="space-between" class="skill-row">
+        <el-row justify="space-between" class="skill-row" :id="data.type">
           <el-image
             style="width: 64px; height: 64px"
             :src="`/char/${id}/skill/${data.icon}.png`"
@@ -38,7 +38,7 @@
             class="skill-range"
             style="width: 64px; height: 64px"
             :src="`${data.icon}.png`"
-            v-if="data.type == 1"
+            v-if="data.type <= 3"
           />
         </el-row>
         <div class="skill-text">
@@ -61,6 +61,7 @@ const props = defineProps<{
 }>();
 const buffs = computed(() =>
   props.dataList
+    .sort((a, b) => a.type - b.type)
     .filter((item) => item.buff && item.buff.length > 0)
     .flatMap((item) => item.buff)
     .reduce((acc: Buff[], current) => {

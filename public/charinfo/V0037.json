@@ -62,7 +62,7 @@
           "des": "受到的治疗效果提升<span style=\"color:#158bdb\">30%</span>，持续<span style=\"color:#158bdb\">3</span>回合。"
         }
       ],
-      "type": 1,
+      "type": 3,
       "special": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">230%</span>的物理伤害，并使自身获得<span style=\"color:#ff6724\">皇天之赐</span>。"
     },
     {
@@ -74,7 +74,7 @@
       "level": 1,
       "icon": "skillicon_V003703",
       "buff": [],
-      "type": 2,
+      "type": 4,
       "special": null
     },
     {
@@ -91,7 +91,7 @@
           "des": "生命偷取率提高<span style=\"color:#158bdb\">3%</span>。"
         }
       ],
-      "type": 2,
+      "type": 5,
       "special": "当前生命值低于<span style=\"color:#158bdb\">50%</span>时，使用职业技能后获得<span style=\"color:#ff6724\">生命偷取</span>状态，效果持续<span style=\"color:#158bdb\">2</span>回合。"
     },
     {
@@ -108,7 +108,7 @@
           "des": "免疫下<span style=\"color:#158bdb\">1</span>次常击或警戒攻击造成的伤害。此状态触发免疫或持续<span style=\"color:#158bdb\">2</span>回合后消失。"
         }
       ],
-      "type": 2,
+      "type": 6,
       "special": null
     },
     {
@@ -116,12 +116,13 @@
       "des": "使用后自身获得再行动<span style=\"color:#158bdb\">1</span>次，该次再行动的移动力减少<span style=\"color:#158bdb\">2</span>。",
       "tag": [
         "自身",
-        "无消耗"
+        "无消耗",
+        "冷却:2"
       ],
       "level": 1,
       "icon": "skillicon_Jobskill_V",
       "buff": [],
-      "type": 1,
+      "type": 2,
       "special": null
     }
   ],
