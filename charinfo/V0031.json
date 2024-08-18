@@ -62,7 +62,7 @@
           "des": "自身无法移动，受到的伤害降低<span style=\"color:#158bdb\">40%</span>，持续至自身下次行动开始；受到<span style=\"color:#158bdb\">2</span>次伤害后，此状态立刻消除。"
         }
       ],
-      "type": 1,
+      "type": 3,
       "special": null
     },
     {
@@ -74,7 +74,7 @@
       "level": 1,
       "icon": "skillicon_V003103",
       "buff": [],
-      "type": 2,
+      "type": 4,
       "special": null
     },
     {
@@ -86,7 +86,7 @@
       "level": 1,
       "icon": "skillicon_V003104",
       "buff": [],
-      "type": 2,
+      "type": 5,
       "special": null
     },
     {
@@ -107,7 +107,7 @@
           "des": "下<span style=\"color:#158bdb\">1</span>次受到的伤害提高<span style=\"color:#158bdb\">50%</span>，触发后或持续<span style=\"color:#158bdb\">1</span>回合后此状态消除。"
         }
       ],
-      "type": 2,
+      "type": 6,
       "special": "<span style=\"color:#ff6724\">烫样组件</span>状态结束后，自身获得额外行动回合<span style=\"color:#158bdb\">1</span>次，进入<span style=\"color:#ff6724\">簇刃之锐</span>状态和<span style=\"color:#ff6724\">纸模之损</span>状态。"
     },
     {
@@ -115,12 +115,13 @@
       "des": "使用后自身获得再行动<span style=\"color:#158bdb\">1</span>次，该次再行动的移动力减少<span style=\"color:#158bdb\">2</span>。",
       "tag": [
         "自身",
-        "无消耗"
+        "无消耗",
+        "冷却:2"
       ],
       "level": 1,
       "icon": "skillicon_Jobskill_V",
       "buff": [],
-      "type": 1,
+      "type": 2,
       "special": null
     }
   ],

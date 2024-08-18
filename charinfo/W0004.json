@@ -57,7 +57,7 @@
       "level": 1,
       "icon": "skillicon_W000402",
       "buff": [],
-      "type": 1,
+      "type": 3,
       "special": null
     },
     {
@@ -78,7 +78,7 @@
           "des": "攻击力减低<span style=\"color:#158bdb\">20%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">1</span>层。"
         }
       ],
-      "type": 2,
+      "type": 4,
       "special": null
     },
     {
@@ -90,7 +90,7 @@
       "level": 1,
       "icon": "skillicon_W000404",
       "buff": [],
-      "type": 2,
+      "type": 5,
       "special": "若攻击的敌方目标处于任意负面状态，则自身对其造成的伤害提高<span style=\"color:#158bdb\">15%</span>。"
     },
     {
@@ -102,7 +102,7 @@
       "level": 1,
       "icon": "skillicon_W000405",
       "buff": [],
-      "type": 2,
+      "type": 6,
       "special": null
     },
     {
@@ -110,7 +110,8 @@
       "des": "使自身进入<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">啸剑</span>状态。",
       "tag": [
         "自身",
-        "无消耗"
+        "无消耗",
+        "冷却:2"
       ],
       "level": 1,
       "icon": "skillicon_Jobskill_W_R",
@@ -120,7 +121,7 @@
           "des": "攻击力提高<span style=\"color:#158bdb\">20%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">2</span>层。"
         }
       ],
-      "type": 1,
+      "type": 2,
       "special": null
     }
   ],

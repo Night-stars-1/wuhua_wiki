@@ -57,7 +57,7 @@
       "level": 1,
       "icon": "skillicon_W005102",
       "buff": [],
-      "type": 1,
+      "type": 3,
       "special": null
     },
     {
@@ -74,7 +74,7 @@
           "des": "构素伤害提高<span style=\"color:#158bdb\">4%</span>，可叠加<span style=\"color:#158bdb\">5</span>层，持续<span style=\"color:#158bdb\">2</span>回合。"
         }
       ],
-      "type": 2,
+      "type": 4,
       "special": "在进入战斗时和每消耗<span style=\"color:#158bdb\">1</span>点能量时，自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">桃意绵绵</span>。"
     },
     {
@@ -86,7 +86,7 @@
       "level": 1,
       "icon": "skillicon_W005104",
       "buff": [],
-      "type": 2,
+      "type": 5,
       "special": null
     },
     {
@@ -98,7 +98,7 @@
       "level": 1,
       "icon": "skillicon_W005105",
       "buff": [],
-      "type": 2,
+      "type": 6,
       "special": null
     },
     {
@@ -106,12 +106,13 @@
       "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">130%</span>的构素伤害。",
       "tag": [
         "射程2格",
-        "消耗:1"
+        "消耗:1",
+        "冷却:2"
       ],
       "level": 1,
       "icon": "skillicon_Jobskill_W_D",
       "buff": [],
-      "type": 1,
+      "type": 2,
       "special": null
     }
   ],

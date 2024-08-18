@@ -66,7 +66,7 @@
           "des": "受到的伤害增加<span style=\"color:#158bdb\">20%</span>，持续<span style=\"color:#158bdb\">2</span>回合。"
         }
       ],
-      "type": 1,
+      "type": 3,
       "special": null
     },
     {
@@ -87,7 +87,7 @@
           "des": "受到的警戒攻击伤害提高<span style=\"color:#158bdb\">30%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">1</span>层。"
         }
       ],
-      "type": 2,
+      "type": 4,
       "special": "每次警戒攻击前，消耗自身当前生命值的<span style=\"color:#158bdb\">10%</span>，有<span style=\"color:#158bdb\">50%</span>概率使受击敌方单位进入<span style=\"color:#ff6724\">肃静</span>状态，并有<span style=\"color:#158bdb\">50%</span>概率使受击敌方单位进入<span style=\"color:#ff6724\">疏忽</span>状态。"
     },
     {
@@ -104,7 +104,7 @@
           "des": "使警戒攻击造成的伤害提高<span style=\"color:#158bdb\">10%</span>，可叠加<span style=\"color:#158bdb\">3</span>层。"
         }
       ],
-      "type": 2,
+      "type": 5,
       "special": "自身及<span style=\"color:#158bdb\">周围3格</span>内的友方单位消耗其自身生命值时，使自身获得<span style=\"color:#ff6724\">惊蕊</span>状态；\n当<span style=\"color:#ff6724\">惊蕊</span>状态叠加至<span style=\"color:#158bdb\">2</span>层时，警戒攻击伤害倍率提高<span style=\"color:#158bdb\">30%</span>且额外填充<span style=\"color:#158bdb\">1</span>枚<span style=\"color:#ff6724\">礼弹</span>，每回合最多触发<span style=\"color:#158bdb\">5</span>次。"
     },
     {
@@ -116,7 +116,7 @@
       "level": 1,
       "icon": "skillicon_S013205",
       "buff": [],
-      "type": 2,
+      "type": 6,
       "special": null
     },
     {
@@ -124,7 +124,8 @@
       "des": "使用后为自身填充<span style=\"color:#158bdb\">3</span>枚<span style=\"color:#ff6724\">礼弹</span>并进入警戒状态：以自身<span style=\"color:#158bdb\">周围3格</span>为警戒范围，对停留在该范围中的敌方单位进行警戒攻击，对其造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
       "tag": [
         "自身",
-        "无消耗"
+        "无消耗",
+        "冷却:3"
       ],
       "level": 1,
       "icon": "skillicon_Jobskill_S",
@@ -134,7 +135,7 @@
           "des": "填充<span style=\"color:#ff6724\">礼弹</span>则进入警戒状态，每次警戒攻击或治疗将消耗<span style=\"color:#ff6724\">礼弹</span>，<span style=\"color:#ff6724\">礼弹</span>清零后自动结束警戒状态。"
         }
       ],
-      "type": 1,
+      "type": 2,
       "special": null
     }
   ],

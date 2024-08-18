@@ -66,7 +66,7 @@
           "des": "提高所有伤害<span style=\"color:#158bdb\">20%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">2</span>层。"
         }
       ],
-      "type": 1,
+      "type": 3,
       "special": null
     },
     {
@@ -83,7 +83,7 @@
           "des": "当友方单位受到伤害时，代替其承受伤害。\n<span style=\"color:#db2424\">只可对除绝技、警戒攻击和回击外造成单体伤害的攻击生效。</span>"
         }
       ],
-      "type": 2,
+      "type": 4,
       "special": null
     },
     {
@@ -95,7 +95,7 @@
       "level": 1,
       "icon": "skillicon_D005804",
       "buff": [],
-      "type": 2,
+      "type": 5,
       "special": null
     },
     {
@@ -112,7 +112,7 @@
           "des": "当友方单位受到伤害时，代替其承受伤害。\n<span style=\"color:#db2424\">只可对除绝技、警戒攻击和回击外造成单体伤害的攻击生效。</span>"
         }
       ],
-      "type": 2,
+      "type": 6,
       "special": "进入战斗后，常击伤害增加<span style=\"color:#158bdb\">15%</span>。常击后有<span style=\"color:#158bdb\">35%</span>概率获得<span style=\"color:#158bdb\">1</span>回合<span style=\"color:#ff6724\">援护</span>。"
     },
     {
@@ -120,7 +120,8 @@
       "des": "使用后可<span style=\"color:#ff6724\">援护</span>自身<span style=\"color:#158bdb\">周围2格</span>内的友方单位，效果持续<span style=\"color:#158bdb\">1</span>回合。",
       "tag": [
         "自身",
-        "无消耗"
+        "无消耗",
+        "冷却:2"
       ],
       "level": 1,
       "icon": "skillicon_Jobskill_D_I",
@@ -130,7 +131,7 @@
           "des": "当友方单位受到伤害时，代替其承受伤害。\n<span style=\"color:#db2424\">只可对除绝技、警戒攻击和回击外造成单体伤害的攻击生效。</span>"
         }
       ],
-      "type": 1,
+      "type": 2,
       "special": null
     }
   ],

@@ -52,7 +52,8 @@
       "des": "使用后自身获得<span style=\"color:#ff6724\">飞雪域</span>及<span style=\"color:#ff6724\">寒刃</span>状态，并获得<span style=\"color:#158bdb\">1</span>次移动力为<span style=\"color:#158bdb\">0</span>的再行动。",
       "tag": [
         "自身",
-        "消耗:3"
+        "消耗:3",
+        "冷却:3"
       ],
       "level": 1,
       "icon": "skillicon_V014102",
@@ -74,7 +75,7 @@
           "des": "处于此状态的单位无法进行任何行动，持续<span style=\"color:#158bdb\">1</span>回合。"
         }
       ],
-      "type": 1,
+      "type": 3,
       "special": "使用后自身获得<span style=\"color:#ff6724\">飞雪域</span>及<span style=\"color:#ff6724\">寒刃</span>状态，并获得<span style=\"color:#158bdb\">1</span>次移动力为<span style=\"color:#158bdb\">0</span>的再行动。\n同时使自身<span style=\"color:#158bdb\">周围3格</span>内的敌方全体获得<span style=\"color:#ff6724\">寒天</span>状态；若该单位无法获得<span style=\"color:#ff6724\">寒天</span>或<span style=\"color:#ff6724\">霜冻</span>状态，则使其获得<span style=\"color:#ff6724\">若霜</span>状态。"
     },
     {
@@ -86,7 +87,7 @@
       "level": 1,
       "icon": "skillicon_V014103",
       "buff": [],
-      "type": 2,
+      "type": 4,
       "special": null
     },
     {
@@ -103,7 +104,7 @@
           "des": "此伤害不触发暴击和贯穿效果，且无法被格挡，无视防御和减伤效果，同时也不受增伤效果影响。"
         }
       ],
-      "type": 2,
+      "type": 5,
       "special": "对处于<span style=\"color:#ff6724\">寒天</span>或<span style=\"color:#ff6724\">霜冻</span>状态的敌方单位进行连击时必定暴击，且该次连击暴击伤害提高<span style=\"color:#158bdb\">30%</span>，贯穿强度提高<span style=\"color:#158bdb\">10%</span>；\n连击后，若该受击单位处于<span style=\"color:#ff6724\">霜冻</span>状态，则对其造成该次连击伤害<span style=\"color:#158bdb\">150%</span>的<span style=\"color:#ff6724\">真实伤害</span>。"
     },
     {
@@ -115,7 +116,7 @@
       "level": 1,
       "icon": "skillicon_V014105",
       "buff": [],
-      "type": 2,
+      "type": 6,
       "special": null
     },
     {
@@ -123,12 +124,13 @@
       "des": "选定自身十字方向的地块进行位移，位移最大距离为<span style=\"color:#158bdb\">4</span>格，对经过地块上的敌方全体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
       "tag": [
         "十字4格",
-        "无消耗"
+        "无消耗",
+        "冷却:2"
       ],
       "level": 1,
       "icon": "skillicon_V014111",
       "buff": [],
-      "type": 1,
+      "type": 2,
       "special": null
     }
   ],

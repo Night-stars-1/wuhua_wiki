@@ -57,7 +57,7 @@
       "level": 1,
       "icon": "skillicon_D002602",
       "buff": [],
-      "type": 1,
+      "type": 3,
       "special": null
     },
     {
@@ -69,7 +69,7 @@
       "level": 1,
       "icon": "skillicon_D002603",
       "buff": [],
-      "type": 2,
+      "type": 4,
       "special": "受到自身<span style=\"color:#158bdb\">周围1格</span>的敌方单位攻击触发闪避后，对其进行回击，造成自身攻击力<span style=\"color:#158bdb\">35%</span>的物理伤害。"
     },
     {
@@ -81,7 +81,7 @@
       "level": 1,
       "icon": "skillicon_D002604",
       "buff": [],
-      "type": 2,
+      "type": 5,
       "special": null
     },
     {
@@ -93,7 +93,7 @@
       "level": 1,
       "icon": "skillicon_D002605",
       "buff": [],
-      "type": 2,
+      "type": 6,
       "special": null
     },
     {
@@ -101,7 +101,8 @@
       "des": "使自身选定方向前<span style=\"color:#158bdb\">1</span>排的<span style=\"color:#158bdb\">3</span>格变为束缚格，效果持续<span style=\"color:#158bdb\">1</span>回合。若敌方单位进入束缚格，将无法离开束缚格范围，并进入<span style=\"color:#ff6724\">破甲</span>状态。",
       "tag": [
         "射程1格 ",
-        "无消耗"
+        "无消耗",
+        "冷却:2"
       ],
       "level": 1,
       "icon": "skillicon_Jobskill_D_Z",
@@ -111,7 +112,7 @@
           "des": "物理防御降低<span style=\"color:#158bdb\">30%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">1</span>层。"
         }
       ],
-      "type": 1,
+      "type": 2,
       "special": null
     }
   ],

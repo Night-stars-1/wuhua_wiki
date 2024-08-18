@@ -57,7 +57,7 @@
       "level": 1,
       "icon": "skillicon_V009102",
       "buff": [],
-      "type": 1,
+      "type": 3,
       "special": null
     },
     {
@@ -78,7 +78,7 @@
           "des": "此状态使自身贯穿率增加<span style=\"color:#158bdb\">40%</span>，攻击力提高<span style=\"color:#158bdb\">30%</span>。"
         }
       ],
-      "type": 2,
+      "type": 4,
       "special": null
     },
     {
@@ -95,7 +95,7 @@
           "des": "处于此状态时，下<span style=\"color:#158bdb\">1</span>次常击后连击，对受击单位造成自身攻击力<span style=\"color:#158bdb\">40%</span>的物理伤害；\n若处于<span style=\"color:#ff6724\">觉醒</span>状态，则连击命中目标后，自身获得<span style=\"color:#158bdb\">1</span>点能量。\n此状态最多可叠加<span style=\"color:#158bdb\">3</span>层，每次连击消耗<span style=\"color:#158bdb\">1</span>层。"
         }
       ],
-      "type": 2,
+      "type": 5,
       "special": "攻击触发贯穿效果时，自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">剑鸣</span>状态，每层此状态可使自身贯穿强度提高<span style=\"color:#158bdb\">20%</span>，最多可叠加<span style=\"color:#158bdb\">3</span>层；\n获得<span style=\"color:#ff6724\">觉醒</span>状态时，自身立刻获得<span style=\"color:#158bdb\">3</span>层<span style=\"color:#ff6724\">剑鸣</span>状态；\n自身处于<span style=\"color:#ff6724\">觉醒</span>状态时，使用职业技能消耗<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">剑鸣</span>状态，使职业技能冷却回合重置。"
     },
     {
@@ -107,7 +107,7 @@
       "level": 1,
       "icon": "skillicon_V009105",
       "buff": [],
-      "type": 2,
+      "type": 6,
       "special": null
     },
     {
@@ -115,12 +115,13 @@
       "des": "使用后自身获得再行动<span style=\"color:#158bdb\">1</span>次，该次再行动的移动力减少<span style=\"color:#158bdb\">2</span>。",
       "tag": [
         "自身",
-        "无消耗"
+        "无消耗",
+        "冷却:2"
       ],
       "level": 1,
       "icon": "skillicon_Jobskill_V",
       "buff": [],
-      "type": 1,
+      "type": 2,
       "special": null
     }
   ],

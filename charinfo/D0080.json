@@ -66,7 +66,7 @@
           "des": "闪避直接攻击，最多叠加<span style=\"color:#158bdb\">3</span>层，每次闪避后消耗<span style=\"color:#158bdb\">1</span>层。"
         }
       ],
-      "type": 1,
+      "type": 3,
       "special": null
     },
     {
@@ -78,7 +78,7 @@
       "level": 1,
       "icon": "skillicon_D008003",
       "buff": [],
-      "type": 2,
+      "type": 4,
       "special": null
     },
     {
@@ -95,7 +95,7 @@
           "des": "每<span style=\"color:#4395d6\">1</span>层状态可使自身移动范围额外扩大<span style=\"color:#4395d6\">1</span>格，自身每额外移动<span style=\"color:#4395d6\">1</span>格，消耗<span style=\"color:#4395d6\">1</span>层此状态。附加移动力不受其他任何技能、状态或武器效果的影响，不会提高或减少。"
         }
       ],
-      "type": 2,
+      "type": 5,
       "special": null
     },
     {
@@ -112,7 +112,7 @@
           "des": "闪避直接攻击，最多叠加<span style=\"color:#158bdb\">3</span>层，每次闪避后消耗<span style=\"color:#158bdb\">1</span>层。"
         }
       ],
-      "type": 2,
+      "type": 6,
       "special": "自身回合结束后，该回合内每移动<span style=\"color:#158bdb\">4</span>格，则获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#158bdb\">敏捷</span>状态。"
     },
     {
@@ -120,7 +120,8 @@
       "des": "使自身选定方向前<span style=\"color:#158bdb\">1</span>排的<span style=\"color:#158bdb\">3</span>格变为束缚格，效果持续<span style=\"color:#158bdb\">1</span>回合。若敌方单位进入束缚格，将无法离开束缚格范围，并进入<span style=\"color:#ff6724\">破甲</span>状态。",
       "tag": [
         "射程1格 ",
-        "无消耗"
+        "无消耗",
+        "冷却:2"
       ],
       "level": 1,
       "icon": "skillicon_Jobskill_D_Z",
@@ -130,7 +131,7 @@
           "des": "物理防御降低<span style=\"color:#158bdb\">30%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">1</span>层。"
         }
       ],
-      "type": 1,
+      "type": 2,
       "special": null
     }
   ],

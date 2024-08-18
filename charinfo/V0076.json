@@ -57,7 +57,7 @@
       "level": 1,
       "icon": "skillicon_V007602",
       "buff": [],
-      "type": 1,
+      "type": 3,
       "special": null
     },
     {
@@ -78,7 +78,7 @@
           "des": "此伤害不触发暴击和贯穿效果，且无法被格挡。"
         }
       ],
-      "type": 2,
+      "type": 4,
       "special": null
     },
     {
@@ -90,7 +90,7 @@
       "level": 1,
       "icon": "skillicon_V007604",
       "buff": [],
-      "type": 2,
+      "type": 5,
       "special": null
     },
     {
@@ -102,7 +102,7 @@
       "level": 1,
       "icon": "skillicon_V007605",
       "buff": [],
-      "type": 2,
+      "type": 6,
       "special": "释放职业技能后，可在原地释放常击或者绝技；对携带满层<span style=\"color:#ff6724\">金虹乍现</span>状态的目标攻击时，造成的伤害提高<span style=\"color:#158bdb\">10%</span>；击败携带满层<span style=\"color:#ff6724\">金虹乍现</span>的目标后，下一次攻击可直接附加满层<span style=\"color:#ff6724\">金虹乍现</span>状态。"
     },
     {
@@ -110,12 +110,13 @@
       "des": "向自身十字方向的选定格子冲刺，冲刺距离最大<span style=\"color:#158bdb\">4</span>格，对路径上的所有敌方单位造成自身攻击力<span style=\"color:#158bdb\">70%</span>的物理伤害。",
       "tag": [
         "十字4格",
-        "无消耗"
+        "无消耗",
+        "冷却:2"
       ],
       "level": 1,
       "icon": "skillicon_V007611",
       "buff": [],
-      "type": 1,
+      "type": 2,
       "special": null
     }
   ],

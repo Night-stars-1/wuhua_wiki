@@ -57,7 +57,7 @@
       "level": 1,
       "icon": "skillicon_A006302",
       "buff": [],
-      "type": 1,
+      "type": 3,
       "special": null
     },
     {
@@ -69,7 +69,7 @@
       "level": 1,
       "icon": "skillicon_A006303",
       "buff": [],
-      "type": 2,
+      "type": 4,
       "special": null
     },
     {
@@ -81,7 +81,7 @@
       "level": 1,
       "icon": "skillicon_A006304",
       "buff": [],
-      "type": 2,
+      "type": 5,
       "special": "攻击力提升<span style=\"color:#158bdb\">10%</span>。若自身速度大于受击目标，则在攻击前使受击目标闪避率降低<span style=\"color:#158bdb\">-10%</span>，持续<span style=\"color:#158bdb\">2</span>回合，间隔<span style=\"color:#158bdb\">1</span>回合触发，触发效果后获得<span style=\"color:#ff6724\">凝神</span>状态，持续<span style=\"color:#158bdb\">1</span>回合。"
     },
     {
@@ -98,7 +98,7 @@
           "des": "此伤害不触发暴击和贯穿效果，且无法被格挡。"
         }
       ],
-      "type": 2,
+      "type": 6,
       "special": null
     },
     {
@@ -106,7 +106,8 @@
       "des": "使用后自身获得<span style=\"color:#158bdb\">1</span>次不可移动的再行动，并进入<span style=\"color:#ff6724\">瞄准</span>状态。",
       "tag": [
         "自身",
-        "无消耗"
+        "无消耗",
+        "冷却:3"
       ],
       "level": 1,
       "icon": "skillicon_Jobskill_A",
@@ -116,7 +117,7 @@
           "des": "此状态下进行攻击时，最大攻击距离增加<span style=\"color:#158bdb\">4</span>格，该次再行动结束后，此状态消失。"
         }
       ],
-      "type": 1,
+      "type": 2,
       "special": null
     }
   ],

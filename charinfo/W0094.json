@@ -62,7 +62,7 @@
           "des": "T形帛画的召唤物，移动力为<span style=\"color:#158bdb\">3</span>，速度为<span style=\"color:#158bdb\">115</span>，暴击率为<span style=\"color:#158bdb\">100%</span>，暴击伤害为<span style=\"color:#158bdb\">200%</span>，不受任何友方单位的治疗回复效果，与T形帛画共享能量。\n<span style=\"color:#db2424\">金乌</span>被击败时，T形帛画消耗自身当前生命值<span style=\"color:#158bdb\">30%</span>的生命值。"
         }
       ],
-      "type": 1,
+      "type": 3,
       "special": null
     },
     {
@@ -74,7 +74,7 @@
       "level": 1,
       "icon": "skillicon_W009403",
       "buff": [],
-      "type": 2,
+      "type": 4,
       "special": null
     },
     {
@@ -103,7 +103,7 @@
           "des": "此伤害不触发暴击和贯穿效果，且无法被格挡，但会被构素护盾抵挡。"
         }
       ],
-      "type": 2,
+      "type": 5,
       "special": null
     },
     {
@@ -115,7 +115,7 @@
       "level": 1,
       "icon": "skillicon_W009405",
       "buff": [],
-      "type": 2,
+      "type": 6,
       "special": "进入战斗后，获得<span style=\"color:#158bdb\">2</span>点能量，且能量自动获取增加<span style=\"color:#158bdb\">1</span>；\n自身任意召唤物被击败后，额外获得<span style=\"color:#158bdb\">3</span>点能量；\n<span style=\"color:#db2424\">龟驮鸱鸮</span>的生命值提高<span style=\"color:#158bdb\">10%</span>，<span style=\"color:#db2424\">金乌</span>的攻击力提高<span style=\"color:#158bdb\">10%</span>。"
     },
     {
@@ -123,7 +123,8 @@
       "des": "选中自身<span style=\"color:#158bdb\">周围2格</span>的地块，召唤<span style=\"color:#158bdb\">1</span>只生命值、攻击力和防御力为T形帛画基础属性<span style=\"color:#158bdb\">100%</span>的<span style=\"color:#db2424\">龟驮鸱鸮</span>。",
       "tag": [
         "射程2格",
-        "消耗:3"
+        "消耗:3",
+        "冷却:2"
       ],
       "level": 1,
       "icon": "skillicon_W009411",
@@ -133,7 +134,7 @@
           "des": "T形帛画的召唤物，移动力为<span style=\"color:#158bdb\">4</span>，速度为<span style=\"color:#158bdb\">130</span>，受到伤害降低<span style=\"color:#158bdb\">30%</span>，不受任何友方单位的治疗回复效果，与T形帛画共享能量。\n<span style=\"color:#db2424\">龟驮鸱鸮</span>被击败时，T形帛画消耗自身当前生命值<span style=\"color:#158bdb\">30%</span>的生命值。"
         }
       ],
-      "type": 1,
+      "type": 2,
       "special": null
     }
   ],

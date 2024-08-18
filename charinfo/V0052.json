@@ -62,7 +62,7 @@
           "des": "此伤害不触发暴击和贯穿效果，且无法被格挡，无视防御和减伤效果，同时也不受增伤效果影响。"
         }
       ],
-      "type": 1,
+      "type": 3,
       "special": "使用后自身获得额外行动<span style=\"color:#158bdb\">1</span>次，并在<span style=\"color:#158bdb\">3</span>回合内，自身被动造成的<span style=\"color:#ff6724\">真实伤害</span>增加<span style=\"color:#158bdb\">1</span>倍，贯穿率增加<span style=\"color:#158bdb\">10%</span>，闪避率增加<span style=\"color:#158bdb\">10%</span>。"
     },
     {
@@ -79,7 +79,7 @@
           "des": "此伤害不触发暴击和贯穿效果，且无法被格挡，无视防御和减伤效果，同时也不受增伤效果影响。"
         }
       ],
-      "type": 2,
+      "type": 4,
       "special": null
     },
     {
@@ -96,7 +96,7 @@
           "des": "此伤害不触发暴击和贯穿效果，且无法被格挡，无视防御和减伤效果，同时也不受增伤效果影响。"
         }
       ],
-      "type": 2,
+      "type": 5,
       "special": null
     },
     {
@@ -113,7 +113,7 @@
           "des": "此伤害不触发暴击和贯穿效果，且无法被格挡，无视防御和减伤效果，同时也不受增伤效果影响。"
         }
       ],
-      "type": 2,
+      "type": 6,
       "special": null
     },
     {
@@ -121,12 +121,13 @@
       "des": "使用后自身获得再行动<span style=\"color:#158bdb\">1</span>次，该次再行动的移动力减少<span style=\"color:#158bdb\">2</span>。",
       "tag": [
         "自身",
-        "无消耗"
+        "无消耗",
+        "冷却:2"
       ],
       "level": 1,
       "icon": "skillicon_Jobskill_V",
       "buff": [],
-      "type": 1,
+      "type": 2,
       "special": null
     }
   ],

@@ -57,7 +57,7 @@
       "level": 1,
       "icon": "skillicon_W002902",
       "buff": [],
-      "type": 1,
+      "type": 3,
       "special": null
     },
     {
@@ -74,7 +74,7 @@
           "des": "此伤害不触发暴击和贯穿效果，且无法被格挡，但会被构素护盾抵挡。"
         }
       ],
-      "type": 2,
+      "type": 4,
       "special": "常击造成伤害后，根据自身累计治疗量的<span style=\"color:#158bdb\">100%</span>造成<span style=\"color:#ff6724\">额外构素伤害</span>，该伤害不超过攻击力的<span style=\"color:#158bdb\">100%</span>，且自身生命值越低，该额外伤害越高，最多提高<span style=\"color:#158bdb\">100%</span>；进行常击后，使自身回复当前已损失生命值<span style=\"color:#158bdb\">50%</span>的生命值。"
     },
     {
@@ -86,7 +86,7 @@
       "level": 1,
       "icon": "skillicon_W002904",
       "buff": [],
-      "type": 2,
+      "type": 5,
       "special": null
     },
     {
@@ -98,7 +98,7 @@
       "level": 1,
       "icon": "skillicon_W002905",
       "buff": [],
-      "type": 2,
+      "type": 6,
       "special": null
     },
     {
@@ -106,12 +106,13 @@
       "des": "使用后自身获得再行动<span style=\"color:#158bdb\">1</span>次，使自身的治疗效果提高<span style=\"color:#158bdb\">40%</span>，持续<span style=\"color:#158bdb\">2</span>回合。",
       "tag": [
         "自身",
-        "消耗:1"
+        "消耗:1",
+        "冷却:3"
       ],
       "level": 1,
       "icon": "skillicon_Jobskill_W_H",
       "buff": [],
-      "type": 1,
+      "type": 2,
       "special": null
     }
   ],

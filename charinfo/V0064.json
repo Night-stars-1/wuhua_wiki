@@ -57,7 +57,7 @@
       "level": 1,
       "icon": "skillicon_V006402",
       "buff": [],
-      "type": 1,
+      "type": 3,
       "special": null
     },
     {
@@ -69,7 +69,7 @@
       "level": 1,
       "icon": "skillicon_V006403",
       "buff": [],
-      "type": 2,
+      "type": 4,
       "special": null
     },
     {
@@ -86,7 +86,7 @@
           "des": "提高受到的所有伤害<span style=\"color:#db2424\">30%</span>，每受到一次直接攻击减少<span style=\"color:#ff6724\">1层</span>，持续<span style=\"color:#4395d6\">2</span>回合或层数用完。"
         }
       ],
-      "type": 2,
+      "type": 5,
       "special": null
     },
     {
@@ -98,7 +98,7 @@
       "level": 1,
       "icon": "skillicon_V006405",
       "buff": [],
-      "type": 2,
+      "type": 6,
       "special": "进入战斗后，连击的伤害提高<span style=\"color:#158bdb\">20%</span>。常击后有<span style=\"color:#158bdb\">80%</span>概率使职业技能冷却时间减少<span style=\"color:#158bdb\">1</span>回合。"
     },
     {
@@ -106,12 +106,13 @@
       "des": "使用后自身获得再行动<span style=\"color:#158bdb\">1</span>次，该次再行动的移动力减少<span style=\"color:#158bdb\">2</span>。",
       "tag": [
         "自身",
-        "无消耗"
+        "无消耗",
+        "冷却:2"
       ],
       "level": 1,
       "icon": "skillicon_Jobskill_V",
       "buff": [],
-      "type": 1,
+      "type": 2,
       "special": null
     }
   ],

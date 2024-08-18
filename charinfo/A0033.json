@@ -52,12 +52,13 @@
       "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">210%</span>的物理伤害。",
       "tag": [
         "十字3格",
-        "消耗:3"
+        "消耗:3",
+        "冷却:2"
       ],
       "level": 1,
       "icon": "skillicon_A003302",
       "buff": [],
-      "type": 1,
+      "type": 3,
       "special": null
     },
     {
@@ -74,7 +75,7 @@
           "des": "攻击时，每层效果提供<span style=\"color:#158bdb\">15%</span>概率对目标施加<span style=\"color:#ff6724\">晕眩</span>效果，可叠加<span style=\"color:#158bdb\">3</span>层，触发后移除所有层数。"
         }
       ],
-      "type": 2,
+      "type": 4,
       "special": null
     },
     {
@@ -91,7 +92,7 @@
           "des": "移动力提高<span style=\"color:#158bdb\">1</span>格，常击伤害提升<span style=\"color:#158bdb\">40%</span>，常击命中后额外获得<span style=\"color:#158bdb\">1</span>点能量。"
         }
       ],
-      "type": 2,
+      "type": 5,
       "special": "解除<span style=\"color:#ff6724\">瞄准</span>状态后的<span style=\"color:#158bdb\">1</span>回合内，自身获得<span style=\"color:#ff6724\">奔袭</span>，常击与绝技的射程增加<span style=\"color:#158bdb\">1</span>格。"
     },
     {
@@ -108,7 +109,7 @@
           "des": "绝技伤害提升<span style=\"color:#158bdb\">10%</span>，并在释放绝技时使<span style=\"color:#ff6724\">狙击</span>效果获得额外眩晕概率。"
         }
       ],
-      "type": 2,
+      "type": 6,
       "special": null
     },
     {
@@ -116,7 +117,8 @@
       "des": "使用后自身获得<span style=\"color:#158bdb\">1</span>次不可移动的再行动，并进入<span style=\"color:#ff6724\">瞄准</span>状态。",
       "tag": [
         "自身",
-        "无消耗"
+        "无消耗",
+        "冷却:3"
       ],
       "level": 1,
       "icon": "skillicon_Jobskill_A",
@@ -126,7 +128,7 @@
           "des": "此状态下进行攻击时，最大攻击距离增加<span style=\"color:#158bdb\">4</span>格，该次再行动结束后，此状态消失。"
         }
       ],
-      "type": 1,
+      "type": 2,
       "special": null
     }
   ],

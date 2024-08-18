@@ -62,7 +62,7 @@
           "des": "只能攻击使自身获得此状态的单位。"
         }
       ],
-      "type": 1,
+      "type": 3,
       "special": null
     },
     {
@@ -79,7 +79,7 @@
           "des": "每移动一格，受到最大生命值<span style=\"color:#158bdb\">5%</span>的伤害，可叠加<span style=\"color:#158bdb\">5</span>层，持续<span style=\"color:#158bdb\">2</span>回合。"
         }
       ],
-      "type": 2,
+      "type": 4,
       "special": "当受到自身<span style=\"color:#158bdb\">周围1格</span>的敌方单位攻击时，自身有<span style=\"color:#158bdb\">60%</span>概率对其进行回击，对其造成自身攻击力<span style=\"color:#158bdb\">60%</span>的物理伤害，并使其获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">流失</span>状态。"
     },
     {
@@ -91,7 +91,7 @@
       "level": 1,
       "icon": "skillicon_D003204",
       "buff": [],
-      "type": 2,
+      "type": 5,
       "special": null
     },
     {
@@ -103,7 +103,7 @@
       "level": 1,
       "icon": "skillicon_D003205",
       "buff": [],
-      "type": 2,
+      "type": 6,
       "special": null
     },
     {
@@ -111,7 +111,8 @@
       "des": "使自身选定方向前<span style=\"color:#158bdb\">1</span>排的<span style=\"color:#158bdb\">3</span>格变为束缚格，效果持续<span style=\"color:#158bdb\">1</span>回合。若敌方单位进入束缚格，将无法离开束缚格范围，并进入<span style=\"color:#ff6724\">破甲</span>状态。",
       "tag": [
         "射程1格 ",
-        "无消耗"
+        "无消耗",
+        "冷却:2"
       ],
       "level": 1,
       "icon": "skillicon_Jobskill_D_Z",
@@ -121,7 +122,7 @@
           "des": "物理防御降低<span style=\"color:#158bdb\">30%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">1</span>层。"
         }
       ],
-      "type": 1,
+      "type": 2,
       "special": null
     }
   ],

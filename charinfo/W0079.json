@@ -52,12 +52,13 @@
       "des": "对选定的敌方单位及其<span style=\"color:#158bdb\">周围2格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害，并使自身获得额外行动机会。",
       "tag": [
         "射程2格",
-        "消耗:3"
+        "消耗:3",
+        "冷却:3"
       ],
       "level": 1,
       "icon": "skillicon_W007902",
       "buff": [],
-      "type": 1,
+      "type": 3,
       "special": "对选定的敌方单位及其<span style=\"color:#158bdb\">周围2格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害，并使自身获得额外行动机会。"
     },
     {
@@ -69,7 +70,7 @@
       "level": 1,
       "icon": "skillicon_W007903",
       "buff": [],
-      "type": 2,
+      "type": 4,
       "special": null
     },
     {
@@ -81,7 +82,7 @@
       "level": 1,
       "icon": "skillicon_W007904",
       "buff": [],
-      "type": 2,
+      "type": 5,
       "special": null
     },
     {
@@ -98,7 +99,7 @@
           "des": "下一次攻击伤害提高<span style=\"color:#158bdb\">10%</span>，并限制受击目标移动<span style=\"color:#158bdb\">1</span>回合。"
         }
       ],
-      "type": 2,
+      "type": 6,
       "special": "当职业技能命中至少<span style=\"color:#158bdb\">2</span>个敌方单位时，自身获得<span style=\"color:#ff6724\">和鸣</span>状态。"
     },
     {
@@ -106,12 +107,13 @@
       "des": "选定目标及其<span style=\"color:#158bdb\">周围2格</span>地块，蓄力<span style=\"color:#158bdb\">1</span>回合后，对该区域敌方全体造成自身攻击力<span style=\"color:#158bdb\">150%</span>的构素伤害。",
       "tag": [
         "射程3格",
-        "无消耗"
+        "无消耗",
+        "冷却:2"
       ],
       "level": 1,
       "icon": "skillicon_Jobskill_W_D",
       "buff": [],
-      "type": 1,
+      "type": 2,
       "special": null
     }
   ],

@@ -57,7 +57,7 @@
       "level": 1,
       "icon": "skillicon_V003402",
       "buff": [],
-      "type": 1,
+      "type": 3,
       "special": null
     },
     {
@@ -78,7 +78,7 @@
           "des": "触发流失伤害时，有<span style=\"color:#ff6724\">40%</span>概率受到一次攻击力<span style=\"color:#158bdb\">50%</span>的<span style=\"color:#ff6724\">额外物理伤害</span>。"
         }
       ],
-      "type": 2,
+      "type": 4,
       "special": "使用职业技能后，下次攻击使受击目标获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">流失</span>状态和<span style=\"color:#ff6724\">割裂</span>状态，效果持续<span style=\"color:#158bdb\">2</span>回合。"
     },
     {
@@ -90,7 +90,7 @@
       "level": 1,
       "icon": "skillicon_V003404",
       "buff": [],
-      "type": 2,
+      "type": 5,
       "special": null
     },
     {
@@ -102,7 +102,7 @@
       "level": 1,
       "icon": "skillicon_V003405",
       "buff": [],
-      "type": 2,
+      "type": 6,
       "special": "攻击前，若受击目标处于<span style=\"color:#158bdb\">1</span>层以上<span style=\"color:#ff6724\">流失</span>状态，则自身行动结束后获得额外移动<span style=\"color:#158bdb\">1</span>次，该次额外移动的移动力减少<span style=\"color:#158bdb\">-2</span>。"
     },
     {
@@ -110,12 +110,13 @@
       "des": "使用后自身获得再行动<span style=\"color:#158bdb\">1</span>次，该次再行动的移动力减少<span style=\"color:#158bdb\">2</span>。",
       "tag": [
         "自身",
-        "无消耗"
+        "无消耗",
+        "冷却:2"
       ],
       "level": 1,
       "icon": "skillicon_Jobskill_V",
       "buff": [],
-      "type": 1,
+      "type": 2,
       "special": null
     }
   ],

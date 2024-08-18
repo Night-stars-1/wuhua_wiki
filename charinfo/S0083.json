@@ -52,12 +52,13 @@
       "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">240%</span>的构素伤害，并为自身填充<span style=\"color:#158bdb\">1</span>枚<span style=\"color:#ff6724\">礼弹</span>。",
       "tag": [
         "射程3格",
-        "消耗:4"
+        "消耗:4",
+        "冷却:2"
       ],
       "level": 1,
       "icon": "skillicon_S008302",
       "buff": [],
-      "type": 1,
+      "type": 3,
       "special": null
     },
     {
@@ -69,7 +70,7 @@
       "level": 1,
       "icon": "skillicon_S008303",
       "buff": [],
-      "type": 2,
+      "type": 4,
       "special": "警戒攻击造成的伤害增加<span style=\"color:#158bdb\">30%</span>。每次警戒攻击额外消耗<span style=\"color:#158bdb\">1</span>枚<span style=\"color:#ff6724\">礼弹</span>，此次攻击造成暴击时，有<span style=\"color:#158bdb\">100%</span>的概率将额外消耗的<span style=\"color:#ff6724\">礼弹</span>重新装填。\n进入战斗后，<span style=\"color:#ff6724\">礼弹</span>可填充上限增加<span style=\"color:#158bdb\">3</span>枚，使用职业技能时额外填充<span style=\"color:#158bdb\">3</span>枚<span style=\"color:#ff6724\">礼弹</span>。"
     },
     {
@@ -81,7 +82,7 @@
       "level": 1,
       "icon": "skillicon_S008304",
       "buff": [],
-      "type": 2,
+      "type": 5,
       "special": "使用职业技能后，自身立刻获得暴击率增加<span style=\"color:#158bdb\">60%</span>；接下来的<span style=\"color:#158bdb\">1</span>回合起，每回合行动后获得<span style=\"color:#158bdb\">1</span>层暴击率降低<span style=\"color:#158bdb\">-20%</span>效果，直至相互抵消。再次使用职业技能时，重置上述所有效果。"
     },
     {
@@ -93,7 +94,7 @@
       "level": 1,
       "icon": "skillicon_S008305",
       "buff": [],
-      "type": 2,
+      "type": 6,
       "special": null
     },
     {
@@ -101,7 +102,8 @@
       "des": "使用后为自身填充<span style=\"color:#158bdb\">3</span>枚<span style=\"color:#ff6724\">礼弹</span>并进入警戒状态：以自身<span style=\"color:#158bdb\">周围3格</span>为警戒范围，对停留在该范围中的敌方单位进行警戒攻击，对其造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
       "tag": [
         "自身",
-        "无消耗"
+        "无消耗",
+        "冷却:3"
       ],
       "level": 1,
       "icon": "skillicon_Jobskill_S",
@@ -111,7 +113,7 @@
           "des": "填充<span style=\"color:#ff6724\">礼弹</span>则进入警戒状态，每次警戒攻击或治疗将消耗<span style=\"color:#ff6724\">礼弹</span>，<span style=\"color:#ff6724\">礼弹</span>清零后自动结束警戒状态。"
         }
       ],
-      "type": 1,
+      "type": 2,
       "special": null
     }
   ],
