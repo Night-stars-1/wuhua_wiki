@@ -4,7 +4,7 @@
  * @LastEditors: Night-stars-1 nujj1042633805@gmail.com
  * @LastEditTime: 2024-07-27 15:22:38
  */
-interface Card {
+type Card = {
   /**
    * 名称
    */
@@ -34,7 +34,7 @@ interface Card {
   time: string;
 }
 
-interface DrawCardHistory {
+type DrawCardHistory = {
   UID: string;
   /**
    * 卡池代号

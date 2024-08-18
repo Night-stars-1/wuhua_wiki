@@ -6,7 +6,12 @@
     <LoginCard @check="Save" />
     <DrawCardStatistic :analysis-list="analysisList" />
     <DrawCardTable :loading="loading" :table-data="tableData" :state="state" />
-    <DrawCardProgress :char-progress="charProgress" :card-list="analysisList" :loading="loading" />
+    <DrawCardProgress
+      :char-progress="charProgress"
+      :card-list="analysisList"
+      :loading="loading"
+      :card-data="cardData"
+    />
   </el-space>
   <el-dialog
     v-model="dialogTableVisible"
@@ -20,12 +25,9 @@
 </template>
 
 <script lang="ts" setup>
-import type { ComponentInternalInstance } from "vue";
 import { mergeLists, findOverlapIndex } from "@/utils/list";
 import { getDrawCardHistory, getWuhuaKey } from "@/utils/wuhua";
 import { cloneDeep } from "lodash";
-const { appContext } = getCurrentInstance() as ComponentInternalInstance;
-const http = appContext.config.globalProperties.$http;
 
 const analysisList = ref([
   {
@@ -58,7 +60,7 @@ const analysisList = ref([
     three: 0,
     four: 0,
     pull: 0,
-  }
+  },
 ]);
 const loading = ref(false);
 const cardListStr = localStorage.getItem("cardList");
@@ -77,19 +79,12 @@ const tableData = computed(() => {
       index >= state.value.limit * (state.value.page - 1)
   );
 });
-const charProgress = ref<{
-  [key: number]: {
-    name: string;
-    count: number;
-  }[];
-}>({});
+const charProgress = ref<charProgress>({});
+
+/** 每个卡池的信息 */
+const cardData = ref<cardData>({});
 const dialogTableVisible = ref(false);
 const dialogText = ref(`开始读取抽卡数据...`);
-const name2id = ref<{ [key: string]: string }>({});
-onMounted(async () => {
-  const response = await http.get("charinfo/allCharacter.json");
-  name2id.value = response.data;
-});
 
 function getGachaId(gachaType: string): number {
   switch (gachaType) {
@@ -126,18 +121,49 @@ function initCardList() {
     .reverse()
     .forEach((data) => {
       const gachaId = getGachaId(data.gachaType);
-      charProgress.value[gachaId][charProgress.value[gachaId].length - 1].count++;
+      if (data.gachaType == "time") {
+        if (!cardData.value.hasOwnProperty(data.gachaName)) {
+          cardData.value[data.gachaName] = [
+            {
+              name: "未知",
+              count: 0,
+              three: [],
+            },
+          ];
+        }
+        cardData.value[data.gachaName][
+          cardData.value[data.gachaName].length - 1
+        ].count++;
+      }
+      charProgress.value[gachaId][charProgress.value[gachaId].length - 1]
+        .count++;
       switch (data.rankType) {
         case 3:
           analysisList.value[gachaId].three++;
+          data.gachaType == "time" &&
+            cardData.value[data.gachaName][
+              cardData.value[data.gachaName].length - 1
+            ].three.push(data.name);
           break;
         case 4:
           analysisList.value[gachaId].four++;
-          charProgress.value[gachaId][charProgress.value[gachaId].length - 1].name = data.name;
+          charProgress.value[gachaId][
+            charProgress.value[gachaId].length - 1
+          ].name = data.name;
           charProgress.value[gachaId].push({
             name: "未知",
             count: 0,
           });
+          if (data.gachaType == "time") {
+            cardData.value[data.gachaName][
+              cardData.value[data.gachaName].length - 1
+            ].name = data.name;
+            cardData.value[data.gachaName].push({
+              name: "未知",
+              count: 0,
+              three: [],
+            });
+          }
           break;
       }
       analysisList.value[gachaId].pull++;

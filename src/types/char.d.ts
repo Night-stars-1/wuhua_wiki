@@ -4,7 +4,7 @@
  * @LastEditors: Night-stars-1 nujj1042633805@gmail.com
  * @LastEditTime: 2024-08-11 14:09:05
  */
-interface CharInfo {
+type CharInfo = {
   /**
    * 角色名称
    */
@@ -131,7 +131,7 @@ interface CharInfo {
   tag: string
 }
 
-interface Buff {
+type Buff = {
   /**
    * Buff名称
    */
@@ -142,7 +142,7 @@ interface Buff {
   des: string;
 }
 
-interface SkillInfo {
+type SkillInfo = {
   /**
    * 技能名称
    */
@@ -172,17 +172,17 @@ interface SkillInfo {
   special?: string
 }
 
-interface CharData {
+type CharData = {
   id: string;
   name: string;
 }
 
-interface SkinInfo {
+type SkinInfo = {
   id: string;
   name: string;
 }
 
-interface Char {
+type Char = {
   info?: CharInfo;
   skill?: SkillInfo[];
   skin?: SkinInfo[];
