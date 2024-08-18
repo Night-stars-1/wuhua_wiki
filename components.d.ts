@@ -7,6 +7,7 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
+    CharEstimate: typeof import('./src/components/char/CharEstimate.vue')['default']
     CharInfo: typeof import('./src/components/char/CharInfo.vue')['default']
     CharInfoCard: typeof import('./src/components/charinfo/CharInfoCard.vue')['default']
     CharInfoSkill: typeof import('./src/components/charinfo/CharInfoSkill.vue')['default']

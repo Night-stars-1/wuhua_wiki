@@ -45,10 +45,9 @@
           <el-tab-pane label="技能">
             <CharSkill :id="id" :dataList="data.skill" />
           </el-tab-pane>
-          <el-tab-pane label="致知">
-            <el-card> 致知 </el-card>
+          <el-tab-pane label="评估">
+            <CharEstimate />
           </el-tab-pane>
-          <!-- <el-tab-pane label="精研">精研</el-tab-pane> -->
           <el-tab-pane label="档案">
             <el-card> 档案 </el-card>
           </el-tab-pane>

@@ -7,7 +7,7 @@
       @tab-change="tabChange"
     >
       <el-tab-pane label="Token登陆" name="token">
-        <el-text> 请输入抽卡信息： </el-text>
+        <el-text> 请输入Token信息： </el-text>
         <el-input
           v-model="code"
           placeholder="请输入access_key"
