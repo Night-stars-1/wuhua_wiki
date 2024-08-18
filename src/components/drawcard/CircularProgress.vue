@@ -20,7 +20,7 @@ defineProps<{
 }>();
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .threaded-progress-bar {
   width: 100%;
   height: 20px;

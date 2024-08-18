@@ -102,8 +102,8 @@ function getGachaId(gachaType: string): number {
 }
 
 function initCharProgress() {
-  const _charProgress: { [key: number]: { name: string; count: number }[] } =
-    {};
+  cardData.value = {};
+  const _charProgress: charProgress = {};
   for (let i = 0; i < analysisList.value.length; i++) {
     _charProgress[i] = [
       {
@@ -119,7 +119,7 @@ function initCardList() {
   charProgress.value = initCharProgress();
   cloneDeep(cardList.value)
     .reverse()
-    .forEach((data) => {
+    .forEach(async (data) => {
       const gachaId = getGachaId(data.gachaType);
       if (data.gachaType == "time") {
         if (!cardData.value.hasOwnProperty(data.gachaName)) {
@@ -127,6 +127,7 @@ function initCardList() {
             {
               name: "未知",
               count: 0,
+              ids: [],
               three: [],
             },
           ];
@@ -161,6 +162,7 @@ function initCardList() {
             cardData.value[data.gachaName].push({
               name: "未知",
               count: 0,
+              ids: [],
               three: [],
             });
           }

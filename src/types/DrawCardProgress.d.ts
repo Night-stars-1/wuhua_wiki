@@ -7,8 +7,10 @@ type charProgress = {
 
 type cardData = {
   [key: string]: {
+    id?: string;
     name: string;
     count: number;
+    ids: string[];
     three: string[];
   }[];
 }
