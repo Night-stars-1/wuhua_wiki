@@ -1,27 +1,30 @@
 <template>
-  <div style="text-align: center">
-    <h2>物华弥新抽卡分析</h2>
-  </div>
-  <el-space class="drawcard-content" fill :size="20">
-    <LoginCard @check="Save" />
-    <DrawCardStatistic :analysis-list="analysisList" />
-    <DrawCardTable :loading="loading" :table-data="tableData" :state="state" />
-    <DrawCardProgress
-      :char-progress="charProgress"
-      :card-list="analysisList"
-      :loading="loading"
-      :card-data="cardData"
-    />
-  </el-space>
-  <el-dialog
-    v-model="dialogTableVisible"
-    :close-on-click-modal="false"
-    :close-on-press-escape="false"
-    :show-close="false"
-    title="提示"
-  >
-    <span v-text="dialogText"></span>
-  </el-dialog>
+  <Panel class="drawcard-panel">
+    <el-space class="drawcard-content" fill :size="20">
+      <LoginCard @check="Save" />
+      <DrawCardStatistic :analysis-list="analysisList" />
+      <DrawCardTable
+        :loading="loading"
+        :table-data="tableData"
+        :state="state"
+      />
+      <DrawCardProgress
+        :char-progress="charProgress"
+        :card-list="analysisList"
+        :loading="loading"
+        :card-data="cardData"
+      />
+    </el-space>
+    <el-dialog
+      v-model="dialogTableVisible"
+      :close-on-click-modal="false"
+      :close-on-press-escape="false"
+      :show-close="false"
+      title="提示"
+    >
+      <span v-text="dialogText"></span>
+    </el-dialog>
+  </Panel>
 </template>
 
 <script lang="ts" setup>
@@ -243,6 +246,9 @@ async function Save(code: string, uid: string) {
 </script>
 
 <style lang="scss" scoped>
+.drawcard-panel {
+  padding: 5px 10px;
+}
 .drawcard-content {
   width: 100%;
 }
