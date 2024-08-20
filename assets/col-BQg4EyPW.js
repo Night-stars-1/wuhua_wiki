@@ -1,1 +1,0 @@
-import{b as c,f as a,g as _,ae as r}from"./index-BbDn4kKy.js";const d=(e,t)=>{const s=e.__vccOpts||e;for(const[n,o]of t)s[n]=o;return s},l={},f={class:"panel"},i={class:"content"};function p(e,t){return c(),a("div",f,[_("div",i,[r(e.$slots,"default",{},void 0,!0)])])}const m=d(l,[["render",p],["__scopeId","data-v-d2e507c9"]]);export{m as _,d as a};
