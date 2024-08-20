@@ -2,7 +2,7 @@
  * @Author: Night-stars-1 nujj1042633805@gmail.com
  * @Date: 2024-07-20 19:47:57
  * @LastEditors: Night-stars-1 nujj1042633805@gmail.com
- * @LastEditTime: 2024-08-17 19:05:31
+ * @LastEditTime: 2024-08-20 22:54:25
 -->
 <template>
   <el-row class="char-container">
@@ -28,7 +28,7 @@
           </el-dropdown-menu>
         </template>
       </el-dropdown>
-      <CharView :id="id" :skinId="data.skin?.[skinIndex].id" />
+      <CharView :id="id" :skinId="data.skin?.[skinIndex]?.id" />
     </el-col>
     <el-col :md="12" style="flex: 1" v-if="data?.info && data?.skill">
       <Panel class="char">
