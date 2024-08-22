@@ -36,12 +36,12 @@
   "skill": [
     {
       "name": "义剑",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。",
       "tag": [
         "射程1格 ",
         "无消耗"
       ],
-      "level": 1,
+      "level": 5,
       "icon": "skillicon_Commonattack_V",
       "buff": [],
       "type": 1,
@@ -49,12 +49,12 @@
     },
     {
       "name": "热血仁侠",
-      "des": "对选定的敌方单位及其<span style=\"color:#158bdb\">周围2格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。",
+      "des": "对选定的敌方单位及其<span style=\"color:#158bdb\">周围2格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">192%</span>的物理伤害。",
       "tag": [
         "射程1格 ",
         "消耗:3"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_V002002",
       "buff": [],
       "type": 3,
@@ -62,11 +62,11 @@
     },
     {
       "name": "宝气珠光",
-      "des": "使用常击时，若自身<span style=\"color:#158bdb\">周围2格</span>不存在友方单位，则该次常击后触发连击，连击对目标造成自身攻击力<span style=\"color:#158bdb\">50%</span>的物理伤害。",
+      "des": "使用常击时，若自身<span style=\"color:#158bdb\">周围2格</span>不存在友方单位，则该次常击后触发连击，连击对目标造成自身攻击力<span style=\"color:#158bdb\">90%</span>的物理伤害。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_V002003",
       "buff": [],
       "type": 4,
@@ -74,23 +74,23 @@
     },
     {
       "name": "国公威仪",
-      "des": "若自身<span style=\"color:#158bdb\">周围1格</span>的敌方单位数量不少于<span style=\"color:#158bdb\">2</span>，自身造成的伤害提高<span style=\"color:#158bdb\">10%</span>。",
+      "des": "若自身<span style=\"color:#158bdb\">周围1格</span>的敌方单位数量不少于<span style=\"color:#158bdb\">2</span>，自身造成的伤害提高<span style=\"color:#158bdb\">20%</span>。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_V002004",
       "buff": [],
       "type": 5,
-      "special": "若自身<span style=\"color:#158bdb\">周围2格</span>的敌方单位数量不少于<span style=\"color:#158bdb\">2</span>，自身造成的伤害提高<span style=\"color:#158bdb\">15%</span>。"
+      "special": "若自身<span style=\"color:#158bdb\">周围2格</span>的敌方单位数量不少于<span style=\"color:#158bdb\">2</span>，自身造成的伤害提高<span style=\"color:#158bdb\">25%</span>。"
     },
     {
       "name": "如意宝冠",
-      "des": "进入战斗后，自身攻击力提高<span style=\"color:#158bdb\">10%</span>。",
+      "des": "进入战斗后，自身攻击力提高<span style=\"color:#158bdb\">20%</span>。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_V002005",
       "buff": [],
       "type": 6,

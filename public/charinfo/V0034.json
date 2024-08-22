@@ -36,12 +36,12 @@
   "skill": [
     {
       "name": "突斩",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。",
       "tag": [
         "射程1格 ",
         "无消耗"
       ],
-      "level": 1,
+      "level": 5,
       "icon": "skillicon_Commonattack_V",
       "buff": [],
       "type": 1,
@@ -49,12 +49,12 @@
     },
     {
       "name": "寒光霜刃",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">230%</span>的物理伤害。使用此技能时暴击伤害提高<span style=\"color:#158bdb\">20%</span>。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">310%</span>的物理伤害。使用此技能时暴击伤害提高<span style=\"color:#158bdb\">40%</span>。",
       "tag": [
         "射程1格 ",
         "消耗:3"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_V003402",
       "buff": [],
       "type": 3,
@@ -62,11 +62,11 @@
     },
     {
       "name": "慕强",
-      "des": "使用职业技能后，下次攻击使受击目标获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">流失</span>状态和<span style=\"color:#ff6724\">割裂</span>状态，效果持续<span style=\"color:#158bdb\">2</span>回合。",
+      "des": "使用职业技能后，下次攻击使受击目标获得<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">流失</span>状态和<span style=\"color:#ff6724\">割裂</span>状态，效果持续<span style=\"color:#158bdb\">2</span>回合。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_V003403",
       "buff": [
         {
@@ -79,15 +79,15 @@
         }
       ],
       "type": 4,
-      "special": "使用职业技能后，下次攻击使受击目标获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">流失</span>状态和<span style=\"color:#ff6724\">割裂</span>状态，效果持续<span style=\"color:#158bdb\">2</span>回合。"
+      "special": "使用职业技能后，下次攻击使受击目标获得<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">流失</span>状态和<span style=\"color:#ff6724\">割裂</span>状态，效果持续<span style=\"color:#158bdb\">2</span>回合。"
     },
     {
       "name": "孤锋",
-      "des": "自身释放常击、绝技前，<span style=\"color:#158bdb\">周围2格</span>内每存在<span style=\"color:#158bdb\">1</span>个处于<span style=\"color:#ff6724\">流失</span>状态的敌方单位，则该次攻击伤害增加<span style=\"color:#158bdb\">10%</span>，最多可叠加<span style=\"color:#158bdb\">3</span>层。",
+      "des": "自身释放常击、绝技前，<span style=\"color:#158bdb\">周围2格</span>内每存在<span style=\"color:#158bdb\">1</span>个处于<span style=\"color:#ff6724\">流失</span>状态的敌方单位，则该次攻击伤害增加<span style=\"color:#158bdb\">20%</span>，最多可叠加<span style=\"color:#158bdb\">3</span>层。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_V003404",
       "buff": [],
       "type": 5,
@@ -95,15 +95,15 @@
     },
     {
       "name": "剑影",
-      "des": "攻击前，若受击目标处于<span style=\"color:#158bdb\">3</span>层以上<span style=\"color:#ff6724\">流失</span>状态，则自身行动结束后获得额外移动<span style=\"color:#158bdb\">1</span>次，该次额外移动的移动力减少<span style=\"color:#158bdb\">-2</span>。",
+      "des": "攻击前，若受击目标处于<span style=\"color:#158bdb\">3</span>层以上<span style=\"color:#ff6724\">流失</span>状态，则自身行动结束后获得额外移动<span style=\"color:#158bdb\">1</span>次。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_V003405",
       "buff": [],
       "type": 6,
-      "special": "攻击前，若受击目标处于<span style=\"color:#158bdb\">1</span>层以上<span style=\"color:#ff6724\">流失</span>状态，则自身行动结束后获得额外移动<span style=\"color:#158bdb\">1</span>次，该次额外移动的移动力减少<span style=\"color:#158bdb\">-2</span>。"
+      "special": "攻击前，若受击目标处于<span style=\"color:#158bdb\">1</span>层以上<span style=\"color:#ff6724\">流失</span>状态，则自身行动结束后获得额外移动<span style=\"color:#158bdb\">1</span>次。"
     },
     {
       "name": "幼兽",

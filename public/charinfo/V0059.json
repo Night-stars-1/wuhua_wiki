@@ -36,12 +36,12 @@
   "skill": [
     {
       "name": "再不来了",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。",
       "tag": [
         "射程1格 ",
         "无消耗"
       ],
-      "level": 1,
+      "level": 5,
       "icon": "skillicon_Commonattack_V",
       "buff": [],
       "type": 1,
@@ -49,16 +49,16 @@
     },
     {
       "name": "为善最乐",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">200%</span>的物理伤害，若自身处于<span style=\"color:#ff6724\">为道</span>状态，则自身回复已损失生命值<span style=\"color:#158bdb\">10%</span>的生命值。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">300%</span>的物理伤害，若自身处于<span style=\"color:#ff6724\">为道</span>状态，则自身回复已损失生命值<span style=\"color:#158bdb\">30%</span>的生命值。",
       "tag": [
         "射程1格 ",
         "消耗:3"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_V005902",
       "buff": [],
       "type": 3,
-      "special": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">200%</span>的物理伤害，若自身处于<span style=\"color:#ff6724\">为道</span>状态，则自身回复已损失生命值<span style=\"color:#158bdb\">10%</span>的生命值。"
+      "special": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">300%</span>的物理伤害，若自身处于<span style=\"color:#ff6724\">为道</span>状态，则自身回复已损失生命值<span style=\"color:#158bdb\">30%</span>的生命值。"
     },
     {
       "name": "不欺",
@@ -66,7 +66,7 @@
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_V005903",
       "buff": [
         {
@@ -83,7 +83,7 @@
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_V005904",
       "buff": [
         {
@@ -100,11 +100,11 @@
     },
     {
       "name": "仙翁脱骨",
-      "des": "处于<span style=\"color:#ff6724\">不负三光</span>状态时，若自身闪避敌方攻击，则有<span style=\"color:#ff6724\">30%</span>概率获得<span style=\"color:#158bdb\">1</span>点能量，并立刻获得额外行动机会<span style=\"color:#158bdb\">1</span>次。",
+      "des": "处于<span style=\"color:#ff6724\">不负三光</span>状态时，若自身闪避敌方攻击，则有<span style=\"color:#ff6724\">70%</span>概率获得<span style=\"color:#158bdb\">1</span>点能量，并立刻获得额外行动机会<span style=\"color:#158bdb\">1</span>次。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_V005905",
       "buff": [],
       "type": 6,

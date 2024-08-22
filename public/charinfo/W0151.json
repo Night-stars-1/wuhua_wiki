@@ -1,0 +1,155 @@
+{
+  "info": {
+    "Hp": 689,
+    "Atk": 294,
+    "PhysicDef": 44,
+    "MagicDef": 44,
+    "Speed": 150,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 3,
+    "Mov": 3,
+    "Hp_GROW": 55,
+    "Atk_GROW": 20,
+    "PhysicDef_GROW": 4,
+    "MagicDef_GROW": 4,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": "",
+    "name": "断臂维纳斯",
+    "rare": 4,
+    "job": 4,
+    "tag": "远程;输出;增益"
+  },
+  "skill": [
+    {
+      "name": "雕刻",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的构素伤害。",
+      "tag": [
+        "射程2格",
+        "无消耗"
+      ],
+      "level": 5,
+      "icon": "skillicon_Commonattack_W",
+      "buff": [],
+      "type": 1,
+      "special": null
+    },
+    {
+      "name": "美神咏叹",
+      "des": "对自身<span style=\"color:#158bdb\">周围2格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的构素伤害，并使自身<span style=\"color:#158bdb\">周围4格</span>内当前生命值最高的<span style=\"color:#158bdb\">2</span>个敌方单位获得<span style=\"color:#ff6724\">残缺雕像</span>状态。",
+      "tag": [
+        "自身",
+        "消耗:3"
+      ],
+      "level": 3,
+      "icon": "skillicon_W015102",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">残缺雕像</span>",
+          "des": "受到的暴击伤害增加<span style=\"color:#158bdb\">-60%</span>，持续至<span style=\"color:#158bdb\">2</span>回合。"
+        }
+      ],
+      "type": 3,
+      "special": null
+    },
+    {
+      "name": "断臂",
+      "des": "自身<span style=\"color:#158bdb\">周围3格</span>内的友方单位攻击造成暴击时，有<span style=\"color:#158bdb\">100%</span>的概率使断臂维纳斯回复<span style=\"color:#158bdb\">1</span>点能量，每回合最多触发<span style=\"color:#158bdb\">3</span>次。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 3,
+      "icon": "skillicon_W015103",
+      "buff": [],
+      "type": 4,
+      "special": null
+    },
+    {
+      "name": "对偶倒列",
+      "des": "使用绝技后，自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">爱琴之潮</span>状态；该状态叠加至<span style=\"color:#158bdb\">3</span>层时，自身立即获得额外行动<span style=\"color:#158bdb\">1</span>次并获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">金星之怒</span>状态。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 3,
+      "icon": "skillicon_W015104",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">爱琴之潮</span>",
+          "des": "每层此状态使自身常击时的攻击力提升<span style=\"color:#158bdb\">0.5</span>倍；此状态最多可叠加<span style=\"color:#158bdb\">3</span>层；进行常击后，此状态全部消除。"
+        },
+        {
+          "name": "<span style=\"color:#ff6724\">金星之怒</span>",
+          "des": "自身下<span style=\"color:#158bdb\">1</span>次常击前，每拥有<span style=\"color:#158bdb\">25%</span>暴击率，则增加<span style=\"color:#158bdb\">10%</span>防御穿透，最多可叠加<span style=\"color:#158bdb\">4</span>次；进行常击后，此状态消除。"
+        }
+      ],
+      "type": 5,
+      "special": "使用绝技后，自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">爱琴之潮</span>状态；该状态叠加至<span style=\"color:#158bdb\">3</span>层时，自身立即获得额外行动<span style=\"color:#158bdb\">1</span>次并获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">金星之怒</span>状态。\n前<span style=\"color:#158bdb\">2</span>次使用职业技能时，同样获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">爱琴之潮</span>状态。"
+    },
+    {
+      "name": "黄金比例",
+      "des": "进入战斗后，获得<span style=\"color:#ff6724\">和谐之美</span>状态。\n受到援护、受到治疗溢出时或者在自身回合开始时持有<span style=\"color:#158bdb\">2</span>个及以上属性增益，则获得<span style=\"color:#ff6724\">黄金比例</span>状态。该状态叠加至<span style=\"color:#158bdb\">3</span>层时，自身获得<span style=\"color:#ff6724\">和谐之美</span>状态。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 3,
+      "icon": "skillicon_W015105",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">和谐之美</span>",
+          "des": "下<span style=\"color:#158bdb\">1</span>次使用职业技能后此状态消除，使自身获得<span style=\"color:#158bdb\">2</span>点能量，并获得再行动<span style=\"color:#158bdb\">1</span>次。\n处于此状态期间，不会获得<span style=\"color:#ff6724\">黄金比例</span>状态。"
+        }
+      ],
+      "type": 6,
+      "special": null
+    },
+    {
+      "name": "神人同形",
+      "des": "选定自身或<span style=\"color:#158bdb\">周围2格</span>的友方单体，使其获得<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">怒雷</span>状态；获得该状态前，该单位每有<span style=\"color:#158bdb\">20%</span>的暴击率，则使其获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">神人同形</span>状态，持续<span style=\"color:#158bdb\">2</span>回合。",
+      "tag": [
+        "射程2格",
+        "消耗:2"
+      ],
+      "level": 1,
+      "icon": "skillicon_Jobskill_W_R",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">怒雷</span>",
+          "des": "暴击率增加<span style=\"color:#158bdb\">20%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">2</span>层。"
+        },
+        {
+          "name": "<span style=\"color:#ff6724\">神人同形</span>",
+          "des": "暴击伤害增加<span style=\"color:#158bdb\">10%</span>，可叠加<span style=\"color:#158bdb\">5</span>层，持续<span style=\"color:#158bdb\">2</span>回合。"
+        }
+      ],
+      "type": 2,
+      "special": null
+    }
+  ],
+  "skin": [
+    {
+      "id": "W0151001",
+      "name": "肖形"
+    },
+    {
+      "id": "W0151002",
+      "name": "写照"
+    },
+    {
+      "id": "W0151003",
+      "name": "月下新生"
+    }
+  ]
+}

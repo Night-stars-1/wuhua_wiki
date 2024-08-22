@@ -36,12 +36,12 @@
   "skill": [
     {
       "name": "羊脂美玉",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。",
       "tag": [
         "十字3格",
         "无消耗"
       ],
-      "level": 1,
+      "level": 5,
       "icon": "skillicon_Commonattack_A",
       "buff": [],
       "type": 1,
@@ -49,12 +49,12 @@
     },
     {
       "name": "夏蝉喧鸣",
-      "des": "对自身<span style=\"color:#158bdb\">周围2格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">90%</span>的物理伤害，并使其进入<span style=\"color:#ff6724\">鲁莽</span>状态。",
+      "des": "对自身<span style=\"color:#158bdb\">周围2格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">150%</span>的物理伤害，并使其进入<span style=\"color:#ff6724\">鲁莽</span>状态。",
       "tag": [
         "自身",
         "消耗:2"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_A008602",
       "buff": [
         {
@@ -67,11 +67,11 @@
     },
     {
       "name": "金蝉脱壳",
-      "des": "受到常击时，若攻击方距离自身<span style=\"color:#158bdb\">周围2格</span>以内，无论是否被命中，均会进行回击，对自身<span style=\"color:#158bdb\">周围2格</span>内的所有敌方目标造成攻击力<span style=\"color:#158bdb\">30%</span>的物理伤害；受到直接攻击后，获得<span style=\"color:#ff6724\">脱壳</span>效果。",
+      "des": "受到常击时，若攻击方距离自身<span style=\"color:#158bdb\">周围2格</span>以内，无论是否被命中，均会进行回击，对自身<span style=\"color:#158bdb\">周围2格</span>内的所有敌方目标造成攻击力<span style=\"color:#158bdb\">50%</span>的物理伤害；受到直接攻击后，获得<span style=\"color:#ff6724\">脱壳</span>效果。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_A008603",
       "buff": [
         {
@@ -80,7 +80,7 @@
         }
       ],
       "type": 4,
-      "special": "受到常击时，若攻击方距离自身<span style=\"color:#158bdb\">周围2格</span>以内，无论是否被命中，均会进行回击，对自身<span style=\"color:#158bdb\">周围2格</span>内的所有敌方目标造成攻击力<span style=\"color:#158bdb\">30%</span>的物理伤害；受到直接攻击后，获得<span style=\"color:#ff6724\">脱壳</span>效果，闪避时保留<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">脱壳</span>。"
+      "special": "受到常击时，若攻击方距离自身<span style=\"color:#158bdb\">周围2格</span>以内，无论是否被命中，均会进行回击，对自身<span style=\"color:#158bdb\">周围2格</span>内的所有敌方目标造成攻击力<span style=\"color:#158bdb\">50%</span>的物理伤害；受到直接攻击后，获得<span style=\"color:#ff6724\">脱壳</span>效果，闪避时保留<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">脱壳</span>。"
     },
     {
       "name": "动静相宜",
@@ -88,7 +88,7 @@
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_A008604",
       "buff": [
         {
@@ -97,15 +97,15 @@
         }
       ],
       "type": 5,
-      "special": "处于<span style=\"color:#ff6724\">瞄准</span>状态进行攻击后，攻击力<span style=\"color:#158bdb\">提升%</span>，暴击率<span style=\"color:#158bdb\">提升%</span>，持续<span style=\"color:#158bdb\">40</span>回合。"
+      "special": "处于<span style=\"color:#ff6724\">瞄准</span>状态进行攻击后，攻击力<span style=\"color:#158bdb\">提升%</span>，暴击率<span style=\"color:#158bdb\">提升%</span>，持续<span style=\"color:#158bdb\">80</span>回合。"
     },
     {
       "name": "玉叶折光",
-      "des": "受到致命伤害时，在该回内获得<span style=\"color:#ff6724\">死亡抵抗</span>效果；并提高<span style=\"color:#158bdb\">30%</span>生命偷取率，持续1回合，同时获得<span style=\"color:#ff6724\">隐蔽</span>效果；一场战斗中仅可触发1次。",
+      "des": "受到致命伤害时，在该回内获得<span style=\"color:#ff6724\">死亡抵抗</span>效果；并提高<span style=\"color:#158bdb\">70%</span>生命偷取率，持续1回合，同时获得<span style=\"color:#ff6724\">隐蔽</span>效果；一场战斗中仅可触发1次。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_A008605",
       "buff": [
         {

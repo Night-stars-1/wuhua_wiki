@@ -36,12 +36,12 @@
   "skill": [
     {
       "name": "刻纹",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的构素伤害。",
       "tag": [
         "射程2格",
         "无消耗"
       ],
-      "level": 1,
+      "level": 5,
       "icon": "skillicon_Commonattack_W",
       "buff": [],
       "type": 1,
@@ -49,13 +49,13 @@
     },
     {
       "name": "汝窑奇珍",
-      "des": "为选定的友方单位及其<span style=\"color:#158bdb\">周围2格</span>的友方全体回复自身最大生命值<span style=\"color:#158bdb\">6%+200</span>的生命值，并使其获得目标最大生命值<span style=\"color:#158bdb\">10%</span>的构素护盾。",
+      "des": "为选定的友方单位及其<span style=\"color:#158bdb\">周围2格</span>的友方全体回复自身最大生命值<span style=\"color:#158bdb\">10%+600</span>的生命值，并使其获得目标最大生命值<span style=\"color:#158bdb\">20%</span>的构素护盾。",
       "tag": [
         "射程2格",
         "消耗:4",
         "冷却:3"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_W005702",
       "buff": [],
       "type": 3,
@@ -63,11 +63,11 @@
     },
     {
       "name": "流光重现",
-      "des": "释放常击后，为<span style=\"color:#158bdb\">距离自身2格</span>内当前生命值百分比最低的友方角色回复天蓝瓶最大生命值<span style=\"color:#158bdb\">5%+300</span>的生命值。",
+      "des": "释放常击后，为<span style=\"color:#158bdb\">距离自身2格</span>内当前生命值百分比最低的友方角色回复天蓝瓶最大生命值<span style=\"color:#158bdb\">15%+500</span>的生命值。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_W005703",
       "buff": [],
       "type": 4,
@@ -79,7 +79,7 @@
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_W005704",
       "buff": [
         {
@@ -92,15 +92,15 @@
     },
     {
       "name": "莹润玉色",
-      "des": "进入战斗后，自身最大生命值提升<span style=\"color:#158bdb\">5%</span>。战斗中，距离<span style=\"color:#158bdb\">自身2格</span>范围内拥有<span style=\"color:#ff6724\">器韵</span>且还持有构素护盾的友方单位受到攻击时，天蓝瓶会回复<span style=\"color:#158bdb\">1</span>点能量。",
+      "des": "进入战斗后，自身最大生命值提升<span style=\"color:#158bdb\">10%</span>。战斗中，距离<span style=\"color:#158bdb\">自身2格</span>范围内拥有<span style=\"color:#ff6724\">器韵</span>且还持有构素护盾的友方单位受到攻击时，天蓝瓶会回复<span style=\"color:#158bdb\">1</span>点能量。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_W005705",
       "buff": [],
       "type": 6,
-      "special": "进入战斗后，自身最大生命值提升<span style=\"color:#158bdb\">5%</span>。战斗中，距离<span style=\"color:#158bdb\">自身2格</span>范围内拥有<span style=\"color:#ff6724\">器韵</span>且还持有构素护盾的友方单位受到攻击时，天蓝瓶会回复<span style=\"color:#158bdb\">1</span>点能量并获得<span style=\"color:#ff6724\">愈疗</span>效果。"
+      "special": "进入战斗后，自身最大生命值提升<span style=\"color:#158bdb\">10%</span>。战斗中，距离<span style=\"color:#158bdb\">自身2格</span>范围内拥有<span style=\"color:#ff6724\">器韵</span>且还持有构素护盾的友方单位受到攻击时，天蓝瓶会回复<span style=\"color:#158bdb\">1</span>点能量并获得<span style=\"color:#ff6724\">愈疗</span>效果。"
     },
     {
       "name": "折枝莲",

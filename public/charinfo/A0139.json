@@ -36,12 +36,12 @@
   "skill": [
     {
       "name": "抓拍",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。",
       "tag": [
         "十字3格",
         "无消耗"
       ],
-      "level": 1,
+      "level": 5,
       "icon": "skillicon_Commonattack_A",
       "buff": [],
       "type": 1,
@@ -49,12 +49,12 @@
     },
     {
       "name": "制茶有方",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">205%</span>的物理伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">306%</span>的物理伤害。",
       "tag": [
         "十字3格",
         "消耗:3"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_A013902",
       "buff": [],
       "type": 3,
@@ -66,7 +66,7 @@
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_A013903",
       "buff": [
         {
@@ -87,7 +87,7 @@
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_A013904",
       "buff": [
         {
@@ -100,15 +100,15 @@
     },
     {
       "name": "行箧游航",
-      "des": "<span style=\"color:#ff6724\">存档</span>中的目标被击败后，茶叶生产画有<span style=\"color:#158bdb\">50%</span>的概率在轮次结束前额外进行一次行动，该效果触发间隔为<span style=\"color:#158bdb\">2</span>回合。",
+      "des": "<span style=\"color:#ff6724\">存档</span>中的目标被击败后，茶叶生产画有<span style=\"color:#158bdb\">100%</span>的概率在轮次结束前额外进行一次行动，该效果触发间隔为<span style=\"color:#158bdb\">2</span>回合。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_A013905",
       "buff": [],
       "type": 6,
-      "special": "<span style=\"color:#ff6724\">存档</span>中的目标被击败后，茶叶生产画有<span style=\"color:#158bdb\">50%</span>的概率在轮次结束前额外进行一次行动，该效果触发间隔为<span style=\"color:#158bdb\">1</span>回合。"
+      "special": "<span style=\"color:#ff6724\">存档</span>中的目标被击败后，茶叶生产画有<span style=\"color:#158bdb\">100%</span>的概率在轮次结束前额外进行一次行动，该效果触发间隔为<span style=\"color:#158bdb\">1</span>回合。"
     },
     {
       "name": "延时拍摄",

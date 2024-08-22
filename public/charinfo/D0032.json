@@ -36,12 +36,12 @@
   "skill": [
     {
       "name": "戏猎",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。",
       "tag": [
         "射程1格 ",
         "无消耗"
       ],
-      "level": 1,
+      "level": 5,
       "icon": "skillicon_Commonattack_D",
       "buff": [],
       "type": 1,
@@ -49,12 +49,12 @@
     },
     {
       "name": "宴乐礼盛",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">270%</span>的物理伤害并使其进入<span style=\"color:#ff6724\">震怒</span>状态，效果持续<span style=\"color:#158bdb\">1</span>回合。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">330%</span>的物理伤害并使其进入<span style=\"color:#ff6724\">震怒</span>状态，效果持续<span style=\"color:#158bdb\">1</span>回合。",
       "tag": [
         "射程1格 ",
         "消耗:3"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_D003202",
       "buff": [
         {
@@ -67,11 +67,11 @@
     },
     {
       "name": "弋射",
-      "des": "当受到自身<span style=\"color:#158bdb\">周围1格</span>的敌方单位攻击时，若该单位不存在<span style=\"color:#ff6724\">流失</span>状态，则自身有<span style=\"color:#158bdb\">60%</span>概率对其进行回击，对其造成自身攻击力<span style=\"color:#158bdb\">60%</span>的物理伤害，并使其获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">流失</span>状态。",
+      "des": "当受到自身<span style=\"color:#158bdb\">周围1格</span>的敌方单位攻击时，若该单位不存在<span style=\"color:#ff6724\">流失</span>状态，则自身有<span style=\"color:#158bdb\">100%</span>概率对其进行回击，对其造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害，并使其获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">流失</span>状态。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_D003203",
       "buff": [
         {
@@ -80,15 +80,15 @@
         }
       ],
       "type": 4,
-      "special": "当受到自身<span style=\"color:#158bdb\">周围1格</span>的敌方单位攻击时，自身有<span style=\"color:#158bdb\">60%</span>概率对其进行回击，对其造成自身攻击力<span style=\"color:#158bdb\">60%</span>的物理伤害，并使其获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">流失</span>状态。"
+      "special": "当受到自身<span style=\"color:#158bdb\">周围1格</span>的敌方单位攻击时，自身有<span style=\"color:#158bdb\">100%</span>概率对其进行回击，对其造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害，并使其获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">流失</span>状态。"
     },
     {
       "name": "攻守易转",
-      "des": "进行回击后或自身<span style=\"color:#158bdb\">周围2格</span>有敌方单位受到流失状态的伤害后，自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">战意</span>状态。\n当自身<span style=\"color:#ff6724\">战意</span>大于<span style=\"color:#158bdb\">2</span>层时，使用职业技能后消耗<span style=\"color:#158bdb\">-2</span>层<span style=\"color:#ff6724\">战意</span>，回复自身最大生命值的<span style=\"color:#158bdb\">10%</span>。\n当自身<span style=\"color:#ff6724\">战意</span>大于<span style=\"color:#158bdb\">3</span>层且受到致命伤害时，消耗<span style=\"color:#158bdb\">-3</span>层<span style=\"color:#ff6724\">战意</span>，使自身生命值固定至<span style=\"color:#158bdb\">1</span>，并回复自身最大生命值的<span style=\"color:#158bdb\">10%</span>。",
+      "des": "进行回击后或自身<span style=\"color:#158bdb\">周围2格</span>有敌方单位受到流失状态的伤害后，自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">战意</span>状态。\n当自身<span style=\"color:#ff6724\">战意</span>大于<span style=\"color:#158bdb\">1</span>层时，使用职业技能后消耗<span style=\"color:#158bdb\">-1</span>层<span style=\"color:#ff6724\">战意</span>，回复自身最大生命值的<span style=\"color:#158bdb\">30%</span>。\n当自身<span style=\"color:#ff6724\">战意</span>大于<span style=\"color:#158bdb\">2</span>层且受到致命伤害时，消耗<span style=\"color:#158bdb\">-2</span>层<span style=\"color:#ff6724\">战意</span>，使自身生命值固定至<span style=\"color:#158bdb\">1</span>，并回复自身最大生命值的<span style=\"color:#158bdb\">10%</span>。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_D003204",
       "buff": [],
       "type": 5,
@@ -96,11 +96,11 @@
     },
     {
       "name": "飨神",
-      "des": "当自身<span style=\"color:#ff6724\">战意</span>状态不小于<span style=\"color:#158bdb\">5</span>层时，使敌方获得<span style=\"color:#ff6724\">流失</span>状态时增加<span style=\"color:#158bdb\">1</span>层。",
+      "des": "当自身<span style=\"color:#ff6724\">战意</span>状态不小于<span style=\"color:#158bdb\">3</span>层时，使敌方获得<span style=\"color:#ff6724\">流失</span>状态时增加<span style=\"color:#158bdb\">1</span>层。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_D003205",
       "buff": [],
       "type": 6,

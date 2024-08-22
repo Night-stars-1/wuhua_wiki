@@ -36,12 +36,12 @@
   "skill": [
     {
       "name": "嶙岩",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害并使自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#b69305\">峰石</span>状态。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的构素伤害并使自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#b69305\">峰石</span>状态。",
       "tag": [
         "射程2格",
         "无消耗"
       ],
-      "level": 1,
+      "level": 5,
       "icon": "skillicon_Commonattack_W",
       "buff": [],
       "type": 1,
@@ -49,12 +49,12 @@
     },
     {
       "name": "悬水倾山",
-      "des": "对选定的敌方单位及其<span style=\"color:#158bdb\">周围1格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
+      "des": "对选定的敌方单位及其<span style=\"color:#158bdb\">周围1格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">150%</span>的构素伤害。",
       "tag": [
         "射程2格",
         "消耗:3"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_W013402",
       "buff": [],
       "type": 3,
@@ -66,7 +66,7 @@
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_W013403",
       "buff": [
         {
@@ -91,11 +91,11 @@
     },
     {
       "name": "千江东流",
-      "des": "获得绝技强化状态时，自身立即获得<span style=\"color:#158bdb\">1</span>次额外行动，回复自身最大生命值的<span style=\"color:#158bdb\">10%</span>，并获得<span style=\"color:#ff6724\">青绿设色</span>状态。",
+      "des": "获得绝技强化状态时，自身立即获得<span style=\"color:#158bdb\">1</span>次额外行动，回复自身最大生命值的<span style=\"color:#158bdb\">20%</span>，并获得<span style=\"color:#ff6724\">青绿设色</span>状态。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_W013404",
       "buff": [
         {
@@ -108,11 +108,11 @@
     },
     {
       "name": "山重水复",
-      "des": "进入战斗时，自身获得<span style=\"color:#ff6724\">笔底山河</span>状态；\n使用处于强化状态的绝技时，有<span style=\"color:#158bdb\">50%</span>的概率使自身获得<span style=\"color:#ff6724\">笔底山河</span>状态和<span style=\"color:#ff6724\">步移景异</span>状态。",
+      "des": "进入战斗时，自身获得<span style=\"color:#ff6724\">笔底山河</span>状态；\n使用处于强化状态的绝技时，有<span style=\"color:#158bdb\">100%</span>的概率使自身获得<span style=\"color:#ff6724\">笔底山河</span>状态和<span style=\"color:#ff6724\">步移景异</span>状态。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_W013405",
       "buff": [
         {
@@ -125,7 +125,7 @@
         }
       ],
       "type": 6,
-      "special": "进入战斗时，自身获得<span style=\"color:#ff6724\">笔底山河</span>状态；\n使用处于强化状态的绝技时，有<span style=\"color:#158bdb\">50%</span>的概率使自身获得<span style=\"color:#ff6724\">笔底山河</span>状态和<span style=\"color:#ff6724\">步移景异</span>状态，并使自身及<span style=\"color:#158bdb\">周围2格</span>内的友方全体获得<span style=\"color:#ff6724\">怒雷</span>状态。"
+      "special": "进入战斗时，自身获得<span style=\"color:#ff6724\">笔底山河</span>状态；\n使用处于强化状态的绝技时，有<span style=\"color:#158bdb\">100%</span>的概率使自身获得<span style=\"color:#ff6724\">笔底山河</span>状态和<span style=\"color:#ff6724\">步移景异</span>状态，并使自身及<span style=\"color:#158bdb\">周围2格</span>内的友方全体获得<span style=\"color:#ff6724\">怒雷</span>状态。"
     },
     {
       "name": "乱流",

@@ -36,12 +36,12 @@
   "skill": [
     {
       "name": "泼釉",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。",
       "tag": [
         "射程1格 ",
         "无消耗"
       ],
-      "level": 1,
+      "level": 5,
       "icon": "skillicon_Commonattack_D",
       "buff": [],
       "type": 1,
@@ -49,12 +49,12 @@
     },
     {
       "name": "浮彩",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">240%</span>的物理伤害，并获得自身最大生命值<span style=\"color:#158bdb\">10%</span>的构素护盾。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">300%</span>的物理伤害，并获得自身最大生命值<span style=\"color:#158bdb\">30%</span>的构素护盾。",
       "tag": [
         "射程1格 ",
         "消耗:3"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_D001702",
       "buff": [],
       "type": 3,
@@ -62,11 +62,11 @@
     },
     {
       "name": "涂鸦天才",
-      "des": "受到任意伤害后，获得该伤害量<span style=\"color:#158bdb\">10%</span>的构素护盾。",
+      "des": "受到任意伤害后，获得该伤害量<span style=\"color:#158bdb\">20%</span>的构素护盾。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_D001703",
       "buff": [],
       "type": 4,
@@ -74,11 +74,11 @@
     },
     {
       "name": "染色",
-      "des": "自身能量不低于<span style=\"color:#158bdb\">3</span>点时，可<span style=\"color:#ff6724\">援护</span>自身<span style=\"color:#158bdb\">周围1格</span>内的友方单位。",
+      "des": "自身能量不低于<span style=\"color:#158bdb\">1</span>点时，可<span style=\"color:#ff6724\">援护</span>自身<span style=\"color:#158bdb\">周围1格</span>内的友方单位。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_D001704",
       "buff": [
         {
@@ -87,15 +87,15 @@
         }
       ],
       "type": 5,
-      "special": "自身能量不低于<span style=\"color:#158bdb\">2</span>点时，可<span style=\"color:#ff6724\">援护</span>自身<span style=\"color:#158bdb\">周围1格</span>内的友方单位。"
+      "special": "<span style=\"color:#ff6724\">援护</span>自身<span style=\"color:#158bdb\">周围1格</span>内的友方单位。"
     },
     {
       "name": "点彩",
-      "des": "进入战斗后，自身构素伤害减免增加<span style=\"color:#158bdb\">8%</span>。",
+      "des": "进入战斗后，自身构素伤害减免增加<span style=\"color:#158bdb\">15%</span>。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_D001705",
       "buff": [],
       "type": 6,

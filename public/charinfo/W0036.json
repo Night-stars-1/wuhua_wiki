@@ -36,12 +36,12 @@
   "skill": [
     {
       "name": "诡魇",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的构素伤害。",
       "tag": [
         "射程2格",
         "无消耗"
       ],
-      "level": 1,
+      "level": 5,
       "icon": "skillicon_Commonattack_W",
       "buff": [],
       "type": 1,
@@ -49,12 +49,12 @@
     },
     {
       "name": "奇书异卷",
-      "des": "对选定的敌方单位及其<span style=\"color:#158bdb\">周围2格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害，攻击后，会对目标施加<span style=\"color:#ff6724\">流失</span>、<span style=\"color:#ff6724\">融伤</span>、<span style=\"color:#ff6724\">灼烧</span>中的任意一种，持续<span style=\"color:#158bdb\">2</span>回合。",
+      "des": "对选定的敌方单位及其<span style=\"color:#158bdb\">周围2格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">150%</span>的构素伤害，攻击后，会对目标施加<span style=\"color:#ff6724\">流失</span>、<span style=\"color:#ff6724\">融伤</span>、<span style=\"color:#ff6724\">灼烧</span>中的任意一种，持续<span style=\"color:#158bdb\">2</span>回合。",
       "tag": [
         "射程2格",
         "消耗:3"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_W003602",
       "buff": [
         {
@@ -79,7 +79,7 @@
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_W003603",
       "buff": [
         {
@@ -92,11 +92,11 @@
     },
     {
       "name": "妍丑易念",
-      "des": "受到<span style=\"color:#ff6724\">暗影幢幢</span>效果影响的角色，若存在<span style=\"color:#158bdb\">2</span>个及以上持续伤害状态时，则在其回合开始时有<span style=\"color:#158bdb\">60%</span>概率触发一次<span style=\"color:#ff6724\">暗影幢幢</span>效果。",
+      "des": "受到<span style=\"color:#ff6724\">暗影幢幢</span>效果影响的角色，若存在<span style=\"color:#158bdb\">2</span>个及以上持续伤害状态时，则在其回合开始时有<span style=\"color:#158bdb\">100%</span>概率触发一次<span style=\"color:#ff6724\">暗影幢幢</span>效果。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_W003604",
       "buff": [],
       "type": 5,
@@ -104,11 +104,11 @@
     },
     {
       "name": "人鬼颇同",
-      "des": "进行直接攻击时，目标每存在一种持续伤害效果，则受到的该次伤害增加<span style=\"color:#158bdb\">10%</span>，最多计算<span style=\"color:#158bdb\">3</span>层。",
+      "des": "进行直接攻击时，目标每存在一种持续伤害效果，则受到的该次伤害增加<span style=\"color:#158bdb\">30%</span>，最多计算<span style=\"color:#158bdb\">3</span>层。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_W003605",
       "buff": [],
       "type": 6,

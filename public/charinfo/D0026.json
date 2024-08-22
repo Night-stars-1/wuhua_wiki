@@ -36,12 +36,12 @@
   "skill": [
     {
       "name": "猎食",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。",
       "tag": [
         "射程1格 ",
         "无消耗"
       ],
-      "level": 1,
+      "level": 5,
       "icon": "skillicon_Commonattack_D",
       "buff": [],
       "type": 1,
@@ -49,12 +49,12 @@
     },
     {
       "name": "可可生长",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">140%</span>的物理伤害，并使自身攻击力提高<span style=\"color:#158bdb\">20%</span>，闪避率提高<span style=\"color:#158bdb\">10%</span>，效果持续<span style=\"color:#158bdb\">2</span>回合。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">220%</span>的物理伤害，并使自身攻击力提高<span style=\"color:#158bdb\">50%</span>，闪避率提高<span style=\"color:#158bdb\">30%</span>，效果持续<span style=\"color:#158bdb\">2</span>回合。",
       "tag": [
         "射程1格 ",
         "消耗:3"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_D002602",
       "buff": [],
       "type": 3,
@@ -62,23 +62,23 @@
     },
     {
       "name": "风啸",
-      "des": "受到自身<span style=\"color:#158bdb\">周围1格</span>的敌方单位攻击触发闪避后，对其进行回击，造成自身攻击力<span style=\"color:#158bdb\">30%</span>的物理伤害。",
+      "des": "受到自身<span style=\"color:#158bdb\">周围1格</span>的敌方单位攻击触发闪避后，对其进行回击，造成自身攻击力<span style=\"color:#158bdb\">70%</span>的物理伤害。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_D002603",
       "buff": [],
       "type": 4,
-      "special": "受到自身<span style=\"color:#158bdb\">周围1格</span>的敌方单位攻击触发闪避后，对其进行回击，造成自身攻击力<span style=\"color:#158bdb\">35%</span>的物理伤害。"
+      "special": "受到自身<span style=\"color:#158bdb\">周围1格</span>的敌方单位攻击触发闪避后，对其进行回击，造成自身攻击力<span style=\"color:#158bdb\">75%</span>的物理伤害。"
     },
     {
       "name": "卓尔金",
-      "des": "受到直接攻击时，若自身当前生命值低于<span style=\"color:#158bdb\">40%</span>，则获得<span style=\"color:#158bdb\">1</span>点能量。",
+      "des": "受到直接攻击时，若自身当前生命值低于<span style=\"color:#158bdb\">80%</span>，则获得<span style=\"color:#158bdb\">1</span>点能量。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_D002604",
       "buff": [],
       "type": 5,
@@ -86,11 +86,11 @@
     },
     {
       "name": "玉米之神",
-      "des": "进入战斗后，自身最大生命值提高<span style=\"color:#158bdb\">10%</span>。",
+      "des": "进入战斗后，自身最大生命值提高<span style=\"color:#158bdb\">20%</span>。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_D002605",
       "buff": [],
       "type": 6,

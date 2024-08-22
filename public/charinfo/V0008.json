@@ -36,12 +36,12 @@
   "skill": [
     {
       "name": "扬尘",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。",
       "tag": [
         "射程1格 ",
         "无消耗"
       ],
-      "level": 1,
+      "level": 5,
       "icon": "skillicon_Commonattack_V",
       "buff": [],
       "type": 1,
@@ -49,12 +49,12 @@
     },
     {
       "name": "遍行郡县",
-      "des": "使用后可选择传送至自身<span style=\"color:#158bdb\">周围10格</span>任意友方单位的<span style=\"color:#158bdb\">周围1格</span>，随后自身获得额外行动<span style=\"color:#158bdb\">1</span>次，并提高自身<span style=\"color:#158bdb\">20%</span>的攻击力，持续至回合结束。",
+      "des": "使用后可选择传送至自身<span style=\"color:#158bdb\">周围10格</span>任意友方单位的<span style=\"color:#158bdb\">周围1格</span>，随后自身获得额外行动<span style=\"color:#158bdb\">1</span>次，并提高自身<span style=\"color:#158bdb\">40%</span>的攻击力，持续至回合结束。",
       "tag": [
         "射程10格",
         "消耗:2"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_V000802",
       "buff": [],
       "type": 3,
@@ -62,11 +62,11 @@
     },
     {
       "name": "守口如瓶",
-      "des": "释放绝技后，该回合内的常击使自身<span style=\"color:#158bdb\">周围2格</span>内攻击力最高的友方单体获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">金戈</span>效果。",
+      "des": "释放绝技后，该回合内的常击使自身<span style=\"color:#158bdb\">周围2格</span>内攻击力最高的友方单体获得<span style=\"color:#158bdb\">3</span>层<span style=\"color:#ff6724\">金戈</span>效果。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_V000803",
       "buff": [
         {
@@ -75,15 +75,15 @@
         }
       ],
       "type": 4,
-      "special": "释放绝技后，该回合内的常击使自身以及自身<span style=\"color:#158bdb\">周围3格</span>内攻击力最高的友方单体获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">金戈</span>效果。"
+      "special": "释放绝技后，该回合内的常击使自身以及自身<span style=\"color:#158bdb\">周围3格</span>内攻击力最高的友方单体获得<span style=\"color:#158bdb\">3</span>层<span style=\"color:#ff6724\">金戈</span>效果。"
     },
     {
       "name": "速递",
-      "des": "使用职业技能时，若自身<span style=\"color:#158bdb\">周围1格</span>内存在友方单位，则使该次额外行动移动力增加<span style=\"color:#158bdb\">1</span>，并有<span style=\"color:#158bdb\">30%</span>概率在自身回合结束时刷新职业技能冷却状态。",
+      "des": "使用职业技能时，若自身<span style=\"color:#158bdb\">周围1格</span>内存在友方单位，则使该次额外行动移动力增加<span style=\"color:#158bdb\">2</span>，并有<span style=\"color:#158bdb\">50%</span>概率在自身回合结束时刷新职业技能冷却状态。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_V000804",
       "buff": [],
       "type": 5,
@@ -91,11 +91,11 @@
     },
     {
       "name": "识途",
-      "des": "进入战斗后，自身攻击力提高<span style=\"color:#158bdb\">10%</span>。",
+      "des": "进入战斗后，自身攻击力提高<span style=\"color:#158bdb\">20%</span>。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_V000805",
       "buff": [],
       "type": 6,

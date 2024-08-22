@@ -1,0 +1,162 @@
+{
+  "info": {
+    "Hp": 695,
+    "Atk": 320,
+    "PhysicDef": 40,
+    "MagicDef": 40,
+    "Speed": 150,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 3,
+    "Mov": 3,
+    "Hp_GROW": 56,
+    "Atk_GROW": 21,
+    "PhysicDef_GROW": 4,
+    "MagicDef_GROW": 4,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": "",
+    "name": "愿望杯",
+    "rare": 4,
+    "job": 3,
+    "tag": "远程;输出;持续伤害"
+  },
+  "skill": [
+    {
+      "name": "审判",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。",
+      "tag": [
+        "十字3格",
+        "无消耗"
+      ],
+      "level": 5,
+      "icon": "skillicon_Commonattack_A",
+      "buff": [],
+      "type": 1,
+      "special": null
+    },
+    {
+      "name": "至高王座",
+      "des": "使用后自身获得再行动<span style=\"color:#158bdb\">1</span>次，并获得<span style=\"color:#ff6724\">耀阳永辉</span>状态。",
+      "tag": [
+        "自身",
+        "消耗:3",
+        "冷却:3"
+      ],
+      "level": 3,
+      "icon": "skillicon_A010002",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">耀阳永辉</span>",
+          "des": "处于此状态时，自身造成的额外伤害提高<span style=\"color:#158bdb\">20%</span>；\n使用常击时，范围变为选定敌方及其<span style=\"color:#158bdb\">周围2格</span>；\n常击前，使受击敌方全体获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">融伤</span>和<span style=\"color:#ff6724\">灼烧</span>状态；\n进行<span style=\"color:#158bdb\">2</span>次常击后，此状态消除。"
+        },
+        {
+          "name": "<span style=\"color:#ff6724\">融伤</span>",
+          "des": "回合开始时，受到已损失生命值<span style=\"color:#158bdb\">10%</span>构素伤害，已损失生命值至少以<span style=\"color:#158bdb\">10%</span>计算，可叠加<span style=\"color:#158bdb\">3</span>层，持续<span style=\"color:#158bdb\">2</span>回合。"
+        },
+        {
+          "name": "<span style=\"color:#ff6724\">灼烧</span>",
+          "des": "回合开始时，受到施加者攻击力<span style=\"color:#158bdb\">20%</span>的构素伤害，可叠加<span style=\"color:#158bdb\">5</span>层，持续<span style=\"color:#158bdb\">2</span>回合。"
+        }
+      ],
+      "type": 3,
+      "special": null
+    },
+    {
+      "name": "沉眠之谷",
+      "des": "常击造成伤害时，受击敌方单位每存在<span style=\"color:#158bdb\">1</span>种持续伤害状态，则分别有<span style=\"color:#158bdb\">100%</span>的概率使其受到<span style=\"color:#158bdb\">1</span>次愿望杯攻击力<span style=\"color:#158bdb\">50%</span>的<span style=\"color:#ff6724\">额外物理伤害</span>；\n受击敌方单位每存在<span style=\"color:#158bdb\">1</span>种持续伤害状态，则其受到的额外伤害增加<span style=\"color:#158bdb\">30%</span>，效果持续至愿望杯攻击回合结束。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 3,
+      "icon": "skillicon_A010003",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">额外物理伤害</span>",
+          "des": "此伤害不触发暴击和贯穿效果，且无法被格挡。"
+        }
+      ],
+      "type": 4,
+      "special": "常击造成伤害时，受击敌方单位每存在<span style=\"color:#158bdb\">1</span>种持续伤害状态，则分别有<span style=\"color:#158bdb\">100%</span>的概率使其受到<span style=\"color:#158bdb\">1</span>次愿望杯攻击力<span style=\"color:#158bdb\">70%</span>的<span style=\"color:#ff6724\">额外物理伤害</span>，并使该持续伤害状态层数增加<span style=\"color:#158bdb\">1</span>；\n受击敌方单位每存在<span style=\"color:#158bdb\">1</span>种持续伤害状态，则其受到的额外伤害增加<span style=\"color:#158bdb\">30%</span>，效果持续至愿望杯攻击回合结束。"
+    },
+    {
+      "name": "两地之主",
+      "des": "使用职业技能时，使自身及<span style=\"color:#158bdb\">周围2格</span>内攻击力最高的<span style=\"color:#158bdb\">1</span>个友方单位获得<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">蓄势</span>状态。\n此效果每间隔<span style=\"color:#158bdb\">1</span>回合可触发<span style=\"color:#158bdb\">1</span>次。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 3,
+      "icon": "skillicon_A010004",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">蓄势</span>",
+          "des": "提高所有伤害<span style=\"color:#158bdb\">20%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">2</span>层。"
+        }
+      ],
+      "type": 5,
+      "special": null
+    },
+    {
+      "name": "荷鲁斯眼",
+      "des": "自身瞄准冷却率提高<span style=\"color:#158bdb\">40%</span>。\n瞄准状态下常击造成伤害时，使受击敌方单位获得<span style=\"color:#ff6724\">咒溃</span>状态。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 3,
+      "icon": "skillicon_A010005",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">咒溃</span>",
+          "des": "受到的持续伤害提高<span style=\"color:#158bdb\">30%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">1</span>层。"
+        }
+      ],
+      "type": 6,
+      "special": null
+    },
+    {
+      "name": "永恒长愿",
+      "des": "使用后自身获得<span style=\"color:#158bdb\">1</span>次不可移动的再行动，并进入<span style=\"color:#ff6724\">瞄准</span>状态。",
+      "tag": [
+        "自身",
+        "无消耗",
+        "冷却:3"
+      ],
+      "level": 1,
+      "icon": "skillicon_Jobskill_A",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">瞄准</span>",
+          "des": "此状态下进行攻击时，最大攻击距离增加<span style=\"color:#158bdb\">4</span>格，该次再行动结束后，此状态消失。"
+        }
+      ],
+      "type": 2,
+      "special": null
+    }
+  ],
+  "skin": [
+    {
+      "id": "A0100001",
+      "name": "肖形"
+    },
+    {
+      "id": "A0100002",
+      "name": "写照"
+    },
+    {
+      "id": "A0100003",
+      "name": "愿望之音"
+    }
+  ]
+}

@@ -36,12 +36,12 @@
   "skill": [
     {
       "name": "正骨",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。",
       "tag": [
         "射程1格 ",
         "无消耗"
       ],
-      "level": 1,
+      "level": 5,
       "icon": "skillicon_Commonattack_V",
       "buff": [],
       "type": 1,
@@ -49,12 +49,12 @@
     },
     {
       "name": "器药入卷",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">220%</span>的物理伤害，并使其获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">流失</span>状态。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">280%</span>的物理伤害，并使其获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">流失</span>状态。",
       "tag": [
         "射程1格 ",
         "消耗:3"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_V000602",
       "buff": [
         {
@@ -67,11 +67,11 @@
     },
     {
       "name": "穿刺",
-      "des": "攻击敌方目标后，使其获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">流失</span>状态。攻击处于<span style=\"color:#ff6724\">流失</span>状态的敌方目标时，对其造成的伤害提高<span style=\"color:#158bdb\">10%</span>。",
+      "des": "攻击敌方目标后，使其获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">流失</span>状态。攻击处于<span style=\"color:#ff6724\">流失</span>状态的敌方目标时，对其造成的伤害提高<span style=\"color:#158bdb\">30%</span>。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_V000603",
       "buff": [
         {
@@ -84,23 +84,23 @@
     },
     {
       "name": "悬壶",
-      "des": "攻击时，若敌方单位处于<span style=\"color:#ff6724\">流失</span>状态，则额外造成目标生命值已损失比例乘以攻击力<span style=\"color:#158bdb\">10%</span>的伤害。",
+      "des": "攻击时，若敌方单位处于<span style=\"color:#ff6724\">流失</span>状态，则额外造成目标生命值已损失比例乘以攻击力<span style=\"color:#158bdb\">30%</span>的伤害。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_V000604",
       "buff": [],
       "type": 5,
-      "special": "攻击时，若敌方单位处于<span style=\"color:#ff6724\">流失</span>状态，则额外造成目标生命值已损失比例乘以攻击力<span style=\"color:#158bdb\">10%</span>的伤害，并使自身回复自身攻击力<span style=\"color:#158bdb\">15%</span>的生命值。"
+      "special": "攻击时，若敌方单位处于<span style=\"color:#ff6724\">流失</span>状态，则额外造成目标生命值已损失比例乘以攻击力<span style=\"color:#158bdb\">30%</span>的伤害，并使自身回复自身攻击力<span style=\"color:#158bdb\">25%</span>的生命值。"
     },
     {
       "name": "三根相合",
-      "des": "进入战斗后，自身攻击力提高<span style=\"color:#158bdb\">10%</span>。",
+      "des": "进入战斗后，自身攻击力提高<span style=\"color:#158bdb\">20%</span>。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_V000605",
       "buff": [],
       "type": 6,
