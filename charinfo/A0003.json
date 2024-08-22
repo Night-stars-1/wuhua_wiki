@@ -36,12 +36,12 @@
   "skill": [
     {
       "name": "熔色",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。",
       "tag": [
         "十字3格",
         "无消耗"
       ],
-      "level": 1,
+      "level": 5,
       "icon": "skillicon_Commonattack_A",
       "buff": [],
       "type": 1,
@@ -49,12 +49,12 @@
     },
     {
       "name": "搅料",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">200%</span>的物理伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">300%</span>的物理伤害。",
       "tag": [
         "十字3格",
         "消耗:3"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_A000302",
       "buff": [],
       "type": 3,
@@ -62,11 +62,11 @@
     },
     {
       "name": "拉形",
-      "des": "常击后有<span style=\"color:#158bdb\">30%</span>的概率触发连击，对受击单位造成自身攻击力<span style=\"color:#158bdb\">80%</span>的物理伤害。",
+      "des": "常击后有<span style=\"color:#158bdb\">50%</span>的概率触发连击，对受击单位造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_A000303",
       "buff": [],
       "type": 4,
@@ -78,7 +78,7 @@
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_A000304",
       "buff": [
         {
@@ -91,15 +91,15 @@
     },
     {
       "name": "磨光",
-      "des": "攻击处于<span style=\"color:#ff6724\">粉色惊喜</span>状态的敌方单位时，有<span style=\"color:#ff6724\">60%</span>概率触发连击，且连击造成的伤害提高<span style=\"color:#158bdb\">30%</span>。",
+      "des": "攻击处于<span style=\"color:#ff6724\">粉色惊喜</span>状态的敌方单位时，有<span style=\"color:#ff6724\">100%</span>概率触发连击，且连击造成的伤害提高<span style=\"color:#158bdb\">30%</span>。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_A000305",
       "buff": [],
       "type": 6,
-      "special": "攻击处于<span style=\"color:#ff6724\">粉色惊喜</span>状态的敌方单位时，有<span style=\"color:#ff6724\">60%</span>概率触发连击，且连击造成的伤害提高<span style=\"color:#158bdb\">30%</span>；同时自身额外获得<span style=\"color:#158bdb\">1</span>点能量。"
+      "special": "攻击处于<span style=\"color:#ff6724\">粉色惊喜</span>状态的敌方单位时，有<span style=\"color:#ff6724\">100%</span>概率触发连击，且连击造成的伤害提高<span style=\"color:#158bdb\">30%</span>；同时自身额外获得<span style=\"color:#158bdb\">1</span>点能量。"
     },
     {
       "name": "旋塑",

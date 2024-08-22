@@ -36,12 +36,12 @@
   "skill": [
     {
       "name": "踏盘而行",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。",
       "tag": [
         "射程1格 ",
         "无消耗"
       ],
-      "level": 1,
+      "level": 5,
       "icon": "skillicon_Commonattack_V",
       "buff": [],
       "type": 1,
@@ -49,12 +49,12 @@
     },
     {
       "name": "婉转鼓侧",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">250%</span>的物理伤害，并使自身移动力增加<span style=\"color:#158bdb\">1</span>，效果持续<span style=\"color:#158bdb\">2</span>回合。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">370%</span>的物理伤害，并使自身移动力增加<span style=\"color:#158bdb\">1</span>，效果持续<span style=\"color:#158bdb\">2</span>回合。",
       "tag": [
         "射程1格 ",
         "消耗:3"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_V006502",
       "buff": [],
       "type": 3,
@@ -62,11 +62,11 @@
     },
     {
       "name": "七盘递奏",
-      "des": "当自身生命值大于等于<span style=\"color:#158bdb\">50%</span>时，任意攻击后自身获得再移动<span style=\"color:#158bdb\">1</span>次，该次再移动的移动力减少<span style=\"color:#158bdb\">-2</span>。",
+      "des": "当自身生命值大于等于<span style=\"color:#158bdb\">10%</span>时，任意攻击后自身获得再移动<span style=\"color:#158bdb\">1</span>次，该次再移动的移动力减少<span style=\"color:#158bdb\">-1</span>。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_V006503",
       "buff": [],
       "type": 4,
@@ -74,23 +74,23 @@
     },
     {
       "name": "叠案倒立",
-      "des": "贯穿概率增加<span style=\"color:#158bdb\">20%</span>，对敌方单位造成贯穿时，使其移动距离减少<span style=\"color:#db2424\">-1</span>，持续<span style=\"color:#158bdb\">1</span>回合。",
+      "des": "贯穿概率增加<span style=\"color:#158bdb\">40%</span>，对敌方单位造成贯穿时，使其移动距离减少<span style=\"color:#db2424\">-1</span>，持续<span style=\"color:#158bdb\">1</span>回合。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_V006504",
       "buff": [],
       "type": 5,
-      "special": "贯穿概率增加<span style=\"color:#158bdb\">40%</span>，对敌方单位造成贯穿时，使其移动距离减少<span style=\"color:#db2424\">-1</span>，持续<span style=\"color:#158bdb\">1</span>回合。"
+      "special": "贯穿概率增加<span style=\"color:#158bdb\">60%</span>，对敌方单位造成贯穿时，使其移动距离减少<span style=\"color:#db2424\">-1</span>，持续<span style=\"color:#158bdb\">1</span>回合。"
     },
     {
       "name": "手跳三丸",
-      "des": "每累计移动<span style=\"color:#158bdb\">1</span>格，获得<span style=\"color:#158bdb\">3%</span>的生命偷取率，可叠加<span style=\"color:#158bdb\">10</span>层，任意攻击后清除效果。",
+      "des": "每累计移动<span style=\"color:#158bdb\">1</span>格，获得<span style=\"color:#158bdb\">5%</span>的生命偷取率，可叠加<span style=\"color:#158bdb\">10</span>层，任意攻击后清除效果。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_V006505",
       "buff": [],
       "type": 6,

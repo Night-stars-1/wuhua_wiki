@@ -36,12 +36,12 @@
   "skill": [
     {
       "name": "金錾",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。",
       "tag": [
         "射程1格 ",
         "无消耗"
       ],
-      "level": 1,
+      "level": 5,
       "icon": "skillicon_Commonattack_V",
       "buff": [],
       "type": 1,
@@ -49,12 +49,12 @@
     },
     {
       "name": "朱玉金辉",
-      "des": "对选定的敌方单位及其<span style=\"color:#158bdb\">周围2格</span>的敌方单位随机进行<span style=\"color:#158bdb\">6</span>次攻击，每次攻击造成自身攻击力<span style=\"color:#158bdb\">30%</span>的物理伤害。",
+      "des": "对选定的敌方单位及其<span style=\"color:#158bdb\">周围2格</span>的敌方单位随机进行<span style=\"color:#158bdb\">6</span>次攻击，每次攻击造成自身攻击力<span style=\"color:#158bdb\">50%</span>的物理伤害。",
       "tag": [
         "射程2格",
         "消耗:3"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_V007602",
       "buff": [],
       "type": 3,
@@ -66,7 +66,7 @@
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_V007603",
       "buff": [
         {
@@ -83,11 +83,11 @@
     },
     {
       "name": "金瓯万年",
-      "des": "对携带<span style=\"color:#ff6724\">金虹乍现</span>状态的目标进行常击后，每层<span style=\"color:#ff6724\">金虹乍现</span>状态提供<span style=\"color:#158bdb\">17%</span>的概率触发连击，造成攻击力<span style=\"color:#158bdb\">40%</span>的物理伤害。",
+      "des": "对携带<span style=\"color:#ff6724\">金虹乍现</span>状态的目标进行常击后，每层<span style=\"color:#ff6724\">金虹乍现</span>状态提供<span style=\"color:#158bdb\">34%</span>的概率触发连击，造成攻击力<span style=\"color:#158bdb\">60%</span>的物理伤害。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_V007604",
       "buff": [],
       "type": 5,
@@ -95,15 +95,15 @@
     },
     {
       "name": "三象分足",
-      "des": "释放职业技能后，可在原地释放常击或者绝技；对携带满层<span style=\"color:#ff6724\">金虹乍现</span>状态的目标攻击时，造成的伤害提高<span style=\"color:#158bdb\">10%</span>。",
+      "des": "释放职业技能后，可在原地释放常击或者绝技；对携带满层<span style=\"color:#ff6724\">金虹乍现</span>状态的目标攻击时，造成的伤害提高<span style=\"color:#158bdb\">30%</span>。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_V007605",
       "buff": [],
       "type": 6,
-      "special": "释放职业技能后，可在原地释放常击或者绝技；对携带满层<span style=\"color:#ff6724\">金虹乍现</span>状态的目标攻击时，造成的伤害提高<span style=\"color:#158bdb\">10%</span>；击败携带满层<span style=\"color:#ff6724\">金虹乍现</span>的目标后，下一次攻击可直接附加满层<span style=\"color:#ff6724\">金虹乍现</span>状态。"
+      "special": "释放职业技能后，可在原地释放常击或者绝技；对携带满层<span style=\"color:#ff6724\">金虹乍现</span>状态的目标攻击时，造成的伤害提高<span style=\"color:#158bdb\">30%</span>；击败携带满层<span style=\"color:#ff6724\">金虹乍现</span>的目标后，下一次攻击可直接附加满层<span style=\"color:#ff6724\">金虹乍现</span>状态。"
     },
     {
       "name": "夔龙托珠",

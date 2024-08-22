@@ -36,12 +36,12 @@
   "skill": [
     {
       "name": "鹦啼",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的构素伤害。",
       "tag": [
         "射程2格",
         "无消耗"
       ],
-      "level": 1,
+      "level": 5,
       "icon": "skillicon_Commonattack_W",
       "buff": [],
       "type": 1,
@@ -54,7 +54,7 @@
         "射程2格",
         "消耗:3"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_W001102",
       "buff": [
         {
@@ -67,11 +67,11 @@
     },
     {
       "name": "煊赫",
-      "des": "当友方单位的<span style=\"color:#ff6724\">金羽</span>状态消失时，使其回复鹦鹉银罐最大生命值<span style=\"color:#158bdb\">5%+200</span>的生命值。",
+      "des": "当友方单位的<span style=\"color:#ff6724\">金羽</span>状态消失时，使其回复鹦鹉银罐最大生命值<span style=\"color:#158bdb\">15%+400</span>的生命值。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_W001103",
       "buff": [],
       "type": 4,
@@ -79,23 +79,23 @@
     },
     {
       "name": "复新",
-      "des": "处于<span style=\"color:#ff6724\">金羽</span>状态的友方单位使用常击后，有<span style=\"color:#158bdb\">30%</span>概率刷新自身<span style=\"color:#ff6724\">金羽</span>层数。每次获得的<span style=\"color:#ff6724\">金羽</span>状态最多只能被刷新<span style=\"color:#158bdb\">1</span>次。",
+      "des": "处于<span style=\"color:#ff6724\">金羽</span>状态的友方单位使用常击后，有<span style=\"color:#158bdb\">70%</span>概率刷新自身<span style=\"color:#ff6724\">金羽</span>层数。每次获得的<span style=\"color:#ff6724\">金羽</span>状态最多只能被刷新<span style=\"color:#158bdb\">1</span>次。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_W001104",
       "buff": [],
       "type": 5,
-      "special": "处于<span style=\"color:#ff6724\">金羽</span>状态的友方单位使用常击后，有<span style=\"color:#158bdb\">30%</span>概率刷新自身<span style=\"color:#ff6724\">金羽</span>层数。每次获得的<span style=\"color:#ff6724\">金羽</span>状态最多只能被刷新<span style=\"color:#158bdb\">2</span>次。"
+      "special": "处于<span style=\"color:#ff6724\">金羽</span>状态的友方单位使用常击后，有<span style=\"color:#158bdb\">70%</span>概率刷新自身<span style=\"color:#ff6724\">金羽</span>层数。每次获得的<span style=\"color:#ff6724\">金羽</span>状态最多只能被刷新<span style=\"color:#158bdb\">2</span>次。"
     },
     {
       "name": "银地金饰",
-      "des": "进入战斗后，自身最大生命值提高<span style=\"color:#158bdb\">5%</span>。",
+      "des": "进入战斗后，自身最大生命值提高<span style=\"color:#158bdb\">15%</span>。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_W001105",
       "buff": [],
       "type": 6,

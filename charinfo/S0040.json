@@ -36,12 +36,12 @@
   "skill": [
     {
       "name": "洞察",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的构素伤害。",
       "tag": [
         "射程3格",
         "无消耗"
       ],
-      "level": 1,
+      "level": 5,
       "icon": "skillicon_Commonattack_S",
       "buff": [],
       "type": 1,
@@ -49,12 +49,12 @@
     },
     {
       "name": "结案",
-      "des": "对单体目标造成攻击力<span style=\"color:#158bdb\">350%</span>的伤害，当处于<span style=\"color:#ff6724\">侦探时间</span>状态下，伤害增加<span style=\"color:#158bdb\">30%</span>，并在攻击后恢复<span style=\"color:#158bdb\">3</span>点能量。",
+      "des": "对单体目标造成攻击力<span style=\"color:#158bdb\">450%</span>的伤害，当处于<span style=\"color:#ff6724\">侦探时间</span>状态下，伤害增加<span style=\"color:#158bdb\">30%</span>，并在攻击后恢复<span style=\"color:#158bdb\">3</span>点能量。",
       "tag": [
         "射程3格",
         "消耗:6"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_S004002",
       "buff": [],
       "type": 3,
@@ -62,11 +62,11 @@
     },
     {
       "name": "寻迹",
-      "des": "每进行<span style=\"color:#158bdb\">1</span>次警戒攻击，则自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">探源</span>状态。自身回合开始时，若自身处于 <span style=\"color:#ff6724\">探源</span>状态，则有<span style=\"color:#158bdb\">10%</span>概率消耗自身全部<span style=\"color:#ff6724\">探源</span>状态，获得<span style=\"color:#ff6724\">侦探时间</span>状态，每层<span style=\"color:#ff6724\">探源</span>状态会使概率增加<span style=\"color:#158bdb\">10%</span>。",
+      "des": "每进行<span style=\"color:#158bdb\">1</span>次警戒攻击，则自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">探源</span>状态。自身回合开始时，若自身处于 <span style=\"color:#ff6724\">探源</span>状态，则有<span style=\"color:#158bdb\">16%</span>概率消耗自身全部<span style=\"color:#ff6724\">探源</span>状态，获得<span style=\"color:#ff6724\">侦探时间</span>状态，每层<span style=\"color:#ff6724\">探源</span>状态会使概率增加<span style=\"color:#158bdb\">16%</span>。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_S004003",
       "buff": [
         {
@@ -79,15 +79,15 @@
         }
       ],
       "type": 4,
-      "special": "每进行<span style=\"color:#158bdb\">1</span>次警戒攻击，则自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">探源</span>状态。自身回合开始时，若自身处于 <span style=\"color:#ff6724\">探源</span>状态，则有<span style=\"color:#158bdb\">20%</span>概率消耗自身全部<span style=\"color:#ff6724\">探源</span>状态，获得<span style=\"color:#ff6724\">侦探时间</span>状态并回复<span style=\"color:#158bdb\">2</span>点能量，每层<span style=\"color:#ff6724\">探源</span>状态会使概率增加<span style=\"color:#158bdb\">20%</span>。"
+      "special": "每进行<span style=\"color:#158bdb\">1</span>次警戒攻击，则自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">探源</span>状态。自身回合开始时，若自身处于 <span style=\"color:#ff6724\">探源</span>状态，则有<span style=\"color:#158bdb\">26%</span>概率消耗自身全部<span style=\"color:#ff6724\">探源</span>状态，获得<span style=\"color:#ff6724\">侦探时间</span>状态并回复<span style=\"color:#158bdb\">2</span>点能量，每层<span style=\"color:#ff6724\">探源</span>状态会使概率增加<span style=\"color:#158bdb\">26%</span>。"
     },
     {
       "name": "回眸",
-      "des": "攻击处于控制，属性削弱以及持续伤害类负面状态的敌方单位时，造成的伤害提高<span style=\"color:#158bdb\">10%</span>，且常击后自身有<span style=\"color:#158bdb\">40%</span>概率获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">探源</span>状态。",
+      "des": "攻击处于控制，属性削弱以及持续伤害类负面状态的敌方单位时，造成的伤害提高<span style=\"color:#158bdb\">30%</span>，且常击后自身有<span style=\"color:#158bdb\">80%</span>概率获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">探源</span>状态。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_S004004",
       "buff": [
         {
@@ -100,11 +100,11 @@
     },
     {
       "name": "勘破",
-      "des": "警戒攻击有<span style=\"color:#158bdb\">60%</span>概率，使敌方受击单位获得<span style=\"color:#ff6724\">肃静</span>或<span style=\"color:#ff6724\">止戈</span>状态，效果持续<span style=\"color:#158bdb\">1</span>回合。",
+      "des": "警戒攻击有<span style=\"color:#158bdb\">100%</span>概率，使敌方受击单位获得<span style=\"color:#ff6724\">肃静</span>或<span style=\"color:#ff6724\">止戈</span>状态，效果持续<span style=\"color:#158bdb\">1</span>回合。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_S004005",
       "buff": [
         {

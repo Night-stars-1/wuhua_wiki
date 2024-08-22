@@ -1,0 +1,150 @@
+{
+  "info": {
+    "Hp": 577,
+    "Atk": 306,
+    "PhysicDef": 35,
+    "MagicDef": 35,
+    "Speed": 95,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 5,
+    "Mov": 3,
+    "Hp_GROW": 46,
+    "Atk_GROW": 20,
+    "PhysicDef_GROW": 4,
+    "MagicDef_GROW": 4,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": "",
+    "name": "克拉克瓷",
+    "rare": 3,
+    "job": 3,
+    "tag": "远程;输出;击退"
+  },
+  "skill": [
+    {
+      "name": "满舵",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。",
+      "tag": [
+        "十字3格",
+        "无消耗"
+      ],
+      "level": 5,
+      "icon": "skillicon_Commonattack_A",
+      "buff": [],
+      "type": 1,
+      "special": null
+    },
+    {
+      "name": "扬帆远航",
+      "des": "使用后自身进入<span style=\"color:#ff6724\">锚启</span>状态。",
+      "tag": [
+        "自身",
+        "消耗:5",
+        "冷却:4"
+      ],
+      "level": 3,
+      "icon": "skillicon_A015602",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">锚启</span>",
+          "des": "自身攻击力提高<span style=\"color:#158bdb\">10%</span>；\n且每次行动后，立即获得额外行动<span style=\"color:#158bdb\">1</span>次，此状态持续<span style=\"color:#158bdb\">2</span>轮次，每轮次可触发<span style=\"color:#158bdb\">1</span>次获得额外行动的效果。"
+        }
+      ],
+      "type": 3,
+      "special": null
+    },
+    {
+      "name": "远洋风暴",
+      "des": "处于<span style=\"color:#ff6724\">瞄准</span>状态进行常击时，击退该受击敌方单位<span style=\"color:#158bdb\">1</span>格。\n处于<span style=\"color:#ff6724\">瞄准</span>状态进行常击后，若该受击敌方单位<span style=\"color:#158bdb\">周围1格</span>不存在其他敌方单位，则有<span style=\"color:#158bdb\">100%</span>的概率使其获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">寒天</span>状态。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 3,
+      "icon": "skillicon_A015603",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">寒天</span>",
+          "des": "移动力减少<span style=\"color:#158bdb\">1</span>。此状态叠加到<span style=\"color:#158bdb\">3</span>层时，清除自身所有<span style=\"color:#ff6724\">寒天</span>状态，获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">霜冻</span>状态。"
+        }
+      ],
+      "type": 4,
+      "special": null
+    },
+    {
+      "name": "釉下青花",
+      "des": "常击造成伤害时，有<span style=\"color:#158bdb\">70%</span>的概率使受击敌方单位获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">碎瓷</span>状态。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 3,
+      "icon": "skillicon_A015604",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">碎瓷</span>",
+          "des": "被击退时，击退距离增加<span style=\"color:#158bdb\">1</span>格，且额外受到<span style=\"color:#158bdb\">1</span>次克拉克瓷攻击力<span style=\"color:#158bdb\">60%</span>的<span style=\"color:#ff6724\">额外物理伤害</span>。\n此状态持续<span style=\"color:#158bdb\">2</span>回合，触发上述效果或持续时间结束，此状态消除。"
+        }
+      ],
+      "type": 5,
+      "special": null
+    },
+    {
+      "name": "鸣笛避让",
+      "des": "进入战斗后，自身瞄准冷却率增加<span style=\"color:#158bdb\">30%</span>。\n瞄准状态下造成击退时，有<span style=\"color:#158bdb\">100%</span>的概率使被击退目标获得<span style=\"color:#ff6724\">附骨</span>状态。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 3,
+      "icon": "skillicon_A015605",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">附骨</span>",
+          "des": "受到的额外伤害提高<span style=\"color:#158bdb\">30%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">1</span>层。"
+        }
+      ],
+      "type": 6,
+      "special": "进入战斗后，自身瞄准冷却率增加<span style=\"color:#158bdb\">30%</span>并获得<span style=\"color:#158bdb\">1</span>点能量。\n瞄准状态下造成击退时，有<span style=\"color:#158bdb\">100%</span>的概率使被击退目标获得<span style=\"color:#ff6724\">附骨</span>状态。"
+    },
+    {
+      "name": "领航者",
+      "des": "使用后自身获得<span style=\"color:#158bdb\">1</span>次不可移动的再行动，并进入<span style=\"color:#ff6724\">瞄准</span>状态。",
+      "tag": [
+        "自身",
+        "无消耗",
+        "冷却:3"
+      ],
+      "level": 1,
+      "icon": "skillicon_Jobskill_A",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">瞄准</span>",
+          "des": "此状态下进行攻击时，最大攻击距离增加<span style=\"color:#158bdb\">4</span>格，该次再行动结束后，此状态消失。"
+        }
+      ],
+      "type": 2,
+      "special": null
+    }
+  ],
+  "skin": [
+    {
+      "id": "A0156001",
+      "name": "肖形"
+    },
+    {
+      "id": "A0156002",
+      "name": "写照"
+    }
+  ]
+}

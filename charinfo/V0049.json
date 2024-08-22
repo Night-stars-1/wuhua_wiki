@@ -36,12 +36,12 @@
   "skill": [
     {
       "name": "暗袭",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。",
       "tag": [
         "射程1格 ",
         "无消耗"
       ],
-      "level": 1,
+      "level": 5,
       "icon": "skillicon_Commonattack_V",
       "buff": [],
       "type": 1,
@@ -49,12 +49,12 @@
     },
     {
       "name": "违者杀",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">220%</span>的物理伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">320%</span>的物理伤害。",
       "tag": [
         "射程1格 ",
         "消耗:3"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_V004902",
       "buff": [],
       "type": 3,
@@ -66,7 +66,7 @@
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_V004903",
       "buff": [
         {
@@ -87,7 +87,7 @@
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_V004904",
       "buff": [
         {
@@ -100,11 +100,11 @@
     },
     {
       "name": "绝尘",
-      "des": "处于<span style=\"color:#ff6724\">隐夜</span>状态时，攻击后有<span style=\"color:#158bdb\">40%</span>概率获得再移动，该次再移动的移动力减少<span style=\"color:#158bdb\">-2</span>。",
+      "des": "处于<span style=\"color:#ff6724\">隐夜</span>状态时，攻击后有<span style=\"color:#158bdb\">80%</span>概率获得再移动，该次再移动的移动力减少<span style=\"color:#158bdb\">-1</span>。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_V004905",
       "buff": [],
       "type": 6,

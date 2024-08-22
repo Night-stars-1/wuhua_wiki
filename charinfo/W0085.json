@@ -36,12 +36,12 @@
   "skill": [
     {
       "name": "炽热光线",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的构素伤害。",
       "tag": [
         "射程2格",
         "无消耗"
       ],
-      "level": 1,
+      "level": 5,
       "icon": "skillicon_Commonattack_W",
       "buff": [],
       "type": 1,
@@ -49,12 +49,12 @@
     },
     {
       "name": "闪耀舞台",
-      "des": "对选定的敌方单位及其<span style=\"color:#158bdb\">周围2格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">115%</span>的构素伤害。",
+      "des": "对选定的敌方单位及其<span style=\"color:#158bdb\">周围2格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">170%</span>的构素伤害。",
       "tag": [
         "射程2格",
         "消耗:3"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_W008502",
       "buff": [],
       "type": 3,
@@ -66,7 +66,7 @@
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_W008503",
       "buff": [
         {
@@ -83,23 +83,23 @@
     },
     {
       "name": "暖香沁人",
-      "des": "当场上拥有<span style=\"color:#ff6724\">荧光棒</span>和<span style=\"color:#ff6724\">应援棒</span>状态的目标大于等于<span style=\"color:#158bdb\">3</span>时，常击变为<span style=\"color:#158bdb\">1</span>格范围伤害，自身造成的构素伤害提高<span style=\"color:#158bdb\">20%</span>。",
+      "des": "当场上拥有<span style=\"color:#ff6724\">荧光棒</span>和<span style=\"color:#ff6724\">应援棒</span>状态的目标大于等于<span style=\"color:#158bdb\">3</span>时，常击变为<span style=\"color:#158bdb\">1</span>格范围伤害，自身造成的构素伤害提高<span style=\"color:#158bdb\">40%</span>。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_W008504",
       "buff": [],
       "type": 5,
-      "special": "当场上拥有<span style=\"color:#ff6724\">荧光棒</span>和<span style=\"color:#ff6724\">应援棒</span>状态的目标大于等于<span style=\"color:#158bdb\">3</span>时，常击变为<span style=\"color:#158bdb\">1</span>格范围伤害，自身造成的构素伤害提高<span style=\"color:#158bdb\">20%</span>。"
+      "special": "当场上拥有<span style=\"color:#ff6724\">荧光棒</span>和<span style=\"color:#ff6724\">应援棒</span>状态的目标大于等于<span style=\"color:#158bdb\">3</span>时，常击变为<span style=\"color:#158bdb\">1</span>格范围伤害，自身造成的构素伤害提高<span style=\"color:#158bdb\">40%</span>。"
     },
     {
       "name": "星梦熠熠",
-      "des": "在拥有<span style=\"color:#ff6724\">荧光棒</span>或<span style=\"color:#ff6724\">应援棒</span>状态的友方目标距离<span style=\"color:#ff6724\">1</span>格范围内发动常击时，构素伤害提升<span style=\"color:#158bdb\">20%</span>。",
+      "des": "在拥有<span style=\"color:#ff6724\">荧光棒</span>或<span style=\"color:#ff6724\">应援棒</span>状态的友方目标距离<span style=\"color:#ff6724\">1</span>格范围内发动常击时，构素伤害提升<span style=\"color:#158bdb\">40%</span>。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_W008505",
       "buff": [],
       "type": 6,

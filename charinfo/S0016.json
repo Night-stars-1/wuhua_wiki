@@ -36,12 +36,12 @@
   "skill": [
     {
       "name": "断生",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的构素伤害。",
       "tag": [
         "射程3格",
         "无消耗"
       ],
-      "level": 1,
+      "level": 5,
       "icon": "skillicon_Commonattack_S",
       "buff": [],
       "type": 1,
@@ -49,12 +49,12 @@
     },
     {
       "name": "食味流香",
-      "des": "使自身攻击力提高<span style=\"color:#158bdb\">30%</span>并进入<span style=\"color:#ff6724\">警戒治疗</span>状态，对进入警戒范围且生命值低于<span style=\"color:#158bdb\">100%</span>的友军进行警戒治疗，恢复攻击力<span style=\"color:#158bdb\">20%+300</span>的生命值，效果持续<span style=\"color:#158bdb\">2</span>回合。",
+      "des": "使自身攻击力提高<span style=\"color:#158bdb\">50%</span>并进入<span style=\"color:#ff6724\">警戒治疗</span>状态，对进入警戒范围且生命值低于<span style=\"color:#158bdb\">100%</span>的友军进行警戒治疗，恢复攻击力<span style=\"color:#158bdb\">20%+300</span>的生命值，效果持续<span style=\"color:#158bdb\">2</span>回合。",
       "tag": [
         "自身",
         "消耗:3"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_S001602",
       "buff": [
         {
@@ -63,15 +63,15 @@
         }
       ],
       "type": 3,
-      "special": "使用后为自身填充<span style=\"color:#158bdb\">3</span>枚<span style=\"color:#ff6724\">礼弹</span>，使自身攻击力提高<span style=\"color:#158bdb\">30%</span>并进入<span style=\"color:#ff6724\">警戒治疗</span>状态，对进入警戒范围且生命值低于<span style=\"color:#158bdb\">100%</span>的友军进行警戒治疗，恢复攻击力<span style=\"color:#158bdb\">20%+300</span>的生命值，效果持续<span style=\"color:#158bdb\">2</span>回合。进入战斗后，<span style=\"color:#ff6724\">礼弹</span>上限增加<span style=\"color:#158bdb\">3</span>枚。"
+      "special": "使用后为自身填充<span style=\"color:#158bdb\">3</span>枚<span style=\"color:#ff6724\">礼弹</span>，使自身攻击力提高<span style=\"color:#158bdb\">50%</span>并进入<span style=\"color:#ff6724\">警戒治疗</span>状态，对进入警戒范围且生命值低于<span style=\"color:#158bdb\">100%</span>的友军进行警戒治疗，恢复攻击力<span style=\"color:#158bdb\">20%+300</span>的生命值，效果持续<span style=\"color:#158bdb\">2</span>回合。进入战斗后，<span style=\"color:#ff6724\">礼弹</span>上限增加<span style=\"color:#158bdb\">3</span>枚。"
     },
     {
       "name": "增香",
-      "des": "使用<span style=\"color:#ff6724\">警戒治疗</span>时，有<span style=\"color:#158bdb\">40%</span>概率使<span style=\"color:#158bdb\">周围3格</span>以内随机<span style=\"color:#158bdb\">1</span>名友方单位获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">啸剑</span>状态。",
+      "des": "使用<span style=\"color:#ff6724\">警戒治疗</span>时，有<span style=\"color:#158bdb\">100%</span>概率使<span style=\"color:#158bdb\">周围3格</span>以内随机<span style=\"color:#158bdb\">1</span>名友方单位获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">啸剑</span>状态。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_S001603",
       "buff": [
         {
@@ -84,11 +84,11 @@
     },
     {
       "name": "上色",
-      "des": "进行<span style=\"color:#ff6724\">警戒攻击</span>时，有<span style=\"color:#158bdb\">40%</span>概率获得<span style=\"color:#158bdb\">1</span>点能量，每回合最多触发<span style=\"color:#158bdb\">1</span>次。",
+      "des": "进行<span style=\"color:#ff6724\">警戒攻击</span>时，有<span style=\"color:#158bdb\">60%</span>概率获得<span style=\"color:#158bdb\">1</span>点能量，每回合最多触发<span style=\"color:#158bdb\">1</span>次。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_S001604",
       "buff": [],
       "type": 5,
@@ -96,11 +96,11 @@
     },
     {
       "name": "提味",
-      "des": "进入战斗后，自身攻击力提高<span style=\"color:#158bdb\">10%</span>。",
+      "des": "进入战斗后，自身攻击力提高<span style=\"color:#158bdb\">20%</span>。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_S001605",
       "buff": [],
       "type": 6,

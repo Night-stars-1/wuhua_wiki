@@ -36,12 +36,12 @@
   "skill": [
     {
       "name": "翻山越岭",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。",
       "tag": [
         "射程1格 ",
         "无消耗"
       ],
-      "level": 1,
+      "level": 5,
       "icon": "skillicon_Commonattack_D",
       "buff": [],
       "type": 1,
@@ -49,12 +49,12 @@
     },
     {
       "name": "天马行空",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">290%</span>的物理伤害，并使其进入<span style=\"color:#ff6724\">震怒</span>状态，效果持续<span style=\"color:#158bdb\">-2</span>回合；同时使自身进入<span style=\"color:#158bdb\">1</span>层<span style=\"color:#158bdb\">敏捷</span>状态，并获得额外移动机会<span style=\"color:#158bdb\">1</span>次，该次额外移动的移动力减少<span style=\"color:#158bdb\">-2</span>。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">340%</span>的物理伤害，并使其进入<span style=\"color:#ff6724\">震怒</span>状态，效果持续<span style=\"color:#158bdb\">-2</span>回合；同时使自身进入<span style=\"color:#158bdb\">1</span>层<span style=\"color:#158bdb\">敏捷</span>状态，并获得额外移动机会<span style=\"color:#158bdb\">1</span>次，该次额外移动的移动力减少<span style=\"color:#158bdb\">-2</span>。",
       "tag": [
         "射程1格 ",
         "消耗:3"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_D008002",
       "buff": [
         {
@@ -71,11 +71,11 @@
     },
     {
       "name": "奔防伺击",
-      "des": "受到或是闪避常击时，若攻击方距离自身<span style=\"color:#158bdb\">周围2格</span>以内，会进行回击，对其造成自身攻击力<span style=\"color:#158bdb\">90%</span>的物理伤害。",
+      "des": "受到或是闪避常击时，若攻击方距离自身<span style=\"color:#158bdb\">周围2格</span>以内，会进行回击，对其造成自身攻击力<span style=\"color:#158bdb\">130%</span>的物理伤害。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_D008003",
       "buff": [],
       "type": 4,
@@ -83,11 +83,11 @@
     },
     {
       "name": "骐骥驰骋",
-      "des": "回击后，自身有<span style=\"color:#158bdb\">50%</span>概率获得<span style=\"color:#ff6724\">附加移动力</span>状态，最多可叠加<span style=\"color:#158bdb\">4</span>层。",
+      "des": "回击后，自身有<span style=\"color:#158bdb\">100%</span>概率获得<span style=\"color:#ff6724\">附加移动力</span>状态，最多可叠加<span style=\"color:#158bdb\">4</span>层。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_D008004",
       "buff": [
         {
@@ -100,11 +100,11 @@
     },
     {
       "name": "踏风",
-      "des": "自身回合结束后，该回合内每移动<span style=\"color:#158bdb\">6</span>格，则获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#158bdb\">敏捷</span>状态。",
+      "des": "自身回合结束后，该回合内每移动<span style=\"color:#158bdb\">4</span>格，则获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#158bdb\">敏捷</span>状态。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_D008005",
       "buff": [
         {
@@ -113,7 +113,7 @@
         }
       ],
       "type": 6,
-      "special": "自身回合结束后，该回合内每移动<span style=\"color:#158bdb\">4</span>格，则获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#158bdb\">敏捷</span>状态。"
+      "special": "自身回合结束后，该回合内每移动<span style=\"color:#158bdb\">3</span>格，则获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#158bdb\">敏捷</span>状态。"
     },
     {
       "name": "蹄突泥泞",

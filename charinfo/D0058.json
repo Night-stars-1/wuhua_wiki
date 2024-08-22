@@ -36,12 +36,12 @@
   "skill": [
     {
       "name": "怒鸮",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。",
       "tag": [
         "射程1格 ",
         "无消耗"
       ],
-      "level": 1,
+      "level": 5,
       "icon": "skillicon_Commonattack_D",
       "buff": [],
       "type": 1,
@@ -49,12 +49,12 @@
     },
     {
       "name": "展戈持护",
-      "des": "使自身<span style=\"color:#158bdb\">周围2格</span>的全体友方单位获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">蓄势</span>；并<span style=\"color:#ff6724\">援护</span>自身周围<span style=\"color:#158bdb\">2</span>格内的友方单位，效果持续<span style=\"color:#158bdb\">1</span>回合。",
+      "des": "使自身<span style=\"color:#158bdb\">周围2格</span>的全体友方单位获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">蓄势</span>和<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">瞄准</span>；并<span style=\"color:#ff6724\">援护</span>自身周围<span style=\"color:#158bdb\">2</span>格内的友方单位，效果持续<span style=\"color:#158bdb\">1</span>回合。",
       "tag": [
         "自身",
         "消耗:3"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_D005802",
       "buff": [
         {
@@ -64,6 +64,10 @@
         {
           "name": "<span style=\"color:#ff6724\">蓄势</span>",
           "des": "提高所有伤害<span style=\"color:#158bdb\">20%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">2</span>层。"
+        },
+        {
+          "name": "<span style=\"color:#ff6724\">瞄准</span>",
+          "des": "提高命中率<span style=\"color:#158bdb\">25%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">2</span>层。"
         }
       ],
       "type": 3,
@@ -71,11 +75,11 @@
     },
     {
       "name": "妇好之姿",
-      "des": "触发<span style=\"color:#ff6724\">援护</span>时，物理伤害减免提高<span style=\"color:#158bdb\">10%</span>。",
+      "des": "触发<span style=\"color:#ff6724\">援护</span>时，物理伤害减免提高<span style=\"color:#158bdb\">30%</span>。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_D005803",
       "buff": [
         {
@@ -88,11 +92,11 @@
     },
     {
       "name": "辛之威仪",
-      "des": "<span style=\"color:#ff6724\">援护</span>持续时间内，自身<span style=\"color:#158bdb\">周围2格</span>内的敌方全体攻击力降低<span style=\"color:#db2424\">-10%</span>，闪避率降低<span style=\"color:#db2424\">-10%</span>。",
+      "des": "<span style=\"color:#ff6724\">援护</span>持续时间内，自身<span style=\"color:#158bdb\">周围2格</span>内的敌方全体攻击力降低<span style=\"color:#db2424\">-30%</span>，闪避率降低<span style=\"color:#db2424\">-30%</span>。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_D005804",
       "buff": [],
       "type": 5,
@@ -100,11 +104,11 @@
     },
     {
       "name": "战神长嘶",
-      "des": "进入战斗后，常击伤害增加<span style=\"color:#158bdb\">10%</span>。常击后有<span style=\"color:#158bdb\">30%</span>概率获得<span style=\"color:#158bdb\">1</span>回合<span style=\"color:#ff6724\">援护</span>。",
+      "des": "进入战斗后，常击伤害增加<span style=\"color:#158bdb\">30%</span>。常击后有<span style=\"color:#158bdb\">50%</span>概率获得<span style=\"color:#158bdb\">1</span>回合<span style=\"color:#ff6724\">援护</span>。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_D005805",
       "buff": [
         {
@@ -113,7 +117,7 @@
         }
       ],
       "type": 6,
-      "special": "进入战斗后，常击伤害增加<span style=\"color:#158bdb\">15%</span>。常击后有<span style=\"color:#158bdb\">35%</span>概率获得<span style=\"color:#158bdb\">1</span>回合<span style=\"color:#ff6724\">援护</span>。"
+      "special": "进入战斗后，常击伤害增加<span style=\"color:#158bdb\">35%</span>。常击后有<span style=\"color:#158bdb\">55%</span>概率获得<span style=\"color:#158bdb\">1</span>回合<span style=\"color:#ff6724\">援护</span>。"
     },
     {
       "name": "鸮声长援",

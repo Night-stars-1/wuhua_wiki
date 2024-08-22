@@ -36,12 +36,12 @@
   "skill": [
     {
       "name": "轮转射击",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。",
       "tag": [
         "十字3格",
         "无消耗"
       ],
-      "level": 1,
+      "level": 5,
       "icon": "skillicon_Commonattack_A",
       "buff": [],
       "type": 1,
@@ -49,13 +49,13 @@
     },
     {
       "name": "满弦击火",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">210%</span>的物理伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">310%</span>的物理伤害。",
       "tag": [
         "十字3格",
         "消耗:3",
         "冷却:2"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_A003302",
       "buff": [],
       "type": 3,
@@ -67,7 +67,7 @@
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_A003303",
       "buff": [
         {
@@ -84,7 +84,7 @@
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_A003304",
       "buff": [
         {
@@ -97,11 +97,11 @@
     },
     {
       "name": "二道击发",
-      "des": "获得<span style=\"color:#ff6724\">狙击</span>效果同时，获得<span style=\"color:#ff6724\">上膛</span>效果，可叠加<span style=\"color:#158bdb\">3</span>层；每层<span style=\"color:#ff6724\">上膛</span>效果可使自身下次绝技造成的伤害增加<span style=\"color:#158bdb\">10%</span>，并在释放绝技前使<span style=\"color:#ff6724\">狙击</span>效果获得额外的<span style=\"color:#158bdb\">6%</span>眩晕概率；释放绝技后会移除<span style=\"color:#ff6724\">上膛</span>效果。",
+      "des": "获得<span style=\"color:#ff6724\">狙击</span>效果同时，获得<span style=\"color:#ff6724\">上膛</span>效果，可叠加<span style=\"color:#158bdb\">3</span>层；每层<span style=\"color:#ff6724\">上膛</span>效果可使自身下次绝技造成的伤害增加<span style=\"color:#158bdb\">20%</span>，并在释放绝技前使<span style=\"color:#ff6724\">狙击</span>效果获得额外的<span style=\"color:#158bdb\">10%</span>眩晕概率；释放绝技后会移除<span style=\"color:#ff6724\">上膛</span>效果。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_A003305",
       "buff": [
         {

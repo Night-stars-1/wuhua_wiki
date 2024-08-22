@@ -36,12 +36,12 @@
   "skill": [
     {
       "name": "驱恶",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。",
       "tag": [
         "射程1格 ",
         "无消耗"
       ],
-      "level": 1,
+      "level": 5,
       "icon": "skillicon_Commonattack_V",
       "buff": [],
       "type": 1,
@@ -49,12 +49,12 @@
     },
     {
       "name": "北漠金沙",
-      "des": "使用后自身获得额外行动回合<span style=\"color:#158bdb\">1</span>次，并进入<span style=\"color:#ff6724\">2</span>层<span style=\"color:#ff6724\">热诚</span>状态。",
+      "des": "使用后自身获得额外行动回合<span style=\"color:#158bdb\">1</span>次，并进入<span style=\"color:#ff6724\">4</span>层<span style=\"color:#ff6724\">热诚</span>状态。",
       "tag": [
         "自身",
         "消耗:3"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_V004302",
       "buff": [
         {
@@ -67,11 +67,11 @@
     },
     {
       "name": "流沙绝险",
-      "des": "战斗中自身攻击不触发暴击。\n若自身速度高于常击的敌方目标，则常击后进行连击，对其造成自身攻击力<span style=\"color:#158bdb\">40%</span>的物理伤害。",
+      "des": "战斗中自身攻击不触发暴击。\n若自身速度高于常击的敌方目标，则常击后进行连击，对其造成自身攻击力<span style=\"color:#158bdb\">80%</span>的物理伤害。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_V004303",
       "buff": [],
       "type": 4,
@@ -79,11 +79,11 @@
     },
     {
       "name": "尘途",
-      "des": "每次攻击前和回合结束前，当前回合每移动<span style=\"color:#158bdb\">4</span>格，获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">热诚</span>状态；连击时，自身每拥有<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">热诚</span>状态，则获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">灵动</span>状态，此状态累计到<span style=\"color:#158bdb\">10</span>层后，自身获得额外行动<span style=\"color:#158bdb\">1</span>次。",
+      "des": "每次攻击前和回合结束前，当前回合每移动<span style=\"color:#158bdb\">4</span>格，获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">热诚</span>状态；连击时，自身每拥有<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">热诚</span>状态，则获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">灵动</span>状态，此状态累计到<span style=\"color:#158bdb\">6</span>层后，自身获得额外行动<span style=\"color:#158bdb\">1</span>次。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_V004304",
       "buff": [
         {
@@ -96,15 +96,15 @@
         }
       ],
       "type": 5,
-      "special": "每次攻击前和回合结束前，当前回合每移动<span style=\"color:#158bdb\">3</span>格，获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">热诚</span>状态；连击时，自身每拥有<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">热诚</span>状态，则获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">灵动</span>状态，此状态累计到<span style=\"color:#158bdb\">10</span>层后，自身获得额外行动<span style=\"color:#158bdb\">1</span>次。"
+      "special": "每次攻击前和回合结束前，当前回合每移动<span style=\"color:#158bdb\">3</span>格，获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">热诚</span>状态；连击时，自身每拥有<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">热诚</span>状态，则获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">灵动</span>状态，此状态累计到<span style=\"color:#158bdb\">6</span>层后，自身获得额外行动<span style=\"color:#158bdb\">1</span>次。"
     },
     {
       "name": "多战",
-      "des": "受到敌方单位攻击时，若自身速度高于该单位，则每高出<span style=\"color:#158bdb\">20</span>点速度，本次受击中自身闪避率增加<span style=\"color:#158bdb\">10%</span>。",
+      "des": "受到敌方单位攻击时，若自身速度高于该单位，则每高出<span style=\"color:#158bdb\">20</span>点速度，本次受击中自身闪避率增加<span style=\"color:#158bdb\">15%</span>。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_V004305",
       "buff": [],
       "type": 6,

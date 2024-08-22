@@ -36,12 +36,12 @@
   "skill": [
     {
       "name": "飞珠溅玉",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的构素伤害。",
       "tag": [
         "射程3格",
         "无消耗"
       ],
-      "level": 1,
+      "level": 5,
       "icon": "skillicon_Commonattack_S",
       "buff": [],
       "type": 1,
@@ -49,12 +49,12 @@
     },
     {
       "name": "通经回纬",
-      "des": "对选定的敌方单位及其<span style=\"color:#158bdb\">周围2格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">110%</span>的构素伤害，并使其获得<span style=\"color:#ff6724\">寒天</span>；并使自身回复最大生命值的<span style=\"color:#158bdb\">25%</span>。",
+      "des": "对选定的敌方单位及其<span style=\"color:#158bdb\">周围2格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">160%</span>的构素伤害，并使其获得<span style=\"color:#ff6724\">寒天</span>；并使自身回复最大生命值的<span style=\"color:#158bdb\">25%</span>。",
       "tag": [
         "射程3格",
         "消耗:3"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_S008802",
       "buff": [
         {
@@ -63,27 +63,27 @@
         }
       ],
       "type": 3,
-      "special": "对选定的敌方单位及其<span style=\"color:#158bdb\">周围2格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的构素伤害，并使其获得<span style=\"color:#ff6724\">寒天</span>；并使自身回复最大生命值的<span style=\"color:#158bdb\">25%</span>。"
+      "special": "对选定的敌方单位及其<span style=\"color:#158bdb\">周围2格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">170%</span>的构素伤害，并使其获得<span style=\"color:#ff6724\">寒天</span>；并使自身回复最大生命值的<span style=\"color:#158bdb\">25%</span>。"
     },
     {
       "name": "凫鹭闲游",
-      "des": "对生命值高于<span style=\"color:#158bdb\">70%</span>的目标进行警戒治疗时，会重新填充<span style=\"color:#158bdb\">1</span>枚<span style=\"color:#ff6724\">礼弹</span>；\n对生命值低于<span style=\"color:#158bdb\">40%</span>的目标进行警戒治疗时，会额外消耗<span style=\"color:#158bdb\">1</span>枚<span style=\"color:#ff6724\">礼弹</span>，并使该次治疗恢复量增加攻击力<span style=\"color:#158bdb\">5%+300</span>。",
+      "des": "对生命值高于<span style=\"color:#158bdb\">70%</span>的目标进行警戒治疗时，会重新填充<span style=\"color:#158bdb\">1</span>枚<span style=\"color:#ff6724\">礼弹</span>；\n对生命值低于<span style=\"color:#158bdb\">40%</span>的目标进行警戒治疗时，会额外消耗<span style=\"color:#158bdb\">1</span>枚<span style=\"color:#ff6724\">礼弹</span>，并使该次治疗恢复量增加攻击力<span style=\"color:#158bdb\">15%+500</span>。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_S008803",
       "buff": [],
       "type": 4,
-      "special": "对生命值高于<span style=\"color:#158bdb\">70%</span>的目标进行警戒治疗时，会重新填充<span style=\"color:#158bdb\">1</span>枚<span style=\"color:#ff6724\">礼弹</span>；\n对生命值低于<span style=\"color:#158bdb\">60%</span>的目标进行警戒治疗时，会额外消耗<span style=\"color:#158bdb\">1</span>枚<span style=\"color:#ff6724\">礼弹</span>，并使该次治疗恢复量增加攻击力<span style=\"color:#158bdb\">5%+300</span>；\n礼弹填充量增加<span style=\"color:#158bdb\">2</span>。"
+      "special": "对生命值高于<span style=\"color:#158bdb\">70%</span>的目标进行警戒治疗时，会重新填充<span style=\"color:#158bdb\">1</span>枚<span style=\"color:#ff6724\">礼弹</span>；\n对生命值低于<span style=\"color:#158bdb\">60%</span>的目标进行警戒治疗时，会额外消耗<span style=\"color:#158bdb\">1</span>枚<span style=\"color:#ff6724\">礼弹</span>，并使该次治疗恢复量增加攻击力<span style=\"color:#158bdb\">15%+500</span>；\n礼弹填充量增加<span style=\"color:#158bdb\">2</span>。"
     },
     {
       "name": "水波微漾",
-      "des": "常击命中后，有<span style=\"color:#158bdb\">50%</span>概率填充<span style=\"color:#158bdb\">1</span>枚<span style=\"color:#ff6724\">礼弹</span>，该次填充受到<span style=\"color:#ff6724\">额外装填礼弹</span>的加成。",
+      "des": "常击命中后，有<span style=\"color:#158bdb\">100%</span>概率填充<span style=\"color:#158bdb\">1</span>枚<span style=\"color:#ff6724\">礼弹</span>，该次填充受到<span style=\"color:#ff6724\">额外装填礼弹</span>的加成。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_S008804",
       "buff": [],
       "type": 5,
@@ -91,11 +91,11 @@
     },
     {
       "name": "浮涛映日",
-      "des": "警戒治疗后，有<span style=\"color:#158bdb\">40%</span>概率使目标获得<span style=\"color:#ff6724\">增愈</span>。",
+      "des": "警戒治疗后，有<span style=\"color:#158bdb\">80%</span>概率使目标获得<span style=\"color:#ff6724\">增愈</span>。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_S008805",
       "buff": [
         {

@@ -36,12 +36,12 @@
   "skill": [
     {
       "name": "鸟啼鸣",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的构素伤害。",
       "tag": [
         "射程3格",
         "无消耗"
       ],
-      "level": 1,
+      "level": 5,
       "icon": "skillicon_Commonattack_S",
       "buff": [],
       "type": 1,
@@ -49,12 +49,12 @@
     },
     {
       "name": "新芽唤春",
-      "des": "为自身及<span style=\"color:#158bdb\">周围2格</span>的友方全体回复自身攻击力<span style=\"color:#158bdb\">10%+400</span>的生命值。",
+      "des": "为自身及<span style=\"color:#158bdb\">周围2格</span>的友方全体回复自身攻击力<span style=\"color:#158bdb\">20%+800</span>的生命值。",
       "tag": [
         "自身",
         "消耗:4"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_S006202",
       "buff": [],
       "type": 3,
@@ -62,15 +62,15 @@
     },
     {
       "name": "融寒寻芳",
-      "des": "使用警戒治疗后，自身治疗量提高<span style=\"color:#158bdb\">5%</span>，最多可叠加<span style=\"color:#158bdb\">3</span>层，持续至自身本次行动结束。",
+      "des": "使用警戒治疗后，自身治疗量提高<span style=\"color:#158bdb\">10%</span>，最多可叠加<span style=\"color:#158bdb\">3</span>层，持续至自身本次行动结束。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_S006203",
       "buff": [],
       "type": 4,
-      "special": "使用警戒治疗后，自身治疗量提高<span style=\"color:#158bdb\">5%</span>，最多可叠加<span style=\"color:#158bdb\">3</span>层，持续至自身本次行动结束；使用职业技能时，额外填充<span style=\"color:#158bdb\">3</span>枚<span style=\"color:#ff6724\">礼弹</span>。"
+      "special": "使用警戒治疗后，自身治疗量提高<span style=\"color:#158bdb\">10%</span>，最多可叠加<span style=\"color:#158bdb\">3</span>层，持续至自身本次行动结束；使用职业技能时，额外填充<span style=\"color:#158bdb\">3</span>枚<span style=\"color:#ff6724\">礼弹</span>。"
     },
     {
       "name": "青草蔓蔓",
@@ -78,7 +78,7 @@
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_S006204",
       "buff": [
         {
@@ -91,11 +91,11 @@
     },
     {
       "name": "花间酒韵",
-      "des": "触发自身任意治疗效果后，受治疗的友方单位有<span style=\"color:#158bdb\">50%</span>概率获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">裳衫</span>状态。",
+      "des": "触发自身任意治疗效果后，受治疗的友方单位有<span style=\"color:#158bdb\">100%</span>概率获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">裳衫</span>状态。",
       "tag": [
         "被动触发"
       ],
-      "level": 1,
+      "level": 3,
       "icon": "skillicon_S006205",
       "buff": [
         {
@@ -137,7 +137,7 @@
     },
     {
       "id": "S0062003",
-      "name": "立春"
+      "name": "物候相替"
     }
   ]
 }
