@@ -1,3 +1,9 @@
+<!--
+ * @Author: Night-stars-1 nujj1042633805@gmail.com
+ * @Date: 2024-08-24 20:06:02
+ * @LastEditors: Night-stars-1 nujj1042633805@gmail.com
+ * @LastEditTime: 2024-08-24 23:54:02
+-->
 <template>
   <Panel class="charinfo-panel">
     <div class="login-card">
@@ -55,6 +61,7 @@ async function onReward() {
 <style lang="scss" scoped>
 .charinfo-panel {
   padding: 5px 10px;
+  min-height: calc(100vh - 62px);
 }
 .login-card {
   padding-bottom: 20px;

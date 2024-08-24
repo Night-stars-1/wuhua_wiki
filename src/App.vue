@@ -29,6 +29,6 @@ const isMobile = (() => {
 
 const bgImage = computed(() => {
   console.log("测试")
-  return `https://api.anosu.top/img/?sort=${isMobile ? "mp" : "pc"}`
+  return `https://moe.jitsu.top/img/?sort=${isMobile ? "mp" : "pc"}`
 });
 </script>
