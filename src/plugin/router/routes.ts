@@ -10,4 +10,5 @@ export const routes = [
   { path: '/char/:id', component: () => import('@/pages/Char.vue') },
   { path: '/drawcard', component: () => import('@/pages/DrawCard.vue') },
   { path: '/charinfo', component: () => import('@/pages/CharInfo.vue') },
+  { path: '/reward', component: () => import('@/pages/Reward.vue') },
 ]

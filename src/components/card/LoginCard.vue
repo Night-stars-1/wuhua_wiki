@@ -22,8 +22,8 @@
         ></el-input>
         <el-button
           style="margin-top: 10px; margin-bottom: 20px; float: right"
-          @click="emit('check', code, uid)"
-          >查询</el-button
+          @click="check(code, uid)"
+          >{{ buttonText ?? "查询" }}</el-button
         >
       </el-tab-pane>
       <!-- <el-tab-pane label="账号密码" name="pwd">
@@ -75,54 +75,27 @@
       </el-tab-pane>
     </el-tabs>
   </el-card>
-  <el-dialog
-    v-model="dialogTableVisible"
-    :close-on-click-modal="false"
-    :close-on-press-escape="false"
-    :show-close="false"
-    title="提示"
-  >
-    <span v-text="dialogText"></span>
-  </el-dialog>
 </template>
 
 <script lang="ts" setup>
 defineProps<{
   cardStyle?: string;
+  buttonText?: string;
 }>();
 const emit = defineEmits<{ check: [code: string, uid: string] }>();
 
 import type { TabPaneName } from "element-plus";
 import VueQrcode from "vue-qrcode";
-// import Auth from "@/utils/biliLogin";
 import QRCodeLogin from "@/utils/qrcodeLogin";
 
-// const userId = ref("");
-// const pwd = ref("");
 const qrcodeLoginUrl = ref("");
 const tabLoading = ref(false);
 const loginType = ref("token");
-const dialogTableVisible = ref(false);
-const dialogText = ref(`开始读取抽卡数据...`);
 
 const codeStr = localStorage.getItem("code");
 const code = codeStr ? ref(codeStr) : ref("");
 const uidStr = localStorage.getItem("uid");
 const uid = uidStr ? ref(uidStr) : ref("");
-
-// async function Login() {
-//   dialogTableVisible.value = true;
-//   dialogText.value = "开始获取登录信息...";
-//   const auth = new Auth();
-//   pwd.value = await auth.signPassword(pwd.value);
-//   const data = await auth.getAccessKey(userId.value, pwd.value);
-//   code.value = data.access_key;
-//   uid.value = data.uid.toString();
-//   localStorage.setItem("code", code.value ?? "");
-//   localStorage.setItem("uid", uid.value ?? "");
-//   loginType.value = "token";
-//   dialogTableVisible.value = false;
-// }
 
 let qrcodeInterval: NodeJS.Timeout;
 async function tabChange(name: TabPaneName) {
@@ -153,5 +126,11 @@ async function tabChange(name: TabPaneName) {
     clearInterval(qrcodeInterval);
   }
 }
-</script>
 
+function check(code: string, uid: string) {
+  localStorage.setItem("code", code ?? "");
+  localStorage.setItem("uid", uid ?? "");
+  emit('check', code, uid)
+}
+defineExpose({ code, uid });
+</script>

@@ -14,6 +14,9 @@
   <router-link to="/charinfo" style="margin-left: 10px;">
     <el-button>角色信息</el-button>
   </router-link>
+  <router-link to="/reward" style="margin-left: 10px;">
+    <el-button>兑换码</el-button>
+  </router-link>
   <router-view />
   <div id="background" :style="{ background: `url(${bgImage})center/cover` }" />
 </template>
