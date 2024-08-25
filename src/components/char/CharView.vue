@@ -2,7 +2,7 @@
  * @Author: Night-stars-1 nujj1042633805@gmail.com
  * @Date: 2024-07-21 18:18:56
  * @LastEditors: Night-stars-1 nujj1042633805@gmail.com
- * @LastEditTime: 2024-08-17 16:47:42
+ * @LastEditTime: 2024-08-25 20:34:24
 -->
 <template>
     <el-image
@@ -27,13 +27,9 @@ defineProps<{
   height: 90%;
 }
 
-.char-view-place {
-  height: calc(90vh + 10px);
-}
-
 @media (max-width: 992px) {
   .char-view-place {
-    height: 490px;
+    height: 385px;
   }
   .char-image {
     height: auto;

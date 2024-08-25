@@ -2,7 +2,7 @@
  * @Author: Night-stars-1 nujj1042633805@gmail.com
  * @Date: 2024-07-20 19:47:57
  * @LastEditors: Night-stars-1 nujj1042633805@gmail.com
- * @LastEditTime: 2024-08-20 22:57:48
+ * @LastEditTime: 2024-08-25 20:28:04
 -->
 <template>
   <el-row class="char-container">
@@ -78,7 +78,6 @@ const { appContext } = getCurrentInstance() as ComponentInternalInstance;
 const http = appContext.config.globalProperties.$http;
 
 const route = useRoute();
-
 const allChar = ref<CharData[]>([]);
 const id = ref<string>(route.params.id?.toString());
 const skinIndex = ref(0);
@@ -166,7 +165,7 @@ watch(
   /** 皮肤列表 */
   .skin-list-button {
     position: fixed;
-    top: 490px;
+    top: 430px;
     left: 1rem;
     z-index: 99;
   }
