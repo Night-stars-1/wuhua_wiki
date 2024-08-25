@@ -109,4 +109,9 @@ body {
       background-color: rgb(242, 219, 219)
     }
   }
+  
+  .el-pagination {
+    --el-disabled-bg-color: rgb(214, 185, 185);
+    --el-pagination-button-bg-color: rgb(214, 185, 185);
+  }
 }
