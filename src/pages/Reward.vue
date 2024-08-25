@@ -27,7 +27,14 @@
         >
       </el-card>
       <el-card v-if="codeList.length > 0">
-        <el-button v-for="code in codeList" @click="rewardCode=code">{{ code }}</el-button>
+        <el-space wrap class="code-space">
+          <el-button
+            class="code-button"
+            v-for="code in codeList"
+            @click="rewardCode = code"
+            >{{ code }}</el-button
+          >
+        </el-space>
       </el-card>
     </el-row>
   </Panel>
@@ -45,7 +52,7 @@ const login = ref<{
   code: "",
   uid: "",
 });
-const codeList = ref<string[]>(["whmx2024", "whmxguyu", "whmx0419", "TRAVEL"])
+const codeList = ref<string[]>(["whmx2024", "whmxguyu", "whmx0419", "TRAVEL"]);
 
 async function onReward() {
   rewarding.value = true;
@@ -65,11 +72,20 @@ async function onReward() {
 <style lang="scss" scoped>
 .reward-panel {
   padding: 5px 10px;
-  min-height: calc(100vh - 62px);
+  // min-height: calc(100vh - 62px);
+  padding-bottom: 10px;
 }
 
 .reward-content {
   flex-direction: column;
-  gap: 20px
+  gap: 20px;
+}
+
+.code-space {
+  justify-content: space-between;
+}
+
+.code-button {
+  width: 99px;
 }
 </style>
