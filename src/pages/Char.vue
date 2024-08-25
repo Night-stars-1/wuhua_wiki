@@ -2,33 +2,20 @@
  * @Author: Night-stars-1 nujj1042633805@gmail.com
  * @Date: 2024-07-20 19:47:57
  * @LastEditors: Night-stars-1 nujj1042633805@gmail.com
- * @LastEditTime: 2024-08-25 20:28:04
+ * @LastEditTime: 2024-08-25 21:37:33
 -->
 <template>
   <el-row class="char-container">
     <el-col :md="13">
-      <el-button class="char-list-button" @click="isShowCharList = true">
-        器者列表
-        <template #icon>
-          <IMaterialSymbolsLightFormatListBulletedRounded />
-        </template>
-      </el-button>
-      <el-dropdown>
-        <el-button class="skin-list-button">
-          {{ data.skin?.[skinIndex].name
-          }}<el-icon class="el-icon--right"><ArrowUp /></el-icon>
+      <div class="char-view-content">
+        <el-button class="char-list-button" @click="isShowCharList = true">
+          器者列表
+          <template #icon>
+            <IMaterialSymbolsLightFormatListBulletedRounded />
+          </template>
         </el-button>
-        <template #dropdown>
-          <el-dropdown-menu>
-            <el-dropdown-item
-              v-for="(skin, index) in data.skin"
-              @click="skinIndex = index"
-              >{{ skin.name }}</el-dropdown-item
-            >
-          </el-dropdown-menu>
-        </template>
-      </el-dropdown>
-      <CharView :id="id" :skinId="data.skin?.[skinIndex]?.id" />
+        <CharView :id="id" :skin="data.skin" />
+      </div>
     </el-col>
     <el-col :md="12" style="flex: 1" v-if="data?.info && data?.skill">
       <Panel class="char">
@@ -73,14 +60,12 @@
 
 <script lang="ts" setup>
 import type { ComponentInternalInstance } from "vue";
-import { ArrowUp } from "@element-plus/icons-vue";
 const { appContext } = getCurrentInstance() as ComponentInternalInstance;
 const http = appContext.config.globalProperties.$http;
 
 const route = useRoute();
 const allChar = ref<CharData[]>([]);
 const id = ref<string>(route.params.id?.toString());
-const skinIndex = ref(0);
 const data = ref<Char>({});
 const isShowCharList = ref(false);
 
@@ -97,7 +82,6 @@ async function getCharData() {
   try {
     const charData = await http.get(`charinfo/${id.value}.json`);
     data.value = charData.data;
-    skinIndex.value = 0;
   } catch (error) {
     console.error("Error fetching the user data:", error);
   }
@@ -149,25 +133,19 @@ watch(
   }
 }
 
-/** 皮肤列表 */
-.skin-list-button {
+/** 角色预览内容 */
+.char-view-content {
   position: fixed;
-  bottom: 3rem;
-  left: 2rem;
-  z-index: 99;
 }
 
+
 @media (max-width: 992px) {
+  /** 角色预览内容 */
+  .char-view-content {
+    position: unset;
+  }
   .char-list-button {
     left: 1rem;
-  }
-
-  /** 皮肤列表 */
-  .skin-list-button {
-    position: fixed;
-    top: 430px;
-    left: 1rem;
-    z-index: 99;
   }
 }
 </style>
