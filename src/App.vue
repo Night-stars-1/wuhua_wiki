@@ -31,7 +31,10 @@ const bgImage = computed(() => {
 
 <style lang="scss" scoped>
 .el-header {
-  padding: 0px;
+  --el-header-padding: 0px;
   height: 5vh;
+}
+.el-main {
+  --el-main-padding: 10px;
 }
 </style>

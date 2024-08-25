@@ -2,7 +2,7 @@
  * @Author: Night-stars-1 nujj1042633805@gmail.com
  * @Date: 2024-07-21 18:18:56
  * @LastEditors: Night-stars-1 nujj1042633805@gmail.com
- * @LastEditTime: 2024-08-25 21:48:19
+ * @LastEditTime: 2024-08-25 22:00:52
 -->
 <template>
   <el-image
@@ -85,7 +85,7 @@ watch(
   }
   /** 皮肤列表 */
   .skin-list-button {
-    left: 0px;
+    left: 6px;
     bottom: 0px;
   }
 }
