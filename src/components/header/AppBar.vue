@@ -1,3 +1,9 @@
+<!--
+ * @Author: Night-stars-1 nujj1042633805@gmail.com
+ * @Date: 2024-08-25 19:20:35
+ * @LastEditors: Night-stars-1 nujj1042633805@gmail.com
+ * @LastEditTime: 2024-08-25 22:20:29
+-->
 <template>
   <el-menu :default-active="$route.matched?.[0]?.path" mode="horizontal" router>
     <el-menu-item index="/char">角色</el-menu-item>
@@ -7,16 +13,11 @@
   </el-menu>
 </template>
 
-<script lang="ts" setup>
-const route = useRoute();
-console.log(route);
-</script>
-
 <style lang="scss" scoped>
 .el-menu {
   position: fixed;
   width: 100vw;
-  z-index: 999;
+  z-index: 100;
   background-color: rgb(202 194 174);
   border-bottom: solid 1px rgb(199 178 126);
   height: 5vh;

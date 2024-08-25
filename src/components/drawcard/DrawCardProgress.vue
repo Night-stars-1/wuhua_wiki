@@ -2,7 +2,7 @@
  * @Author: Night-stars-1 nujj1042633805@gmail.com
  * @Date: 2024-08-16 21:59:03
  * @LastEditors: Night-stars-1 nujj1042633805@gmail.com
- * @LastEditTime: 2024-08-18 20:50:44
+ * @LastEditTime: 2024-08-25 22:40:57
 -->
 <template>
   <el-card body-style="padding:0;">
@@ -22,14 +22,14 @@
         </el-row>
       </el-tab-pane>
       <el-tab-pane label="限定分池">
-        <div class="gacha-card" v-for="(cards, name) in cardData">
+        <div class="gacha-card" v-for="(cards, name) in newCardData">
           <div class="card-name">{{ name }}</div>
           <div class="card-content-root" v-for="card in cards">
             <el-image
               class="four-image"
               :src="`char/${card.id}/avatar.png`"
               fit="cover"
-              lazy
+              loading="lazy"
             >
               <template #error>
                 <div class="el-image__error"> {{ card.name }} </div>
@@ -44,7 +44,7 @@
                 class="three-image"
                 :src="`char/${id}/avatar.png`"
                 fit="cover"
-                lazy
+                loading="lazy"
                 v-for="id in card.ids"
               />
             </el-row>
@@ -65,8 +65,10 @@ const props = defineProps<{
   cardData: cardData;
 }>();
 
+const newCardData = ref<cardData>({})
 for (const cardName in props.cardData) {
   const cards = props.cardData[cardName];
+  newCardData.value[cardName] = cards
   cards.forEach(async (card) => (card.ids = []));
   cards.forEach(async (card) => {
     card.id = await name2id(card.name);
