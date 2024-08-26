@@ -61,21 +61,12 @@
         @current-change="(e) => (state.page = e)"
         @size-change="(e) => (state.limit = e)"
       />
-      <el-switch
-        v-model="isDark"
-        :active-icon="Moon"
-        :inactive-icon="iconSun"
-        inline-prompt
-        class="theme-switch"
-      />
     </div>
   </el-card>
 </template>
 
 <script lang="ts" setup>
-import { Moon, StarFilled } from "@element-plus/icons-vue";
-import { useDark } from "@vueuse/core";
-import iconSun from "@/components/icon/IconSun.vue";
+import { StarFilled } from "@element-plus/icons-vue";
 
 defineProps<{
   loading: boolean;
@@ -92,8 +83,6 @@ defineProps<{
     total: number;
   };
 }>();
-
-const isDark = useDark();
 
 function tableRowClassName(row: any) {
   if (row.row.rankType == 4) {
