@@ -18,7 +18,7 @@
   <div>
     <!-- 输入框和按钮 -->
     <div class="command-section">
-      <el-input v-model="command" placeholder="输入JavaScript命令" :autosize="{ minRows: 2, maxRows: 4 } type="textarea" />
+      <el-input v-model="command" placeholder="输入JavaScript命令" :autosize="{ minRows: 2, maxRows: 4 }" type="textarea" />
       <el-button @click="executeCommand"> 执行命令 </el-button>
     </div>
     
