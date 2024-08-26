@@ -2,7 +2,7 @@
  * @Author: Night-stars-1 nujj1042633805@gmail.com
  * @Date: 2024-07-20 19:47:57
  * @LastEditors: Night-stars-1 nujj1042633805@gmail.com
- * @LastEditTime: 2024-08-25 21:37:33
+ * @LastEditTime: 2024-08-26 11:09:35
 -->
 <template>
   <el-row class="char-container">
@@ -98,7 +98,6 @@ watch(
 <style lang="scss" scoped>
 .char {
   position: relative;
-  z-index: 100;
 }
 
 /** 器者列表 */
