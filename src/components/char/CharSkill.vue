@@ -2,7 +2,7 @@
  * @Author: Night-stars-1 nujj1042633805@gmail.com
  * @Date: 2024-07-20 23:29:32
  * @LastEditors: Night-stars-1 nujj1042633805@gmail.com
- * @LastEditTime: 2024-08-18 10:18:25
+ * @LastEditTime: 2024-08-26 11:50:00
 -->
 <template>
   <el-card>
@@ -30,8 +30,9 @@
               <el-tag
                 v-for="(item, index) in data.tag"
                 :type="`${index == 0 ? 'primary' : 'success'}`"
-                >{{ item }}</el-tag
               >
+                {{ item }}
+              </el-tag>
             </el-space>
           </el-space>
           <el-image
@@ -78,6 +79,7 @@ const buffs = computed(() =>
   flex: 1;
   margin-left: 10px;
   margin-right: 10px;
+  width: 0px;
 }
 
 .skill-text {
