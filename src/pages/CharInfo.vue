@@ -2,12 +2,16 @@
  * @Author: Night-stars-1 nujj1042633805@gmail.com
  * @Date: 2024-08-11 17:47:09
  * @LastEditors: Night-stars-1 nujj1042633805@gmail.com
- * @LastEditTime: 2024-08-16 23:34:41
+ * @LastEditTime: 2024-08-30 23:16:14
 -->
 <template>
   <Panel class="charinfo-panel">
     <div class="login-card">
-      <LoginCard card-style="border-radius: 10px;" @check="Save" />
+      <LoginCard
+        card-style="border-radius: 10px;"
+        @check="Save"
+        :loading="checkLoading"
+      />
     </div>
     <el-space
       fill
@@ -17,7 +21,13 @@
       alignment="stretch"
       class="info-space"
     >
-      <div class="lazy" v-for="(item, id) in data" :key="id" v-lazy @lazy-load="handleLazyLoad">
+      <div
+        class="lazy"
+        v-for="(item, id) in data"
+        :key="id"
+        v-lazy
+        @lazy-load="handleLazyLoad"
+      >
         <CharInfoCard v-if="lazyLoadMap[id]" :id="id.toString()" :data="item" />
       </div>
     </el-space>
@@ -33,6 +43,7 @@ const data = dataStr
   ? ref<{ [key: string]: CharInfoData }>(JSON.parse(dataStr))
   : ref<{ [key: string]: CharInfoData }>({});
 const lazyLoadMap = ref<Record<string, boolean>>({});
+const checkLoading = ref(false);
 
 function sortCharacterData(obj: { [key: string]: CharInfoData }) {
   const entries = Object.entries(obj);
@@ -47,15 +58,24 @@ function sortCharacterData(obj: { [key: string]: CharInfoData }) {
 }
 
 async function Save(code: string, uid: string) {
+  checkLoading.value = true;
   const result = await getCharacterData(code, uid);
-  const sortResult = sortCharacterData(result);
-  if (Object.keys(sortResult).length !== 0) {
-    localStorage.setItem("cardInfo", JSON.stringify(sortResult));
-    data.value = sortResult;
+  checkLoading.value = false;
+  if (!result) {
+    ElMessage({
+      message: "查询失败",
+      type: "success",
+    });
+  } else {
+    const sortResult = sortCharacterData(result);
+    if (Object.keys(sortResult).length !== 0) {
+      localStorage.setItem("cardInfo", JSON.stringify(sortResult));
+      data.value = sortResult;
+    }
   }
 }
 function handleLazyLoad(id: string) {
-  lazyLoadMap.value[id] = true
+  lazyLoadMap.value[id] = true;
 }
 // async function captureImage() {
 //   const captureElement = document.querySelector('.info-space');

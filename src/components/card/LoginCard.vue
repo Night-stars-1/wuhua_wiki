@@ -21,6 +21,7 @@
           show-password
         ></el-input>
         <el-button
+          :loading="loading"
           style="margin-top: 10px; margin-bottom: 20px; float: right"
           @click="check(code, uid)"
           >{{ buttonText ?? "查询" }}</el-button
@@ -81,6 +82,7 @@
 defineProps<{
   cardStyle?: string;
   buttonText?: string;
+  loading?: boolean
 }>();
 const emit = defineEmits<{ check: [code: string, uid: string] }>();
 
