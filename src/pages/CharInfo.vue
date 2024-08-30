@@ -61,13 +61,13 @@ async function Save(code: string, uid: string) {
   checkLoading.value = true;
   const result = await getCharacterData(code, uid);
   checkLoading.value = false;
-  if (!result) {
+  if (result.status) {
     ElMessage({
       message: "查询失败",
       type: "success",
     });
   } else {
-    const sortResult = sortCharacterData(result);
+    const sortResult = sortCharacterData(result.data);
     if (Object.keys(sortResult).length !== 0) {
       localStorage.setItem("cardInfo", JSON.stringify(sortResult));
       data.value = sortResult;

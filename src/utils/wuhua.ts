@@ -2,21 +2,17 @@
  * @Author: Night-stars-1 nujj1042633805@gmail.com
  * @Date: 2024-07-27 16:51:42
  * @LastEditors: Night-stars-1 nujj1042633805@gmail.com
- * @LastEditTime: 2024-08-24 20:40:14
+ * @LastEditTime: 2024-08-30 23:28:10
  */
 
 import { axios } from "@/plugin/axios";
 
-
-async function getWuhuaKey(
-  code: string,
-  uid: string,
-): Promise<string> {
+async function getWuhuaKey(code: string, uid: string): Promise<string> {
   const response = await axios.post(
     "https://goda.srap.link/getWuHuaKey",
     {
       code: code,
-      uid: uid
+      uid: uid,
     },
     {
       headers: {
@@ -56,8 +52,14 @@ async function getDrawCardHistory(
 
 async function getCharacterData(
   code: string,
-  uid: string,
-): Promise<{[key: string]: CharInfoData}> {
+  uid: string
+): Promise<{
+  data: {
+    [key: string]: CharInfoData;
+  };
+  message: string;
+  status: boolean;
+}> {
   const response = await axios.post(
     "https://goda.srap.link/character_data",
     {
@@ -71,7 +73,7 @@ async function getCharacterData(
       },
     }
   );
-  return response.data.data;
+  return response.data;
 }
 
 async function reward(
@@ -96,9 +98,4 @@ async function reward(
   return response.data.data;
 }
 
-export {
-  getWuhuaKey,
-  getDrawCardHistory,
-  getCharacterData,
-  reward
-}
+export { getWuhuaKey, getDrawCardHistory, getCharacterData, reward };
