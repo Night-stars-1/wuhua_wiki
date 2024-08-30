@@ -2,7 +2,7 @@
  * @Author: Night-stars-1 nujj1042633805@gmail.com
  * @Date: 2024-08-11 17:47:09
  * @LastEditors: Night-stars-1 nujj1042633805@gmail.com
- * @LastEditTime: 2024-08-30 23:16:14
+ * @LastEditTime: 2024-08-30 23:33:16
 -->
 <template>
   <Panel class="charinfo-panel">
@@ -61,7 +61,7 @@ async function Save(code: string, uid: string) {
   checkLoading.value = true;
   const result = await getCharacterData(code, uid);
   checkLoading.value = false;
-  if (result.status) {
+  if (!result.status) {
     ElMessage({
       message: "查询失败",
       type: "success",
