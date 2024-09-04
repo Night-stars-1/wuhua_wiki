@@ -57,6 +57,9 @@ importers:
         specifier: '4'
         version: 4.4.0(vue@3.4.32(typescript@5.5.3))
     devDependencies:
+      '@iconify-json/grommet-icons':
+        specifier: ^1.2.0
+        version: 1.2.0
       '@iconify-json/material-symbols-light':
         specifier: ^1.1.25
         version: 1.1.25
@@ -431,6 +434,9 @@ packages:
 
   '@iconify-json/ep@1.1.15':
     resolution: {integrity: sha512-96JBJQrJhxYy+j+KE5lqyE+Y6O+06fVUdMaHJ1Rb9+bbOjI1tw6EwYl9H4SB6Hkf7zB80VX6GgG0yH0Z0c8K1Q==}
+
+  '@iconify-json/grommet-icons@1.2.0':
+    resolution: {integrity: sha512-YnhfMsJeXsfsSkMQP206MpVPY/O0jXbyhC9+P70W6SkVvpODqw72GK7TV1pnKUuPvNRZzRik2x+9KWQxgmMhGQ==}
 
   '@iconify-json/material-symbols-light@1.1.25':
     resolution: {integrity: sha512-Ld+biDaXRY1Yrko0BtzGkidwt2MsNFyaql9Mpkfl2wfUfbK0/CCrJCMclRz5+VtGHWkfd5iv1EYqEvceLK805A==}
@@ -2028,6 +2034,10 @@ snapshots:
   '@floating-ui/utils@0.2.4': {}
 
   '@iconify-json/ep@1.1.15':
+    dependencies:
+      '@iconify/types': 2.0.0
+
+  '@iconify-json/grommet-icons@1.2.0':
     dependencies:
       '@iconify/types': 2.0.0
 

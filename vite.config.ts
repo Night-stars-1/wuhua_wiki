@@ -1,7 +1,7 @@
 /*
  * @Author: Night-stars-1 nujj1042633805@gmail.com
  * @Date: 2024-07-15 20:29:22
- * @LastEditTime: 2024-07-22 17:12:13
+ * @LastEditTime: 2024-09-04 22:59:35
  * @LastEditors: Night-stars-1 nujj1042633805@gmail.com
  */
 import path from "node:path";
@@ -46,15 +46,17 @@ export default defineConfig({
       dirs: ["src/components"],
       resolvers: [
         ElementPlusResolver({
-          importStyle: "sass"
+          importStyle: "sass",
         }),
         // 自动注册图标组件
         IconsResolver({
-          enabledCollections: ["ep", "material-symbols-light"],
+          alias: { gt: "grommet-icons", msi: "material-symbols-light" },
+          enabledCollections: ["ep", "material-symbols-light", "grommet-icons"],
         }),
       ],
     }),
     Icons({
+      compiler: "vue3",
       autoInstall: true,
     }),
   ],

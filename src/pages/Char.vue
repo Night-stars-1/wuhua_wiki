@@ -2,7 +2,7 @@
  * @Author: Night-stars-1 nujj1042633805@gmail.com
  * @Date: 2024-07-20 19:47:57
  * @LastEditors: Night-stars-1 nujj1042633805@gmail.com
- * @LastEditTime: 2024-08-29 18:41:56
+ * @LastEditTime: 2024-09-04 23:00:13
 -->
 <template>
   <el-row class="char-container">
@@ -11,7 +11,7 @@
         <el-button class="char-list-button" @click="isShowCharList = true">
           器者列表
           <template #icon>
-            <IMaterialSymbolsLightFormatListBulletedRounded />
+            <IMsiFormatListBulletedRounded />
           </template>
         </el-button>
         <CharView :id="id" :skin="data.skin" />

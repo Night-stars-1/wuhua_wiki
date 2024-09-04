@@ -2,23 +2,39 @@
  * @Author: Night-stars-1 nujj1042633805@gmail.com
  * @Date: 2024-08-25 19:20:35
  * @LastEditors: Night-stars-1 nujj1042633805@gmail.com
- * @LastEditTime: 2024-08-26 10:52:37
+ * @LastEditTime: 2024-09-04 23:07:23
 -->
 <template>
-  <el-menu class="app-bar" :default-active="$route.matched?.[0]?.path" mode="horizontal" router>
+  <el-menu
+    class="app-bar"
+    :default-active="$route.matched?.[0]?.path"
+    mode="horizontal"
+    router
+  >
     <div class="route-content">
       <el-menu-item index="/char">角色</el-menu-item>
       <el-menu-item index="/drawcard">抽卡分析</el-menu-item>
       <el-menu-item index="/charinfo">角色信息</el-menu-item>
       <el-menu-item index="/reward">兑换码</el-menu-item>
     </div>
-    <el-switch
-      v-model="isDark"
-      :active-icon="Moon"
-      :inactive-icon="iconSun"
-      inline-prompt
-      class="theme-switch"
-    />
+    <div class="icon-content">
+      <el-switch
+        v-model="isDark"
+        :active-icon="Moon"
+        :inactive-icon="iconSun"
+        inline-prompt
+        class="theme-switch"
+      />
+      <el-button
+        size="small"
+        circle
+        tag="a"
+        href="https://github.com/Night-stars-1/wuhua_wiki"
+        target="_blank"
+      >
+        <IGtGithub />
+      </el-button>
+    </div>
   </el-menu>
 </template>
 
@@ -69,5 +85,11 @@ const isDark = useDark();
   .el-menu-item {
     height: 100%;
   }
+}
+
+.icon-content {
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 </style>
