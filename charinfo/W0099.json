@@ -1,0 +1,153 @@
+{
+  "info": {
+    "Hp": 689,
+    "Atk": 294,
+    "PhysicDef": 44,
+    "MagicDef": 44,
+    "Speed": 120,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 5,
+    "Mov": 3,
+    "Hp_GROW": 55,
+    "Atk_GROW": 20,
+    "PhysicDef_GROW": 4,
+    "MagicDef_GROW": 4,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": "",
+    "name": "五弦琵琶",
+    "rare": 4,
+    "job": 4,
+    "tag": "远程;输出;伤害追加"
+  },
+  "skill": [
+    {
+      "name": "吟音",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的构素伤害。",
+      "tag": [
+        "射程2格",
+        "无消耗"
+      ],
+      "level": 5,
+      "icon": "skillicon_Commonattack_W",
+      "buff": [],
+      "type": 1,
+      "special": null
+    },
+    {
+      "name": "转轴拨弦",
+      "des": "使自身及<span style=\"color:#158bdb\">周围3格</span>内的友方全体获得<span style=\"color:#ff6724\">共奏</span>状态。",
+      "tag": [
+        "自身",
+        "消耗:5"
+      ],
+      "level": 3,
+      "icon": "skillicon_W009902",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">共奏</span>",
+          "des": "处于此状态时，自身每次使用常击或技能对敌方单位造成伤害，都会使该受击单位额外受到<span style=\"color:#158bdb\">1</span>次五弦琵琶攻击力<span style=\"color:#158bdb\">40%</span>的<span style=\"color:#ff6724\">额外构素伤害</span>，此状态持续<span style=\"color:#158bdb\">2</span>回合。"
+        }
+      ],
+      "type": 3,
+      "special": null
+    },
+    {
+      "name": "覆手承弦",
+      "des": "自身攻击无法暴击，进入战斗后攻击力提高<span style=\"color:#158bdb\">50%</span>，并获得<span style=\"color:#158bdb\">2</span>点能量。\n自身每回合开始时，获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">余音</span>状态。\n若自身及友方单位通过<span style=\"color:#ff6724\">共奏</span>状态造成了伤害，则在该回合结束时使五弦琵琶获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">余音</span>状态。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 3,
+      "icon": "skillicon_W009903",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">余音</span>",
+          "des": "每层此状态可使职业技能造成<span style=\"color:#158bdb\">1</span>次<span style=\"color:#ff6724\">额外构素伤害</span>，最多叠加<span style=\"color:#158bdb\">5</span>层。"
+        }
+      ],
+      "type": 4,
+      "special": null
+    },
+    {
+      "name": "乐音迭奏",
+      "des": "自身或友方单位若持有<span style=\"color:#ff6724\">共奏</span>状态，则在攻击前使受击单位获得<span style=\"color:#ff6724\">乐音</span>状态，该攻击单位回合结束时清除所有<span style=\"color:#ff6724\">乐音</span>状态。\n友方单位触发<span style=\"color:#ff6724\">乐音</span>状态后，获得<span style=\"color:#ff6724\">迭奏</span>状态。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 3,
+      "icon": "skillicon_W009904",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">乐音</span>",
+          "des": "处于此状态时，若受到<span style=\"color:#158bdb\">3</span>次<span style=\"color:#ff6724\">共奏</span>状态造成的伤害，则会额外受到<span style=\"color:#158bdb\">1</span>次五弦琵琶攻击力<span style=\"color:#158bdb\">120%</span>的<span style=\"color:#ff6724\">额外构素伤害</span>，触发后此状态消除。"
+        },
+        {
+          "name": "<span style=\"color:#ff6724\">迭奏</span>",
+          "des": "自身造成的常击伤害、技能伤害以及额外伤害提高<span style=\"color:#158bdb\">30%</span>，持续<span style=\"color:#158bdb\">2</span>回合。"
+        }
+      ],
+      "type": 5,
+      "special": "自身或友方单位若持有<span style=\"color:#ff6724\">共奏</span>状态，则在攻击前使受击单位获得<span style=\"color:#ff6724\">乐音</span>状态，该攻击单位回合结束时清除所有<span style=\"color:#ff6724\">乐音</span>状态。\n友方单位触发<span style=\"color:#ff6724\">乐音</span>状态后，获得<span style=\"color:#ff6724\">迭奏</span>状态，并刷新<span style=\"color:#ff6724\">共奏</span>状态的持续时间，同时使五弦琵琶的职业技能冷却减少<span style=\"color:#158bdb\">1</span>回合。通过此效果，每回合最多可触发<span style=\"color:#158bdb\">1</span>次减少职业技能冷却时间。"
+    },
+    {
+      "name": "螺钿芳蕊",
+      "des": "自身释放职业技能前，获得<span style=\"color:#ff6724\">芳蕊</span>状态，并使处于<span style=\"color:#ff6724\">迭奏</span>状态的友方单位获得<span style=\"color:#158bdb\">3</span>点能量。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 3,
+      "icon": "skillicon_W009905",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">芳蕊</span>",
+          "des": "造成的额外伤害提高<span style=\"color:#158bdb\">20%</span>，防御穿透增加<span style=\"color:#158bdb\">10%</span>，持续至自身获得此状态后的下一次行动前。"
+        }
+      ],
+      "type": 6,
+      "special": null
+    },
+    {
+      "name": "余音绕梁",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">30%</span>的构素伤害并使自身获得<span style=\"color:#158bdb\">3</span>点能量。\n随后消耗自身所有<span style=\"color:#ff6724\">余音</span>状态，每消耗<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">余音</span>状态，对该受击单位额外造成<span style=\"color:#158bdb\">1</span>次自身攻击力<span style=\"color:#158bdb\">30%</span>的<span style=\"color:#ff6724\">额外构素伤害</span>。",
+      "tag": [
+        "射程3格",
+        "无消耗",
+        "冷却:3"
+      ],
+      "level": 1,
+      "icon": "skillicon_W009911",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">额外构素伤害</span>",
+          "des": "此伤害不触发暴击和贯穿效果，且无法被格挡，但会被构素护盾抵挡。"
+        }
+      ],
+      "type": 2,
+      "special": null
+    }
+  ],
+  "skin": [
+    {
+      "id": "W0099001",
+      "name": "肖形"
+    },
+    {
+      "id": "W0099002",
+      "name": "写照"
+    }
+  ]
+}
