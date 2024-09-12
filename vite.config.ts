@@ -1,7 +1,7 @@
 /*
  * @Author: Night-stars-1 nujj1042633805@gmail.com
  * @Date: 2024-07-15 20:29:22
- * @LastEditTime: 2024-09-04 22:59:35
+ * @LastEditTime: 2024-09-08 22:36:07
  * @LastEditors: Night-stars-1 nujj1042633805@gmail.com
  */
 import path from "node:path";
@@ -15,8 +15,8 @@ import vue from "@vitejs/plugin-vue";
 import vueDevTools from "vite-plugin-vue-devtools";
 
 // https://vitejs.dev/config/
+// base: "https://whmx.srap.link/",
 export default defineConfig({
-  base: "https://wh.srap.link/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "src"),
