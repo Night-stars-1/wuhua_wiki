@@ -9,7 +9,7 @@
     <el-tabs type="border-card" v-loading="loading">
       <el-tab-pane
         v-for="(card, index) in charProgress"
-        :label="cardList[index].label"
+        :label="cardList[index]?.label"
       >
         <el-row v-for="char in card">
           <el-col :span="4"> {{ char.name }}: </el-col>

@@ -5,9 +5,9 @@ class QRCodeLogin {
 
   async qrcodeLogin(): Promise<void> {
     const response = await axios.post(
-      "https://goda.srap.link/qrcode_login"
+      "https://whmx.srap.link/api/qrcode_login",
     );
-    const ticket = response.data.data;
+    const ticket = response.data.data.ticket;
 
     this.ticket = ticket;
   }
@@ -18,7 +18,7 @@ class QRCodeLogin {
   } | undefined> {
     if (this.ticket) {
       const response = await axios.post(
-        "https://goda.srap.link/check_qrcode",
+        "https://whmx.srap.link/api/qrcode_check",
         {
           ticket: this.ticket,
         }

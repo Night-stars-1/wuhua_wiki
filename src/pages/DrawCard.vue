@@ -107,6 +107,7 @@ function getGachaId(gachaType: string): number {
 function initCharProgress() {
   cardData.value = {};
   const _charProgress: charProgress = {};
+  console.log(analysisList.value);
   for (let i = 0; i < analysisList.value.length; i++) {
     _charProgress[i] = [
       {
@@ -120,6 +121,7 @@ function initCharProgress() {
 
 function initCardList() {
   charProgress.value = initCharProgress();
+  console.log(charProgress.value);
   cloneDeep(cardList.value)
     .reverse()
     .forEach(async (data) => {
@@ -139,6 +141,7 @@ function initCardList() {
           cardData.value[data.gachaName].length - 1
         ].count++;
       }
+
       charProgress.value[gachaId][charProgress.value[gachaId].length - 1]
         .count++;
       switch (data.rankType) {
@@ -201,6 +204,13 @@ async function Save(code: string, uid: string) {
     },
     {
       label: "征集渠道",
+      total: 0,
+      three: 0,
+      four: 0,
+      pull: 0,
+    },
+    {
+      label: "新人招募",
       total: 0,
       three: 0,
       four: 0,
