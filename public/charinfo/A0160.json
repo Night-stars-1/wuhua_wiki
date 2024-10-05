@@ -1,0 +1,149 @@
+{
+  "info": {
+    "Hp": 695,
+    "Atk": 429,
+    "PhysicDef": 39,
+    "MagicDef": 39,
+    "Speed": 105,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 4,
+    "Mov": 3,
+    "Hp_GROW": 56,
+    "Atk_GROW": 29,
+    "PhysicDef_GROW": 4,
+    "MagicDef_GROW": 4,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": "",
+    "name": "彩凤鸣岐",
+    "rare": 4,
+    "job": 3,
+    "tag": "远程;输出;多段伤害"
+  },
+  "skill": [
+    {
+      "name": "挑弦",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。",
+      "tag": [
+        "十字3格",
+        "无消耗"
+      ],
+      "level": 5,
+      "icon": "skillicon_Commonattack_A",
+      "buff": [],
+      "type": 1,
+      "special": null
+    },
+    {
+      "name": "凤鸣岐山",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">280%</span>的物理伤害，攻击前根据其<span style=\"color:#ff6724\">泛音</span>层数造成不同效果，攻击后清除其全部<span style=\"color:#ff6724\">泛音</span>状态：\n若存在<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">泛音</span>，则该单位获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">禁足</span>状态；\n若存在<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">泛音</span>，则该单位获得<span style=\"color:#158bdb\">3</span>层<span style=\"color:#ff6724\">脆弱</span>状态；\n若存在<span style=\"color:#158bdb\">3</span>层<span style=\"color:#ff6724\">泛音</span>，则该单位<span style=\"color:#158bdb\">周围3格</span>的单位随机获得共计<span style=\"color:#158bdb\">7</span>层<span style=\"color:#ff6724\">泛音</span>状态。\n若不存在<span style=\"color:#ff6724\">泛音</span>，则在攻击后使其获得<span style=\"color:#158bdb\">3</span>层<span style=\"color:#ff6724\">泛音</span>状态。",
+      "tag": [
+        "十字3格",
+        "消耗:4",
+        "冷却:2"
+      ],
+      "level": 3,
+      "icon": "skillicon_A016002",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">禁足</span>",
+          "des": "无法移动，持续<span style=\"color:#158bdb\">1</span>回合。"
+        },
+        {
+          "name": "<span style=\"color:#ff6724\">脆弱</span>",
+          "des": "提高受到的所有伤害<span style=\"color:#db2424\">30%</span>，每受到一次直接攻击减少<span style=\"color:#ff6724\">1层</span>，持续<span style=\"color:#4395d6\">2</span>回合或层数用完。"
+        }
+      ],
+      "type": 3,
+      "special": null
+    },
+    {
+      "name": "曲震梁尘",
+      "des": "进入战斗后，自身攻击力提高<span style=\"color:#158bdb\">20%</span>。\n自身处于<span style=\"color:#ff6724\">瞄准</span>状态下进行常击后，对选定的敌方单位进行<span style=\"color:#158bdb\">3</span>次追加常击。每次追加常击对其造成自身攻击力<span style=\"color:#158bdb\">30%</span>的物理伤害，并使其获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">泛音</span>状态。\n若瞄准常击及追加常击过程中击败了受击单位，则使该单位<span style=\"color:#158bdb\">周围3格</span>的随机<span style=\"color:#158bdb\">1</span>个敌方单位获得<span style=\"color:#158bdb\">3</span>层<span style=\"color:#ff6724\">泛音</span>状态。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 3,
+      "icon": "skillicon_A016003",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">泛音</span>",
+          "des": "受到敌方彩凤鸣岐的绝技攻击时，会根据叠加层数造成效果，可叠加<span style=\"color:#158bdb\">3</span>层，持续<span style=\"color:#158bdb\">2</span>回合。"
+        }
+      ],
+      "type": 4,
+      "special": null
+    },
+    {
+      "name": "万籁沉寂",
+      "des": "存在<span style=\"color:#158bdb\">3</span>层<span style=\"color:#ff6724\">泛音</span>的敌方单体，将获得<span style=\"color:#ff6724\">散音</span>状态，每回合最多可获得<span style=\"color:#158bdb\">1</span>次。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 3,
+      "icon": "skillicon_A016004",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">散音</span>",
+          "des": "受到<span style=\"color:#158bdb\">1</span>次常击或技能伤害时，会对自身及<span style=\"color:#158bdb\">周围3格</span>所有友方单位造成<span style=\"color:#158bdb\">1</span>次彩凤鸣岐攻击力<span style=\"color:#158bdb\">70%</span>的<span style=\"color:#ff6724\">额外物理伤害</span>，触发上述效果后，此状态消除。"
+        }
+      ],
+      "type": 5,
+      "special": "存在<span style=\"color:#158bdb\">3</span>层<span style=\"color:#ff6724\">泛音</span>的敌方单体，将获得<span style=\"color:#ff6724\">散音</span>状态，每回合最多可获得<span style=\"color:#158bdb\">1</span>次。\n能量溢出时，获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">蓄势</span>状态。"
+    },
+    {
+      "name": "丝桐磬声",
+      "des": "进入战斗后，防御穿透增加<span style=\"color:#158bdb\">30%</span>，瞄准冷却率增加<span style=\"color:#158bdb\">60%</span>。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 3,
+      "icon": "skillicon_A016005",
+      "buff": [],
+      "type": 6,
+      "special": null
+    },
+    {
+      "name": "落霞",
+      "des": "使用后自身获得<span style=\"color:#158bdb\">1</span>次不可移动的再行动，并进入<span style=\"color:#ff6724\">瞄准</span>状态。",
+      "tag": [
+        "自身",
+        "无消耗",
+        "冷却:3"
+      ],
+      "level": 1,
+      "icon": "skillicon_Jobskill_A",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">瞄准</span>",
+          "des": "此状态下进行攻击时，最大攻击距离增加<span style=\"color:#158bdb\">4</span>格，该次再行动结束后，此状态消失。"
+        }
+      ],
+      "type": 2,
+      "special": null
+    }
+  ],
+  "skin": [
+    {
+      "id": "A0160001",
+      "name": "肖形"
+    },
+    {
+      "id": "A0160002",
+      "name": "写照"
+    }
+  ]
+}
