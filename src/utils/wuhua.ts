@@ -2,7 +2,7 @@
  * @Author: Night-stars-1 nujj1042633805@gmail.com
  * @Date: 2024-07-27 16:51:42
  * @LastEditors: Night-stars-1 nujj1042633805@gmail.com
- * @LastEditTime: 2024-09-26 13:02:34
+ * @LastEditTime: 2024-10-09 18:40:42
  */
 
 import { axios } from "@/plugin/axios";
@@ -48,7 +48,7 @@ async function getDrawCardHistory(
       validateStatus: status => status >= 200 && status < 300 || status === 401
     }
   );
-  return response.data.data || [];
+  return response.data.data.list || [];
 }
 
 async function getCharacterData(
