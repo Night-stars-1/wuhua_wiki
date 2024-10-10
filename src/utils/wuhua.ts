@@ -48,7 +48,7 @@ async function getDrawCardHistory(
       validateStatus: status => status >= 200 && status < 300 || status === 401
     }
   );
-  return response.data.data.list || [];
+  return response.data.data.List || [];
 }
 
 async function getCharacterData(
