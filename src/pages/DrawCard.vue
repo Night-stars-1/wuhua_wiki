@@ -259,11 +259,11 @@ async function Save(code: string, uid: string) {
 function exportCardList() {
   let jsonStr = localStorage.getItem("cardList") ?? "[]";
   jsonStr = jsonStr
-    .replace("name", "Name")
-    .replace("rankType", "RankType")
-    .replace("gachaName", "PoolName")
-    .replace("gachaType", "PoolType")
-    .replace("time", "Time");
+    .replace(/name/g, "Name")
+    .replace(/rankType/g, "RankType")
+    .replace(/gachaName/g, "PoolName")
+    .replace(/gachaType/g, "PoolType")
+    .replace(/time/g, "Time");
   const blob = new Blob([jsonStr], { type: "application/json" });
   const url = URL.createObjectURL(blob);
 
