@@ -257,16 +257,22 @@ async function Save(code: string, uid: string) {
 }
 
 function exportCardList() {
-    const jsonStr = localStorage.getItem("cardList") ?? '[]';
-    const blob = new Blob([jsonStr], { type: 'application/json' });
-    const url = URL.createObjectURL(blob);
+  let jsonStr = localStorage.getItem("cardList") ?? "[]";
+  jsonStr = jsonStr
+    .replace("name", "Name")
+    .replace("rankType", "RankType")
+    .replace("gachaName", "PoolName")
+    .replace("gachaType", "PoolType")
+    .replace("time", "Time");
+  const blob = new Blob([jsonStr], { type: "application/json" });
+  const url = URL.createObjectURL(blob);
 
-    const link = document.createElement('a');
-    link.href = url;
-    link.download = "data.json";
-    link.click();
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = "data.json";
+  link.click();
 
-    URL.revokeObjectURL(url);
+  URL.revokeObjectURL(url);
 }
 </script>
 
