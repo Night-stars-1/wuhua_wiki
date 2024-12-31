@@ -36,12 +36,19 @@
   "skill": [
     {
       "name": "斜线舞步",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的构素伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
       "tag": [
         "射程3格",
         "无消耗"
       ],
-      "level": 5,
+      "level": 1,
+      "levelDes": {
+        "1": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
+        "2": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">105%</span>的构素伤害。",
+        "3": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">110%</span>的构素伤害。",
+        "4": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">115%</span>的构素伤害。",
+        "5": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的构素伤害。"
+      },
       "icon": "skillicon_Commonattack_S",
       "buff": [],
       "type": 1,
@@ -49,12 +56,17 @@
     },
     {
       "name": "圆点舞曲",
-      "des": "对选定的敌方单位及其<span style=\"color:#158bdb\">周围1格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">190%</span>的构素伤害，并为自身填充<span style=\"color:#158bdb\">2</span>枚<span style=\"color:#ff6724\">礼弹</span>。",
+      "des": "对选定的敌方单位及其<span style=\"color:#158bdb\">周围1格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">130%</span>的构素伤害，并为自身填充<span style=\"color:#158bdb\">2</span>枚<span style=\"color:#ff6724\">礼弹</span>。",
       "tag": [
         "射程3格",
         "消耗:3"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "对选定的敌方单位及其<span style=\"color:#158bdb\">周围1格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">130%</span>的构素伤害，并为自身填充<span style=\"color:#158bdb\">2</span>枚<span style=\"color:#ff6724\">礼弹</span>。",
+        "2": "对选定的敌方单位及其<span style=\"color:#158bdb\">周围1格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">160%</span>的构素伤害，并为自身填充<span style=\"color:#158bdb\">2</span>枚<span style=\"color:#ff6724\">礼弹</span>。",
+        "3": "对选定的敌方单位及其<span style=\"color:#158bdb\">周围1格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">190%</span>的构素伤害，并为自身填充<span style=\"color:#158bdb\">2</span>枚<span style=\"color:#ff6724\">礼弹</span>。"
+      },
       "icon": "skillicon_S001002",
       "buff": [
         {
@@ -67,11 +79,16 @@
     },
     {
       "name": "水木丰盈",
-      "des": "自身填充<span style=\"color:#ff6724\">礼弹</span>时，有<span style=\"color:#158bdb\">65%</span>概率使警戒范围内的友方单位获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">裳衫</span>状态，效果持续<span style=\"color:#158bdb\">2</span>回合。",
+      "des": "自身填充<span style=\"color:#ff6724\">礼弹</span>时，有<span style=\"color:#158bdb\">40%</span>概率使警戒范围内的友方单位获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">裳衫</span>状态，效果持续<span style=\"color:#158bdb\">2</span>回合。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "自身填充<span style=\"color:#ff6724\">礼弹</span>时，有<span style=\"color:#158bdb\">40%</span>概率使警戒范围内的友方单位获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">裳衫</span>状态，效果持续<span style=\"color:#158bdb\">2</span>回合。",
+        "2": "自身填充<span style=\"color:#ff6724\">礼弹</span>时，有<span style=\"color:#158bdb\">50%</span>概率使警戒范围内的友方单位获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">裳衫</span>状态，效果持续<span style=\"color:#158bdb\">2</span>回合。",
+        "3": "自身填充<span style=\"color:#ff6724\">礼弹</span>时，有<span style=\"color:#158bdb\">65%</span>概率使警戒范围内的友方单位获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">裳衫</span>状态，效果持续<span style=\"color:#158bdb\">2</span>回合。"
+      },
       "icon": "skillicon_S001003",
       "buff": [
         {
@@ -80,15 +97,20 @@
         }
       ],
       "type": 4,
-      "special": "自身填充<span style=\"color:#ff6724\">礼弹</span>时，有<span style=\"color:#158bdb\">65%</span>概率使警戒范围内的友方单位获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">裳衫</span>状态和<span style=\"color:#ff6724\">铁甲</span>状态，效果持续<span style=\"color:#158bdb\">2</span>回合。"
+      "special": "自身填充<span style=\"color:#ff6724\">礼弹</span>时，有<span style=\"color:#158bdb\">40%</span>概率使警戒范围内的友方单位获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">裳衫</span>状态和<span style=\"color:#ff6724\">铁甲</span>状态，效果持续<span style=\"color:#158bdb\">2</span>回合。"
     },
     {
       "name": "春华秋实",
-      "des": "警戒攻击命中敌方单位时，有<span style=\"color:#158bdb\">65%</span>概率使其获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">降攻</span>状态，持续<span style=\"color:#158bdb\">2</span>回合。",
+      "des": "警戒攻击命中敌方单位时，有<span style=\"color:#158bdb\">40%</span>概率使其获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">降攻</span>状态，持续<span style=\"color:#158bdb\">2</span>回合。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "警戒攻击命中敌方单位时，有<span style=\"color:#158bdb\">40%</span>概率使其获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">降攻</span>状态，持续<span style=\"color:#158bdb\">2</span>回合。",
+        "2": "警戒攻击命中敌方单位时，有<span style=\"color:#158bdb\">50%</span>概率使其获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">降攻</span>状态，持续<span style=\"color:#158bdb\">2</span>回合。",
+        "3": "警戒攻击命中敌方单位时，有<span style=\"color:#158bdb\">65%</span>概率使其获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">降攻</span>状态，持续<span style=\"color:#158bdb\">2</span>回合。"
+      },
       "icon": "skillicon_S001004",
       "buff": [
         {
@@ -101,11 +123,16 @@
     },
     {
       "name": "祈愿之舞",
-      "des": "进入战斗后，自身攻击力提高<span style=\"color:#158bdb\">20%</span>。",
+      "des": "进入战斗后，自身攻击力提高<span style=\"color:#158bdb\">10%</span>。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "进入战斗后，自身攻击力提高<span style=\"color:#158bdb\">10%</span>。",
+        "2": "进入战斗后，自身攻击力提高<span style=\"color:#158bdb\">15%</span>。",
+        "3": "进入战斗后，自身攻击力提高<span style=\"color:#158bdb\">20%</span>。"
+      },
       "icon": "skillicon_S001005",
       "buff": [],
       "type": 6,
@@ -120,6 +147,9 @@
         "冷却:3"
       ],
       "level": 1,
+      "levelDes": {
+        "1": "使用后为自身填充<span style=\"color:#158bdb\">3</span>枚<span style=\"color:#ff6724\">礼弹</span>并进入警戒状态：以自身<span style=\"color:#158bdb\">周围3格</span>为警戒范围，对停留在该范围中的敌方单位进行警戒攻击，对其造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。"
+      },
       "icon": "skillicon_Jobskill_S",
       "buff": [
         {

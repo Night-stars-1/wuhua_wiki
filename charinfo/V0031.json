@@ -36,12 +36,19 @@
   "skill": [
     {
       "name": "熨烫",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
       "tag": [
         "射程1格 ",
         "无消耗"
       ],
-      "level": 5,
+      "level": 1,
+      "levelDes": {
+        "1": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+        "2": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">105%</span>的物理伤害。",
+        "3": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">110%</span>的物理伤害。",
+        "4": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">115%</span>的物理伤害。",
+        "5": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。"
+      },
       "icon": "skillicon_Commonattack_V",
       "buff": [],
       "type": 1,
@@ -49,12 +56,17 @@
     },
     {
       "name": "咫尺成城",
-      "des": "对选定的敌方单体造成<span style=\"color:#158bdb\">366%</span>攻击力的物理伤害，自身获得<span style=\"color:#ff6724\">烫样组件</span>状态。",
+      "des": "对选定的敌方单体造成<span style=\"color:#158bdb\">243%</span>攻击力的物理伤害，自身获得<span style=\"color:#ff6724\">烫样组件</span>状态。",
       "tag": [
         "自身",
         "消耗:3"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "对选定的敌方单体造成<span style=\"color:#158bdb\">243%</span>攻击力的物理伤害，自身获得<span style=\"color:#ff6724\">烫样组件</span>状态。",
+        "2": "对选定的敌方单体造成<span style=\"color:#158bdb\">305%</span>攻击力的物理伤害，自身获得<span style=\"color:#ff6724\">烫样组件</span>状态。",
+        "3": "对选定的敌方单体造成<span style=\"color:#158bdb\">366%</span>攻击力的物理伤害，自身获得<span style=\"color:#ff6724\">烫样组件</span>状态。"
+      },
       "icon": "skillicon_V003102",
       "buff": [
         {
@@ -67,11 +79,16 @@
     },
     {
       "name": "筑材革新",
-      "des": "处于<span style=\"color:#ff6724\">烫样组件</span>状态时，自身受到<span style=\"color:#158bdb\">周围1格</span>的敌方单位常击后进行回击，对其造成自身攻击力<span style=\"color:#158bdb\">113%</span>的物理伤害。",
+      "des": "处于<span style=\"color:#ff6724\">烫样组件</span>状态时，自身受到<span style=\"color:#158bdb\">周围1格</span>的敌方单位常击后进行回击，对其造成自身攻击力<span style=\"color:#158bdb\">73%</span>的物理伤害。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "处于<span style=\"color:#ff6724\">烫样组件</span>状态时，自身受到<span style=\"color:#158bdb\">周围1格</span>的敌方单位常击后进行回击，对其造成自身攻击力<span style=\"color:#158bdb\">73%</span>的物理伤害。",
+        "2": "处于<span style=\"color:#ff6724\">烫样组件</span>状态时，自身受到<span style=\"color:#158bdb\">周围1格</span>的敌方单位常击后进行回击，对其造成自身攻击力<span style=\"color:#158bdb\">95%</span>的物理伤害。",
+        "3": "处于<span style=\"color:#ff6724\">烫样组件</span>状态时，自身受到<span style=\"color:#158bdb\">周围1格</span>的敌方单位常击后进行回击，对其造成自身攻击力<span style=\"color:#158bdb\">113%</span>的物理伤害。"
+      },
       "icon": "skillicon_V003103",
       "buff": [],
       "type": 4,
@@ -79,11 +96,16 @@
     },
     {
       "name": "精确比例",
-      "des": "自身当前生命值高于<span style=\"color:#158bdb\">50%</span>时，贯穿率增加<span style=\"color:#158bdb\">40%</span>；\n自身当前生命值低于<span style=\"color:#158bdb\">50%</span>时，生命偷取率增加<span style=\"color:#158bdb\">10%</span>。",
+      "des": "自身当前生命值高于<span style=\"color:#158bdb\">70%</span>时，贯穿率增加<span style=\"color:#158bdb\">20%</span>；\n自身当前生命值低于<span style=\"color:#158bdb\">30%</span>时，生命偷取率增加<span style=\"color:#158bdb\">6%</span>。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "自身当前生命值高于<span style=\"color:#158bdb\">70%</span>时，贯穿率增加<span style=\"color:#158bdb\">20%</span>；\n自身当前生命值低于<span style=\"color:#158bdb\">30%</span>时，生命偷取率增加<span style=\"color:#158bdb\">6%</span>。",
+        "2": "自身当前生命值高于<span style=\"color:#158bdb\">60%</span>时，贯穿率增加<span style=\"color:#158bdb\">30%</span>；\n自身当前生命值低于<span style=\"color:#158bdb\">40%</span>时，生命偷取率增加<span style=\"color:#158bdb\">8%</span>。",
+        "3": "自身当前生命值高于<span style=\"color:#158bdb\">50%</span>时，贯穿率增加<span style=\"color:#158bdb\">40%</span>；\n自身当前生命值低于<span style=\"color:#158bdb\">50%</span>时，生命偷取率增加<span style=\"color:#158bdb\">10%</span>。"
+      },
       "icon": "skillicon_V003104",
       "buff": [],
       "type": 5,
@@ -95,7 +117,12 @@
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "<span style=\"color:#ff6724\">烫样组件</span>状态结束后，自身进入<span style=\"color:#ff6724\">簇刃之锐</span>状态和<span style=\"color:#ff6724\">纸模之损</span>状态。",
+        "2": "<span style=\"color:#ff6724\">烫样组件</span>状态结束后，自身进入<span style=\"color:#ff6724\">簇刃之锐</span>状态和<span style=\"color:#ff6724\">纸模之损</span>状态。",
+        "3": "<span style=\"color:#ff6724\">烫样组件</span>状态结束后，自身进入<span style=\"color:#ff6724\">簇刃之锐</span>状态和<span style=\"color:#ff6724\">纸模之损</span>状态。"
+      },
       "icon": "skillicon_V003105",
       "buff": [
         {
@@ -119,6 +146,9 @@
         "冷却:2"
       ],
       "level": 1,
+      "levelDes": {
+        "1": "使用后自身获得再行动<span style=\"color:#158bdb\">1</span>次，该次再行动的移动力减少<span style=\"color:#158bdb\">2</span>。"
+      },
       "icon": "skillicon_Jobskill_V",
       "buff": [],
       "type": 2,
@@ -133,6 +163,10 @@
     {
       "id": "V0031002",
       "name": "写照"
+    },
+    {
+      "id": "V0031003",
+      "name": "暇憩时分"
     }
   ]
 }

@@ -36,12 +36,19 @@
   "skill": [
     {
       "name": "寒霜",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
       "tag": [
         "射程1格 ",
         "无消耗"
       ],
-      "level": 5,
+      "level": 1,
+      "levelDes": {
+        "1": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+        "2": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">105%</span>的物理伤害。",
+        "3": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">110%</span>的物理伤害。",
+        "4": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">115%</span>的物理伤害。",
+        "5": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。"
+      },
       "icon": "skillicon_Commonattack_V",
       "buff": [],
       "type": 1,
@@ -55,7 +62,12 @@
         "消耗:3",
         "冷却:3"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "使用后自身获得<span style=\"color:#ff6724\">飞雪域</span>及<span style=\"color:#ff6724\">寒刃</span>状态，并获得<span style=\"color:#158bdb\">1</span>次移动力为<span style=\"color:#158bdb\">0</span>的再行动。",
+        "2": "使用后自身获得<span style=\"color:#ff6724\">飞雪域</span>及<span style=\"color:#ff6724\">寒刃</span>状态，并获得<span style=\"color:#158bdb\">1</span>次移动力为<span style=\"color:#158bdb\">0</span>的再行动。",
+        "3": "使用后自身获得<span style=\"color:#ff6724\">飞雪域</span>及<span style=\"color:#ff6724\">寒刃</span>状态，并获得<span style=\"color:#158bdb\">1</span>次移动力为<span style=\"color:#158bdb\">0</span>的再行动。"
+      },
       "icon": "skillicon_V014102",
       "buff": [
         {
@@ -80,11 +92,16 @@
     },
     {
       "name": "泠泠寒山",
-      "des": "常击后有<span style=\"color:#158bdb\">60%</span>概率进行连击，对其造成攻击力<span style=\"color:#158bdb\">60%</span>的物理伤害；\n若该受击敌方单位处于<span style=\"color:#ff6724\">寒天</span>或<span style=\"color:#ff6724\">霜冻</span>状态，则必定连击。",
+      "des": "常击后有<span style=\"color:#158bdb\">30%</span>概率进行连击，对其造成攻击力<span style=\"color:#158bdb\">30%</span>的物理伤害；\n若该受击敌方单位处于<span style=\"color:#ff6724\">寒天</span>或<span style=\"color:#ff6724\">霜冻</span>状态，则必定连击。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "常击后有<span style=\"color:#158bdb\">30%</span>概率进行连击，对其造成攻击力<span style=\"color:#158bdb\">30%</span>的物理伤害；\n若该受击敌方单位处于<span style=\"color:#ff6724\">寒天</span>或<span style=\"color:#ff6724\">霜冻</span>状态，则必定连击。",
+        "2": "常击后有<span style=\"color:#158bdb\">45%</span>概率进行连击，对其造成攻击力<span style=\"color:#158bdb\">45%</span>的物理伤害；\n若该受击敌方单位处于<span style=\"color:#ff6724\">寒天</span>或<span style=\"color:#ff6724\">霜冻</span>状态，则必定连击。",
+        "3": "常击后有<span style=\"color:#158bdb\">60%</span>概率进行连击，对其造成攻击力<span style=\"color:#158bdb\">60%</span>的物理伤害；\n若该受击敌方单位处于<span style=\"color:#ff6724\">寒天</span>或<span style=\"color:#ff6724\">霜冻</span>状态，则必定连击。"
+      },
       "icon": "skillicon_V014103",
       "buff": [],
       "type": 4,
@@ -92,11 +109,16 @@
     },
     {
       "name": "深潭映雪",
-      "des": "对处于<span style=\"color:#ff6724\">寒天</span>或<span style=\"color:#ff6724\">霜冻</span>状态的敌方单位进行连击时必定暴击，且该次连击暴击伤害提高<span style=\"color:#158bdb\">50%</span>，贯穿强度提高<span style=\"color:#158bdb\">10%</span>；\n连击后，若该受击单位处于<span style=\"color:#ff6724\">霜冻</span>状态，则对其造成该次连击伤害<span style=\"color:#158bdb\">150%</span>的<span style=\"color:#ff6724\">真实伤害</span>。",
+      "des": "对处于<span style=\"color:#ff6724\">寒天</span>或<span style=\"color:#ff6724\">霜冻</span>状态的敌方单位进行连击时必定暴击，且该次连击暴击伤害提高<span style=\"color:#158bdb\">30%</span>，贯穿强度提高<span style=\"color:#158bdb\">10%</span>；\n连击后，若该受击单位处于<span style=\"color:#ff6724\">霜冻</span>状态，则对其造成该次连击伤害<span style=\"color:#158bdb\">150%</span>的<span style=\"color:#ff6724\">真实伤害</span>。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "对处于<span style=\"color:#ff6724\">寒天</span>或<span style=\"color:#ff6724\">霜冻</span>状态的敌方单位进行连击时必定暴击，且该次连击暴击伤害提高<span style=\"color:#158bdb\">30%</span>，贯穿强度提高<span style=\"color:#158bdb\">10%</span>；\n连击后，若该受击单位处于<span style=\"color:#ff6724\">霜冻</span>状态，则对其造成该次连击伤害<span style=\"color:#158bdb\">150%</span>的<span style=\"color:#ff6724\">真实伤害</span>。",
+        "2": "对处于<span style=\"color:#ff6724\">寒天</span>或<span style=\"color:#ff6724\">霜冻</span>状态的敌方单位进行连击时必定暴击，且该次连击暴击伤害提高<span style=\"color:#158bdb\">40%</span>，贯穿强度提高<span style=\"color:#158bdb\">10%</span>；\n连击后，若该受击单位处于<span style=\"color:#ff6724\">霜冻</span>状态，则对其造成该次连击伤害<span style=\"color:#158bdb\">150%</span>的<span style=\"color:#ff6724\">真实伤害</span>。",
+        "3": "对处于<span style=\"color:#ff6724\">寒天</span>或<span style=\"color:#ff6724\">霜冻</span>状态的敌方单位进行连击时必定暴击，且该次连击暴击伤害提高<span style=\"color:#158bdb\">50%</span>，贯穿强度提高<span style=\"color:#158bdb\">10%</span>；\n连击后，若该受击单位处于<span style=\"color:#ff6724\">霜冻</span>状态，则对其造成该次连击伤害<span style=\"color:#158bdb\">150%</span>的<span style=\"color:#ff6724\">真实伤害</span>。"
+      },
       "icon": "skillicon_V014104",
       "buff": [
         {
@@ -105,15 +127,20 @@
         }
       ],
       "type": 5,
-      "special": "对处于<span style=\"color:#ff6724\">寒天</span>或<span style=\"color:#ff6724\">霜冻</span>状态的敌方单位进行连击时必定暴击，且该次连击暴击伤害提高<span style=\"color:#158bdb\">50%</span>，贯穿强度提高<span style=\"color:#158bdb\">10%</span>；\n连击后，若该受击单位处于<span style=\"color:#ff6724\">霜冻</span>状态，则对其造成该次连击伤害<span style=\"color:#158bdb\">150%</span>的<span style=\"color:#ff6724\">真实伤害</span>。"
+      "special": "对处于<span style=\"color:#ff6724\">寒天</span>或<span style=\"color:#ff6724\">霜冻</span>状态的敌方单位进行连击时必定暴击，且该次连击暴击伤害提高<span style=\"color:#158bdb\">30%</span>，贯穿强度提高<span style=\"color:#158bdb\">10%</span>；\n连击后，若该受击单位处于<span style=\"color:#ff6724\">霜冻</span>状态，则对其造成该次连击伤害<span style=\"color:#158bdb\">150%</span>的<span style=\"color:#ff6724\">真实伤害</span>。"
     },
     {
       "name": "苍峰冰结",
-      "des": "使用职业技能攻击处于<span style=\"color:#ff6724\">寒天</span>状态的敌方单位或对处于<span style=\"color:#ff6724\">霜冻</span>状态的敌方单位进行任意攻击时，自身获得再行动<span style=\"color:#158bdb\">1</span>次，该次再行动的移动力减少<span style=\"color:#158bdb\">-2</span>，并回复自身最大生命值的<span style=\"color:#158bdb\">15%</span>，每回合可触发<span style=\"color:#158bdb\">2</span>次。",
+      "des": "使用职业技能攻击处于<span style=\"color:#ff6724\">寒天</span>状态的敌方单位或对处于<span style=\"color:#ff6724\">霜冻</span>状态的敌方单位进行任意攻击时，自身获得再行动<span style=\"color:#158bdb\">1</span>次，该次再行动的移动力减少<span style=\"color:#158bdb\">-2</span>，并回复自身最大生命值的<span style=\"color:#158bdb\">5%</span>，每回合可触发<span style=\"color:#158bdb\">1</span>次。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "使用职业技能攻击处于<span style=\"color:#ff6724\">寒天</span>状态的敌方单位或对处于<span style=\"color:#ff6724\">霜冻</span>状态的敌方单位进行任意攻击时，自身获得再行动<span style=\"color:#158bdb\">1</span>次，该次再行动的移动力减少<span style=\"color:#158bdb\">-2</span>，并回复自身最大生命值的<span style=\"color:#158bdb\">5%</span>，每回合可触发<span style=\"color:#158bdb\">1</span>次。",
+        "2": "使用职业技能攻击处于<span style=\"color:#ff6724\">寒天</span>状态的敌方单位或对处于<span style=\"color:#ff6724\">霜冻</span>状态的敌方单位进行任意攻击时，自身获得再行动<span style=\"color:#158bdb\">1</span>次，该次再行动的移动力减少<span style=\"color:#158bdb\">-2</span>，并回复自身最大生命值的<span style=\"color:#158bdb\">10%</span>，每回合可触发<span style=\"color:#158bdb\">2</span>次。",
+        "3": "使用职业技能攻击处于<span style=\"color:#ff6724\">寒天</span>状态的敌方单位或对处于<span style=\"color:#ff6724\">霜冻</span>状态的敌方单位进行任意攻击时，自身获得再行动<span style=\"color:#158bdb\">1</span>次，该次再行动的移动力减少<span style=\"color:#158bdb\">-2</span>，并回复自身最大生命值的<span style=\"color:#158bdb\">15%</span>，每回合可触发<span style=\"color:#158bdb\">2</span>次。"
+      },
       "icon": "skillicon_V014105",
       "buff": [],
       "type": 6,
@@ -128,6 +155,9 @@
         "冷却:2"
       ],
       "level": 1,
+      "levelDes": {
+        "1": "选定自身十字方向的地块进行位移，位移最大距离为<span style=\"color:#158bdb\">4</span>格，对经过地块上的敌方全体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。"
+      },
       "icon": "skillicon_V014111",
       "buff": [],
       "type": 2,

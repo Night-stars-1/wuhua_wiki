@@ -36,12 +36,19 @@
   "skill": [
     {
       "name": "链箭",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
       "tag": [
         "十字3格",
         "无消耗"
       ],
-      "level": 5,
+      "level": 1,
+      "levelDes": {
+        "1": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+        "2": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">105%</span>的物理伤害。",
+        "3": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">110%</span>的物理伤害。",
+        "4": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">115%</span>的物理伤害。",
+        "5": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。"
+      },
       "icon": "skillicon_Commonattack_A",
       "buff": [],
       "type": 1,
@@ -49,12 +56,17 @@
     },
     {
       "name": "深海迷航",
-      "des": "对选定的敌方单位及其<span style=\"color:#158bdb\">后方2格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">290%</span>的物理伤害，并击退该单位<span style=\"color:#158bdb\">3</span>格。",
+      "des": "对选定的敌方单位及其<span style=\"color:#158bdb\">后方2格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">230%</span>的物理伤害，并击退该单位<span style=\"color:#158bdb\">3</span>格。",
       "tag": [
         "十字3格",
         "消耗:4"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "对选定的敌方单位及其<span style=\"color:#158bdb\">后方2格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">230%</span>的物理伤害，并击退该单位<span style=\"color:#158bdb\">3</span>格。",
+        "2": "对选定的敌方单位及其<span style=\"color:#158bdb\">后方2格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">260%</span>的物理伤害，并击退该单位<span style=\"color:#158bdb\">3</span>格。",
+        "3": "对选定的敌方单位及其<span style=\"color:#158bdb\">后方2格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">290%</span>的物理伤害，并击退该单位<span style=\"color:#158bdb\">3</span>格。"
+      },
       "icon": "skillicon_A009602",
       "buff": [],
       "type": 3,
@@ -62,11 +74,16 @@
     },
     {
       "name": "远洋之心",
-      "des": "常击或连击对敌方目标造成伤害时，自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">环扣</span>状态。当攻击造成击退时，若<span style=\"color:#ff6724\">环扣</span>状态累计到<span style=\"color:#158bdb\">3</span>层，则消耗<span style=\"color:#158bdb\">3</span>层状态使该次攻击造成额外伤害，每击退其<span style=\"color:#158bdb\">1</span>格，对其造成自身攻击<span style=\"color:#158bdb\">70%</span>的<span style=\"color:#ff6724\">额外构素伤害</span>。",
+      "des": "常击或连击对敌方目标造成伤害时，自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">环扣</span>状态。当攻击造成击退时，若<span style=\"color:#ff6724\">环扣</span>状态累计到<span style=\"color:#158bdb\">3</span>层，则消耗<span style=\"color:#158bdb\">3</span>层状态使该次攻击造成额外伤害，每击退其<span style=\"color:#158bdb\">1</span>格，对其造成自身攻击<span style=\"color:#158bdb\">45%</span>的<span style=\"color:#ff6724\">额外构素伤害</span>。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "常击或连击对敌方目标造成伤害时，自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">环扣</span>状态。当攻击造成击退时，若<span style=\"color:#ff6724\">环扣</span>状态累计到<span style=\"color:#158bdb\">3</span>层，则消耗<span style=\"color:#158bdb\">3</span>层状态使该次攻击造成额外伤害，每击退其<span style=\"color:#158bdb\">1</span>格，对其造成自身攻击<span style=\"color:#158bdb\">45%</span>的<span style=\"color:#ff6724\">额外构素伤害</span>。",
+        "2": "常击或连击对敌方目标造成伤害时，自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">环扣</span>状态。当攻击造成击退时，若<span style=\"color:#ff6724\">环扣</span>状态累计到<span style=\"color:#158bdb\">3</span>层，则消耗<span style=\"color:#158bdb\">3</span>层状态使该次攻击造成额外伤害，每击退其<span style=\"color:#158bdb\">1</span>格，对其造成自身攻击<span style=\"color:#158bdb\">55%</span>的<span style=\"color:#ff6724\">额外构素伤害</span>。",
+        "3": "常击或连击对敌方目标造成伤害时，自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">环扣</span>状态。当攻击造成击退时，若<span style=\"color:#ff6724\">环扣</span>状态累计到<span style=\"color:#158bdb\">3</span>层，则消耗<span style=\"color:#158bdb\">3</span>层状态使该次攻击造成额外伤害，每击退其<span style=\"color:#158bdb\">1</span>格，对其造成自身攻击<span style=\"color:#158bdb\">70%</span>的<span style=\"color:#ff6724\">额外构素伤害</span>。"
+      },
       "icon": "skillicon_A009603",
       "buff": [
         {
@@ -79,15 +96,20 @@
         }
       ],
       "type": 4,
-      "special": "常击或连击对敌方目标造成伤害时，自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">环扣</span>状态。当攻击造成击退时，若<span style=\"color:#ff6724\">环扣</span>状态累计到<span style=\"color:#158bdb\">3</span>层，则消耗<span style=\"color:#158bdb\">2</span>层状态使该次攻击造成额外伤害，每击退其<span style=\"color:#158bdb\">1</span>格，对其造成自身攻击<span style=\"color:#158bdb\">70%</span>的<span style=\"color:#ff6724\">额外构素伤害</span>。"
+      "special": "常击或连击对敌方目标造成伤害时，自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">环扣</span>状态。当攻击造成击退时，若<span style=\"color:#ff6724\">环扣</span>状态累计到<span style=\"color:#158bdb\">3</span>层，则消耗<span style=\"color:#158bdb\">2</span>层状态使该次攻击造成额外伤害，每击退其<span style=\"color:#158bdb\">1</span>格，对其造成自身攻击<span style=\"color:#158bdb\">45%</span>的<span style=\"color:#ff6724\">额外构素伤害</span>。"
     },
     {
       "name": "寻踪",
-      "des": "处于<span style=\"color:#ff6724\">瞄准</span>状态时，若自身存在<span style=\"color:#158bdb\">3</span>层<span style=\"color:#ff6724\">环扣</span>状态，对选定的敌方单位进行常击可击退其<span style=\"color:#158bdb\">3</span>格。",
+      "des": "处于<span style=\"color:#ff6724\">瞄准</span>状态时，若自身存在<span style=\"color:#158bdb\">3</span>层<span style=\"color:#ff6724\">环扣</span>状态，对选定的敌方单位进行常击可击退其<span style=\"color:#158bdb\">1</span>格。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "处于<span style=\"color:#ff6724\">瞄准</span>状态时，若自身存在<span style=\"color:#158bdb\">3</span>层<span style=\"color:#ff6724\">环扣</span>状态，对选定的敌方单位进行常击可击退其<span style=\"color:#158bdb\">1</span>格。",
+        "2": "处于<span style=\"color:#ff6724\">瞄准</span>状态时，若自身存在<span style=\"color:#158bdb\">3</span>层<span style=\"color:#ff6724\">环扣</span>状态，对选定的敌方单位进行常击可击退其<span style=\"color:#158bdb\">2</span>格。",
+        "3": "处于<span style=\"color:#ff6724\">瞄准</span>状态时，若自身存在<span style=\"color:#158bdb\">3</span>层<span style=\"color:#ff6724\">环扣</span>状态，对选定的敌方单位进行常击可击退其<span style=\"color:#158bdb\">3</span>格。"
+      },
       "icon": "skillicon_A009604",
       "buff": [],
       "type": 5,
@@ -95,11 +117,16 @@
     },
     {
       "name": "织金成饰",
-      "des": "攻击敌方单位时，自身未处于<span style=\"color:#ff6724\">瞄准</span>状态时且该单位<span style=\"color:#158bdb\">周围1格</span>没有其他敌方单位，则该次攻击后连击，对其造成自身攻击力<span style=\"color:#158bdb\">60%</span>的物理伤害；连击造成伤害时每拥有<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">环扣</span>，则造成自身攻击力<span style=\"color:#158bdb\">30%</span>的<span style=\"color:#ff6724\">额外构素伤害</span>。",
+      "des": "攻击敌方单位时，自身未处于<span style=\"color:#ff6724\">瞄准</span>状态时且该单位<span style=\"color:#158bdb\">周围1格</span>没有其他敌方单位，则该次攻击后连击，对其造成自身攻击力<span style=\"color:#158bdb\">40%</span>的物理伤害；连击造成伤害时每拥有<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">环扣</span>，则造成自身攻击力<span style=\"color:#158bdb\">30%</span>的<span style=\"color:#ff6724\">额外构素伤害</span>。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "攻击敌方单位时，自身未处于<span style=\"color:#ff6724\">瞄准</span>状态时且该单位<span style=\"color:#158bdb\">周围1格</span>没有其他敌方单位，则该次攻击后连击，对其造成自身攻击力<span style=\"color:#158bdb\">40%</span>的物理伤害；连击造成伤害时每拥有<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">环扣</span>，则造成自身攻击力<span style=\"color:#158bdb\">30%</span>的<span style=\"color:#ff6724\">额外构素伤害</span>。",
+        "2": "攻击敌方单位时，自身未处于<span style=\"color:#ff6724\">瞄准</span>状态时且该单位<span style=\"color:#158bdb\">周围1格</span>没有其他敌方单位，则该次攻击后连击，对其造成自身攻击力<span style=\"color:#158bdb\">50%</span>的物理伤害；连击造成伤害时每拥有<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">环扣</span>，则造成自身攻击力<span style=\"color:#158bdb\">30%</span>的<span style=\"color:#ff6724\">额外构素伤害</span>。",
+        "3": "攻击敌方单位时，自身未处于<span style=\"color:#ff6724\">瞄准</span>状态时且该单位<span style=\"color:#158bdb\">周围1格</span>没有其他敌方单位，则该次攻击后连击，对其造成自身攻击力<span style=\"color:#158bdb\">60%</span>的物理伤害；连击造成伤害时每拥有<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">环扣</span>，则造成自身攻击力<span style=\"color:#158bdb\">30%</span>的<span style=\"color:#ff6724\">额外构素伤害</span>。"
+      },
       "icon": "skillicon_A009605",
       "buff": [
         {
@@ -119,6 +146,9 @@
         "冷却:3"
       ],
       "level": 1,
+      "levelDes": {
+        "1": "使用后自身获得<span style=\"color:#158bdb\">1</span>次不可移动的再行动，并进入<span style=\"color:#ff6724\">瞄准</span>状态。"
+      },
       "icon": "skillicon_Jobskill_A",
       "buff": [
         {

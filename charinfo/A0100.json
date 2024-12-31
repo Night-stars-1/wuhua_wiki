@@ -36,12 +36,19 @@
   "skill": [
     {
       "name": "审判",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
       "tag": [
         "十字3格",
         "无消耗"
       ],
-      "level": 5,
+      "level": 1,
+      "levelDes": {
+        "1": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+        "2": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">105%</span>的物理伤害。",
+        "3": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">110%</span>的物理伤害。",
+        "4": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">115%</span>的物理伤害。",
+        "5": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。"
+      },
       "icon": "skillicon_Commonattack_A",
       "buff": [],
       "type": 1,
@@ -55,7 +62,12 @@
         "消耗:3",
         "冷却:3"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "使用后自身获得再行动<span style=\"color:#158bdb\">1</span>次，并获得<span style=\"color:#ff6724\">耀阳永辉</span>状态。",
+        "2": "使用后自身获得再行动<span style=\"color:#158bdb\">1</span>次，并获得<span style=\"color:#ff6724\">耀阳永辉</span>状态。",
+        "3": "使用后自身获得再行动<span style=\"color:#158bdb\">1</span>次，并获得<span style=\"color:#ff6724\">耀阳永辉</span>状态。"
+      },
       "icon": "skillicon_A010002",
       "buff": [
         {
@@ -76,11 +88,16 @@
     },
     {
       "name": "沉眠之谷",
-      "des": "常击造成伤害时，受击敌方单位每存在<span style=\"color:#158bdb\">1</span>种持续伤害状态，则分别有<span style=\"color:#158bdb\">100%</span>的概率使其受到<span style=\"color:#158bdb\">1</span>次愿望杯攻击力<span style=\"color:#158bdb\">50%</span>的<span style=\"color:#ff6724\">额外物理伤害</span>；\n受击敌方单位每存在<span style=\"color:#158bdb\">1</span>种持续伤害状态，则其受到的额外伤害增加<span style=\"color:#158bdb\">30%</span>，效果持续至愿望杯攻击回合结束。",
+      "des": "常击造成伤害时，受击敌方单位每存在<span style=\"color:#158bdb\">1</span>种持续伤害状态，则分别有<span style=\"color:#158bdb\">60%</span>的概率使其受到<span style=\"color:#158bdb\">1</span>次愿望杯攻击力<span style=\"color:#158bdb\">50%</span>的<span style=\"color:#ff6724\">额外物理伤害</span>；\n受击敌方单位每存在<span style=\"color:#158bdb\">1</span>种持续伤害状态，则其受到的额外伤害增加<span style=\"color:#158bdb\">30%</span>，效果持续至愿望杯攻击回合结束。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "常击造成伤害时，受击敌方单位每存在<span style=\"color:#158bdb\">1</span>种持续伤害状态，则分别有<span style=\"color:#158bdb\">60%</span>的概率使其受到<span style=\"color:#158bdb\">1</span>次愿望杯攻击力<span style=\"color:#158bdb\">50%</span>的<span style=\"color:#ff6724\">额外物理伤害</span>；\n受击敌方单位每存在<span style=\"color:#158bdb\">1</span>种持续伤害状态，则其受到的额外伤害增加<span style=\"color:#158bdb\">30%</span>，效果持续至愿望杯攻击回合结束。",
+        "2": "常击造成伤害时，受击敌方单位每存在<span style=\"color:#158bdb\">1</span>种持续伤害状态，则分别有<span style=\"color:#158bdb\">80%</span>的概率使其受到<span style=\"color:#158bdb\">1</span>次愿望杯攻击力<span style=\"color:#158bdb\">50%</span>的<span style=\"color:#ff6724\">额外物理伤害</span>；\n受击敌方单位每存在<span style=\"color:#158bdb\">1</span>种持续伤害状态，则其受到的额外伤害增加<span style=\"color:#158bdb\">30%</span>，效果持续至愿望杯攻击回合结束。",
+        "3": "常击造成伤害时，受击敌方单位每存在<span style=\"color:#158bdb\">1</span>种持续伤害状态，则分别有<span style=\"color:#158bdb\">100%</span>的概率使其受到<span style=\"color:#158bdb\">1</span>次愿望杯攻击力<span style=\"color:#158bdb\">50%</span>的<span style=\"color:#ff6724\">额外物理伤害</span>；\n受击敌方单位每存在<span style=\"color:#158bdb\">1</span>种持续伤害状态，则其受到的额外伤害增加<span style=\"color:#158bdb\">30%</span>，效果持续至愿望杯攻击回合结束。"
+      },
       "icon": "skillicon_A010003",
       "buff": [
         {
@@ -89,15 +106,20 @@
         }
       ],
       "type": 4,
-      "special": "常击造成伤害时，受击敌方单位每存在<span style=\"color:#158bdb\">1</span>种持续伤害状态，则分别有<span style=\"color:#158bdb\">100%</span>的概率使其受到<span style=\"color:#158bdb\">1</span>次愿望杯攻击力<span style=\"color:#158bdb\">70%</span>的<span style=\"color:#ff6724\">额外物理伤害</span>，并使该持续伤害状态层数增加<span style=\"color:#158bdb\">1</span>；\n受击敌方单位每存在<span style=\"color:#158bdb\">1</span>种持续伤害状态，则其受到的额外伤害增加<span style=\"color:#158bdb\">30%</span>，效果持续至愿望杯攻击回合结束。"
+      "special": "常击造成伤害时，受击敌方单位每存在<span style=\"color:#158bdb\">1</span>种持续伤害状态，则分别有<span style=\"color:#158bdb\">60%</span>的概率使其受到<span style=\"color:#158bdb\">1</span>次愿望杯攻击力<span style=\"color:#158bdb\">70%</span>的<span style=\"color:#ff6724\">额外物理伤害</span>，并使该持续伤害状态层数增加<span style=\"color:#158bdb\">1</span>；\n受击敌方单位每存在<span style=\"color:#158bdb\">1</span>种持续伤害状态，则其受到的额外伤害增加<span style=\"color:#158bdb\">30%</span>，效果持续至愿望杯攻击回合结束。"
     },
     {
       "name": "两地之主",
-      "des": "使用职业技能时，使自身及<span style=\"color:#158bdb\">周围2格</span>内攻击力最高的<span style=\"color:#158bdb\">1</span>个友方单位获得<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">蓄势</span>状态。\n此效果每间隔<span style=\"color:#158bdb\">1</span>回合可触发<span style=\"color:#158bdb\">1</span>次。",
+      "des": "使用职业技能时，使自身及<span style=\"color:#158bdb\">周围2格</span>内攻击力最高的<span style=\"color:#158bdb\">1</span>个友方单位获得<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">蓄势</span>状态。\n此效果每间隔<span style=\"color:#158bdb\">3</span>回合可触发<span style=\"color:#158bdb\">1</span>次。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "使用职业技能时，使自身及<span style=\"color:#158bdb\">周围2格</span>内攻击力最高的<span style=\"color:#158bdb\">1</span>个友方单位获得<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">蓄势</span>状态。\n此效果每间隔<span style=\"color:#158bdb\">3</span>回合可触发<span style=\"color:#158bdb\">1</span>次。",
+        "2": "使用职业技能时，使自身及<span style=\"color:#158bdb\">周围2格</span>内攻击力最高的<span style=\"color:#158bdb\">1</span>个友方单位获得<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">蓄势</span>状态。\n此效果每间隔<span style=\"color:#158bdb\">2</span>回合可触发<span style=\"color:#158bdb\">1</span>次。",
+        "3": "使用职业技能时，使自身及<span style=\"color:#158bdb\">周围2格</span>内攻击力最高的<span style=\"color:#158bdb\">1</span>个友方单位获得<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">蓄势</span>状态。\n此效果每间隔<span style=\"color:#158bdb\">1</span>回合可触发<span style=\"color:#158bdb\">1</span>次。"
+      },
       "icon": "skillicon_A010004",
       "buff": [
         {
@@ -110,11 +132,16 @@
     },
     {
       "name": "荷鲁斯眼",
-      "des": "自身瞄准冷却率提高<span style=\"color:#158bdb\">40%</span>。\n瞄准状态下常击造成伤害时，使受击敌方单位获得<span style=\"color:#ff6724\">咒溃</span>状态。",
+      "des": "自身瞄准冷却率提高<span style=\"color:#158bdb\">20%</span>。\n瞄准状态下常击造成伤害时，使受击敌方单位获得<span style=\"color:#ff6724\">咒溃</span>状态。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "自身瞄准冷却率提高<span style=\"color:#158bdb\">20%</span>。\n瞄准状态下常击造成伤害时，使受击敌方单位获得<span style=\"color:#ff6724\">咒溃</span>状态。",
+        "2": "自身瞄准冷却率提高<span style=\"color:#158bdb\">30%</span>。\n瞄准状态下常击造成伤害时，使受击敌方单位获得<span style=\"color:#ff6724\">咒溃</span>状态。",
+        "3": "自身瞄准冷却率提高<span style=\"color:#158bdb\">40%</span>。\n瞄准状态下常击造成伤害时，使受击敌方单位获得<span style=\"color:#ff6724\">咒溃</span>状态。"
+      },
       "icon": "skillicon_A010005",
       "buff": [
         {
@@ -134,6 +161,9 @@
         "冷却:3"
       ],
       "level": 1,
+      "levelDes": {
+        "1": "使用后自身获得<span style=\"color:#158bdb\">1</span>次不可移动的再行动，并进入<span style=\"color:#ff6724\">瞄准</span>状态。"
+      },
       "icon": "skillicon_Jobskill_A",
       "buff": [
         {

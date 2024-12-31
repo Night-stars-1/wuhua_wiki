@@ -36,12 +36,19 @@
   "skill": [
     {
       "name": "井火",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
       "tag": [
         "射程1格 ",
         "无消耗"
       ],
-      "level": 5,
+      "level": 1,
+      "levelDes": {
+        "1": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+        "2": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">105%</span>的物理伤害。",
+        "3": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">110%</span>的物理伤害。",
+        "4": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">115%</span>的物理伤害。",
+        "5": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。"
+      },
       "icon": "skillicon_Commonattack_V",
       "buff": [],
       "type": 1,
@@ -49,12 +56,17 @@
     },
     {
       "name": "临邛盐涌",
-      "des": "对自身<span style=\"color:#158bdb\">周围2格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">170%</span>的物理伤害。",
+      "des": "对自身<span style=\"color:#158bdb\">周围2格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">130%</span>的物理伤害。",
       "tag": [
         "自身",
         "消耗:3"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "对自身<span style=\"color:#158bdb\">周围2格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">130%</span>的物理伤害。",
+        "2": "对自身<span style=\"color:#158bdb\">周围2格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">150%</span>的物理伤害。",
+        "3": "对自身<span style=\"color:#158bdb\">周围2格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">170%</span>的物理伤害。"
+      },
       "icon": "skillicon_V006402",
       "buff": [],
       "type": 3,
@@ -62,11 +74,16 @@
     },
     {
       "name": "连竹引气",
-      "des": "使用职业技能后，该回合下次常击触发连击，对其造成自身攻击力<span style=\"color:#158bdb\">80%</span>的物理伤害。",
+      "des": "使用职业技能后，该回合下次常击触发连击，对其造成自身攻击力<span style=\"color:#158bdb\">60%</span>的物理伤害。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "使用职业技能后，该回合下次常击触发连击，对其造成自身攻击力<span style=\"color:#158bdb\">60%</span>的物理伤害。",
+        "2": "使用职业技能后，该回合下次常击触发连击，对其造成自身攻击力<span style=\"color:#158bdb\">70%</span>的物理伤害。",
+        "3": "使用职业技能后，该回合下次常击触发连击，对其造成自身攻击力<span style=\"color:#158bdb\">80%</span>的物理伤害。"
+      },
       "icon": "skillicon_V006403",
       "buff": [],
       "type": 4,
@@ -74,11 +91,16 @@
     },
     {
       "name": "盐泉之井",
-      "des": "常击或连击后，使该受击的敌方单位获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">脆弱</span>状态；绝技命中后，使受伤害的敌方单位获得<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">脆弱</span>状态；自身攻击处于<span style=\"color:#ff6724\">脆弱</span>状态的敌方单位时，造成的伤害提高<span style=\"color:#158bdb\">15%</span>。",
+      "des": "常击或连击后，使该受击的敌方单位获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">脆弱</span>状态；绝技命中后，使受伤害的敌方单位获得<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">脆弱</span>状态；自身攻击处于<span style=\"color:#ff6724\">脆弱</span>状态的敌方单位时，造成的伤害提高<span style=\"color:#158bdb\">5%</span>。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "常击或连击后，使该受击的敌方单位获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">脆弱</span>状态；绝技命中后，使受伤害的敌方单位获得<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">脆弱</span>状态；自身攻击处于<span style=\"color:#ff6724\">脆弱</span>状态的敌方单位时，造成的伤害提高<span style=\"color:#158bdb\">5%</span>。",
+        "2": "常击或连击后，使该受击的敌方单位获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">脆弱</span>状态；绝技命中后，使受伤害的敌方单位获得<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">脆弱</span>状态；自身攻击处于<span style=\"color:#ff6724\">脆弱</span>状态的敌方单位时，造成的伤害提高<span style=\"color:#158bdb\">10%</span>。",
+        "3": "常击或连击后，使该受击的敌方单位获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">脆弱</span>状态；绝技命中后，使受伤害的敌方单位获得<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">脆弱</span>状态；自身攻击处于<span style=\"color:#ff6724\">脆弱</span>状态的敌方单位时，造成的伤害提高<span style=\"color:#158bdb\">15%</span>。"
+      },
       "icon": "skillicon_V006404",
       "buff": [
         {
@@ -91,15 +113,20 @@
     },
     {
       "name": "云蒸雾蔚",
-      "des": "进入战斗后，连击的伤害提高<span style=\"color:#158bdb\">20%</span>。常击后有<span style=\"color:#158bdb\">50%</span>概率使职业技能冷却时间减少<span style=\"color:#158bdb\">1</span>回合。",
+      "des": "进入战斗后，连击的伤害提高<span style=\"color:#158bdb\">10%</span>。常击后有<span style=\"color:#158bdb\">50%</span>概率使职业技能冷却时间减少<span style=\"color:#158bdb\">1</span>回合。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "进入战斗后，连击的伤害提高<span style=\"color:#158bdb\">10%</span>。常击后有<span style=\"color:#158bdb\">50%</span>概率使职业技能冷却时间减少<span style=\"color:#158bdb\">1</span>回合。",
+        "2": "进入战斗后，连击的伤害提高<span style=\"color:#158bdb\">15%</span>。常击后有<span style=\"color:#158bdb\">50%</span>概率使职业技能冷却时间减少<span style=\"color:#158bdb\">1</span>回合。",
+        "3": "进入战斗后，连击的伤害提高<span style=\"color:#158bdb\">20%</span>。常击后有<span style=\"color:#158bdb\">50%</span>概率使职业技能冷却时间减少<span style=\"color:#158bdb\">1</span>回合。"
+      },
       "icon": "skillicon_V006405",
       "buff": [],
       "type": 6,
-      "special": "进入战斗后，连击的伤害提高<span style=\"color:#158bdb\">40%</span>。常击后有<span style=\"color:#158bdb\">80%</span>概率使职业技能冷却时间减少<span style=\"color:#158bdb\">1</span>回合。"
+      "special": "进入战斗后，连击的伤害提高<span style=\"color:#158bdb\">20%</span>。常击后有<span style=\"color:#158bdb\">80%</span>概率使职业技能冷却时间减少<span style=\"color:#158bdb\">1</span>回合。"
     },
     {
       "name": "天车",
@@ -110,6 +137,9 @@
         "冷却:2"
       ],
       "level": 1,
+      "levelDes": {
+        "1": "使用后自身获得再行动<span style=\"color:#158bdb\">1</span>次，该次再行动的移动力减少<span style=\"color:#158bdb\">2</span>。"
+      },
       "icon": "skillicon_Jobskill_V",
       "buff": [],
       "type": 2,

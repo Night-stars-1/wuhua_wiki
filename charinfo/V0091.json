@@ -36,12 +36,19 @@
   "skill": [
     {
       "name": "剑斩",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
       "tag": [
         "射程1格 ",
         "无消耗"
       ],
-      "level": 5,
+      "level": 1,
+      "levelDes": {
+        "1": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+        "2": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">105%</span>的物理伤害。",
+        "3": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">110%</span>的物理伤害。",
+        "4": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">115%</span>的物理伤害。",
+        "5": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。"
+      },
       "icon": "skillicon_Commonattack_V",
       "buff": [],
       "type": 1,
@@ -49,12 +56,17 @@
     },
     {
       "name": "霸业宏图",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">360%</span>的物理伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">260%</span>的物理伤害。",
       "tag": [
         "射程1格 ",
         "消耗:5"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">260%</span>的物理伤害。",
+        "2": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">310%</span>的物理伤害。",
+        "3": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">360%</span>的物理伤害。"
+      },
       "icon": "skillicon_V009102",
       "buff": [],
       "type": 3,
@@ -62,11 +74,16 @@
     },
     {
       "name": "卧薪尝胆",
-      "des": "未处于<span style=\"color:#ff6724\">觉醒</span>状态时，攻击无法造成暴击。\n每次使用常击、连击和绝技时，自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">蛰伏</span>状态。\n处于<span style=\"color:#ff6724\">觉醒</span>状态时，若击败敌方单位，则自身获得再行动<span style=\"color:#158bdb\">1</span>次，该次再行动的攻击力降低<span style=\"color:#158bdb\">-20%</span>。",
+      "des": "未处于<span style=\"color:#ff6724\">觉醒</span>状态时，攻击无法造成暴击。\n每次使用常击、连击和绝技时，自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">蛰伏</span>状态。\n处于<span style=\"color:#ff6724\">觉醒</span>状态时，若击败敌方单位，则自身获得再行动<span style=\"color:#158bdb\">1</span>次，该次再行动的攻击力降低<span style=\"color:#158bdb\">-40%</span>。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "未处于<span style=\"color:#ff6724\">觉醒</span>状态时，攻击无法造成暴击。\n每次使用常击、连击和绝技时，自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">蛰伏</span>状态。\n处于<span style=\"color:#ff6724\">觉醒</span>状态时，若击败敌方单位，则自身获得再行动<span style=\"color:#158bdb\">1</span>次，该次再行动的攻击力降低<span style=\"color:#158bdb\">-40%</span>。",
+        "2": "未处于<span style=\"color:#ff6724\">觉醒</span>状态时，攻击无法造成暴击。\n每次使用常击、连击和绝技时，自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">蛰伏</span>状态。\n处于<span style=\"color:#ff6724\">觉醒</span>状态时，若击败敌方单位，则自身获得再行动<span style=\"color:#158bdb\">1</span>次，该次再行动的攻击力降低<span style=\"color:#158bdb\">-30%</span>。",
+        "3": "未处于<span style=\"color:#ff6724\">觉醒</span>状态时，攻击无法造成暴击。\n每次使用常击、连击和绝技时，自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">蛰伏</span>状态。\n处于<span style=\"color:#ff6724\">觉醒</span>状态时，若击败敌方单位，则自身获得再行动<span style=\"color:#158bdb\">1</span>次，该次再行动的攻击力降低<span style=\"color:#158bdb\">-20%</span>。"
+      },
       "icon": "skillicon_V009103",
       "buff": [
         {
@@ -87,7 +104,12 @@
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "攻击触发贯穿效果时，自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">剑鸣</span>状态，此状态最多可叠加<span style=\"color:#158bdb\">3</span>层；\n自身处于<span style=\"color:#ff6724\">觉醒</span>状态时，使用职业技能消耗<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">剑鸣</span>状态，使职业技能冷却回合重置。",
+        "2": "攻击触发贯穿效果时，自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">剑鸣</span>状态，此状态最多可叠加<span style=\"color:#158bdb\">3</span>层；\n自身处于<span style=\"color:#ff6724\">觉醒</span>状态时，使用职业技能消耗<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">剑鸣</span>状态，使职业技能冷却回合重置。",
+        "3": "攻击触发贯穿效果时，自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">剑鸣</span>状态，此状态最多可叠加<span style=\"color:#158bdb\">3</span>层；\n自身处于<span style=\"color:#ff6724\">觉醒</span>状态时，使用职业技能消耗<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">剑鸣</span>状态，使职业技能冷却回合重置。"
+      },
       "icon": "skillicon_V009104",
       "buff": [
         {
@@ -100,11 +122,16 @@
     },
     {
       "name": "三千越甲",
-      "des": "攻击触发贯穿效果时，若自身贯穿率高于<span style=\"color:#158bdb\">40%</span>，则本次攻击中暴击伤害增加当前贯穿率高于<span style=\"color:#158bdb\">40%</span>的部分的<span style=\"color:#158bdb\">100%</span>。",
+      "des": "攻击触发贯穿效果时，若自身贯穿率高于<span style=\"color:#158bdb\">40%</span>，则本次攻击中暴击伤害增加当前贯穿率高于<span style=\"color:#158bdb\">40%</span>的部分的<span style=\"color:#158bdb\">30%</span>。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "攻击触发贯穿效果时，若自身贯穿率高于<span style=\"color:#158bdb\">40%</span>，则本次攻击中暴击伤害增加当前贯穿率高于<span style=\"color:#158bdb\">40%</span>的部分的<span style=\"color:#158bdb\">30%</span>。",
+        "2": "攻击触发贯穿效果时，若自身贯穿率高于<span style=\"color:#158bdb\">40%</span>，则本次攻击中暴击伤害增加当前贯穿率高于<span style=\"color:#158bdb\">40%</span>的部分的<span style=\"color:#158bdb\">60%</span>。",
+        "3": "攻击触发贯穿效果时，若自身贯穿率高于<span style=\"color:#158bdb\">40%</span>，则本次攻击中暴击伤害增加当前贯穿率高于<span style=\"color:#158bdb\">40%</span>的部分的<span style=\"color:#158bdb\">100%</span>。"
+      },
       "icon": "skillicon_V009105",
       "buff": [],
       "type": 6,
@@ -119,6 +146,9 @@
         "冷却:2"
       ],
       "level": 1,
+      "levelDes": {
+        "1": "使用后自身获得再行动<span style=\"color:#158bdb\">1</span>次，该次再行动的移动力减少<span style=\"color:#158bdb\">2</span>。"
+      },
       "icon": "skillicon_Jobskill_V",
       "buff": [],
       "type": 2,

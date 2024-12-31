@@ -36,12 +36,19 @@
   "skill": [
     {
       "name": "花令",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的构素伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
       "tag": [
         "射程3格",
         "无消耗"
       ],
-      "level": 5,
+      "level": 1,
+      "levelDes": {
+        "1": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
+        "2": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">105%</span>的构素伤害。",
+        "3": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">110%</span>的构素伤害。",
+        "4": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">115%</span>的构素伤害。",
+        "5": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的构素伤害。"
+      },
       "icon": "skillicon_Commonattack_S",
       "buff": [],
       "type": 1,
@@ -49,12 +56,17 @@
     },
     {
       "name": "十二香梦",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">160%</span>的构素伤害，使其进入<span style=\"color:#ff6724\">眩晕</span>和<span style=\"color:#ff6724\">落花</span>状态；并为自身填充<span style=\"color:#158bdb\">1</span>枚<span style=\"color:#ff6724\">礼弹</span>。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的构素伤害，使其进入<span style=\"color:#ff6724\">眩晕</span>和<span style=\"color:#ff6724\">落花</span>状态；并为自身填充<span style=\"color:#158bdb\">1</span>枚<span style=\"color:#ff6724\">礼弹</span>。",
       "tag": [
         "射程3格",
         "消耗:2"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的构素伤害，使其进入<span style=\"color:#ff6724\">眩晕</span>和<span style=\"color:#ff6724\">落花</span>状态；并为自身填充<span style=\"color:#158bdb\">1</span>枚<span style=\"color:#ff6724\">礼弹</span>。",
+        "2": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">140%</span>的构素伤害，使其进入<span style=\"color:#ff6724\">眩晕</span>和<span style=\"color:#ff6724\">落花</span>状态；并为自身填充<span style=\"color:#158bdb\">1</span>枚<span style=\"color:#ff6724\">礼弹</span>。",
+        "3": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">160%</span>的构素伤害，使其进入<span style=\"color:#ff6724\">眩晕</span>和<span style=\"color:#ff6724\">落花</span>状态；并为自身填充<span style=\"color:#158bdb\">1</span>枚<span style=\"color:#ff6724\">礼弹</span>。"
+      },
       "icon": "skillicon_S013202",
       "buff": [
         {
@@ -71,11 +83,16 @@
     },
     {
       "name": "花藏不见",
-      "des": "每次警戒攻击前，消耗自身当前生命值的<span style=\"color:#158bdb\">10%</span>，有<span style=\"color:#158bdb\">100%</span>概率使受击敌方单位进入<span style=\"color:#ff6724\">肃静</span>状态，并有<span style=\"color:#158bdb\">100%</span>概率使受击敌方单位进入<span style=\"color:#ff6724\">疏忽</span>状态。",
+      "des": "每次警戒攻击前，消耗自身当前生命值的<span style=\"color:#158bdb\">10%</span>，有<span style=\"color:#158bdb\">50%</span>概率使受击敌方单位进入<span style=\"color:#ff6724\">肃静</span>状态，并有<span style=\"color:#158bdb\">50%</span>概率使受击敌方单位进入<span style=\"color:#ff6724\">疏忽</span>状态。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "每次警戒攻击前，消耗自身当前生命值的<span style=\"color:#158bdb\">10%</span>，有<span style=\"color:#158bdb\">50%</span>概率使受击敌方单位进入<span style=\"color:#ff6724\">肃静</span>状态，并有<span style=\"color:#158bdb\">50%</span>概率使受击敌方单位进入<span style=\"color:#ff6724\">疏忽</span>状态。",
+        "2": "每次警戒攻击前，消耗自身当前生命值的<span style=\"color:#158bdb\">10%</span>，有<span style=\"color:#158bdb\">75%</span>概率使受击敌方单位进入<span style=\"color:#ff6724\">肃静</span>状态，并有<span style=\"color:#158bdb\">75%</span>概率使受击敌方单位进入<span style=\"color:#ff6724\">疏忽</span>状态。",
+        "3": "每次警戒攻击前，消耗自身当前生命值的<span style=\"color:#158bdb\">10%</span>，有<span style=\"color:#158bdb\">100%</span>概率使受击敌方单位进入<span style=\"color:#ff6724\">肃静</span>状态，并有<span style=\"color:#158bdb\">100%</span>概率使受击敌方单位进入<span style=\"color:#ff6724\">疏忽</span>状态。"
+      },
       "icon": "skillicon_S013203",
       "buff": [
         {
@@ -88,7 +105,7 @@
         }
       ],
       "type": 4,
-      "special": "每次警戒攻击前，消耗自身当前生命值的<span style=\"color:#158bdb\">10%</span>，有<span style=\"color:#158bdb\">100%</span>概率使受击敌方单位进入<span style=\"color:#ff6724\">肃静</span>状态，并有<span style=\"color:#158bdb\">100%</span>概率使受击敌方单位进入<span style=\"color:#ff6724\">疏忽</span>状态。"
+      "special": "每次警戒攻击前，消耗自身当前生命值的<span style=\"color:#158bdb\">10%</span>，有<span style=\"color:#158bdb\">50%</span>概率使受击敌方单位进入<span style=\"color:#ff6724\">肃静</span>状态，并有<span style=\"color:#158bdb\">50%</span>概率使受击敌方单位进入<span style=\"color:#ff6724\">疏忽</span>状态。"
     },
     {
       "name": "月令花神",
@@ -96,7 +113,12 @@
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "自身及<span style=\"color:#158bdb\">周围3格</span>内的友方单位消耗其自身生命值时，使自身获得<span style=\"color:#ff6724\">惊蕊</span>状态；\n当<span style=\"color:#ff6724\">惊蕊</span>状态叠加至<span style=\"color:#158bdb\">3</span>层时，警戒攻击额外填充<span style=\"color:#158bdb\">1</span>枚<span style=\"color:#ff6724\">礼弹</span>，每回合最多触发<span style=\"color:#158bdb\">3</span>次。",
+        "2": "自身及<span style=\"color:#158bdb\">周围3格</span>内的友方单位消耗其自身生命值时，使自身获得<span style=\"color:#ff6724\">惊蕊</span>状态；\n当<span style=\"color:#ff6724\">惊蕊</span>状态叠加至<span style=\"color:#158bdb\">3</span>层时，警戒攻击额外填充<span style=\"color:#158bdb\">1</span>枚<span style=\"color:#ff6724\">礼弹</span>，每回合最多触发<span style=\"color:#158bdb\">3</span>次。",
+        "3": "自身及<span style=\"color:#158bdb\">周围3格</span>内的友方单位消耗其自身生命值时，使自身获得<span style=\"color:#ff6724\">惊蕊</span>状态；\n当<span style=\"color:#ff6724\">惊蕊</span>状态叠加至<span style=\"color:#158bdb\">3</span>层时，警戒攻击额外填充<span style=\"color:#158bdb\">1</span>枚<span style=\"color:#ff6724\">礼弹</span>，每回合最多触发<span style=\"color:#158bdb\">3</span>次。"
+      },
       "icon": "skillicon_S013204",
       "buff": [
         {
@@ -109,11 +131,16 @@
     },
     {
       "name": "薄胎映彩",
-      "des": "进入战斗后，自身攻击力提高<span style=\"color:#158bdb\">30%</span>。\n处于<span style=\"color:#ff6724\">落花</span>状态的敌方单位被击败时，自身立刻获得行动回合，并回复<span style=\"color:#158bdb\">2</span>点能量；此效果每间隔<span style=\"color:#158bdb\">2</span>回合最多触发<span style=\"color:#158bdb\">1</span>次。",
+      "des": "进入战斗后，自身攻击力提高<span style=\"color:#158bdb\">10%</span>。\n处于<span style=\"color:#ff6724\">落花</span>状态的敌方单位被击败时，自身立刻获得行动回合，并回复<span style=\"color:#158bdb\">2</span>点能量；此效果每间隔<span style=\"color:#158bdb\">2</span>回合最多触发<span style=\"color:#158bdb\">1</span>次。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "进入战斗后，自身攻击力提高<span style=\"color:#158bdb\">10%</span>。\n处于<span style=\"color:#ff6724\">落花</span>状态的敌方单位被击败时，自身立刻获得行动回合，并回复<span style=\"color:#158bdb\">2</span>点能量；此效果每间隔<span style=\"color:#158bdb\">2</span>回合最多触发<span style=\"color:#158bdb\">1</span>次。",
+        "2": "进入战斗后，自身攻击力提高<span style=\"color:#158bdb\">20%</span>。\n处于<span style=\"color:#ff6724\">落花</span>状态的敌方单位被击败时，自身立刻获得行动回合，并回复<span style=\"color:#158bdb\">2</span>点能量；此效果每间隔<span style=\"color:#158bdb\">2</span>回合最多触发<span style=\"color:#158bdb\">1</span>次。",
+        "3": "进入战斗后，自身攻击力提高<span style=\"color:#158bdb\">30%</span>。\n处于<span style=\"color:#ff6724\">落花</span>状态的敌方单位被击败时，自身立刻获得行动回合，并回复<span style=\"color:#158bdb\">2</span>点能量；此效果每间隔<span style=\"color:#158bdb\">2</span>回合最多触发<span style=\"color:#158bdb\">1</span>次。"
+      },
       "icon": "skillicon_S013205",
       "buff": [],
       "type": 6,
@@ -128,6 +155,9 @@
         "冷却:3"
       ],
       "level": 1,
+      "levelDes": {
+        "1": "使用后为自身填充<span style=\"color:#158bdb\">3</span>枚<span style=\"color:#ff6724\">礼弹</span>并进入警戒状态：以自身<span style=\"color:#158bdb\">周围3格</span>为警戒范围，对停留在该范围中的敌方单位进行警戒攻击，对其造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。"
+      },
       "icon": "skillicon_Jobskill_S",
       "buff": [
         {
@@ -151,6 +181,10 @@
     {
       "id": "S0132004",
       "name": "杯中花"
+    },
+    {
+      "id": "S0132003",
+      "name": "邀花酌茗"
     }
   ]
 }

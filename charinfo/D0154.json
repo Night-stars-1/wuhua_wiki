@@ -1,0 +1,173 @@
+{
+  "info": {
+    "Hp": 1800,
+    "Atk": 248,
+    "PhysicDef": 55,
+    "MagicDef": 55,
+    "Speed": 160,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 3,
+    "Mov": 4,
+    "Hp_GROW": 72,
+    "Atk_GROW": 17,
+    "PhysicDef_GROW": 6,
+    "MagicDef_GROW": 6,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": "",
+    "name": "铜坐龙",
+    "rare": 4,
+    "job": 1,
+    "tag": "近战;承伤;回击;突入"
+  },
+  "skill": [
+    {
+      "name": "龙吟",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+      "tag": [
+        "射程1格 ",
+        "无消耗"
+      ],
+      "level": 1,
+      "levelDes": {
+        "1": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+        "2": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">105%</span>的物理伤害。",
+        "3": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">110%</span>的物理伤害。",
+        "4": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">115%</span>的物理伤害。",
+        "5": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。"
+      },
+      "icon": "skillicon_Commonattack_D",
+      "buff": [],
+      "type": 1,
+      "special": null
+    },
+    {
+      "name": "金龙垂目",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">150%</span>的物理伤害，并使其获得持续<span style=\"color:#158bdb\">2</span>回合的<span style=\"color:#ff6724\">震怒</span>和<span style=\"color:#ff6724\">鲁莽</span>状态；同时自身获得持续<span style=\"color:#158bdb\">2</span>回合的<span style=\"color:#ff6724\">皇威</span>状态。",
+      "tag": [
+        "射程2格",
+        "消耗:3",
+        "冷却:2"
+      ],
+      "level": 1,
+      "levelDes": {
+        "1": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">150%</span>的物理伤害，并使其获得持续<span style=\"color:#158bdb\">2</span>回合的<span style=\"color:#ff6724\">震怒</span>和<span style=\"color:#ff6724\">鲁莽</span>状态；同时自身获得持续<span style=\"color:#158bdb\">2</span>回合的<span style=\"color:#ff6724\">皇威</span>状态。",
+        "2": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">175%</span>的物理伤害，并使其获得持续<span style=\"color:#158bdb\">2</span>回合的<span style=\"color:#ff6724\">震怒</span>和<span style=\"color:#ff6724\">鲁莽</span>状态；同时自身获得持续<span style=\"color:#158bdb\">2</span>回合的<span style=\"color:#ff6724\">皇威</span>状态。",
+        "3": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">200%</span>的物理伤害，并使其获得持续<span style=\"color:#158bdb\">2</span>回合的<span style=\"color:#ff6724\">震怒</span>和<span style=\"color:#ff6724\">鲁莽</span>状态；同时自身获得持续<span style=\"color:#158bdb\">2</span>回合的<span style=\"color:#ff6724\">皇威</span>状态。"
+      },
+      "icon": "skillicon_D015402",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">震怒</span>",
+          "des": "只能攻击使自身获得此状态的单位。"
+        },
+        {
+          "name": "<span style=\"color:#ff6724\">鲁莽</span>",
+          "des": "受到的回击伤害提高<span style=\"color:#158bdb\">30%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">1</span>层。"
+        },
+        {
+          "name": "<span style=\"color:#ff6724\">皇威</span>",
+          "des": "回击造成伤害时，使自身防御穿透增加<span style=\"color:#158bdb\">40%</span>。"
+        }
+      ],
+      "type": 3,
+      "special": null
+    },
+    {
+      "name": "神鹰遐顾",
+      "des": "受到自身<span style=\"color:#158bdb\">周围2格</span>内的敌方单位常击时，无论是否命中，均进行回击，对自身<span style=\"color:#158bdb\">周围2格</span>内的敌方全体造成自身攻击力<span style=\"color:#158bdb\">80%</span>的物理伤害，并使自身获得<span style=\"color:#158bdb\">1</span>点能量；\n常击有<span style=\"color:#158bdb\">60%</span>概率使受击单位获得持续<span style=\"color:#158bdb\">1</span>回合的<span style=\"color:#ff6724\">震怒</span>状态。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "levelDes": {
+        "1": "受到自身<span style=\"color:#158bdb\">周围2格</span>内的敌方单位常击时，无论是否命中，均进行回击，对自身<span style=\"color:#158bdb\">周围2格</span>内的敌方全体造成自身攻击力<span style=\"color:#158bdb\">80%</span>的物理伤害，并使自身获得<span style=\"color:#158bdb\">1</span>点能量；\n常击有<span style=\"color:#158bdb\">60%</span>概率使受击单位获得持续<span style=\"color:#158bdb\">1</span>回合的<span style=\"color:#ff6724\">震怒</span>状态。",
+        "2": "受到自身<span style=\"color:#158bdb\">周围2格</span>内的敌方单位常击时，无论是否命中，均进行回击，对自身<span style=\"color:#158bdb\">周围2格</span>内的敌方全体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害，并使自身获得<span style=\"color:#158bdb\">1</span>点能量；\n常击有<span style=\"color:#158bdb\">80%</span>概率使受击单位获得持续<span style=\"color:#158bdb\">1</span>回合的<span style=\"color:#ff6724\">震怒</span>状态。",
+        "3": "受到自身<span style=\"color:#158bdb\">周围2格</span>内的敌方单位常击时，无论是否命中，均进行回击，对自身<span style=\"color:#158bdb\">周围2格</span>内的敌方全体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害，并使自身获得<span style=\"color:#158bdb\">1</span>点能量；\n常击有<span style=\"color:#158bdb\">100%</span>概率使受击单位获得持续<span style=\"color:#158bdb\">1</span>回合的<span style=\"color:#ff6724\">震怒</span>状态。"
+      },
+      "icon": "skillicon_D015403",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">震怒</span>",
+          "des": "只能攻击使自身获得此状态的单位。"
+        }
+      ],
+      "type": 4,
+      "special": null
+    },
+    {
+      "name": "春水秋山",
+      "des": "常击处于<span style=\"color:#ff6724\">震怒</span>状态的敌方单位时，进行连击，对该单位造成自身攻击力<span style=\"color:#158bdb\">50%</span>的物理伤害，同时对自身<span style=\"color:#158bdb\">周围1格</span>内的敌方全体造成自身攻击力<span style=\"color:#158bdb\">80%</span>的<span style=\"color:#ff6724\">额外物理伤害</span>；\n自身攻击力提高物理防御力的<span style=\"color:#158bdb\">80%</span>；\n当自身造成伤害时，<span style=\"color:#158bdb\">周围2格</span>内每存在<span style=\"color:#158bdb\">1</span>个敌方单位，则自身暴击伤害增加<span style=\"color:#158bdb\">20%</span>，最多可叠加<span style=\"color:#158bdb\">5</span>层。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "levelDes": {
+        "1": "常击处于<span style=\"color:#ff6724\">震怒</span>状态的敌方单位时，进行连击，对该单位造成自身攻击力<span style=\"color:#158bdb\">50%</span>的物理伤害，同时对自身<span style=\"color:#158bdb\">周围1格</span>内的敌方全体造成自身攻击力<span style=\"color:#158bdb\">80%</span>的<span style=\"color:#ff6724\">额外物理伤害</span>；\n自身攻击力提高物理防御力的<span style=\"color:#158bdb\">80%</span>；\n当自身造成伤害时，<span style=\"color:#158bdb\">周围2格</span>内每存在<span style=\"color:#158bdb\">1</span>个敌方单位，则自身暴击伤害增加<span style=\"color:#158bdb\">20%</span>，最多可叠加<span style=\"color:#158bdb\">5</span>层。",
+        "2": "常击处于<span style=\"color:#ff6724\">震怒</span>状态的敌方单位时，进行连击，对该单位造成自身攻击力<span style=\"color:#158bdb\">50%</span>的物理伤害，同时对自身<span style=\"color:#158bdb\">周围1格</span>内的敌方全体造成自身攻击力<span style=\"color:#158bdb\">80%</span>的<span style=\"color:#ff6724\">额外物理伤害</span>；\n自身攻击力提高物理防御力的<span style=\"color:#158bdb\">100%</span>；\n当自身造成伤害时，<span style=\"color:#158bdb\">周围2格</span>内每存在<span style=\"color:#158bdb\">1</span>个敌方单位，则自身暴击伤害增加<span style=\"color:#158bdb\">20%</span>，最多可叠加<span style=\"color:#158bdb\">5</span>层。",
+        "3": "常击处于<span style=\"color:#ff6724\">震怒</span>状态的敌方单位时，进行连击，对该单位造成自身攻击力<span style=\"color:#158bdb\">50%</span>的物理伤害，同时对自身<span style=\"color:#158bdb\">周围1格</span>内的敌方全体造成自身攻击力<span style=\"color:#158bdb\">80%</span>的<span style=\"color:#ff6724\">额外物理伤害</span>；\n自身攻击力提高物理防御力的<span style=\"color:#158bdb\">120%</span>；\n当自身造成伤害时，<span style=\"color:#158bdb\">周围2格</span>内每存在<span style=\"color:#158bdb\">1</span>个敌方单位，则自身暴击伤害增加<span style=\"color:#158bdb\">20%</span>，最多可叠加<span style=\"color:#158bdb\">5</span>层。"
+      },
+      "icon": "skillicon_D015404",
+      "buff": [],
+      "type": 5,
+      "special": null
+    },
+    {
+      "name": "伏龙巡猎",
+      "des": "受到敌方攻击时，自身<span style=\"color:#158bdb\">周围2格</span>内每存在<span style=\"color:#158bdb\">1</span>个敌方单位，则自身格挡率增加<span style=\"color:#158bdb\">10%</span>，最多可叠加<span style=\"color:#158bdb\">3</span>层；\n触发格挡后，自身下<span style=\"color:#158bdb\">1</span>次造成伤害必定暴击。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "levelDes": {
+        "1": "受到敌方攻击时，自身<span style=\"color:#158bdb\">周围2格</span>内每存在<span style=\"color:#158bdb\">1</span>个敌方单位，则自身格挡率增加<span style=\"color:#158bdb\">10%</span>，最多可叠加<span style=\"color:#158bdb\">3</span>层；\n触发格挡后，自身下<span style=\"color:#158bdb\">1</span>次造成伤害必定暴击。",
+        "2": "受到敌方攻击时，自身<span style=\"color:#158bdb\">周围2格</span>内每存在<span style=\"color:#158bdb\">1</span>个敌方单位，则自身格挡率增加<span style=\"color:#158bdb\">12%</span>，最多可叠加<span style=\"color:#158bdb\">3</span>层；\n触发格挡后，自身下<span style=\"color:#158bdb\">1</span>次造成伤害必定暴击。",
+        "3": "受到敌方攻击时，自身<span style=\"color:#158bdb\">周围2格</span>内每存在<span style=\"color:#158bdb\">1</span>个敌方单位，则自身格挡率增加<span style=\"color:#158bdb\">15%</span>，最多可叠加<span style=\"color:#158bdb\">3</span>层；\n触发格挡后，自身下<span style=\"color:#158bdb\">1</span>次造成伤害必定暴击。"
+      },
+      "icon": "skillicon_D015405",
+      "buff": [],
+      "type": 6,
+      "special": "受到敌方攻击时，自身<span style=\"color:#158bdb\">周围3格</span>内每存在<span style=\"color:#158bdb\">1</span>个敌方单位，则自身格挡率增加<span style=\"color:#158bdb\">16%</span>，最多可叠加<span style=\"color:#158bdb\">3</span>层；\n触发格挡后，自身下<span style=\"color:#158bdb\">1</span>次造成伤害必定暴击。暴击后，自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">伏龙巡猎</span>状态。"
+    },
+    {
+      "name": "动若雷霆",
+      "des": "选定自身<span style=\"color:#158bdb\">周围5格</span>内的任意空置地块进行传送，并获得<span style=\"color:#158bdb\">1</span>次移动力为<span style=\"color:#158bdb\">0</span>的再行动。<span style=\"color:#158bdb\">2</span>回合内，该地块<span style=\"color:#158bdb\">周围2格</span>内敌方单位的移动消耗增加<span style=\"color:#158bdb\">1</span>。",
+      "tag": [
+        "射程5格",
+        "无消耗",
+        "冷却:4"
+      ],
+      "level": 1,
+      "levelDes": {
+        "1": "选定自身<span style=\"color:#158bdb\">周围5格</span>内的任意空置地块进行传送，并获得<span style=\"color:#158bdb\">1</span>次移动力为<span style=\"color:#158bdb\">0</span>的再行动。<span style=\"color:#158bdb\">2</span>回合内，该地块<span style=\"color:#158bdb\">周围2格</span>内敌方单位的移动消耗增加<span style=\"color:#158bdb\">1</span>。"
+      },
+      "icon": "skillicon_D015411",
+      "buff": [],
+      "type": 2,
+      "special": null
+    }
+  ],
+  "skin": [
+    {
+      "id": "D0154001",
+      "name": "肖形"
+    },
+    {
+      "id": "D0154002",
+      "name": "写照"
+    }
+  ]
+}

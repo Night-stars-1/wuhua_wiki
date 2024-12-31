@@ -36,12 +36,19 @@
   "skill": [
     {
       "name": "泼釉",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
       "tag": [
         "射程1格 ",
         "无消耗"
       ],
-      "level": 5,
+      "level": 1,
+      "levelDes": {
+        "1": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+        "2": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">105%</span>的物理伤害。",
+        "3": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">110%</span>的物理伤害。",
+        "4": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">115%</span>的物理伤害。",
+        "5": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。"
+      },
       "icon": "skillicon_Commonattack_D",
       "buff": [],
       "type": 1,
@@ -49,12 +56,17 @@
     },
     {
       "name": "浮彩",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">300%</span>的物理伤害，并获得自身最大生命值<span style=\"color:#158bdb\">30%</span>的构素护盾。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">240%</span>的物理伤害，并获得自身最大生命值<span style=\"color:#158bdb\">10%</span>的构素护盾。",
       "tag": [
         "射程1格 ",
         "消耗:3"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">240%</span>的物理伤害，并获得自身最大生命值<span style=\"color:#158bdb\">10%</span>的构素护盾。",
+        "2": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">270%</span>的物理伤害，并获得自身最大生命值<span style=\"color:#158bdb\">20%</span>的构素护盾。",
+        "3": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">300%</span>的物理伤害，并获得自身最大生命值<span style=\"color:#158bdb\">30%</span>的构素护盾。"
+      },
       "icon": "skillicon_D001702",
       "buff": [],
       "type": 3,
@@ -62,11 +74,16 @@
     },
     {
       "name": "涂鸦天才",
-      "des": "受到任意伤害后，获得该伤害量<span style=\"color:#158bdb\">20%</span>的构素护盾。",
+      "des": "受到任意伤害后，获得该伤害量<span style=\"color:#158bdb\">10%</span>的构素护盾。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "受到任意伤害后，获得该伤害量<span style=\"color:#158bdb\">10%</span>的构素护盾。",
+        "2": "受到任意伤害后，获得该伤害量<span style=\"color:#158bdb\">15%</span>的构素护盾。",
+        "3": "受到任意伤害后，获得该伤害量<span style=\"color:#158bdb\">20%</span>的构素护盾。"
+      },
       "icon": "skillicon_D001703",
       "buff": [],
       "type": 4,
@@ -74,11 +91,16 @@
     },
     {
       "name": "染色",
-      "des": "自身能量不低于<span style=\"color:#158bdb\">1</span>点时，可<span style=\"color:#ff6724\">援护</span>自身<span style=\"color:#158bdb\">周围1格</span>内的友方单位。",
+      "des": "自身能量不低于<span style=\"color:#158bdb\">3</span>点时，可<span style=\"color:#ff6724\">援护</span>自身<span style=\"color:#158bdb\">周围1格</span>内的友方单位。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "自身能量不低于<span style=\"color:#158bdb\">3</span>点时，可<span style=\"color:#ff6724\">援护</span>自身<span style=\"color:#158bdb\">周围1格</span>内的友方单位。",
+        "2": "自身能量不低于<span style=\"color:#158bdb\">2</span>点时，可<span style=\"color:#ff6724\">援护</span>自身<span style=\"color:#158bdb\">周围1格</span>内的友方单位。",
+        "3": "自身能量不低于<span style=\"color:#158bdb\">1</span>点时，可<span style=\"color:#ff6724\">援护</span>自身<span style=\"color:#158bdb\">周围1格</span>内的友方单位。"
+      },
       "icon": "skillicon_D001704",
       "buff": [
         {
@@ -87,15 +109,20 @@
         }
       ],
       "type": 5,
-      "special": "<span style=\"color:#ff6724\">援护</span>自身<span style=\"color:#158bdb\">周围1格</span>内的友方单位。"
+      "special": "自身能量不低于<span style=\"color:#158bdb\">2</span>点时，可<span style=\"color:#ff6724\">援护</span>自身<span style=\"color:#158bdb\">周围1格</span>内的友方单位。"
     },
     {
       "name": "点彩",
-      "des": "进入战斗后，自身构素伤害减免增加<span style=\"color:#158bdb\">15%</span>。",
+      "des": "进入战斗后，自身构素伤害减免增加<span style=\"color:#158bdb\">8%</span>。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "进入战斗后，自身构素伤害减免增加<span style=\"color:#158bdb\">8%</span>。",
+        "2": "进入战斗后，自身构素伤害减免增加<span style=\"color:#158bdb\">11%</span>。",
+        "3": "进入战斗后，自身构素伤害减免增加<span style=\"color:#158bdb\">15%</span>。"
+      },
       "icon": "skillicon_D001705",
       "buff": [],
       "type": 6,
@@ -110,6 +137,9 @@
         "冷却:2"
       ],
       "level": 1,
+      "levelDes": {
+        "1": "使自身选定方向前<span style=\"color:#158bdb\">1</span>排的<span style=\"color:#158bdb\">3</span>格变为束缚格，效果持续<span style=\"color:#158bdb\">1</span>回合。若敌方单位进入束缚格，将无法离开束缚格范围，并进入<span style=\"color:#ff6724\">解构</span>状态。"
+      },
       "icon": "skillicon_Jobskill_D_Z",
       "buff": [
         {
@@ -129,6 +159,10 @@
     {
       "id": "D0017002",
       "name": "写照"
+    },
+    {
+      "id": "D0017003",
+      "name": "涂鸦世界"
     }
   ]
 }

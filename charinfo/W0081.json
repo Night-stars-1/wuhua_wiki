@@ -36,12 +36,19 @@
   "skill": [
     {
       "name": "香袭",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的构素伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
       "tag": [
         "射程2格",
         "无消耗"
       ],
-      "level": 5,
+      "level": 1,
+      "levelDes": {
+        "1": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
+        "2": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">105%</span>的构素伤害。",
+        "3": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">110%</span>的构素伤害。",
+        "4": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">115%</span>的构素伤害。",
+        "5": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的构素伤害。"
+      },
       "icon": "skillicon_Commonattack_W",
       "buff": [],
       "type": 1,
@@ -49,13 +56,18 @@
     },
     {
       "name": "花鸟盈香",
-      "des": "为选定的友方单位及其<span style=\"color:#158bdb\">周围2格</span>的友方全体回复自身攻击力<span style=\"color:#158bdb\">30%+800</span>的生命值，驱散其持续伤害类和属性降低类负面效果，并使其获得持续<span style=\"color:#158bdb\">2</span>回合的<span style=\"color:#ff6724\">余香</span>状态。",
+      "des": "为选定的友方单位及其<span style=\"color:#158bdb\">周围2格</span>的友方全体回复自身攻击力<span style=\"color:#158bdb\">10%+400</span>的生命值，驱散其持续伤害类和属性降低类负面效果，并使其获得持续<span style=\"color:#158bdb\">2</span>回合的<span style=\"color:#ff6724\">余香</span>状态。",
       "tag": [
         "射程2格",
         "消耗:3",
         "冷却:2"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "为选定的友方单位及其<span style=\"color:#158bdb\">周围2格</span>的友方全体回复自身攻击力<span style=\"color:#158bdb\">10%+400</span>的生命值，驱散其持续伤害类和属性降低类负面效果，并使其获得持续<span style=\"color:#158bdb\">2</span>回合的<span style=\"color:#ff6724\">余香</span>状态。",
+        "2": "为选定的友方单位及其<span style=\"color:#158bdb\">周围2格</span>的友方全体回复自身攻击力<span style=\"color:#158bdb\">20%+600</span>的生命值，驱散其持续伤害类和属性降低类负面效果，并使其获得持续<span style=\"color:#158bdb\">2</span>回合的<span style=\"color:#ff6724\">余香</span>状态。",
+        "3": "为选定的友方单位及其<span style=\"color:#158bdb\">周围2格</span>的友方全体回复自身攻击力<span style=\"color:#158bdb\">30%+800</span>的生命值，驱散其持续伤害类和属性降低类负面效果，并使其获得持续<span style=\"color:#158bdb\">2</span>回合的<span style=\"color:#ff6724\">余香</span>状态。"
+      },
       "icon": "skillicon_W008102",
       "buff": [
         {
@@ -68,11 +80,16 @@
     },
     {
       "name": "馥烟薄沁",
-      "des": "使用职业技能时，若选定自身为目标，则使自身<span style=\"color:#158bdb\">周围2格</span>的友方全体回复自身攻击力<span style=\"color:#158bdb\">25%+300</span>的生命值；\n若选定除自身外的其他友方单位，则该次治疗时自身攻击力提升至<span style=\"color:#158bdb\">1.7</span>倍，且自身额外获得<span style=\"color:#158bdb\">1</span>点能量。",
+      "des": "使用职业技能时，若选定自身为目标，则使自身<span style=\"color:#158bdb\">周围2格</span>的友方全体回复自身攻击力<span style=\"color:#158bdb\">25%+300</span>的生命值；\n若选定除自身外的其他友方单位，则该次治疗时自身攻击力提升至<span style=\"color:#158bdb\">1.3</span>倍，且自身额外获得<span style=\"color:#158bdb\">1</span>点能量。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "使用职业技能时，若选定自身为目标，则使自身<span style=\"color:#158bdb\">周围2格</span>的友方全体回复自身攻击力<span style=\"color:#158bdb\">25%+300</span>的生命值；\n若选定除自身外的其他友方单位，则该次治疗时自身攻击力提升至<span style=\"color:#158bdb\">1.3</span>倍，且自身额外获得<span style=\"color:#158bdb\">1</span>点能量。",
+        "2": "使用职业技能时，若选定自身为目标，则使自身<span style=\"color:#158bdb\">周围2格</span>的友方全体回复自身攻击力<span style=\"color:#158bdb\">25%+300</span>的生命值；\n若选定除自身外的其他友方单位，则该次治疗时自身攻击力提升至<span style=\"color:#158bdb\">1.5</span>倍，且自身额外获得<span style=\"color:#158bdb\">1</span>点能量。",
+        "3": "使用职业技能时，若选定自身为目标，则使自身<span style=\"color:#158bdb\">周围2格</span>的友方全体回复自身攻击力<span style=\"color:#158bdb\">25%+300</span>的生命值；\n若选定除自身外的其他友方单位，则该次治疗时自身攻击力提升至<span style=\"color:#158bdb\">1.7</span>倍，且自身额外获得<span style=\"color:#158bdb\">1</span>点能量。"
+      },
       "icon": "skillicon_W008103",
       "buff": [],
       "type": 4,
@@ -84,7 +101,12 @@
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "进入战斗时，获得<span style=\"color:#158bdb\">5</span>层<span style=\"color:#ff6724\">沐芳</span>状态；\n每回合开始时、自身每次溢出能量时，则获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">沐芳</span>状态；\n使用职业技能时，每治疗<span style=\"color:#158bdb\">1</span>个单位，则获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">沐芳</span>状态。",
+        "2": "进入战斗时，获得<span style=\"color:#158bdb\">5</span>层<span style=\"color:#ff6724\">沐芳</span>状态；\n每回合开始时、自身每次溢出能量时，则获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">沐芳</span>状态；\n使用职业技能时，每治疗<span style=\"color:#158bdb\">1</span>个单位，则获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">沐芳</span>状态。",
+        "3": "进入战斗时，获得<span style=\"color:#158bdb\">5</span>层<span style=\"color:#ff6724\">沐芳</span>状态；\n每回合开始时、自身每次溢出能量时，则获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">沐芳</span>状态；\n使用职业技能时，每治疗<span style=\"color:#158bdb\">1</span>个单位，则获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">沐芳</span>状态。"
+      },
       "icon": "skillicon_W008104",
       "buff": [
         {
@@ -97,11 +119,16 @@
     },
     {
       "name": "金盂恒衡",
-      "des": "进入战斗后，暴击率增加<span style=\"color:#158bdb\">60%</span>；\n若自身<span style=\"color:#158bdb\">1</span>回合内未进行常击，则回合结束时额外获得<span style=\"color:#158bdb\">1</span>点能量；\n进行常击时，消耗<span style=\"color:#158bdb\">4</span>层<span style=\"color:#ff6724\">沐芳</span>状态，使自身<span style=\"color:#158bdb\">周围1圈</span>内的随机<span style=\"color:#158bdb\">1</span>名友方单位获得<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">啸剑</span>和<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">蓄势</span>状态；\n使用绝技时，消耗<span style=\"color:#158bdb\">10</span>层<span style=\"color:#ff6724\">沐芳</span>状态，使选定单位及其<span style=\"color:#158bdb\">周围1格</span>的友方全体获得<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">啸剑</span>和<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">蓄势</span>状态。",
+      "des": "进入战斗后，暴击率增加<span style=\"color:#158bdb\">30%</span>；\n若自身<span style=\"color:#158bdb\">1</span>回合内未进行常击，则回合结束时额外获得<span style=\"color:#158bdb\">1</span>点能量；\n进行常击时，消耗<span style=\"color:#158bdb\">4</span>层<span style=\"color:#ff6724\">沐芳</span>状态，使自身<span style=\"color:#158bdb\">周围1圈</span>内的随机<span style=\"color:#158bdb\">1</span>名友方单位获得<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">啸剑</span>和<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">蓄势</span>状态；\n使用绝技时，消耗<span style=\"color:#158bdb\">10</span>层<span style=\"color:#ff6724\">沐芳</span>状态，使选定单位及其<span style=\"color:#158bdb\">周围1格</span>的友方全体获得<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">啸剑</span>和<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">蓄势</span>状态。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "进入战斗后，暴击率增加<span style=\"color:#158bdb\">30%</span>；\n若自身<span style=\"color:#158bdb\">1</span>回合内未进行常击，则回合结束时额外获得<span style=\"color:#158bdb\">1</span>点能量；\n进行常击时，消耗<span style=\"color:#158bdb\">4</span>层<span style=\"color:#ff6724\">沐芳</span>状态，使自身<span style=\"color:#158bdb\">周围1圈</span>内的随机<span style=\"color:#158bdb\">1</span>名友方单位获得<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">啸剑</span>和<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">蓄势</span>状态；\n使用绝技时，消耗<span style=\"color:#158bdb\">10</span>层<span style=\"color:#ff6724\">沐芳</span>状态，使选定单位及其<span style=\"color:#158bdb\">周围1格</span>的友方全体获得<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">啸剑</span>和<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">蓄势</span>状态。",
+        "2": "进入战斗后，暴击率增加<span style=\"color:#158bdb\">45%</span>；\n若自身<span style=\"color:#158bdb\">1</span>回合内未进行常击，则回合结束时额外获得<span style=\"color:#158bdb\">1</span>点能量；\n进行常击时，消耗<span style=\"color:#158bdb\">4</span>层<span style=\"color:#ff6724\">沐芳</span>状态，使自身<span style=\"color:#158bdb\">周围1圈</span>内的随机<span style=\"color:#158bdb\">1</span>名友方单位获得<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">啸剑</span>和<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">蓄势</span>状态；\n使用绝技时，消耗<span style=\"color:#158bdb\">10</span>层<span style=\"color:#ff6724\">沐芳</span>状态，使选定单位及其<span style=\"color:#158bdb\">周围1格</span>的友方全体获得<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">啸剑</span>和<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">蓄势</span>状态。",
+        "3": "进入战斗后，暴击率增加<span style=\"color:#158bdb\">60%</span>；\n若自身<span style=\"color:#158bdb\">1</span>回合内未进行常击，则回合结束时额外获得<span style=\"color:#158bdb\">1</span>点能量；\n进行常击时，消耗<span style=\"color:#158bdb\">4</span>层<span style=\"color:#ff6724\">沐芳</span>状态，使自身<span style=\"color:#158bdb\">周围1圈</span>内的随机<span style=\"color:#158bdb\">1</span>名友方单位获得<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">啸剑</span>和<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">蓄势</span>状态；\n使用绝技时，消耗<span style=\"color:#158bdb\">10</span>层<span style=\"color:#ff6724\">沐芳</span>状态，使选定单位及其<span style=\"color:#158bdb\">周围1格</span>的友方全体获得<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">啸剑</span>和<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">蓄势</span>状态。"
+      },
       "icon": "skillicon_W008105",
       "buff": [
         {
@@ -114,7 +141,7 @@
         }
       ],
       "type": 6,
-      "special": "进入战斗后，暴击率增加<span style=\"color:#158bdb\">60%</span>；\n若自身<span style=\"color:#158bdb\">1</span>回合内未进行常击，则回合结束时额外获得<span style=\"color:#158bdb\">1</span>点能量；\n进行常击时，消耗<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">沐芳</span>状态，使自身<span style=\"color:#158bdb\">周围1圈</span>内的随机<span style=\"color:#158bdb\">1</span>名友方单位获得<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">啸剑</span>、<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">蓄势</span>和<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">附加移动力</span>状态；\n使用绝技时，消耗<span style=\"color:#158bdb\">7</span>层<span style=\"color:#ff6724\">沐芳</span>状态，使选定单位及其<span style=\"color:#158bdb\">周围1格</span>的友方全体获得<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">啸剑</span>、<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">蓄势</span>和<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">附加移动力</span>状态。"
+      "special": "进入战斗后，暴击率增加<span style=\"color:#158bdb\">30%</span>；\n若自身<span style=\"color:#158bdb\">1</span>回合内未进行常击，则回合结束时额外获得<span style=\"color:#158bdb\">1</span>点能量；\n进行常击时，消耗<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">沐芳</span>状态，使自身<span style=\"color:#158bdb\">周围1圈</span>内的随机<span style=\"color:#158bdb\">1</span>名友方单位获得<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">啸剑</span>、<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">蓄势</span>和<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">附加移动力</span>状态；\n使用绝技时，消耗<span style=\"color:#158bdb\">7</span>层<span style=\"color:#ff6724\">沐芳</span>状态，使选定单位及其<span style=\"color:#158bdb\">周围1格</span>的友方全体获得<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">啸剑</span>、<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">蓄势</span>和<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">附加移动力</span>状态。"
     },
     {
       "name": "葡枝蔓生",
@@ -124,6 +151,9 @@
         "消耗:2"
       ],
       "level": 1,
+      "levelDes": {
+        "1": "为选定的友方单体回复自身攻击力<span style=\"color:#158bdb\">25%+300</span>的生命值。"
+      },
       "icon": "skillicon_Jobskill_W_H",
       "buff": [],
       "type": 2,

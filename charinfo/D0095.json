@@ -36,12 +36,19 @@
   "skill": [
     {
       "name": "旋斩",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
       "tag": [
         "射程1格 ",
         "无消耗"
       ],
-      "level": 5,
+      "level": 1,
+      "levelDes": {
+        "1": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+        "2": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">105%</span>的物理伤害。",
+        "3": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">110%</span>的物理伤害。",
+        "4": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">115%</span>的物理伤害。",
+        "5": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。"
+      },
       "icon": "skillicon_Commonattack_D",
       "buff": [],
       "type": 1,
@@ -49,12 +56,17 @@
     },
     {
       "name": "骑士传说",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">360%</span>的物理伤害并使自身回复最大生命值的<span style=\"color:#158bdb\">20%</span>，同时进入<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">犇牛</span>状态。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">280%</span>的物理伤害并使自身回复最大生命值的<span style=\"color:#158bdb\">10%</span>，同时进入<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">犇牛</span>状态。",
       "tag": [
         "射程1格 ",
         "消耗:3"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">280%</span>的物理伤害并使自身回复最大生命值的<span style=\"color:#158bdb\">10%</span>，同时进入<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">犇牛</span>状态。",
+        "2": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">320%</span>的物理伤害并使自身回复最大生命值的<span style=\"color:#158bdb\">15%</span>，同时进入<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">犇牛</span>状态。",
+        "3": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">360%</span>的物理伤害并使自身回复最大生命值的<span style=\"color:#158bdb\">20%</span>，同时进入<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">犇牛</span>状态。"
+      },
       "icon": "skillicon_D009502",
       "buff": [
         {
@@ -67,11 +79,16 @@
     },
     {
       "name": "四牛为守",
-      "des": "受到直接伤害会获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">犇牛</span>效果，每层<span style=\"color:#ff6724\">犇牛</span>效果增加<span style=\"color:#158bdb\">7%</span>最大生命值，持续时间无限。",
+      "des": "受到直接伤害会获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">犇牛</span>效果，每层<span style=\"color:#ff6724\">犇牛</span>效果增加<span style=\"color:#158bdb\">5%</span>最大生命值，持续时间无限。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "受到直接伤害会获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">犇牛</span>效果，每层<span style=\"color:#ff6724\">犇牛</span>效果增加<span style=\"color:#158bdb\">5%</span>最大生命值，持续时间无限。",
+        "2": "受到直接伤害会获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">犇牛</span>效果，每层<span style=\"color:#ff6724\">犇牛</span>效果增加<span style=\"color:#158bdb\">6%</span>最大生命值，持续时间无限。",
+        "3": "受到直接伤害会获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">犇牛</span>效果，每层<span style=\"color:#ff6724\">犇牛</span>效果增加<span style=\"color:#158bdb\">7%</span>最大生命值，持续时间无限。"
+      },
       "icon": "skillicon_D009503",
       "buff": [
         {
@@ -80,15 +97,20 @@
         }
       ],
       "type": 4,
-      "special": "受到直接伤害会获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">犇牛</span>效果，首次行动时直接获得<span style=\"color:#158bdb\">1</span>层，每层<span style=\"color:#ff6724\">犇牛</span>效果增加<span style=\"color:#158bdb\">7%</span>最大生命值，持续时间无限。"
+      "special": "受到直接伤害会获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">犇牛</span>效果，首次行动时直接获得<span style=\"color:#158bdb\">1</span>层，每层<span style=\"color:#ff6724\">犇牛</span>效果增加<span style=\"color:#158bdb\">5%</span>最大生命值，持续时间无限。"
     },
     {
       "name": "鎏金铸甲",
-      "des": "自身持有<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">犇牛</span>时，受到<span style=\"color:#158bdb\">周围1格</span>内敌方单位的常击后进行回击，对其造成自身攻击力<span style=\"color:#158bdb\">110%</span>的物理伤害，持有<span style=\"color:#158bdb\">3</span>层<span style=\"color:#ff6724\">犇牛</span>时增加<span style=\"color:#158bdb\">2</span>格移动力并免疫移动力降低类效果；持有<span style=\"color:#158bdb\">4</span>层时受治疗增益增加<span style=\"color:#158bdb\">15%</span>。",
+      "des": "自身持有<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">犇牛</span>时，受到<span style=\"color:#158bdb\">周围1格</span>内敌方单位的常击后进行回击，对其造成自身攻击力<span style=\"color:#158bdb\">70%</span>的物理伤害，持有<span style=\"color:#158bdb\">3</span>层<span style=\"color:#ff6724\">犇牛</span>时增加<span style=\"color:#158bdb\">1</span>格移动力并免疫移动力降低类效果；持有<span style=\"color:#158bdb\">4</span>层时受治疗增益增加<span style=\"color:#158bdb\">9%</span>。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "自身持有<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">犇牛</span>时，受到<span style=\"color:#158bdb\">周围1格</span>内敌方单位的常击后进行回击，对其造成自身攻击力<span style=\"color:#158bdb\">70%</span>的物理伤害，持有<span style=\"color:#158bdb\">3</span>层<span style=\"color:#ff6724\">犇牛</span>时增加<span style=\"color:#158bdb\">1</span>格移动力并免疫移动力降低类效果；持有<span style=\"color:#158bdb\">4</span>层时受治疗增益增加<span style=\"color:#158bdb\">9%</span>。",
+        "2": "自身持有<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">犇牛</span>时，受到<span style=\"color:#158bdb\">周围1格</span>内敌方单位的常击后进行回击，对其造成自身攻击力<span style=\"color:#158bdb\">90%</span>的物理伤害，持有<span style=\"color:#158bdb\">3</span>层<span style=\"color:#ff6724\">犇牛</span>时增加<span style=\"color:#158bdb\">1</span>格移动力并免疫移动力降低类效果；持有<span style=\"color:#158bdb\">4</span>层时受治疗增益增加<span style=\"color:#158bdb\">12%</span>。",
+        "3": "自身持有<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">犇牛</span>时，受到<span style=\"color:#158bdb\">周围1格</span>内敌方单位的常击后进行回击，对其造成自身攻击力<span style=\"color:#158bdb\">110%</span>的物理伤害，持有<span style=\"color:#158bdb\">3</span>层<span style=\"color:#ff6724\">犇牛</span>时增加<span style=\"color:#158bdb\">2</span>格移动力并免疫移动力降低类效果；持有<span style=\"color:#158bdb\">4</span>层时受治疗增益增加<span style=\"color:#158bdb\">15%</span>。"
+      },
       "icon": "skillicon_D009504",
       "buff": [],
       "type": 5,
@@ -96,11 +118,16 @@
     },
     {
       "name": "守护之誓",
-      "des": "受到治疗时，将累计受到的治疗量，下一次回击时，将附加累计受到治疗量<span style=\"color:#158bdb\">60%</span>的<span style=\"color:#ff6724\">额外物理伤害</span>。",
+      "des": "受到治疗时，将累计受到的治疗量，下一次回击时，将附加累计受到治疗量<span style=\"color:#158bdb\">40%</span>的<span style=\"color:#ff6724\">额外物理伤害</span>。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "受到治疗时，将累计受到的治疗量，下一次回击时，将附加累计受到治疗量<span style=\"color:#158bdb\">40%</span>的<span style=\"color:#ff6724\">额外物理伤害</span>。",
+        "2": "受到治疗时，将累计受到的治疗量，下一次回击时，将附加累计受到治疗量<span style=\"color:#158bdb\">50%</span>的<span style=\"color:#ff6724\">额外物理伤害</span>。",
+        "3": "受到治疗时，将累计受到的治疗量，下一次回击时，将附加累计受到治疗量<span style=\"color:#158bdb\">60%</span>的<span style=\"color:#ff6724\">额外物理伤害</span>。"
+      },
       "icon": "skillicon_D009505",
       "buff": [
         {
@@ -109,7 +136,7 @@
         }
       ],
       "type": 6,
-      "special": "受到治疗时，将累计受到的治疗量，下一次回击时，将附加累计受到治疗量<span style=\"color:#158bdb\">60%</span>的<span style=\"color:#ff6724\">额外物理伤害</span>。"
+      "special": "受到治疗时，将累计受到的治疗量，下一次回击时，将附加累计受到治疗量<span style=\"color:#158bdb\">40%</span>的<span style=\"color:#ff6724\">额外物理伤害</span>。"
     },
     {
       "name": "贮藏",
@@ -120,6 +147,9 @@
         "冷却:2"
       ],
       "level": 1,
+      "levelDes": {
+        "1": "使自身选定方向前<span style=\"color:#158bdb\">1</span>排的<span style=\"color:#158bdb\">3</span>格变为束缚格，效果持续<span style=\"color:#158bdb\">1</span>回合。若敌方单位进入束缚格，将无法离开束缚格范围，并进入<span style=\"color:#ff6724\">破甲</span>状态。"
+      },
       "icon": "skillicon_Jobskill_D_Z",
       "buff": [
         {
@@ -139,6 +169,10 @@
     {
       "id": "D0095002",
       "name": "写照"
+    },
+    {
+      "id": "D0095003",
+      "name": "骑将独戍"
     }
   ]
 }

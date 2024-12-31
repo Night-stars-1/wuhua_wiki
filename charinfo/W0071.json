@@ -36,12 +36,19 @@
   "skill": [
     {
       "name": "单刀",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的构素伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
       "tag": [
         "射程2格",
         "无消耗"
       ],
-      "level": 5,
+      "level": 1,
+      "levelDes": {
+        "1": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
+        "2": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">105%</span>的构素伤害。",
+        "3": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">110%</span>的构素伤害。",
+        "4": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">115%</span>的构素伤害。",
+        "5": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的构素伤害。"
+      },
       "icon": "skillicon_Commonattack_W",
       "buff": [],
       "type": 1,
@@ -49,12 +56,17 @@
     },
     {
       "name": "印文如风",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">280%</span>的构素伤害，并使其进入<span style=\"color:#ff6724\">火印</span>状态。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">220%</span>的构素伤害，并使其进入<span style=\"color:#ff6724\">火印</span>状态。",
       "tag": [
         "射程2格",
         "消耗:3"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">220%</span>的构素伤害，并使其进入<span style=\"color:#ff6724\">火印</span>状态。",
+        "2": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">250%</span>的构素伤害，并使其进入<span style=\"color:#ff6724\">火印</span>状态。",
+        "3": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">280%</span>的构素伤害，并使其进入<span style=\"color:#ff6724\">火印</span>状态。"
+      },
       "icon": "skillicon_W007102",
       "buff": [
         {
@@ -67,11 +79,16 @@
     },
     {
       "name": "沉雕",
-      "des": "攻击敌方单位时，若该单位同时处于<span style=\"color:#ff6724\">火印</span>状态和<span style=\"color:#ff6724\">雪渔</span>状态，则消耗全部<span style=\"color:#ff6724\">火印</span>和<span style=\"color:#ff6724\">雪渔</span>，对该单位额外造成自身攻击力<span style=\"color:#158bdb\">150%</span>的构素伤害。",
+      "des": "攻击敌方单位时，若该单位同时处于<span style=\"color:#ff6724\">火印</span>状态和<span style=\"color:#ff6724\">雪渔</span>状态，则消耗全部<span style=\"color:#ff6724\">火印</span>和<span style=\"color:#ff6724\">雪渔</span>，对该单位额外造成自身攻击力<span style=\"color:#158bdb\">110%</span>的构素伤害。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "攻击敌方单位时，若该单位同时处于<span style=\"color:#ff6724\">火印</span>状态和<span style=\"color:#ff6724\">雪渔</span>状态，则消耗全部<span style=\"color:#ff6724\">火印</span>和<span style=\"color:#ff6724\">雪渔</span>，对该单位额外造成自身攻击力<span style=\"color:#158bdb\">110%</span>的构素伤害。",
+        "2": "攻击敌方单位时，若该单位同时处于<span style=\"color:#ff6724\">火印</span>状态和<span style=\"color:#ff6724\">雪渔</span>状态，则消耗全部<span style=\"color:#ff6724\">火印</span>和<span style=\"color:#ff6724\">雪渔</span>，对该单位额外造成自身攻击力<span style=\"color:#158bdb\">130%</span>的构素伤害。",
+        "3": "攻击敌方单位时，若该单位同时处于<span style=\"color:#ff6724\">火印</span>状态和<span style=\"color:#ff6724\">雪渔</span>状态，则消耗全部<span style=\"color:#ff6724\">火印</span>和<span style=\"color:#ff6724\">雪渔</span>，对该单位额外造成自身攻击力<span style=\"color:#158bdb\">150%</span>的构素伤害。"
+      },
       "icon": "skillicon_W007103",
       "buff": [],
       "type": 4,
@@ -79,11 +96,16 @@
     },
     {
       "name": "锉磨",
-      "des": "触发被动技能<span style=\"color:#ff6724\">沉雕</span>时，使该敌方单位获得<span style=\"color:#158bdb\">3</span>层<span style=\"color:#ff6724\">脆弱</span>状态。",
+      "des": "触发被动技能<span style=\"color:#ff6724\">沉雕</span>时，使该敌方单位获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">脆弱</span>状态。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "触发被动技能<span style=\"color:#ff6724\">沉雕</span>时，使该敌方单位获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">脆弱</span>状态。",
+        "2": "触发被动技能<span style=\"color:#ff6724\">沉雕</span>时，使该敌方单位获得<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">脆弱</span>状态。",
+        "3": "触发被动技能<span style=\"color:#ff6724\">沉雕</span>时，使该敌方单位获得<span style=\"color:#158bdb\">3</span>层<span style=\"color:#ff6724\">脆弱</span>状态。"
+      },
       "icon": "skillicon_W007104",
       "buff": [
         {
@@ -92,15 +114,20 @@
         }
       ],
       "type": 5,
-      "special": "触发被动技能<span style=\"color:#ff6724\">沉雕</span>时，使该敌方单位获得<span style=\"color:#158bdb\">3</span>层<span style=\"color:#ff6724\">脆弱</span>状态，使自身获得<span style=\"color:#158bdb\">1</span>点能量。"
+      "special": "触发被动技能<span style=\"color:#ff6724\">沉雕</span>时，使该敌方单位获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">脆弱</span>状态，使自身获得<span style=\"color:#158bdb\">1</span>点能量。"
     },
     {
       "name": "入石",
-      "des": "进入战斗后，自身攻击力提高<span style=\"color:#158bdb\">20%</span>。",
+      "des": "进入战斗后，自身攻击力提高<span style=\"color:#158bdb\">10%</span>。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "进入战斗后，自身攻击力提高<span style=\"color:#158bdb\">10%</span>。",
+        "2": "进入战斗后，自身攻击力提高<span style=\"color:#158bdb\">15%</span>。",
+        "3": "进入战斗后，自身攻击力提高<span style=\"color:#158bdb\">20%</span>。"
+      },
       "icon": "skillicon_W007105",
       "buff": [],
       "type": 6,
@@ -115,6 +142,9 @@
         "冷却:3"
       ],
       "level": 1,
+      "levelDes": {
+        "1": "使选定的敌方单体进入<span style=\"color:#ff6724\">雪渔</span>状态，并对其造成自身攻击力<span style=\"color:#158bdb\">50%</span>的构素伤害。"
+      },
       "icon": "skillicon_Jobskill_W_D",
       "buff": [
         {

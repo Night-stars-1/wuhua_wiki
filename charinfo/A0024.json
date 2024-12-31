@@ -36,12 +36,19 @@
   "skill": [
     {
       "name": "点射",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
       "tag": [
         "十字3格",
         "无消耗"
       ],
-      "level": 5,
+      "level": 1,
+      "levelDes": {
+        "1": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+        "2": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">105%</span>的物理伤害。",
+        "3": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">110%</span>的物理伤害。",
+        "4": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">115%</span>的物理伤害。",
+        "5": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。"
+      },
       "icon": "skillicon_Commonattack_A",
       "buff": [],
       "type": 1,
@@ -49,12 +56,17 @@
     },
     {
       "name": "心动狩猎",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">150%</span>的物理伤害，并使目标进入<span style=\"color:#158bdb\">眩晕</span>状态。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">110%</span>的物理伤害，并使目标进入<span style=\"color:#158bdb\">眩晕</span>状态。",
       "tag": [
         "十字3格",
         "消耗:2"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">110%</span>的物理伤害，并使目标进入<span style=\"color:#158bdb\">眩晕</span>状态。",
+        "2": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害，并使目标进入<span style=\"color:#158bdb\">眩晕</span>状态。",
+        "3": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">150%</span>的物理伤害，并使目标进入<span style=\"color:#158bdb\">眩晕</span>状态。"
+      },
       "icon": "skillicon_A002402",
       "buff": [],
       "type": 3,
@@ -62,11 +74,16 @@
     },
     {
       "name": "炙热赞歌",
-      "des": "绝技攻击时，若目标无法施加<span style=\"color:#ff6724\">眩晕</span>，则获得2回合<span style=\"color:#ff6724\">降攻</span>，\n若成功施加<span style=\"color:#ff6724\">眩晕</span>，则该次伤害提升<span style=\"color:#158bdb\">12%</span>。",
+      "des": "绝技攻击时，若目标无法施加<span style=\"color:#ff6724\">眩晕</span>，则获得2回合<span style=\"color:#ff6724\">降攻</span>，\n若成功施加<span style=\"color:#ff6724\">眩晕</span>，则该次伤害提升<span style=\"color:#158bdb\">5%</span>。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "绝技攻击时，若目标无法施加<span style=\"color:#ff6724\">眩晕</span>，则获得2回合<span style=\"color:#ff6724\">降攻</span>，\n若成功施加<span style=\"color:#ff6724\">眩晕</span>，则该次伤害提升<span style=\"color:#158bdb\">5%</span>。",
+        "2": "绝技攻击时，若目标无法施加<span style=\"color:#ff6724\">眩晕</span>，则获得2回合<span style=\"color:#ff6724\">降攻</span>，\n若成功施加<span style=\"color:#ff6724\">眩晕</span>，则该次伤害提升<span style=\"color:#158bdb\">8%</span>。",
+        "3": "绝技攻击时，若目标无法施加<span style=\"color:#ff6724\">眩晕</span>，则获得2回合<span style=\"color:#ff6724\">降攻</span>，\n若成功施加<span style=\"color:#ff6724\">眩晕</span>，则该次伤害提升<span style=\"color:#158bdb\">12%</span>。"
+      },
       "icon": "skillicon_A002403",
       "buff": [
         {
@@ -79,23 +96,33 @@
     },
     {
       "name": "天使亲吻",
-      "des": "处于<span style=\"color:#ff6724\">眩晕</span>状态的敌方目标死亡时，则自身获得<span style=\"color:#158bdb\">30%</span>伤害提升，持续<span style=\"color:#158bdb\">2</span>回合。",
+      "des": "处于<span style=\"color:#ff6724\">眩晕</span>状态的敌方目标死亡时，则自身获得<span style=\"color:#158bdb\">10%</span>伤害提升，持续<span style=\"color:#158bdb\">2</span>回合。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "处于<span style=\"color:#ff6724\">眩晕</span>状态的敌方目标死亡时，则自身获得<span style=\"color:#158bdb\">10%</span>伤害提升，持续<span style=\"color:#158bdb\">2</span>回合。",
+        "2": "处于<span style=\"color:#ff6724\">眩晕</span>状态的敌方目标死亡时，则自身获得<span style=\"color:#158bdb\">20%</span>伤害提升，持续<span style=\"color:#158bdb\">2</span>回合。",
+        "3": "处于<span style=\"color:#ff6724\">眩晕</span>状态的敌方目标死亡时，则自身获得<span style=\"color:#158bdb\">30%</span>伤害提升，持续<span style=\"color:#158bdb\">2</span>回合。"
+      },
       "icon": "skillicon_A002404",
       "buff": [],
       "type": 5,
-      "special": "处于<span style=\"color:#ff6724\">眩晕</span>状态的敌方目标死亡时，则自身获得<span style=\"color:#158bdb\">35%</span>伤害提升，持续<span style=\"color:#158bdb\">3</span>回合。"
+      "special": "处于<span style=\"color:#ff6724\">眩晕</span>状态的敌方目标死亡时，则自身获得<span style=\"color:#158bdb\">15%</span>伤害提升，持续<span style=\"color:#158bdb\">3</span>回合。"
     },
     {
       "name": "贵族礼仪",
-      "des": "进入战斗后，攻击力提升<span style=\"color:#158bdb\">20%</span>。",
+      "des": "进入战斗后，攻击力提升<span style=\"color:#158bdb\">10%</span>。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "进入战斗后，攻击力提升<span style=\"color:#158bdb\">10%</span>。",
+        "2": "进入战斗后，攻击力提升<span style=\"color:#158bdb\">15%</span>。",
+        "3": "进入战斗后，攻击力提升<span style=\"color:#158bdb\">20%</span>。"
+      },
       "icon": "skillicon_A002405",
       "buff": [],
       "type": 6,
@@ -110,6 +137,9 @@
         "冷却:3"
       ],
       "level": 1,
+      "levelDes": {
+        "1": "使用后自身获得<span style=\"color:#158bdb\">1</span>次不可移动的再行动，并进入<span style=\"color:#ff6724\">瞄准</span>状态。"
+      },
       "icon": "skillicon_Jobskill_A",
       "buff": [
         {

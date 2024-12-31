@@ -36,12 +36,19 @@
   "skill": [
     {
       "name": "笔走龙蛇",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
       "tag": [
         "射程1格 ",
         "无消耗"
       ],
-      "level": 5,
+      "level": 1,
+      "levelDes": {
+        "1": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+        "2": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">105%</span>的物理伤害。",
+        "3": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">110%</span>的物理伤害。",
+        "4": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">115%</span>的物理伤害。",
+        "5": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。"
+      },
       "icon": "skillicon_Commonattack_V",
       "buff": [],
       "type": 1,
@@ -49,13 +56,18 @@
     },
     {
       "name": "挥毫泼墨",
-      "des": "使用此技能时自身暴击率增加<span style=\"color:#158bdb\">100%</span>，且获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">逍遥</span>状态；\n对自身<span style=\"color:#158bdb\">周围2格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">180%</span>的物理伤害。",
+      "des": "使用此技能时自身暴击率增加<span style=\"color:#158bdb\">100%</span>，且获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">逍遥</span>状态；\n对自身<span style=\"color:#158bdb\">周围2格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。",
       "tag": [
         "自身",
         "消耗:3",
         "冷却:3"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "使用此技能时自身暴击率增加<span style=\"color:#158bdb\">100%</span>，且获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">逍遥</span>状态；\n对自身<span style=\"color:#158bdb\">周围2格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。",
+        "2": "使用此技能时自身暴击率增加<span style=\"color:#158bdb\">100%</span>，且获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">逍遥</span>状态；\n对自身<span style=\"color:#158bdb\">周围2格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">150%</span>的物理伤害。",
+        "3": "使用此技能时自身暴击率增加<span style=\"color:#158bdb\">100%</span>，且获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">逍遥</span>状态；\n对自身<span style=\"color:#158bdb\">周围2格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">180%</span>的物理伤害。"
+      },
       "icon": "skillicon_V007502",
       "buff": [],
       "type": 3,
@@ -63,39 +75,54 @@
     },
     {
       "name": "逍遥自得",
-      "des": "使用职业技能时，获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">逍遥</span>状态；\n当自身存在不少于<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">逍遥</span>状态时，常击后触发连击，该次连击必定命中且必定暴击，对目标造成自身攻击力<span style=\"color:#158bdb\">140%</span>的物理伤害。连击后，所有<span style=\"color:#ff6724\">逍遥</span>状态消失。",
+      "des": "使用职业技能时，获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">逍遥</span>状态；\n当自身存在不少于<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">逍遥</span>状态时，常击后触发连击，该次连击必定命中且必定暴击，对目标造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。连击后，所有<span style=\"color:#ff6724\">逍遥</span>状态消失。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "使用职业技能时，获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">逍遥</span>状态；\n当自身存在不少于<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">逍遥</span>状态时，常击后触发连击，该次连击必定命中且必定暴击，对目标造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。连击后，所有<span style=\"color:#ff6724\">逍遥</span>状态消失。",
+        "2": "使用职业技能时，获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">逍遥</span>状态；\n当自身存在不少于<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">逍遥</span>状态时，常击后触发连击，该次连击必定命中且必定暴击，对目标造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。连击后，所有<span style=\"color:#ff6724\">逍遥</span>状态消失。",
+        "3": "使用职业技能时，获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">逍遥</span>状态；\n当自身存在不少于<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">逍遥</span>状态时，常击后触发连击，该次连击必定命中且必定暴击，对目标造成自身攻击力<span style=\"color:#158bdb\">140%</span>的物理伤害。连击后，所有<span style=\"color:#ff6724\">逍遥</span>状态消失。"
+      },
       "icon": "skillicon_V007503",
       "buff": [],
       "type": 4,
-      "special": "使用职业技能时，获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">逍遥</span>状态；\n当自身存在不少于<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">逍遥</span>状态时，常击后触发连击，该次连击必定命中且必定暴击，对目标造成自身攻击力<span style=\"color:#158bdb\">160%</span>的物理伤害。连击后，所有<span style=\"color:#ff6724\">逍遥</span>状态消失。"
+      "special": "使用职业技能时，获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">逍遥</span>状态；\n当自身存在不少于<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">逍遥</span>状态时，常击后触发连击，该次连击必定命中且必定暴击，对目标造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。连击后，所有<span style=\"color:#ff6724\">逍遥</span>状态消失。"
     },
     {
       "name": "山河独醉",
-      "des": "若常击或回击未命中，则自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">逍遥</span>状态；\n每层<span style=\"color:#ff6724\">逍遥</span>状态使自身暴击伤害增加<span style=\"color:#158bdb\">50%</span>，最多可叠加<span style=\"color:#158bdb\">3</span>层。",
+      "des": "若常击或回击未命中，则自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">逍遥</span>状态；\n每层<span style=\"color:#ff6724\">逍遥</span>状态使自身暴击伤害增加<span style=\"color:#158bdb\">30%</span>，最多可叠加<span style=\"color:#158bdb\">3</span>层。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "若常击或回击未命中，则自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">逍遥</span>状态；\n每层<span style=\"color:#ff6724\">逍遥</span>状态使自身暴击伤害增加<span style=\"color:#158bdb\">30%</span>，最多可叠加<span style=\"color:#158bdb\">3</span>层。",
+        "2": "若常击或回击未命中，则自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">逍遥</span>状态；\n每层<span style=\"color:#ff6724\">逍遥</span>状态使自身暴击伤害增加<span style=\"color:#158bdb\">40%</span>，最多可叠加<span style=\"color:#158bdb\">3</span>层。",
+        "3": "若常击或回击未命中，则自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">逍遥</span>状态；\n每层<span style=\"color:#ff6724\">逍遥</span>状态使自身暴击伤害增加<span style=\"color:#158bdb\">50%</span>，最多可叠加<span style=\"color:#158bdb\">3</span>层。"
+      },
       "icon": "skillicon_V007504",
       "buff": [],
       "type": 5,
-      "special": "若常击或回击未命中，则自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">逍遥</span>状态；\n每层<span style=\"color:#ff6724\">逍遥</span>状态使自身暴击伤害增加<span style=\"color:#158bdb\">50%</span>，最多可叠加<span style=\"color:#158bdb\">3</span>层；\n任意攻击暴击后，使受击单位获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">破势</span>状态。"
+      "special": "若常击或回击未命中，则自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">逍遥</span>状态；\n每层<span style=\"color:#ff6724\">逍遥</span>状态使自身暴击伤害增加<span style=\"color:#158bdb\">30%</span>，最多可叠加<span style=\"color:#158bdb\">3</span>层；\n任意攻击暴击后，使受击单位获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">破势</span>状态。"
     },
     {
       "name": "印鉴",
-      "des": "受到<span style=\"color:#158bdb\">周围1格</span>的敌方单位常击或闪避其常击后，进行回击，对其造成自身攻击力<span style=\"color:#158bdb\">60%</span>的物理伤害，该次回击的命中率减少<span style=\"color:#158bdb\">50%</span>，生命偷取率增加<span style=\"color:#158bdb\">30%</span>；\n若自身存在不少于<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">逍遥</span>状态，则回击必定命中且必定暴击，此效果每回合最多可触发<span style=\"color:#158bdb\">2</span>次。",
+      "des": "受到<span style=\"color:#158bdb\">周围1格</span>的敌方单位常击或闪避其常击后，进行回击，对其造成自身攻击力<span style=\"color:#158bdb\">40%</span>的物理伤害，该次回击的命中率减少<span style=\"color:#158bdb\">50%</span>，生命偷取率增加<span style=\"color:#158bdb\">30%</span>；\n若自身存在不少于<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">逍遥</span>状态，则回击必定命中且必定暴击，此效果每回合最多可触发<span style=\"color:#158bdb\">2</span>次。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "受到<span style=\"color:#158bdb\">周围1格</span>的敌方单位常击或闪避其常击后，进行回击，对其造成自身攻击力<span style=\"color:#158bdb\">40%</span>的物理伤害，该次回击的命中率减少<span style=\"color:#158bdb\">50%</span>，生命偷取率增加<span style=\"color:#158bdb\">30%</span>；\n若自身存在不少于<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">逍遥</span>状态，则回击必定命中且必定暴击，此效果每回合最多可触发<span style=\"color:#158bdb\">2</span>次。",
+        "2": "受到<span style=\"color:#158bdb\">周围1格</span>的敌方单位常击或闪避其常击后，进行回击，对其造成自身攻击力<span style=\"color:#158bdb\">50%</span>的物理伤害，该次回击的命中率减少<span style=\"color:#158bdb\">50%</span>，生命偷取率增加<span style=\"color:#158bdb\">30%</span>；\n若自身存在不少于<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">逍遥</span>状态，则回击必定命中且必定暴击，此效果每回合最多可触发<span style=\"color:#158bdb\">2</span>次。",
+        "3": "受到<span style=\"color:#158bdb\">周围1格</span>的敌方单位常击或闪避其常击后，进行回击，对其造成自身攻击力<span style=\"color:#158bdb\">60%</span>的物理伤害，该次回击的命中率减少<span style=\"color:#158bdb\">50%</span>，生命偷取率增加<span style=\"color:#158bdb\">30%</span>；\n若自身存在不少于<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">逍遥</span>状态，则回击必定命中且必定暴击，此效果每回合最多可触发<span style=\"color:#158bdb\">2</span>次。"
+      },
       "icon": "skillicon_V007505",
       "buff": [],
       "type": 6,
-      "special": "受到<span style=\"color:#158bdb\">周围1格</span>的敌方单位常击或闪避其常击后，进行回击，对其造成自身攻击力<span style=\"color:#158bdb\">60%</span>的物理伤害，该次回击的命中率减少<span style=\"color:#158bdb\">50%</span>，生命偷取率增加<span style=\"color:#158bdb\">30%</span>；\n若自身存在不少于<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">逍遥</span>状态，则回击必定命中且必定暴击，此效果每回合最多可触发<span style=\"color:#158bdb\">2</span>次。"
+      "special": "受到<span style=\"color:#158bdb\">周围1格</span>的敌方单位常击或闪避其常击后，进行回击，对其造成自身攻击力<span style=\"color:#158bdb\">40%</span>的物理伤害，该次回击的命中率减少<span style=\"color:#158bdb\">50%</span>，生命偷取率增加<span style=\"color:#158bdb\">30%</span>；\n若自身存在不少于<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">逍遥</span>状态，则回击必定命中且必定暴击，此效果每回合最多可触发<span style=\"color:#158bdb\">2</span>次。"
     },
     {
       "name": "云游四方",
@@ -106,6 +133,9 @@
         "冷却:2"
       ],
       "level": 1,
+      "levelDes": {
+        "1": "使用后自身获得再行动<span style=\"color:#158bdb\">1</span>次，该次再行动的移动力减少<span style=\"color:#158bdb\">2</span>。"
+      },
       "icon": "skillicon_Jobskill_V",
       "buff": [],
       "type": 2,

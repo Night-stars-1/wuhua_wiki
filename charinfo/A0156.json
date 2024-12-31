@@ -36,12 +36,19 @@
   "skill": [
     {
       "name": "满舵",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
       "tag": [
         "十字3格",
         "无消耗"
       ],
-      "level": 5,
+      "level": 1,
+      "levelDes": {
+        "1": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+        "2": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">105%</span>的物理伤害。",
+        "3": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">110%</span>的物理伤害。",
+        "4": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">115%</span>的物理伤害。",
+        "5": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。"
+      },
       "icon": "skillicon_Commonattack_A",
       "buff": [],
       "type": 1,
@@ -55,7 +62,12 @@
         "消耗:5",
         "冷却:4"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "使用后自身进入<span style=\"color:#ff6724\">锚启</span>状态。",
+        "2": "使用后自身进入<span style=\"color:#ff6724\">锚启</span>状态。",
+        "3": "使用后自身进入<span style=\"color:#ff6724\">锚启</span>状态。"
+      },
       "icon": "skillicon_A015602",
       "buff": [
         {
@@ -68,11 +80,16 @@
     },
     {
       "name": "远洋风暴",
-      "des": "处于<span style=\"color:#ff6724\">瞄准</span>状态进行常击时，击退该受击敌方单位<span style=\"color:#158bdb\">1</span>格。\n处于<span style=\"color:#ff6724\">瞄准</span>状态进行常击后，若该受击敌方单位<span style=\"color:#158bdb\">周围1格</span>不存在其他敌方单位，则有<span style=\"color:#158bdb\">100%</span>的概率使其获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">寒天</span>状态。",
+      "des": "处于<span style=\"color:#ff6724\">瞄准</span>状态进行常击时，击退该受击敌方单位<span style=\"color:#158bdb\">1</span>格。\n处于<span style=\"color:#ff6724\">瞄准</span>状态进行常击后，若该受击敌方单位<span style=\"color:#158bdb\">周围1格</span>不存在其他敌方单位，则有<span style=\"color:#158bdb\">60%</span>的概率使其获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">寒天</span>状态。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "处于<span style=\"color:#ff6724\">瞄准</span>状态进行常击时，击退该受击敌方单位<span style=\"color:#158bdb\">1</span>格。\n处于<span style=\"color:#ff6724\">瞄准</span>状态进行常击后，若该受击敌方单位<span style=\"color:#158bdb\">周围1格</span>不存在其他敌方单位，则有<span style=\"color:#158bdb\">60%</span>的概率使其获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">寒天</span>状态。",
+        "2": "处于<span style=\"color:#ff6724\">瞄准</span>状态进行常击时，击退该受击敌方单位<span style=\"color:#158bdb\">1</span>格。\n处于<span style=\"color:#ff6724\">瞄准</span>状态进行常击后，若该受击敌方单位<span style=\"color:#158bdb\">周围1格</span>不存在其他敌方单位，则有<span style=\"color:#158bdb\">80%</span>的概率使其获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">寒天</span>状态。",
+        "3": "处于<span style=\"color:#ff6724\">瞄准</span>状态进行常击时，击退该受击敌方单位<span style=\"color:#158bdb\">1</span>格。\n处于<span style=\"color:#ff6724\">瞄准</span>状态进行常击后，若该受击敌方单位<span style=\"color:#158bdb\">周围1格</span>不存在其他敌方单位，则有<span style=\"color:#158bdb\">100%</span>的概率使其获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">寒天</span>状态。"
+      },
       "icon": "skillicon_A015603",
       "buff": [
         {
@@ -89,7 +106,12 @@
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "常击造成伤害时，有<span style=\"color:#158bdb\">70%</span>的概率使受击敌方单位获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">碎瓷</span>状态。",
+        "2": "常击造成伤害时，有<span style=\"color:#158bdb\">70%</span>的概率使受击敌方单位获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">碎瓷</span>状态。",
+        "3": "常击造成伤害时，有<span style=\"color:#158bdb\">70%</span>的概率使受击敌方单位获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">碎瓷</span>状态。"
+      },
       "icon": "skillicon_A015604",
       "buff": [
         {
@@ -102,11 +124,16 @@
     },
     {
       "name": "鸣笛避让",
-      "des": "进入战斗后，自身瞄准冷却率增加<span style=\"color:#158bdb\">30%</span>。\n瞄准状态下造成击退时，有<span style=\"color:#158bdb\">100%</span>的概率使被击退目标获得<span style=\"color:#ff6724\">附骨</span>状态。",
+      "des": "进入战斗后，自身瞄准冷却率增加<span style=\"color:#158bdb\">10%</span>。\n瞄准状态下造成击退时，有<span style=\"color:#158bdb\">100%</span>的概率使被击退目标获得<span style=\"color:#ff6724\">附骨</span>状态。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "进入战斗后，自身瞄准冷却率增加<span style=\"color:#158bdb\">10%</span>。\n瞄准状态下造成击退时，有<span style=\"color:#158bdb\">100%</span>的概率使被击退目标获得<span style=\"color:#ff6724\">附骨</span>状态。",
+        "2": "进入战斗后，自身瞄准冷却率增加<span style=\"color:#158bdb\">20%</span>。\n瞄准状态下造成击退时，有<span style=\"color:#158bdb\">100%</span>的概率使被击退目标获得<span style=\"color:#ff6724\">附骨</span>状态。",
+        "3": "进入战斗后，自身瞄准冷却率增加<span style=\"color:#158bdb\">30%</span>。\n瞄准状态下造成击退时，有<span style=\"color:#158bdb\">100%</span>的概率使被击退目标获得<span style=\"color:#ff6724\">附骨</span>状态。"
+      },
       "icon": "skillicon_A015605",
       "buff": [
         {
@@ -115,7 +142,7 @@
         }
       ],
       "type": 6,
-      "special": "进入战斗后，自身瞄准冷却率增加<span style=\"color:#158bdb\">30%</span>并获得<span style=\"color:#158bdb\">1</span>点能量。\n瞄准状态下造成击退时，有<span style=\"color:#158bdb\">100%</span>的概率使被击退目标获得<span style=\"color:#ff6724\">附骨</span>状态。"
+      "special": "进入战斗后，自身瞄准冷却率增加<span style=\"color:#158bdb\">10%</span>并获得<span style=\"color:#158bdb\">1</span>点能量。\n瞄准状态下造成击退时，有<span style=\"color:#158bdb\">100%</span>的概率使被击退目标获得<span style=\"color:#ff6724\">附骨</span>状态。"
     },
     {
       "name": "领航者",
@@ -126,6 +153,9 @@
         "冷却:3"
       ],
       "level": 1,
+      "levelDes": {
+        "1": "使用后自身获得<span style=\"color:#158bdb\">1</span>次不可移动的再行动，并进入<span style=\"color:#ff6724\">瞄准</span>状态。"
+      },
       "icon": "skillicon_Jobskill_A",
       "buff": [
         {

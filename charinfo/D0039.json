@@ -36,12 +36,19 @@
   "skill": [
     {
       "name": "虎啸",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
       "tag": [
         "射程1格 ",
         "无消耗"
       ],
-      "level": 5,
+      "level": 1,
+      "levelDes": {
+        "1": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+        "2": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">105%</span>的物理伤害。",
+        "3": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">110%</span>的物理伤害。",
+        "4": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">115%</span>的物理伤害。",
+        "5": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。"
+      },
       "icon": "skillicon_Commonattack_D",
       "buff": [],
       "type": 1,
@@ -49,13 +56,18 @@
     },
     {
       "name": "浩浩万物",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">290%</span>的物理伤害并使其进入<span style=\"color:#ff6724\">眩晕</span>状态，效果持续<span style=\"color:#158bdb\">2</span>回合。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">230%</span>的物理伤害并使其进入<span style=\"color:#ff6724\">眩晕</span>状态，效果持续<span style=\"color:#158bdb\">2</span>回合。",
       "tag": [
         "射程1格 ",
         "消耗:3",
         "冷却:3"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">230%</span>的物理伤害并使其进入<span style=\"color:#ff6724\">眩晕</span>状态，效果持续<span style=\"color:#158bdb\">2</span>回合。",
+        "2": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">260%</span>的物理伤害并使其进入<span style=\"color:#ff6724\">眩晕</span>状态，效果持续<span style=\"color:#158bdb\">2</span>回合。",
+        "3": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">290%</span>的物理伤害并使其进入<span style=\"color:#ff6724\">眩晕</span>状态，效果持续<span style=\"color:#158bdb\">2</span>回合。"
+      },
       "icon": "skillicon_D003902",
       "buff": [],
       "type": 3,
@@ -63,11 +75,16 @@
     },
     {
       "name": "月阴",
-      "des": "回合开始时，若距离自身<span style=\"color:#158bdb\">2</span>格范围内每存在一名处于眩晕状态的角色，恢复自身<span style=\"color:#158bdb\">20%</span>生命值。",
+      "des": "回合开始时，若距离自身<span style=\"color:#158bdb\">2</span>格范围内每存在一名处于眩晕状态的角色，恢复自身<span style=\"color:#158bdb\">10%</span>生命值。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "回合开始时，若距离自身<span style=\"color:#158bdb\">2</span>格范围内每存在一名处于眩晕状态的角色，恢复自身<span style=\"color:#158bdb\">10%</span>生命值。",
+        "2": "回合开始时，若距离自身<span style=\"color:#158bdb\">2</span>格范围内每存在一名处于眩晕状态的角色，恢复自身<span style=\"color:#158bdb\">15%</span>生命值。",
+        "3": "回合开始时，若距离自身<span style=\"color:#158bdb\">2</span>格范围内每存在一名处于眩晕状态的角色，恢复自身<span style=\"color:#158bdb\">20%</span>生命值。"
+      },
       "icon": "skillicon_D003903",
       "buff": [],
       "type": 4,
@@ -75,11 +92,16 @@
     },
     {
       "name": "日阳",
-      "des": "常击时，若目标处于<span style=\"color:#ff6724\">眩晕</span>状态，则有<span style=\"color:#158bdb\">40%</span>概率将眩晕效果延长至<span style=\"color:#158bdb\">2</span>回合。",
+      "des": "常击时，若目标处于<span style=\"color:#ff6724\">眩晕</span>状态，则有<span style=\"color:#158bdb\">20%</span>概率将眩晕效果延长至<span style=\"color:#158bdb\">2</span>回合。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "常击时，若目标处于<span style=\"color:#ff6724\">眩晕</span>状态，则有<span style=\"color:#158bdb\">20%</span>概率将眩晕效果延长至<span style=\"color:#158bdb\">2</span>回合。",
+        "2": "常击时，若目标处于<span style=\"color:#ff6724\">眩晕</span>状态，则有<span style=\"color:#158bdb\">30%</span>概率将眩晕效果延长至<span style=\"color:#158bdb\">2</span>回合。",
+        "3": "常击时，若目标处于<span style=\"color:#ff6724\">眩晕</span>状态，则有<span style=\"color:#158bdb\">40%</span>概率将眩晕效果延长至<span style=\"color:#158bdb\">2</span>回合。"
+      },
       "icon": "skillicon_D003904",
       "buff": [],
       "type": 5,
@@ -87,15 +109,20 @@
     },
     {
       "name": "星狩",
-      "des": "自身生命值低于<span style=\"color:#158bdb\">50%</span>时，受到攻击时有<span style=\"color:#158bdb\">25%</span>使攻击者眩晕<span style=\"color:#158bdb\">1</span>回合。每次行动周期可触发<span style=\"color:#158bdb\">3</span>次。",
+      "des": "自身生命值低于<span style=\"color:#158bdb\">50%</span>时，受到攻击时有<span style=\"color:#158bdb\">15%</span>使攻击者眩晕<span style=\"color:#158bdb\">1</span>回合。每次行动周期可触发<span style=\"color:#158bdb\">1</span>次。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "自身生命值低于<span style=\"color:#158bdb\">50%</span>时，受到攻击时有<span style=\"color:#158bdb\">15%</span>使攻击者眩晕<span style=\"color:#158bdb\">1</span>回合。每次行动周期可触发<span style=\"color:#158bdb\">1</span>次。",
+        "2": "自身生命值低于<span style=\"color:#158bdb\">50%</span>时，受到攻击时有<span style=\"color:#158bdb\">20%</span>使攻击者眩晕<span style=\"color:#158bdb\">1</span>回合。每次行动周期可触发<span style=\"color:#158bdb\">2</span>次。",
+        "3": "自身生命值低于<span style=\"color:#158bdb\">50%</span>时，受到攻击时有<span style=\"color:#158bdb\">25%</span>使攻击者眩晕<span style=\"color:#158bdb\">1</span>回合。每次行动周期可触发<span style=\"color:#158bdb\">3</span>次。"
+      },
       "icon": "skillicon_D003905",
       "buff": [],
       "type": 6,
-      "special": "自身生命值低于<span style=\"color:#158bdb\">50%</span>时，受到攻击时有<span style=\"color:#158bdb\">50%</span>使攻击者眩晕<span style=\"color:#158bdb\">1</span>回合。每次行动周期可触发<span style=\"color:#158bdb\">3</span>次。"
+      "special": "自身生命值低于<span style=\"color:#158bdb\">50%</span>时，受到攻击时有<span style=\"color:#158bdb\">30%</span>使攻击者眩晕<span style=\"color:#158bdb\">1</span>回合。每次行动周期可触发<span style=\"color:#158bdb\">1</span>次。"
     },
     {
       "name": "万神朝来",
@@ -106,6 +133,9 @@
         "冷却:2"
       ],
       "level": 1,
+      "levelDes": {
+        "1": "使自身选定方向前<span style=\"color:#158bdb\">1</span>排的<span style=\"color:#158bdb\">3</span>格变为束缚格，效果持续<span style=\"color:#158bdb\">1</span>回合。若敌方单位进入束缚格，将无法离开束缚格范围，并进入<span style=\"color:#ff6724\">解构</span>状态。"
+      },
       "icon": "skillicon_Jobskill_D_Z",
       "buff": [
         {

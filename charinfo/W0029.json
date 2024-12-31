@@ -36,12 +36,19 @@
   "skill": [
     {
       "name": "妙手偶得",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的构素伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
       "tag": [
         "射程2格",
         "无消耗"
       ],
-      "level": 5,
+      "level": 1,
+      "levelDes": {
+        "1": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
+        "2": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">105%</span>的构素伤害。",
+        "3": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">110%</span>的构素伤害。",
+        "4": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">115%</span>的构素伤害。",
+        "5": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的构素伤害。"
+      },
       "icon": "skillicon_Commonattack_W",
       "buff": [],
       "type": 1,
@@ -49,12 +56,17 @@
     },
     {
       "name": "长卷逸舒",
-      "des": "为自身及<span style=\"color:#158bdb\">周围3格</span>的友方全体回复自身攻击力<span style=\"color:#158bdb\">30%+800</span>的生命值，并使自身被动技能范围扩大至<span style=\"color:#158bdb\">周围4格</span>，效果持续<span style=\"color:#158bdb\">3</span>回合。",
+      "des": "为自身及<span style=\"color:#158bdb\">周围3格</span>的友方全体回复自身攻击力<span style=\"color:#158bdb\">10%+400</span>的生命值，并使自身被动技能范围扩大至<span style=\"color:#158bdb\">周围4格</span>，效果持续<span style=\"color:#158bdb\">3</span>回合。",
       "tag": [
         "自身",
         "消耗:3"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "为自身及<span style=\"color:#158bdb\">周围3格</span>的友方全体回复自身攻击力<span style=\"color:#158bdb\">10%+400</span>的生命值，并使自身被动技能范围扩大至<span style=\"color:#158bdb\">周围4格</span>，效果持续<span style=\"color:#158bdb\">3</span>回合。",
+        "2": "为自身及<span style=\"color:#158bdb\">周围3格</span>的友方全体回复自身攻击力<span style=\"color:#158bdb\">20%+600</span>的生命值，并使自身被动技能范围扩大至<span style=\"color:#158bdb\">周围4格</span>，效果持续<span style=\"color:#158bdb\">3</span>回合。",
+        "3": "为自身及<span style=\"color:#158bdb\">周围3格</span>的友方全体回复自身攻击力<span style=\"color:#158bdb\">30%+800</span>的生命值，并使自身被动技能范围扩大至<span style=\"color:#158bdb\">周围4格</span>，效果持续<span style=\"color:#158bdb\">3</span>回合。"
+      },
       "icon": "skillicon_W002902",
       "buff": [],
       "type": 3,
@@ -62,11 +74,16 @@
     },
     {
       "name": "轻云蔽月",
-      "des": "常击造成伤害后，根据自身累计治疗量的<span style=\"color:#158bdb\">100%</span>造成<span style=\"color:#ff6724\">额外构素伤害</span>，该伤害不超过攻击力的<span style=\"color:#158bdb\">150%</span>，且自身生命值越低，该额外伤害越高，最多提高<span style=\"color:#158bdb\">100%</span>；进行常击后，使自身回复当前已损失生命值<span style=\"color:#158bdb\">30%</span>的生命值。",
+      "des": "常击造成伤害后，根据自身累计治疗量的<span style=\"color:#158bdb\">100%</span>造成<span style=\"color:#ff6724\">额外构素伤害</span>，该伤害不超过攻击力的<span style=\"color:#158bdb\">50%</span>，且自身生命值越低，该额外伤害越高，最多提高<span style=\"color:#158bdb\">100%</span>；进行常击后，使自身回复当前已损失生命值<span style=\"color:#158bdb\">30%</span>的生命值。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "常击造成伤害后，根据自身累计治疗量的<span style=\"color:#158bdb\">100%</span>造成<span style=\"color:#ff6724\">额外构素伤害</span>，该伤害不超过攻击力的<span style=\"color:#158bdb\">50%</span>，且自身生命值越低，该额外伤害越高，最多提高<span style=\"color:#158bdb\">100%</span>；进行常击后，使自身回复当前已损失生命值<span style=\"color:#158bdb\">30%</span>的生命值。",
+        "2": "常击造成伤害后，根据自身累计治疗量的<span style=\"color:#158bdb\">100%</span>造成<span style=\"color:#ff6724\">额外构素伤害</span>，该伤害不超过攻击力的<span style=\"color:#158bdb\">100%</span>，且自身生命值越低，该额外伤害越高，最多提高<span style=\"color:#158bdb\">100%</span>；进行常击后，使自身回复当前已损失生命值<span style=\"color:#158bdb\">30%</span>的生命值。",
+        "3": "常击造成伤害后，根据自身累计治疗量的<span style=\"color:#158bdb\">100%</span>造成<span style=\"color:#ff6724\">额外构素伤害</span>，该伤害不超过攻击力的<span style=\"color:#158bdb\">150%</span>，且自身生命值越低，该额外伤害越高，最多提高<span style=\"color:#158bdb\">100%</span>；进行常击后，使自身回复当前已损失生命值<span style=\"color:#158bdb\">30%</span>的生命值。"
+      },
       "icon": "skillicon_W002903",
       "buff": [
         {
@@ -75,15 +92,20 @@
         }
       ],
       "type": 4,
-      "special": "常击造成伤害后，根据自身累计治疗量的<span style=\"color:#158bdb\">100%</span>造成<span style=\"color:#ff6724\">额外构素伤害</span>，该伤害不超过攻击力的<span style=\"color:#158bdb\">200%</span>，且自身生命值越低，该额外伤害越高，最多提高<span style=\"color:#158bdb\">100%</span>；进行常击后，使自身回复当前已损失生命值<span style=\"color:#158bdb\">50%</span>的生命值。"
+      "special": "常击造成伤害后，根据自身累计治疗量的<span style=\"color:#158bdb\">100%</span>造成<span style=\"color:#ff6724\">额外构素伤害</span>，该伤害不超过攻击力的<span style=\"color:#158bdb\">100%</span>，且自身生命值越低，该额外伤害越高，最多提高<span style=\"color:#158bdb\">100%</span>；进行常击后，使自身回复当前已损失生命值<span style=\"color:#158bdb\">50%</span>的生命值。"
     },
     {
       "name": "流风回雪",
-      "des": "自身<span style=\"color:#158bdb\">周围3格</span>内的友方单位受到敌方攻击后，消耗自身当前生命值的<span style=\"color:#158bdb\">30%</span>，为其回复自身攻击力<span style=\"color:#158bdb\">30%+800</span>的生命值。",
+      "des": "自身<span style=\"color:#158bdb\">周围3格</span>内的友方单位受到敌方攻击后，消耗自身当前生命值的<span style=\"color:#158bdb\">30%</span>，为其回复自身攻击力<span style=\"color:#158bdb\">10%+400</span>的生命值。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "自身<span style=\"color:#158bdb\">周围3格</span>内的友方单位受到敌方攻击后，消耗自身当前生命值的<span style=\"color:#158bdb\">30%</span>，为其回复自身攻击力<span style=\"color:#158bdb\">10%+400</span>的生命值。",
+        "2": "自身<span style=\"color:#158bdb\">周围3格</span>内的友方单位受到敌方攻击后，消耗自身当前生命值的<span style=\"color:#158bdb\">30%</span>，为其回复自身攻击力<span style=\"color:#158bdb\">20%+600</span>的生命值。",
+        "3": "自身<span style=\"color:#158bdb\">周围3格</span>内的友方单位受到敌方攻击后，消耗自身当前生命值的<span style=\"color:#158bdb\">30%</span>，为其回复自身攻击力<span style=\"color:#158bdb\">30%+800</span>的生命值。"
+      },
       "icon": "skillicon_W002904",
       "buff": [],
       "type": 5,
@@ -91,11 +113,16 @@
     },
     {
       "name": "秀骨清像",
-      "des": "自身受到致命伤害时，在<span style=\"color:#158bdb\">1</span>回合内不会被击败。该状态结束时，使自身回复最大生命值的<span style=\"color:#158bdb\">80%</span>。此效果每场战斗最多触发<span style=\"color:#158bdb\">1</span>次。",
+      "des": "自身受到致命伤害时，在<span style=\"color:#158bdb\">1</span>回合内不会被击败。该状态结束时，使自身回复最大生命值的<span style=\"color:#158bdb\">40%</span>。此效果每场战斗最多触发<span style=\"color:#158bdb\">1</span>次。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "自身受到致命伤害时，在<span style=\"color:#158bdb\">1</span>回合内不会被击败。该状态结束时，使自身回复最大生命值的<span style=\"color:#158bdb\">40%</span>。此效果每场战斗最多触发<span style=\"color:#158bdb\">1</span>次。",
+        "2": "自身受到致命伤害时，在<span style=\"color:#158bdb\">1</span>回合内不会被击败。该状态结束时，使自身回复最大生命值的<span style=\"color:#158bdb\">60%</span>。此效果每场战斗最多触发<span style=\"color:#158bdb\">1</span>次。",
+        "3": "自身受到致命伤害时，在<span style=\"color:#158bdb\">1</span>回合内不会被击败。该状态结束时，使自身回复最大生命值的<span style=\"color:#158bdb\">80%</span>。此效果每场战斗最多触发<span style=\"color:#158bdb\">1</span>次。"
+      },
       "icon": "skillicon_W002905",
       "buff": [],
       "type": 6,
@@ -110,6 +137,9 @@
         "冷却:3"
       ],
       "level": 1,
+      "levelDes": {
+        "1": "使用后自身获得再行动<span style=\"color:#158bdb\">1</span>次，使自身的治疗效果提高<span style=\"color:#158bdb\">40%</span>，持续<span style=\"color:#158bdb\">2</span>回合。"
+      },
       "icon": "skillicon_Jobskill_W_H",
       "buff": [],
       "type": 2,
@@ -128,6 +158,10 @@
     {
       "id": "W0029004",
       "name": "洛川畔"
+    },
+    {
+      "id": "W0029003",
+      "name": "幽海奇谈"
     }
   ]
 }

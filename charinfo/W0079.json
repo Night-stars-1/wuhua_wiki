@@ -36,12 +36,19 @@
   "skill": [
     {
       "name": "指挥",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的构素伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
       "tag": [
         "射程2格",
         "无消耗"
       ],
-      "level": 5,
+      "level": 1,
+      "levelDes": {
+        "1": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
+        "2": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">105%</span>的构素伤害。",
+        "3": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">110%</span>的构素伤害。",
+        "4": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">115%</span>的构素伤害。",
+        "5": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的构素伤害。"
+      },
       "icon": "skillicon_Commonattack_W",
       "buff": [],
       "type": 1,
@@ -49,25 +56,35 @@
     },
     {
       "name": "乐舞万象",
-      "des": "对选定的敌方单位及其<span style=\"color:#158bdb\">周围2格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">150%</span>的构素伤害，并使自身获得额外行动机会。",
+      "des": "对选定的敌方单位及其<span style=\"color:#158bdb\">周围2格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害，并使自身获得额外行动机会。",
       "tag": [
         "射程2格",
         "消耗:3",
         "冷却:3"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "对选定的敌方单位及其<span style=\"color:#158bdb\">周围2格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害，并使自身获得额外行动机会。",
+        "2": "对选定的敌方单位及其<span style=\"color:#158bdb\">周围2格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">125%</span>的构素伤害，并使自身获得额外行动机会。",
+        "3": "对选定的敌方单位及其<span style=\"color:#158bdb\">周围2格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">150%</span>的构素伤害，并使自身获得额外行动机会。"
+      },
       "icon": "skillicon_W007902",
       "buff": [],
       "type": 3,
-      "special": "对选定的敌方单位及其<span style=\"color:#158bdb\">周围2格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">150%</span>的构素伤害，并使自身获得额外行动机会。"
+      "special": "对选定的敌方单位及其<span style=\"color:#158bdb\">周围2格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害，并使自身获得额外行动机会。"
     },
     {
       "name": "排练",
-      "des": "当自身处于蓄力时，受到的伤害降低<span style=\"color:#158bdb\">40%</span>；受到任意攻击后获得速度增加<span style=\"color:#158bdb\">30</span>，效果持续<span style=\"color:#158bdb\">1</span>回合。若在<span style=\"color:#158bdb\">1</span>次蓄力中累计触发<span style=\"color:#158bdb\">3</span>次该效果，则立即获得<span style=\"color:#158bdb\">1</span>次额外行动机会。",
+      "des": "当自身处于蓄力时，受到的伤害降低<span style=\"color:#158bdb\">20%</span>；受到任意攻击后获得速度增加<span style=\"color:#158bdb\">30</span>，效果持续<span style=\"color:#158bdb\">1</span>回合。若在<span style=\"color:#158bdb\">1</span>次蓄力中累计触发<span style=\"color:#158bdb\">3</span>次该效果，则立即获得<span style=\"color:#158bdb\">1</span>次额外行动机会。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "当自身处于蓄力时，受到的伤害降低<span style=\"color:#158bdb\">20%</span>；受到任意攻击后获得速度增加<span style=\"color:#158bdb\">30</span>，效果持续<span style=\"color:#158bdb\">1</span>回合。若在<span style=\"color:#158bdb\">1</span>次蓄力中累计触发<span style=\"color:#158bdb\">3</span>次该效果，则立即获得<span style=\"color:#158bdb\">1</span>次额外行动机会。",
+        "2": "当自身处于蓄力时，受到的伤害降低<span style=\"color:#158bdb\">30%</span>；受到任意攻击后获得速度增加<span style=\"color:#158bdb\">30</span>，效果持续<span style=\"color:#158bdb\">1</span>回合。若在<span style=\"color:#158bdb\">1</span>次蓄力中累计触发<span style=\"color:#158bdb\">3</span>次该效果，则立即获得<span style=\"color:#158bdb\">1</span>次额外行动机会。",
+        "3": "当自身处于蓄力时，受到的伤害降低<span style=\"color:#158bdb\">40%</span>；受到任意攻击后获得速度增加<span style=\"color:#158bdb\">30</span>，效果持续<span style=\"color:#158bdb\">1</span>回合。若在<span style=\"color:#158bdb\">1</span>次蓄力中累计触发<span style=\"color:#158bdb\">3</span>次该效果，则立即获得<span style=\"color:#158bdb\">1</span>次额外行动机会。"
+      },
       "icon": "skillicon_W007903",
       "buff": [],
       "type": 4,
@@ -75,11 +92,16 @@
     },
     {
       "name": "随性演出",
-      "des": "职业技能每命中<span style=\"color:#158bdb\">1</span>个敌方单位，使自身回复<span style=\"color:#158bdb\">1</span>点能量。使用绝技后，下<span style=\"color:#158bdb\">1</span>次职业技能造成的伤害提高<span style=\"color:#158bdb\">80%</span>。",
+      "des": "职业技能每命中<span style=\"color:#158bdb\">1</span>个敌方单位，使自身回复<span style=\"color:#158bdb\">1</span>点能量。使用绝技后，下<span style=\"color:#158bdb\">1</span>次职业技能造成的伤害提高<span style=\"color:#158bdb\">40%</span>。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "职业技能每命中<span style=\"color:#158bdb\">1</span>个敌方单位，使自身回复<span style=\"color:#158bdb\">1</span>点能量。使用绝技后，下<span style=\"color:#158bdb\">1</span>次职业技能造成的伤害提高<span style=\"color:#158bdb\">40%</span>。",
+        "2": "职业技能每命中<span style=\"color:#158bdb\">1</span>个敌方单位，使自身回复<span style=\"color:#158bdb\">1</span>点能量。使用绝技后，下<span style=\"color:#158bdb\">1</span>次职业技能造成的伤害提高<span style=\"color:#158bdb\">60%</span>。",
+        "3": "职业技能每命中<span style=\"color:#158bdb\">1</span>个敌方单位，使自身回复<span style=\"color:#158bdb\">1</span>点能量。使用绝技后，下<span style=\"color:#158bdb\">1</span>次职业技能造成的伤害提高<span style=\"color:#158bdb\">80%</span>。"
+      },
       "icon": "skillicon_W007904",
       "buff": [],
       "type": 5,
@@ -91,7 +113,12 @@
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "当职业技能命中至少<span style=\"color:#158bdb\">3</span>个敌方单位时，自身获得<span style=\"color:#ff6724\">和鸣</span>状态。",
+        "2": "当职业技能命中至少<span style=\"color:#158bdb\">3</span>个敌方单位时，自身获得<span style=\"color:#ff6724\">和鸣</span>状态。",
+        "3": "当职业技能命中至少<span style=\"color:#158bdb\">3</span>个敌方单位时，自身获得<span style=\"color:#ff6724\">和鸣</span>状态。"
+      },
       "icon": "skillicon_W007905",
       "buff": [
         {
@@ -111,6 +138,9 @@
         "冷却:2"
       ],
       "level": 1,
+      "levelDes": {
+        "1": "选定目标及其<span style=\"color:#158bdb\">周围2格</span>地块，蓄力<span style=\"color:#158bdb\">1</span>回合后，对该区域敌方全体造成自身攻击力<span style=\"color:#158bdb\">150%</span>的构素伤害。"
+      },
       "icon": "skillicon_Jobskill_W_D",
       "buff": [],
       "type": 2,

@@ -36,12 +36,19 @@
   "skill": [
     {
       "name": "吟音",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的构素伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
       "tag": [
         "射程2格",
         "无消耗"
       ],
-      "level": 5,
+      "level": 1,
+      "levelDes": {
+        "1": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
+        "2": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">105%</span>的构素伤害。",
+        "3": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">110%</span>的构素伤害。",
+        "4": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">115%</span>的构素伤害。",
+        "5": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的构素伤害。"
+      },
       "icon": "skillicon_Commonattack_W",
       "buff": [],
       "type": 1,
@@ -54,7 +61,12 @@
         "自身",
         "消耗:5"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "使自身及<span style=\"color:#158bdb\">周围3格</span>内的友方全体获得<span style=\"color:#ff6724\">共奏</span>状态。",
+        "2": "使自身及<span style=\"color:#158bdb\">周围3格</span>内的友方全体获得<span style=\"color:#ff6724\">共奏</span>状态。",
+        "3": "使自身及<span style=\"color:#158bdb\">周围3格</span>内的友方全体获得<span style=\"color:#ff6724\">共奏</span>状态。"
+      },
       "icon": "skillicon_W009902",
       "buff": [
         {
@@ -67,11 +79,16 @@
     },
     {
       "name": "覆手承弦",
-      "des": "自身攻击无法暴击，进入战斗后攻击力提高<span style=\"color:#158bdb\">50%</span>，并获得<span style=\"color:#158bdb\">2</span>点能量。\n自身每回合开始时，获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">余音</span>状态。\n若自身及友方单位通过<span style=\"color:#ff6724\">共奏</span>状态造成了伤害，则在该回合结束时使五弦琵琶获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">余音</span>状态。",
+      "des": "自身攻击无法暴击，进入战斗后攻击力提高<span style=\"color:#158bdb\">30%</span>，并获得<span style=\"color:#158bdb\">2</span>点能量。\n自身每回合开始时，获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">余音</span>状态。\n若自身及友方单位通过<span style=\"color:#ff6724\">共奏</span>状态造成了伤害，则在该回合结束时使五弦琵琶获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">余音</span>状态。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "自身攻击无法暴击，进入战斗后攻击力提高<span style=\"color:#158bdb\">30%</span>，并获得<span style=\"color:#158bdb\">2</span>点能量。\n自身每回合开始时，获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">余音</span>状态。\n若自身及友方单位通过<span style=\"color:#ff6724\">共奏</span>状态造成了伤害，则在该回合结束时使五弦琵琶获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">余音</span>状态。",
+        "2": "自身攻击无法暴击，进入战斗后攻击力提高<span style=\"color:#158bdb\">40%</span>，并获得<span style=\"color:#158bdb\">2</span>点能量。\n自身每回合开始时，获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">余音</span>状态。\n若自身及友方单位通过<span style=\"color:#ff6724\">共奏</span>状态造成了伤害，则在该回合结束时使五弦琵琶获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">余音</span>状态。",
+        "3": "自身攻击无法暴击，进入战斗后攻击力提高<span style=\"color:#158bdb\">50%</span>，并获得<span style=\"color:#158bdb\">2</span>点能量。\n自身每回合开始时，获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">余音</span>状态。\n若自身及友方单位通过<span style=\"color:#ff6724\">共奏</span>状态造成了伤害，则在该回合结束时使五弦琵琶获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">余音</span>状态。"
+      },
       "icon": "skillicon_W009903",
       "buff": [
         {
@@ -88,7 +105,12 @@
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "自身或友方单位若持有<span style=\"color:#ff6724\">共奏</span>状态，则在攻击前使受击单位获得<span style=\"color:#ff6724\">乐音</span>状态，该攻击单位回合结束时清除所有<span style=\"color:#ff6724\">乐音</span>状态。\n友方单位触发<span style=\"color:#ff6724\">乐音</span>状态后，获得<span style=\"color:#ff6724\">迭奏</span>状态。",
+        "2": "自身或友方单位若持有<span style=\"color:#ff6724\">共奏</span>状态，则在攻击前使受击单位获得<span style=\"color:#ff6724\">乐音</span>状态，该攻击单位回合结束时清除所有<span style=\"color:#ff6724\">乐音</span>状态。\n友方单位触发<span style=\"color:#ff6724\">乐音</span>状态后，获得<span style=\"color:#ff6724\">迭奏</span>状态。",
+        "3": "自身或友方单位若持有<span style=\"color:#ff6724\">共奏</span>状态，则在攻击前使受击单位获得<span style=\"color:#ff6724\">乐音</span>状态，该攻击单位回合结束时清除所有<span style=\"color:#ff6724\">乐音</span>状态。\n友方单位触发<span style=\"color:#ff6724\">乐音</span>状态后，获得<span style=\"color:#ff6724\">迭奏</span>状态。"
+      },
       "icon": "skillicon_W009904",
       "buff": [
         {
@@ -109,7 +131,12 @@
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "自身释放职业技能前，获得<span style=\"color:#ff6724\">芳蕊</span>状态，并使处于<span style=\"color:#ff6724\">迭奏</span>状态的友方单位获得<span style=\"color:#158bdb\">3</span>点能量。",
+        "2": "自身释放职业技能前，获得<span style=\"color:#ff6724\">芳蕊</span>状态，并使处于<span style=\"color:#ff6724\">迭奏</span>状态的友方单位获得<span style=\"color:#158bdb\">3</span>点能量。",
+        "3": "自身释放职业技能前，获得<span style=\"color:#ff6724\">芳蕊</span>状态，并使处于<span style=\"color:#ff6724\">迭奏</span>状态的友方单位获得<span style=\"color:#158bdb\">3</span>点能量。"
+      },
       "icon": "skillicon_W009905",
       "buff": [
         {
@@ -129,6 +156,9 @@
         "冷却:3"
       ],
       "level": 1,
+      "levelDes": {
+        "1": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">30%</span>的构素伤害并使自身获得<span style=\"color:#158bdb\">3</span>点能量。\n随后消耗自身所有<span style=\"color:#ff6724\">余音</span>状态，每消耗<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">余音</span>状态，对该受击单位额外造成<span style=\"color:#158bdb\">1</span>次自身攻击力<span style=\"color:#158bdb\">30%</span>的<span style=\"color:#ff6724\">额外构素伤害</span>。"
+      },
       "icon": "skillicon_W009911",
       "buff": [
         {
@@ -148,6 +178,10 @@
     {
       "id": "W0099002",
       "name": "写照"
+    },
+    {
+      "id": "W0099003",
+      "name": "伞下琴语"
     }
   ]
 }

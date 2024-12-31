@@ -36,12 +36,19 @@
   "skill": [
     {
       "name": "交龙垂诏",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的构素伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
       "tag": [
         "射程2格",
         "无消耗"
       ],
-      "level": 5,
+      "level": 1,
+      "levelDes": {
+        "1": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
+        "2": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">105%</span>的构素伤害。",
+        "3": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">110%</span>的构素伤害。",
+        "4": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">115%</span>的构素伤害。",
+        "5": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的构素伤害。"
+      },
       "icon": "skillicon_Commonattack_W",
       "buff": [],
       "type": 1,
@@ -49,12 +56,17 @@
     },
     {
       "name": "魂幡·金乌",
-      "des": "选中自身<span style=\"color:#158bdb\">周围2格</span>的地块，召唤<span style=\"color:#158bdb\">1</span>只生命值、攻击力和防御力为T形帛画基础属性<span style=\"color:#158bdb\">100%</span>的<span style=\"color:#db2424\">金乌</span>。",
+      "des": "选中自身<span style=\"color:#158bdb\">周围2格</span>的地块，召唤<span style=\"color:#158bdb\">1</span>只生命值、攻击力和防御力为T形帛画基础属性<span style=\"color:#158bdb\">60%</span>的<span style=\"color:#db2424\">金乌</span>。",
       "tag": [
         "射程2格",
         "消耗:5"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "选中自身<span style=\"color:#158bdb\">周围2格</span>的地块，召唤<span style=\"color:#158bdb\">1</span>只生命值、攻击力和防御力为T形帛画基础属性<span style=\"color:#158bdb\">60%</span>的<span style=\"color:#db2424\">金乌</span>。",
+        "2": "选中自身<span style=\"color:#158bdb\">周围2格</span>的地块，召唤<span style=\"color:#158bdb\">1</span>只生命值、攻击力和防御力为T形帛画基础属性<span style=\"color:#158bdb\">80%</span>的<span style=\"color:#db2424\">金乌</span>。",
+        "3": "选中自身<span style=\"color:#158bdb\">周围2格</span>的地块，召唤<span style=\"color:#158bdb\">1</span>只生命值、攻击力和防御力为T形帛画基础属性<span style=\"color:#158bdb\">100%</span>的<span style=\"color:#db2424\">金乌</span>。"
+      },
       "icon": "skillicon_W009402",
       "buff": [
         {
@@ -67,11 +79,16 @@
     },
     {
       "name": "引魂",
-      "des": "进入战斗后，每存在<span style=\"color:#158bdb\">1</span>个自身的召唤物，则自身攻击力提高<span style=\"color:#158bdb\">15%</span>，能量自动获取增加<span style=\"color:#158bdb\">0.5</span>。",
+      "des": "进入战斗后，每存在<span style=\"color:#158bdb\">1</span>个自身的召唤物，则自身攻击力提高<span style=\"color:#158bdb\">5%</span>，能量自动获取增加<span style=\"color:#158bdb\">0.5</span>。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "进入战斗后，每存在<span style=\"color:#158bdb\">1</span>个自身的召唤物，则自身攻击力提高<span style=\"color:#158bdb\">5%</span>，能量自动获取增加<span style=\"color:#158bdb\">0.5</span>。",
+        "2": "进入战斗后，每存在<span style=\"color:#158bdb\">1</span>个自身的召唤物，则自身攻击力提高<span style=\"color:#158bdb\">10%</span>，能量自动获取增加<span style=\"color:#158bdb\">0.5</span>。",
+        "3": "进入战斗后，每存在<span style=\"color:#158bdb\">1</span>个自身的召唤物，则自身攻击力提高<span style=\"color:#158bdb\">15%</span>，能量自动获取增加<span style=\"color:#158bdb\">0.5</span>。"
+      },
       "icon": "skillicon_W009403",
       "buff": [],
       "type": 4,
@@ -79,11 +96,16 @@
     },
     {
       "name": "祓禳",
-      "des": "在<span style=\"color:#db2424\">龟驮鸱鸮</span><span style=\"color:#158bdb\">周围1格</span>内进行常击时，有<span style=\"color:#158bdb\">60%</span>概率使选定目标及<span style=\"color:#db2424\">龟驮鸱鸮</span><span style=\"color:#158bdb\">周围1格</span>的敌方全体获得<span style=\"color:#ff6724\">肃静</span>状态；\n在<span style=\"color:#db2424\">金乌</span><span style=\"color:#158bdb\">周围2格</span>内进行常击时，自身获得<span style=\"color:#ff6724\">落照</span>状态。",
+      "des": "在<span style=\"color:#db2424\">龟驮鸱鸮</span><span style=\"color:#158bdb\">周围1格</span>内进行常击时，有<span style=\"color:#158bdb\">30%</span>概率使选定目标及<span style=\"color:#db2424\">龟驮鸱鸮</span><span style=\"color:#158bdb\">周围1格</span>的敌方全体获得<span style=\"color:#ff6724\">肃静</span>状态；\n在<span style=\"color:#db2424\">金乌</span><span style=\"color:#158bdb\">周围2格</span>内进行常击时，自身获得<span style=\"color:#ff6724\">落照</span>状态。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "在<span style=\"color:#db2424\">龟驮鸱鸮</span><span style=\"color:#158bdb\">周围1格</span>内进行常击时，有<span style=\"color:#158bdb\">30%</span>概率使选定目标及<span style=\"color:#db2424\">龟驮鸱鸮</span><span style=\"color:#158bdb\">周围1格</span>的敌方全体获得<span style=\"color:#ff6724\">肃静</span>状态；\n在<span style=\"color:#db2424\">金乌</span><span style=\"color:#158bdb\">周围2格</span>内进行常击时，自身获得<span style=\"color:#ff6724\">落照</span>状态。",
+        "2": "在<span style=\"color:#db2424\">龟驮鸱鸮</span><span style=\"color:#158bdb\">周围1格</span>内进行常击时，有<span style=\"color:#158bdb\">45%</span>概率使选定目标及<span style=\"color:#db2424\">龟驮鸱鸮</span><span style=\"color:#158bdb\">周围1格</span>的敌方全体获得<span style=\"color:#ff6724\">肃静</span>状态；\n在<span style=\"color:#db2424\">金乌</span><span style=\"color:#158bdb\">周围2格</span>内进行常击时，自身获得<span style=\"color:#ff6724\">落照</span>状态。",
+        "3": "在<span style=\"color:#db2424\">龟驮鸱鸮</span><span style=\"color:#158bdb\">周围1格</span>内进行常击时，有<span style=\"color:#158bdb\">60%</span>概率使选定目标及<span style=\"color:#db2424\">龟驮鸱鸮</span><span style=\"color:#158bdb\">周围1格</span>的敌方全体获得<span style=\"color:#ff6724\">肃静</span>状态；\n在<span style=\"color:#db2424\">金乌</span><span style=\"color:#158bdb\">周围2格</span>内进行常击时，自身获得<span style=\"color:#ff6724\">落照</span>状态。"
+      },
       "icon": "skillicon_W009404",
       "buff": [
         {
@@ -108,15 +130,20 @@
     },
     {
       "name": "挽歌",
-      "des": "进入战斗后，获得<span style=\"color:#158bdb\">1</span>点能量；\n<span style=\"color:#db2424\">龟驮鸱鸮</span>的生命值提高<span style=\"color:#158bdb\">30%</span>，<span style=\"color:#db2424\">金乌</span>的攻击力提高<span style=\"color:#158bdb\">30%</span>。",
+      "des": "进入战斗后，获得<span style=\"color:#158bdb\">1</span>点能量；\n<span style=\"color:#db2424\">龟驮鸱鸮</span>的生命值提高<span style=\"color:#158bdb\">10%</span>，<span style=\"color:#db2424\">金乌</span>的攻击力提高<span style=\"color:#158bdb\">10%</span>。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "进入战斗后，获得<span style=\"color:#158bdb\">1</span>点能量；\n<span style=\"color:#db2424\">龟驮鸱鸮</span>的生命值提高<span style=\"color:#158bdb\">10%</span>，<span style=\"color:#db2424\">金乌</span>的攻击力提高<span style=\"color:#158bdb\">10%</span>。",
+        "2": "进入战斗后，获得<span style=\"color:#158bdb\">1</span>点能量；\n<span style=\"color:#db2424\">龟驮鸱鸮</span>的生命值提高<span style=\"color:#158bdb\">20%</span>，<span style=\"color:#db2424\">金乌</span>的攻击力提高<span style=\"color:#158bdb\">20%</span>。",
+        "3": "进入战斗后，获得<span style=\"color:#158bdb\">1</span>点能量；\n<span style=\"color:#db2424\">龟驮鸱鸮</span>的生命值提高<span style=\"color:#158bdb\">30%</span>，<span style=\"color:#db2424\">金乌</span>的攻击力提高<span style=\"color:#158bdb\">30%</span>。"
+      },
       "icon": "skillicon_W009405",
       "buff": [],
       "type": 6,
-      "special": "进入战斗后，获得<span style=\"color:#158bdb\">2</span>点能量，且能量自动获取增加<span style=\"color:#158bdb\">1</span>；\n自身任意召唤物被击败后，额外获得<span style=\"color:#158bdb\">3</span>点能量；\n<span style=\"color:#db2424\">龟驮鸱鸮</span>的生命值提高<span style=\"color:#158bdb\">30%</span>，<span style=\"color:#db2424\">金乌</span>的攻击力提高<span style=\"color:#158bdb\">30%</span>。"
+      "special": "进入战斗后，获得<span style=\"color:#158bdb\">2</span>点能量，且能量自动获取增加<span style=\"color:#158bdb\">1</span>；\n自身任意召唤物被击败后，额外获得<span style=\"color:#158bdb\">3</span>点能量；\n<span style=\"color:#db2424\">龟驮鸱鸮</span>的生命值提高<span style=\"color:#158bdb\">10%</span>，<span style=\"color:#db2424\">金乌</span>的攻击力提高<span style=\"color:#158bdb\">10%</span>。"
     },
     {
       "name": "魂幡·灵龟",
@@ -127,6 +154,9 @@
         "冷却:2"
       ],
       "level": 1,
+      "levelDes": {
+        "1": "选中自身<span style=\"color:#158bdb\">周围2格</span>的地块，召唤<span style=\"color:#158bdb\">1</span>只生命值、攻击力和防御力为T形帛画基础属性<span style=\"color:#158bdb\">100%</span>的<span style=\"color:#db2424\">龟驮鸱鸮</span>。"
+      },
       "icon": "skillicon_W009411",
       "buff": [
         {
@@ -146,6 +176,10 @@
     {
       "id": "W0094002",
       "name": "写照"
+    },
+    {
+      "id": "W0094003",
+      "name": "仙人泪"
     }
   ]
 }

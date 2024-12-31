@@ -36,12 +36,19 @@
   "skill": [
     {
       "name": "辟道",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
       "tag": [
         "射程1格 ",
         "无消耗"
       ],
-      "level": 5,
+      "level": 1,
+      "levelDes": {
+        "1": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+        "2": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">105%</span>的物理伤害。",
+        "3": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">110%</span>的物理伤害。",
+        "4": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">115%</span>的物理伤害。",
+        "5": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。"
+      },
       "icon": "skillicon_Commonattack_D",
       "buff": [],
       "type": 1,
@@ -49,12 +56,17 @@
     },
     {
       "name": "云峰奇险",
-      "des": "对自身<span style=\"color:#158bdb\">周围2格</span>内的敌方全体造成自身攻击力<span style=\"color:#158bdb\">180%</span>的物理伤害，并使其获得<span style=\"color:#ff6724\">震怒</span>状态；自身同时获得持续<span style=\"color:#158bdb\">2</span>回合的<span style=\"color:#ff6724\">云峰奇险</span>，<span style=\"color:#ff6724\">铁甲</span>和<span style=\"color:#ff6724\">裳衫</span>状态。",
+      "des": "对自身<span style=\"color:#158bdb\">周围2格</span>内的敌方全体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害，并使其获得<span style=\"color:#ff6724\">震怒</span>状态；自身同时获得持续<span style=\"color:#158bdb\">2</span>回合的<span style=\"color:#ff6724\">云峰奇险</span>，<span style=\"color:#ff6724\">铁甲</span>和<span style=\"color:#ff6724\">裳衫</span>状态。",
       "tag": [
         "自身",
         "消耗:2"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "对自身<span style=\"color:#158bdb\">周围2格</span>内的敌方全体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害，并使其获得<span style=\"color:#ff6724\">震怒</span>状态；自身同时获得持续<span style=\"color:#158bdb\">2</span>回合的<span style=\"color:#ff6724\">云峰奇险</span>，<span style=\"color:#ff6724\">铁甲</span>和<span style=\"color:#ff6724\">裳衫</span>状态。",
+        "2": "对自身<span style=\"color:#158bdb\">周围2格</span>内的敌方全体造成自身攻击力<span style=\"color:#158bdb\">150%</span>的物理伤害，并使其获得<span style=\"color:#ff6724\">震怒</span>状态；自身同时获得持续<span style=\"color:#158bdb\">2</span>回合的<span style=\"color:#ff6724\">云峰奇险</span>，<span style=\"color:#ff6724\">铁甲</span>和<span style=\"color:#ff6724\">裳衫</span>状态。",
+        "3": "对自身<span style=\"color:#158bdb\">周围2格</span>内的敌方全体造成自身攻击力<span style=\"color:#158bdb\">180%</span>的物理伤害，并使其获得<span style=\"color:#ff6724\">震怒</span>状态；自身同时获得持续<span style=\"color:#158bdb\">2</span>回合的<span style=\"color:#ff6724\">云峰奇险</span>，<span style=\"color:#ff6724\">铁甲</span>和<span style=\"color:#ff6724\">裳衫</span>状态。"
+      },
       "icon": "skillicon_D014002",
       "buff": [
         {
@@ -79,7 +91,7 @@
         }
       ],
       "type": 3,
-      "special": "对自身<span style=\"color:#158bdb\">周围2格</span>内的敌方全体造成自身攻击力<span style=\"color:#158bdb\">180%</span>的物理伤害，并使其获得<span style=\"color:#ff6724\">震怒</span>状态；自身同时获得持续<span style=\"color:#158bdb\">2</span>回合的<span style=\"color:#ff6724\">云峰奇险-超群</span>，<span style=\"color:#ff6724\">铁甲</span>和<span style=\"color:#ff6724\">裳衫</span>状态。"
+      "special": "对自身<span style=\"color:#158bdb\">周围2格</span>内的敌方全体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害，并使其获得<span style=\"color:#ff6724\">震怒</span>状态；自身同时获得持续<span style=\"color:#158bdb\">2</span>回合的<span style=\"color:#ff6724\">云峰奇险-超群</span>，<span style=\"color:#ff6724\">铁甲</span>和<span style=\"color:#ff6724\">裳衫</span>状态。"
     },
     {
       "name": "溪山飞瀑",
@@ -87,7 +99,12 @@
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "使用绝技时，若自身当前生命值高于<span style=\"color:#158bdb\">50%</span>，则消耗自身最大生命值的<span style=\"color:#158bdb\">25%</span>，获得持续<span style=\"color:#158bdb\">2</span>回合的<span style=\"color:#ff6724\">似夜奔行</span>状态。",
+        "2": "使用绝技时，若自身当前生命值高于<span style=\"color:#158bdb\">50%</span>，则消耗自身最大生命值的<span style=\"color:#158bdb\">25%</span>，获得持续<span style=\"color:#158bdb\">2</span>回合的<span style=\"color:#ff6724\">似夜奔行</span>状态。",
+        "3": "使用绝技时，若自身当前生命值高于<span style=\"color:#158bdb\">50%</span>，则消耗自身最大生命值的<span style=\"color:#158bdb\">25%</span>，获得持续<span style=\"color:#158bdb\">2</span>回合的<span style=\"color:#ff6724\">似夜奔行</span>状态。"
+      },
       "icon": "skillicon_D014003",
       "buff": [
         {
@@ -104,11 +121,16 @@
     },
     {
       "name": "孤旅",
-      "des": "受到自身<span style=\"color:#158bdb\">周围1格</span>的敌方单位常击时，有<span style=\"color:#158bdb\">50%</span>的概率进行回击，对其造成自身攻击力<span style=\"color:#158bdb\">50%</span>的物理伤害；\n若自身处于<span style=\"color:#ff6724\">铁甲</span>状态，则获得<span style=\"color:#ff6724\">奇石</span>状态。",
+      "des": "受到自身<span style=\"color:#158bdb\">周围1格</span>的敌方单位常击时，有<span style=\"color:#158bdb\">50%</span>的概率进行回击，对其造成自身攻击力<span style=\"color:#158bdb\">30%</span>的物理伤害；\n若自身处于<span style=\"color:#ff6724\">铁甲</span>状态，则获得<span style=\"color:#ff6724\">奇石</span>状态。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "受到自身<span style=\"color:#158bdb\">周围1格</span>的敌方单位常击时，有<span style=\"color:#158bdb\">50%</span>的概率进行回击，对其造成自身攻击力<span style=\"color:#158bdb\">30%</span>的物理伤害；\n若自身处于<span style=\"color:#ff6724\">铁甲</span>状态，则获得<span style=\"color:#ff6724\">奇石</span>状态。",
+        "2": "受到自身<span style=\"color:#158bdb\">周围1格</span>的敌方单位常击时，有<span style=\"color:#158bdb\">50%</span>的概率进行回击，对其造成自身攻击力<span style=\"color:#158bdb\">40%</span>的物理伤害；\n若自身处于<span style=\"color:#ff6724\">铁甲</span>状态，则获得<span style=\"color:#ff6724\">奇石</span>状态。",
+        "3": "受到自身<span style=\"color:#158bdb\">周围1格</span>的敌方单位常击时，有<span style=\"color:#158bdb\">50%</span>的概率进行回击，对其造成自身攻击力<span style=\"color:#158bdb\">50%</span>的物理伤害；\n若自身处于<span style=\"color:#ff6724\">铁甲</span>状态，则获得<span style=\"color:#ff6724\">奇石</span>状态。"
+      },
       "icon": "skillicon_D014004",
       "buff": [
         {
@@ -121,11 +143,16 @@
     },
     {
       "name": "野行急救",
-      "des": "自身受到治疗时，额外回复自己构素防御力<span style=\"color:#158bdb\">60%</span>的生命值，该次回复不会受到治疗量相关加成的影响；\n若自身处于<span style=\"color:#ff6724\">裳衫</span>状态，则获得<span style=\"color:#ff6724\">润水</span>状态。",
+      "des": "自身受到治疗时，额外回复自己构素防御力<span style=\"color:#158bdb\">40%</span>的生命值，该次回复不会受到治疗量相关加成的影响；\n若自身处于<span style=\"color:#ff6724\">裳衫</span>状态，则获得<span style=\"color:#ff6724\">润水</span>状态。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "自身受到治疗时，额外回复自己构素防御力<span style=\"color:#158bdb\">40%</span>的生命值，该次回复不会受到治疗量相关加成的影响；\n若自身处于<span style=\"color:#ff6724\">裳衫</span>状态，则获得<span style=\"color:#ff6724\">润水</span>状态。",
+        "2": "自身受到治疗时，额外回复自己构素防御力<span style=\"color:#158bdb\">50%</span>的生命值，该次回复不会受到治疗量相关加成的影响；\n若自身处于<span style=\"color:#ff6724\">裳衫</span>状态，则获得<span style=\"color:#ff6724\">润水</span>状态。",
+        "3": "自身受到治疗时，额外回复自己构素防御力<span style=\"color:#158bdb\">60%</span>的生命值，该次回复不会受到治疗量相关加成的影响；\n若自身处于<span style=\"color:#ff6724\">裳衫</span>状态，则获得<span style=\"color:#ff6724\">润水</span>状态。"
+      },
       "icon": "skillicon_D014005",
       "buff": [
         {
@@ -145,6 +172,9 @@
         "冷却:2"
       ],
       "level": 1,
+      "levelDes": {
+        "1": "使自身选定方向前<span style=\"color:#158bdb\">1</span>排的<span style=\"color:#158bdb\">3</span>格变为束缚格，效果持续<span style=\"color:#158bdb\">1</span>回合。若敌方单位进入束缚格，将无法离开束缚格范围，并进入<span style=\"color:#ff6724\">破甲</span>状态。"
+      },
       "icon": "skillicon_Jobskill_D_Z",
       "buff": [
         {
