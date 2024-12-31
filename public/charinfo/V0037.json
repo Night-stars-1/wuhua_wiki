@@ -36,12 +36,19 @@
   "skill": [
     {
       "name": "征伐",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
       "tag": [
         "射程1格 ",
         "无消耗"
       ],
-      "level": 5,
+      "level": 1,
+      "levelDes": {
+        "1": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+        "2": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">105%</span>的物理伤害。",
+        "3": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">110%</span>的物理伤害。",
+        "4": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">115%</span>的物理伤害。",
+        "5": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。"
+      },
       "icon": "skillicon_Commonattack_V",
       "buff": [],
       "type": 1,
@@ -49,12 +56,17 @@
     },
     {
       "name": "祭典开场",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">290%</span>的物理伤害，并使自身获得<span style=\"color:#ff6724\">皇天之赐</span>。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">230%</span>的物理伤害，并使自身获得<span style=\"color:#ff6724\">皇天之赐</span>。",
       "tag": [
         "射程1格 ",
         "消耗:3"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">230%</span>的物理伤害，并使自身获得<span style=\"color:#ff6724\">皇天之赐</span>。",
+        "2": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">260%</span>的物理伤害，并使自身获得<span style=\"color:#ff6724\">皇天之赐</span>。",
+        "3": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">290%</span>的物理伤害，并使自身获得<span style=\"color:#ff6724\">皇天之赐</span>。"
+      },
       "icon": "skillicon_V003702",
       "buff": [
         {
@@ -63,15 +75,20 @@
         }
       ],
       "type": 3,
-      "special": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">290%</span>的物理伤害，并使自身获得<span style=\"color:#ff6724\">皇天之赐</span>。"
+      "special": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">230%</span>的物理伤害，并使自身获得<span style=\"color:#ff6724\">皇天之赐</span>。"
     },
     {
       "name": "功成名就",
-      "des": "当前生命值高于<span style=\"color:#158bdb\">40%</span>时，常击后进行连击，对其造成自身攻击力<span style=\"color:#158bdb\">90%</span>的物理伤害。",
+      "des": "当前生命值高于<span style=\"color:#158bdb\">50%</span>时，常击后进行连击，对其造成自身攻击力<span style=\"color:#158bdb\">40%</span>的物理伤害。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "当前生命值高于<span style=\"color:#158bdb\">50%</span>时，常击后进行连击，对其造成自身攻击力<span style=\"color:#158bdb\">40%</span>的物理伤害。",
+        "2": "当前生命值高于<span style=\"color:#158bdb\">45%</span>时，常击后进行连击，对其造成自身攻击力<span style=\"color:#158bdb\">65%</span>的物理伤害。",
+        "3": "当前生命值高于<span style=\"color:#158bdb\">40%</span>时，常击后进行连击，对其造成自身攻击力<span style=\"color:#158bdb\">90%</span>的物理伤害。"
+      },
       "icon": "skillicon_V003703",
       "buff": [],
       "type": 4,
@@ -79,11 +96,16 @@
     },
     {
       "name": "大丰",
-      "des": "当前生命值低于<span style=\"color:#158bdb\">50%</span>时，使用职业技能后获得<span style=\"color:#ff6724\">生命偷取</span>状态，效果持续<span style=\"color:#158bdb\">2</span>回合。",
+      "des": "当前生命值低于<span style=\"color:#158bdb\">30%</span>时，使用职业技能后获得<span style=\"color:#ff6724\">生命偷取</span>状态，效果持续<span style=\"color:#158bdb\">2</span>回合。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "当前生命值低于<span style=\"color:#158bdb\">30%</span>时，使用职业技能后获得<span style=\"color:#ff6724\">生命偷取</span>状态，效果持续<span style=\"color:#158bdb\">2</span>回合。",
+        "2": "当前生命值低于<span style=\"color:#158bdb\">40%</span>时，使用职业技能后获得<span style=\"color:#ff6724\">生命偷取</span>状态，效果持续<span style=\"color:#158bdb\">2</span>回合。",
+        "3": "当前生命值低于<span style=\"color:#158bdb\">50%</span>时，使用职业技能后获得<span style=\"color:#ff6724\">生命偷取</span>状态，效果持续<span style=\"color:#158bdb\">2</span>回合。"
+      },
       "icon": "skillicon_V003704",
       "buff": [
         {
@@ -92,15 +114,20 @@
         }
       ],
       "type": 5,
-      "special": "当前生命值低于<span style=\"color:#158bdb\">70%</span>时，使用职业技能后获得<span style=\"color:#ff6724\">生命偷取</span>状态，效果持续<span style=\"color:#158bdb\">2</span>回合。"
+      "special": "当前生命值低于<span style=\"color:#158bdb\">50%</span>时，使用职业技能后获得<span style=\"color:#ff6724\">生命偷取</span>状态，效果持续<span style=\"color:#158bdb\">2</span>回合。"
     },
     {
       "name": "祀于天室",
-      "des": "当受到的治疗量超过当前损失生命值时，获得<span style=\"color:#ff6724\">文武显德</span>状态。此效果每间隔<span style=\"color:#158bdb\">2</span>回合后可再次触发。",
+      "des": "当受到的治疗量超过当前损失生命值时，获得<span style=\"color:#ff6724\">文武显德</span>状态。此效果每间隔<span style=\"color:#158bdb\">4</span>回合后可再次触发。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "当受到的治疗量超过当前损失生命值时，获得<span style=\"color:#ff6724\">文武显德</span>状态。此效果每间隔<span style=\"color:#158bdb\">4</span>回合后可再次触发。",
+        "2": "当受到的治疗量超过当前损失生命值时，获得<span style=\"color:#ff6724\">文武显德</span>状态。此效果每间隔<span style=\"color:#158bdb\">3</span>回合后可再次触发。",
+        "3": "当受到的治疗量超过当前损失生命值时，获得<span style=\"color:#ff6724\">文武显德</span>状态。此效果每间隔<span style=\"color:#158bdb\">2</span>回合后可再次触发。"
+      },
       "icon": "skillicon_V003705",
       "buff": [
         {
@@ -120,6 +147,9 @@
         "冷却:2"
       ],
       "level": 1,
+      "levelDes": {
+        "1": "使用后自身获得再行动<span style=\"color:#158bdb\">1</span>次，该次再行动的移动力减少<span style=\"color:#158bdb\">2</span>。"
+      },
       "icon": "skillicon_Jobskill_V",
       "buff": [],
       "type": 2,

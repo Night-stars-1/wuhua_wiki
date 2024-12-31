@@ -1,0 +1,172 @@
+{
+  "info": {
+    "Hp": 749,
+    "Atk": 333,
+    "PhysicDef": 51,
+    "MagicDef": 51,
+    "Speed": 120,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 3,
+    "Mov": 4,
+    "Hp_GROW": 60,
+    "Atk_GROW": 22,
+    "PhysicDef_GROW": 5,
+    "MagicDef_GROW": 5,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": "",
+    "name": "亚长牛尊",
+    "rare": 4,
+    "job": 2,
+    "tag": "近战;输出;爆发"
+  },
+  "skill": [
+    {
+      "name": "芟柞",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+      "tag": [
+        "射程1格 ",
+        "无消耗"
+      ],
+      "level": 1,
+      "levelDes": {
+        "1": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+        "2": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">105%</span>的物理伤害。",
+        "3": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">110%</span>的物理伤害。",
+        "4": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">115%</span>的物理伤害。",
+        "5": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。"
+      },
+      "icon": "skillicon_Commonattack_V",
+      "buff": [],
+      "type": 1,
+      "special": null
+    },
+    {
+      "name": "浮饮长歌",
+      "des": "使用后自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">啸剑</span>和<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">蓄势</span>状态，均持续<span style=\"color:#158bdb\">2</span>回合；\n同时获得持续<span style=\"color:#158bdb\">1</span>轮次的<span style=\"color:#ff6724\">酣饮</span>状态，处于此状态时，自身无法再次使用绝技。",
+      "tag": [
+        "自身",
+        "消耗:3"
+      ],
+      "level": 1,
+      "levelDes": {
+        "1": "使用后自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">啸剑</span>和<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">蓄势</span>状态，均持续<span style=\"color:#158bdb\">2</span>回合；\n同时获得持续<span style=\"color:#158bdb\">1</span>轮次的<span style=\"color:#ff6724\">酣饮</span>状态，处于此状态时，自身无法再次使用绝技。",
+        "2": "使用后自身获得<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">啸剑</span>和<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">蓄势</span>状态，均持续<span style=\"color:#158bdb\">2</span>回合；\n同时获得持续<span style=\"color:#158bdb\">1</span>轮次的<span style=\"color:#ff6724\">酣饮</span>状态，处于此状态时，自身无法再次使用绝技。",
+        "3": "使用后自身获得<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">啸剑</span>和<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">蓄势</span>状态，均持续<span style=\"color:#158bdb\">2</span>回合；\n同时获得持续<span style=\"color:#158bdb\">1</span>轮次的<span style=\"color:#ff6724\">酣饮</span>状态，处于此状态时，自身无法再次使用绝技。"
+      },
+      "icon": "skillicon_V014602",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">酣饮</span>",
+          "des": "处于此状态时，若任意友方单位触发连击，则自身在该单位行动结束后获得<span style=\"color:#158bdb\">1</span>次额外行动并刷新<span style=\"color:#ff6724\">啸剑</span>和<span style=\"color:#ff6724\">蓄势</span>状态的持续时间；该次额外行动中，常击伤害降低<span style=\"color:#158bdb\">99%</span>。"
+        },
+        {
+          "name": "<span style=\"color:#ff6724\">啸剑</span>",
+          "des": "攻击力提高<span style=\"color:#158bdb\">20%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">2</span>层。"
+        },
+        {
+          "name": "<span style=\"color:#ff6724\">蓄势</span>",
+          "des": "提高所有伤害<span style=\"color:#158bdb\">20%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">2</span>层。"
+        }
+      ],
+      "type": 3,
+      "special": null
+    },
+    {
+      "name": "万物有灵",
+      "des": "进入战斗后，自身速度增加<span style=\"color:#158bdb\">200</span>。\n使用绝技后，自身获得持续<span style=\"color:#158bdb\">2</span>轮次的<span style=\"color:#ff6724\">众生一相</span>状态；此状态持续期间，友方单位每连击<span style=\"color:#158bdb\">1</span>次，则使亚长牛尊攻击力提高<span style=\"color:#158bdb\">5%</span>，最多可叠加<span style=\"color:#158bdb\">10</span>层，持续<span style=\"color:#158bdb\">2</span>轮次。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "levelDes": {
+        "1": "进入战斗后，自身速度增加<span style=\"color:#158bdb\">200</span>。\n使用绝技后，自身获得持续<span style=\"color:#158bdb\">2</span>轮次的<span style=\"color:#ff6724\">众生一相</span>状态；此状态持续期间，友方单位每连击<span style=\"color:#158bdb\">1</span>次，则使亚长牛尊攻击力提高<span style=\"color:#158bdb\">5%</span>，最多可叠加<span style=\"color:#158bdb\">10</span>层，持续<span style=\"color:#158bdb\">2</span>轮次。",
+        "2": "进入战斗后，自身速度增加<span style=\"color:#158bdb\">200</span>。\n使用绝技后，自身获得持续<span style=\"color:#158bdb\">2</span>轮次的<span style=\"color:#ff6724\">众生一相</span>状态；此状态持续期间，友方单位每连击<span style=\"color:#158bdb\">1</span>次，则使亚长牛尊攻击力提高<span style=\"color:#158bdb\">10%</span>，最多可叠加<span style=\"color:#158bdb\">10</span>层，持续<span style=\"color:#158bdb\">2</span>轮次。",
+        "3": "进入战斗后，自身速度增加<span style=\"color:#158bdb\">200</span>。\n使用绝技后，自身获得持续<span style=\"color:#158bdb\">2</span>轮次的<span style=\"color:#ff6724\">众生一相</span>状态；此状态持续期间，友方单位每连击<span style=\"color:#158bdb\">1</span>次，则使亚长牛尊攻击力提高<span style=\"color:#158bdb\">15%</span>，最多可叠加<span style=\"color:#158bdb\">10</span>层，持续<span style=\"color:#158bdb\">2</span>轮次。"
+      },
+      "icon": "skillicon_V014603",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">众生一相</span>",
+          "des": "<span style=\"color:#158bdb\">2</span>轮次内，自身常击后触发连击，对受击单位造成攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。"
+        }
+      ],
+      "type": 4,
+      "special": null
+    },
+    {
+      "name": "祀以酹觞",
+      "des": "连击击败敌方单位时，对自身<span style=\"color:#158bdb\">周围2格</span>的敌方全体造成该次连击伤害<span style=\"color:#158bdb\">30%</span>的<span style=\"color:#ff6724\">真实伤害</span>。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "levelDes": {
+        "1": "连击击败敌方单位时，对自身<span style=\"color:#158bdb\">周围2格</span>的敌方全体造成该次连击伤害<span style=\"color:#158bdb\">30%</span>的<span style=\"color:#ff6724\">真实伤害</span>。",
+        "2": "连击击败敌方单位时，对自身<span style=\"color:#158bdb\">周围2格</span>的敌方全体造成该次连击伤害<span style=\"color:#158bdb\">40%</span>的<span style=\"color:#ff6724\">真实伤害</span>。",
+        "3": "连击击败敌方单位时，对自身<span style=\"color:#158bdb\">周围2格</span>的敌方全体造成该次连击伤害<span style=\"color:#158bdb\">50%</span>的<span style=\"color:#ff6724\">真实伤害</span>。"
+      },
+      "icon": "skillicon_V014604",
+      "buff": [],
+      "type": 5,
+      "special": null
+    },
+    {
+      "name": "骁勇",
+      "des": "每轮次开始时，自身上<span style=\"color:#158bdb\">1</span>轮次每行动过<span style=\"color:#158bdb\">1</span>次，则使自身攻击力提高<span style=\"color:#158bdb\">18%</span>，最多可叠加<span style=\"color:#158bdb\">5</span>层，持续<span style=\"color:#158bdb\">1</span>回合。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "levelDes": {
+        "1": "每轮次开始时，自身上<span style=\"color:#158bdb\">1</span>轮次每行动过<span style=\"color:#158bdb\">1</span>次，则使自身攻击力提高<span style=\"color:#158bdb\">18%</span>，最多可叠加<span style=\"color:#158bdb\">5</span>层，持续<span style=\"color:#158bdb\">1</span>回合。",
+        "2": "每轮次开始时，自身上<span style=\"color:#158bdb\">1</span>轮次每行动过<span style=\"color:#158bdb\">1</span>次，则使自身攻击力提高<span style=\"color:#158bdb\">24%</span>，最多可叠加<span style=\"color:#158bdb\">5</span>层，持续<span style=\"color:#158bdb\">1</span>回合。",
+        "3": "每轮次开始时，自身上<span style=\"color:#158bdb\">1</span>轮次每行动过<span style=\"color:#158bdb\">1</span>次，则使自身攻击力提高<span style=\"color:#158bdb\">30%</span>，最多可叠加<span style=\"color:#158bdb\">5</span>层，持续<span style=\"color:#158bdb\">1</span>回合。"
+      },
+      "icon": "skillicon_V014605",
+      "buff": [],
+      "type": 6,
+      "special": "每轮次首次回合开始时，自身上<span style=\"color:#158bdb\">1</span>轮次每行动过<span style=\"color:#158bdb\">1</span>次，则使自身连击伤害提高<span style=\"color:#158bdb\">18%</span>，友方单位连击伤害提高<span style=\"color:#158bdb\">6%</span>，持续<span style=\"color:#158bdb\">1</span>回合。"
+    },
+    {
+      "name": "摧锋斩旗",
+      "des": "使用后自身获得再行动<span style=\"color:#158bdb\">1</span>次，该次再行动的移动力减少<span style=\"color:#158bdb\">2</span>。",
+      "tag": [
+        "自身",
+        "无消耗",
+        "冷却:2"
+      ],
+      "level": 1,
+      "levelDes": {
+        "1": "使用后自身获得再行动<span style=\"color:#158bdb\">1</span>次，该次再行动的移动力减少<span style=\"color:#158bdb\">2</span>。"
+      },
+      "icon": "skillicon_Jobskill_V",
+      "buff": [],
+      "type": 2,
+      "special": null
+    }
+  ],
+  "skin": [
+    {
+      "id": "V0146001",
+      "name": "肖形"
+    },
+    {
+      "id": "V0146002",
+      "name": "写照"
+    }
+  ]
+}

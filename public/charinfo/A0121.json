@@ -1,0 +1,178 @@
+{
+  "info": {
+    "Hp": 626,
+    "Atk": 285,
+    "PhysicDef": 36,
+    "MagicDef": 36,
+    "Speed": 165,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 5,
+    "Mov": 3,
+    "Hp_GROW": 50,
+    "Atk_GROW": 19,
+    "PhysicDef_GROW": 4,
+    "MagicDef_GROW": 4,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": "",
+    "name": "跪射俑",
+    "rare": 3,
+    "job": 3,
+    "tag": "远程;输出;减益"
+  },
+  "skill": [
+    {
+      "name": "抛射",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+      "tag": [
+        "十字3格",
+        "无消耗"
+      ],
+      "level": 1,
+      "levelDes": {
+        "1": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+        "2": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">105%</span>的物理伤害。",
+        "3": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">110%</span>的物理伤害。",
+        "4": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">115%</span>的物理伤害。",
+        "5": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。"
+      },
+      "icon": "skillicon_Commonattack_A",
+      "buff": [],
+      "type": 1,
+      "special": null
+    },
+    {
+      "name": "锋镝清野",
+      "des": "使用后，自身获得再行动<span style=\"color:#158bdb\">1</span>次，并获得持续<span style=\"color:#158bdb\">2</span>回合的<span style=\"color:#ff6724\">锋镝清野</span>状态。",
+      "tag": [
+        "自身",
+        "消耗:4"
+      ],
+      "level": 1,
+      "levelDes": {
+        "1": "使用后，自身获得再行动<span style=\"color:#158bdb\">1</span>次，并获得持续<span style=\"color:#158bdb\">2</span>回合的<span style=\"color:#ff6724\">锋镝清野</span>状态。",
+        "2": "使用后，自身获得再行动<span style=\"color:#158bdb\">1</span>次，并获得持续<span style=\"color:#158bdb\">2</span>回合的<span style=\"color:#ff6724\">锋镝清野</span>状态。",
+        "3": "使用后，自身获得再行动<span style=\"color:#158bdb\">1</span>次，并获得持续<span style=\"color:#158bdb\">2</span>回合的<span style=\"color:#ff6724\">锋镝清野</span>状态。"
+      },
+      "icon": "skillicon_A012102",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">锋镝清野</span>",
+          "des": "处于此状态时，自身受到的伤害降低<span style=\"color:#158bdb\">15%</span>，无法移动并免疫敌方造成的位移效果；\n常击的攻击范围变为自身<span style=\"color:#158bdb\">周围3-7格</span>，且可对选定的敌方单体或地块及其<span style=\"color:#158bdb\">周围1圈</span>敌方全体造成自身攻击力<span style=\"color:#158bdb\">100%</span>物理伤害；\n此状态持续期间，自身无法进入<span style=\"color:#ff6724\">瞄准</span>状态。"
+        }
+      ],
+      "type": 3,
+      "special": null
+    },
+    {
+      "name": "弦落箭鸣",
+      "des": "处于<span style=\"color:#ff6724\">瞄准</span>状态或<span style=\"color:#ff6724\">锋镝清野</span>状态造成伤害时，受击敌方单位有<span style=\"color:#158bdb\">35%</span>概率获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">脆弱</span>状态和<span style=\"color:#ff6724\">滞缓</span>状态。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "levelDes": {
+        "1": "处于<span style=\"color:#ff6724\">瞄准</span>状态或<span style=\"color:#ff6724\">锋镝清野</span>状态造成伤害时，受击敌方单位有<span style=\"color:#158bdb\">35%</span>概率获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">脆弱</span>状态和<span style=\"color:#ff6724\">滞缓</span>状态。",
+        "2": "处于<span style=\"color:#ff6724\">瞄准</span>状态或<span style=\"color:#ff6724\">锋镝清野</span>状态造成伤害时，受击敌方单位有<span style=\"color:#158bdb\">65%</span>概率获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">脆弱</span>状态和<span style=\"color:#ff6724\">滞缓</span>状态。",
+        "3": "处于<span style=\"color:#ff6724\">瞄准</span>状态或<span style=\"color:#ff6724\">锋镝清野</span>状态造成伤害时，受击敌方单位有<span style=\"color:#158bdb\">100%</span>概率获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">脆弱</span>状态和<span style=\"color:#ff6724\">滞缓</span>状态。"
+      },
+      "icon": "skillicon_A012103",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">脆弱</span>",
+          "des": "提高受到的所有伤害<span style=\"color:#db2424\">30%</span>，每受到一次直接攻击减少<span style=\"color:#ff6724\">1层</span>，持续<span style=\"color:#4395d6\">2</span>回合或层数用完。"
+        },
+        {
+          "name": "<span style=\"color:#ff6724\">滞缓</span>",
+          "des": "降低移动力<span style=\"color:#158bdb\">-1</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">1</span>层。"
+        }
+      ],
+      "type": 4,
+      "special": "进入战斗后，自身额外获得<span style=\"color:#158bdb\">1</span>点能量。每次释放绝技后获得额外行动<span style=\"color:#158bdb\">1</span>次。\n处于<span style=\"color:#ff6724\">瞄准</span>状态或<span style=\"color:#ff6724\">锋镝清野</span>状态造成伤害时，受击敌方单位有<span style=\"color:#158bdb\">35%</span>概率获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">脆弱</span>状态和<span style=\"color:#ff6724\">滞缓</span>状态。"
+    },
+    {
+      "name": "同袍齐心",
+      "des": "处于<span style=\"color:#ff6724\">瞄准</span>状态或<span style=\"color:#ff6724\">锋镝清野</span>状态造成伤害时，受击敌方单位有<span style=\"color:#158bdb\">50%</span>概率获得<span style=\"color:#ff6724\">乱神</span>状态，此状态不可叠加。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "levelDes": {
+        "1": "处于<span style=\"color:#ff6724\">瞄准</span>状态或<span style=\"color:#ff6724\">锋镝清野</span>状态造成伤害时，受击敌方单位有<span style=\"color:#158bdb\">50%</span>概率获得<span style=\"color:#ff6724\">乱神</span>状态，此状态不可叠加。",
+        "2": "处于<span style=\"color:#ff6724\">瞄准</span>状态或<span style=\"color:#ff6724\">锋镝清野</span>状态造成伤害时，受击敌方单位有<span style=\"color:#158bdb\">75%</span>概率获得<span style=\"color:#ff6724\">乱神</span>状态，此状态不可叠加。",
+        "3": "处于<span style=\"color:#ff6724\">瞄准</span>状态或<span style=\"color:#ff6724\">锋镝清野</span>状态造成伤害时，受击敌方单位有<span style=\"color:#158bdb\">100%</span>概率获得<span style=\"color:#ff6724\">乱神</span>状态，此状态不可叠加。"
+      },
+      "icon": "skillicon_A012104",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">乱神</span>",
+          "des": "处于此状态时，造成的构素伤害降低<span style=\"color:#158bdb\">30%</span>，持续<span style=\"color:#158bdb\">2</span>回合。"
+        }
+      ],
+      "type": 5,
+      "special": null
+    },
+    {
+      "name": "弩机速填",
+      "des": "<span style=\"color:#ff6724\">锋镝清野</span>状态结束后<span style=\"color:#158bdb\">1</span>回合内，自身下<span style=\"color:#158bdb\">1</span>次常击攻击造成伤害提高<span style=\"color:#158bdb\">100%</span>。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "levelDes": {
+        "1": "<span style=\"color:#ff6724\">锋镝清野</span>状态结束后<span style=\"color:#158bdb\">1</span>回合内，自身下<span style=\"color:#158bdb\">1</span>次常击攻击造成伤害提高<span style=\"color:#158bdb\">100%</span>。",
+        "2": "<span style=\"color:#ff6724\">锋镝清野</span>状态结束后<span style=\"color:#158bdb\">1</span>回合内，自身下<span style=\"color:#158bdb\">1</span>次常击攻击造成伤害提高<span style=\"color:#158bdb\">150%</span>。",
+        "3": "<span style=\"color:#ff6724\">锋镝清野</span>状态结束后<span style=\"color:#158bdb\">1</span>回合内，自身下<span style=\"color:#158bdb\">1</span>次常击攻击造成伤害提高<span style=\"color:#158bdb\">200%</span>。"
+      },
+      "icon": "skillicon_A012105",
+      "buff": [],
+      "type": 6,
+      "special": null
+    },
+    {
+      "name": "望山",
+      "des": "使用后自身获得<span style=\"color:#158bdb\">1</span>次不可移动的再行动，并进入<span style=\"color:#ff6724\">瞄准</span>状态。",
+      "tag": [
+        "自身",
+        "无消耗",
+        "冷却:3"
+      ],
+      "level": 1,
+      "levelDes": {
+        "1": "使用后自身获得<span style=\"color:#158bdb\">1</span>次不可移动的再行动，并进入<span style=\"color:#ff6724\">瞄准</span>状态。"
+      },
+      "icon": "skillicon_Jobskill_A",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">瞄准</span>",
+          "des": "此状态下进行攻击时，最大攻击距离增加<span style=\"color:#158bdb\">4</span>格，该次再行动结束后，此状态消失。"
+        }
+      ],
+      "type": 2,
+      "special": null
+    }
+  ],
+  "skin": [
+    {
+      "id": "A0121001",
+      "name": "肖形"
+    },
+    {
+      "id": "A0121002",
+      "name": "写照"
+    }
+  ]
+}

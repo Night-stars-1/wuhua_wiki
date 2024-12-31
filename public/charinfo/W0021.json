@@ -1,0 +1,158 @@
+{
+  "info": {
+    "Hp": 638,
+    "Atk": 311,
+    "PhysicDef": 34,
+    "MagicDef": 34,
+    "Speed": 90,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 4,
+    "Mov": 3,
+    "Hp_GROW": 51,
+    "Atk_GROW": 21,
+    "PhysicDef_GROW": 3,
+    "MagicDef_GROW": 3,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": "",
+    "name": "鸳鸯炉",
+    "rare": 3,
+    "job": 4,
+    "tag": "远程;输出;爆发"
+  },
+  "skill": [
+    {
+      "name": "熏染",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
+      "tag": [
+        "射程2格",
+        "无消耗"
+      ],
+      "level": 1,
+      "levelDes": {
+        "1": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
+        "2": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">105%</span>的构素伤害。",
+        "3": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">110%</span>的构素伤害。",
+        "4": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">115%</span>的构素伤害。",
+        "5": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的构素伤害。"
+      },
+      "icon": "skillicon_Commonattack_W",
+      "buff": [],
+      "type": 1,
+      "special": null
+    },
+    {
+      "name": "鸳鸯鸣",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">160%</span>的构素伤害，并消耗所有剩余能量，每点额外消耗的能量造成自身攻击力<span style=\"color:#158bdb\">40%</span>的额外构素伤害。",
+      "tag": [
+        "射程2格",
+        "消耗:2"
+      ],
+      "level": 1,
+      "levelDes": {
+        "1": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">160%</span>的构素伤害，并消耗所有剩余能量，每点额外消耗的能量造成自身攻击力<span style=\"color:#158bdb\">40%</span>的额外构素伤害。",
+        "2": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">160%</span>的构素伤害，并消耗所有剩余能量，每点额外消耗的能量造成自身攻击力<span style=\"color:#158bdb\">60%</span>的额外构素伤害。",
+        "3": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">160%</span>的构素伤害，并消耗所有剩余能量，每点额外消耗的能量造成自身攻击力<span style=\"color:#158bdb\">80%</span>的额外构素伤害。"
+      },
+      "icon": "skillicon_W002102",
+      "buff": [],
+      "type": 3,
+      "special": null
+    },
+    {
+      "name": "栖止",
+      "des": "回合结束时，若自身未进行攻击，则获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">凝烟</span>。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "levelDes": {
+        "1": "回合结束时，若自身未进行攻击，则获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">凝烟</span>。",
+        "2": "回合结束时，若自身未进行攻击，则获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">凝烟</span>。",
+        "3": "回合结束时，若自身未进行攻击，则获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">凝烟</span>。"
+      },
+      "icon": "skillicon_W002103",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">凝烟</span>",
+          "des": "进行攻击前消耗此状态，使该回合内造成的伤害提高<span style=\"color:#67a4f7\">8%</span>，最多可叠加<span style=\"color:#67a4f7\">4</span>层。"
+        }
+      ],
+      "type": 4,
+      "special": null
+    },
+    {
+      "name": "旅徙",
+      "des": "使用职业技能后，有<span style=\"color:#158bdb\">30%</span>概率，使下一次常击不消耗<span style=\"color:#ff6724\">凝烟</span>。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "levelDes": {
+        "1": "使用职业技能后，有<span style=\"color:#158bdb\">30%</span>概率，使下一次常击不消耗<span style=\"color:#ff6724\">凝烟</span>。",
+        "2": "使用职业技能后，有<span style=\"color:#158bdb\">40%</span>概率，使下一次常击不消耗<span style=\"color:#ff6724\">凝烟</span>。",
+        "3": "使用职业技能后，有<span style=\"color:#158bdb\">50%</span>概率，使下一次常击不消耗<span style=\"color:#ff6724\">凝烟</span>。"
+      },
+      "icon": "skillicon_W002104",
+      "buff": [],
+      "type": 5,
+      "special": "使用职业技能后，有<span style=\"color:#158bdb\">50%</span>概率，使下一次常击不消耗<span style=\"color:#ff6724\">凝烟</span>。"
+    },
+    {
+      "name": "翡色",
+      "des": "使用职业技能时，有<span style=\"color:#158bdb\">40%</span>概率额外获得<span style=\"color:#ff6724\">凝烟</span>；释放绝技后，根据额外消耗的能量，保留相应层数的<span style=\"color:#ff6724\">凝烟</span>效果。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "levelDes": {
+        "1": "使用职业技能时，有<span style=\"color:#158bdb\">40%</span>概率额外获得<span style=\"color:#ff6724\">凝烟</span>；释放绝技后，根据额外消耗的能量，保留相应层数的<span style=\"color:#ff6724\">凝烟</span>效果。",
+        "2": "使用职业技能时，有<span style=\"color:#158bdb\">60%</span>概率额外获得<span style=\"color:#ff6724\">凝烟</span>；释放绝技后，根据额外消耗的能量，保留相应层数的<span style=\"color:#ff6724\">凝烟</span>效果。",
+        "3": "使用职业技能时，有<span style=\"color:#158bdb\">80%</span>概率额外获得<span style=\"color:#ff6724\">凝烟</span>；释放绝技后，根据额外消耗的能量，保留相应层数的<span style=\"color:#ff6724\">凝烟</span>效果。"
+      },
+      "icon": "skillicon_W002105",
+      "buff": [],
+      "type": 6,
+      "special": null
+    },
+    {
+      "name": "捻香",
+      "des": "使自身获得<span style=\"color:#158bdb\">凝烟</span>状态。",
+      "tag": [
+        "自身",
+        "消耗:1"
+      ],
+      "level": 1,
+      "levelDes": {
+        "1": "使自身获得<span style=\"color:#158bdb\">凝烟</span>状态。"
+      },
+      "icon": "skillicon_Jobskill_W_R",
+      "buff": [],
+      "type": 2,
+      "special": null
+    }
+  ],
+  "skin": [
+    {
+      "id": "W0021001",
+      "name": "肖形"
+    },
+    {
+      "id": "W0021002",
+      "name": "写照"
+    }
+  ]
+}

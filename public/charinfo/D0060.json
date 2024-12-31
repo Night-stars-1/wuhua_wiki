@@ -36,12 +36,19 @@
   "skill": [
     {
       "name": "直刺",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
       "tag": [
         "射程1格 ",
         "无消耗"
       ],
-      "level": 5,
+      "level": 1,
+      "levelDes": {
+        "1": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+        "2": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">105%</span>的物理伤害。",
+        "3": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">110%</span>的物理伤害。",
+        "4": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">115%</span>的物理伤害。",
+        "5": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。"
+      },
       "icon": "skillicon_Commonattack_D",
       "buff": [],
       "type": 1,
@@ -49,12 +56,17 @@
     },
     {
       "name": "长矛挑空",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">280%</span>的物理伤害并使其进入<span style=\"color:#ff6724\">震怒</span>状态，效果持续<span style=\"color:#158bdb\">2</span>回合。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">180%</span>的物理伤害并使其进入<span style=\"color:#ff6724\">震怒</span>状态，效果持续<span style=\"color:#158bdb\">2</span>回合。",
       "tag": [
         "射程1格 ",
         "消耗:3"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">180%</span>的物理伤害并使其进入<span style=\"color:#ff6724\">震怒</span>状态，效果持续<span style=\"color:#158bdb\">2</span>回合。",
+        "2": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">230%</span>的物理伤害并使其进入<span style=\"color:#ff6724\">震怒</span>状态，效果持续<span style=\"color:#158bdb\">2</span>回合。",
+        "3": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">280%</span>的物理伤害并使其进入<span style=\"color:#ff6724\">震怒</span>状态，效果持续<span style=\"color:#158bdb\">2</span>回合。"
+      },
       "icon": "skillicon_D006002",
       "buff": [
         {
@@ -71,7 +83,12 @@
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "自身当前生命值百分比高于自身<span style=\"color:#158bdb\">周围2格</span>内的任意敌方单位时，获得<span style=\"color:#158bdb\">怜悯</span>状态。",
+        "2": "自身当前生命值百分比高于自身<span style=\"color:#158bdb\">周围2格</span>内的任意敌方单位时，获得<span style=\"color:#158bdb\">怜悯</span>状态。",
+        "3": "自身当前生命值百分比高于自身<span style=\"color:#158bdb\">周围2格</span>内的任意敌方单位时，获得<span style=\"color:#158bdb\">怜悯</span>状态。"
+      },
       "icon": "skillicon_D006003",
       "buff": [
         {
@@ -84,27 +101,37 @@
     },
     {
       "name": "盟会诸侯",
-      "des": "格挡常击时，若攻击者在自身<span style=\"color:#158bdb\">周围1格</span>内，则进行回击，对其造成自身攻击力<span style=\"color:#158bdb\">130%</span>的物理伤害。",
+      "des": "格挡常击时，若攻击者在自身<span style=\"color:#158bdb\">周围1格</span>内，则进行回击，对其造成自身攻击力<span style=\"color:#158bdb\">80%</span>的物理伤害。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "格挡常击时，若攻击者在自身<span style=\"color:#158bdb\">周围1格</span>内，则进行回击，对其造成自身攻击力<span style=\"color:#158bdb\">80%</span>的物理伤害。",
+        "2": "格挡常击时，若攻击者在自身<span style=\"color:#158bdb\">周围1格</span>内，则进行回击，对其造成自身攻击力<span style=\"color:#158bdb\">105%</span>的物理伤害。",
+        "3": "格挡常击时，若攻击者在自身<span style=\"color:#158bdb\">周围1格</span>内，则进行回击，对其造成自身攻击力<span style=\"color:#158bdb\">130%</span>的物理伤害。"
+      },
       "icon": "skillicon_D006004",
       "buff": [],
       "type": 5,
-      "special": "格挡常击时，若攻击者在自身<span style=\"color:#158bdb\">周围1格</span>内，则进行回击，对其造成自身攻击力<span style=\"color:#158bdb\">130%</span>的物理伤害。"
+      "special": "格挡常击时，若攻击者在自身<span style=\"color:#158bdb\">周围1格</span>内，则进行回击，对其造成自身攻击力<span style=\"color:#158bdb\">80%</span>的物理伤害。"
     },
     {
       "name": "极武",
-      "des": "未处于<span style=\"color:#158bdb\">怜悯</span>状态时，受到治疗量增加<span style=\"color:#158bdb\">20%</span>。",
+      "des": "未处于<span style=\"color:#158bdb\">怜悯</span>状态时，受到治疗量增加<span style=\"color:#158bdb\">10%</span>。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "未处于<span style=\"color:#158bdb\">怜悯</span>状态时，受到治疗量增加<span style=\"color:#158bdb\">10%</span>。",
+        "2": "未处于<span style=\"color:#158bdb\">怜悯</span>状态时，受到治疗量增加<span style=\"color:#158bdb\">15%</span>。",
+        "3": "未处于<span style=\"color:#158bdb\">怜悯</span>状态时，受到治疗量增加<span style=\"color:#158bdb\">20%</span>。"
+      },
       "icon": "skillicon_D006005",
       "buff": [],
       "type": 6,
-      "special": "未处于<span style=\"color:#158bdb\">怜悯</span>状态时，受到治疗量增加<span style=\"color:#158bdb\">20%</span>。"
+      "special": "未处于<span style=\"color:#158bdb\">怜悯</span>状态时，受到治疗量增加<span style=\"color:#158bdb\">10%</span>。"
     },
     {
       "name": "逐鹿",
@@ -115,6 +142,9 @@
         "冷却:2"
       ],
       "level": 1,
+      "levelDes": {
+        "1": "使自身选定方向前<span style=\"color:#158bdb\">1</span>排的<span style=\"color:#158bdb\">3</span>格变为束缚格，效果持续<span style=\"color:#158bdb\">1</span>回合。若敌方单位进入束缚格，将无法离开束缚格范围，并进入<span style=\"color:#ff6724\">降攻</span>状态。"
+      },
       "icon": "skillicon_Jobskill_D_Z",
       "buff": [
         {

@@ -36,12 +36,19 @@
   "skill": [
     {
       "name": "落玺",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的构素伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
       "tag": [
         "射程3格",
         "无消耗"
       ],
-      "level": 5,
+      "level": 1,
+      "levelDes": {
+        "1": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
+        "2": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">105%</span>的构素伤害。",
+        "3": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">110%</span>的构素伤害。",
+        "4": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">115%</span>的构素伤害。",
+        "5": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的构素伤害。"
+      },
       "icon": "skillicon_Commonattack_S",
       "buff": [],
       "type": 1,
@@ -49,12 +56,17 @@
     },
     {
       "name": "螭虎啸天",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">290%</span>的构素伤害；自身<span style=\"color:#158bdb\">周围1圈</span>内每有<span style=\"color:#158bdb\">1</span>名友方单位，则该次攻击伤害提升<span style=\"color:#158bdb\">20%</span>，最多叠加<span style=\"color:#158bdb\">3</span>次。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">230%</span>的构素伤害；自身<span style=\"color:#158bdb\">周围1圈</span>内每有<span style=\"color:#158bdb\">1</span>名友方单位，则该次攻击伤害提升<span style=\"color:#158bdb\">20%</span>，最多叠加<span style=\"color:#158bdb\">3</span>次。",
       "tag": [
         "射程3格",
         "消耗:3"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">230%</span>的构素伤害；自身<span style=\"color:#158bdb\">周围1圈</span>内每有<span style=\"color:#158bdb\">1</span>名友方单位，则该次攻击伤害提升<span style=\"color:#158bdb\">20%</span>，最多叠加<span style=\"color:#158bdb\">3</span>次。",
+        "2": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">260%</span>的构素伤害；自身<span style=\"color:#158bdb\">周围1圈</span>内每有<span style=\"color:#158bdb\">1</span>名友方单位，则该次攻击伤害提升<span style=\"color:#158bdb\">20%</span>，最多叠加<span style=\"color:#158bdb\">3</span>次。",
+        "3": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">290%</span>的构素伤害；自身<span style=\"color:#158bdb\">周围1圈</span>内每有<span style=\"color:#158bdb\">1</span>名友方单位，则该次攻击伤害提升<span style=\"color:#158bdb\">20%</span>，最多叠加<span style=\"color:#158bdb\">3</span>次。"
+      },
       "icon": "skillicon_S001202",
       "buff": [],
       "type": 3,
@@ -62,11 +74,16 @@
     },
     {
       "name": "云辉熠",
-      "des": "自身<span style=\"color:#158bdb\">周围1格</span>内的友方全体防御力提高<span style=\"color:#158bdb\">20%</span>；自身<span style=\"color:#158bdb\">斜角1格</span>内的友方全体，暴击率增加<span style=\"color:#158bdb\">20%</span>。",
+      "des": "自身<span style=\"color:#158bdb\">周围1格</span>内的友方全体防御力提高<span style=\"color:#158bdb\">10%</span>；自身<span style=\"color:#158bdb\">斜角1格</span>内的友方全体，暴击率增加<span style=\"color:#158bdb\">10%</span>。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "自身<span style=\"color:#158bdb\">周围1格</span>内的友方全体防御力提高<span style=\"color:#158bdb\">10%</span>；自身<span style=\"color:#158bdb\">斜角1格</span>内的友方全体，暴击率增加<span style=\"color:#158bdb\">10%</span>。",
+        "2": "自身<span style=\"color:#158bdb\">周围1格</span>内的友方全体防御力提高<span style=\"color:#158bdb\">15%</span>；自身<span style=\"color:#158bdb\">斜角1格</span>内的友方全体，暴击率增加<span style=\"color:#158bdb\">15%</span>。",
+        "3": "自身<span style=\"color:#158bdb\">周围1格</span>内的友方全体防御力提高<span style=\"color:#158bdb\">20%</span>；自身<span style=\"color:#158bdb\">斜角1格</span>内的友方全体，暴击率增加<span style=\"color:#158bdb\">20%</span>。"
+      },
       "icon": "skillicon_S001203",
       "buff": [],
       "type": 4,
@@ -74,11 +91,16 @@
     },
     {
       "name": "皇室威仪",
-      "des": "警戒攻击有<span style=\"color:#158bdb\">70%</span>概率使受击敌方单位获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">滞缓</span>状态。",
+      "des": "警戒攻击有<span style=\"color:#158bdb\">30%</span>概率使受击敌方单位获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">滞缓</span>状态。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "警戒攻击有<span style=\"color:#158bdb\">30%</span>概率使受击敌方单位获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">滞缓</span>状态。",
+        "2": "警戒攻击有<span style=\"color:#158bdb\">50%</span>概率使受击敌方单位获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">滞缓</span>状态。",
+        "3": "警戒攻击有<span style=\"color:#158bdb\">70%</span>概率使受击敌方单位获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">滞缓</span>状态。"
+      },
       "icon": "skillicon_S001204",
       "buff": [
         {
@@ -87,15 +109,20 @@
         }
       ],
       "type": 5,
-      "special": "警戒攻击有<span style=\"color:#158bdb\">100%</span>概率使受击敌方单位获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">滞缓</span>状态。"
+      "special": "警戒攻击有<span style=\"color:#158bdb\">60%</span>概率使受击敌方单位获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">滞缓</span>状态。"
     },
     {
       "name": "仁泽众生",
-      "des": "使用绝技后，自身<span style=\"color:#158bdb\">周围2格</span>的友方全体获得<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">啸剑</span>状态。",
+      "des": "使用绝技后，自身<span style=\"color:#158bdb\">周围1圈</span>的友方全体获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">啸剑</span>状态。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "使用绝技后，自身<span style=\"color:#158bdb\">周围1圈</span>的友方全体获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">啸剑</span>状态。",
+        "2": "使用绝技后，自身<span style=\"color:#158bdb\">周围1圈</span>的友方全体获得<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">啸剑</span>状态。",
+        "3": "使用绝技后，自身<span style=\"color:#158bdb\">周围2格</span>的友方全体获得<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">啸剑</span>状态。"
+      },
       "icon": "skillicon_S001205",
       "buff": [
         {
@@ -115,6 +142,9 @@
         "冷却:3"
       ],
       "level": 1,
+      "levelDes": {
+        "1": "使用后为自身填充<span style=\"color:#158bdb\">3</span>枚<span style=\"color:#ff6724\">礼弹</span>并进入警戒状态：以自身<span style=\"color:#158bdb\">周围3格</span>为警戒范围，对停留在该范围中的敌方单位进行警戒攻击，对其造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。"
+      },
       "icon": "skillicon_Jobskill_S",
       "buff": [
         {

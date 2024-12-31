@@ -1,0 +1,178 @@
+{
+  "info": {
+    "Hp": 1650,
+    "Atk": 248,
+    "PhysicDef": 50,
+    "MagicDef": 50,
+    "Speed": 80,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 3,
+    "Mov": 4,
+    "Hp_GROW": 66,
+    "Atk_GROW": 17,
+    "PhysicDef_GROW": 5,
+    "MagicDef_GROW": 5,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": "",
+    "name": "午门",
+    "rare": 4,
+    "job": 1,
+    "tag": "近战;承伤;控制;击退"
+  },
+  "skill": [
+    {
+      "name": "谨行",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+      "tag": [
+        "射程1格 ",
+        "无消耗"
+      ],
+      "level": 1,
+      "levelDes": {
+        "1": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+        "2": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">105%</span>的物理伤害。",
+        "3": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">110%</span>的物理伤害。",
+        "4": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">115%</span>的物理伤害。",
+        "5": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。"
+      },
+      "icon": "skillicon_Commonattack_V",
+      "buff": [],
+      "type": 1,
+      "special": null
+    },
+    {
+      "name": "紫微中正",
+      "des": "对选定方向前<span style=\"color:#158bdb\">1</span>排的<span style=\"color:#158bdb\">3</span>格内的敌方全体造成自身攻击力<span style=\"color:#158bdb\">123%</span>的物理伤害，并击退受击单位<span style=\"color:#db2424\">3</span>格。",
+      "tag": [
+        "射程1格 ",
+        "消耗:3"
+      ],
+      "level": 1,
+      "levelDes": {
+        "1": "对选定方向前<span style=\"color:#158bdb\">1</span>排的<span style=\"color:#158bdb\">3</span>格内的敌方全体造成自身攻击力<span style=\"color:#158bdb\">123%</span>的物理伤害，并击退受击单位<span style=\"color:#db2424\">3</span>格。",
+        "2": "对选定方向前<span style=\"color:#158bdb\">1</span>排的<span style=\"color:#158bdb\">3</span>格内的敌方全体造成自身攻击力<span style=\"color:#158bdb\">145%</span>的物理伤害，并击退受击单位<span style=\"color:#db2424\">3</span>格。",
+        "3": "对选定方向前<span style=\"color:#158bdb\">1</span>排的<span style=\"color:#158bdb\">3</span>格内的敌方全体造成自身攻击力<span style=\"color:#158bdb\">168%</span>的物理伤害，并击退受击单位<span style=\"color:#db2424\">3</span>格。"
+      },
+      "icon": "skillicon_D012802",
+      "buff": [],
+      "type": 3,
+      "special": null
+    },
+    {
+      "name": "天威难测",
+      "des": "使用绝技选定方向时，使绝技范围的敌方全体获得<span style=\"color:#ff6724\">天威</span>状态；停留在束缚格的敌方全体获得<span style=\"color:#ff6724\">天威</span>状态。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "levelDes": {
+        "1": "使用绝技选定方向时，使绝技范围的敌方全体获得<span style=\"color:#ff6724\">天威</span>状态；停留在束缚格的敌方全体获得<span style=\"color:#ff6724\">天威</span>状态。",
+        "2": "使用绝技选定方向时，使绝技范围的敌方全体获得<span style=\"color:#ff6724\">天威</span>状态；停留在束缚格的敌方全体获得<span style=\"color:#ff6724\">天威</span>状态。",
+        "3": "使用绝技选定方向时，使绝技范围的敌方全体获得<span style=\"color:#ff6724\">天威</span>状态；停留在束缚格的敌方全体获得<span style=\"color:#ff6724\">天威</span>状态。"
+      },
+      "icon": "skillicon_D012803",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">天威</span>",
+          "des": "受到附带击退效果的攻击时，若自身生命值低于<span style=\"color:#158bdb\">40%</span>，则受到敌方午门最大生命值<span style=\"color:#158bdb\">5%</span>的真实伤害。"
+        }
+      ],
+      "type": 4,
+      "special": "使用绝技选定方向时，使绝技范围的敌方全体获得<span style=\"color:#ff6724\">天威</span>状态；停留在束缚格的敌方全体获得<span style=\"color:#ff6724\">天威</span>状态。"
+    },
+    {
+      "name": "雁翅回鸣",
+      "des": "自身回合结束时，若本回合没有位移，则自身回复最大生命值<span style=\"color:#158bdb\">5%</span>的生命值，并使获得<span style=\"color:#ff6724\">韬光</span>状态。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "levelDes": {
+        "1": "自身回合结束时，若本回合没有位移，则自身回复最大生命值<span style=\"color:#158bdb\">5%</span>的生命值，并使获得<span style=\"color:#ff6724\">韬光</span>状态。",
+        "2": "自身回合结束时，若本回合没有位移，则自身回复最大生命值<span style=\"color:#158bdb\">8%</span>的生命值，并使获得<span style=\"color:#ff6724\">韬光</span>状态。",
+        "3": "自身回合结束时，若本回合没有位移，则自身回复最大生命值<span style=\"color:#158bdb\">10%</span>的生命值，并使获得<span style=\"color:#ff6724\">韬光</span>状态。"
+      },
+      "icon": "skillicon_D012804",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">韬光</span>",
+          "des": "降低受到的所有伤害<span style=\"color:#158bdb\">20%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">2</span>层。"
+        }
+      ],
+      "type": 5,
+      "special": null
+    },
+    {
+      "name": "解甲禁步",
+      "des": "自身最大生命值提高<span style=\"color:#158bdb\">10%</span>。击败处于<span style=\"color:#ff6724\">天威</span>状态的敌方单位时，使其<span style=\"color:#158bdb\">周围1格</span>内的敌方全体获得<span style=\"color:#ff6724\">禁足</span>状态和<span style=\"color:#ff6724\">止戈</span>状态。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "levelDes": {
+        "1": "自身最大生命值提高<span style=\"color:#158bdb\">10%</span>。击败处于<span style=\"color:#ff6724\">天威</span>状态的敌方单位时，使其<span style=\"color:#158bdb\">周围1格</span>内的敌方全体获得<span style=\"color:#ff6724\">禁足</span>状态和<span style=\"color:#ff6724\">止戈</span>状态。",
+        "2": "自身最大生命值提高<span style=\"color:#158bdb\">15%</span>。击败处于<span style=\"color:#ff6724\">天威</span>状态的敌方单位时，使其<span style=\"color:#158bdb\">周围1格</span>内的敌方全体获得<span style=\"color:#ff6724\">禁足</span>状态和<span style=\"color:#ff6724\">止戈</span>状态。",
+        "3": "自身最大生命值提高<span style=\"color:#158bdb\">20%</span>。击败处于<span style=\"color:#ff6724\">天威</span>状态的敌方单位时，使其<span style=\"color:#158bdb\">周围1格</span>内的敌方全体获得<span style=\"color:#ff6724\">禁足</span>状态和<span style=\"color:#ff6724\">止戈</span>状态。"
+      },
+      "icon": "skillicon_D012805",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">禁足</span>",
+          "des": "无法移动，持续<span style=\"color:#158bdb\">1</span>回合。"
+        },
+        {
+          "name": "<span style=\"color:#ff6724\">止戈</span>",
+          "des": "无法进行常击，持续<span style=\"color:#158bdb\">1</span>回合。"
+        }
+      ],
+      "type": 6,
+      "special": null
+    },
+    {
+      "name": "肃容",
+      "des": "使自身选定方向前<span style=\"color:#158bdb\">1</span>排的<span style=\"color:#158bdb\">3</span>格变为束缚格，效果持续<span style=\"color:#158bdb\">1</span>回合。若敌方单位进入束缚格，将无法离开束缚格范围，并进入<span style=\"color:#ff6724\">解构</span>状态。",
+      "tag": [
+        "射程1格 ",
+        "无消耗",
+        "冷却:2"
+      ],
+      "level": 1,
+      "levelDes": {
+        "1": "使自身选定方向前<span style=\"color:#158bdb\">1</span>排的<span style=\"color:#158bdb\">3</span>格变为束缚格，效果持续<span style=\"color:#158bdb\">1</span>回合。若敌方单位进入束缚格，将无法离开束缚格范围，并进入<span style=\"color:#ff6724\">解构</span>状态。"
+      },
+      "icon": "skillicon_Jobskill_D_Z",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">解构</span>",
+          "des": "构素防御降低<span style=\"color:#158bdb\">30%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">1</span>层。"
+        }
+      ],
+      "type": 2,
+      "special": null
+    }
+  ],
+  "skin": [
+    {
+      "id": "D0128001",
+      "name": "肖形"
+    },
+    {
+      "id": "D0128002",
+      "name": "写照"
+    }
+  ]
+}

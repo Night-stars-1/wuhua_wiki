@@ -36,12 +36,19 @@
   "skill": [
     {
       "name": "团建",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
       "tag": [
         "射程1格 ",
         "无消耗"
       ],
-      "level": 5,
+      "level": 1,
+      "levelDes": {
+        "1": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+        "2": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">105%</span>的物理伤害。",
+        "3": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">110%</span>的物理伤害。",
+        "4": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">115%</span>的物理伤害。",
+        "5": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。"
+      },
       "icon": "skillicon_Commonattack_D",
       "buff": [],
       "type": 1,
@@ -49,12 +56,17 @@
     },
     {
       "name": "齐地风物",
-      "des": "获得<span style=\"color:#ff6724\">同赏</span>状态，并使自身物理防御提高<span style=\"color:#158bdb\">60%</span>，效果持续<span style=\"color:#158bdb\">2</span>回合。",
+      "des": "获得<span style=\"color:#ff6724\">同赏</span>状态，并使自身物理防御提高<span style=\"color:#158bdb\">30%</span>，效果持续<span style=\"color:#158bdb\">2</span>回合。",
       "tag": [
         "自身",
         "消耗:3"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "获得<span style=\"color:#ff6724\">同赏</span>状态，并使自身物理防御提高<span style=\"color:#158bdb\">30%</span>，效果持续<span style=\"color:#158bdb\">2</span>回合。",
+        "2": "获得<span style=\"color:#ff6724\">同赏</span>状态，并使自身物理防御提高<span style=\"color:#158bdb\">45%</span>，效果持续<span style=\"color:#158bdb\">2</span>回合。",
+        "3": "获得<span style=\"color:#ff6724\">同赏</span>状态，并使自身物理防御提高<span style=\"color:#158bdb\">60%</span>，效果持续<span style=\"color:#158bdb\">2</span>回合。"
+      },
       "icon": "skillicon_D001402",
       "buff": [
         {
@@ -63,27 +75,37 @@
         }
       ],
       "type": 3,
-      "special": "获得<span style=\"color:#ff6724\">同赏</span>状态，并使自身物理防御提高<span style=\"color:#158bdb\">75%</span>，效果持续<span style=\"color:#158bdb\">2</span>回合。"
+      "special": "获得<span style=\"color:#ff6724\">同赏</span>状态，并使自身物理防御提高<span style=\"color:#158bdb\">45%</span>，效果持续<span style=\"color:#158bdb\">2</span>回合。"
     },
     {
       "name": "多人宴会",
-      "des": "触发<span style=\"color:#ff6724\">援护</span>后，若自身<span style=\"color:#158bdb\">周围1格</span>内的友方单位不少于<span style=\"color:#158bdb\">2</span>，则回复自身已损失生命值的<span style=\"color:#158bdb\">20%</span>；此效果每回合可触发<span style=\"color:#158bdb\">1</span>次。",
+      "des": "触发<span style=\"color:#ff6724\">援护</span>后，若自身<span style=\"color:#158bdb\">周围1格</span>内的友方单位不少于<span style=\"color:#158bdb\">2</span>，则回复自身已损失生命值的<span style=\"color:#158bdb\">10%</span>；此效果每回合可触发<span style=\"color:#158bdb\">1</span>次。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "触发<span style=\"color:#ff6724\">援护</span>后，若自身<span style=\"color:#158bdb\">周围1格</span>内的友方单位不少于<span style=\"color:#158bdb\">2</span>，则回复自身已损失生命值的<span style=\"color:#158bdb\">10%</span>；此效果每回合可触发<span style=\"color:#158bdb\">1</span>次。",
+        "2": "触发<span style=\"color:#ff6724\">援护</span>后，若自身<span style=\"color:#158bdb\">周围1格</span>内的友方单位不少于<span style=\"color:#158bdb\">2</span>，则回复自身已损失生命值的<span style=\"color:#158bdb\">15%</span>；此效果每回合可触发<span style=\"color:#158bdb\">1</span>次。",
+        "3": "触发<span style=\"color:#ff6724\">援护</span>后，若自身<span style=\"color:#158bdb\">周围1格</span>内的友方单位不少于<span style=\"color:#158bdb\">2</span>，则回复自身已损失生命值的<span style=\"color:#158bdb\">20%</span>；此效果每回合可触发<span style=\"color:#158bdb\">1</span>次。"
+      },
       "icon": "skillicon_D001403",
       "buff": [],
       "type": 4,
-      "special": "触发<span style=\"color:#ff6724\">援护</span>后，若自身<span style=\"color:#158bdb\">周围1格</span>内的友方单位不少于<span style=\"color:#158bdb\">2</span>，则回复自身已损失生命值的<span style=\"color:#158bdb\">20%</span>；此效果每回合可触发<span style=\"color:#158bdb\">1</span>次；若援护前自身当前生命值少于<span style=\"color:#158bdb\">50%</span>，则该次回复量增加<span style=\"color:#158bdb\">25%</span>。"
+      "special": "触发<span style=\"color:#ff6724\">援护</span>后，若自身<span style=\"color:#158bdb\">周围1格</span>内的友方单位不少于<span style=\"color:#158bdb\">2</span>，则回复自身已损失生命值的<span style=\"color:#158bdb\">10%</span>；此效果每回合可触发<span style=\"color:#158bdb\">1</span>次；若援护前自身当前生命值少于<span style=\"color:#158bdb\">50%</span>，则该次回复量增加<span style=\"color:#158bdb\">25%</span>。"
     },
     {
       "name": "分工合作",
-      "des": "触发<span style=\"color:#ff6724\">援护</span>后，有<span style=\"color:#158bdb\">100%</span>概率使自身获得<span style=\"color:#158bdb\">1</span>点能量。",
+      "des": "触发<span style=\"color:#ff6724\">援护</span>后，有<span style=\"color:#158bdb\">60%</span>概率使自身获得<span style=\"color:#158bdb\">1</span>点能量。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "触发<span style=\"color:#ff6724\">援护</span>后，有<span style=\"color:#158bdb\">60%</span>概率使自身获得<span style=\"color:#158bdb\">1</span>点能量。",
+        "2": "触发<span style=\"color:#ff6724\">援护</span>后，有<span style=\"color:#158bdb\">80%</span>概率使自身获得<span style=\"color:#158bdb\">1</span>点能量。",
+        "3": "触发<span style=\"color:#ff6724\">援护</span>后，有<span style=\"color:#158bdb\">100%</span>概率使自身获得<span style=\"color:#158bdb\">1</span>点能量。"
+      },
       "icon": "skillicon_D001404",
       "buff": [],
       "type": 5,
@@ -91,11 +113,16 @@
     },
     {
       "name": "叠罗汉",
-      "des": "进入战斗后，自身物理防御提高<span style=\"color:#158bdb\">20%</span>。",
+      "des": "进入战斗后，自身物理防御提高<span style=\"color:#158bdb\">10%</span>。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "进入战斗后，自身物理防御提高<span style=\"color:#158bdb\">10%</span>。",
+        "2": "进入战斗后，自身物理防御提高<span style=\"color:#158bdb\">15%</span>。",
+        "3": "进入战斗后，自身物理防御提高<span style=\"color:#158bdb\">20%</span>。"
+      },
       "icon": "skillicon_D001405",
       "buff": [],
       "type": 6,
@@ -110,6 +137,9 @@
         "冷却:2"
       ],
       "level": 1,
+      "levelDes": {
+        "1": "使用后可<span style=\"color:#ff6724\">援护</span>自身周围<span style=\"color:#158bdb\">2</span>格内的友方单位，效果持续<span style=\"color:#158bdb\">1</span>回合。"
+      },
       "icon": "skillicon_Jobskill_D_I",
       "buff": [
         {

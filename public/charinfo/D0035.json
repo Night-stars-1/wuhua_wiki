@@ -36,12 +36,19 @@
   "skill": [
     {
       "name": "降罚",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
       "tag": [
         "射程1格 ",
         "无消耗"
       ],
-      "level": 5,
+      "level": 1,
+      "levelDes": {
+        "1": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+        "2": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">105%</span>的物理伤害。",
+        "3": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">110%</span>的物理伤害。",
+        "4": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">115%</span>的物理伤害。",
+        "5": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。"
+      },
       "icon": "skillicon_Commonattack_D",
       "buff": [],
       "type": 1,
@@ -49,12 +56,17 @@
     },
     {
       "name": "铭文册鼎",
-      "des": "对自身选定方向<span style=\"color:#158bdb\">前3排的3格</span>范围内敌方全体造成自身攻击力<span style=\"color:#158bdb\">160%</span>的物理伤害，并使其进入<span style=\"color:#ff6724\">降攻</span>状态，效果持续<span style=\"color:#158bdb\">2</span>回合。",
+      "des": "对自身选定方向<span style=\"color:#158bdb\">前3排的3格</span>范围内敌方全体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害，并使其进入<span style=\"color:#ff6724\">降攻</span>状态，效果持续<span style=\"color:#158bdb\">2</span>回合。",
       "tag": [
         "射程1格 ",
         "消耗:3"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "对自身选定方向<span style=\"color:#158bdb\">前3排的3格</span>范围内敌方全体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害，并使其进入<span style=\"color:#ff6724\">降攻</span>状态，效果持续<span style=\"color:#158bdb\">2</span>回合。",
+        "2": "对自身选定方向<span style=\"color:#158bdb\">前3排的3格</span>范围内敌方全体造成自身攻击力<span style=\"color:#158bdb\">140%</span>的物理伤害，并使其进入<span style=\"color:#ff6724\">降攻</span>状态，效果持续<span style=\"color:#158bdb\">2</span>回合。",
+        "3": "对自身选定方向<span style=\"color:#158bdb\">前3排的3格</span>范围内敌方全体造成自身攻击力<span style=\"color:#158bdb\">160%</span>的物理伤害，并使其进入<span style=\"color:#ff6724\">降攻</span>状态，效果持续<span style=\"color:#158bdb\">2</span>回合。"
+      },
       "icon": "skillicon_D003502",
       "buff": [
         {
@@ -67,11 +79,16 @@
     },
     {
       "name": "护佑国祚",
-      "des": "进入战斗后，自身构素防御提高<span style=\"color:#158bdb\">40%</span>。触发<span style=\"color:#ff6724\">援护</span>时，有<span style=\"color:#158bdb\">50%</span>概率吸取攻击者<span style=\"color:#158bdb\">1</span>点能量。",
+      "des": "进入战斗后，自身构素防御提高<span style=\"color:#158bdb\">10%</span>。触发<span style=\"color:#ff6724\">援护</span>时，有<span style=\"color:#158bdb\">30%</span>概率吸取攻击者<span style=\"color:#158bdb\">1</span>点能量。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "进入战斗后，自身构素防御提高<span style=\"color:#158bdb\">10%</span>。触发<span style=\"color:#ff6724\">援护</span>时，有<span style=\"color:#158bdb\">30%</span>概率吸取攻击者<span style=\"color:#158bdb\">1</span>点能量。",
+        "2": "进入战斗后，自身构素防御提高<span style=\"color:#158bdb\">25%</span>。触发<span style=\"color:#ff6724\">援护</span>时，有<span style=\"color:#158bdb\">40%</span>概率吸取攻击者<span style=\"color:#158bdb\">1</span>点能量。",
+        "3": "进入战斗后，自身构素防御提高<span style=\"color:#158bdb\">40%</span>。触发<span style=\"color:#ff6724\">援护</span>时，有<span style=\"color:#158bdb\">50%</span>概率吸取攻击者<span style=\"color:#158bdb\">1</span>点能量。"
+      },
       "icon": "skillicon_D003503",
       "buff": [
         {
@@ -80,15 +97,20 @@
         }
       ],
       "type": 4,
-      "special": "进入战斗后，自身构素防御提高<span style=\"color:#158bdb\">40%</span>。触发<span style=\"color:#ff6724\">援护</span>时，有<span style=\"color:#158bdb\">55%</span>概率吸取攻击者<span style=\"color:#158bdb\">1</span>点能量。"
+      "special": "进入战斗后，自身构素防御提高<span style=\"color:#158bdb\">10%</span>。触发<span style=\"color:#ff6724\">援护</span>时，有<span style=\"color:#158bdb\">35%</span>概率吸取攻击者<span style=\"color:#158bdb\">1</span>点能量。"
     },
     {
       "name": "康王之赐",
-      "des": "受到构素伤害后，每回合回复自身最大生命值<span style=\"color:#158bdb\">5%</span>，效果持续<span style=\"color:#158bdb\">2</span>回合。",
+      "des": "受到构素伤害后，每回合回复自身最大生命值<span style=\"color:#158bdb\">4%</span>，效果持续<span style=\"color:#158bdb\">1</span>回合。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "受到构素伤害后，每回合回复自身最大生命值<span style=\"color:#158bdb\">4%</span>，效果持续<span style=\"color:#158bdb\">1</span>回合。",
+        "2": "受到构素伤害后，每回合回复自身最大生命值<span style=\"color:#158bdb\">5%</span>，效果持续<span style=\"color:#158bdb\">1</span>回合。",
+        "3": "受到构素伤害后，每回合回复自身最大生命值<span style=\"color:#158bdb\">5%</span>，效果持续<span style=\"color:#158bdb\">2</span>回合。"
+      },
       "icon": "skillicon_D003504",
       "buff": [
         {
@@ -101,11 +123,16 @@
     },
     {
       "name": "敬法辅佐",
-      "des": "自身当前生命值低于<span style=\"color:#158bdb\">50%</span>时，自身获得最大生命值<span style=\"color:#158bdb\">100%</span>的构素护盾，效果持续<span style=\"color:#158bdb\">2</span>回合。此效果每场战斗最多触发<span style=\"color:#158bdb\">1</span>次。",
+      "des": "自身当前生命值低于<span style=\"color:#158bdb\">50%</span>时，自身获得最大生命值<span style=\"color:#158bdb\">50%</span>的构素护盾，效果持续<span style=\"color:#158bdb\">2</span>回合。此效果每场战斗最多触发<span style=\"color:#158bdb\">1</span>次。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "自身当前生命值低于<span style=\"color:#158bdb\">50%</span>时，自身获得最大生命值<span style=\"color:#158bdb\">50%</span>的构素护盾，效果持续<span style=\"color:#158bdb\">2</span>回合。此效果每场战斗最多触发<span style=\"color:#158bdb\">1</span>次。",
+        "2": "自身当前生命值低于<span style=\"color:#158bdb\">50%</span>时，自身获得最大生命值<span style=\"color:#158bdb\">80%</span>的构素护盾，效果持续<span style=\"color:#158bdb\">2</span>回合。此效果每场战斗最多触发<span style=\"color:#158bdb\">1</span>次。",
+        "3": "自身当前生命值低于<span style=\"color:#158bdb\">50%</span>时，自身获得最大生命值<span style=\"color:#158bdb\">100%</span>的构素护盾，效果持续<span style=\"color:#158bdb\">2</span>回合。此效果每场战斗最多触发<span style=\"color:#158bdb\">1</span>次。"
+      },
       "icon": "skillicon_D003505",
       "buff": [],
       "type": 6,
@@ -120,6 +147,9 @@
         "冷却:2"
       ],
       "level": 1,
+      "levelDes": {
+        "1": "使用后可<span style=\"color:#ff6724\">援护</span>自身周围<span style=\"color:#158bdb\">2</span>格内的友方单位，效果持续<span style=\"color:#158bdb\">1</span>回合。"
+      },
       "icon": "skillicon_Jobskill_D_I",
       "buff": [
         {

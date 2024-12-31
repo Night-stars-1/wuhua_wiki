@@ -36,12 +36,19 @@
   "skill": [
     {
       "name": "自鸣",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的构素伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
       "tag": [
         "射程3格",
         "无消耗"
       ],
-      "level": 5,
+      "level": 1,
+      "levelDes": {
+        "1": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
+        "2": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">105%</span>的构素伤害。",
+        "3": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">110%</span>的构素伤害。",
+        "4": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">115%</span>的构素伤害。",
+        "5": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的构素伤害。"
+      },
       "icon": "skillicon_Commonattack_S",
       "buff": [],
       "type": 1,
@@ -54,7 +61,12 @@
         "自身",
         "消耗:3"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "为自身及<span style=\"color:#158bdb\">周围2格</span>内的友方全体清除控制类效果，并获得持续<span style=\"color:#158bdb\">2</span>回合的<span style=\"color:#ff6724\">铁甲</span>和<span style=\"color:#ff6724\">裳衫</span>状态，其中友方战略单位额外获得持续<span style=\"color:#158bdb\">2</span>回合的<span style=\"color:#ff6724\">指针</span>状态。",
+        "2": "为自身及<span style=\"color:#158bdb\">周围2格</span>内的友方全体清除控制类效果，并获得持续<span style=\"color:#158bdb\">2</span>回合的<span style=\"color:#ff6724\">铁甲</span>和<span style=\"color:#ff6724\">裳衫</span>状态，其中友方战略单位额外获得持续<span style=\"color:#158bdb\">2</span>回合的<span style=\"color:#ff6724\">指针</span>状态。",
+        "3": "为自身及<span style=\"color:#158bdb\">周围2格</span>内的友方全体清除控制类效果，并获得持续<span style=\"color:#158bdb\">2</span>回合的<span style=\"color:#ff6724\">铁甲</span>和<span style=\"color:#ff6724\">裳衫</span>状态，其中友方战略单位额外获得持续<span style=\"color:#158bdb\">2</span>回合的<span style=\"color:#ff6724\">指针</span>状态。"
+      },
       "icon": "skillicon_S015502",
       "buff": [
         {
@@ -75,11 +87,16 @@
     },
     {
       "name": "山子水法",
-      "des": "每次警戒攻击使受击敌方单位获得<span style=\"color:#ff6724\">降攻</span>状态，并使自身及<span style=\"color:#158bdb\">周围2格</span>的友方全体回复鸟音山水钟最大生命值<span style=\"color:#158bdb\">5%+300</span>的生命值。",
+      "des": "每次警戒攻击使受击敌方单位获得<span style=\"color:#ff6724\">降攻</span>状态，并使自身及<span style=\"color:#158bdb\">周围2格</span>的友方全体回复鸟音山水钟最大生命值<span style=\"color:#158bdb\">5%+100</span>的生命值。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "每次警戒攻击使受击敌方单位获得<span style=\"color:#ff6724\">降攻</span>状态，并使自身及<span style=\"color:#158bdb\">周围2格</span>的友方全体回复鸟音山水钟最大生命值<span style=\"color:#158bdb\">5%+100</span>的生命值。",
+        "2": "每次警戒攻击使受击敌方单位获得<span style=\"color:#ff6724\">降攻</span>状态，并使自身及<span style=\"color:#158bdb\">周围2格</span>的友方全体回复鸟音山水钟最大生命值<span style=\"color:#158bdb\">5%+200</span>的生命值。",
+        "3": "每次警戒攻击使受击敌方单位获得<span style=\"color:#ff6724\">降攻</span>状态，并使自身及<span style=\"color:#158bdb\">周围2格</span>的友方全体回复鸟音山水钟最大生命值<span style=\"color:#158bdb\">5%+300</span>的生命值。"
+      },
       "icon": "skillicon_S015503",
       "buff": [
         {
@@ -92,11 +109,16 @@
     },
     {
       "name": "机括巧作",
-      "des": "自身每累计进行<span style=\"color:#158bdb\">3</span>次警戒攻击后，使友方全体战略单位额外填充<span style=\"color:#158bdb\">1</span>枚<span style=\"color:#ff6724\">礼弹</span>。\n使用绝技后，为自身填充<span style=\"color:#158bdb\">4</span>枚<span style=\"color:#ff6724\">礼弹</span>。",
+      "des": "自身每累计进行<span style=\"color:#158bdb\">3</span>次警戒攻击后，使友方全体战略单位额外填充<span style=\"color:#158bdb\">1</span>枚<span style=\"color:#ff6724\">礼弹</span>。\n使用绝技后，为自身填充<span style=\"color:#158bdb\">2</span>枚<span style=\"color:#ff6724\">礼弹</span>。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "自身每累计进行<span style=\"color:#158bdb\">3</span>次警戒攻击后，使友方全体战略单位额外填充<span style=\"color:#158bdb\">1</span>枚<span style=\"color:#ff6724\">礼弹</span>。\n使用绝技后，为自身填充<span style=\"color:#158bdb\">2</span>枚<span style=\"color:#ff6724\">礼弹</span>。",
+        "2": "自身每累计进行<span style=\"color:#158bdb\">3</span>次警戒攻击后，使友方全体战略单位额外填充<span style=\"color:#158bdb\">1</span>枚<span style=\"color:#ff6724\">礼弹</span>。\n使用绝技后，为自身填充<span style=\"color:#158bdb\">3</span>枚<span style=\"color:#ff6724\">礼弹</span>。",
+        "3": "自身每累计进行<span style=\"color:#158bdb\">3</span>次警戒攻击后，使友方全体战略单位额外填充<span style=\"color:#158bdb\">1</span>枚<span style=\"color:#ff6724\">礼弹</span>。\n使用绝技后，为自身填充<span style=\"color:#158bdb\">4</span>枚<span style=\"color:#ff6724\">礼弹</span>。"
+      },
       "icon": "skillicon_S015504",
       "buff": [
         {
@@ -113,7 +135,12 @@
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "自身和友方全体战略累计共释放<span style=\"color:#158bdb\">8</span>次警戒攻击或警戒治疗后，自身进入<span style=\"color:#ff6724\">钟表校准</span>状态。",
+        "2": "自身和友方全体战略累计共释放<span style=\"color:#158bdb\">8</span>次警戒攻击或警戒治疗后，自身进入<span style=\"color:#ff6724\">钟表校准</span>状态。",
+        "3": "自身和友方全体战略累计共释放<span style=\"color:#158bdb\">8</span>次警戒攻击或警戒治疗后，自身进入<span style=\"color:#ff6724\">钟表校准</span>状态。"
+      },
       "icon": "skillicon_S015505",
       "buff": [
         {
@@ -153,6 +180,9 @@
         "冷却:3"
       ],
       "level": 1,
+      "levelDes": {
+        "1": "使用后为自身填充<span style=\"color:#158bdb\">3</span>枚<span style=\"color:#ff6724\">礼弹</span>并进入警戒状态：以自身<span style=\"color:#158bdb\">周围3格</span>为警戒范围，对停留在该范围中的敌方单位进行警戒攻击，对其造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。"
+      },
       "icon": "skillicon_Jobskill_S",
       "buff": [
         {

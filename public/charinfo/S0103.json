@@ -1,0 +1,200 @@
+{
+  "info": {
+    "Hp": 608,
+    "Atk": 330,
+    "PhysicDef": 45,
+    "MagicDef": 45,
+    "Speed": 160,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 3,
+    "Mov": 3,
+    "Hp_GROW": 49,
+    "Atk_GROW": 22,
+    "PhysicDef_GROW": 4,
+    "MagicDef_GROW": 4,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": "",
+    "name": "商周十供",
+    "rare": 4,
+    "job": 5,
+    "tag": "远程;支援;治疗;反击增益"
+  },
+  "skill": [
+    {
+      "name": "鼎落",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
+      "tag": [
+        "射程3格",
+        "无消耗"
+      ],
+      "level": 1,
+      "levelDes": {
+        "1": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
+        "2": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">105%</span>的构素伤害。",
+        "3": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">110%</span>的构素伤害。",
+        "4": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">115%</span>的构素伤害。",
+        "5": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的构素伤害。"
+      },
+      "icon": "skillicon_Commonattack_S",
+      "buff": [],
+      "type": 1,
+      "special": null
+    },
+    {
+      "name": "传道受业",
+      "des": "使自身和<span style=\"color:#158bdb\">周围3格</span>的全体友方获得自身攻击力<span style=\"color:#158bdb\">20%</span>的构素护盾、回复自身攻击力<span style=\"color:#158bdb\">10%+200</span>的生命值并添加<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">啸剑</span>状态，友方器者获得<span style=\"color:#158bdb\">4</span>层<span style=\"color:#ff6724\">解惑</span>状态，并为自身填充<span style=\"color:#158bdb\">3</span>枚<span style=\"color:#ff6724\">礼弹</span>并进入警戒状态。",
+      "tag": [
+        "自身",
+        "消耗:3",
+        "冷却:2"
+      ],
+      "level": 1,
+      "levelDes": {
+        "1": "使自身和<span style=\"color:#158bdb\">周围3格</span>的全体友方获得自身攻击力<span style=\"color:#158bdb\">20%</span>的构素护盾、回复自身攻击力<span style=\"color:#158bdb\">10%+200</span>的生命值并添加<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">啸剑</span>状态，友方器者获得<span style=\"color:#158bdb\">4</span>层<span style=\"color:#ff6724\">解惑</span>状态，并为自身填充<span style=\"color:#158bdb\">3</span>枚<span style=\"color:#ff6724\">礼弹</span>并进入警戒状态。",
+        "2": "使自身和<span style=\"color:#158bdb\">周围3格</span>的全体友方获得自身攻击力<span style=\"color:#158bdb\">20%</span>的构素护盾、回复自身攻击力<span style=\"color:#158bdb\">15%+600</span>的生命值并添加<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">啸剑</span>状态，友方器者获得<span style=\"color:#158bdb\">4</span>层<span style=\"color:#ff6724\">解惑</span>状态，并为自身填充<span style=\"color:#158bdb\">3</span>枚<span style=\"color:#ff6724\">礼弹</span>并进入警戒状态。",
+        "3": "使自身和<span style=\"color:#158bdb\">周围3格</span>的全体友方获得自身攻击力<span style=\"color:#158bdb\">20%</span>的构素护盾、回复自身攻击力<span style=\"color:#158bdb\">20%+800</span>的生命值并添加<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">啸剑</span>状态，友方器者获得<span style=\"color:#158bdb\">4</span>层<span style=\"color:#ff6724\">解惑</span>状态，并为自身填充<span style=\"color:#158bdb\">3</span>枚<span style=\"color:#ff6724\">礼弹</span>并进入警戒状态。"
+      },
+      "icon": "skillicon_S010302",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">解惑</span>",
+          "des": "自身受到常击或技能攻击后，消耗自身的<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">解惑</span>状态，友方商周十供对该攻击单位进行警戒攻击，并获得<span style=\"color:#158bdb\">1</span>点能量。"
+        },
+        {
+          "name": "<span style=\"color:#ff6724\">啸剑</span>",
+          "des": "攻击力提高<span style=\"color:#158bdb\">20%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">2</span>层。"
+        }
+      ],
+      "type": 3,
+      "special": null
+    },
+    {
+      "name": "因材施教",
+      "des": "处于<span style=\"color:#ff6724\">解惑</span>状态的友方单位受到常击或技能攻击后，商周十供消耗<span style=\"color:#158bdb\">1</span>枚<span style=\"color:#ff6724\">礼弹</span>释放警戒攻击，对该攻击单位造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。\n警戒治疗后，使受治疗单位获得商周十供攻击力<span style=\"color:#158bdb\">10%</span>的构素护盾，并获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">啸剑</span>状态。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "levelDes": {
+        "1": "处于<span style=\"color:#ff6724\">解惑</span>状态的友方单位受到常击或技能攻击后，商周十供消耗<span style=\"color:#158bdb\">1</span>枚<span style=\"color:#ff6724\">礼弹</span>释放警戒攻击，对该攻击单位造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。\n警戒治疗后，使受治疗单位获得商周十供攻击力<span style=\"color:#158bdb\">10%</span>的构素护盾，并获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">啸剑</span>状态。",
+        "2": "处于<span style=\"color:#ff6724\">解惑</span>状态的友方单位受到常击或技能攻击后，商周十供消耗<span style=\"color:#158bdb\">1</span>枚<span style=\"color:#ff6724\">礼弹</span>释放警戒攻击，对该攻击单位造成自身攻击力<span style=\"color:#158bdb\">120%</span>的构素伤害。\n警戒治疗后，使受治疗单位获得商周十供攻击力<span style=\"color:#158bdb\">10%</span>的构素护盾，并获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">啸剑</span>状态。",
+        "3": "处于<span style=\"color:#ff6724\">解惑</span>状态的友方单位受到常击或技能攻击后，商周十供消耗<span style=\"color:#158bdb\">1</span>枚<span style=\"color:#ff6724\">礼弹</span>释放警戒攻击，对该攻击单位造成自身攻击力<span style=\"color:#158bdb\">150%</span>的构素伤害。\n警戒治疗后，使受治疗单位获得商周十供攻击力<span style=\"color:#158bdb\">10%</span>的构素护盾，并获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">啸剑</span>状态。"
+      },
+      "icon": "skillicon_S010303",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">解惑</span>",
+          "des": "自身受到常击或技能攻击后，消耗自身的<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">解惑</span>状态，友方商周十供对该攻击单位进行警戒攻击，并获得<span style=\"color:#158bdb\">1</span>点能量。"
+        },
+        {
+          "name": "<span style=\"color:#ff6724\">啸剑</span>",
+          "des": "攻击力提高<span style=\"color:#158bdb\">20%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">2</span>层。"
+        }
+      ],
+      "type": 4,
+      "special": null
+    },
+    {
+      "name": "尊师重道",
+      "des": "存在构素护盾的友方单位，其护盾吸收伤害时，商周十供回复最大生命值的<span style=\"color:#158bdb\">5%</span>的生命值，并获得<span style=\"color:#ff6724\">教学相长</span>状态。\n处于<span style=\"color:#ff6724\">解惑</span>状态的友方单位进行回击时，获得<span style=\"color:#158bdb\">1</span>回合<span style=\"color:#ff6724\">了悟</span>状态。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "levelDes": {
+        "1": "存在构素护盾的友方单位，其护盾吸收伤害时，商周十供回复最大生命值的<span style=\"color:#158bdb\">5%</span>的生命值，并获得<span style=\"color:#ff6724\">教学相长</span>状态。\n处于<span style=\"color:#ff6724\">解惑</span>状态的友方单位进行回击时，获得<span style=\"color:#158bdb\">1</span>回合<span style=\"color:#ff6724\">了悟</span>状态。",
+        "2": "存在构素护盾的友方单位，其护盾吸收伤害时，商周十供回复最大生命值的<span style=\"color:#158bdb\">5%</span>的生命值，并获得<span style=\"color:#ff6724\">教学相长</span>状态。\n处于<span style=\"color:#ff6724\">解惑</span>状态的友方单位进行回击时，获得<span style=\"color:#158bdb\">1</span>回合<span style=\"color:#ff6724\">了悟</span>状态。",
+        "3": "存在构素护盾的友方单位，其护盾吸收伤害时，商周十供回复最大生命值的<span style=\"color:#158bdb\">5%</span>的生命值，并获得<span style=\"color:#ff6724\">教学相长</span>状态。\n处于<span style=\"color:#ff6724\">解惑</span>状态的友方单位进行回击时，获得<span style=\"color:#158bdb\">1</span>回合<span style=\"color:#ff6724\">了悟</span>状态。"
+      },
+      "icon": "skillicon_S010304",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">教学相长</span>",
+          "des": "攻击力提高<span style=\"color:#158bdb\">4%</span>，持续<span style=\"color:#158bdb\">2</span>回合，可叠加<span style=\"color:#158bdb\">5</span>层。"
+        },
+        {
+          "name": "<span style=\"color:#ff6724\">了悟</span>",
+          "des": "造成的伤害提高<span style=\"color:#158bdb\">50%</span>，持续<span style=\"color:#158bdb\">1</span>回合。"
+        }
+      ],
+      "type": 5,
+      "special": "存在构素护盾的友方单位，其护盾吸收伤害时，商周十供回复最大生命值的<span style=\"color:#158bdb\">5%</span>的生命值，并获得<span style=\"color:#ff6724\">教学相长</span>状态。\n处于<span style=\"color:#ff6724\">解惑</span>状态的友方单位进行回击时，获得<span style=\"color:#158bdb\">1</span>回合<span style=\"color:#ff6724\">了悟</span>状态。回击时，商周十供获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">教学相长</span>状态和<span style=\"color:#158bdb\">1</span>枚礼弹。"
+    },
+    {
+      "name": "为人师表",
+      "des": "使用绝技时，使自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">师恩</span>状态，同时使<span style=\"color:#158bdb\">周围3格</span>的友方全体获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">学海无涯</span>状态。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "levelDes": {
+        "1": "使用绝技时，使自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">师恩</span>状态，同时使<span style=\"color:#158bdb\">周围3格</span>的友方全体获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">学海无涯</span>状态。",
+        "2": "使用绝技时，使自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">师恩</span>状态，同时使<span style=\"color:#158bdb\">周围3格</span>的友方全体获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">学海无涯</span>状态。",
+        "3": "使用绝技时，使自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">师恩</span>状态，同时使<span style=\"color:#158bdb\">周围3格</span>的友方全体获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">学海无涯</span>状态。"
+      },
+      "icon": "skillicon_S010305",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">学海无涯</span>",
+          "des": "该状态持续时间无限，受到攻击时，若自身生命值低于<span style=\"color:#158bdb\">50%</span>，则消耗<span style=\"color:#158bdb\">学海无涯</span>状态，使受击的当次行动内受到的所有伤害变为<span style=\"color:#158bdb\">1</span>点，并获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">学分</span>。"
+        },
+        {
+          "name": "<span style=\"color:#ff6724\">师恩</span>",
+          "des": "无法被敌方的主动技能选取为主目标，持续<span style=\"color:#158bdb\">1</span>回合。"
+        },
+        {
+          "name": "<span style=\"color:#ff6724\">学分</span>",
+          "des": "生命偷取率提高<span style=\"color:#158bdb\">5%</span>，持续<span style=\"color:#158bdb\">1</span>回合。"
+        }
+      ],
+      "type": 6,
+      "special": null
+    },
+    {
+      "name": "十供齐列",
+      "des": "使用后为自身填充<span style=\"color:#158bdb\">3</span>枚<span style=\"color:#ff6724\">礼弹</span>并进入警戒状态：以自身<span style=\"color:#158bdb\">周围3格</span>为警戒范围，对进入该范围且生命值低于<span style=\"color:#158bdb\">100%</span>的友军进行警戒治疗，回复攻击力<span style=\"color:#158bdb\">20%+300</span>的生命值。",
+      "tag": [
+        "自身",
+        "无消耗",
+        "冷却:3"
+      ],
+      "level": 1,
+      "levelDes": {
+        "1": "使用后为自身填充<span style=\"color:#158bdb\">3</span>枚<span style=\"color:#ff6724\">礼弹</span>并进入警戒状态：以自身<span style=\"color:#158bdb\">周围3格</span>为警戒范围，对进入该范围且生命值低于<span style=\"color:#158bdb\">100%</span>的友军进行警戒治疗，回复攻击力<span style=\"color:#158bdb\">20%+300</span>的生命值。"
+      },
+      "icon": "skillicon_Jobskill_S",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">礼弹</span>",
+          "des": "填充<span style=\"color:#ff6724\">礼弹</span>则进入警戒状态，每次警戒攻击或治疗将消耗<span style=\"color:#ff6724\">礼弹</span>，<span style=\"color:#ff6724\">礼弹</span>清零后自动结束警戒状态。"
+        }
+      ],
+      "type": 2,
+      "special": null
+    }
+  ],
+  "skin": [
+    {
+      "id": "S0103001",
+      "name": "肖形"
+    },
+    {
+      "id": "S0103002",
+      "name": "写照"
+    }
+  ]
+}

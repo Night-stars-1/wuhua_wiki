@@ -36,12 +36,19 @@
   "skill": [
     {
       "name": "旋舞",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的构素伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
       "tag": [
         "射程2格",
         "无消耗"
       ],
-      "level": 5,
+      "level": 1,
+      "levelDes": {
+        "1": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
+        "2": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">105%</span>的构素伤害。",
+        "3": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">110%</span>的构素伤害。",
+        "4": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">115%</span>的构素伤害。",
+        "5": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的构素伤害。"
+      },
       "icon": "skillicon_Commonattack_W",
       "buff": [],
       "type": 1,
@@ -49,13 +56,18 @@
     },
     {
       "name": "十方妙音",
-      "des": "对选定的地块及其<span style=\"color:#158bdb\">周围2格</span>地块内的敌方全体造成自身攻击力<span style=\"color:#158bdb\">150%</span>的构素伤害，并使其获得<span style=\"color:#ff6724\">净土</span>状态。使用后自身获得再行动<span style=\"color:#158bdb\">1</span>次。",
+      "des": "对选定的地块及其<span style=\"color:#158bdb\">周围2格</span>地块内的敌方全体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的构素伤害，并使其获得<span style=\"color:#ff6724\">净土</span>状态。使用后自身获得再行动<span style=\"color:#158bdb\">1</span>次。",
       "tag": [
         "射程3格",
         "消耗:4",
         "冷却:2"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "对选定的地块及其<span style=\"color:#158bdb\">周围2格</span>地块内的敌方全体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的构素伤害，并使其获得<span style=\"color:#ff6724\">净土</span>状态。使用后自身获得再行动<span style=\"color:#158bdb\">1</span>次。",
+        "2": "对选定的地块及其<span style=\"color:#158bdb\">周围2格</span>地块内的敌方全体造成自身攻击力<span style=\"color:#158bdb\">135%</span>的构素伤害，并使其获得<span style=\"color:#ff6724\">净土</span>状态。使用后自身获得再行动<span style=\"color:#158bdb\">1</span>次。",
+        "3": "对选定的地块及其<span style=\"color:#158bdb\">周围2格</span>地块内的敌方全体造成自身攻击力<span style=\"color:#158bdb\">150%</span>的构素伤害，并使其获得<span style=\"color:#ff6724\">净土</span>状态。使用后自身获得再行动<span style=\"color:#158bdb\">1</span>次。"
+      },
       "icon": "skillicon_W011802",
       "buff": [
         {
@@ -68,11 +80,16 @@
     },
     {
       "name": "三佛说法",
-      "des": "处于<span style=\"color:#ff6724\">净土</span>状态的敌方单位击退被阻挡时，使其获得<span style=\"color:#158bdb\">1</span>回合的<span style=\"color:#ff6724\">眩晕</span>状态，并受到<span style=\"color:#158bdb\">1</span>次莫高窟220攻击力<span style=\"color:#158bdb\">150%</span>的<span style=\"color:#ff6724\">额外构素伤害</span>。",
+      "des": "处于<span style=\"color:#ff6724\">净土</span>状态的敌方单位击退被阻挡时，使其获得<span style=\"color:#158bdb\">1</span>回合的<span style=\"color:#ff6724\">眩晕</span>状态，并受到<span style=\"color:#158bdb\">1</span>次莫高窟220攻击力<span style=\"color:#158bdb\">80%</span>的<span style=\"color:#ff6724\">额外构素伤害</span>。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "处于<span style=\"color:#ff6724\">净土</span>状态的敌方单位击退被阻挡时，使其获得<span style=\"color:#158bdb\">1</span>回合的<span style=\"color:#ff6724\">眩晕</span>状态，并受到<span style=\"color:#158bdb\">1</span>次莫高窟220攻击力<span style=\"color:#158bdb\">80%</span>的<span style=\"color:#ff6724\">额外构素伤害</span>。",
+        "2": "处于<span style=\"color:#ff6724\">净土</span>状态的敌方单位击退被阻挡时，使其获得<span style=\"color:#158bdb\">1</span>回合的<span style=\"color:#ff6724\">眩晕</span>状态，并受到<span style=\"color:#158bdb\">1</span>次莫高窟220攻击力<span style=\"color:#158bdb\">110%</span>的<span style=\"color:#ff6724\">额外构素伤害</span>。",
+        "3": "处于<span style=\"color:#ff6724\">净土</span>状态的敌方单位击退被阻挡时，使其获得<span style=\"color:#158bdb\">1</span>回合的<span style=\"color:#ff6724\">眩晕</span>状态，并受到<span style=\"color:#158bdb\">1</span>次莫高窟220攻击力<span style=\"color:#158bdb\">150%</span>的<span style=\"color:#ff6724\">额外构素伤害</span>。"
+      },
       "icon": "skillicon_W011803",
       "buff": [
         {
@@ -89,11 +106,16 @@
     },
     {
       "name": "药师慈悲",
-      "des": "造成的额外伤害提高<span style=\"color:#158bdb\">40%</span>。\n使用职业技能后，自身获得<span style=\"color:#158bdb\">1</span>次再行动。\n使用绝技后，自身及<span style=\"color:#158bdb\">周围2格</span>的友方全体获得<span style=\"color:#ff6724\">速羽</span>状态。",
+      "des": "造成的额外伤害提高<span style=\"color:#158bdb\">20%</span>。\n使用职业技能后，自身获得<span style=\"color:#158bdb\">1</span>次再行动。\n使用绝技后，自身及<span style=\"color:#158bdb\">周围2格</span>的友方全体获得<span style=\"color:#ff6724\">速羽</span>状态。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "造成的额外伤害提高<span style=\"color:#158bdb\">20%</span>。\n使用职业技能后，自身获得<span style=\"color:#158bdb\">1</span>次再行动。\n使用绝技后，自身及<span style=\"color:#158bdb\">周围2格</span>的友方全体获得<span style=\"color:#ff6724\">速羽</span>状态。",
+        "2": "造成的额外伤害提高<span style=\"color:#158bdb\">30%</span>。\n使用职业技能后，自身获得<span style=\"color:#158bdb\">1</span>次再行动。\n使用绝技后，自身及<span style=\"color:#158bdb\">周围2格</span>的友方全体获得<span style=\"color:#ff6724\">速羽</span>状态。",
+        "3": "造成的额外伤害提高<span style=\"color:#158bdb\">40%</span>。\n使用职业技能后，自身获得<span style=\"color:#158bdb\">1</span>次再行动。\n使用绝技后，自身及<span style=\"color:#158bdb\">周围2格</span>的友方全体获得<span style=\"color:#ff6724\">速羽</span>状态。"
+      },
       "icon": "skillicon_W011804",
       "buff": [
         {
@@ -102,7 +124,7 @@
         }
       ],
       "type": 5,
-      "special": "造成的额外伤害提高<span style=\"color:#158bdb\">40%</span>。\n使用职业技能后，自身获得<span style=\"color:#158bdb\">1</span>次再行动。\n使用绝技后，自身及<span style=\"color:#158bdb\">周围2格</span>的友方全体获得<span style=\"color:#ff6724\">速羽</span>状态。\n使用绝技后，获得<span style=\"color:#158bdb\">4</span>点能量，并刷新绝技冷却时间，该效果每<span style=\"color:#158bdb\">2</span>个回合可触发<span style=\"color:#158bdb\">1</span>次。"
+      "special": "造成的额外伤害提高<span style=\"color:#158bdb\">20%</span>。\n使用职业技能后，自身获得<span style=\"color:#158bdb\">1</span>次再行动。\n使用绝技后，自身及<span style=\"color:#158bdb\">周围2格</span>的友方全体获得<span style=\"color:#ff6724\">速羽</span>状态。\n使用绝技后，获得<span style=\"color:#158bdb\">4</span>点能量，并刷新绝技冷却时间，该效果每<span style=\"color:#158bdb\">2</span>个回合可触发<span style=\"color:#158bdb\">1</span>次。"
     },
     {
       "name": "佛经变相",
@@ -110,7 +132,12 @@
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "使用绝技后，自身下<span style=\"color:#158bdb\">1</span>次行动可移动至自身<span style=\"color:#158bdb\">周围10格</span>内任意单位<span style=\"color:#158bdb\">周围1格</span>的位置，并使自身获得<span style=\"color:#ff6724\">经变</span>状态。",
+        "2": "使用绝技后，自身下<span style=\"color:#158bdb\">1</span>次行动可移动至自身<span style=\"color:#158bdb\">周围10格</span>内任意单位<span style=\"color:#158bdb\">周围1格</span>的位置，并使自身获得<span style=\"color:#ff6724\">经变</span>状态。",
+        "3": "使用绝技后，自身下<span style=\"color:#158bdb\">1</span>次行动可移动至自身<span style=\"color:#158bdb\">周围10格</span>内任意单位<span style=\"color:#158bdb\">周围1格</span>的位置，并使自身获得<span style=\"color:#ff6724\">经变</span>状态。"
+      },
       "icon": "skillicon_W011805",
       "buff": [
         {
@@ -134,6 +161,9 @@
         "冷却:2"
       ],
       "level": 1,
+      "levelDes": {
+        "1": "使自身选定方向<span style=\"color:#158bdb\">前2排的3格</span>范围内的敌方全体获得<span style=\"color:#ff6724\">附骨</span>状态，对其造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害并击退受击单位<span style=\"color:#158bdb\">2</span>格。"
+      },
       "icon": "skillicon_W011811",
       "buff": [
         {

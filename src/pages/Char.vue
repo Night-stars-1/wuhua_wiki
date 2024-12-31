@@ -2,7 +2,7 @@
  * @Author: Night-stars-1 nujj1042633805@gmail.com
  * @Date: 2024-07-20 19:47:57
  * @LastEditors: Night-stars-1 nujj1042633805@gmail.com
- * @LastEditTime: 2024-09-04 23:00:13
+ * @LastEditTime: 2024-10-10 23:34:30
 -->
 <template>
   <el-row class="char-container">

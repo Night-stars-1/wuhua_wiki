@@ -1,0 +1,182 @@
+{
+  "info": {
+    "Hp": 783,
+    "Atk": 264,
+    "PhysicDef": 40,
+    "MagicDef": 40,
+    "Speed": 120,
+    "HitRate": 100,
+    "MissRate": 0,
+    "Critical": 0,
+    "CritDmg": 150,
+    "CritRes": 0,
+    "CritDmgRes": 0,
+    "BlockPenetrate": 0,
+    "EnergyLimit": 5,
+    "Mov": 3,
+    "Hp_GROW": 63,
+    "Atk_GROW": 18,
+    "PhysicDef_GROW": 4,
+    "MagicDef_GROW": 4,
+    "Speed_GROW": 0,
+    "HitRate_GROW": 0,
+    "MissRate_GROW": 0,
+    "Critical_GROW": 0,
+    "CritDmg_GROW": 0,
+    "CritRes_GROW": 0,
+    "CritDmgRes_GROW": 0,
+    "BlockPenetrate_GROW": 0,
+    "EnergyLimit_GROW": 0,
+    "starUpAttr": "",
+    "name": "秦公镈",
+    "rare": 4,
+    "job": 4,
+    "tag": "远程;输出;控制;击退"
+  },
+  "skill": [
+    {
+      "name": "声动",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
+      "tag": [
+        "射程2格",
+        "无消耗"
+      ],
+      "level": 1,
+      "levelDes": {
+        "1": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
+        "2": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">105%</span>的构素伤害。",
+        "3": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">110%</span>的构素伤害。",
+        "4": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">115%</span>的构素伤害。",
+        "5": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的构素伤害。"
+      },
+      "icon": "skillicon_Commonattack_W",
+      "buff": [],
+      "type": 1,
+      "special": null
+    },
+    {
+      "name": "灵音雍雍",
+      "des": "使用后进入持续<span style=\"color:#158bdb\">2</span>回合的<span style=\"color:#ff6724\">灵音</span>状态。\n处于<span style=\"color:#ff6724\">灵音</span>状态下，每<span style=\"color:#158bdb\">1</span>次自身回合结束时，将自身<span style=\"color:#158bdb\">十字方向7格</span>的敌方全体拉近<span style=\"color:#158bdb\">1</span>格，并对自身<span style=\"color:#158bdb\">周围3格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">140%</span>的构素伤害。",
+      "tag": [
+        "自身",
+        "消耗:3",
+        "冷却:2"
+      ],
+      "level": 1,
+      "levelDes": {
+        "1": "使用后进入持续<span style=\"color:#158bdb\">2</span>回合的<span style=\"color:#ff6724\">灵音</span>状态。\n处于<span style=\"color:#ff6724\">灵音</span>状态下，每<span style=\"color:#158bdb\">1</span>次自身回合结束时，将自身<span style=\"color:#158bdb\">十字方向7格</span>的敌方全体拉近<span style=\"color:#158bdb\">1</span>格，并对自身<span style=\"color:#158bdb\">周围3格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">140%</span>的构素伤害。",
+        "2": "使用后进入持续<span style=\"color:#158bdb\">2</span>回合的<span style=\"color:#ff6724\">灵音</span>状态。\n处于<span style=\"color:#ff6724\">灵音</span>状态下，每<span style=\"color:#158bdb\">1</span>次自身回合结束时，将自身<span style=\"color:#158bdb\">十字方向7格</span>的敌方全体拉近<span style=\"color:#158bdb\">1</span>格，并对自身<span style=\"color:#158bdb\">周围3格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">160%</span>的构素伤害。",
+        "3": "使用后进入持续<span style=\"color:#158bdb\">2</span>回合的<span style=\"color:#ff6724\">灵音</span>状态。\n处于<span style=\"color:#ff6724\">灵音</span>状态下，每<span style=\"color:#158bdb\">1</span>次自身回合结束时，将自身<span style=\"color:#158bdb\">十字方向7格</span>的敌方全体拉近<span style=\"color:#158bdb\">1</span>格，并对自身<span style=\"color:#158bdb\">周围3格</span>的敌方全体造成自身攻击力<span style=\"color:#158bdb\">180%</span>的构素伤害。"
+      },
+      "icon": "skillicon_W014302",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">灵音</span>",
+          "des": "处于此状态时，自身无法行动，受到伤害降低<span style=\"color:#158bdb\">60%</span>。\n首次进入效果范围的敌方单位获得持续<span style=\"color:#158bdb\">1</span>回合的<span style=\"color:#ff6724\">眩晕</span>状态。\n效果范围内有敌方单位被击败时，自身获得<span style=\"color:#158bdb\">1</span>点能量。\n持续时间结束或受到控制类效果时，解除此状态。"
+        }
+      ],
+      "type": 3,
+      "special": null
+    },
+    {
+      "name": "龙凤回响",
+      "des": "绝技攻击后，处于<span style=\"color:#ff6724\">沁声</span>状态的友方单位将进行<span style=\"color:#158bdb\">1</span>次回响攻击，对其<span style=\"color:#158bdb\">十字方向2格</span>的敌方全体造成秦公镈攻击力<span style=\"color:#158bdb\">60%</span>的构素伤害。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "levelDes": {
+        "1": "绝技攻击后，处于<span style=\"color:#ff6724\">沁声</span>状态的友方单位将进行<span style=\"color:#158bdb\">1</span>次回响攻击，对其<span style=\"color:#158bdb\">十字方向2格</span>的敌方全体造成秦公镈攻击力<span style=\"color:#158bdb\">60%</span>的构素伤害。",
+        "2": "绝技攻击后，处于<span style=\"color:#ff6724\">沁声</span>状态的友方单位将进行<span style=\"color:#158bdb\">1</span>次回响攻击，对其<span style=\"color:#158bdb\">十字方向2格</span>的敌方全体造成秦公镈攻击力<span style=\"color:#158bdb\">70%</span>的构素伤害。",
+        "3": "绝技攻击后，处于<span style=\"color:#ff6724\">沁声</span>状态的友方单位将进行<span style=\"color:#158bdb\">1</span>次回响攻击，对其<span style=\"color:#158bdb\">十字方向2格</span>的敌方全体造成秦公镈攻击力<span style=\"color:#158bdb\">80%</span>的构素伤害。"
+      },
+      "icon": "skillicon_W014303",
+      "buff": [],
+      "type": 4,
+      "special": "处于<span style=\"color:#ff6724\">灵音</span>状态时，攻击力提高<span style=\"color:#158bdb\">30%</span>，如果回合结束时，自身周围3格内没有敌方单位，则立刻清除<span style=\"color:#ff6724\">灵音</span>状态，获得<span style=\"color:#158bdb\">3</span>点能量和<span style=\"color:#158bdb\">1</span>次额外行动，每轮次只能触发<span style=\"color:#158bdb\">1</span>次；\n绝技攻击后，处于<span style=\"color:#ff6724\">沁声</span>状态的友方单位将进行<span style=\"color:#158bdb\">1</span>次回响攻击，对其<span style=\"color:#158bdb\">十字方向2格</span>的敌方全体造成秦公镈攻击力<span style=\"color:#158bdb\">60%</span>的构素伤害。"
+    },
+    {
+      "name": "击奏",
+      "des": "敌方单位每<span style=\"color:#158bdb\">1</span>次受到秦公镈绝技造成的伤害或回响造成的伤害，则获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">镈鸣</span>状态。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "levelDes": {
+        "1": "敌方单位每<span style=\"color:#158bdb\">1</span>次受到秦公镈绝技造成的伤害或回响造成的伤害，则获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">镈鸣</span>状态。",
+        "2": "敌方单位每<span style=\"color:#158bdb\">1</span>次受到秦公镈绝技造成的伤害或回响造成的伤害，则获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">镈鸣</span>状态。",
+        "3": "敌方单位每<span style=\"color:#158bdb\">1</span>次受到秦公镈绝技造成的伤害或回响造成的伤害，则获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">镈鸣</span>状态。"
+      },
+      "icon": "skillicon_W014304",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">镈鸣</span>",
+          "des": "每层此状态使自身受到的技能伤害提高<span style=\"color:#158bdb\">5%</span>，持续<span style=\"color:#158bdb\">2</span>回合，最多可叠加<span style=\"color:#158bdb\">3</span>层。\n此状态累计至<span style=\"color:#158bdb\">2</span>层时，自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">禁足</span>状态。"
+        },
+        {
+          "name": "<span style=\"color:#ff6724\">禁足</span>",
+          "des": "无法移动，持续<span style=\"color:#158bdb\">1</span>回合。"
+        }
+      ],
+      "type": 5,
+      "special": "敌方单位每受到<span style=\"color:#158bdb\">1</span>次秦公镈的绝技伤害或回响伤害，则获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">镈鸣</span>状态。"
+    },
+    {
+      "name": "祈鸣",
+      "des": "进入战斗后，自身获得<span style=\"color:#158bdb\">1</span>点能量、<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">祈鸣</span>状态和<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">附加移动力</span>状态，同时使自身第<span style=\"color:#158bdb\">1</span>次行动前，速度增加<span style=\"color:#158bdb\">40</span>。",
+      "tag": [
+        "被动触发"
+      ],
+      "level": 1,
+      "levelDes": {
+        "1": "进入战斗后，自身获得<span style=\"color:#158bdb\">1</span>点能量、<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">祈鸣</span>状态和<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">附加移动力</span>状态，同时使自身第<span style=\"color:#158bdb\">1</span>次行动前，速度增加<span style=\"color:#158bdb\">40</span>。",
+        "2": "进入战斗后，自身获得<span style=\"color:#158bdb\">2</span>点能量、<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">祈鸣</span>状态和<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">附加移动力</span>状态，同时使自身第<span style=\"color:#158bdb\">1</span>次行动前，速度增加<span style=\"color:#158bdb\">40</span>。",
+        "3": "进入战斗后，自身获得<span style=\"color:#158bdb\">2</span>点能量、<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">祈鸣</span>状态和<span style=\"color:#158bdb\">2</span>层<span style=\"color:#ff6724\">附加移动力</span>状态，同时使自身第<span style=\"color:#158bdb\">1</span>次行动前，速度增加<span style=\"color:#158bdb\">40</span>。"
+      },
+      "icon": "skillicon_W014305",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">祈鸣</span>",
+          "des": "使用职业技能后获得再行动<span style=\"color:#158bdb\">1</span>次，该次再移动的移动力为<span style=\"color:#4395d6\">0</span>，触发后此状态减少<span style=\"color:#158bdb\">1</span>层。"
+        },
+        {
+          "name": "<span style=\"color:#ff6724\">附加移动力</span>",
+          "des": "每<span style=\"color:#4395d6\">1</span>层状态可使自身移动范围额外扩大<span style=\"color:#4395d6\">1</span>格，自身每额外移动<span style=\"color:#4395d6\">1</span>格，消耗<span style=\"color:#4395d6\">1</span>层此状态。附加移动力不受其他任何技能、状态或武器效果的影响，不会提高或减少。"
+        }
+      ],
+      "type": 6,
+      "special": null
+    },
+    {
+      "name": "乐启",
+      "des": "选定自身<span style=\"color:#158bdb\">周围5格</span>的友方单体，使其获得<span style=\"color:#ff6724\">沁声</span>状态。若该单位已经处于<span style=\"color:#ff6724\">沁声</span>状态，则击退该角色<span style=\"color:#158bdb\">周围1格</span>的敌方全体。",
+      "tag": [
+        "射程5格",
+        "消耗:1"
+      ],
+      "level": 1,
+      "levelDes": {
+        "1": "选定自身<span style=\"color:#158bdb\">周围5格</span>的友方单体，使其获得<span style=\"color:#ff6724\">沁声</span>状态。若该单位已经处于<span style=\"color:#ff6724\">沁声</span>状态，则击退该角色<span style=\"color:#158bdb\">周围1格</span>的敌方全体。"
+      },
+      "icon": "skillicon_W014311",
+      "buff": [
+        {
+          "name": "<span style=\"color:#ff6724\">沁声</span>",
+          "des": "处于此状态时，造成的技能伤害提高<span style=\"color:#158bdb\">30%</span>，持续时间无限，最多同时有<span style=\"color:#158bdb\">2</span>个友方单位可存在此状态。"
+        }
+      ],
+      "type": 2,
+      "special": null
+    }
+  ],
+  "skin": [
+    {
+      "id": "W0143001",
+      "name": "肖形"
+    },
+    {
+      "id": "W0143002",
+      "name": "写照"
+    }
+  ]
+}

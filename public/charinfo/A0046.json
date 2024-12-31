@@ -36,12 +36,19 @@
   "skill": [
     {
       "name": "探索",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
       "tag": [
         "十字3格",
         "无消耗"
       ],
-      "level": 5,
+      "level": 1,
+      "levelDes": {
+        "1": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+        "2": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">105%</span>的物理伤害。",
+        "3": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">110%</span>的物理伤害。",
+        "4": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">115%</span>的物理伤害。",
+        "5": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。"
+      },
       "icon": "skillicon_Commonattack_A",
       "buff": [],
       "type": 1,
@@ -55,7 +62,12 @@
         "消耗:5",
         "冷却:3"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "使用后自身获得额外行动<span style=\"color:#158bdb\">2</span>次，在此期间自身进入<span style=\"color:#ff6724\">穿透</span>状态。",
+        "2": "使用后自身获得额外行动<span style=\"color:#158bdb\">2</span>次，在此期间自身进入<span style=\"color:#ff6724\">穿透</span>状态。",
+        "3": "使用后自身获得额外行动<span style=\"color:#158bdb\">2</span>次，在此期间自身进入<span style=\"color:#ff6724\">穿透</span>状态。"
+      },
       "icon": "skillicon_A004602",
       "buff": [
         {
@@ -68,11 +80,16 @@
     },
     {
       "name": "游历",
-      "des": "攻击敌方单位时，若该单位当前生命值高于<span style=\"color:#158bdb\">50%</span>，自身获得<span style=\"color:#ff6724\">游历</span>状态，使此次攻击暴击率增加<span style=\"color:#158bdb\">40%</span>，攻击力提高<span style=\"color:#158bdb\">80%</span>。\n<span style=\"color:#ff6724\">触发此效果后，将跳过自身的下一轮次行动。</span>",
+      "des": "攻击敌方单位时，若该单位当前生命值高于<span style=\"color:#158bdb\">70%</span>，自身获得<span style=\"color:#ff6724\">游历</span>状态，使此次攻击暴击率增加<span style=\"color:#158bdb\">20%</span>，攻击力提高<span style=\"color:#158bdb\">40%</span>。\n<span style=\"color:#ff6724\">触发此效果后，将跳过自身的下一轮次行动。</span>",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "攻击敌方单位时，若该单位当前生命值高于<span style=\"color:#158bdb\">70%</span>，自身获得<span style=\"color:#ff6724\">游历</span>状态，使此次攻击暴击率增加<span style=\"color:#158bdb\">20%</span>，攻击力提高<span style=\"color:#158bdb\">40%</span>。\n<span style=\"color:#ff6724\">触发此效果后，将跳过自身的下一轮次行动。</span>",
+        "2": "攻击敌方单位时，若该单位当前生命值高于<span style=\"color:#158bdb\">60%</span>，自身获得<span style=\"color:#ff6724\">游历</span>状态，使此次攻击暴击率增加<span style=\"color:#158bdb\">30%</span>，攻击力提高<span style=\"color:#158bdb\">60%</span>。\n<span style=\"color:#ff6724\">触发此效果后，将跳过自身的下一轮次行动。</span>",
+        "3": "攻击敌方单位时，若该单位当前生命值高于<span style=\"color:#158bdb\">50%</span>，自身获得<span style=\"color:#ff6724\">游历</span>状态，使此次攻击暴击率增加<span style=\"color:#158bdb\">40%</span>，攻击力提高<span style=\"color:#158bdb\">80%</span>。\n<span style=\"color:#ff6724\">触发此效果后，将跳过自身的下一轮次行动。</span>"
+      },
       "icon": "skillicon_A004603",
       "buff": [
         {
@@ -89,7 +106,12 @@
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "攻击造成暴击时，自身获得<span style=\"color:#ff6724\">有备而行</span>状态，效果持续<span style=\"color:#158bdb\">1</span>回合。",
+        "2": "攻击造成暴击时，自身获得<span style=\"color:#ff6724\">有备而行</span>状态，效果持续<span style=\"color:#158bdb\">1</span>回合。",
+        "3": "攻击造成暴击时，自身获得<span style=\"color:#ff6724\">有备而行</span>状态，效果持续<span style=\"color:#158bdb\">1</span>回合。"
+      },
       "icon": "skillicon_A004604",
       "buff": [
         {
@@ -102,11 +124,16 @@
     },
     {
       "name": "奇观",
-      "des": "击败敌方角色时，自身获得<span style=\"color:#158bdb\">1</span>点能量，处于<span style=\"color:#ff6724\">游历</span>状态时，该次攻击的暴击伤害增加<span style=\"color:#158bdb\">30%</span>。",
+      "des": "击败敌方角色时，自身获得<span style=\"color:#158bdb\">1</span>点能量，处于<span style=\"color:#ff6724\">游历</span>状态时，该次攻击的暴击伤害增加<span style=\"color:#158bdb\">10%</span>。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "击败敌方角色时，自身获得<span style=\"color:#158bdb\">1</span>点能量，处于<span style=\"color:#ff6724\">游历</span>状态时，该次攻击的暴击伤害增加<span style=\"color:#158bdb\">10%</span>。",
+        "2": "击败敌方角色时，自身获得<span style=\"color:#158bdb\">1</span>点能量，处于<span style=\"color:#ff6724\">游历</span>状态时，该次攻击的暴击伤害增加<span style=\"color:#158bdb\">20%</span>。",
+        "3": "击败敌方角色时，自身获得<span style=\"color:#158bdb\">1</span>点能量，处于<span style=\"color:#ff6724\">游历</span>状态时，该次攻击的暴击伤害增加<span style=\"color:#158bdb\">30%</span>。"
+      },
       "icon": "skillicon_A004605",
       "buff": [],
       "type": 6,
@@ -121,6 +148,9 @@
         "冷却:3"
       ],
       "level": 1,
+      "levelDes": {
+        "1": "使用后自身获得<span style=\"color:#158bdb\">1</span>次不可移动的再行动，并进入<span style=\"color:#ff6724\">瞄准</span>状态。"
+      },
       "icon": "skillicon_Jobskill_A",
       "buff": [
         {

@@ -36,12 +36,19 @@
   "skill": [
     {
       "name": "越洋之旅",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
       "tag": [
         "十字3格",
         "无消耗"
       ],
-      "level": 5,
+      "level": 1,
+      "levelDes": {
+        "1": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+        "2": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">105%</span>的物理伤害。",
+        "3": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">110%</span>的物理伤害。",
+        "4": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">115%</span>的物理伤害。",
+        "5": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。"
+      },
       "icon": "skillicon_Commonattack_A",
       "buff": [],
       "type": 1,
@@ -49,12 +56,17 @@
     },
     {
       "name": "百货齐备",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">220%</span>的物理伤害；受击单位每存在<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">畅销</span>状态，则使其获得<span style=\"color:#158bdb\">1</span>回合<span style=\"color:#ff6724\">肃静</span>状态，并清除受击单位的<span style=\"color:#ff6724\">畅销</span>状态。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">150%</span>的物理伤害；受击单位每存在<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">畅销</span>状态，则使其获得<span style=\"color:#158bdb\">1</span>回合<span style=\"color:#ff6724\">肃静</span>状态，并清除受击单位的<span style=\"color:#ff6724\">畅销</span>状态。",
       "tag": [
         "十字3格",
         "消耗:3"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">150%</span>的物理伤害；受击单位每存在<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">畅销</span>状态，则使其获得<span style=\"color:#158bdb\">1</span>回合<span style=\"color:#ff6724\">肃静</span>状态，并清除受击单位的<span style=\"color:#ff6724\">畅销</span>状态。",
+        "2": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">180%</span>的物理伤害；受击单位每存在<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">畅销</span>状态，则使其获得<span style=\"color:#158bdb\">1</span>回合<span style=\"color:#ff6724\">肃静</span>状态，并清除受击单位的<span style=\"color:#ff6724\">畅销</span>状态。",
+        "3": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">220%</span>的物理伤害；受击单位每存在<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">畅销</span>状态，则使其获得<span style=\"color:#158bdb\">1</span>回合<span style=\"color:#ff6724\">肃静</span>状态，并清除受击单位的<span style=\"color:#ff6724\">畅销</span>状态。"
+      },
       "icon": "skillicon_A007002",
       "buff": [
         {
@@ -71,7 +83,12 @@
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "处于<span style=\"color:#ff6724\">瞄准</span>状态进行常击时，使受击单位获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">畅销</span>状态及<span style=\"color:#158bdb\">1</span>回合<span style=\"color:#ff6724\">肃静</span>状态。",
+        "2": "处于<span style=\"color:#ff6724\">瞄准</span>状态进行常击时，使受击单位获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">畅销</span>状态及<span style=\"color:#158bdb\">1</span>回合<span style=\"color:#ff6724\">肃静</span>状态。",
+        "3": "处于<span style=\"color:#ff6724\">瞄准</span>状态进行常击时，使受击单位获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">畅销</span>状态及<span style=\"color:#158bdb\">1</span>回合<span style=\"color:#ff6724\">肃静</span>状态。"
+      },
       "icon": "skillicon_A007003",
       "buff": [
         {
@@ -92,11 +109,16 @@
     },
     {
       "name": "粤地风貌",
-      "des": "战斗中自身攻击不触发暴击。\n回合开始时，自身每拥有<span style=\"color:#158bdb\">1%</span>的暴击率，则造成的伤害提高<span style=\"color:#158bdb\">0.8%</span>，自身暴击伤害超过<span style=\"color:#158bdb\">150%</span>的部分，每超出<span style=\"color:#158bdb\">1%</span>，则瞄准冷却率增加<span style=\"color:#158bdb\">1%</span>，效果持续至自身回合结束。",
+      "des": "战斗中自身攻击不触发暴击。\n回合开始时，自身每拥有<span style=\"color:#158bdb\">1%</span>的暴击率，则造成的伤害提高<span style=\"color:#158bdb\">0.4%</span>，自身暴击伤害超过<span style=\"color:#158bdb\">150%</span>的部分，每超出<span style=\"color:#158bdb\">1%</span>，则瞄准冷却率增加<span style=\"color:#158bdb\">0.5%</span>，效果持续至自身回合结束。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "战斗中自身攻击不触发暴击。\n回合开始时，自身每拥有<span style=\"color:#158bdb\">1%</span>的暴击率，则造成的伤害提高<span style=\"color:#158bdb\">0.4%</span>，自身暴击伤害超过<span style=\"color:#158bdb\">150%</span>的部分，每超出<span style=\"color:#158bdb\">1%</span>，则瞄准冷却率增加<span style=\"color:#158bdb\">0.5%</span>，效果持续至自身回合结束。",
+        "2": "战斗中自身攻击不触发暴击。\n回合开始时，自身每拥有<span style=\"color:#158bdb\">1%</span>的暴击率，则造成的伤害提高<span style=\"color:#158bdb\">0.6%</span>，自身暴击伤害超过<span style=\"color:#158bdb\">150%</span>的部分，每超出<span style=\"color:#158bdb\">1%</span>，则瞄准冷却率增加<span style=\"color:#158bdb\">0.7%</span>，效果持续至自身回合结束。",
+        "3": "战斗中自身攻击不触发暴击。\n回合开始时，自身每拥有<span style=\"color:#158bdb\">1%</span>的暴击率，则造成的伤害提高<span style=\"color:#158bdb\">0.8%</span>，自身暴击伤害超过<span style=\"color:#158bdb\">150%</span>的部分，每超出<span style=\"color:#158bdb\">1%</span>，则瞄准冷却率增加<span style=\"color:#158bdb\">1%</span>，效果持续至自身回合结束。"
+      },
       "icon": "skillicon_A007004",
       "buff": [],
       "type": 5,
@@ -104,11 +126,16 @@
     },
     {
       "name": "贸易机密",
-      "des": "若敌方单体的<span style=\"color:#ff6724\">畅销</span>状态叠加至<span style=\"color:#158bdb\">3</span>层，则该单位每回合开始时有<span style=\"color:#158bdb\">100%</span>的概率失去<span style=\"color:#158bdb\">1</span>点能量，并使外销壁纸额外获得<span style=\"color:#158bdb\">1</span>点能量。",
+      "des": "若敌方单体的<span style=\"color:#ff6724\">畅销</span>状态叠加至<span style=\"color:#158bdb\">3</span>层，则该单位每回合开始时有<span style=\"color:#158bdb\">60%</span>的概率失去<span style=\"color:#158bdb\">1</span>点能量，并使外销壁纸额外获得<span style=\"color:#158bdb\">1</span>点能量。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "若敌方单体的<span style=\"color:#ff6724\">畅销</span>状态叠加至<span style=\"color:#158bdb\">3</span>层，则该单位每回合开始时有<span style=\"color:#158bdb\">60%</span>的概率失去<span style=\"color:#158bdb\">1</span>点能量，并使外销壁纸额外获得<span style=\"color:#158bdb\">1</span>点能量。",
+        "2": "若敌方单体的<span style=\"color:#ff6724\">畅销</span>状态叠加至<span style=\"color:#158bdb\">3</span>层，则该单位每回合开始时有<span style=\"color:#158bdb\">80%</span>的概率失去<span style=\"color:#158bdb\">1</span>点能量，并使外销壁纸额外获得<span style=\"color:#158bdb\">1</span>点能量。",
+        "3": "若敌方单体的<span style=\"color:#ff6724\">畅销</span>状态叠加至<span style=\"color:#158bdb\">3</span>层，则该单位每回合开始时有<span style=\"color:#158bdb\">100%</span>的概率失去<span style=\"color:#158bdb\">1</span>点能量，并使外销壁纸额外获得<span style=\"color:#158bdb\">1</span>点能量。"
+      },
       "icon": "skillicon_A007005",
       "buff": [],
       "type": 6,
@@ -123,6 +150,9 @@
         "冷却:3"
       ],
       "level": 1,
+      "levelDes": {
+        "1": "使用后自身获得<span style=\"color:#158bdb\">1</span>次不可移动的再行动，并进入<span style=\"color:#ff6724\">瞄准</span>状态。"
+      },
       "icon": "skillicon_Jobskill_A",
       "buff": [
         {

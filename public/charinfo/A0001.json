@@ -36,12 +36,19 @@
   "skill": [
     {
       "name": "耘草",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
       "tag": [
         "十字3格",
         "无消耗"
       ],
-      "level": 5,
+      "level": 1,
+      "levelDes": {
+        "1": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的物理伤害。",
+        "2": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">105%</span>的物理伤害。",
+        "3": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">110%</span>的物理伤害。",
+        "4": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">115%</span>的物理伤害。",
+        "5": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的物理伤害。"
+      },
       "icon": "skillicon_Commonattack_A",
       "buff": [],
       "type": 1,
@@ -49,12 +56,17 @@
     },
     {
       "name": "仓禀累实",
-      "des": "使自身进入<span style=\"color:#ff6724\">活力</span>状态，效果持续<span style=\"color:#158bdb\">2</span>回合。之后对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">270%</span>的物理伤害。",
+      "des": "使自身进入<span style=\"color:#ff6724\">活力</span>状态，效果持续<span style=\"color:#158bdb\">2</span>回合。之后对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">210%</span>的物理伤害。",
       "tag": [
         "十字3格",
         "消耗:3"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "使自身进入<span style=\"color:#ff6724\">活力</span>状态，效果持续<span style=\"color:#158bdb\">2</span>回合。之后对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">210%</span>的物理伤害。",
+        "2": "使自身进入<span style=\"color:#ff6724\">活力</span>状态，效果持续<span style=\"color:#158bdb\">2</span>回合。之后对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">240%</span>的物理伤害。",
+        "3": "使自身进入<span style=\"color:#ff6724\">活力</span>状态，效果持续<span style=\"color:#158bdb\">2</span>回合。之后对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">270%</span>的物理伤害。"
+      },
       "icon": "skillicon_A000102",
       "buff": [
         {
@@ -71,7 +83,12 @@
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "当受到治疗的生命值超过自身最大生命值时，自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">春盛</span>状态。此状态最多可叠加<span style=\"color:#158bdb\">3</span>层，进行任意攻击时会消耗全部层数。",
+        "2": "当受到治疗的生命值超过自身最大生命值时，自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">春盛</span>状态。此状态最多可叠加<span style=\"color:#158bdb\">3</span>层，进行任意攻击时会消耗全部层数。",
+        "3": "当受到治疗的生命值超过自身最大生命值时，自身获得<span style=\"color:#158bdb\">1</span>层<span style=\"color:#ff6724\">春盛</span>状态。此状态最多可叠加<span style=\"color:#158bdb\">3</span>层，进行任意攻击时会消耗全部层数。"
+      },
       "icon": "skillicon_A000103",
       "buff": [
         {
@@ -84,11 +101,16 @@
     },
     {
       "name": "生机",
-      "des": "攻击敌方单位时，若自身当前生命值百分比高于该敌方单位，则攻击结束后自身有<span style=\"color:#158bdb\">100%</span>概率获得<span style=\"color:#158bdb\">1</span>点能量。",
+      "des": "攻击敌方单位时，若自身当前生命值百分比高于该敌方单位，则攻击结束后自身有<span style=\"color:#158bdb\">50%</span>概率获得<span style=\"color:#158bdb\">1</span>点能量。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "攻击敌方单位时，若自身当前生命值百分比高于该敌方单位，则攻击结束后自身有<span style=\"color:#158bdb\">50%</span>概率获得<span style=\"color:#158bdb\">1</span>点能量。",
+        "2": "攻击敌方单位时，若自身当前生命值百分比高于该敌方单位，则攻击结束后自身有<span style=\"color:#158bdb\">75%</span>概率获得<span style=\"color:#158bdb\">1</span>点能量。",
+        "3": "攻击敌方单位时，若自身当前生命值百分比高于该敌方单位，则攻击结束后自身有<span style=\"color:#158bdb\">100%</span>概率获得<span style=\"color:#158bdb\">1</span>点能量。"
+      },
       "icon": "skillicon_A000104",
       "buff": [],
       "type": 5,
@@ -96,11 +118,16 @@
     },
     {
       "name": "时和岁稔",
-      "des": "进入战斗后，自身攻击力提高<span style=\"color:#158bdb\">20%</span>，受治疗量提高<span style=\"color:#158bdb\">18%</span>。",
+      "des": "进入战斗后，自身攻击力提高<span style=\"color:#158bdb\">10%</span>，受治疗量提高<span style=\"color:#158bdb\">12%</span>。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "进入战斗后，自身攻击力提高<span style=\"color:#158bdb\">10%</span>，受治疗量提高<span style=\"color:#158bdb\">12%</span>。",
+        "2": "进入战斗后，自身攻击力提高<span style=\"color:#158bdb\">15%</span>，受治疗量提高<span style=\"color:#158bdb\">15%</span>。",
+        "3": "进入战斗后，自身攻击力提高<span style=\"color:#158bdb\">20%</span>，受治疗量提高<span style=\"color:#158bdb\">18%</span>。"
+      },
       "icon": "skillicon_A000105",
       "buff": [],
       "type": 6,
@@ -115,6 +142,9 @@
         "冷却:3"
       ],
       "level": 1,
+      "levelDes": {
+        "1": "使用后自身获得<span style=\"color:#158bdb\">1</span>次不可移动的再行动，并进入<span style=\"color:#ff6724\">瞄准</span>状态。"
+      },
       "icon": "skillicon_Jobskill_A",
       "buff": [
         {

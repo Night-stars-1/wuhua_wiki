@@ -36,12 +36,19 @@
   "skill": [
     {
       "name": "始奏",
-      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的构素伤害。",
+      "des": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
       "tag": [
         "射程2格",
         "无消耗"
       ],
-      "level": 5,
+      "level": 1,
+      "levelDes": {
+        "1": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">100%</span>的构素伤害。",
+        "2": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">105%</span>的构素伤害。",
+        "3": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">110%</span>的构素伤害。",
+        "4": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">115%</span>的构素伤害。",
+        "5": "对选定的敌方单体造成自身攻击力<span style=\"color:#158bdb\">120%</span>的构素伤害。"
+      },
       "icon": "skillicon_Commonattack_W",
       "buff": [],
       "type": 1,
@@ -54,7 +61,12 @@
         "自身",
         "消耗:3"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "为自身及<span style=\"color:#158bdb\">周围2格</span>的友方全体驱散所有负面效果，并使其获得<span style=\"color:#ff6724\">鹤骨悠声</span>状态，效果持续<span style=\"color:#158bdb\">2</span>回合；同时使自身进入<span style=\"color:#ff6724\">七孔回音</span>状态，效果持续<span style=\"color:#158bdb\">2</span>回合。",
+        "2": "为自身及<span style=\"color:#158bdb\">周围2格</span>的友方全体驱散所有负面效果，并使其获得<span style=\"color:#ff6724\">鹤骨悠声</span>状态，效果持续<span style=\"color:#158bdb\">2</span>回合；同时使自身进入<span style=\"color:#ff6724\">七孔回音</span>状态，效果持续<span style=\"color:#158bdb\">2</span>回合。",
+        "3": "为自身及<span style=\"color:#158bdb\">周围2格</span>的友方全体驱散所有负面效果，并使其获得<span style=\"color:#ff6724\">鹤骨悠声</span>状态，效果持续<span style=\"color:#158bdb\">2</span>回合；同时使自身进入<span style=\"color:#ff6724\">七孔回音</span>状态，效果持续<span style=\"color:#158bdb\">2</span>回合。"
+      },
       "icon": "skillicon_W005602",
       "buff": [
         {
@@ -71,23 +83,33 @@
     },
     {
       "name": "打磨",
-      "des": "释放职业技能和绝技后，为自身<span style=\"color:#158bdb\">周围2格</span>内生命值最低的友方单位恢复自身攻击力<span style=\"color:#158bdb\">30%+450</span>的生命值；若该友方单位生命值低于<span style=\"color:#158bdb\">20%</span>，则额外进行一次治疗，为其恢复贾湖骨笛攻击力<span style=\"color:#158bdb\">30%+450</span>的生命值。",
+      "des": "释放职业技能和绝技后，为自身<span style=\"color:#158bdb\">周围2格</span>内生命值最低的友方单位恢复自身攻击力<span style=\"color:#158bdb\">10%+150</span>的生命值；若该友方单位生命值低于<span style=\"color:#158bdb\">20%</span>，则额外进行一次治疗，为其恢复贾湖骨笛攻击力<span style=\"color:#158bdb\">10%+150</span>的生命值。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "释放职业技能和绝技后，为自身<span style=\"color:#158bdb\">周围2格</span>内生命值最低的友方单位恢复自身攻击力<span style=\"color:#158bdb\">10%+150</span>的生命值；若该友方单位生命值低于<span style=\"color:#158bdb\">20%</span>，则额外进行一次治疗，为其恢复贾湖骨笛攻击力<span style=\"color:#158bdb\">10%+150</span>的生命值。",
+        "2": "释放职业技能和绝技后，为自身<span style=\"color:#158bdb\">周围2格</span>内生命值最低的友方单位恢复自身攻击力<span style=\"color:#158bdb\">20%+300</span>的生命值；若该友方单位生命值低于<span style=\"color:#158bdb\">20%</span>，则额外进行一次治疗，为其恢复贾湖骨笛攻击力<span style=\"color:#158bdb\">20%+300</span>的生命值。",
+        "3": "释放职业技能和绝技后，为自身<span style=\"color:#158bdb\">周围2格</span>内生命值最低的友方单位恢复自身攻击力<span style=\"color:#158bdb\">30%+450</span>的生命值；若该友方单位生命值低于<span style=\"color:#158bdb\">20%</span>，则额外进行一次治疗，为其恢复贾湖骨笛攻击力<span style=\"color:#158bdb\">30%+450</span>的生命值。"
+      },
       "icon": "skillicon_W005603",
       "buff": [],
       "type": 4,
-      "special": "释放职业技能和绝技或进行常击后，为自身<span style=\"color:#158bdb\">周围2格</span>内生命值最低的友方单位恢复自身攻击力<span style=\"color:#158bdb\">30%+450</span>的生命值；若该友方单位生命值低于<span style=\"color:#158bdb\">20%</span>，则额外进行一次治疗，为其恢复贾湖骨笛攻击力<span style=\"color:#158bdb\">30%+450</span>的生命值。"
+      "special": "释放职业技能和绝技或进行常击后，为自身<span style=\"color:#158bdb\">周围2格</span>内生命值最低的友方单位恢复自身攻击力<span style=\"color:#158bdb\">10%+150</span>的生命值；若该友方单位生命值低于<span style=\"color:#158bdb\">20%</span>，则额外进行一次治疗，为其恢复贾湖骨笛攻击力<span style=\"color:#158bdb\">10%+150</span>的生命值。"
     },
     {
       "name": "神明祈福",
-      "des": "释放职业技能和绝技时，有<span style=\"color:#158bdb\">100%</span>概率为自身<span style=\"color:#158bdb\">周围2格</span>内随机<span style=\"color:#158bdb\">1</span>名友方单位获得<span style=\"color:#ff6724\">鹤骨悠声</span>，持续<span style=\"color:#158bdb\">2</span>回合。",
+      "des": "释放职业技能和绝技时，有<span style=\"color:#158bdb\">60%</span>概率为自身<span style=\"color:#158bdb\">周围2格</span>内随机<span style=\"color:#158bdb\">1</span>名友方单位获得<span style=\"color:#ff6724\">鹤骨悠声</span>，持续<span style=\"color:#158bdb\">2</span>回合。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "释放职业技能和绝技时，有<span style=\"color:#158bdb\">60%</span>概率为自身<span style=\"color:#158bdb\">周围2格</span>内随机<span style=\"color:#158bdb\">1</span>名友方单位获得<span style=\"color:#ff6724\">鹤骨悠声</span>，持续<span style=\"color:#158bdb\">2</span>回合。",
+        "2": "释放职业技能和绝技时，有<span style=\"color:#158bdb\">80%</span>概率为自身<span style=\"color:#158bdb\">周围2格</span>内随机<span style=\"color:#158bdb\">1</span>名友方单位获得<span style=\"color:#ff6724\">鹤骨悠声</span>，持续<span style=\"color:#158bdb\">2</span>回合。",
+        "3": "释放职业技能和绝技时，有<span style=\"color:#158bdb\">100%</span>概率为自身<span style=\"color:#158bdb\">周围2格</span>内随机<span style=\"color:#158bdb\">1</span>名友方单位获得<span style=\"color:#ff6724\">鹤骨悠声</span>，持续<span style=\"color:#158bdb\">2</span>回合。"
+      },
       "icon": "skillicon_W005604",
       "buff": [
         {
@@ -96,15 +118,20 @@
         }
       ],
       "type": 5,
-      "special": "释放职业技能和绝技时，有<span style=\"color:#158bdb\">100%</span>概率为自身<span style=\"color:#158bdb\">周围2格</span>内随机<span style=\"color:#158bdb\">2</span>名友方单位获得<span style=\"color:#ff6724\">鹤骨悠声</span>，持续<span style=\"color:#158bdb\">2</span>回合。"
+      "special": "释放职业技能和绝技时，有<span style=\"color:#158bdb\">60%</span>概率为自身<span style=\"color:#158bdb\">周围2格</span>内随机<span style=\"color:#158bdb\">2</span>名友方单位获得<span style=\"color:#ff6724\">鹤骨悠声</span>，持续<span style=\"color:#158bdb\">2</span>回合。"
     },
     {
       "name": "鸿运当头",
-      "des": "带有<span style=\"color:#ff6724\">鹤骨悠声</span>的友方单位在受到攻击后，若其生命值低于<span style=\"color:#158bdb\">50%</span>，则会消耗<span style=\"color:#ff6724\">鹤骨悠声</span>，每层效果将恢复贾湖骨笛攻击力<span style=\"color:#158bdb\">25%+600</span>的生命值。",
+      "des": "带有<span style=\"color:#ff6724\">鹤骨悠声</span>的友方单位在受到攻击后，若其生命值低于<span style=\"color:#158bdb\">50%</span>，则会消耗<span style=\"color:#ff6724\">鹤骨悠声</span>，每层效果将恢复贾湖骨笛攻击力<span style=\"color:#158bdb\">15%+200</span>的生命值。",
       "tag": [
         "被动触发"
       ],
-      "level": 3,
+      "level": 1,
+      "levelDes": {
+        "1": "带有<span style=\"color:#ff6724\">鹤骨悠声</span>的友方单位在受到攻击后，若其生命值低于<span style=\"color:#158bdb\">50%</span>，则会消耗<span style=\"color:#ff6724\">鹤骨悠声</span>，每层效果将恢复贾湖骨笛攻击力<span style=\"color:#158bdb\">15%+200</span>的生命值。",
+        "2": "带有<span style=\"color:#ff6724\">鹤骨悠声</span>的友方单位在受到攻击后，若其生命值低于<span style=\"color:#158bdb\">50%</span>，则会消耗<span style=\"color:#ff6724\">鹤骨悠声</span>，每层效果将恢复贾湖骨笛攻击力<span style=\"color:#158bdb\">20%+400</span>的生命值。",
+        "3": "带有<span style=\"color:#ff6724\">鹤骨悠声</span>的友方单位在受到攻击后，若其生命值低于<span style=\"color:#158bdb\">50%</span>，则会消耗<span style=\"color:#ff6724\">鹤骨悠声</span>，每层效果将恢复贾湖骨笛攻击力<span style=\"color:#158bdb\">25%+600</span>的生命值。"
+      },
       "icon": "skillicon_W005605",
       "buff": [],
       "type": 6,
@@ -118,6 +145,9 @@
         "消耗:1"
       ],
       "level": 1,
+      "levelDes": {
+        "1": "为选定的友方单体回复自身攻击力<span style=\"color:#158bdb\">10%+300</span>的生命值，并使其获得<span style=\"color:#ff6724\">鹤骨悠声</span>状态。"
+      },
       "icon": "skillicon_Jobskill_W_H",
       "buff": [],
       "type": 2,
