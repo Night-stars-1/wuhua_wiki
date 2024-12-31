@@ -257,14 +257,18 @@ async function Save(code: string, uid: string) {
 }
 
 function exportCardList() {
-  let jsonStr = localStorage.getItem("cardList") ?? "[]";
-  jsonStr = jsonStr
-    .replace(/name/g, "Name")
-    .replace(/rankType/g, "RankType")
-    .replace(/gachaName/g, "PoolName")
-    .replace(/gachaType/g, "PoolType")
-    .replace(/time/g, "Time");
-  const blob = new Blob([jsonStr], { type: "application/json" });
+  const data: any[] = [];
+  cardList.value.forEach((_data) => {
+    data.push({
+      CardName: _data.name,
+      Rare: _data.rankType,
+      PoolName: _data.gachaName,
+      PoolType: _data.gachaType,
+      Time: Math.floor((new Date(_data.time)).getTime() / 1000),
+    });
+  })
+
+  const blob = new Blob([JSON.stringify(data)], { type: "application/json" });
   const url = URL.createObjectURL(blob);
 
   const link = document.createElement("a");
