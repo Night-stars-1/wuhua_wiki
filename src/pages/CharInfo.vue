@@ -6,6 +6,7 @@
 -->
 <template>
   <Panel class="charinfo-panel">
+    <PromptCard />
     <div class="login-card">
       <LoginCard
         card-style="border-radius: 10px;"

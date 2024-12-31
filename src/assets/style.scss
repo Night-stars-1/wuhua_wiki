@@ -19,6 +19,21 @@ html {
         --el-table-border-color: rgb(170, 166, 166);
       }
 
+      .el-button {
+        &:hover {
+          --el-button-hover-bg-color: rgb(156 156 156 / 50%);
+        }
+        &:active {
+          --el-button-active-bg-color: rgb(156 156 156 / 50%);
+        }
+
+        & {
+          --el-button-bg-color: rgb(156 156 156 / 30%);
+          --el-button-hover-border-color: rgb(156 156 156 / 30%);
+          --el-button-border-color: rgb(170, 166, 166);
+        }
+      }
+
       .el-pagination {
         --el-disabled-bg-color: rgb(214, 185, 185);
         --el-pagination-button-bg-color: rgb(214, 185, 185);

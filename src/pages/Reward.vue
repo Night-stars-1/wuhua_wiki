@@ -2,10 +2,11 @@
  * @Author: Night-stars-1 nujj1042633805@gmail.com
  * @Date: 2024-08-24 20:06:02
  * @LastEditors: Night-stars-1 nujj1042633805@gmail.com
- * @LastEditTime: 2024-08-25 00:05:06
+ * @LastEditTime: 2025-01-01 00:30:20
 -->
 <template>
   <Panel class="reward-panel">
+    <PromptCard />
     <el-row class="reward-content">
       <LoginCard
         ref="login"

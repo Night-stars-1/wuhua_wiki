@@ -1,7 +1,9 @@
 <template>
   <Panel class="drawcard-panel">
+    <PromptCard />
     <el-space class="drawcard-content" fill :size="20">
       <LoginCard @check="Save" />
+      <el-button @click="exportCardList">导出卡池</el-button>
       <DrawCardStatistic :analysis-list="analysisList" />
       <DrawCardTable
         :loading="loading"
@@ -252,6 +254,19 @@ async function Save(code: string, uid: string) {
     page += 1;
     // await new Promise((resolve) => setTimeout(resolve, 100));
   }
+}
+
+function exportCardList() {
+    const jsonStr = localStorage.getItem("cardList") ?? '[]';
+    const blob = new Blob([jsonStr], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = "data.json";
+    link.click();
+
+    URL.revokeObjectURL(url);
 }
 </script>
 

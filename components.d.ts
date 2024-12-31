@@ -57,9 +57,11 @@ declare module 'vue' {
     IMsiFormatListBulletedRounded: typeof import('~icons/material-symbols-light/format-list-bulleted-rounded')['default']
     LoginCard: typeof import('./src/components/card/LoginCard.vue')['default']
     Panel: typeof import('./src/components/Panel.vue')['default']
+    PromptCard: typeof import('./src/components/card/PromptCard.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     StyleProgress: typeof import('./src/components/charinfo/StyleProgress.vue')['default']
+    TipCard: typeof import('./src/components/TipCard.vue')['default']
   }
   export interface ComponentCustomProperties {
     vLoading: typeof import('element-plus/es')['ElLoadingDirective']

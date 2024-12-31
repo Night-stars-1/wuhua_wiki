@@ -19,6 +19,7 @@
     </el-col>
     <el-col :md="12" style="flex: 1" v-if="data?.info && data?.skill">
       <Panel class="char">
+        <PromptCard />
         <CharName
           :name="data.info.name"
           :rareId="data.info.rare"
